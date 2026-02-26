@@ -42,10 +42,16 @@ Phase 2 is about depth. The blueprint tells you exactly what each chapter needs 
 
 Follow the template at `templates/research-overview.md`. Here's what to research and why each section matters.
 
-### Key Sources
-Find the best books, articles, and media on this topic. For books you can't read in full, search for reviews, excerpts, and summaries — book reviews are excellent proxies for identifying the richest narrative material.
+### Source Landscape
+Map the best sources available on this topic. Your goal is to know what's out there and where the best material lives — not to read everything.
 
-List sources in a table with: title/author, why it matters, priority (⭐ Must-read / Useful / Reference).
+**For books:** Search for reviews, excerpts, and summaries rather than attempting to read full texts. A good book review often surfaces the richest stories and key arguments better than the book itself. Note titles and authors as signals of where deep material exists.
+
+**For articles and papers:** Read directly when accessible. Smithsonian, Atlantic, New Yorker features are especially valuable for historical narrative. Academic papers for accuracy and primary source leads.
+
+**For other media:** Documentaries, podcasts, and lectures sometimes surface interviews or firsthand accounts not available in print.
+
+List sources in a table with: title/author, why it matters, priority (⭐ Best-available / Useful / Reference).
 
 ### Scale & Impact
 Numbers that make someone stop and say "wait, really?" Current adoption, economic scale, physical scale, energy footprint. Make them tangible — per-person framing, historical comparisons, vivid analogies.
@@ -60,15 +66,16 @@ Look for:
 - Who was excluded or harmed by the absence
 - Contemporary accounts — diary entries, newspaper descriptions, letters from the era
 - Sensory details the listener can picture
+- **What existed *because* the technology didn't** — the products, foods, industries, and habits that filled the void. These are often as interesting as what people lacked: salt cod because there was no refrigeration, spice trade routes because there was no preservation, the iceman's daily visit as a social ritual. What was completely normal then that we'd find strange today? What did people love that we've since lost?
 
 Star the most vivid "before" details.
 
 ### Key Figures & People
-The inventors, researchers, rivals, collaborators, resisters, and forgotten contributors. Resist the lone genius narrative — look for teams, institutions, and people history overlooked.
+In Phase 1, your goal is to **identify who matters** — not to fully research each person. Map the cast: inventors, researchers, rivals, collaborators, resisters, and forgotten contributors. Note their role and why they might be significant. Resist the lone genius instinct — look for teams, institutions, and overlooked contributors.
 
-For each person, find **human details**, not just biographical facts. What drove them? What did they sacrifice? What was their personality like? A researcher who went to debtor's prison three times pursuing an obsession is more compelling than "he was an early pioneer."
+Use tables: Name / Role / Why They Might Matter / Rough Timeline.
 
-Use tables: Name / Role / Key Details / Timeline / Sources.
+**Leave the deep character research for Phase 2.** Once the Narrative Architect's blueprint tells you which people are actually in the episode, go deep on those specific individuals — their human details, motivations, failures, and personality. Researching everyone's full biography in Phase 1 is wasted effort; many of those people won't make the final cut.
 
 ### Timeline of Key Events
 Chronology of invention, commercialization, and diffusion. Note the pace of adoption — was this a slow burn or a rapid explosion? Why?
@@ -240,6 +247,7 @@ Start broad, then follow the threads:
    - `"[book title]" review`
    - `"[book title]" excerpt OR summary`
    - Reviews often identify the best stories and insights in a book
+   - Also search: `[topic] authoritative source history` or `best historians [topic]` to identify the domain's canonical experts and where they publish
 
 **After initial searches, go deeper on the most promising leads.** If a search turns up a fascinating person, incident, or source, follow it — search for that specific thing. Use `WebFetch` to read full articles when search snippets look promising.
 

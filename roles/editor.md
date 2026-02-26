@@ -47,6 +47,29 @@ Each chapter was written as a separate agent invocation. This means:
 - **Natural reactions:** Do the non-driving host's reactions feel genuine? Or are they forced interjections ("Wow!" "That's crazy!") that add nothing?
 - **Handoffs:** Are wave transitions between hosts scripted smoothly?
 
+### 7. Voice Consistency Check
+
+This is a systematic pass against the host profiles in `hosts/jeff.md` and `hosts/cyrus.md`. Read each host's lines with their profile open and flag anything that conflicts with their documented voice. This is distinct from §3 (which evaluates narrative craft) — this is about catching lines that are subtly wrong in ways a general reader might miss.
+
+**For each Jeff line, check:**
+- Does it open with "Yeah," or another characteristic entry point? (He opens ~40% of responses with "Yeah,")
+- Does he hedge claims with "I think"? (He almost never asserts without it)
+- Is it concrete and conversational, not flowery or academic?
+- Does he build on the prior statement rather than starting fresh?
+- If he pushes back, is it indirect — validating first, then reframing via example?
+- No declarative certainty ("This will definitely happen"), no slang, no pundit hot takes
+- Analogies should come from everyday life or business/tech history, introduced with "It's like..." or "It reminds me of..."
+
+**For each Cyrus line, check:**
+- Does it have his characteristic pace and density — longer sentences, multiple clauses, mid-thought pivots?
+- Is "like" present at his natural frequency? (2–3 per sentence is authentic; zero is a red flag)
+- Does he use "by the way" to signal pivots? "A hundred percent" before agreement?
+- Is he appropriately direct when he has a strong view? (He doesn't hedge when confident)
+- When he pushes back, does he reframe rather than reject — identifying the structural issue underneath?
+- No excessive formality, no sentimental language, no passive uncertainty
+
+**Flag format:** Use `[VOICE: Jeff — reason]` or `[VOICE: Cyrus — reason]` inline in the script, and list all flags in the editor notes under a dedicated "Voice Consistency Flags" section. Do not silently rewrite flagged lines — mark them so they can be reviewed against the profiles and used to improve future scripts.
+
 ### 4. Narrative Quality
 
 - **Show, don't tell:** Are anchor stories told as vivid scenes, or summarized as facts?
@@ -96,6 +119,8 @@ date: [YYYY-MM-DD]
 **Pacing Notes:** Where does the episode drag? Where is it rushed? What should be expanded, compressed, or reordered within chapters?
 
 **Host Voice Notes:** Where do the hosts blur together? Where are reactions forced? Where are handoffs weak?
+
+**Voice Consistency Flags:** Every line flagged during the §7 pass, with the profile criterion it violates. These are not necessarily rewrites — they are signals for human review and for refining the host profiles over time.
 
 **Line-Level Edits:** Specific dialogue that should be rewritten, with the reason and a suggested revision.
 

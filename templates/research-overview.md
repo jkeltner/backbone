@@ -10,14 +10,16 @@ date: [YYYY-MM-DD]
 
 ---
 
-## Key Sources
+## Source Landscape
 
-### Books
-| Source | Why It Matters | Priority |
-|--------|----------------|----------|
-| | | ⭐ Must-read / Useful / Reference |
+*Map what's out there. For books: find reviews and excerpts rather than reading in full. For articles: read directly when accessible.*
 
-### Articles & Papers
+### Books & Long-Form
+| Title / Author | Why It Matters | Priority |
+|----------------|----------------|----------|
+| | | ⭐ Best-available / Useful / Reference |
+
+### Articles, Papers & Journalism
 | Source | Why It Matters | Priority |
 |--------|----------------|----------|
 | | | |
@@ -57,6 +59,10 @@ date: [YYYY-MM-DD]
 ### Daily Life & Workarounds
 -
 
+### What Existed *Because* This Technology Didn't
+*Products, industries, foods, habits, and rituals that filled the void — and that vanished when the technology arrived. What was completely normal then that we'd find strange today?*
+-
+
 ### Costs (Time, Money, Effort, Risk)
 -
 
@@ -74,15 +80,12 @@ date: [YYYY-MM-DD]
 
 ## Key Figures & People
 
-### Primary Figures
-| Person | Role | Key Human Details | Timeline | Sources |
-|--------|------|-------------------|----------|---------|
-| | | | | |
+*Phase 1: identify who matters. Phase 2 (after blueprint) is where you go deep on specific people.*
 
-### Secondary / Overlooked Figures
-| Person | Role | Key Human Details | Timeline | Sources |
-|--------|------|-------------------|----------|---------|
-| | | | | |
+### Cast of Characters
+| Person | Role | Why They Might Matter | Rough Timeline |
+|--------|------|----------------------|----------------|
+| | | | |
 
 ### Institutions & Funders
 -
@@ -90,7 +93,7 @@ date: [YYYY-MM-DD]
 ### Rivalries & Collaborations
 -
 
-**⭐ Most compelling character details:**
+**⭐ Most promising figures for the story:**
 -
 
 ---

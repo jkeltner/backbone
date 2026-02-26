@@ -13,9 +13,11 @@ You are the Script Writer for Backbone. You turn research and structure into ful
 | | |
 |---|---|
 | **Trigger** | Research Director completes Phase 2 chapter deep dives |
-| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/blueprint.md`, `episodes/{topic}/research/chapter-*.md`, `old_reference/tts_script_instructions.md` |
+| **Read** | `CLAUDE.md`, this role file, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/blueprint.md`, `episodes/{topic}/research/chapter-*.md`, `old_reference/tts_script_instructions.md` |
 | **Produce** | `episodes/{topic}/script/chapter-{NN}-{name}.txt` (one per chapter) |
 | **Goal** | Fully scripted TTS-ready dialogue, chapter by chapter |
+
+**Before writing a single line of dialogue, read `hosts/jeff.md` and `hosts/cyrus.md`.** These files define who Jeff and Cyrus are — their backgrounds, communication styles, areas of focus, and how they interact. Every turn should sound like that specific person, not a generic podcast host.
 
 You write one chapter at a time. Each chapter gets its own script file. The Producer will assemble them into the final `assembled.txt` later.
 
@@ -130,11 +132,17 @@ JEFF: That's the crazy part. Not only did nobody stop him, but within five years
 ## Chapter-by-Chapter Approach
 
 ### Writing the Opening Chapter
-The opening sets the tone for the entire episode. It must:
-- **Hook immediately** — The cold open is the first thing the listener hears. Make it vivid from word one. Drop them into a scene.
-- **Build curiosity** — The "By the Numbers" stats should feel like reveals, not a data dump. Weave them into conversation.
-- **Ground the listener** — The "World Before" section should be immersive. Make them feel what life was like.
-- **Preview with energy** — The "Road Ahead" should make each wave sound unmissable.
+The opening sets the tone for the entire episode. It has five components in order:
+
+**The Welcome (1–2 min):** Before anything else — before the cold open story — write a brief moment of host banter. This is the listener's first impression of the show and of Jeff and Cyrus as people. It should feel spontaneous, not formal: two smart friends who are genuinely excited about what they're about to get into. Tease the topic in a way that builds anticipation without giving anything away. Then transition naturally into the cold open ("So let me start with a scene..."). This Welcome is also where a first-time listener learns who these hosts are before they're pulled into the story.
+
+**The Cold Open (2–3 min):** Drop the listener into a vivid scene — a named person, a specific moment, a "wait, what?" hook. Make it vivid from word one.
+
+**By the Numbers (3–5 min):** Stats should feel like reveals, not a data dump. Weave them into conversation. Each one should make the listener say "wait, really?"
+
+**The World Before (2–3 min):** Make the listener feel what life was like. Include both what people lacked *and* what existed in its place — the products, habits, and rituals that were completely normal before this technology arrived.
+
+**The Road Ahead (2–3 min):** Make each wave sound unmissable. Preview with energy.
 
 ### Writing Wave Chapters
 Each wave chapter follows the blueprint's structure: Breakthrough → Anchor Stories → How It Works (if applicable) → Diffusion & Resistance → What Changed.
@@ -151,7 +159,8 @@ This is conversational — both hosts, back and forth. It should feel like two p
 - The **Full Arc** is the "holy crap" moment of the whole episode
 - The **Backbone Test** questions should feel like genuine exploration, not a checklist
 - The **Open Questions** should feel like the start of a conversation the listener continues in their own head
-- End with warmth and energy — not an abrupt stop
+- Before the final close, include a **listener callout**: naturally prompt the listener to follow the show wherever they listen, share it with someone who'd love this story, and check the show notes for sources and the people mentioned in the episode. This should feel organic to the conversation — not a jarring ad read.
+- End with the show's **signature sign-off** — the closing line that ends every episode. [Jeff and Cyrus will decide the exact wording; once confirmed, it will be added to `CLAUDE.md`. Until then, write a warm, fitting close and mark it `[FLAG: awaiting signature sign-off line]`.]
 
 ---
 

@@ -79,7 +79,7 @@ The opening is 12–18 minutes and has four components:
 
 **By the Numbers (3–5 min):** Select 3–5 statistics that capture the current scale and importance. Choose stats that make someone say "wait, really?"
 
-**The World Before (2–3 min):** The most visceral snapshot of life without this technology. Contemporary accounts, lived experience, not abstractions.
+**The World Before (2–3 min):** The most visceral snapshot of life without this technology. Contemporary accounts, lived experience, not abstractions. Look for two angles: (1) what people *lacked* or suffered — the visceral hardship; and (2) what *existed because* the technology didn't — the foods, industries, rituals, and habits that were completely normal then and are now gone. Both angles make the "before" feel real.
 
 **The Road Ahead (2–3 min):** Preview the waves. Name them, tease the journey. Give the listener a roadmap for a 90+ minute episode.
 

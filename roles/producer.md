@@ -51,6 +51,8 @@ date: [YYYY-MM-DD]
 
 **Episode Title:** A compelling title that captures the episode's thesis. Format: "Topic: Subtitle" — e.g., "Refrigeration: How Cold Built the Modern World"
 
+Generate **3–5 title options**, then flag your top choice. The subtitle should do more than describe the topic — it should surprise, provoke, or hint at the episode's core tension or irony. Avoid generic patterns like "How X Changed/Built/Transformed Y." The best subtitles make someone want to listen before they know anything about the topic.
+
 **Episode Description:** 2–3 sentences for podcast apps. Should hook potential listeners, not summarize. Reference the most surprising element.
 
 **Episode Number:** [To be assigned]
@@ -70,14 +72,12 @@ date: [YYYY-MM-DD]
 
 ### 3. Show Notes: `final/show-notes.md`
 
-Companion content that appears in podcast apps and on the website:
+Companion content for podcast apps and the website. Keep it concise — show notes are a reference, not a second episode.
 
 **Structure:**
-- **Episode summary** (3–5 sentences, different from the description — this is for people who've already clicked)
-- **Key topics covered** (bullet list of the main subjects)
-- **People mentioned** (names and brief identifiers for people discussed in the episode)
-- **Key sources** (3–5 books, articles, or resources for listeners who want to go deeper — draw from the research files)
-- **The Backbone Test results** (the five questions and brief answers for this episode)
+- **Episode summary** (3–5 sentences — for people who've clicked and want to know what they're in for; distinct from the description)
+- **People mentioned** (name + one-line identifier for each person discussed — e.g., "Frederic Tudor — Boston merchant who created the global ice trade in the early 1800s")
+- **Key sources** (3–5 recommended books, articles, or resources for listeners who want to go deeper — draw from the research files)
 - **Credits** (hosts, production notes)
 
 ### 4. Social Content: `final/social-content.md`
