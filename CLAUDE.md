@@ -59,10 +59,13 @@ Fact Checker ──────── Verify claims, stats, quotes
 Producer ──────────── Final assembly, episode metadata, companion content
   │
   ▼
-[Post-episode chat: Jeff + Cyrus — ~20 min, three questions]
-  │
-  ▼
-Profile Updater ───── Proposed edits to host profiles from chat transcript
+[Post-episode feedback session: Jeff + Cyrus — free-form conversation]
+  │  saved as episodes/{topic}/feedback.txt
+  ├──────────────────────┐
+  ▼                      ▼
+Profile Updater       Pipeline Reviewer
+(host profile         (pipeline improvement
+ proposals)            proposals)
 ```
 
 **Key mechanics:**
@@ -70,7 +73,7 @@ Profile Updater ───── Proposed edits to host profiles from chat transc
 - The Research Director runs **twice** — broad overview first, then per-chapter deep dives after the Narrative Architect produces the blueprint.
 - The Narrative Architect's blueprint is the **binding creative contract**. All downstream agents build from it.
 - Quality control is built into the pipeline: the Editor checks pacing, accuracy, continuity, and voice consistency against host profiles; the Fact Checker verifies claims.
-- The Profile Updater closes the feedback loop: post-episode chats between Jeff and Cyrus feed back into the host profiles, improving script quality over time. See `roles/profile-updater.md` for the three questions to orient each chat.
+- **Two feedback loops close after each episode.** Jeff and Cyrus record a free-form post-episode conversation (`feedback.txt`). The Profile Updater extracts host voice signal and proposes profile edits. The Pipeline Reviewer extracts process signal and proposes changes to roles and templates. Both run from the same transcript; both propose changes for human review before anything is applied.
 
 ---
 
@@ -148,7 +151,9 @@ backbone_auto/
 │       │   ├── editor-notes.md  ← Editor's review notes
 │       │   ├── fact-check-report.md ← Fact Checker's report
 │       │   └── assembled.txt    ← full episode script
+│       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
 │       ├── profile-update-proposals.md ← Profile Updater's proposed host file edits
+│       ├── pipeline-improvement-proposals.md ← Pipeline Reviewer's proposed process changes
 │       └── final/               ← assembled deliverables
 ├── old_reference/               ← v1 templates (archived, not active)
 └── assets/                      ← cover art, promo images

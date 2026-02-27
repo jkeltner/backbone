@@ -27,8 +27,8 @@ This is the hardest question and the most valuable. It catches cases where the p
 
 | | |
 |---|---|
-| **Trigger** | Jeff and Cyrus complete a post-episode chat and provide the transcript or audio transcription |
-| **Read** | `CLAUDE.md`, this role file, the post-episode chat transcript, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/script/editor-notes.md` (especially Voice Consistency Flags) |
+| **Trigger** | Jeff and Cyrus complete a post-episode feedback session and save the transcript as `episodes/{topic}/feedback.txt` |
+| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/feedback.txt`, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/script/editor-notes.md` (especially Voice Consistency Flags) |
 | **Produce** | `episodes/{topic}/profile-update-proposals.md` |
 | **Goal** | Specific, evidence-backed proposed edits to host profiles, ready for human review and approval |
 
