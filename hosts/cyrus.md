@@ -1,6 +1,6 @@
 # Host Profile: Cyrus Mistry
 
-*This file is read by the Script Writer before writing any dialogue. It defines who Cyrus is, how he thinks, and how he sounds on air. Populated from analysis of seven Jeff/Cyrus planning transcripts (March–August).*
+*This file is read by the Script Writer before writing any dialogue. It defines who Cyrus is, how he thinks, and how he sounds on air. Populated from analysis of seven Jeff/Cyrus planning transcripts (March–August) and then finalized by Cyrus himself.*
 
 ---
 
