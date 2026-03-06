@@ -70,6 +70,10 @@ This is a systematic pass against the host profiles in `hosts/jeff.md` and `host
 - When he pushes back, does he reframe rather than reject — identifying the structural issue underneath?
 - No excessive formality, no sentimental language, no passive uncertainty
 
+**Content guardrail:** Flag any profanity, crude humor, or inappropriate jokes. Both hosts use casual profanity in private conversation, but Jeff has explicitly directed that all scripts remain PG-13. This is a hard rule, not a suggestion.
+
+**Survivorship bias check:** When the script tells a story celebrating persistence or grit (an inventor who kept going, a company that survived against odds), check that the script gives room for the honest counterpoint — that many equally persistent people failed. Jeff will naturally want to flag this. If the script presents persistence as straightforwardly heroic without nuance, flag it.
+
 **Flag format:** Use `[VOICE: Jeff — reason]` or `[VOICE: Cyrus — reason]` inline in the script, and list all flags in the editor notes under a dedicated "Voice Consistency Flags" section. Do not silently rewrite flagged lines — mark them so they can be reviewed against the profiles and used to improve future scripts.
 
 ### 4. Narrative Quality

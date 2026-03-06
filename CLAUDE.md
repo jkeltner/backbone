@@ -29,6 +29,8 @@ Each file in `roles/` is a prompt — a complete briefing for a Claude Code Task
 - Saving all consequences for the end (each wave has its own "what changed")
 - Using today's values to judge past decisions
 - Worshipping founders (teams, institutions, timing, and luck matter too)
+- **Inappropriate language or jokes** — both hosts use casual profanity in private conversation, but Jeff has explicitly stated scripts must be clean. Keep all scripts PG-13 at most. No crude humor, no profanity.
+- **Unchecked survivorship bias** — when telling stories of persistence paying off, leave room for the honest observation that many equally persistent people failed. Jeff will naturally flag this; scripts should give him space to.
 
 ---
 

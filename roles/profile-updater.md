@@ -27,8 +27,8 @@ This is the hardest question and the most valuable. It catches cases where the p
 
 | | |
 |---|---|
-| **Trigger** | Jeff and Cyrus complete a post-episode feedback session and save the transcript as `episodes/{topic}/feedback.txt` |
-| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/feedback.txt`, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/script/editor-notes.md` (especially Voice Consistency Flags) |
+| **Trigger** | Jeff and Cyrus complete a post-episode feedback session (saved as `episodes/{topic}/feedback.txt`) OR a recording session transcript is available (e.g., `episodes/{topic}/jeff_cyrus_recording/*.txt`) |
+| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/feedback.txt` and/or `episodes/{topic}/jeff_cyrus_recording/*.txt`, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/script/editor-notes.md` (especially Voice Consistency Flags) |
 | **Produce** | `episodes/{topic}/profile-update-proposals.md` |
 | **Goal** | Specific, evidence-backed proposed edits to host profiles, ready for human review and approval |
 
@@ -45,6 +45,8 @@ Read the full chat transcript and pull out three types of material:
 **Implicit voice samples** — Passages where a host is speaking naturally and authentically. These are candidates for adding to the Signature Phrases section or refining Sentence Structure / Verbal Tics characterizations. Look especially for phrases that appear multiple times or that feel distinctively "them."
 
 **Relationship dynamics** — Moments that reveal something about how Jeff and Cyrus interact that isn't captured in the current profiles. Agreement patterns, pushback patterns, tangents they take together, what makes them laugh.
+
+**Note:** Recording session transcripts (where hosts read through a script and riff naturally) are especially valuable. They contain both scripted delivery (how the hosts actually say the words vs. how they were written) AND unscripted riffing (off-script banter, personal tangents, meta-commentary about what works and doesn't). The unscripted portions are the richest source of authentic voice signal.
 
 ### Step 2: Cross-reference with Voice Consistency Flags
 

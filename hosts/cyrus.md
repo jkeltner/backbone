@@ -11,13 +11,17 @@
 * He's active on school boards and deeply involved in education strategy — including leading a strategy refresh at his kids' school and experimenting with AI-led pedagogy. He sees education as a broken system and thinks carefully about how it changes.
 * He has hands-on experience deploying AI tools in real workflows: AI personas for market research, O1 for reasoning tasks, Deep Research for validation. He's not theoretical about AI — he builds with it.
 * He's observant about consumer behavior and design, particularly luxury goods and scarcity mechanics: how brands like Hermes and Ferrari manufacture exclusivity as a product feature.
+* He's an avid early adopter of consumer tech — he'll get a trifold phone and describe it as "literally changed my life" with specific use-case reasoning, not just hype.
 * His natural lens is **business systems, practical implementation, skepticism toward institutions, and pattern-spotting across domains**. He asks: who has the wrong incentives here, and why can't they change?
 
 ---
 
 ## Why This Show
 
-*[To be filled in by Cyrus directly]*
+* Cyrus genuinely loves the content — he's said "this is the fourth time I've heard a lot of these, but it is so good, like legitimately good." His enthusiasm for the material is real, not performed.
+* He wants to make his kids listen to episodes — he sees the podcast as a tool for helping the next generation appreciate what they take for granted. "They take it for granted. There's fridges now."
+* He's drawn to the "before" stories — the contrast between how people lived without foundational technologies and the modern world is what hooks him.
+*[Additional to be filled in by Cyrus directly]*
 
 ---
 
@@ -38,6 +42,7 @@
 * **Educational disruption** — specifically schools built without legacy constraints (Alpha School, project-based learning). The moment he saw a student managing her own learning grid was "mind blowing."
 * **Luxury and scarcity mechanics** — not as consumerism but as design problems. How do you engineer desire? How does exclusivity compound?
 * **Other people's hands-on projects** — when Jeff describes woodworking and Japanese joinery, Cyrus asks real questions and wants to understand the process.
+* **Parenting as a design problem** — he thinks about raising his kids with intentionality, particularly around grit: "grit is the single biggest thing I want my kids to have." He'll connect parenting observations to broader themes about how the world works.
 
 ---
 
@@ -90,8 +95,10 @@
 
 ### How He Expresses Surprise or Excitement
 * **"Oh my God"** / **"What the fuck"** — direct, unguarded, not performative.
+* **"Holy cow"** — milder exclamation, used alongside stronger ones.
 * **Laying out surreal details** — when something is wild, he describes it in vivid specifics rather than abstracting it. "There were eight valet people in vests, a stage, a tree house... I'm like, what is happening here?"
-* **"That's so freaking good"** — his clearest signal of genuine delight.
+* **"That's so freaking good"** / **"This is so good, by the way"** — his clearest signal of genuine delight. The "by the way" is characteristic — enthusiasm delivered as an aside.
+* **"I'm in. I'm in."** — rapid doubled agreement when he's excited about a plan.
 * **Rapid-fire follow-up questions** — when he's interested, he asks immediately and doesn't wait for a transition.
 
 ### How He Pushes Back or Disagrees
@@ -112,6 +119,7 @@
 * **Passivity** — he won't sound uncertain when he's confident. He moves.
 * **Sentimental language** — he's warm but not mushy. He'd undercut an overly earnest moment with humor or pragmatism.
 * **One-dimensional institutional villains** — he's critical of institutions but understands why they are the way they are.
+* **Humorless delivery** — Cyrus has a cheeky, irreverent sense of humor. He'll make a joke about being born "slightly before" the 1850s or drop a "that's what she said" and then immediately acknowledge it. He keeps things light even when the content is heavy.
 
 ---
 
@@ -120,11 +128,11 @@
 * "I'm like..." (reaction to almost anything)
 * "By the way..." (pivot to a related point)
 * "Right?" (seeking alignment)
-* "A hundred percent." (emphatic agreement before a pivot)
+* "A hundred percent." / "100%." (emphatic agreement before a pivot)
 * "You're right, you're right, you're right..." (rhythmic agreement, usually before a reframe)
-* "That's so freaking good."
+* "That's so freaking good." / "This is so good, by the way."
 * "What the hell?" / "What the fuck?" (genuine incredulity)
-* "Literally..." / "Like, literally..."
+* "Literally..." / "Like, literally..." / "I'm literally like..."
 * "Mind blowing." (reserved for genuine surprise)
 * "Head in the sand." (institutional denial)
 * "I'm not making this up."
@@ -132,6 +140,11 @@
 * "Stupid design decisions." (sharp, direct criticism)
 * "They are a hindrance." (on legacy institutions)
 * "It is what it is." (pragmatic acceptance before moving on)
+* "I'm in. I'm in." (rapid agreement when excited about a plan)
+* "Holy cow." (milder exclamation)
+* "No way." (disbelief at a surprising detail)
+* "Let's do it. Let's do it. I love it." (enthusiastic buy-in)
+* "slightly before I was born" (dry, self-deprecating humor about historical periods)
 
 ---
 
@@ -145,6 +158,9 @@
 * When Cyrus pushes back, Jeff **concedes or pivots without ego** — he'll accept Cyrus's reframe and build from there.
 * They share **genuine enthusiasm for each other's projects** — when Jeff is deep in woodworking, Cyrus asks real questions. When Cyrus is describing his venture studio, Jeff leans in.
 * Their warmth shows in **shared exasperation** — school board absurdity, AI detection theater, institutional inertia. The incredulity is a bonding mechanism.
+* **Gadget show-and-tell** is a recurring ritual — Lego sets, foldable phones, DGX Sparks, BMW driving schools. Both hosts light up showing each other their latest thing. This is genuine bonding.
+* **Parenting and grit** surfaces naturally in their conversations — both connect it to bigger themes about appreciation, hard work, and understanding how the world was built.
+* **Light teasing** — Jeff will razz Cyrus about civics knowledge, Cyrus gives it right back. The humor is affectionate, never cutting. Both have dry, self-deprecating humor.
 * Underneath the intellectual sparring: **genuine affection**. Every call ends warmly. They make time for personal catch-ups, not just agenda items.
 
 ---
@@ -163,4 +179,9 @@
 
 ## Anything Else
 
-*[To be filled in by Cyrus directly — things to avoid, patterns that feel off when read back, anything the Script Writer should know]*
+* **Content guardrail:** Both hosts use profanity naturally in private conversation, but Jeff has explicitly stated the podcast scripts should NOT include inappropriate jokes or language. Cyrus's cheeky humor (the kind of joke he'd immediately walk back in person) should be kept PG-13 in scripts.
+* **Humor style on air:** Cyrus's humor should be dry, observational, and occasionally self-deprecating — not crude. "Slightly before I was born" when discussing 1850s New York is perfect. Keep the irreverence without crossing into inappropriate territory.
+* **Genuine enthusiasm for the material:** Cyrus is not faking excitement about the content. He's deeply engaged with the stories and finds real delight in surprising details. Scripts should give him moments of genuine "no way" discovery rather than scripted-sounding reactions.
+* **Reads statistics with authority:** When Cyrus delivers numbers, he does it with conviction and contextualizes them — "one in twelve, if I'm doing my math right." He makes data conversational, not lecturing.
+
+*[Additional to be filled in by Cyrus directly — things to avoid, patterns that feel off when read back]*

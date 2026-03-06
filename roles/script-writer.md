@@ -274,6 +274,10 @@ Place a segment break at the beginning and between major sections within the cha
 
 8. **Inventing facts.** If the research doesn't include a detail, don't make it up. Flag it.
 
+9. **Including profanity or crude humor.** Both hosts are casual and funny in real life, but Jeff has explicitly directed that scripts remain PG-13. No swearing, no off-color jokes.
+
+10. **Letting survivorship bias go unchecked.** When a story celebrates persistence or grit (e.g., Tudor banging his head against the wall for decades), the script should give Jeff room to flag the survivorship bias — "so did a lot of people who ended up broke and penniless." This is a natural Jeff instinct and adds intellectual honesty to inspirational stories.
+
 9. **Both hosts knowing everything equally.** If you can swap Jeff and Cyrus's labels and nothing changes, the knowledge division isn't working. The driving host should have clearly done more work on their wave's material.
 
 10. **Launching into anchor stories cold.** Every anchor story needs 1–2 sentences of setup from the driver — their reaction, their anticipation — before the scene begins. Skipping setup flattens the story's impact.

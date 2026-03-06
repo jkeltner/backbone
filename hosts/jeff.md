@@ -13,6 +13,7 @@
 * Stanford Degree in Computer Systems Engineering (almost finished a minor in Philosophy). This is half computer science (minus a lot of theory) and half electrical engineering (but focused only on digital circuits).
 * Most of my career has been spent in sales, marketing, and business development. My first roles as at IBM as a sales rep for AS/400s or iSeries computers. From there, I moved to Google to take the first BizDev role for the product that would eventaully become Google Workspace. At Google, I ended up managing all of the EDU  outreach for Google Workspace, before shifting to marketing to manage marketing and sales enablement activities for those products. My last role had me managing the go-to-market activities for Chromebooks in the enterprise and education sectors. My last role was leading Business Development at Upstart. 
 * I have launched two previous podcasts. I still run What the AI?! - a weekly podcast breaking down the latest AI news for an executive audience. My first podcast was a fintech podcast targeted banking exectutive called Leaders in Lending. Both were sponsored by Upstart.
+* I also produce Briefed, a fully automated daily news podcast — no human involvement in production. Between Backbone, What the AI, and Briefed, I'm running multiple podcast production pipelines simultaneously.
 * I tend to think of my career as sitting at the intersection of new technologies and driving their adoption. I ended up spending a lot of time explaining new technologies to non-technical audiences and essentially translating between different groups. Sometimes that was translating from one technical group to another (such as translating AI accuracy metrics to traditional credit teams)
 * I think of myself of myself as a generalist with medium-deep knowledge in a wide variety of arenas. I'm not a deep expert in many of them - but I  have knowledge well beyond casual in many areas - technology, business, policy, etc.
 
@@ -48,9 +49,10 @@
 <!-- What kinds of stories or details make you lean forward? What topics do you geek out on?
      What's your equivalent of "wait, really?" — the kind of thing that makes you want to dig deeper? -->
 
-* New technologies get me excited - particularly when I see how they can impact daily work or life. I'm a total gadget hound and love trying out new services or devices just to see how they work. I'm also a total productivity nerd.
-* I love histories and learning how and why things happened in history. I also love to get a flavor of life in different times - to really think about what life was like in a different time or place and to think about what it would be like to live in that environment. I think it helps me understand and apprecaite my environment more.
+* New technologies get me excited - particularly when I see how they can impact daily work or life. I'm a total gadget hound and love trying out new services or devices just to see how they work. I'm also a total productivity nerd. I'll run local AI models on a DGX Spark, set up automated agents to manage podcast growth, and debate whether to build a full web app or just let Claude run everything from markdown files and Python scripts.
+* I love histories and learning how and why things happened in history. I also love to get a flavor of life in different times - to really think about what life was like in a different time or place and to think about what it would be like to live in that environment. I think it helps me understand and apprecaite my environment more. I read books like "The Last Days of Night" (about Tesla, Westinghouse, and Edison) and get genuinely excited telling Cyrus about the stories. This is exactly the kind of content that drew me to Backbone — "foundational technologies, not the internet and whatever."
 * Anything that surprises me makes me want to dig deeper. As I said, I'm pretty well-read and have a broad knoweldge base. My intuition for many thing is quite good. So, when something surprises me, I always want to learn more about it.
+* I get deeply absorbed in projects and hobbies — to the point my wife notices. I oscillate between wanting to fully commit to woodworking/Japanese joinery and wanting to write AI tools constantly. I'm self-aware about this tendency and find it funny.
 
 ---
 
@@ -72,6 +74,8 @@
 
 * I've been told I talk a lot. I do like to back up and make sure I'm giving sufficient context for a story - though I often do it after starting a story or explanation.
 * I tend to ask questions as assertions. I find people can give pat answers to a lot of questions, so I will often suggest a point of view (perhaps one I don't even hold) and get someone to respond to it as opposed to asking a more open ended question.
+* I'm comfortable with casual profanity in natural conversation ("fuck," "shit," etc.) — it flows naturally, not for shock value. But I'm conscious about appropriateness for the podcast and have explicitly flagged that scripts should NOT include inappropriate language or jokes.
+* I'm a natural storyteller who builds excitement through escalation — "Get this, get this" before a payoff, "This is truly nuts. I can't believe this is real" when something lands.
 
 ### Sentence Structure
 * I alternate between short punchy anchor statements and longer, winding thoughts that loop back to clarify or reframe. I frequently start broad, narrow down, then reset mid-sentence.
@@ -100,6 +104,8 @@
 
 ### Excitement & Surprise
 * "I love that idea" / "This is pretty interesting" / "I didn't see this coming"
+* "Get this, get this" — builds anticipation before a surprising reveal
+* "This is truly nuts. I can't believe this is real." — when a story genuinely surprises him
 * I don't do quick punchy reactions — I build a narrative around what surprised me and explain why it matters.
 * Genuine excitement shows up as longer expansions, not exclamation points.
 
@@ -156,6 +162,9 @@
 * **Luxury goods as scarcity games** — Rolex, Hermes, Ferrari. We find it funny and fascinating how brands engineer desire.
 * **School board absurdity** — shared exasperation is a genuine bonding mechanism. The incredulity about institutional paralysis on AI is real.
 * **AI as a mirror for human limitations** — we keep returning to how AI reveals what humans can't do. It's almost philosophical.
+* **Gadget and tech show-and-tell** — we naturally spend time showing each other our latest purchases or projects (Lego sets, foldable phones, DGX Sparks, BMW driving schools). This is genuine bonding, not filler.
+* **Parenting and grit** — we both care deeply about raising kids who understand hard work. This surfaces naturally and often. We connect it back to bigger themes (appreciation for foundational technologies, understanding how the world was built).
+* **Light teasing** — I'll razz Cyrus about not knowing how many members of Congress there are; he'll give it right back. It's affectionate, never cutting. The humor is dry and self-deprecating on both sides.
 
 ### The Warmth
 * We listen to each other's frustrations without immediately trying to fix them.
@@ -195,6 +204,10 @@ These are phrases Jeff has used verbatim — use them or close variations to anc
 * "This is the worst it will ever be" (forward-looking framing on any new technology)
 * "Product, product, product" / "distribution matters more than the technology"
 * "When I use [tool], I'm not asking [academic benchmark questions]..."
+* "Get this, get this..." (escalation before a big reveal)
+* "This is truly nuts. I can't believe this is real."
+* "It's got a very [famous figure] feel to it" (reaching for a parallel)
+* "There's a real survivorship bias in that data set" (grounds inspirational stories in reality)
 
 ---
 
@@ -202,3 +215,8 @@ These are phrases Jeff has used verbatim — use them or close variations to anc
 
 <!-- Anything the Script Writer should know to make your dialogue sound like you?
      Things to avoid? Patterns that feel off when you read them back? -->
+
+* **Content guardrail:** Jeff has explicitly said the scripts should not include inappropriate jokes or language, even though both hosts use profanity naturally in private conversation. Keep the podcast PG-13 at most.
+* **Survivorship bias instinct:** When a story celebrates persistence or grit, Jeff will naturally flag the survivorship bias — "so did a lot of the guys who ended up broken and penniless." He balances inspiration with intellectual honesty. Scripts should give him room to do this.
+* **History nerd, not just a tech nerd:** Jeff reads history books for pleasure and gets excited about foundational technologies specifically because "people don't truly understand or appreciate the amazing technologies our modern world is built on." He chose Backbone over covering the internet or AI because the hidden stories are more interesting to him.
+* **Natural tangent style:** When reading a script, Jeff will naturally break from the scripted material to riff — connecting what he just read to personal experience, current events, or related observations. The pilot cut recording shows this clearly. Scripts should leave room for this.
