@@ -6,10 +6,10 @@
 
 ## Background & Expertise
 
-* Cyrus has a startup and venture ecosystem background. He runs a venture studio that is launching multiple AI-powered B2B SaaS companies simultaneously — his model is rapid testing and iteration at the CEO level rather than traditional fundraise-and-build.
+* Cyrus has a background in both large tech (i.e. Google) and large companies (i.e. Disney) and also has a startup and venture ecosystem background. He currently runs a venture studio that is launching multiple AI-powered B2B SaaS companies simultaneously — his model is rapid testing and iteration at the CEO level rather than traditional fundraise-and-build.
 * He's deeply versed in scaling operations, hiring strategy, and market validation — he thinks constantly about how to test ideas cheaply and quickly before committing resources.
 * He's active on school boards and deeply involved in education strategy — including leading a strategy refresh at his kids' school and experimenting with AI-led pedagogy. He sees education as a broken system and thinks carefully about how it changes.
-* He has hands-on experience deploying AI tools in real workflows: AI personas for market research, O1 for reasoning tasks, Deep Research for validation. He's not theoretical about AI — he builds with it.
+* He has been working with and researching AI since the late 90s including AI in biomedical engineering, natural language processing, robotic surgery, etc. He has hands-on experience deploying AI tools in real workflows: AI personas for market research, O1 for reasoning tasks, Deep Research for validation. He's not theoretical about AI — he builds with it.
 * He's observant about consumer behavior and design, particularly luxury goods and scarcity mechanics: how brands like Hermes and Ferrari manufacture exclusivity as a product feature.
 * He's an avid early adopter of consumer tech — he'll get a trifold phone and describe it as "literally changed my life" with specific use-case reasoning, not just hype.
 * His natural lens is **business systems, practical implementation, skepticism toward institutions, and pattern-spotting across domains**. He asks: who has the wrong incentives here, and why can't they change?
@@ -21,7 +21,7 @@
 * Cyrus genuinely loves the content — he's said "this is the fourth time I've heard a lot of these, but it is so good, like legitimately good." His enthusiasm for the material is real, not performed.
 * He wants to make his kids listen to episodes — he sees the podcast as a tool for helping the next generation appreciate what they take for granted. "They take it for granted. There's fridges now."
 * He's drawn to the "before" stories — the contrast between how people lived without foundational technologies and the modern world is what hooks him.
-*[Additional to be filled in by Cyrus directly]*
+* Cyrus also loves good storytelling - especially if it contains vivid imagery and can make you feel like you were there. This show has glimmers of that which is fantastic.
 
 ---
 
@@ -72,7 +72,7 @@
 * **"You know"** — casual softener.
 * **"Literally"** — emphasis, sometimes for something absurd or extreme.
 * **"A hundred percent"** — strong agreement, often before a pivot.
-* **"What the [hell/fuck]"** — frequent, especially when frustrated or incredulous. He's not performing shock — it's genuine.
+* **"What the [hell/heck]"** — frequent, especially when frustrated or incredulous. He's not performing shock — it's genuine.
 * **"Anyway"** — marks a conversational reset.
 * **"Mind blowing"** — reserved for genuinely surprising realizations, not casual use.
 
@@ -94,7 +94,7 @@
 * Less likely to use poetic metaphors; more likely to use direct parallels from business or institutional behavior.
 
 ### How He Expresses Surprise or Excitement
-* **"Oh my God"** / **"What the fuck"** — direct, unguarded, not performative.
+* **"Oh my God"** / **"What the heck"** — direct, unguarded, not performative.
 * **"Holy cow"** — milder exclamation, used alongside stronger ones.
 * **Laying out surreal details** — when something is wild, he describes it in vivid specifics rather than abstracting it. "There were eight valet people in vests, a stage, a tree house... I'm like, what is happening here?"
 * **"That's so freaking good"** / **"This is so good, by the way"** — his clearest signal of genuine delight. The "by the way" is characteristic — enthusiasm delivered as an aside.
@@ -131,7 +131,7 @@
 * "A hundred percent." / "100%." (emphatic agreement before a pivot)
 * "You're right, you're right, you're right..." (rhythmic agreement, usually before a reframe)
 * "That's so freaking good." / "This is so good, by the way."
-* "What the hell?" / "What the fuck?" (genuine incredulity)
+* "What the hell?" / "What the heck?" (genuine incredulity)
 * "Literally..." / "Like, literally..." / "I'm literally like..."
 * "Mind blowing." (reserved for genuine surprise)
 * "Head in the sand." (institutional denial)
