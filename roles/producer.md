@@ -36,6 +36,15 @@ Concatenate all chapter script files into a single episode file. This is the pro
   - Leftover `[FLAG: ...]` markers that weren't resolved
   - Formatting violations (markdown, unspelled numbers, missing speaker labels)
 
+**Music cue validation** — `assembled.txt` is the direct input to the automated TTS pipeline (`pipeline/tts-pipeline.md`). Before finalizing, verify:
+- `[MUSIC: theme-in]` is present after the cold open (before "By the Numbers")
+- `[MUSIC: transition-bumper]` appears at every wave boundary
+- `[MUSIC: theme-out]` appears after the final sign-off line
+- All music cue markers are on their own line, surrounded by blank lines
+- No music cue markers are missing or duplicated
+
+If any cue is missing, add it in the correct position rather than flagging for manual resolution — placement is deterministic.
+
 ### 2. Episode Metadata: `final/metadata.md`
 
 ```

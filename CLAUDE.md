@@ -157,7 +157,10 @@ backbone_auto/
 │       ├── profile-update-proposals.md ← Profile Updater's proposed host file edits
 │       └── final/               ← assembled deliverables
 ├── old_reference/               ← v1 templates (archived, not active)
-└── assets/                      ← cover art, promo images
+├── assets/                      ← cover art, promo images, theme music samples
+│   └── music/                   ← theme music mp3s + direction notes (music.md)
+└── pipeline/                    ← technical specs for automated tooling
+    └── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
 ```
 
 ### File Naming
@@ -214,11 +217,12 @@ Each role file in `roles/` is a **complete task briefing** — an agent reads it
 
 ### Script
 - The primary deliverable is `script.txt` — fully scripted TTS-ready dialogue for ElevenLabs v3
-- Full specification: `old_reference/tts_script_instructions.md`
 - Speaker labels (`JEFF:` / `CYRUS:`), segment breaks at wave boundaries, audio tags used sparingly
-- No markdown, no editorial notes — only speakable content
+- Music cue markers (`[MUSIC: theme-in]`, `[MUSIC: transition-bumper]`, `[MUSIC: theme-out]`) placed at the correct positions — consumed by the TTS pipeline, not spoken
+- No markdown, no editorial notes — only speakable content (plus structural markers)
 - Numbers and abbreviations spelled out ("fourteen billion" not "$14B")
 - Alternates between stretches of exposition and conversational banter
+- Full TTS pipeline spec (chunking, ElevenLabs API, audio assembly): `pipeline/tts-pipeline.md`
 
 ### AI Limitations
 - Knowledge has a cutoff date — verify recent information with web searches

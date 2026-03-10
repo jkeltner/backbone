@@ -54,6 +54,37 @@ JEFF: Next section begins here.
 
 Tags are seasoning, not the main ingredient. A well-placed `[laughs]` or `[pause]` every few minutes adds life. Overusing them makes the output mechanical.
 
+### Music Cue Markers
+
+Music cue markers tell the automated TTS pipeline where to insert music during audio assembly. They are **not spoken** — they are stripped before TTS generation and replaced with audio files at assembly time.
+
+Place on their own line, surrounded by blank lines:
+
+```
+[MUSIC: theme-in]
+```
+
+**Three cue types:**
+
+| Marker | Placement |
+|--------|-----------|
+| `[MUSIC: theme-in]` | After the cold open's last line, before the next speaker turn (Welcome → Cold Open → **music** → By the Numbers) |
+| `[MUSIC: transition-bumper]` | At each wave boundary — after the outgoing chapter's closing line, before the incoming chapter's opening line |
+| `[MUSIC: theme-out]` | After the episode's final sign-off line |
+
+Example placement at a wave transition:
+```
+JEFF: ...and that's what changed everything about how food moved around the world.
+
+[MUSIC: transition-bumper]
+
+--- SEGMENT BREAK: Wave 2 - The Mechanical Age ---
+
+CYRUS: So here's where my part of this story starts...
+```
+
+These markers will be present in `assembled.txt` and consumed by the TTS pipeline (`pipeline/tts-pipeline.md`).
+
 ### Punctuation as Performance
 - **Ellipses (`...`)** create natural pauses: "And then... nothing."
 - **ALL CAPS** signals emphasis: "That's not just big. That's ENORMOUS."
