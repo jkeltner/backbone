@@ -155,12 +155,16 @@ backbone_auto/
 │       │   └── assembled.txt    ← full episode script
 │       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
 │       ├── profile-update-proposals.md ← Profile Updater's proposed host file edits
+│       ├── assets/              ← per-episode generated assets
+│       │   └── audio/           ← TTS audio segments + manifest.json
 │       └── final/               ← assembled deliverables
 ├── old_reference/               ← v1 templates (archived, not active)
 ├── assets/                      ← cover art, promo images, theme music samples
 │   └── music/                   ← theme music mp3s + direction notes (music.md)
-└── pipeline/                    ← technical specs for automated tooling
-    └── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
+├── pipeline/                    ← technical specs for automated tooling
+│   └── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
+└── tools/                       ← runnable scripts (Python)
+    └── tts_generate.py          ← generate per-turn audio segments via ElevenLabs
 ```
 
 ### File Naming

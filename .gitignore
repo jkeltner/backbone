@@ -4,3 +4,19 @@
 ._*
 .Spotlight-V100
 .Trashes
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated audio (large binary files)
+episodes/*/assets/audio/*.mp3
+episodes/*/assets/audio/*.wav
+episodes/*/assets/audio/per-turn/
+episodes/*/final/episode.mp3
