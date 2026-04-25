@@ -186,9 +186,10 @@ backbone/
 - Chapters numbered with zero-padded prefix: `chapter-01-the-ice-trade.md`
 
 ### Episode Iteration Policy
-- **One canonical directory per topic** (`episodes/{topic}/`). No `_v1`, `_v2` archive directories — git is the version history.
+- **One canonical directory per topic** (`episodes/{topic}/`). No archive directories — git is the version history.
 - Iterate in place. Feedback lives in `episodes/{topic}/feedback.txt` and downstream review artifacts (`editor-notes.md`, `fact-check-report.md`, `profile-update-proposals.md`).
-- The refrigeration episode is an explicit beta exception: `episodes/refrigeration_v1/` is preserved for reference while we use refrigeration to debug the pipeline. Once we're past beta, this pattern goes away.
+- Generalizable lessons from each run get distilled into `pipeline/learnings.md`; the source feedback file is then deleted.
+- `episodes/refrigeration_beta/` is the active beta — kept under `_beta` until ep 1 ships so we can iterate audio combinations against a stable script + asset set. Once ep 1 is live, it becomes `episodes/refrigeration/`.
 
 ### Front Matter
 All deliverables include front matter for status tracking:

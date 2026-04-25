@@ -38,7 +38,7 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 
 **Master orchestrator:** `tools/release.py` — tracks step completion in `release-status.json`
 
-**Refrigeration episode artifacts already present** in `episodes/refrigeration/final/`: `episode.mp3` (v2 audio, beta), `assembly-map.json`, `chapters.json`, `transcript.html`, `transcript.srt`, `metadata.md`, `social-content.md`, `show-notes.md`. **All to be regenerated on v3 before publish.**
+**Refrigeration episode artifacts already present** in `episodes/refrigeration_beta/final/`: `episode.mp3` (v2 audio, beta), `assembly-map.json`, `chapters.json`, `transcript.html`, `transcript.srt`, `metadata.md`, `social-content.md`, `show-notes.md`. **All to be regenerated on v3 before publish.** The `_beta` suffix flips off and the directory becomes `episodes/refrigeration/` once ep 1 ships.
 
 ---
 
@@ -76,7 +76,7 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 11. **Pipeline re-run** (deferred — happens after v3 PVC lands)
     - Regenerate audio on v3 with updated audio-tag vocabulary
     - Re-run audio assembly, transcript, chapters
-12. **Run `python tools/release.py distribute refrigeration --dry-run`**
+12. **Run `python tools/release.py distribute refrigeration_beta --dry-run`**
     - Creates a draft episode in Transistor
     - Use Transistor's audio→video to create the YouTube video; keep it unlisted
 13. **Fix whatever breaks.**
