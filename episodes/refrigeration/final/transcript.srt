@@ -1,0 +1,6584 @@
+1
+00:00:00,000 --> 00:00:04,400
+[JEFF] Alright. Cyrus, I have to ask you something before we start. When was the last
+
+2
+00:00:04,400 --> 00:00:08,800
+[JEFF] time you actually thought about your refrigerator?
+
+3
+00:00:08,800 --> 00:00:13,600
+[CYRUS] Like, thought about it as a thing? As in, appreciated it?
+
+4
+00:00:13,600 --> 00:00:19,600
+[JEFF] As in — considered the fact that it exists. That it's just sitting there in
+
+5
+00:00:19,600 --> 00:00:25,600
+[JEFF] your kitchen, humming away, keeping your leftovers cold. When did you last think about that?
+
+6
+00:00:25,600 --> 00:00:31,400
+[CYRUS] I mean, honestly? Never. I open the door, I grab what I need, I close
+
+7
+00:00:31,400 --> 00:00:37,200
+[CYRUS] it. It's like — you don't think about your floor, right? It's just there.
+
+8
+00:00:37,200 --> 00:00:42,000
+[JEFF] Exactly. And that's kind of the whole premise of this show. Right? These technologies that
+
+9
+00:00:42,000 --> 00:00:46,800
+[JEFF] are so woven into how we live that we've stopped seeing them. They're invisible. You
+
+10
+00:00:46,800 --> 00:00:51,600
+[JEFF] only notice them when they break.
+
+11
+00:00:51,600 --> 00:00:56,266
+[CYRUS] Which I have experienced, by the way. The compressor went out in our old fridge
+
+12
+00:00:56,266 --> 00:01:00,933
+[CYRUS] one summer, and I'm like — what the heck do we do? We couldn't even
+
+13
+00:01:00,933 --> 00:01:05,600
+[CYRUS] keep milk for a day.
+
+14
+00:01:05,600 --> 00:01:10,300
+[JEFF] Yeah, and that's the interesting thing. Because that feeling — that sudden helplessness — that's
+
+15
+00:01:10,300 --> 00:01:15,000
+[JEFF] actually the story we're going to tell today. The whole story. The world discovering it
+
+16
+00:01:15,000 --> 00:01:19,700
+[JEFF] needed something it didn't know existed, and then the world becoming completely unable to live
+
+17
+00:01:19,700 --> 00:01:24,400
+[JEFF] without it.
+
+18
+00:01:24,400 --> 00:01:24,800
+[CYRUS] Refrigeration.
+
+19
+00:01:24,800 --> 00:01:29,400
+[JEFF] Refrigeration. Cold, Built In. And I want to start with a scene, because I think
+
+20
+00:01:29,400 --> 00:01:34,000
+[JEFF] the scene is the whole episode in miniature.
+
+21
+00:01:34,000 --> 00:01:39,666
+[JEFF] It's February of eighteen-oh-six. Boston harbor. And there's a twenty-three year old standing at the
+
+22
+00:01:39,666 --> 00:01:45,333
+[JEFF] dock watching something that everyone — literally everyone around him — thinks is insane. His
+
+23
+00:01:45,333 --> 00:01:51,000
+[JEFF] name is Frederic Tudor. He comes from a good Boston family, the kind where his
+
+24
+00:01:51,000 --> 00:01:56,666
+[JEFF] father studied law under John Adams. And Frederic had rejected Harvard at age thirteen, declared
+
+25
+00:01:56,666 --> 00:02:02,333
+[JEFF] formal education a waste of time, and spent the past two years completely consumed by
+
+26
+00:02:02,333 --> 00:02:08,000
+[JEFF] one idea. He wants to ship ice to the Caribbean.
+
+27
+00:02:08,000 --> 00:02:11,600
+[CYRUS] I'm sorry — ship ice. To the Caribbean.
+
+28
+00:02:11,600 --> 00:02:17,600
+[JEFF] Ice. Cut from a frozen pond outside Boston. Loaded onto a boat. Shipped to Martinique.
+
+29
+00:02:17,600 --> 00:02:20,400
+[CYRUS] Like — natural ice? From a pond?
+
+30
+00:02:20,400 --> 00:02:26,160
+[JEFF] A hundred and thirty tons of it, packed in sawdust, on a brig called the
+
+31
+00:02:26,160 --> 00:02:31,920
+[JEFF] Favorite. And here's the thing. He had spent two years trying to find a ship
+
+32
+00:02:31,920 --> 00:02:37,680
+[JEFF] captain who would take the cargo. Every single captain in Boston said no. They were
+
+33
+00:02:37,680 --> 00:02:43,440
+[JEFF] convinced the melting ice would sink the ship, or that the whole idea was simply
+
+34
+00:02:43,440 --> 00:02:49,200
+[JEFF] lunacy. Tudor had to buy the brig himself just to guarantee passage.
+
+35
+00:02:49,200 --> 00:02:54,400
+[CYRUS] Okay, so — no one in Boston thought this was a good idea.
+
+36
+00:02:54,400 --> 00:03:00,080
+[JEFF] The Boston Gazette ran a notice the same week the ship cleared customs. And I
+
+37
+00:03:00,080 --> 00:03:05,760
+[JEFF] love this. The headline is — and this is not a joke, this is the
+
+38
+00:03:05,760 --> 00:03:11,440
+[JEFF] actual headline — "No JOKE." Capital N, capital J, capital O, capital K, capital E.
+
+39
+00:03:11,440 --> 00:03:17,120
+[JEFF] "No JOKE. A vessel has cleared at the Custom House for Martinique with a cargo
+
+40
+00:03:17,120 --> 00:03:22,800
+[JEFF] of ice. We hope this will not prove a slippery speculation."
+
+41
+00:03:22,800 --> 00:03:24,000
+[CYRUS] "Slippery speculation."
+
+42
+00:03:24,000 --> 00:03:26,800
+[JEFF] Slippery. Speculation. The whole city was laughing.
+
+43
+00:03:26,800 --> 00:03:31,600
+[CYRUS] Okay, so — how does it go? Does the ice make it?
+
+44
+00:03:31,600 --> 00:03:36,933
+[JEFF] Sort of. Some of it makes it. But when the ship arrives in Martinique, there's
+
+45
+00:03:36,933 --> 00:03:42,266
+[JEFF] no icehouse. There's nowhere to put the ice. A lot of it melts. Tudor loses
+
+46
+00:03:42,266 --> 00:03:47,600
+[JEFF] money on the whole voyage. And that's just the beginning — over the next seven
+
+47
+00:03:47,600 --> 00:03:52,933
+[JEFF] years, he's going to go to debtor's prison at least twice. He's going to be
+
+48
+00:03:52,933 --> 00:03:58,266
+[JEFF] mocked as "the Ice Fool." He's going to spend years hiding from the sheriff when
+
+49
+00:03:58,266 --> 00:04:03,600
+[JEFF] he can't pay his creditors.
+
+50
+00:04:03,600 --> 00:04:05,600
+[CYRUS] So it was a disaster.
+
+51
+00:04:05,600 --> 00:04:10,133
+[JEFF] ... He dies in eighteen sixty-four. Worth the equivalent of roughly two hundred million dollars
+
+52
+00:04:10,133 --> 00:04:14,666
+[JEFF] in today's money. Having invented a global industry out of something Bostonians scraped off frozen
+
+53
+00:04:14,666 --> 00:04:19,200
+[JEFF] ponds and considered worthless.
+
+54
+00:04:19,200 --> 00:04:20,000
+[CYRUS] Wow.
+
+55
+00:04:20,000 --> 00:04:23,200
+[JEFF] "The Ice Fool." That's what they called him.
+
+56
+00:04:23,200 --> 00:04:24,800
+[CYRUS] That is a story.
+
+57
+00:04:24,800 --> 00:04:30,560
+[JEFF] And what I love about it — the thing that made me want to start
+
+58
+00:04:30,560 --> 00:04:36,320
+[JEFF] there — is that the Boston Gazette's joke? That is the whole episode. That's the
+
+59
+00:04:36,320 --> 00:04:42,080
+[JEFF] thesis. Every single wave of refrigeration we're going to cover today has that same dynamic.
+
+60
+00:04:42,080 --> 00:04:47,840
+[JEFF] Someone sees something that seems completely obvious in retrospect. The world laughs. And then the
+
+61
+00:04:47,840 --> 00:04:53,600
+[JEFF] world becomes utterly, irreversibly dependent on the thing they were laughing at.
+
+62
+00:02:36,045 --> 00:02:41,445
+[CYRUS] Okay, so let's put some scale on this. Because I think people hear "ice trade"
+
+63
+00:02:41,445 --> 00:02:46,845
+[CYRUS] and they picture like, a novelty. A curiosity. Not a real industry.
+
+64
+00:02:46,845 --> 00:02:52,645
+[JEFF] Yeah. I think the way I think about this is — most people know refrigeration
+
+65
+00:02:52,645 --> 00:02:58,445
+[JEFF] is important. But they don't know HOW important. Like, the numbers genuinely surprised me.
+
+66
+00:02:58,445 --> 00:03:04,445
+[CYRUS] Start with the adoption curve, because I think that's the one that hit me hardest.
+
+67
+00:03:04,445 --> 00:03:07,845
+[JEFF] Okay. So here's the number. In nineteen-thirty, eight percent of American homes had a refrigerator.
+
+68
+00:03:07,845 --> 00:03:11,245
+[JEFF] Eight percent.
+
+69
+00:03:11,245 --> 00:03:14,445
+[CYRUS] Eight. As in, less than one in ten.
+
+70
+00:03:14,445 --> 00:03:20,445
+[JEFF] Less than one in ten. And then — by nineteen forty-four, it was eighty-five percent.
+
+71
+00:03:20,445 --> 00:03:24,045
+[CYRUS] Wait, what? From eight to eighty-five in fourteen years?
+
+72
+00:03:24,045 --> 00:03:29,511
+[JEFF] Fourteen years. During the Great Depression and World War Two. Like, the financial conditions are
+
+73
+00:03:29,511 --> 00:03:34,978
+[JEFF] arguably as bad as they've ever been in American life, and somehow this technology goes
+
+74
+00:03:34,978 --> 00:03:40,444
+[JEFF] from a rich person's luxury to something nearly every household has.
+
+75
+00:03:40,444 --> 00:03:45,244
+[CYRUS] That's... that's one of the fastest technology adoptions in American history. I'm trying to think
+
+76
+00:03:45,244 --> 00:03:50,044
+[CYRUS] of something comparable. Like, smartphones didn't even do that.
+
+77
+00:03:50,044 --> 00:03:55,324
+[JEFF] Yeah, and we'll get into why it happened that fast — it's actually a really
+
+78
+00:03:55,324 --> 00:04:00,604
+[JEFF] interesting story. But the scale of what it displaced... Get this, get this. At its
+
+79
+00:04:00,604 --> 00:04:05,884
+[JEFF] peak, before the mechanical age, the natural ice trade — just cutting ice from frozen
+
+80
+00:04:05,884 --> 00:04:11,164
+[JEFF] ponds and lakes and shipping it around the world — employed ninety thousand workers and
+
+81
+00:04:11,164 --> 00:04:16,444
+[JEFF] twenty-five thousand horses. Nationally, across America.
+
+82
+00:04:16,444 --> 00:04:19,644
+[CYRUS] Ninety thousand people worked in the ice trade.
+
+83
+00:04:19,644 --> 00:04:25,511
+[JEFF] And it was capitalized at the equivalent of six hundred and sixty million dollars in
+
+84
+00:04:25,511 --> 00:04:31,378
+[JEFF] today's money. The entire industry. It wasn't a curiosity — it was a major economic
+
+85
+00:04:31,378 --> 00:04:37,245
+[JEFF] sector. American ships were carrying more tonnage of ice than any commodity except cotton.
+
+86
+00:04:37,245 --> 00:04:39,645
+[CYRUS] And that entire industry... went away.
+
+87
+00:04:39,645 --> 00:04:44,178
+[JEFF] That entire industry went away. And we'll talk about what happened to those ninety thousand
+
+88
+00:04:44,178 --> 00:04:48,711
+[JEFF] workers. Or actually — the disturbing part is that we can't talk about it, because
+
+89
+00:04:48,711 --> 00:04:53,244
+[JEFF] nobody wrote it down.
+
+90
+00:04:53,244 --> 00:04:54,844
+[CYRUS] What do you mean?
+
+91
+00:04:54,844 --> 00:05:00,644
+[JEFF] I mean there's essentially no record of what happened to them. An entire workforce of
+
+92
+00:05:00,644 --> 00:05:06,444
+[JEFF] ninety thousand people disappeared, and history just... moved on. We'll come back to that.
+
+93
+00:05:06,444 --> 00:05:10,444
+[CYRUS] Okay. What about the scale of what refrigeration is today?
+
+94
+00:05:10,444 --> 00:05:15,778
+[JEFF] So this is the one that I find kind of mind-bending. Twenty-five to thirty percent
+
+95
+00:05:15,778 --> 00:05:21,111
+[JEFF] of all global electricity — all of it, everything generated by every power plant in
+
+96
+00:05:21,111 --> 00:05:26,444
+[JEFF] the world — is consumed by refrigeration and air conditioning.
+
+97
+00:05:26,444 --> 00:05:28,044
+[CYRUS] That can't be right.
+
+98
+00:05:28,044 --> 00:05:33,844
+[JEFF] That's the IEA number. International Energy Agency. The global cold chain — moving food from
+
+99
+00:05:33,844 --> 00:05:39,644
+[JEFF] farm to shelf — touches seventy percent of all food consumed worldwide. Seven zero.
+
+100
+00:05:39,644 --> 00:05:43,244
+[CYRUS] So if the cold chain goes dark tonight —
+
+101
+00:05:43,244 --> 00:05:48,311
+[JEFF] Civilization has a very bad week. I mean, within days you're looking at food spoilage
+
+102
+00:05:48,311 --> 00:05:53,378
+[JEFF] on a scale that would be — it's actually hard to model. And here's the
+
+103
+00:05:53,378 --> 00:05:58,444
+[JEFF] thing that should sit with people: thirteen percent of all food produced globally is lost
+
+104
+00:05:58,444 --> 00:06:03,511
+[JEFF] right now to inadequate refrigeration. Thirteen percent. Enough to feed nearly a billion people. The
+
+105
+00:06:03,511 --> 00:06:08,578
+[JEFF] cold chain fixed hunger for the rich world. It's still not there for the poor
+
+106
+00:06:08,578 --> 00:06:13,645
+[JEFF] one.
+
+107
+00:06:13,645 --> 00:06:19,245
+[CYRUS] So we built this completely essential system — and we still haven't finished it.
+
+108
+00:06:19,245 --> 00:06:24,045
+[JEFF] We still haven't finished it. And we started from a guy shipping pond ice to
+
+109
+00:06:24,045 --> 00:06:28,845
+[JEFF] the Caribbean on a ship nobody wanted to crew.
+
+110
+00:06:28,845 --> 00:06:33,745
+[CYRUS] Okay so before we get into how we got here — I want to make
+
+111
+00:06:33,745 --> 00:06:38,645
+[CYRUS] sure people understand what "before" actually felt like. Because I think it's easy to hear
+
+112
+00:06:38,645 --> 00:06:43,545
+[CYRUS] "before refrigeration" and think "oh, things were a little less convenient." But it was way
+
+113
+00:06:43,545 --> 00:06:48,445
+[CYRUS] more serious than that.
+
+114
+00:06:48,445 --> 00:06:52,845
+[JEFF] Yeah, the way I think about this is — the World Before refrigeration isn't just
+
+115
+00:06:52,845 --> 00:06:57,245
+[JEFF] inconvenient. In some cases, it's actively deadly.
+
+116
+00:06:57,245 --> 00:07:00,045
+[CYRUS] And you have a story about this.
+
+117
+00:07:00,045 --> 00:07:04,311
+[JEFF] I do. So let's go to New York City. Eighteen-fifties. The city's booming — over
+
+118
+00:07:04,311 --> 00:07:08,578
+[JEFF] five hundred thousand people. And half of all children in the city die before their
+
+119
+00:07:08,578 --> 00:07:12,845
+[JEFF] fifth birthday.
+
+120
+00:07:12,845 --> 00:07:13,245
+[CYRUS] Half.
+
+121
+00:07:13,245 --> 00:07:18,559
+[JEFF] Half. And a primary killer is milk. Not because the cows are sick — well,
+
+122
+00:07:18,559 --> 00:07:23,873
+[JEFF] actually, sometimes because the cows are sick — but because of what they're being fed
+
+123
+00:07:23,873 --> 00:07:29,187
+[JEFF] and where they're living. So here's what's happening. There are these large distilleries operating across
+
+124
+00:07:29,187 --> 00:07:34,502
+[JEFF] Manhattan and Brooklyn. And they have this side business where they pen cows — hundreds
+
+125
+00:07:34,502 --> 00:07:39,816
+[JEFF] of them — in sheds attached directly to the distillery. No pasture, no sunlight. The
+
+126
+00:07:39,816 --> 00:07:45,130
+[JEFF] cows never go outside. And they're fed nothing but hot distillery slop. The leftover mash
+
+127
+00:07:45,130 --> 00:07:50,445
+[JEFF] from whiskey production.
+
+128
+00:07:50,445 --> 00:07:52,445
+[CYRUS] They're feeding cows whiskey waste.
+
+129
+00:07:52,445 --> 00:07:57,805
+[JEFF] Just the waste, yeah. The hot, steaming leftover mash. And the cows develop open sores.
+
+130
+00:07:57,805 --> 00:08:03,165
+[JEFF] Their tails literally rot and fall off from disease. Many lose their teeth. They just
+
+131
+00:08:03,165 --> 00:08:08,525
+[JEFF] stand there in their own filth, shoulder to shoulder, producing milk until they drop dead.
+
+132
+00:08:08,525 --> 00:08:13,885
+[JEFF] And THAT milk — the milk from these wrecked, diseased cows — that's what's being
+
+133
+00:08:13,885 --> 00:08:19,245
+[JEFF] sold to the families of New York.
+
+134
+00:08:19,245 --> 00:08:23,645
+[CYRUS] But — someone would notice, right? If the milk looked wrong?
+
+135
+00:08:23,645 --> 00:08:29,005
+[JEFF] Ah. Well. The vendors — and this is the part I keep coming back to,
+
+136
+00:08:29,005 --> 00:08:34,365
+[JEFF] because this detail is the one that got me — the vendors are doctoring the
+
+137
+00:08:34,365 --> 00:08:39,725
+[JEFF] milk. They add chalk to whiten it. Flour and starch to thicken it. Eggs, Plaster
+
+138
+00:08:39,725 --> 00:08:45,085
+[JEFF] of Paris, water. A dash of molasses to sweeten it. So what mothers buy for
+
+139
+00:08:45,085 --> 00:08:50,445
+[JEFF] their babies looks like perfectly normal milk.
+
+140
+00:08:50,445 --> 00:08:52,045
+[CYRUS] Oh, that is monstrous.
+
+141
+00:08:52,045 --> 00:08:57,325
+[JEFF] Between fifty and eighty percent of all milk sold in major northeastern cities is this
+
+142
+00:08:57,325 --> 00:09:02,605
+[JEFF] "swill milk." And an estimated eight thousand babies die per year in New York City
+
+143
+00:09:02,605 --> 00:09:07,885
+[JEFF] alone from what's in it — tuberculosis, cholera, other pathogens. That's a contemporary estimate from
+
+144
+00:09:07,885 --> 00:09:13,165
+[JEFF] the New York Times, not a modern recalculation. So I want to be precise: that's
+
+145
+00:09:13,165 --> 00:09:18,445
+[JEFF] what they believed at the time.
+
+146
+00:09:18,445 --> 00:09:20,045
+[CYRUS] And this gets exposed?
+
+147
+00:09:20,045 --> 00:09:25,645
+[JEFF] On May eighth, eighteen fifty-eight. A journalist named Frank Leslie runs a five-thousand-word investigation in
+
+148
+00:09:25,645 --> 00:09:31,245
+[JEFF] his illustrated newspaper. He calls the distillery dairies "milk murderers." He runs illustrations of the
+
+149
+00:09:31,245 --> 00:09:36,845
+[JEFF] conditions — cows standing in their own filth, tails gone. He asks readers directly: "Are
+
+150
+00:09:36,845 --> 00:09:42,445
+[JEFF] you aware what kind of milk you are drinking?" The New York Times follows with
+
+151
+00:09:42,445 --> 00:09:48,045
+[JEFF] an editorial. The headline is "How We Poison Our Children."
+
+152
+00:09:48,045 --> 00:09:49,645
+[CYRUS] And what's the solution?
+
+153
+00:09:49,645 --> 00:09:55,245
+[JEFF] Well, that's the thing. There's no workaround. You can make people shop for food every
+
+154
+00:09:55,245 --> 00:10:00,845
+[JEFF] morning. You can have them buy the meat the day they're going to eat it
+
+155
+00:10:00,845 --> 00:10:06,445
+[JEFF] — there are no leftovers in the modern sense, because food won't last overnight in
+
+156
+00:10:06,445 --> 00:10:12,045
+[JEFF] summer. You can pickle things, dry them, jam them. But you cannot make milk safe.
+
+157
+00:10:12,045 --> 00:10:17,645
+[JEFF] You cannot see the bacteria. The icebox existed — it was a wooden cabinet with
+
+158
+00:10:17,645 --> 00:10:23,245
+[JEFF] a block of melting natural ice in it — but it slowed spoilage. It didn't
+
+159
+00:10:23,245 --> 00:10:28,845
+[JEFF] stop it. And the poorest families, who could only afford swill milk at six cents
+
+160
+00:10:28,845 --> 00:10:34,445
+[JEFF] a quart, had no options at all.
+
+161
+00:10:34,445 --> 00:10:38,045
+[CYRUS] I mean — six cents a quart of poison.
+
+162
+00:10:38,045 --> 00:10:39,245
+[JEFF] For your baby.
+
+163
+00:10:39,245 --> 00:10:41,645
+[CYRUS] The World Before is bad.
+
+164
+00:10:41,645 --> 00:10:47,200
+[JEFF] The World Before is really bad. And I want to say one more thing about
+
+165
+00:10:47,200 --> 00:10:52,756
+[JEFF] this, because I think it gets lost. The World Before isn't just tragic — it's
+
+166
+00:10:52,756 --> 00:10:58,311
+[JEFF] also different in ways that aren't just negative. There's this whole elaborate food culture built
+
+167
+00:10:58,311 --> 00:11:03,867
+[JEFF] around the fact that cold doesn't exist. Seasonal eating is absolute — you eat what's
+
+168
+00:11:03,867 --> 00:11:09,422
+[JEFF] growing where you are, when it's available. Eggs are scarce in fall and winter. Pickling,
+
+169
+00:11:09,422 --> 00:11:14,978
+[JEFF] smoking, fermenting — these aren't artisanal hobbies, they're survival technologies that people have refined over
+
+170
+00:11:14,978 --> 00:11:20,533
+[JEFF] generations. The iceman coming every morning is a daily social institution. When refrigeration arrives, it's
+
+171
+00:11:20,533 --> 00:11:26,089
+[JEFF] going to sweep all of that away. The solution is going to change the culture
+
+172
+00:11:26,089 --> 00:11:31,644
+[JEFF] as much as the problem.
+
+173
+00:11:31,644 --> 00:11:36,444
+[CYRUS] Alright. So where does it start? Because clearly this gets solved. Eventually.
+
+174
+00:11:36,444 --> 00:11:42,244
+[JEFF] It does. In waves. And each wave is actually its own drama — its own
+
+175
+00:11:42,244 --> 00:11:48,044
+[JEFF] breakthrough, its own resistance, its own casualties. Here's what we're going to cover today.
+
+176
+00:11:48,044 --> 00:11:53,530
+[JEFF] Wave One is the Ice Trade. And this one starts with Tudor — the guy
+
+177
+00:11:53,530 --> 00:11:59,016
+[JEFF] we already met. But the story gets bigger and wilder than one obsessive with a
+
+178
+00:11:59,016 --> 00:12:04,502
+[JEFF] boat. He builds a global empire from frozen pond water. Ships ice sixteen thousand miles
+
+179
+00:12:04,502 --> 00:12:09,987
+[JEFF] to Calcutta. Gets the whole world hooked on cold for the first time. And then
+
+180
+00:12:09,987 --> 00:12:15,473
+[JEFF] nature stops cooperating. This is Frederic Tudor's story, and it's a story about how you
+
+181
+00:12:15,473 --> 00:12:20,959
+[JEFF] manufacture desire out of nothing — and what happens when the supply chain you've built
+
+182
+00:12:20,959 --> 00:12:26,445
+[JEFF] turns out to depend on weather.
+
+183
+00:12:26,445 --> 00:12:30,978
+[CYRUS] I'll be reacting to that one because I had no idea how that story ends.
+
+184
+00:12:30,978 --> 00:12:35,511
+[CYRUS] Like, I genuinely did not know where the Ice Trade goes, and it goes somewhere
+
+185
+00:12:35,511 --> 00:12:40,045
+[CYRUS] I did not expect.
+
+186
+00:12:40,045 --> 00:12:42,045
+[JEFF] Yeah. You will react.
+
+187
+00:12:42,045 --> 00:12:47,778
+[CYRUS] Wave Two is the Machine Age. And this one... okay, this is my wave, and
+
+188
+00:12:47,778 --> 00:12:53,511
+[CYRUS] here's why I wanted to tell it. The Ice Trade established the desire for cold.
+
+189
+00:12:53,511 --> 00:12:59,245
+[CYRUS] Wave Two is about what happens when a better technology comes along to meet that
+
+190
+00:12:59,245 --> 00:13:04,978
+[CYRUS] desire — and the people who got rich off the old technology do everything in
+
+191
+00:13:04,978 --> 00:13:10,711
+[CYRUS] their power to stop it. There's a doctor in Florida who invents the ice machine,
+
+192
+00:13:10,711 --> 00:13:16,445
+[CYRUS] and the ice industry destroys him. There's a German professor selling ammonia machines to breweries
+
+193
+00:13:16,445 --> 00:13:22,178
+[CYRUS] in the Midwest. And there's a Chicago meatpacker who finds a way to route around
+
+194
+00:13:22,178 --> 00:13:27,911
+[CYRUS] every railroad company in America to ship dressed beef coast to coast. The machines work.
+
+195
+00:13:27,911 --> 00:13:33,645
+[CYRUS] But they run on chemicals that can kill you.
+
+196
+00:13:33,645 --> 00:13:39,445
+[JEFF] And this wave is where Cyrus's instincts really come in — because the resistance here
+
+197
+00:13:39,445 --> 00:13:45,245
+[JEFF] isn't just stubbornness. The incumbents had real leverage. Real arguments. And they used both.
+
+198
+00:13:45,245 --> 00:13:50,845
+[CYRUS] A hundred percent. The resisters were not stupid. That's kind of the whole point.
+
+199
+00:13:50,845 --> 00:13:56,495
+[JEFF] Wave Three is Cold Comes Home. And this one is the most modern-feeling, which is
+
+200
+00:13:56,495 --> 00:14:02,145
+[JEFF] maybe why it's the hardest to see clearly. A chemist inhales a mysterious gas and
+
+201
+00:14:02,145 --> 00:14:07,795
+[JEFF] blows out a candle — that's the moment refrigerators become safe enough for every kitchen
+
+202
+00:14:07,795 --> 00:14:13,445
+[JEFF] in America. Adoption explodes during the Great Depression, which seems backward until you understand why.
+
+203
+00:14:13,445 --> 00:14:19,095
+[JEFF] An orphaned, self-taught Black inventor puts refrigeration on trucks and completes the cold chain. And
+
+204
+00:14:19,095 --> 00:14:24,745
+[JEFF] then the twist, which I genuinely did not see coming when I first read this:
+
+205
+00:14:24,745 --> 00:14:30,395
+[JEFF] the chemical that made it all safe? It's quietly destroying the ozone layer. The solution
+
+206
+00:14:30,395 --> 00:14:36,045
+[JEFF] created a problem that took decades to see.
+
+207
+00:14:36,045 --> 00:14:42,045
+[CYRUS] And that's the through-line of the whole episode, right? Every wave, someone's right that the
+
+208
+00:14:42,045 --> 00:14:48,045
+[CYRUS] resistance has a point. And every wave, the world becomes more dependent on cold anyway.
+
+209
+00:14:48,045 --> 00:14:52,711
+[JEFF] Each wave asks the same question — can we trust manufactured cold? And the answer
+
+210
+00:14:52,711 --> 00:14:57,378
+[JEFF] is never simple. The resisters were often right about the risks. They were just wrong
+
+211
+00:14:57,378 --> 00:15:02,045
+[JEFF] about the direction of travel.
+
+212
+00:15:02,045 --> 00:15:07,245
+[CYRUS] Alright. Let's go. Wave One. Tudor, the Ice Fool, and how one guy with a
+
+213
+00:15:07,245 --> 00:15:12,445
+[CYRUS] terrible idea made the world want something it had never tasted.
+
+214
+00:15:12,445 --> 00:15:14,045
+[JEFF] Let's do it.
+
+215
+00:09:39,617 --> 00:09:44,683
+[JEFF] So we set up the world before cold — the swill milk, the daily shopping
+
+216
+00:09:44,683 --> 00:09:49,750
+[JEFF] runs, the sense that summer was just a season you survived. Now I want to
+
+217
+00:09:49,750 --> 00:09:54,816
+[JEFF] get into how all of that starts to change. And it starts with one of
+
+218
+00:09:54,816 --> 00:09:59,883
+[JEFF] the most improbable business stories I have ever come across. Not improbable in a "wow,
+
+219
+00:09:59,883 --> 00:10:04,950
+[JEFF] that was clever" way. Improbable in a "this man should not have succeeded and yet"
+
+220
+00:10:04,950 --> 00:10:10,016
+[JEFF] way.
+
+221
+00:10:10,016 --> 00:10:13,616
+[CYRUS] I love that framing. Who are we talking about?
+
+222
+00:10:13,616 --> 00:10:19,016
+[JEFF] So you already met Tudor in our opening — the dock, eighteen oh-six, the Gazette
+
+223
+00:10:19,016 --> 00:10:24,416
+[JEFF] joke. But that scene started mid-story. I want to go back a year, because the
+
+224
+00:10:24,416 --> 00:10:29,816
+[JEFF] thing that unlocks who he is happens at a dinner table. And the way I
+
+225
+00:10:29,816 --> 00:10:35,216
+[JEFF] think about Frederic Tudor — the thing that makes the whole story make sense —
+
+226
+00:10:35,216 --> 00:10:40,616
+[JEFF] is this: he is the guy at the dinner table who hears a joke, and
+
+227
+00:10:40,616 --> 00:10:46,016
+[JEFF] instead of laughing, starts taking notes.
+
+228
+00:10:46,016 --> 00:10:47,616
+[CYRUS] What was the joke?
+
+229
+00:10:47,616 --> 00:10:53,456
+[JEFF] So it's around eighteen oh five. Tudor is twenty-two years old. He's at dinner with
+
+230
+00:10:53,456 --> 00:10:59,296
+[JEFF] his family, and his brother William — just riffing, making conversation — says something like,
+
+231
+00:10:59,296 --> 00:11:05,136
+[JEFF] wouldn't it be something if we could ship ice from the ponds here in New
+
+232
+00:11:05,136 --> 00:11:10,976
+[JEFF] England down to the Caribbean? Where it's hot and everyone would love it? And everyone
+
+233
+00:11:10,976 --> 00:11:16,816
+[JEFF] at the table laughs. Classic dinner-party idea. Totally absurd. And William moves on.
+
+234
+00:11:16,816 --> 00:11:18,016
+[CYRUS] But Frederic doesn't.
+
+235
+00:11:18,016 --> 00:11:23,696
+[JEFF] Frederic does not move on. Frederic goes home and starts a journal. And in that
+
+236
+00:11:23,696 --> 00:11:29,376
+[JEFF] journal, he begins mapping out, seriously, how you would actually do this. How you'd cut
+
+237
+00:11:29,376 --> 00:11:35,056
+[JEFF] the ice, how you'd insulate it, how you'd ship it, how you'd store it on
+
+238
+00:11:35,056 --> 00:11:40,736
+[JEFF] arrival. He spends the next two years trying to get a ship captain — any
+
+239
+00:11:40,736 --> 00:11:46,416
+[JEFF] ship captain in Boston — to carry this cargo to Martinique.
+
+240
+00:11:46,416 --> 00:11:50,416
+[CYRUS] What was the objection? Like, why wouldn't they take it?
+
+241
+00:11:50,416 --> 00:11:55,750
+[JEFF] Two things. First, they thought the melting ice would flood the hold and sink the
+
+242
+00:11:55,750 --> 00:12:01,083
+[JEFF] ship. Second — and this is the part I find really interesting — they just
+
+243
+00:12:01,083 --> 00:12:06,416
+[JEFF] thought the whole thing was lunacy. There was no framework for "ice as a commodity."
+
+244
+00:12:06,416 --> 00:12:11,750
+[JEFF] Ice was something you scraped off a pond. It was worthless. The idea that you'd
+
+245
+00:12:11,750 --> 00:12:17,083
+[JEFF] load it onto a ship and sail it to the tropics was, in their view,
+
+246
+00:12:17,083 --> 00:12:22,417
+[JEFF] just... not a serious idea.
+
+247
+00:12:22,417 --> 00:12:24,417
+[CYRUS] So what does he do?
+
+248
+00:12:24,417 --> 00:12:29,817
+[JEFF] He buys his own ship. He can't find anyone to take the cargo, so he
+
+249
+00:12:29,817 --> 00:12:35,217
+[JEFF] literally purchases a brig called the Favorite, loads it with a hundred and thirty tons
+
+250
+00:12:35,217 --> 00:12:40,617
+[JEFF] of ice cut from a pond near Saugus, Massachusetts, and sails for Martinique. It's February,
+
+251
+00:12:40,617 --> 00:12:46,017
+[JEFF] eighteen oh six. Tudor is twenty-three years old.
+
+252
+00:12:46,017 --> 00:12:49,217
+[CYRUS] That is... a commitment to a dinner-table joke.
+
+253
+00:12:49,217 --> 00:12:55,083
+[JEFF] Right? And the Boston Gazette — when the ship clears customs — runs a little
+
+254
+00:12:55,083 --> 00:13:00,950
+[JEFF] item. They write: "No JOKE. A vessel has cleared at the Custom House for Martinique
+
+255
+00:13:00,950 --> 00:13:06,816
+[JEFF] with a cargo of ice. We hope this will not prove a slippery speculation."
+
+256
+00:13:06,816 --> 00:13:11,216
+[CYRUS] "Slippery speculation." That's actually pretty good for eighteen oh six.
+
+257
+00:13:11,216 --> 00:13:16,931
+[JEFF] They were enjoying themselves. The press absolutely thought this man was out of his mind.
+
+258
+00:13:16,931 --> 00:13:22,645
+[JEFF] And here's the thing — the first voyage is a disaster. The ice gets to
+
+259
+00:13:22,645 --> 00:13:28,359
+[JEFF] Martinique, but there's no icehouse to put it in. Nobody had built anywhere to store
+
+260
+00:13:28,359 --> 00:13:34,074
+[JEFF] it. So it just melts. Tudor loses money. He goes back to Boston and tries
+
+261
+00:13:34,074 --> 00:13:39,788
+[JEFF] again. And again. He goes to debtor's prison at least twice in the next seven
+
+262
+00:13:39,788 --> 00:13:45,502
+[JEFF] years. At one point, he can't leave the state of Massachusetts because of his creditors.
+
+263
+00:13:45,502 --> 00:13:51,216
+[JEFF] He becomes known, publicly, in Boston, as the Ice Fool.
+
+264
+00:13:51,216 --> 00:13:54,616
+[CYRUS] So he's not a triumphant visionary at this point. He's a guy who people are
+
+265
+00:13:54,616 --> 00:13:58,016
+[CYRUS] laughing at.
+
+266
+00:13:58,016 --> 00:14:03,216
+[JEFF] He's a cautionary tale. And this is the part I keep coming back to. During
+
+267
+00:14:03,216 --> 00:14:08,416
+[JEFF] one of those stretches — debtor's prison, everyone thinks he's nuts — he writes in
+
+268
+00:14:08,416 --> 00:14:13,616
+[JEFF] his diary: "He who gives back at the first repulse and without striking the second
+
+269
+00:14:13,616 --> 00:14:18,816
+[JEFF] blow despairs of success, has never been, is not, and never will be a hero
+
+270
+00:14:18,816 --> 00:14:24,016
+[JEFF] in war, love or business."
+
+271
+00:14:24,016 --> 00:14:27,216
+[CYRUS] He's writing himself motivational quotes in debtor's prison.
+
+272
+00:14:27,216 --> 00:14:32,950
+[JEFF] He is. And look — I want to be honest about this, because I think
+
+273
+00:14:32,950 --> 00:14:38,683
+[JEFF] about it a lot. There's a real survivorship bias in that story. A lot of
+
+274
+00:14:38,683 --> 00:14:44,416
+[JEFF] people have written that exact diary entry, in that exact circumstance, and stayed broke and
+
+275
+00:14:44,416 --> 00:14:50,150
+[JEFF] failed and nobody ever read their journals. Tudor is the one who made it. That
+
+276
+00:14:50,150 --> 00:14:55,883
+[JEFF] doesn't make his persistence meaningless. But it does mean "the obsessive who refused to quit"
+
+277
+00:14:55,883 --> 00:15:01,616
+[JEFF] is not a formula — it's a description of one outcome.
+
+278
+00:15:01,616 --> 00:15:05,016
+[CYRUS] That's fair. What actually changed? Like, what turns Tudor from the Ice Fool into the
+
+279
+00:15:05,016 --> 00:15:08,416
+[CYRUS] Ice King?
+
+280
+00:15:08,416 --> 00:15:14,216
+[JEFF] Two things. One is a technical insight. One is a marketing insight. And together they're
+
+281
+00:15:14,216 --> 00:15:20,016
+[JEFF] what make the whole thing work. The technical insight is Nathaniel Wyeth. Wyeth runs the
+
+282
+00:15:20,016 --> 00:15:25,816
+[JEFF] Fresh Pond Hotel in Cambridge. He becomes Tudor's foreman, managing the ice-cutting operations at Fresh
+
+283
+00:15:25,816 --> 00:15:31,616
+[JEFF] Pond. And around eighteen twenty-five, Wyeth invents what's called the horse-drawn ice plow.
+
+284
+00:15:31,616 --> 00:15:32,416
+[CYRUS] What's that?
+
+285
+00:15:32,416 --> 00:15:37,731
+[JEFF] So before Wyeth, you harvested ice the way you'd imagine — men with hand saws,
+
+286
+00:15:37,731 --> 00:15:43,045
+[JEFF] scoring the surface and cutting blocks. It's slow, it's expensive, it's inconsistent. What Wyeth builds
+
+287
+00:15:43,045 --> 00:15:48,359
+[JEFF] is essentially two parallel iron runners about twenty inches apart, with saw teeth along the
+
+288
+00:15:48,359 --> 00:15:53,674
+[JEFF] bottom, pulled by a horse across the surface of the pond. The horse drags the
+
+289
+00:15:53,674 --> 00:15:58,988
+[JEFF] thing back and forth in a grid pattern — scores the ice perfectly, uniform blocks,
+
+290
+00:15:58,988 --> 00:16:04,302
+[JEFF] twenty inches by twenty inches, all the way across the pond. Then you just pop
+
+291
+00:16:04,302 --> 00:16:09,616
+[JEFF] the blocks out.
+
+292
+00:16:09,616 --> 00:16:12,416
+[CYRUS] How much does that change the economics?
+
+293
+00:16:12,416 --> 00:16:17,016
+[JEFF] It cuts harvesting costs from thirty cents a ton to ten cents a ton. Triples
+
+294
+00:16:17,016 --> 00:16:21,616
+[JEFF] efficiency. Suddenly you can harvest at scale that was impossible by hand. Before Wyeth's plow,
+
+295
+00:16:21,616 --> 00:16:26,216
+[JEFF] Tudor could dream about shipping ice to Calcutta. After it, he could actually do the
+
+296
+00:16:26,216 --> 00:16:30,816
+[JEFF] math.
+
+297
+00:16:30,816 --> 00:16:36,816
+[CYRUS] And Wyeth — he's basically the co-founder. He's the engineer who makes the vision real.
+
+298
+00:16:36,816 --> 00:16:42,350
+[JEFF] He's exactly that. And here's what I find kind of haunting about it. Tudor becomes
+
+299
+00:16:42,350 --> 00:16:47,883
+[JEFF] the Ice King — that's his actual nickname, what history remembers him as. He dies
+
+300
+00:16:47,883 --> 00:16:53,416
+[JEFF] in eighteen sixty-four worth the equivalent of about two hundred million dollars in today's money.
+
+301
+00:16:53,416 --> 00:16:58,950
+[JEFF] Total vindication. The family joke made good. And Nathaniel Wyeth, the man who invented the
+
+302
+00:16:58,950 --> 00:17:04,483
+[JEFF] technology that made all of it possible, dies in eighteen fifty-six without any real public
+
+303
+00:17:04,483 --> 00:17:10,016
+[JEFF] recognition. History remembers Tudor. Almost nobody knows Wyeth.
+
+304
+00:17:10,016 --> 00:17:12,816
+[CYRUS] The engineer who made the visionary possible.
+
+305
+00:17:12,816 --> 00:17:17,616
+[JEFF] Yeah. I mean, it's a pattern you see over and over again. The person with
+
+306
+00:17:17,616 --> 00:17:22,416
+[JEFF] the story tends to get remembered. The person who built the thing the story runs
+
+307
+00:17:22,416 --> 00:17:27,216
+[JEFF] on... tends not to. Wyeth's name is on a museum for antique ice tools. That's
+
+308
+00:17:27,216 --> 00:17:32,017
+[JEFF] pretty much it.
+
+309
+00:17:32,017 --> 00:17:38,017
+[CYRUS] Okay. So you've got the plow — that's the technical fix. What's the marketing insight?
+
+310
+00:17:38,017 --> 00:17:43,317
+[JEFF] This is the part where Tudor genuinely impresses me as a thinker. Because the problem
+
+311
+00:17:43,317 --> 00:17:48,617
+[JEFF] he's facing in new markets — Martinique, Havana, Charleston, New Orleans — isn't just logistics.
+
+312
+00:17:48,617 --> 00:17:53,917
+[JEFF] It's that nobody there has ever tasted a cold drink. They have no frame of
+
+313
+00:17:53,917 --> 00:17:59,217
+[JEFF] reference. You can't want something you've never experienced.
+
+314
+00:17:59,217 --> 00:18:02,417
+[CYRUS] Right. You can't sell demand that doesn't exist.
+
+315
+00:18:02,417 --> 00:18:07,317
+[JEFF] Exactly. So Tudor's solution — and this is the line I want to make sure
+
+316
+00:18:07,317 --> 00:18:12,217
+[JEFF] we quote directly, because he writes it down himself — is: "A man who has
+
+317
+00:18:12,217 --> 00:18:17,117
+[JEFF] drank his drinks cold at the same expense for one week can never be presented
+
+318
+00:18:17,117 --> 00:18:22,017
+[JEFF] with them warm again."
+
+319
+00:18:22,017 --> 00:18:24,817
+[CYRUS] Oh that's good. That's a real insight.
+
+320
+00:18:24,817 --> 00:18:30,217
+[JEFF] It is a real insight. And the strategy that comes from it is: give the
+
+321
+00:18:30,217 --> 00:18:35,617
+[JEFF] ice away. He goes into every new market and gives ice for free to the
+
+322
+00:18:35,617 --> 00:18:41,017
+[JEFF] bartenders. To the tavern owners. And the customers taste cold drinks for the first time.
+
+323
+00:18:41,017 --> 00:18:46,417
+[JEFF] And after that, they want them. And they'll pay for them. Tudor doesn't ask people
+
+324
+00:18:46,417 --> 00:18:51,817
+[JEFF] if they want cold. He puts it in their hands and lets them discover that
+
+325
+00:18:51,817 --> 00:18:57,217
+[JEFF] they can't imagine life without it.
+
+326
+00:18:57,217 --> 00:19:00,817
+[CYRUS] He manufactured the craving before he charged for it.
+
+327
+00:19:00,817 --> 00:19:06,177
+[JEFF] That's exactly right. And once you understand that, the whole story makes sense. Tudor isn't
+
+328
+00:19:06,177 --> 00:19:11,537
+[JEFF] selling ice. He's selling an expectation. He's making cold feel like a basic feature of
+
+329
+00:19:11,537 --> 00:19:16,897
+[JEFF] life. And once you've done that — once enough people believe that cold drinks are
+
+330
+00:19:16,897 --> 00:19:22,257
+[JEFF] just what drinks are supposed to be — you've got something much more valuable than
+
+331
+00:19:22,257 --> 00:19:27,617
+[JEFF] a product. You've got a civilization-level habit.
+
+332
+00:19:27,617 --> 00:19:33,083
+[CYRUS] Okay, I have to ask. Because that journey — from Boston harbor to New England
+
+333
+00:19:33,083 --> 00:19:38,550
+[CYRUS] to the Caribbean — feels almost manageable, even if it took decades to get right.
+
+334
+00:19:38,550 --> 00:19:44,017
+[CYRUS] But I keep reading about Calcutta. That's a different category entirely.
+
+335
+00:19:44,017 --> 00:19:49,331
+[JEFF] Yeah. That is a different category. Cyrus, I want to tell you about one specific
+
+336
+00:19:49,331 --> 00:19:54,645
+[JEFF] voyage, because I think it captures everything about what Tudor was doing at the peak
+
+337
+00:19:54,645 --> 00:19:59,959
+[JEFF] of his ambition. And even knowing how it turns out — it still sounds impossible.
+
+338
+00:19:59,959 --> 00:20:05,274
+[JEFF] It's May twelfth, eighteen thirty-three. Tudor is fifty years old. He's been at this for
+
+339
+00:20:05,274 --> 00:20:10,588
+[JEFF] twenty-seven years. He's conquered the Caribbean and the American South. Cold drinks are the norm
+
+340
+00:20:10,588 --> 00:20:15,902
+[JEFF] in New Orleans and Charleston. The ice trade is real now. But he's been thinking
+
+341
+00:20:15,902 --> 00:20:21,217
+[JEFF] about India.
+
+342
+00:20:21,217 --> 00:20:21,617
+[CYRUS] India.
+
+343
+00:20:21,617 --> 00:20:27,517
+[JEFF] Calcutta, specifically. Halfway around the world. The voyage — Boston to Calcutta, via the Cape
+
+344
+00:20:27,517 --> 00:20:33,417
+[JEFF] of Good Hope — is sixteen thousand miles. It will take four months. Through tropical
+
+345
+00:20:33,417 --> 00:20:39,317
+[JEFF] heat, essentially the entire way. He loads a brig called the Tuscany with a hundred
+
+346
+00:20:39,317 --> 00:20:45,217
+[JEFF] and eighty tons of New England ice, packed in sawdust. And he sends it.
+
+347
+00:20:45,217 --> 00:20:49,017
+[CYRUS] Hold on. Four months. In tropical heat. He's sending ice across the equator, around Africa,
+
+348
+00:20:49,017 --> 00:20:52,817
+[CYRUS] across the Indian Ocean.
+
+349
+00:20:52,817 --> 00:20:53,217
+[JEFF] Correct.
+
+350
+00:20:53,217 --> 00:20:59,217
+[CYRUS] And he lost how much of it and still thought this was going to work?
+
+351
+00:20:59,217 --> 00:21:05,217
+[JEFF] So — and this is what gets me — he loses about eighty tons. The
+
+352
+00:21:05,217 --> 00:21:11,217
+[JEFF] Tuscany arrives in Calcutta on September thirteenth, eighteen thirty-three. Four months and seven days after
+
+353
+00:21:11,217 --> 00:21:17,217
+[JEFF] it left Boston. And of the hundred and eighty tons loaded... roughly a hundred survive.
+
+354
+00:21:17,217 --> 00:21:21,217
+[CYRUS] He loses nearly half his cargo. And it's still profitable?
+
+355
+00:21:21,217 --> 00:21:26,861
+[JEFF] It is still profitable. Because the price of ice in Calcutta — having never existed
+
+356
+00:21:26,861 --> 00:21:32,505
+[JEFF] before — is high enough that a hundred tons of surviving cargo more than covers
+
+357
+00:21:32,505 --> 00:21:38,150
+[JEFF] the voyage. But here's the part I find extraordinary. There are crowds at the port
+
+358
+00:21:38,150 --> 00:21:43,794
+[JEFF] when the Tuscany arrives. Rumors have spread through the city. A lot of people in
+
+359
+00:21:43,794 --> 00:21:49,439
+[JEFF] Calcutta believe the whole thing is an elaborate joke — ice from the other side
+
+360
+00:21:49,439 --> 00:21:55,083
+[JEFF] of the world? — and they've come to watch the joke land. When they actually
+
+361
+00:21:55,083 --> 00:22:00,728
+[JEFF] unload the blocks, observers call them "crystal blocks of Yankee coldness." And one Indian onlooker
+
+362
+00:22:00,728 --> 00:22:06,372
+[JEFF] touches a block of ice for the first time and believes he's been burnt. He
+
+363
+00:22:06,372 --> 00:22:12,017
+[JEFF] thinks it's so cold it burned him.
+
+364
+00:22:12,017 --> 00:22:16,817
+[CYRUS] ... He thought he was burnt. He thought ice was burning him.
+
+365
+00:22:16,817 --> 00:22:21,350
+[JEFF] Another man asks Captain Littlefield — the captain of the Tuscany — whether ice grows
+
+366
+00:22:21,350 --> 00:22:25,883
+[JEFF] on trees in America. He's trying to understand where this substance comes from, and trees
+
+367
+00:22:25,883 --> 00:22:30,417
+[JEFF] is his best hypothesis.
+
+368
+00:22:30,417 --> 00:22:35,017
+[CYRUS] I mean — what else would you think? You've never seen ice. You're in Calcutta
+
+369
+00:22:35,017 --> 00:22:39,617
+[CYRUS] in September. It has to come from somewhere.
+
+370
+00:22:39,617 --> 00:22:45,217
+[JEFF] The Calcutta government is so excited by the shipment that they grant it duty-free status
+
+371
+00:22:45,217 --> 00:22:50,817
+[JEFF] on the spot. They allow night unloading — skip the customs formalities — just to
+
+372
+00:22:50,817 --> 00:22:56,417
+[JEFF] get the ice ashore faster. And within three days of the ship's arrival, Calcutta's British
+
+373
+00:22:56,417 --> 00:23:02,017
+[JEFF] residents have raised enough money to commission a proper icehouse. The proprietors start displaying a
+
+374
+00:23:02,017 --> 00:23:07,617
+[JEFF] huge block of ice behind a glass window every day, replacing it regularly. It becomes
+
+375
+00:23:07,617 --> 00:23:13,217
+[JEFF] a spectacle. People come just to look at it.
+
+376
+00:23:13,217 --> 00:23:16,017
+[CYRUS] Tudor built a market in three days.
+
+377
+00:23:16,017 --> 00:23:21,137
+[JEFF] He built a market in three days. And Calcutta becomes one of his most profitable
+
+378
+00:23:21,137 --> 00:23:26,257
+[JEFF] destinations for the next twenty years — an estimated two hundred and twenty thousand dollars
+
+379
+00:23:26,257 --> 00:23:31,377
+[JEFF] in profits over that period. He eventually builds three icehouses in India: Calcutta, Bombay, and
+
+380
+00:23:31,377 --> 00:23:36,497
+[JEFF] Madras. The Madras ice house, built on Marina Beach, still survives today. It's a museum
+
+381
+00:23:36,497 --> 00:23:41,617
+[JEFF] now — Vivekananda House.
+
+382
+00:23:41,617 --> 00:23:46,617
+[CYRUS] Huh. So there's a building standing in India right now that exists because a twenty-three-year-old
+
+383
+00:23:46,617 --> 00:23:51,617
+[CYRUS] in Boston refused to let go of a dinner-table joke.
+
+384
+00:23:51,617 --> 00:23:57,550
+[JEFF] There is. And there's a line from Henry David Thoreau that I think is just
+
+385
+00:23:57,550 --> 00:24:03,483
+[JEFF] — I mean, when I read this, I had to put the book down for
+
+386
+00:24:03,483 --> 00:24:09,417
+[JEFF] a second. Thoreau is watching ice harvesters working at Walden Pond, a few miles from
+
+387
+00:24:09,417 --> 00:24:15,350
+[JEFF] where Tudor started all of this. And he writes: "Thus it appears that the sweltering
+
+388
+00:24:15,350 --> 00:24:21,283
+[JEFF] inhabitants of Charleston and New Orleans, of Madras and Bombay and Calcutta, drink at my
+
+389
+00:24:21,283 --> 00:24:27,216
+[JEFF] well. The pure Walden water is mingled with the sacred water of the Ganges."
+
+390
+00:24:27,216 --> 00:24:28,416
+[CYRUS] That's beautiful.
+
+391
+00:24:28,416 --> 00:24:33,116
+[JEFF] Right? Thoreau is watching something he considers a pastoral scene — ice cutters on his
+
+392
+00:24:33,116 --> 00:24:37,816
+[JEFF] pond — and he traces the line all the way to India. He understands that
+
+393
+00:24:37,816 --> 00:24:42,516
+[JEFF] this ordinary thing happening in front of him is connected to the other side of
+
+394
+00:24:42,516 --> 00:24:47,216
+[JEFF] the world.
+
+395
+00:24:47,216 --> 00:24:52,816
+[CYRUS] Okay. So walk me through what this industry actually looks like at its peak, because
+
+396
+00:24:52,816 --> 00:24:58,416
+[CYRUS] I want to understand the scale before we get to what goes wrong.
+
+397
+00:24:58,416 --> 00:25:03,516
+[JEFF] Yeah, so — by the eighteen fifties, the natural ice trade is not a curiosity
+
+398
+00:25:03,516 --> 00:25:08,616
+[JEFF] anymore. It is a pillar of American commercial life. Think about the numbers. Ninety thousand
+
+399
+00:25:08,616 --> 00:25:13,716
+[JEFF] workers. Twenty-five thousand horses. The industry is capitalized at the equivalent of six hundred and
+
+400
+00:25:13,716 --> 00:25:18,816
+[JEFF] sixty million dollars in today's money.
+
+401
+00:25:18,816 --> 00:25:20,416
+[CYRUS] That's an enormous industry.
+
+402
+00:25:20,416 --> 00:25:25,856
+[JEFF] It's second only to cotton in American shipping tonnage before the Civil War. Think about
+
+403
+00:25:25,856 --> 00:25:31,296
+[JEFF] that. Cotton is the engine of the antebellum Southern economy, one of the great commodities
+
+404
+00:25:31,296 --> 00:25:36,736
+[JEFF] of the era. And ice — just behind it. In New York City, fifteen hundred
+
+405
+00:25:36,736 --> 00:25:42,176
+[JEFF] ice delivery trucks are making their rounds every single day. Two-thirds of households in Boston
+
+406
+00:25:42,176 --> 00:25:47,616
+[JEFF] and New York are getting daily ice deliveries.
+
+407
+00:25:47,616 --> 00:25:50,816
+[CYRUS] So it's not a luxury at this point.
+
+408
+00:25:50,816 --> 00:25:56,350
+[JEFF] It's infrastructure. That's the shift that happens in the eighteen fifties. It's not "rich people
+
+409
+00:25:56,350 --> 00:26:01,883
+[JEFF] get ice delivered" — it's that if you live in an American city and you're
+
+410
+00:26:01,883 --> 00:26:07,416
+[JEFF] middle class, you expect an iceman at your door. He comes in the morning, you
+
+411
+00:26:07,416 --> 00:26:12,950
+[JEFF] tell him how big a block you need, he carries it on his back in
+
+412
+00:26:12,950 --> 00:26:18,483
+[JEFF] a leather apron and puts it in your icebox. You go about your day. The
+
+413
+00:26:18,483 --> 00:26:24,016
+[JEFF] iceman becomes as routine as the mail carrier.
+
+414
+00:26:24,016 --> 00:26:30,016
+[CYRUS] And on the Hudson River — that's where most of New York's ice comes from?
+
+415
+00:26:30,016 --> 00:26:34,616
+[JEFF] Most of it. Between Poughkeepsie and Albany, there are a hundred and thirty-five major ice
+
+416
+00:26:34,616 --> 00:26:39,216
+[JEFF] warehouses along the river. They harvest in winter, pack in sawdust, store in those massive
+
+417
+00:26:39,216 --> 00:26:43,816
+[JEFF] icehouses, and deliver through the summer. It's a remarkably sophisticated supply chain for the eighteen
+
+418
+00:26:43,816 --> 00:26:48,416
+[JEFF] hundreds.
+
+419
+00:26:48,416 --> 00:26:51,616
+[CYRUS] And all of it runs on one assumption.
+
+420
+00:26:51,616 --> 00:26:54,816
+[JEFF] All of it runs on one assumption. That winter will come. That the river will
+
+421
+00:26:54,816 --> 00:26:58,016
+[JEFF] freeze.
+
+422
+00:26:58,016 --> 00:27:02,950
+[CYRUS] So let me ask this as a business question, because it's the question I keep
+
+423
+00:27:02,950 --> 00:27:07,883
+[CYRUS] circling. What happens to a business whose entire supply chain is dependent on weather? Like
+
+424
+00:27:07,883 --> 00:27:12,816
+[CYRUS] — eventually, this has to break, right?
+
+425
+00:27:12,816 --> 00:27:18,350
+[JEFF] It breaks. And here's the thing — it breaks in exactly the way you'd expect,
+
+426
+00:27:18,350 --> 00:27:23,883
+[JEFF] which somehow doesn't make it less catastrophic when it happens. Let me tell you about
+
+427
+00:27:23,883 --> 00:27:29,416
+[JEFF] the winter of eighteen eighty-nine into eighteen ninety. Cyrus, I've been reading about the ice
+
+428
+00:27:29,416 --> 00:27:34,950
+[JEFF] trade for weeks now, and the Ice Famine of eighteen ninety is the detail I
+
+429
+00:27:34,950 --> 00:27:40,483
+[JEFF] could not get out of my head. Because it's not just a bad winter. It's
+
+430
+00:27:40,483 --> 00:27:46,016
+[JEFF] the moment the industry's whole premise gets exposed.
+
+431
+00:27:46,016 --> 00:27:46,816
+[CYRUS] What happened?
+
+432
+00:27:46,816 --> 00:27:52,016
+[JEFF] The winter of eighteen eighty-nine to eighteen ninety is one of the warmest on record.
+
+433
+00:27:52,016 --> 00:27:57,216
+[JEFF] Temperatures in January hit the highest ever recorded in some areas. And the Hudson River
+
+434
+00:27:57,216 --> 00:28:02,416
+[JEFF] — the backbone of New York's ice supply — doesn't freeze. The great ice fields
+
+435
+00:28:02,416 --> 00:28:07,616
+[JEFF] simply don't form. There's nothing to harvest.
+
+436
+00:28:07,616 --> 00:28:08,016
+[CYRUS] Nothing?
+
+437
+00:28:08,016 --> 00:28:13,716
+[JEFF] Nothing. The Knickerbocker Ice Company — New York's dominant supplier — scrambles. They try to
+
+438
+00:28:13,716 --> 00:28:19,416
+[JEFF] import ice from upstate, from further inland, eventually from Maine, where some ice has actually
+
+439
+00:28:19,416 --> 00:28:25,116
+[JEFF] formed. But the transportation costs are brutal, and Maine's supply can't come close to meeting
+
+440
+00:28:25,116 --> 00:28:30,816
+[JEFF] New York's appetite — which, remember, is three million tons per year.
+
+441
+00:28:30,816 --> 00:28:32,016
+[CYRUS] Three million tons.
+
+442
+00:28:32,016 --> 00:28:37,536
+[JEFF] Three million tons. That's what New York City consumes in a year. And the supply
+
+443
+00:28:37,536 --> 00:28:43,056
+[JEFF] collapses almost completely. The price of ice in New York goes to ten dollars a
+
+444
+00:28:43,056 --> 00:28:48,576
+[JEFF] ton. In Cincinnati, it hits twenty dollars a ton. A newspaper in Savannah — smugly,
+
+445
+00:28:48,576 --> 00:28:54,096
+[JEFF] I might add — runs an item noting that Georgia's ice prices are far lower:
+
+446
+00:28:54,096 --> 00:28:59,616
+[JEFF] five to seven fifty a ton, despite ninety-degree days.
+
+447
+00:28:59,616 --> 00:29:01,616
+[CYRUS] Why is Savannah doing fine?
+
+448
+00:29:01,616 --> 00:29:06,216
+[JEFF] Because Southern cities, facing warmer winters and more supply unreliability, have been quietly investing in
+
+449
+00:29:06,216 --> 00:29:10,816
+[JEFF] mechanical ice-making machines for years. The South is better prepared than the North — which
+
+450
+00:29:10,816 --> 00:29:15,416
+[JEFF] is a genuinely surreal sentence to write about any kind of technological infrastructure in eighteen
+
+451
+00:29:15,416 --> 00:29:20,016
+[JEFF] ninety.
+
+452
+00:29:20,016 --> 00:29:24,216
+[CYRUS] That's a great detail. The South, having spent decades with worse natural ice supply, actually
+
+453
+00:29:24,216 --> 00:29:28,416
+[CYRUS] ran toward the solution faster.
+
+454
+00:29:28,416 --> 00:29:33,856
+[JEFF] Right. They had to. And the irony doesn't land fully until you realize that this
+
+455
+00:29:33,856 --> 00:29:39,296
+[JEFF] is the moment the South has a structural advantage because they faced the problem first.
+
+456
+00:29:39,296 --> 00:29:44,736
+[JEFF] But here's the part of the famine that really gets me. The hardest hit are
+
+457
+00:29:44,736 --> 00:29:50,176
+[JEFF] not the wealthy families — they can absorb the price increase. The hardest hit are
+
+458
+00:29:50,176 --> 00:29:55,616
+[JEFF] the urban poor. People who bought ice the way they bought coal — by the
+
+459
+00:29:55,616 --> 00:30:01,056
+[JEFF] bucket, in small amounts, every day, at the worst margins. Those families are now paying
+
+460
+00:30:01,056 --> 00:30:06,496
+[JEFF] the highest price increases, in absolute terms, to protect their food. Hospitals start giving out
+
+461
+00:30:06,496 --> 00:30:11,936
+[JEFF] ice for free during heat waves. On at least one occasion, that leads to what
+
+462
+00:30:11,936 --> 00:30:17,376
+[JEFF] the newspapers describe as an ice riot — crowds fighting for limited supplies at distribution
+
+463
+00:30:17,376 --> 00:30:22,816
+[JEFF] points.
+
+464
+00:30:22,816 --> 00:30:24,016
+[CYRUS] An ice riot.
+
+465
+00:30:24,016 --> 00:30:28,016
+[JEFF] An ice riot. In New York City. In eighteen ninety. Because there isn't enough frozen
+
+466
+00:30:28,016 --> 00:30:32,016
+[JEFF] river water to go around.
+
+467
+00:30:32,016 --> 00:30:36,816
+[CYRUS] ... And ninety thousand workers in this industry. What happens to them?
+
+468
+00:30:36,816 --> 00:30:42,656
+[JEFF] This is the part of the story that kind of haunts me. Because I went
+
+469
+00:30:42,656 --> 00:30:48,496
+[JEFF] looking for that answer — what happened to the ninety thousand workers when the natural
+
+470
+00:30:48,496 --> 00:30:54,336
+[JEFF] ice trade collapses over the next few decades? And the honest answer is: we don't
+
+471
+00:30:54,336 --> 00:31:00,176
+[JEFF] really know. There are almost no accounts. No records of specific support programs. No organized
+
+472
+00:31:00,176 --> 00:31:06,016
+[JEFF] assistance. No newspaper features about displaced ice harvesters trying to find new work.
+
+473
+00:31:06,016 --> 00:31:06,416
+[CYRUS] Nothing?
+
+474
+00:31:06,416 --> 00:31:11,776
+[JEFF] Almost nothing. Because ice harvesting was mostly seasonal supplemental labor. Farmers in winter. River workers.
+
+475
+00:31:11,776 --> 00:31:17,136
+[JEFF] Brickyard guys who needed winter income. When the ice trade declined — and it declines
+
+476
+00:31:17,136 --> 00:31:22,496
+[JEFF] over forty years, not all at once — most of those people just... quietly lost
+
+477
+00:31:22,496 --> 00:31:27,856
+[JEFF] a piece of their income and went back to doing other things. There's no single
+
+478
+00:31:27,856 --> 00:31:33,216
+[JEFF] dramatic moment of displacement to write about.
+
+479
+00:31:33,216 --> 00:31:38,016
+[CYRUS] An entire workforce of ninety thousand people just disappears from the record.
+
+480
+00:31:38,016 --> 00:31:44,016
+[JEFF] We don't even know what happened to them. And the ice warehouses along the Hudson
+
+481
+00:31:44,016 --> 00:31:50,016
+[JEFF] — those great huge insulated buildings — most of them eventually just get abandoned. A
+
+482
+00:31:50,016 --> 00:31:56,016
+[JEFF] lot of them are destroyed by lightning. The communities that built their winter economy around
+
+483
+00:31:56,016 --> 00:32:02,016
+[JEFF] ice harvesting lose that piece of their livelihood over decades. And nobody writes it down.
+
+484
+00:32:02,016 --> 00:32:06,716
+[CYRUS] Okay. I want to make sure we give the resisters their due here, because I
+
+485
+00:32:06,716 --> 00:32:11,416
+[CYRUS] think the story of the ice trade is unusual. Most of the time, when we
+
+486
+00:32:11,416 --> 00:32:16,116
+[CYRUS] talk about resistance to a new technology, there's an incumbent fighting back. But Tudor's situation
+
+487
+00:32:16,116 --> 00:32:20,816
+[CYRUS] is different.
+
+488
+00:32:20,816 --> 00:32:25,716
+[JEFF] Yeah, you're right about that. Tudor's first wave of resistance is almost entirely conceptual. The
+
+489
+00:32:25,716 --> 00:32:30,616
+[JEFF] incumbent isn't an industry — it's a belief system. The ship captains who refused to
+
+490
+00:32:30,616 --> 00:32:35,516
+[JEFF] carry his cargo weren't protecting a business. They genuinely believed it was impossible. That's a
+
+491
+00:32:35,516 --> 00:32:40,416
+[JEFF] different kind of resistance.
+
+492
+00:32:40,416 --> 00:32:45,216
+[CYRUS] And in tropical markets, the consumers themselves — they're not rejecting something they had before.
+
+493
+00:32:45,216 --> 00:32:50,016
+[CYRUS] They're being asked to want something they've never experienced.
+
+494
+00:32:50,016 --> 00:32:55,816
+[JEFF] And that's actually the harder problem. You can argue with an incumbent. You can undercut
+
+495
+00:32:55,816 --> 00:33:01,616
+[JEFF] their price. You can show that your thing works and theirs doesn't. But how do
+
+496
+00:33:01,616 --> 00:33:07,416
+[JEFF] you argue someone into wanting something they've literally never tasted? Tudor's answer is: you don't
+
+497
+00:33:07,416 --> 00:33:13,216
+[JEFF] argue. You give it to them. You let the experience make the argument.
+
+498
+00:33:13,216 --> 00:33:18,416
+[CYRUS] Which is why the free ice to bartenders is such a genius move.
+
+499
+00:33:18,416 --> 00:33:24,016
+[JEFF] It's one of the great go-to-market strategies in business history, I think. He's not asking
+
+500
+00:33:24,016 --> 00:33:29,616
+[JEFF] "would you like to try cold drinks?" He's just making cold drinks exist. And then
+
+501
+00:33:29,616 --> 00:33:35,216
+[JEFF] the question of whether to go back to warm becomes almost unthinkable.
+
+502
+00:33:35,216 --> 00:33:38,816
+[CYRUS] There's something almost uncomfortable about it, right? Like — it's brilliant, but it's also... he's
+
+503
+00:33:38,816 --> 00:33:42,416
+[CYRUS] engineering a dependency.
+
+504
+00:33:42,416 --> 00:33:48,016
+[JEFF] He absolutely is. And he knows it. He writes it down explicitly: once you've tasted
+
+505
+00:33:48,016 --> 00:33:53,616
+[JEFF] cold, you can't want warm. He's not discovering a preference — he's installing one. And
+
+506
+00:33:53,616 --> 00:33:59,216
+[JEFF] he knows that once installed, it can't be uninstalled. That's the power of it. That's
+
+507
+00:33:59,216 --> 00:34:04,816
+[JEFF] also what makes it, over time, the world's problem. Because you can't un-want cold once
+
+508
+00:34:04,816 --> 00:34:10,416
+[JEFF] you've tasted it. But you can run out of winter.
+
+509
+00:34:10,416 --> 00:34:14,016
+[CYRUS] By the time the famine hits in eighteen ninety, what does the industry actually look
+
+510
+00:34:14,016 --> 00:34:17,616
+[CYRUS] like on paper?
+
+511
+00:34:17,616 --> 00:34:22,816
+[JEFF] At the moment of peak — late eighteen eighties — it's enormous. Ninety thousand workers,
+
+512
+00:34:22,816 --> 00:34:28,016
+[JEFF] twenty-five thousand horses. But underneath that scale, there are cracks that everyone who's paying attention
+
+513
+00:34:28,016 --> 00:34:33,216
+[JEFF] can see. First: the supply is purely weather-dependent. You can insulate against summer losses with
+
+514
+00:34:33,216 --> 00:34:38,416
+[JEFF] good icehouses. You cannot insulate against a warm January. Second, and this is the one
+
+515
+00:34:38,416 --> 00:34:43,616
+[JEFF] that kills the industry's moral argument just as much as warm winters: the ice itself
+
+516
+00:34:43,616 --> 00:34:48,816
+[JEFF] is getting dirty.
+
+517
+00:34:48,816 --> 00:34:50,816
+[CYRUS] What do you mean dirty?
+
+518
+00:34:50,816 --> 00:34:56,302
+[JEFF] The Hudson River — the primary source for New York's ice — is getting fouled
+
+519
+00:34:56,302 --> 00:35:01,788
+[JEFF] with industrial waste. Sewage. Factory runoff. Through the eighteen eighties and nineties, the quality of
+
+520
+00:35:01,788 --> 00:35:07,274
+[JEFF] the natural ice is genuinely declining. The industry's whole marketing position had been "natural ice
+
+521
+00:35:07,274 --> 00:35:12,759
+[JEFF] is purer than anything a machine could make." That argument requires the ice to actually
+
+522
+00:35:12,759 --> 00:35:18,245
+[JEFF] be pure. By nineteen oh seven, New York specialists are declaring Hudson River ice potentially
+
+523
+00:35:18,245 --> 00:35:23,731
+[JEFF] contaminated with typhoid germs. In nineteen oh nine, the state Department of Health condemns forty-one
+
+524
+00:35:23,731 --> 00:35:29,216
+[JEFF] icehouses around Albany, Troy, and Rensselaer.
+
+525
+00:35:29,216 --> 00:35:32,616
+[CYRUS] So the industry spent decades attacking mechanical refrigeration as "unnatural." And they ended up selling
+
+526
+00:35:32,616 --> 00:35:36,016
+[CYRUS] typhoid ice.
+
+527
+00:35:36,016 --> 00:35:41,883
+[JEFF] That's the irony. The thing that was supposed to be the argument for natural ice
+
+528
+00:35:41,883 --> 00:35:47,750
+[JEFF] — its purity — becomes the argument against it. And by the time that happens,
+
+529
+00:35:47,750 --> 00:35:53,616
+[JEFF] there's an alternative. The famines of eighteen eighty and eighteen ninety don't kill the industry
+
+530
+00:35:53,616 --> 00:35:59,483
+[JEFF] overnight. The industry dies slowly over the next thirty years. But those warm winters are
+
+531
+00:35:59,483 --> 00:36:05,350
+[JEFF] the diagnosis. They're the moment the world discovers that it has built an addiction —
+
+532
+00:36:05,350 --> 00:36:11,216
+[JEFF] a real, deep, civilization-level need for cold — on something it cannot control.
+
+533
+00:36:11,216 --> 00:36:14,016
+[CYRUS] And that's the bridge to Wave Two.
+
+534
+00:36:14,016 --> 00:36:19,916
+[JEFF] That's exactly the bridge. The world now expects cold. Two-thirds of American urban households depend
+
+535
+00:36:19,916 --> 00:36:25,816
+[JEFF] on daily ice. But nature can't be trusted to supply it on schedule. The ice
+
+536
+00:36:25,816 --> 00:36:31,716
+[JEFF] itself is becoming contaminated. Someone needs to build a machine — a real machine —
+
+537
+00:36:31,716 --> 00:36:37,616
+[JEFF] that makes cold on demand. Whatever the weather. Whatever the season. Whatever the river.
+
+538
+00:36:37,616 --> 00:36:41,016
+[CYRUS] And there's someone who tried, right? Who actually built that machine — and got destroyed
+
+539
+00:36:41,016 --> 00:36:44,416
+[CYRUS] for it.
+
+540
+00:36:44,416 --> 00:36:50,416
+[JEFF] There's someone who tried and built it and got destroyed for it. His name was
+
+541
+00:36:50,416 --> 00:36:56,416
+[JEFF] John Gorrie. He was a doctor in Florida. And the natural ice industry, at the
+
+542
+00:36:56,416 --> 00:37:02,416
+[JEFF] height of its power, saw him coming and decided to make an example of him.
+
+543
+00:37:02,416 --> 00:37:07,016
+[CYRUS] We'll get to Gorrie in a minute. But first — before we leave Wave One
+
+544
+00:37:07,016 --> 00:37:11,616
+[CYRUS] entirely — I want to land this. Tudor dies worth two hundred million dollars, equivalent.
+
+545
+00:37:11,616 --> 00:37:16,216
+[CYRUS] He goes from the Ice Fool to the Ice King. And what does he leave
+
+546
+00:37:16,216 --> 00:37:20,816
+[CYRUS] behind?
+
+547
+00:37:20,816 --> 00:37:26,416
+[JEFF] He leaves behind an expectation. That is his real legacy. Not the ice. Not the
+
+548
+00:37:26,416 --> 00:37:32,016
+[JEFF] warehouses. Not the ships. He leaves behind a world that believes cold is a feature
+
+549
+00:37:32,016 --> 00:37:37,616
+[JEFF] of civilized life. Bartenders know to chill drinks. Households know to expect a delivery. Hotels
+
+550
+00:37:37,616 --> 00:37:43,216
+[JEFF] know to have an icebox. Restaurants know that ice in a glass is not a
+
+551
+00:37:43,216 --> 00:37:48,816
+[JEFF] novelty — it's the minimum standard. He manufactured a desire that had not existed before
+
+552
+00:37:48,816 --> 00:37:54,416
+[JEFF] him. And once manufactured, that desire could never be undone. The question of who could
+
+553
+00:37:54,416 --> 00:38:00,016
+[JEFF] actually satisfy it — reliably, at scale, on demand, regardless of the weather — that
+
+554
+00:38:00,016 --> 00:38:05,616
+[JEFF] becomes the story of the next century.
+
+555
+00:38:05,616 --> 00:38:08,016
+[CYRUS] That's the road into Wave Two.
+
+556
+00:38:08,016 --> 00:38:10,416
+[JEFF] That's the road into Wave Two.
+
+557
+00:24:54,771 --> 00:24:58,371
+[CYRUS] So Jeff — you ended Wave One with the ice industry on thin ice. Pun
+
+558
+00:24:58,371 --> 00:25:01,971
+[CYRUS] very much intended.
+
+559
+00:25:01,971 --> 00:25:08,171
+[JEFF] Yeah. The famine of eighteen ninety really was the moment the whole thing cracked. Ninety
+
+560
+00:25:08,171 --> 00:25:14,371
+[JEFF] thousand workers. An entire economy built on winter. And then winter just... didn't show up.
+
+561
+00:25:14,371 --> 00:25:19,411
+[CYRUS] And that's exactly where my part of this story picks up. Because what happens next
+
+562
+00:25:19,411 --> 00:25:24,451
+[CYRUS] is fascinating, right? The world has now been addicted to cold. Tudor did that. But
+
+563
+00:25:24,451 --> 00:25:29,491
+[CYRUS] the supply is unreliable. The rivers are getting filthy. And somewhere out there, engineers are
+
+564
+00:25:29,491 --> 00:25:34,531
+[CYRUS] asking the obvious question: why does cold have to come from nature? Why can't we
+
+565
+00:25:34,531 --> 00:25:39,571
+[CYRUS] just make it?
+
+566
+00:25:39,571 --> 00:25:43,971
+[JEFF] Right? Like, we make heat whenever we want. Why not cold?
+
+567
+00:25:43,971 --> 00:25:49,571
+[CYRUS] Exactly. And the answer to that question turns out to be one of the most
+
+568
+00:25:49,571 --> 00:25:55,171
+[CYRUS] dramatic — and honestly, one of the most tragic — stories in this whole history.
+
+569
+00:25:55,171 --> 00:26:00,771
+[CYRUS] Because the person who actually figured it out first? He didn't get rich. He didn't
+
+570
+00:26:00,771 --> 00:26:06,371
+[CYRUS] get famous. He got destroyed. And I want to start there.
+
+571
+00:26:06,371 --> 00:26:07,571
+[JEFF] Set it up.
+
+572
+00:26:07,571 --> 00:26:13,491
+[CYRUS] So picture Apalachicola, Florida. Eighteen forties. It's a small city, but it's a prosperous one
+
+573
+00:26:13,491 --> 00:26:19,411
+[CYRUS] — at that point, the third-largest port on the Gulf Coast. Cotton is moving through
+
+574
+00:26:19,411 --> 00:26:25,331
+[CYRUS] this town. And the most respected man in Apalachicola is a physician named John Gorrie.
+
+575
+00:26:25,331 --> 00:26:31,251
+[CYRUS] Doctor Gorrie is not just a doctor. He's the postmaster. He's on the city council.
+
+576
+00:26:31,251 --> 00:26:37,171
+[CYRUS] He's a bank director. If Apalachicola had a mayor's table, Gorrie was at it.
+
+577
+00:26:37,171 --> 00:26:41,171
+[JEFF] I love this setup. Pillar of the community. Completely established.
+
+578
+00:26:41,171 --> 00:26:47,171
+[CYRUS] Completely established. And Apalachicola, like every Gulf Coast city in the eighteen forties, gets hammered
+
+579
+00:26:47,171 --> 00:26:53,171
+[CYRUS] every summer by yellow fever and malaria. And Gorrie — this is the thing that
+
+580
+00:26:53,171 --> 00:26:59,171
+[CYRUS] makes his story so specific — Gorrie becomes convinced that cold air can cure tropical
+
+581
+00:26:59,171 --> 00:27:05,171
+[CYRUS] disease. This is pre-germ-theory. The prevailing idea is that bad air causes illness. And Gorrie
+
+582
+00:27:05,171 --> 00:27:11,171
+[CYRUS] takes that framework and builds his own version: cool the air, you cool the sickness.
+
+583
+00:27:11,171 --> 00:27:16,771
+[JEFF] So he's not just tinkering with a machine. He's trying to save his patients.
+
+584
+00:27:16,771 --> 00:27:22,304
+[CYRUS] He's trying to save his patients. That's the whole story in one line. He starts
+
+585
+00:27:22,304 --> 00:27:27,837
+[CYRUS] by hanging basins of ice from the ceilings of hospital rooms — letting cold air
+
+586
+00:27:27,837 --> 00:27:33,370
+[CYRUS] sink down over feverish patients. It actually works, in the sense that it makes them
+
+587
+00:27:33,370 --> 00:27:38,904
+[CYRUS] more comfortable. But ice in Florida is expensive. It has to be shipped from the
+
+588
+00:27:38,904 --> 00:27:44,437
+[CYRUS] North. And it's unreliable. And so Gorrie starts asking: what if we didn't need natural
+
+589
+00:27:44,437 --> 00:27:49,970
+[CYRUS] ice? What if you could make it mechanically?
+
+590
+00:27:49,970 --> 00:27:55,570
+[JEFF] Which at the time would have sounded like saying, I'm going to bottle lightning.
+
+591
+00:27:55,570 --> 00:28:00,270
+[CYRUS] Right? I'm going to bottle lightning. But here's what Gorrie figures out. And this is
+
+592
+00:28:00,270 --> 00:28:04,970
+[CYRUS] the thing I want to make sure we explain properly — because the principle he
+
+593
+00:28:04,970 --> 00:28:09,670
+[CYRUS] discovers is the principle that every refrigerator and every air conditioner on Earth still runs
+
+594
+00:28:09,670 --> 00:28:14,370
+[CYRUS] on today.
+
+595
+00:28:14,370 --> 00:28:18,970
+[JEFF] Okay — actually, before you get into Gorrie's machine, I want to make sure I
+
+596
+00:28:18,970 --> 00:28:23,570
+[JEFF] have this right myself, because I'll admit the word "compression" gets thrown around and I
+
+597
+00:28:23,570 --> 00:28:28,170
+[JEFF] don't always have a clear picture of what's actually happening. What is the actual mechanism
+
+598
+00:28:28,170 --> 00:28:32,770
+[JEFF] here?
+
+599
+00:28:32,770 --> 00:28:37,810
+[CYRUS] So here's the thing I couldn't wrap my head around until I actually read how
+
+600
+00:28:37,810 --> 00:28:42,850
+[CYRUS] this works. And it genuinely surprised me — like, the mental model I had was
+
+601
+00:28:42,850 --> 00:28:47,890
+[CYRUS] completely wrong. Because a refrigerator doesn't create cold. That's the thing that flips it. It
+
+602
+00:28:47,890 --> 00:28:52,930
+[CYRUS] doesn't make cold — it moves heat. It pumps heat from inside the box to
+
+603
+00:28:52,930 --> 00:28:57,970
+[CYRUS] outside the box.
+
+604
+00:28:57,970 --> 00:28:59,970
+[JEFF] Okay. Walk me through that.
+
+605
+00:28:59,970 --> 00:29:05,370
+[CYRUS] The best analogy I've seen for this is sweating. Like, think about what happens when
+
+606
+00:29:05,370 --> 00:29:10,770
+[CYRUS] you sweat on a hot day. The sweat evaporates off your skin — and when
+
+607
+00:29:10,770 --> 00:29:16,170
+[CYRUS] it evaporates, it absorbs heat from your body. That's why you feel cooler. Your body
+
+608
+00:29:16,170 --> 00:29:21,570
+[CYRUS] is, like, literally losing heat to the evaporating moisture.
+
+609
+00:29:21,570 --> 00:29:26,170
+[JEFF] Right. Which is why dry heat feels different from humid heat — in humidity the
+
+610
+00:29:26,170 --> 00:29:30,770
+[JEFF] sweat can't evaporate so you can't cool down.
+
+611
+00:29:30,770 --> 00:29:36,199
+[CYRUS] Exactly. So a refrigerator does the same thing, but with a special fluid in a
+
+612
+00:29:36,199 --> 00:29:41,628
+[CYRUS] closed loop. The fluid — the refrigerant — evaporates inside the fridge, absorbing heat from
+
+613
+00:29:41,628 --> 00:29:47,056
+[CYRUS] your food. The inside gets cooler. Then a compressor squeezes the gas back down, heats
+
+614
+00:29:47,056 --> 00:29:52,485
+[CYRUS] it up, and the hot gas flows through coils on the outside of the machine
+
+615
+00:29:52,485 --> 00:29:57,913
+[CYRUS] — like, those coils on the back of your refrigerator — and it releases the
+
+616
+00:29:57,913 --> 00:30:03,342
+[CYRUS] heat into your kitchen. Then the gas condenses back into liquid, flows back inside, and
+
+617
+00:30:03,342 --> 00:30:08,770
+[CYRUS] the whole cycle starts again.
+
+618
+00:30:08,770 --> 00:30:13,970
+[JEFF] So the heat that was inside my refrigerator is now... in my kitchen.
+
+619
+00:30:13,970 --> 00:30:19,770
+[CYRUS] It is literally in your kitchen. Your refrigerator is warming your kitchen slightly in order
+
+620
+00:30:19,770 --> 00:30:25,570
+[CYRUS] to keep your food cold. It's just moving heat from one place to another.
+
+621
+00:30:25,570 --> 00:30:29,770
+[JEFF] But wait — if that's the whole mechanism, why didn't someone build this in like
+
+622
+00:30:29,770 --> 00:30:33,970
+[JEFF] seventeen fifty? What's the hard part?
+
+623
+00:30:33,970 --> 00:30:39,037
+[CYRUS] That's exactly the question. And the answer is: the refrigerant. The fluid doing the work.
+
+624
+00:30:39,037 --> 00:30:44,104
+[CYRUS] Because you need something that, like, evaporates at the right temperature, that can be compressed
+
+625
+00:30:44,104 --> 00:30:49,170
+[CYRUS] back into a liquid, and that can be cycled through a machine reliably. And in
+
+626
+00:30:49,170 --> 00:30:54,237
+[CYRUS] the eighteen forties, the options were ammonia, sulfur dioxide, and methyl chloride. All of which
+
+627
+00:30:54,237 --> 00:30:59,304
+[CYRUS] work. All of which are toxic. All of which can kill a family if they
+
+628
+00:30:59,304 --> 00:31:04,370
+[CYRUS] leak.
+
+629
+00:31:04,370 --> 00:31:08,770
+[JEFF] So the machine is technically sound. The chemistry is the problem.
+
+630
+00:31:08,770 --> 00:31:13,970
+[CYRUS] The machine is sound. The chemistry is the problem. And we're going to come back
+
+631
+00:31:13,970 --> 00:31:19,170
+[CYRUS] to that, because it's the bridge to Wave Three. But Gorrie doesn't know any of
+
+632
+00:31:19,170 --> 00:31:24,370
+[CYRUS] this yet. He just knows that if you compress air, release it rapidly, the expansion
+
+633
+00:31:24,370 --> 00:31:29,570
+[CYRUS] produces intense cold. He builds a machine. It works. He makes ice, mechanically, in Apalachicola,
+
+634
+00:31:29,570 --> 00:31:34,770
+[CYRUS] Florida, in the eighteen forties.
+
+635
+00:31:34,770 --> 00:31:35,970
+[JEFF] That's genuinely extraordinary.
+
+636
+00:31:35,970 --> 00:31:41,570
+[CYRUS] It's extraordinary. Okay — here is the story I could not get out of my
+
+637
+00:31:41,570 --> 00:31:47,170
+[CYRUS] head while I was reading about this. Because what happens next is one of the
+
+638
+00:31:47,170 --> 00:31:52,770
+[CYRUS] most brutal things in this whole history. On May sixth, eighteen fifty-one, Gorrie receives U.S.
+
+639
+00:31:52,770 --> 00:31:58,370
+[CYRUS] Patent number eight thousand eighty for his ice-making machine. It's a genuine triumph. He demonstrates
+
+640
+00:31:58,370 --> 00:32:03,970
+[CYRUS] it publicly. He's made ice mechanically. He's proved it works.
+
+641
+00:32:03,970 --> 00:32:05,570
+[JEFF] So what goes wrong?
+
+642
+00:32:05,570 --> 00:32:10,704
+[CYRUS] His financial backer dies. That same year. Eighteen fifty-one. The year of the patent. And
+
+643
+00:32:10,704 --> 00:32:15,837
+[CYRUS] the northern ice industry — the ice kings and their successors, the people building the
+
+644
+00:32:15,837 --> 00:32:20,970
+[CYRUS] empire that Tudor started — they see Gorrie's machine as an existential threat. And a
+
+645
+00:32:20,970 --> 00:32:26,104
+[CYRUS] New York newspaper runs a line that became notorious. [deliberate] "There is a crank down
+
+646
+00:32:26,104 --> 00:32:31,237
+[CYRUS] in Apalachicola, Florida, that thinks he can make ice by his machine as good as
+
+647
+00:32:31,237 --> 00:32:36,370
+[CYRUS] God Almighty."
+
+648
+00:32:36,370 --> 00:32:39,770
+[JEFF] He proved it. He made ice in Florida. In the eighteen forties. That's not a
+
+649
+00:32:39,770 --> 00:32:43,170
+[JEFF] small thing.
+
+650
+00:32:43,170 --> 00:32:47,837
+[CYRUS] Not "this technology is interesting but needs development." Not "let's see if the economics work."
+
+651
+00:32:47,837 --> 00:32:52,504
+[CYRUS] "There is a crank." "As good as God Almighty." That's the framing. That this man
+
+652
+00:32:52,504 --> 00:32:57,170
+[CYRUS] is both delusional and blasphemous.
+
+653
+00:32:57,170 --> 00:33:03,170
+[JEFF] And with the backer gone, no new investor is going to step into that headwind.
+
+654
+00:33:03,170 --> 00:33:08,904
+[CYRUS] No one will touch it. Gorrie suspects — and multiple sources reference this suspicion, though
+
+655
+00:33:08,904 --> 00:33:14,637
+[CYRUS] there's no definitive proof — that the ice industry itself was behind the press campaign.
+
+656
+00:33:14,637 --> 00:33:20,370
+[CYRUS] That the northern ice syndicate orchestrated a smear campaign to protect their monopoly.
+
+657
+00:33:20,370 --> 00:33:25,970
+[JEFF] I mean, whether or not he could prove it, the effect was the same.
+
+658
+00:33:25,970 --> 00:33:31,437
+[CYRUS] The effect was the same. The press attacks land. The backer is dead. Potential investors
+
+659
+00:33:31,437 --> 00:33:36,904
+[CYRUS] stay away. Gorrie's financial situation collapses. He's sued by a London debt collector for over
+
+660
+00:33:36,904 --> 00:33:42,370
+[CYRUS] six thousand five hundred dollars in unpaid interest — which is a crushing amount at
+
+661
+00:33:42,370 --> 00:33:47,837
+[CYRUS] the time. And Gorrie, the most respected man in Apalachicola — the physician, the postmaster,
+
+662
+00:33:47,837 --> 00:33:53,304
+[CYRUS] the bank director — suffers what his biographers describe as a nervous breakdown from which
+
+663
+00:33:53,304 --> 00:33:58,770
+[CYRUS] he never recovered. He retreats into seclusion.
+
+664
+00:33:58,770 --> 00:34:00,370
+[JEFF] At fifty-one years old.
+
+665
+00:34:00,370 --> 00:34:06,120
+[CYRUS] He dies on June twenty-ninth, eighteen fifty-five. In seclusion, in Apalachicola. At fifty-one. Survived by
+
+666
+00:34:06,120 --> 00:34:11,870
+[CYRUS] his wife Caroline and two children. He never profits from his invention. He is buried
+
+667
+00:34:11,870 --> 00:34:17,620
+[CYRUS] in Magnolia Cemetery. And here is the part that I keep coming back to: today,
+
+668
+00:34:17,620 --> 00:34:23,370
+[CYRUS] John Gorrie is one of Florida's two representatives in the National Statuary Hall at the
+
+669
+00:34:23,370 --> 00:34:29,120
+[CYRUS] United States Capitol. His statue stands in Washington. There's a museum in Apalachicola with a
+
+670
+00:34:29,120 --> 00:34:34,870
+[CYRUS] replica of his machine. The basic principle he invented — compress a gas, expand it,
+
+671
+00:34:34,870 --> 00:34:40,620
+[CYRUS] produce cold — powers a three hundred billion dollar global industry. He was right. He
+
+672
+00:34:40,620 --> 00:34:46,370
+[CYRUS] was completely right. And the world destroyed him for it.
+
+673
+00:34:46,370 --> 00:34:51,170
+[JEFF] I think there's a real interesting intersection here with Tudor's story. Because Tudor also got
+
+674
+00:34:51,170 --> 00:34:55,970
+[JEFF] mocked. The Boston Gazette, "this will not prove a slippery speculation." He went to debtor's
+
+675
+00:34:55,970 --> 00:35:00,770
+[JEFF] prison. But Tudor had enough resources to keep going, long enough to win. Gorrie didn't
+
+676
+00:35:00,770 --> 00:35:05,570
+[JEFF] have that runway.
+
+677
+00:35:05,570 --> 00:35:11,470
+[CYRUS] And I'd add — Tudor had a commercial product anyone could understand. Cold drinks. The
+
+678
+00:35:11,470 --> 00:35:17,370
+[CYRUS] value proposition was immediate. Gorrie's machine was competing against an existing industry with enormous political
+
+679
+00:35:17,370 --> 00:35:23,270
+[CYRUS] and financial power. He needed investors at exactly the moment the press was calling him
+
+680
+00:35:23,270 --> 00:35:29,170
+[CYRUS] a crank. The deck was stacked in a way that wasn't true for Tudor.
+
+681
+00:35:29,170 --> 00:35:34,290
+[JEFF] Yeah, and look — I don't want to romanticize the persistence angle too much. There's
+
+682
+00:35:34,290 --> 00:35:39,410
+[JEFF] a real survivorship bias in that framing. Plenty of inventors who were equally persistent, equally
+
+683
+00:35:39,410 --> 00:35:44,530
+[JEFF] right, died broke and unknown and nobody built a museum for them. The thing that's
+
+684
+00:35:44,530 --> 00:35:49,650
+[JEFF] tragic about Gorrie isn't just that he failed — it's that he was provably right,
+
+685
+00:35:49,650 --> 00:35:54,770
+[JEFF] and he still failed.
+
+686
+00:35:54,770 --> 00:35:59,970
+[CYRUS] A hundred percent. He was right. The machine worked. The patent was real. And the
+
+687
+00:35:59,970 --> 00:36:05,170
+[CYRUS] mechanism that destroyed him wasn't a market failing to recognize value — it was an
+
+688
+00:36:05,170 --> 00:36:10,370
+[CYRUS] incumbent industry actively suppressing it. That's a different thing.
+
+689
+00:36:10,370 --> 00:36:15,970
+[JEFF] So what happens after Gorrie? Who finally figures out how to make this commercial?
+
+690
+00:36:15,970 --> 00:36:21,628
+[CYRUS] So here's where the story gets interesting — and this is the thing that I
+
+691
+00:36:21,628 --> 00:36:27,285
+[CYRUS] think is the key to how industrial technology actually diffuses. Because what Gorrie got wrong
+
+692
+00:36:27,285 --> 00:36:32,942
+[CYRUS] wasn't the technology. What he got wrong was the market. He was trying to convince
+
+693
+00:36:32,942 --> 00:36:38,599
+[CYRUS] the world that manufactured cold was better than natural ice. And that's a really hard
+
+694
+00:36:38,599 --> 00:36:44,256
+[CYRUS] sell in eighteen fifty-one. But twenty years later, a German professor of engineering named Carl
+
+695
+00:36:44,256 --> 00:36:49,913
+[CYRUS] von Linde figures out who actually needs cold so badly they'll pay for a machine
+
+696
+00:36:49,913 --> 00:36:55,570
+[CYRUS] — and it's not the general public. It's breweries.
+
+697
+00:36:55,570 --> 00:36:55,970
+[JEFF] Breweries.
+
+698
+00:36:55,970 --> 00:37:00,930
+[CYRUS] Specifically Bavarian breweries. And here's why. Lager — the cold-fermented beer that would eventually dominate
+
+699
+00:37:00,930 --> 00:37:05,890
+[CYRUS] global beer culture — lager requires cold fermentation. Consistent, reliable cold. And under Bavarian law
+
+700
+00:37:05,890 --> 00:37:10,850
+[CYRUS] at the time, brewing was literally forbidden between April twenty-third and September twenty-ninth because warm
+
+701
+00:37:10,850 --> 00:37:15,810
+[CYRUS] summer fermentation produced inferior, often unsafe beer. You couldn't make lager in summer. The law
+
+702
+00:37:15,810 --> 00:37:20,770
+[CYRUS] said so.
+
+703
+00:37:20,770 --> 00:37:24,570
+[JEFF] So there's a law that creates a pain point, and the pain point is perfectly
+
+704
+00:37:24,570 --> 00:37:28,370
+[JEFF] calibrated for Linde's machine.
+
+705
+00:37:28,370 --> 00:37:34,104
+[CYRUS] It's a perfect fit. Linde sells his first ammonia refrigerator to the Spaten Brewery in
+
+706
+00:37:34,104 --> 00:37:39,837
+[CYRUS] Munich in eighteen seventy-three. And from there — I love this number — by eighteen
+
+707
+00:37:39,837 --> 00:37:45,570
+[CYRUS] ninety, he has sold seven hundred and forty-seven machines. Almost all to breweries.
+
+708
+00:37:45,570 --> 00:37:48,370
+[JEFF] Seven forty-seven. That's a very specific number.
+
+709
+00:37:48,370 --> 00:37:53,637
+[CYRUS] Right? It's so specific it's obviously from the actual records. Seven hundred and forty-seven machines
+
+710
+00:37:53,637 --> 00:37:58,904
+[CYRUS] in seventeen years. And he founds a company in eighteen seventy-nine — Linde AG —
+
+711
+00:37:58,904 --> 00:38:04,170
+[CYRUS] that is still operating today as Linde plc, one of the largest industrial gas companies
+
+712
+00:38:04,170 --> 00:38:09,437
+[CYRUS] in the world. Linde didn't try to change public psychology. He found the one market
+
+713
+00:38:09,437 --> 00:38:14,704
+[CYRUS] where the pain was specific, measurable, and had no other solution. And he sold them
+
+714
+00:38:14,704 --> 00:38:19,970
+[CYRUS] the solution. That's it.
+
+715
+00:38:19,970 --> 00:38:24,770
+[JEFF] Yeah, I think that's a really important point. Gorrie was trying to change minds. Linde
+
+716
+00:38:24,770 --> 00:38:29,570
+[JEFF] was solving a problem people already knew they had.
+
+717
+00:38:29,570 --> 00:38:34,570
+[CYRUS] Distribution versus technology. You've said this before, right? The technology doesn't win just because it
+
+718
+00:38:34,570 --> 00:38:39,570
+[CYRUS] works. It wins when it finds the right entry point.
+
+719
+00:38:39,570 --> 00:38:44,770
+[JEFF] Product, product, product. And in this case: market fit, market fit, market fit.
+
+720
+00:38:44,770 --> 00:38:50,270
+[CYRUS] Exactly. So by the eighteen eighties, industrial refrigeration is real. Breweries have it. Cold-storage warehouses
+
+721
+00:38:50,270 --> 00:38:55,770
+[CYRUS] start appearing in the eighteen eighties — the first large-scale food preservation infrastructure that's not
+
+722
+00:38:55,770 --> 00:39:01,270
+[CYRUS] ice-dependent. And then this guy from Cape Cod shows up in Chicago with an idea
+
+723
+00:39:01,270 --> 00:39:06,770
+[CYRUS] that's going to blow up the entire American railroad system.
+
+724
+00:39:06,770 --> 00:39:07,570
+[JEFF] Gustavus Swift.
+
+725
+00:39:07,570 --> 00:39:13,170
+[CYRUS] Gustavus Swift. Born eighteen thirty-nine. Starts buying cattle at age fourteen on Cape Cod. Moves
+
+726
+00:39:13,170 --> 00:39:18,770
+[CYRUS] to Chicago. And Swift has an insight that now seems completely obvious — but in
+
+727
+00:39:18,770 --> 00:39:24,370
+[CYRUS] eighteen seventy-eight, it was genuinely radical. Like, he looks at the American cattle trade and
+
+728
+00:39:24,370 --> 00:39:29,970
+[CYRUS] sees an enormous, systematic waste. Sixty percent of a live cow is waste — bones,
+
+729
+00:39:29,970 --> 00:39:35,570
+[CYRUS] organs, hide. And the railroads were shipping all of it. Live cattle from the western
+
+730
+00:39:35,570 --> 00:39:41,170
+[CYRUS] ranges to Chicago, then live cattle again by railroad from Chicago to Eastern cities, so
+
+731
+00:39:41,170 --> 00:39:46,770
+[CYRUS] local butchers could do the slaughtering. Every trip: sixty percent of the cargo is stuff
+
+732
+00:39:46,770 --> 00:39:52,370
+[CYRUS] that's going to be thrown away. Right?
+
+733
+00:39:52,370 --> 00:39:55,970
+[JEFF] Which is absurd when you say it out loud.
+
+734
+00:39:55,970 --> 00:40:01,770
+[CYRUS] It's absurd. So Swift's idea: slaughter the animal in Chicago. Ship only the dressed beef
+
+735
+00:40:01,770 --> 00:40:07,570
+[CYRUS] — the forty percent that's actually edible. You save enormously on freight. He runs the
+
+736
+00:40:07,570 --> 00:40:13,370
+[CYRUS] numbers: Swift can sell dressed beef seventy-five cents to a dollar cheaper per hundred pounds
+
+737
+00:40:13,370 --> 00:40:19,170
+[CYRUS] than a local butcher selling meat slaughtered from live cattle shipped by rail.
+
+738
+00:40:19,170 --> 00:40:22,370
+[JEFF] That's not a rounding error. That's not a slight efficiency improvement. That's a structural cost
+
+739
+00:40:22,370 --> 00:40:25,570
+[JEFF] advantage.
+
+740
+00:40:25,570 --> 00:40:31,342
+[CYRUS] That's a fundamental disruption of the economics. But — and here's the thing — to
+
+741
+00:40:31,342 --> 00:40:37,113
+[CYRUS] do this, you need refrigerated railroad cars. You need to keep that meat cold on
+
+742
+00:40:37,113 --> 00:40:42,885
+[CYRUS] the journey from Chicago to Boston. So in eighteen seventy-eight, Swift hires an engineer named
+
+743
+00:40:42,885 --> 00:40:48,656
+[CYRUS] Andrew Chase to design a practical refrigerated railcar. And Chase's solution is actually ingenious: vertical
+
+744
+00:40:48,656 --> 00:40:54,428
+[CYRUS] hanging racks for the carcasses, with ice cooling from bunkers in the ceiling. Cold air
+
+745
+00:40:54,428 --> 00:41:00,199
+[CYRUS] sinks naturally — by gravity — over the hanging meat. It circulates evenly. No mechanical
+
+746
+00:41:00,199 --> 00:41:05,970
+[CYRUS] assistance needed. You re-ice the cars at stations along the route.
+
+747
+00:41:05,970 --> 00:41:08,770
+[JEFF] So the cooling system is basically passive.
+
+748
+00:41:08,770 --> 00:41:13,970
+[CYRUS] Passive gravity-fed cooling. Simple. Reliable. And Swift goes to every major American railroad and asks
+
+749
+00:41:13,970 --> 00:41:19,170
+[CYRUS] them to carry his refrigerated cars. Every single one says no.
+
+750
+00:41:19,170 --> 00:41:21,170
+[JEFF] Of course they do.
+
+751
+00:41:21,170 --> 00:41:26,370
+[CYRUS] Of course they do. Because think about it from the railroads' perspective — they have
+
+752
+00:41:26,370 --> 00:41:31,570
+[CYRUS] invested, like, millions in live-cattle infrastructure. Stock cars specially designed for animals. Animal pens and
+
+753
+00:41:31,570 --> 00:41:36,770
+[CYRUS] feeding stations along the entire route. The whole ecosystem is built around moving living cattle.
+
+754
+00:41:36,770 --> 00:41:41,970
+[CYRUS] If dressed beef wins, all of that becomes worthless. They'd be writing off their own
+
+755
+00:41:41,970 --> 00:41:47,170
+[CYRUS] investments. So they form what amounts to a cartel against Swift. We will not carry
+
+756
+00:41:47,170 --> 00:41:52,370
+[CYRUS] your refrigerated cars.
+
+757
+00:41:52,370 --> 00:41:55,570
+[JEFF] So the question is what Swift does next.
+
+758
+00:41:55,570 --> 00:42:01,104
+[CYRUS] And this is the part I love. Because Swift doesn't fight the cartel. He goes
+
+759
+00:42:01,104 --> 00:42:06,637
+[CYRUS] around it. He finds one railroad that had never invested heavily in live-cattle infrastructure. The
+
+760
+00:42:06,637 --> 00:42:12,170
+[CYRUS] Grand Trunk Railway, which runs through Michigan and across Canada into the American Northeast. The
+
+761
+00:42:12,170 --> 00:42:17,704
+[CYRUS] Grand Trunk had little income from transporting animals on the hoof. They had nothing to
+
+762
+00:42:17,704 --> 00:42:23,237
+[CYRUS] lose by carrying Swift's cars. So Swift routes his dressed beef north through Michigan, across
+
+763
+00:42:23,237 --> 00:42:28,770
+[CYRUS] Canada, and down into Boston and New York.
+
+764
+00:42:28,770 --> 00:42:31,970
+[JEFF] Through Canada. To avoid an American railroad cartel.
+
+765
+00:42:31,970 --> 00:42:37,170
+[CYRUS] Through Canada. In eighteen eighty, the Swift Refrigerator Line launches. Within a year: nearly two
+
+766
+00:42:37,170 --> 00:42:42,370
+[CYRUS] hundred refrigerated cars. Three thousand carcasses a week shipped to Boston alone. Within six years
+
+767
+00:42:42,370 --> 00:42:47,570
+[CYRUS] of starting, Swift is the second-largest meatpacker in America.
+
+768
+00:42:47,570 --> 00:42:51,370
+[JEFF] That is a remarkable arc. From "every railroad said no" to second-largest meatpacker in the
+
+769
+00:42:51,370 --> 00:42:55,170
+[JEFF] country in six years.
+
+770
+00:42:55,170 --> 00:43:00,542
+[CYRUS] Six years. And at this point, the butchers are watching their business collapse in real
+
+771
+00:43:00,542 --> 00:43:05,913
+[CYRUS] time. Local butchers had a monopoly — if you wanted fresh meat in Boston, you
+
+772
+00:43:05,913 --> 00:43:11,285
+[CYRUS] bought from someone who slaughtered locally. That monopoly is gone. Swift's beef is cheaper and,
+
+773
+00:43:11,285 --> 00:43:16,656
+[CYRUS] once consumers trust it, they buy it. And so in eighteen eighty-six, the butchers form
+
+774
+00:43:16,656 --> 00:43:22,028
+[CYRUS] the National Butchers' Protective Association and organize a formal boycott. They warn consumers: this meat
+
+775
+00:43:22,028 --> 00:43:27,399
+[CYRUS] was slaughtered in Chicago days ago. It could harbor all kinds of diseases. You don't
+
+776
+00:43:27,399 --> 00:43:32,771
+[CYRUS] know where it's been.
+
+777
+00:43:32,771 --> 00:43:35,571
+[JEFF] And that's not a completely unreasonable argument.
+
+778
+00:43:35,571 --> 00:43:41,071
+[CYRUS] It's not. And I want to give the butchers their due here, because this is
+
+779
+00:43:41,071 --> 00:43:46,571
+[CYRUS] the thing about resistance that I think this show has to keep saying: the resisters
+
+780
+00:43:46,571 --> 00:43:52,071
+[CYRUS] were not stupid. Food safety regulation barely existed in eighteen eighty-six. There was no FDA.
+
+781
+00:43:52,071 --> 00:43:57,571
+[CYRUS] There was no inspection system. When a local butcher slaughtered your beef this morning, you
+
+782
+00:43:57,571 --> 00:44:03,071
+[CYRUS] could see it was fresh. When someone tells you this cow was slaughtered in Chicago
+
+783
+00:44:03,071 --> 00:44:08,571
+[CYRUS] a week ago and shipped in a cold box — you don't have any way
+
+784
+00:44:08,571 --> 00:44:14,071
+[CYRUS] to verify that. The question of whether Swift's beef was actually safe is a genuine
+
+785
+00:44:14,071 --> 00:44:19,571
+[CYRUS] question, not a paranoid one.
+
+786
+00:44:19,571 --> 00:44:24,771
+[JEFF] But the butchers also had an obvious financial interest in asking that question.
+
+787
+00:44:24,771 --> 00:44:29,571
+[CYRUS] Of course. The argument was both reasonable and self-interested. Those two things can coexist. And
+
+788
+00:44:29,571 --> 00:44:34,371
+[CYRUS] the butchers didn't just make arguments — they organized. They lobbied state legislatures. State laws
+
+789
+00:44:34,371 --> 00:44:39,171
+[CYRUS] get passed trying to protect local butchers from the Chicago meatpackers. Congress investigates the "Beef
+
+790
+00:44:39,171 --> 00:44:43,971
+[CYRUS] Trust" multiple times.
+
+791
+00:44:43,971 --> 00:44:45,971
+[JEFF] So what breaks the resistance?
+
+792
+00:44:45,971 --> 00:44:51,504
+[CYRUS] Economics. Swift can sell cheaper. Seventy-five cents to a dollar per hundred pounds. That's not
+
+793
+00:44:51,504 --> 00:44:57,037
+[CYRUS] a marginal difference. And Swift fights back hard — he undercuts local butchers on price,
+
+794
+00:44:57,037 --> 00:45:02,571
+[CYRUS] he bribes respected local butchers to switch sides and sell Chicago beef, he sells at
+
+795
+00:45:02,571 --> 00:45:08,104
+[CYRUS] a loss to win customers. The price advantage is just too large to fight through
+
+796
+00:45:08,104 --> 00:45:13,637
+[CYRUS] a boycott. One butcher testified before a Senate Committee in eighteen ninety: "Very few hold
+
+797
+00:45:13,637 --> 00:45:19,171
+[CYRUS] on." That's the whole outcome in four words.
+
+798
+00:45:19,171 --> 00:45:21,571
+[JEFF] "Very few hold on." That's devastating.
+
+799
+00:45:21,571 --> 00:45:27,121
+[CYRUS] And I'll just note — while Swift is routing around the railroad cartel in America,
+
+800
+00:45:27,121 --> 00:45:32,671
+[CYRUS] something is happening on the other side of the world at the same moment. February
+
+801
+00:45:32,671 --> 00:45:38,221
+[CYRUS] second, eighteen eighty: the SS Strathleven arrives in London from Melbourne, nine weeks at sea,
+
+802
+00:45:38,221 --> 00:45:43,771
+[CYRUS] with fifty tons of frozen beef and mutton. The Pall Mall Gazette says the meat
+
+803
+00:45:43,771 --> 00:45:49,321
+[CYRUS] is in "admirable condition." A hundred and fifty percent profit. Someone had tried this exact
+
+804
+00:45:49,321 --> 00:45:54,871
+[CYRUS] voyage in eighteen seventy-three — James Harrison, ice ran out mid-voyage, meat spoiled, he lost
+
+805
+00:45:54,871 --> 00:46:00,421
+[CYRUS] everything. The Strathleven worked because the technology was better. Harrison was the Gorrie of frozen
+
+806
+00:46:00,421 --> 00:46:05,971
+[CYRUS] shipping — right idea, wrong moment.
+
+807
+00:46:05,971 --> 00:46:09,171
+[JEFF] So while Swift is routing around every American railroad, the global cold chain is being
+
+808
+00:46:09,171 --> 00:46:12,371
+[JEFF] born.
+
+809
+00:46:12,371 --> 00:46:17,771
+[CYRUS] Exactly. Okay — let me bring this wave home. Who wins, who loses, what changes
+
+810
+00:46:17,771 --> 00:46:23,171
+[CYRUS] — and then set up why all of this still isn't enough.
+
+811
+00:46:23,171 --> 00:46:23,971
+[JEFF] Who wins?
+
+812
+00:46:23,971 --> 00:46:29,891
+[CYRUS] Swift wins. Obviously. From small operator to second-largest meatpacker in six years. Swift and Company
+
+813
+00:46:29,891 --> 00:46:35,811
+[CYRUS] becomes a corporate giant. Chicago wins — the city is transformed from a prairie cattle
+
+814
+00:46:35,811 --> 00:46:41,731
+[CYRUS] hub into the meatpacking capital of the world. The Union Stock Yards process millions of
+
+815
+00:46:41,731 --> 00:46:47,651
+[CYRUS] animals a year. Breweries win — they can produce lager year-round, they can distribute nationally,
+
+816
+00:46:47,651 --> 00:46:53,571
+[CYRUS] the whole beer economy changes. Linde wins — his company is still operating today.
+
+817
+00:46:53,571 --> 00:46:54,771
+[JEFF] And who loses?
+
+818
+00:46:54,771 --> 00:47:00,371
+[CYRUS] Ninety thousand ice workers. This is the number from Wave One, and it's still the
+
+819
+00:47:00,371 --> 00:47:05,971
+[CYRUS] number here. An entire industry is being replaced by machines over the course of about
+
+820
+00:47:05,971 --> 00:47:11,571
+[CYRUS] forty years. And there are no stories about what happened to those workers. The historical
+
+821
+00:47:11,571 --> 00:47:17,171
+[CYRUS] record just... doesn't have them. I find that genuinely chilling. Ninety thousand people, and when
+
+822
+00:47:17,171 --> 00:47:22,771
+[CYRUS] the industry dies, nobody wrote down what happened to them.
+
+823
+00:47:22,771 --> 00:47:28,237
+[JEFF] Yeah — I think that's one of those things that we should sit with. It's
+
+824
+00:47:28,237 --> 00:47:33,704
+[JEFF] not that nobody cared. It's that they were the kind of workers who don't generate
+
+825
+00:47:33,704 --> 00:47:39,171
+[JEFF] historical records. Day laborers. Seasonal workers. People without names in newspapers.
+
+826
+00:47:39,171 --> 00:47:44,656
+[CYRUS] Local butchers lose their monopoly on fresh meat. "Very few hold on." And here's the
+
+827
+00:47:44,656 --> 00:47:50,142
+[CYRUS] one that doesn't get enough attention: the centralization of slaughter creates hellish conditions. When you
+
+828
+00:47:50,142 --> 00:47:55,628
+[CYRUS] move all the killing to one place — Chicago, the Union Stock Yards — you
+
+829
+00:47:55,628 --> 00:48:01,113
+[CYRUS] get economies of scale, yes. You also get what Upton Sinclair documented in The Jungle
+
+830
+00:48:01,113 --> 00:48:06,599
+[CYRUS] in nineteen oh-six. Workers in dangerous conditions, corners cut on hygiene, the full dark side
+
+831
+00:48:06,599 --> 00:48:12,085
+[CYRUS] of industrialized food production. Swift's disruption wasn't just efficient. It was efficient in ways that
+
+832
+00:48:12,085 --> 00:48:17,570
+[CYRUS] created a new kind of exploitation.
+
+833
+00:48:17,570 --> 00:48:21,770
+[JEFF] So the road not taken — I'm genuinely curious about this. If the railroad cartel
+
+834
+00:48:21,770 --> 00:48:25,970
+[JEFF] had succeeded. If they'd blocked Swift.
+
+835
+00:48:25,970 --> 00:48:31,685
+[CYRUS] I've thought about this. If the cartel had held, dressed beef would have developed much
+
+836
+00:48:31,685 --> 00:48:37,399
+[CYRUS] more slowly. Regional meatpacking persists longer. Local butchers keep their monopoly. The Union Stock Yards
+
+837
+00:48:37,399 --> 00:48:43,113
+[CYRUS] don't become what they became. Food safety regulation might have developed before the abuses it
+
+838
+00:48:43,113 --> 00:48:48,828
+[CYRUS] was designed to address, rather than in response to them. The resisters were defending a
+
+839
+00:48:48,828 --> 00:48:54,542
+[CYRUS] legitimate local food system as well as a monopoly. You could make an argument that
+
+840
+00:48:54,542 --> 00:49:00,256
+[CYRUS] the world they were defending was in some ways healthier — more distributed, more accountable,
+
+841
+00:49:00,256 --> 00:49:05,971
+[CYRUS] less brutal. It just also happened to be more expensive.
+
+842
+00:49:05,971 --> 00:49:08,771
+[JEFF] And economic gravity doesn't care about healthier.
+
+843
+00:49:08,771 --> 00:49:13,571
+[CYRUS] Economic gravity doesn't care. Seventy-five cents per hundred pounds wins. Every time.
+
+844
+00:49:13,571 --> 00:49:18,904
+[CYRUS] Okay, so. Where does this leave us? Because I want to make sure we're clear
+
+845
+00:49:18,904 --> 00:49:24,237
+[CYRUS] about the state of the world at this moment. It's the nineteen-twenties. Mechanical refrigeration works.
+
+846
+00:49:24,237 --> 00:49:29,571
+[CYRUS] Breweries have it. Meatpackers have it. The cold-storage warehouses exist. The refrigerated railroad car is
+
+847
+00:49:29,571 --> 00:49:34,904
+[CYRUS] everywhere. By nineteen fourteen — I love this number — artificial ice production has actually
+
+848
+00:49:34,904 --> 00:49:40,237
+[CYRUS] surpassed natural ice harvesting in the United States. Twenty-six million tons artificial, twenty-four million tons
+
+849
+00:49:40,237 --> 00:49:45,571
+[CYRUS] natural. The machines have won.
+
+850
+00:49:45,571 --> 00:49:50,904
+[JEFF] The machines have won. And as we touched on earlier — the bitter coda is
+
+851
+00:49:50,904 --> 00:49:56,237
+[JEFF] that the industry that spent decades attacking mechanical refrigeration as impure and unnatural ended up
+
+852
+00:49:56,237 --> 00:50:01,571
+[JEFF] selling typhoid ice. The argument collapsed by its own weight.
+
+853
+00:50:01,571 --> 00:50:04,371
+[JEFF] But it still doesn't work in homes.
+
+854
+00:50:04,371 --> 00:50:09,571
+[CYRUS] It still doesn't work in homes. That's the thing. All of this — Linde, Swift,
+
+855
+00:50:09,571 --> 00:50:14,771
+[CYRUS] the refrigerated railroad car, the cold-storage warehouse — all of it is industrial. Big machines.
+
+856
+00:50:14,771 --> 00:50:19,971
+[CYRUS] Commercial applications. The factory gets cold. The kitchen doesn't.
+
+857
+00:50:19,971 --> 00:50:21,971
+[JEFF] Because of the refrigerant problem.
+
+858
+00:50:21,971 --> 00:50:27,704
+[CYRUS] Because of the refrigerant problem. And this is real. This isn't theoretical. In Cincinnati in
+
+859
+00:50:27,704 --> 00:50:33,437
+[CYRUS] nineteen twenty, ammonia fumes escape from a butcher shop's ice machine at Eighteenth and Main
+
+860
+00:50:33,437 --> 00:50:39,171
+[CYRUS] Streets — they have to evacuate an entire city block. In nineteen twenty-eight, a packing
+
+861
+00:50:39,171 --> 00:50:44,904
+[CYRUS] company has a leak so bad it requires firefighters in gas masks. In nineteen twenty-nine,
+
+862
+00:50:44,904 --> 00:50:50,637
+[CYRUS] methyl chloride deaths in Chicago prompt panic across the entire refrigeration industry. And the people
+
+863
+00:50:50,637 --> 00:50:56,371
+[CYRUS] who are wealthy enough to buy early home refrigerators — they're putting them in their
+
+864
+00:50:56,371 --> 00:51:02,104
+[CYRUS] backyards, or on their porches. Not inside their homes. Because they are terrified. And that
+
+865
+00:51:02,104 --> 00:51:07,837
+[CYRUS] fear is entirely rational. Methyl chloride is colorless and nearly odorless. You wouldn't know it
+
+866
+00:51:07,837 --> 00:51:13,571
+[CYRUS] was leaking until everyone in your family was dead.
+
+867
+00:51:13,571 --> 00:51:18,371
+[JEFF] So the engineering problem is solved. The chemistry problem is still open.
+
+868
+00:51:18,371 --> 00:51:24,313
+[CYRUS] The chemistry problem is open. And in Berlin, a family dies. They're killed by refrigerant
+
+869
+00:51:24,313 --> 00:51:30,256
+[CYRUS] fumes leaking from their home refrigerator. And when Albert Einstein reads about it in the
+
+870
+00:51:30,256 --> 00:51:36,199
+[CYRUS] newspaper, he is so disturbed by it that he and his former student, Leo Szilard,
+
+871
+00:51:36,199 --> 00:51:42,142
+[CYRUS] spend the next eight years designing a safer refrigerator — one with no moving parts,
+
+872
+00:51:42,142 --> 00:51:48,085
+[CYRUS] no toxic refrigerants. They patent it in nineteen thirty. Getting cold into the factory was
+
+873
+00:51:48,085 --> 00:51:54,028
+[CYRUS] an engineering problem. Getting cold into the kitchen is a chemistry problem. Someone needs to
+
+874
+00:51:54,028 --> 00:51:59,971
+[CYRUS] find a refrigerant that won't kill. And that story — that is Jeff's wave.
+
+875
+00:51:59,971 --> 00:52:04,237
+[JEFF] Yeah. That's mine. And I'll just say — the person who solves it has one
+
+876
+00:52:04,237 --> 00:52:08,504
+[JEFF] of the most dramatic stories in this whole history. And also one of the most
+
+877
+00:52:08,504 --> 00:52:12,771
+[JEFF] consequential.
+
+878
+00:52:12,771 --> 00:52:18,171
+[CYRUS] I will say nothing more. Except: the man who makes refrigerators safe for every kitchen
+
+879
+00:52:18,171 --> 00:52:23,571
+[CYRUS] in America had already poisoned the planet once. Keep that in mind.
+
+880
+00:52:23,571 --> 00:52:26,371
+[JEFF] ... That is a genuinely loaded setup.
+
+881
+00:52:26,371 --> 00:52:27,571
+[CYRUS] That's Wave Three.
+
+882
+00:43:13,546 --> 00:43:18,746
+[JEFF] Okay, so here's where this story becomes about you and me. Not in the abstract
+
+883
+00:43:18,746 --> 00:43:23,946
+[JEFF] "technology shapes society" way — I mean literally about the appliance in your kitchen right
+
+884
+00:43:23,946 --> 00:43:29,146
+[JEFF] now. This is the wave where refrigeration stops being something that happens in factories and
+
+885
+00:43:29,146 --> 00:43:34,346
+[JEFF] warehouses and starts happening in people's homes.
+
+886
+00:43:34,346 --> 00:43:39,346
+[CYRUS] Which sounds like it should have been easy. Like, you've already done the hard part
+
+887
+00:43:39,346 --> 00:43:44,346
+[CYRUS] — you've got mechanical refrigeration working. Just... make it smaller.
+
+888
+00:43:44,346 --> 00:43:49,386
+[JEFF] Yeah, I thought the same thing. And the answer is: it was not easy. Not
+
+889
+00:43:49,386 --> 00:43:54,426
+[JEFF] even a little bit. Because it turns out that the refrigerants that worked great in
+
+890
+00:43:54,426 --> 00:43:59,466
+[JEFF] big industrial systems were, in some cases, genuinely terrifying in a residential setting. We're talking
+
+891
+00:43:59,466 --> 00:44:04,506
+[JEFF] about chemicals that could leak out of your refrigerator overnight and kill your whole family
+
+892
+00:44:04,506 --> 00:44:09,546
+[JEFF] in their sleep.
+
+893
+00:44:09,546 --> 00:44:10,346
+[CYRUS] Wait, what?
+
+894
+00:44:10,346 --> 00:44:13,546
+[JEFF] I am not being dramatic. This actually happened.
+
+895
+00:44:13,546 --> 00:44:15,546
+[CYRUS] Okay. Walk me through this.
+
+896
+00:44:15,546 --> 00:44:21,412
+[JEFF] So the refrigerants that were in use in the nineteen twenties — ammonia, methyl chloride,
+
+897
+00:44:21,412 --> 00:44:27,279
+[JEFF] sulfur dioxide — all of them worked on the basic principle we covered in the
+
+898
+00:44:27,279 --> 00:44:33,145
+[JEFF] last wave. But here's the thing: in a brewery or a meatpacking plant, if a
+
+899
+00:44:33,145 --> 00:44:39,012
+[JEFF] pipe blows, you've got workers who notice it and get out. In a house at
+
+900
+00:44:39,012 --> 00:44:44,879
+[JEFF] two in the morning, you're asleep. And methyl chloride in particular is nearly colorless. Nearly
+
+901
+00:44:44,879 --> 00:44:50,745
+[JEFF] odorless. You would never know it was leaking until it was too late.
+
+902
+00:44:50,745 --> 00:44:56,745
+[CYRUS] That is a terrifying design flaw for something you're supposed to keep in your kitchen.
+
+903
+00:44:56,745 --> 00:45:02,745
+[JEFF] Right? And the incidents were real. Cincinnati in nineteen twenty — ammonia fumes from a
+
+904
+00:45:02,745 --> 00:45:08,745
+[JEFF] butcher shop's ice machine force the evacuation of an entire city block. Nineteen twenty-eight —
+
+905
+00:45:08,745 --> 00:45:14,745
+[JEFF] a packing company leak, firefighters in gas masks. Chicago, August of nineteen twenty-nine — methyl
+
+906
+00:45:14,745 --> 00:45:20,745
+[JEFF] chloride deaths that send the whole industry into a panic. In Berlin, an entire family
+
+907
+00:45:20,745 --> 00:45:26,745
+[JEFF] is killed by fumes leaking from their home refrigerator overnight. The story makes the newspapers.
+
+908
+00:45:26,745 --> 00:45:29,145
+[CYRUS] So people knew. This wasn't hidden.
+
+909
+00:45:29,145 --> 00:45:34,745
+[JEFF] This was very publicly known. And here's the behavioral tell that I just love as
+
+910
+00:45:34,745 --> 00:45:40,345
+[JEFF] a data point: families who could afford early refrigerators — and these things cost between
+
+911
+00:45:40,345 --> 00:45:45,945
+[JEFF] three hundred and five hundred and twenty-five dollars, so we're talking about a significant purchase
+
+912
+00:45:45,945 --> 00:45:51,545
+[JEFF] — those families were putting their refrigerators in the backyard. On the back porch. In
+
+913
+00:45:51,545 --> 00:45:57,145
+[JEFF] an outbuilding. Because they didn't trust them inside the house.
+
+914
+00:45:57,145 --> 00:46:00,745
+[CYRUS] That is the most honest product review I've ever heard. "Five stars — do not
+
+915
+00:46:00,745 --> 00:46:04,345
+[CYRUS] put inside."
+
+916
+00:46:04,345 --> 00:46:09,305
+[JEFF] Right? Like, I paid five hundred dollars for this, and I'm keeping it at a
+
+917
+00:46:09,305 --> 00:46:14,265
+[JEFF] safe distance from my children. That's the state of the market in the late nineteen
+
+918
+00:46:14,265 --> 00:46:19,225
+[JEFF] twenties. And it is — I want to be clear — that is not irrational.
+
+919
+00:46:19,225 --> 00:46:24,185
+[JEFF] That is a completely reasonable response to a genuine danger. These people weren't paranoid; they
+
+920
+00:46:24,185 --> 00:46:29,145
+[JEFF] were correct.
+
+921
+00:46:29,145 --> 00:46:31,945
+[CYRUS] So the industry has a credibility problem.
+
+922
+00:46:31,945 --> 00:46:36,545
+[JEFF] The industry has a credibility problem and a chemistry problem, and they're the same problem.
+
+923
+00:46:36,545 --> 00:46:41,145
+[JEFF] And into this moment walks Thomas Midgley Junior.
+
+924
+00:46:41,145 --> 00:46:46,445
+[JEFF] Okay, Cyrus. I want to tell you about one specific moment, because I think this
+
+925
+00:46:46,445 --> 00:46:51,745
+[JEFF] might be the most consequential chemistry demonstration in history. And I mean that — I'm
+
+926
+00:46:51,745 --> 00:46:57,045
+[JEFF] not reaching for a superlative. This one demonstration changed what ended up in your kitchen.
+
+927
+00:46:57,045 --> 00:47:02,345
+[JEFF] And it did it in about sixty seconds.
+
+928
+00:47:02,345 --> 00:47:03,145
+[CYRUS] I'm listening.
+
+929
+00:47:03,145 --> 00:47:08,105
+[JEFF] It's April nineteen thirty. The American Chemical Society is meeting in Atlanta, Georgia. Thomas Midgley
+
+930
+00:47:08,105 --> 00:47:13,065
+[JEFF] Junior takes the stage. He's already famous — not entirely for good reasons. He's the
+
+931
+00:47:13,065 --> 00:47:18,025
+[JEFF] man who gave the world leaded gasoline. He'd actually suffered lead poisoning himself during that
+
+932
+00:47:18,025 --> 00:47:22,985
+[JEFF] work. So this is a guy who has a complicated relationship with the chemistry of
+
+933
+00:47:22,985 --> 00:47:27,945
+[JEFF] unintended consequences.
+
+934
+00:47:27,945 --> 00:47:30,345
+[CYRUS] The resume does not inspire confidence.
+
+935
+00:47:30,345 --> 00:47:36,425
+[JEFF] No, it does not. But here's what he does. He comes on stage carrying two
+
+936
+00:47:36,425 --> 00:47:42,505
+[JEFF] things: a small vial, and a candle. He lights the candle. Then he pours the
+
+937
+00:47:42,505 --> 00:47:48,585
+[JEFF] contents of the vial — this is a new chemical compound his team developed, chlorofluorocarbon,
+
+938
+00:47:48,585 --> 00:47:54,665
+[JEFF] which he's calling Freon — he heats it to a boil. And then, in front
+
+939
+00:47:54,665 --> 00:48:00,745
+[JEFF] of the entire assembled American Chemical Society, he takes a deep breath of the vapor.
+
+940
+00:48:00,745 --> 00:48:03,145
+[CYRUS] He just... inhales it. On stage.
+
+941
+00:48:03,145 --> 00:48:07,945
+[JEFF] He inhales it on stage. The whole room is watching. If this chemical is toxic,
+
+942
+00:48:07,945 --> 00:48:12,745
+[JEFF] Midgley is about to collapse. He doesn't collapse. He exhales — directly onto the candle
+
+943
+00:48:12,745 --> 00:48:17,545
+[JEFF] flame. And the flame goes out.
+
+944
+00:48:17,545 --> 00:48:19,545
+[CYRUS] Oh, that's good theater.
+
+945
+00:48:19,545 --> 00:48:25,412
+[JEFF] In one breath, he's proved two things simultaneously. Non-toxic — he just breathed it and
+
+946
+00:48:25,412 --> 00:48:31,279
+[JEFF] he's fine. Non-flammable — he just used it to put out fire. No member of
+
+947
+00:48:31,279 --> 00:48:37,145
+[JEFF] that audience can now argue that Freon is dangerous to have in your house.
+
+948
+00:48:37,145 --> 00:48:41,545
+[CYRUS] That's a killer demo. Like, that is genuinely a killer demo.
+
+949
+00:48:41,545 --> 00:48:47,385
+[JEFF] It is! And the thing is — it worked. Not just rhetorically. The chemistry was
+
+950
+00:48:47,385 --> 00:48:53,225
+[JEFF] real. Freon really was non-toxic. It really was non-flammable. It was a genuine solution to
+
+951
+00:48:53,225 --> 00:48:59,065
+[JEFF] a genuine problem. GM and DuPont immediately set up a joint venture called Kinetic Chemicals
+
+952
+00:48:59,065 --> 00:49:04,905
+[JEFF] to manufacture and market CFCs. Within five years, manufacturers using Freon sell more than eight
+
+953
+00:49:04,905 --> 00:49:10,745
+[JEFF] million new refrigerators nationally. Eight million. The adoption explosion begins with one breath.
+
+954
+00:49:10,745 --> 00:49:13,145
+[CYRUS] So the safety problem was solved.
+
+955
+00:49:13,145 --> 00:49:18,517
+[JEFF] The immediate safety problem was solved. And I need to plant something here that we'll
+
+956
+00:49:18,517 --> 00:49:23,888
+[JEFF] come back to, because you already know where this goes. The ozone layer. Freon's safety
+
+957
+00:49:23,888 --> 00:49:29,260
+[JEFF] was real — but what no one knew in nineteen thirty was that chlorofluorocarbons, once
+
+958
+00:49:29,260 --> 00:49:34,631
+[JEFF] released into the atmosphere, float all the way up to the stratosphere and destroy ozone
+
+959
+00:49:34,631 --> 00:49:40,003
+[JEFF] molecules. A historian will later call Midgley "the most environmentally destructive person who ever lived"
+
+960
+00:49:40,003 --> 00:49:45,374
+[JEFF] — a man who had, quote, "more impact on the atmosphere than any other single
+
+961
+00:49:45,374 --> 00:49:50,745
+[JEFF] organism in Earth's history."
+
+962
+00:49:50,745 --> 00:49:53,545
+[CYRUS] Two catastrophic inventions. Leaded gasoline and Freon.
+
+963
+00:49:53,545 --> 00:49:59,545
+[JEFF] One man. And he never knew about either one. He dies in nineteen forty-four —
+
+964
+00:49:59,545 --> 00:50:05,545
+[JEFF] and we'll get to his death, which is its own remarkable story — never knowing
+
+965
+00:50:05,545 --> 00:50:11,545
+[JEFF] that either of his most celebrated inventions would prove catastrophic. The ozone hole isn't confirmed
+
+966
+00:50:11,545 --> 00:50:17,545
+[JEFF] until nineteen eighty-five. The Montreal Protocol isn't signed until nineteen eighty-seven. Midgley is long gone.
+
+967
+00:50:17,545 --> 00:50:21,145
+[CYRUS] That is a genuinely strange kind of tragedy. He solved the problem and destroyed something
+
+968
+00:50:21,145 --> 00:50:24,745
+[CYRUS] he couldn't see.
+
+969
+00:50:24,745 --> 00:50:30,045
+[JEFF] That's almost exactly the right framing. He solved the problem you could see — families
+
+970
+00:50:30,045 --> 00:50:35,345
+[JEFF] terrified of their own appliances — and he destroyed something invisible. And we are going
+
+971
+00:50:35,345 --> 00:50:40,645
+[JEFF] to sit with that irony when we get to the Built In section, because I
+
+972
+00:50:40,645 --> 00:50:45,945
+[JEFF] think it's the heart of this whole story.
+
+973
+00:50:45,945 --> 00:50:50,479
+[JEFF] Now, I promised you Midgley's death. Because it is — and I say this with
+
+974
+00:50:50,479 --> 00:50:55,012
+[JEFF] genuine respect for the man — it is among the more grimly poetic endings in
+
+975
+00:50:55,012 --> 00:50:59,545
+[JEFF] the history of invention.
+
+976
+00:50:59,545 --> 00:51:02,745
+[CYRUS] Okay, you've set up my expectations very specifically.
+
+977
+00:51:02,745 --> 00:51:08,117
+[JEFF] In nineteen forty, Midgley contracts polio. He's severely disabled. And being the engineer that he
+
+978
+00:51:08,117 --> 00:51:13,488
+[JEFF] is, he invents an elaborate system of ropes and pulleys to help himself get in
+
+979
+00:51:13,488 --> 00:51:18,860
+[JEFF] and out of bed. Very clever. Very ingenious. On November second, nineteen forty-four, he is
+
+980
+00:51:18,860 --> 00:51:24,231
+[JEFF] found dead, entangled in his own pulley system — strangled. He's fifty-five years old. The
+
+981
+00:51:24,231 --> 00:51:29,603
+[JEFF] coroner ruled it a suicide, though people who knew him were divided, and history has
+
+982
+00:51:29,603 --> 00:51:34,974
+[JEFF] tended to describe it as an accident. I'll leave that ambiguity in place, because I
+
+983
+00:51:34,974 --> 00:51:40,346
+[JEFF] think it belongs there.
+
+984
+00:51:40,346 --> 00:51:44,546
+[CYRUS] ... A man known for inventing things that unexpectedly killed people... is killed by his
+
+985
+00:51:44,546 --> 00:51:48,746
+[CYRUS] own invention. One way or another.
+
+986
+00:51:48,746 --> 00:51:52,346
+[JEFF] I didn't write this. This is just what happened.
+
+987
+00:51:52,346 --> 00:51:53,146
+[CYRUS] That's dark.
+
+988
+00:51:53,146 --> 00:51:59,066
+[JEFF] It is dark. And here's the thing that gives me pause whenever I tell stories
+
+989
+00:51:59,066 --> 00:52:04,986
+[JEFF] like this — and I think it's worth saying. Midgley was genuinely brilliant. He was
+
+990
+00:52:04,986 --> 00:52:10,906
+[JEFF] trying to solve real problems. Leaded gasoline was an effort to prevent engine knock. Freon
+
+991
+00:52:10,906 --> 00:52:16,826
+[JEFF] was an effort to stop families from dying in their sleep. The unintended consequences were
+
+992
+00:52:16,826 --> 00:52:22,746
+[JEFF] catastrophic, but the intentions were not bad. I think there's something important in that.
+
+993
+00:52:22,746 --> 00:52:27,146
+[CYRUS] Yeah, I actually appreciate you saying that. It's easy to make him a villain in
+
+994
+00:52:27,146 --> 00:52:31,546
+[CYRUS] retrospect. But he didn't know. Nobody knew.
+
+995
+00:52:31,546 --> 00:52:36,946
+[JEFF] And while Midgley was doing his Freon work, do you know who else was trying
+
+996
+00:52:36,946 --> 00:52:42,346
+[JEFF] to solve the same toxic refrigerant problem? From a completely different angle?
+
+997
+00:52:42,346 --> 00:52:43,946
+[CYRUS] I genuinely do not.
+
+998
+00:52:43,946 --> 00:52:44,746
+[JEFF] Albert Einstein.
+
+999
+00:52:44,746 --> 00:52:47,946
+[CYRUS] ... Sorry. Albert Einstein was... working on refrigerators?
+
+1000
+00:52:47,946 --> 00:52:53,346
+[JEFF] Albert Einstein and his former student Leo Szilard spent eight years designing a safer refrigerator.
+
+1001
+00:52:53,346 --> 00:52:58,746
+[JEFF] Their motivation: Einstein had read a newspaper report about a Berlin family killed by toxic
+
+1002
+00:52:58,746 --> 00:53:04,146
+[JEFF] refrigerant fumes leaking from their home refrigerator. He was so disturbed by it that he
+
+1003
+00:53:04,146 --> 00:53:09,546
+[JEFF] contacted Szilard and the two of them began designing an alternative. Their idea was a
+
+1004
+00:53:09,546 --> 00:53:14,946
+[JEFF] refrigerator with no moving parts — which meant no compressor, no seals, nothing to leak.
+
+1005
+00:53:14,946 --> 00:53:20,346
+[JEFF] They used water, ammonia, and butane with an electromagnetic pump. They got a US patent
+
+1006
+00:53:20,346 --> 00:53:25,746
+[JEFF] — patent number one million, seven hundred eighty-one thousand, five hundred forty-one — on November
+
+1007
+00:53:25,746 --> 00:53:31,146
+[JEFF] eleventh, nineteen thirty.
+
+1008
+00:53:31,146 --> 00:53:33,946
+[CYRUS] The same year as the Freon demo.
+
+1009
+00:53:33,946 --> 00:53:38,846
+[JEFF] Same year. And you know what? Their design worked. It was less efficient, but it
+
+1010
+00:53:38,846 --> 00:53:43,746
+[JEFF] was inherently more reliable. Nothing to break. Nothing to leak. But by the time the
+
+1011
+00:53:43,746 --> 00:53:48,646
+[JEFF] patent came through, Freon had already solved the problem chemically, and the Einstein-Szilard refrigerator never
+
+1012
+00:53:48,646 --> 00:53:53,546
+[JEFF] found a commercial market.
+
+1013
+00:53:53,546 --> 00:53:56,946
+[CYRUS] So Einstein invented a refrigerator that the world didn't need because someone else solved the
+
+1014
+00:53:56,946 --> 00:54:00,346
+[CYRUS] problem differently.
+
+1015
+00:54:00,346 --> 00:54:05,446
+[JEFF] Right. And here's the strange postscript — in two thousand and eight, Oxford University engineers
+
+1016
+00:54:05,446 --> 00:54:10,546
+[JEFF] revived the Einstein-Szilard design for potential use in off-grid developing-world applications. A refrigerator that works
+
+1017
+00:54:10,546 --> 00:54:15,646
+[JEFF] without electricity, with no toxic chemicals, with no moving parts. Nearly a hundred years later,
+
+1018
+00:54:15,646 --> 00:54:20,746
+[JEFF] it might finally find its purpose.
+
+1019
+00:54:20,746 --> 00:54:25,946
+[CYRUS] That is a wild sentence. "Einstein's refrigerator might finally be useful in twenty-oh-eight."
+
+1020
+00:54:25,946 --> 00:54:28,346
+[JEFF] Science history has some incredible timing.
+
+1021
+00:54:28,346 --> 00:54:34,186
+[JEFF] Okay. So now we have Freon. We have a safe refrigerant. The mechanical problems are
+
+1022
+00:54:34,186 --> 00:54:40,026
+[JEFF] solved. Prices are coming down — the GE Monitor Top launched in nineteen twenty-seven at
+
+1023
+00:54:40,026 --> 00:54:45,866
+[JEFF] about five hundred and twenty-five dollars, and by nineteen forty you could get a comparable
+
+1024
+00:54:45,866 --> 00:54:51,706
+[JEFF] refrigerator for a hundred and fifty-two dollars. The utility companies are even offering ten-dollar-a-month installment
+
+1025
+00:54:51,706 --> 00:54:57,546
+[JEFF] plans added right to your electric bill. All the friction is being removed.
+
+1026
+00:54:57,546 --> 00:54:59,146
+[CYRUS] So adoption should explode.
+
+1027
+00:54:59,146 --> 00:55:04,266
+[JEFF] Adoption does explode. But before we get to the numbers, I want to spend some
+
+1028
+00:55:04,266 --> 00:55:09,386
+[JEFF] time on the resistance. Because it wasn't just about chemistry. There was a deeper problem
+
+1029
+00:55:09,386 --> 00:55:14,506
+[JEFF] — a psychological barrier — that had been building for decades before any of this.
+
+1030
+00:55:14,506 --> 00:55:19,626
+[JEFF] And to understand it, I need to take you back to October twenty-third, nineteen eleven.
+
+1031
+00:55:19,626 --> 00:55:24,746
+[JEFF] Chicago. The Hotel Sherman.
+
+1032
+00:55:24,746 --> 00:55:25,546
+[CYRUS] All right.
+
+1033
+00:55:25,546 --> 00:55:31,212
+[JEFF] Now, here's the setup. By nineteen eleven, cold storage warehouses are everywhere. The industrial refrigeration
+
+1034
+00:55:31,212 --> 00:55:36,879
+[JEFF] wave is in full swing. But the public has a serious trust problem with refrigerated
+
+1035
+00:55:36,879 --> 00:55:42,545
+[JEFF] food. Upton Sinclair's The Jungle came out in nineteen oh-six, and it shattered public confidence
+
+1036
+00:55:42,545 --> 00:55:48,212
+[JEFF] in the food industry. Newspapers are running alarming stories about year-old food being sold as
+
+1037
+00:55:48,212 --> 00:55:53,879
+[JEFF] fresh. Congress is considering strict limits on how long food can be kept in cold
+
+1038
+00:55:53,879 --> 00:55:59,545
+[JEFF] storage. The entire cold-storage industry is facing an existential crisis.
+
+1039
+00:55:59,545 --> 00:56:02,745
+[CYRUS] The industry that brought you modern food safety... is in a trust crisis about food
+
+1040
+00:56:02,745 --> 00:56:05,945
+[CYRUS] safety.
+
+1041
+00:56:05,945 --> 00:56:11,845
+[JEFF] Which is genuinely ironic. So the National Poultry, Butter, and Egg Association decides to fight
+
+1042
+00:56:11,845 --> 00:56:17,745
+[JEFF] back with a spectacle. They invite four hundred guests — including Chicago's mayor and the
+
+1043
+00:56:17,745 --> 00:56:23,645
+[JEFF] city's health commissioner — to a formal dinner at the Hotel Sherman. The Louis XVI
+
+1044
+00:56:23,645 --> 00:56:29,545
+[JEFF] room. And every single item on the menu has been cold-stored. Some for months.
+
+1045
+00:56:29,545 --> 00:56:30,745
+[CYRUS] Wait, every item?
+
+1046
+00:56:30,745 --> 00:56:36,479
+[JEFF] Everything but, reportedly, the olives in the dry martinis was refrigerated. Including — and this
+
+1047
+00:56:36,479 --> 00:56:42,212
+[JEFF] is the detail I could not stop thinking about — a capon that had reportedly
+
+1048
+00:56:42,212 --> 00:56:47,945
+[JEFF] been killed on Valentine's Day. The dinner is in October. That's nine months.
+
+1049
+00:56:47,945 --> 00:56:50,745
+[CYRUS] ... They served them a nine-month-old chicken.
+
+1050
+00:56:50,745 --> 00:56:55,445
+[JEFF] At a formal banquet. To the mayor of Chicago. And here's how the host of
+
+1051
+00:56:55,445 --> 00:57:00,145
+[JEFF] the evening addresses the crowd. He praises them for showing — his exact words —
+
+1052
+00:57:00,145 --> 00:57:04,845
+[JEFF] "considerable courage in the face of all that has been written in the newspapers" about
+
+1053
+00:57:04,845 --> 00:57:09,545
+[JEFF] cold-stored food.
+
+1054
+00:57:09,545 --> 00:57:13,345
+[CYRUS] So the industry knows the food requires courage to eat. And they're saying so out
+
+1055
+00:57:13,345 --> 00:57:17,145
+[CYRUS] loud at the dinner.
+
+1056
+00:57:17,145 --> 00:57:19,545
+[JEFF] To the people eating it. Yes.
+
+1057
+00:57:19,545 --> 00:57:22,345
+[CYRUS] That is peak nineteen eleven energy.
+
+1058
+00:57:22,345 --> 00:57:27,412
+[JEFF] Now, the guests eat everything. Nobody gets sick. The banquet is declared a success. But
+
+1059
+00:57:27,412 --> 00:57:32,479
+[JEFF] the press is not won over. The Chicago Inter Ocean runs a scathing op-ed the
+
+1060
+00:57:32,479 --> 00:57:37,545
+[JEFF] next day. And one newspaper publishes what I think is one of the most darkly
+
+1061
+00:57:37,545 --> 00:57:42,612
+[JEFF] funny sentences about technological adoption I've ever read. Quote: "The one silver lining is that
+
+1062
+00:57:42,612 --> 00:57:47,679
+[JEFF] soon everyone who can remember what food is supposed to taste like, pre-refrigeration, will be
+
+1063
+00:57:47,679 --> 00:57:52,745
+[JEFF] dead."
+
+1064
+00:57:52,745 --> 00:57:53,145
+[CYRUS] Whoa.
+
+1065
+00:57:53,145 --> 00:57:57,345
+[JEFF] Right? That's the newspaper saying: the only way to win the trust battle is to
+
+1066
+00:57:57,345 --> 00:58:01,545
+[JEFF] wait for the skeptics to die.
+
+1067
+00:58:01,545 --> 00:58:07,145
+[CYRUS] And that is kind of what happened. That's the actual mechanism of adoption sometimes.
+
+1068
+00:58:07,145 --> 00:58:12,517
+[JEFF] That is sometimes the actual mechanism. And I want to stay with the resistance here
+
+1069
+00:58:12,517 --> 00:58:17,888
+[JEFF] for a second, because I think it deserves more credit than it usually gets. These
+
+1070
+00:58:17,888 --> 00:58:23,260
+[JEFF] consumers who didn't trust cold-stored food — they weren't being irrational. This was an era
+
+1071
+00:58:23,260 --> 00:58:28,631
+[JEFF] when Upton Sinclair had just exposed genuine fraud in the food industry. The question they
+
+1072
+00:58:28,631 --> 00:58:34,003
+[JEFF] were asking — "does cold equal fresh, or does cold just mean you can't tell
+
+1073
+00:58:34,003 --> 00:58:39,374
+[JEFF] it's old?" — that is a completely reasonable question. And the industry, frankly, was not
+
+1074
+00:58:39,374 --> 00:58:44,745
+[JEFF] always answering it honestly.
+
+1075
+00:58:44,745 --> 00:58:46,745
+[CYRUS] The Milnor Electric Company ad.
+
+1076
+00:58:46,745 --> 00:58:48,345
+[JEFF] You read the research.
+
+1077
+00:58:48,345 --> 00:58:52,745
+[CYRUS] "Harmless, odorless and non-poisonous." Referring to methyl chloride. In nineteen twenty-three.
+
+1078
+00:58:52,745 --> 00:58:58,245
+[JEFF] An industry that had lied about refrigerant safety was asking the public to trust it
+
+1079
+00:58:58,245 --> 00:59:03,745
+[JEFF] about food safety. And people were skeptical. That skepticism had real reasons behind it. I
+
+1080
+00:59:03,745 --> 00:59:09,245
+[JEFF] think it's easy to look back and say, "oh, they were just afraid of change."
+
+1081
+00:59:09,245 --> 00:59:14,745
+[JEFF] They were afraid of being lied to. Again. That's different.
+
+1082
+00:59:14,745 --> 00:59:19,412
+[CYRUS] A hundred percent. And by the way, the iceman persists well into the nineteen forties
+
+1083
+00:59:19,412 --> 00:59:24,079
+[CYRUS] in a lot of American cities. This isn't a fringe group holding on. It's a
+
+1084
+00:59:24,079 --> 00:59:28,745
+[CYRUS] large part of the market.
+
+1085
+00:59:28,745 --> 00:59:34,145
+[JEFF] Still going to the iceman in the forties. Out of habit, loyalty, and yes —
+
+1086
+00:59:34,145 --> 00:59:39,545
+[JEFF] some genuine distrust of the new system. Ice delivery persisted because the iceman was part
+
+1087
+00:59:39,545 --> 00:59:44,945
+[JEFF] of the neighborhood. He came every day. He was a fixture of community life. There
+
+1088
+00:59:44,945 --> 00:59:50,345
+[JEFF] was even a song — "How'd You Like to Be the Iceman?" — from eighteen
+
+1089
+00:59:50,345 --> 00:59:55,745
+[JEFF] ninety-nine, capturing the cultural role. When the iceman disappears, something social disappears with him. That's
+
+1090
+00:59:55,745 --> 01:00:01,145
+[JEFF] a real loss, not just nostalgia.
+
+1091
+01:00:01,145 --> 01:00:05,945
+[JEFF] Okay, but adoption does happen. And the numbers are extraordinary. In nineteen thirty, eight percent
+
+1092
+01:00:05,945 --> 01:00:10,745
+[JEFF] of American homes have a refrigerator. Eight percent. By nineteen forty, it's fifty-six percent. By
+
+1093
+01:00:10,745 --> 01:00:15,545
+[JEFF] nineteen forty-four, eighty-five percent. In roughly fifteen years, refrigerators go from a luxury item to
+
+1094
+01:00:15,545 --> 01:00:20,345
+[JEFF] being nearly universal.
+
+1095
+01:00:20,345 --> 01:00:25,145
+[CYRUS] That's a remarkable curve. And this is happening... during the Great Depression?
+
+1096
+01:00:25,145 --> 01:00:30,479
+[JEFF] During the Great Depression. And here's the counterintuitive thing — this is the part I
+
+1097
+01:00:30,479 --> 01:00:35,812
+[JEFF] could not wrap my head around at first. The Depression paradoxically accelerated adoption. In the
+
+1098
+01:00:35,812 --> 01:00:41,145
+[JEFF] worst economic crisis in American history, families bought expensive appliances.
+
+1099
+01:00:41,145 --> 01:00:44,745
+[CYRUS] How does that work? Like, what's the actual mechanism?
+
+1100
+01:00:44,745 --> 01:00:50,012
+[JEFF] I think the way to think about it is this: a refrigerator pays for itself.
+
+1101
+01:00:50,012 --> 01:00:55,279
+[JEFF] If you're living through the Depression and you cannot afford to throw away spoiled food
+
+1102
+01:00:55,279 --> 01:01:00,545
+[JEFF] — and nobody could — then an appliance that prevents spoilage is not a luxury.
+
+1103
+01:01:00,545 --> 01:01:05,812
+[JEFF] It's economic rationality. Manufacturers cut prices to move inventory. The utility companies are offering ten
+
+1104
+01:01:05,812 --> 01:01:11,079
+[JEFF] dollars a month. And families figure out that the fridge reduces their grocery bill enough
+
+1105
+01:01:11,079 --> 01:01:16,345
+[JEFF] to justify the payment.
+
+1106
+01:01:16,345 --> 01:01:19,945
+[CYRUS] So the Depression creates exactly the customer who most needs a refrigerator. A family that
+
+1107
+01:01:19,945 --> 01:01:23,545
+[CYRUS] cannot afford waste.
+
+1108
+01:01:23,545 --> 01:01:29,145
+[JEFF] Exactly. The Depression creates the customer who most needs a refrigerator. Prices drop from five
+
+1109
+01:01:29,145 --> 01:01:34,745
+[JEFF] hundred dollars to two hundred dollars to a hundred and fifty-two dollars by nineteen forty.
+
+1110
+01:01:34,745 --> 01:01:40,345
+[JEFF] General Electric had committed eighteen million dollars to manufacturing alone, and another million to advertising.
+
+1111
+01:01:40,345 --> 01:01:45,945
+[JEFF] And the ad copy from GE in nineteen twenty-eight is interesting — "The gift that
+
+1112
+01:01:45,945 --> 01:01:51,545
+[JEFF] simplifies housekeeping and safeguards health." Both benefits. Practical and emotional.
+
+1113
+01:01:51,545 --> 01:01:57,545
+[CYRUS] That's smart positioning, actually. You're not just selling convenience. You're selling safety for your family.
+
+1114
+01:01:57,545 --> 01:02:02,425
+[JEFF] And specifically for your children. A lot of the advertising is pitched directly at that
+
+1115
+01:02:02,425 --> 01:02:07,305
+[JEFF] concern. Which — in an era before antibiotics, when infant mortality was still high and
+
+1116
+01:02:07,305 --> 01:02:12,185
+[JEFF] contaminated milk was a real killer — that is not a frivolous pitch. The refrigerator
+
+1117
+01:02:12,185 --> 01:02:17,065
+[JEFF] really did make children safer. The data on infant mortality tracks directly with clean, cold
+
+1118
+01:02:17,065 --> 01:02:21,945
+[JEFF] milk.
+
+1119
+01:02:21,945 --> 01:02:27,679
+[JEFF] Okay. So by the late nineteen thirties, refrigeration has conquered the American home. But here's
+
+1120
+01:02:27,679 --> 01:02:33,412
+[JEFF] the gap. Here's the thing that's still broken. You have refrigerators in people's kitchens. You
+
+1121
+01:02:33,412 --> 01:02:39,145
+[JEFF] have refrigerated warehouses. But the thing connecting them — the truck — doesn't have refrigeration.
+
+1122
+01:02:39,145 --> 01:02:44,879
+[JEFF] If you want to ship chickens from St. Paul, Minnesota, to Chicago, you pack them
+
+1123
+01:02:44,879 --> 01:02:50,612
+[JEFF] in ice and salt and you hope. If it's a long trip, or a hot
+
+1124
+01:02:50,612 --> 01:02:56,345
+[JEFF] day, or the ice runs out... the shipment spoils. Total loss.
+
+1125
+01:02:56,345 --> 01:03:00,345
+[CYRUS] So the cold chain has a gap in the middle.
+
+1126
+01:03:00,345 --> 01:03:06,245
+[JEFF] The cold chain has a gap in the middle. And the person who closes it
+
+1127
+01:03:06,245 --> 01:03:12,145
+[JEFF] — the person who makes the cold chain continuous from farm to store — is
+
+1128
+01:03:12,145 --> 01:03:18,045
+[JEFF] someone whose name I had genuinely never heard before researching this episode. And I think
+
+1129
+01:03:18,045 --> 01:03:23,945
+[JEFF] that's part of the story I want to tell. Because his biography is extraordinary.
+
+1130
+01:03:23,945 --> 01:03:25,945
+[CYRUS] Who are we talking about?
+
+1131
+01:03:25,945 --> 01:03:31,612
+[JEFF] Frederick McKinley Jones. Born May seventeenth, eighteen ninety-three, in Covington, Kentucky. His father was an
+
+1132
+01:03:31,612 --> 01:03:37,279
+[JEFF] Irish railroad worker, his mother was African American, and she left when Jones was very
+
+1133
+01:03:37,279 --> 01:03:42,945
+[JEFF] young. His father struggled to raise him alone and eventually, when Jones was around seven
+
+1134
+01:03:42,945 --> 01:03:48,612
+[JEFF] years old, sent him to be raised by a Catholic priest named Father Ryan at
+
+1135
+01:03:48,612 --> 01:03:54,279
+[JEFF] a rectory in Cincinnati. His father died when Jones was nine. He was an orphan,
+
+1136
+01:03:54,279 --> 01:03:59,945
+[JEFF] being raised by a Catholic priest, with a sixth-grade education.
+
+1137
+01:03:59,945 --> 01:04:03,545
+[CYRUS] That is a very specific kind of hard start.
+
+1138
+01:04:03,545 --> 01:04:08,825
+[JEFF] And here's what he does with it. He leaves school at eleven. Gets a job
+
+1139
+01:04:08,825 --> 01:04:14,105
+[JEFF] as a cleaning boy at a garage in Cincinnati. Gets promoted to mechanic's helper. By
+
+1140
+01:04:14,105 --> 01:04:19,385
+[JEFF] the time he's fourteen, he's the shop foreman. At nineteen, he's described as "one of
+
+1141
+01:04:19,385 --> 01:04:24,665
+[JEFF] the most well-known racers in the Great Lakes region." He's not just working on cars
+
+1142
+01:04:24,665 --> 01:04:29,945
+[JEFF] — he's racing them. At nineteen.
+
+1143
+01:04:29,945 --> 01:04:32,745
+[CYRUS] Self-taught mechanic, racing cars at nineteen. Okay.
+
+1144
+01:04:32,745 --> 01:04:38,012
+[JEFF] He moves to Hallock, Minnesota in nineteen twelve. Works as a mechanic, as a farmhand.
+
+1145
+01:04:38,012 --> 01:04:43,279
+[JEFF] Serves in World War One as a sergeant — in France, he rewires his entire
+
+1146
+01:04:43,279 --> 01:04:48,545
+[JEFF] camp for electricity, telephone, and telegraph. After the war, comes back to Hallock. Teaches himself
+
+1147
+01:04:48,545 --> 01:04:53,812
+[JEFF] electronics. Builds a radio transmitter for the town. During Minnesota winters, he drives physicians on
+
+1148
+01:04:53,812 --> 01:04:59,079
+[JEFF] house calls through conditions that probably should have been unpassable, and invents a motorized snow
+
+1149
+01:04:59,079 --> 01:05:04,345
+[JEFF] machine using airplane parts.
+
+1150
+01:05:04,345 --> 01:05:07,545
+[CYRUS] He just... teaches himself everything. Over and over.
+
+1151
+01:05:07,545 --> 01:05:12,917
+[JEFF] Every time there's a problem in front of him, he learns what he needs to
+
+1152
+01:05:12,917 --> 01:05:18,288
+[JEFF] learn to solve it. There's no other way to describe it. And eventually — in
+
+1153
+01:05:18,288 --> 01:05:23,660
+[JEFF] the late nineteen twenties or around nineteen thirty, sources differ a little on the exact
+
+1154
+01:05:23,660 --> 01:05:29,031
+[JEFF] date — he goes to Minneapolis to apply for a job at Ultraphone Sound Systems,
+
+1155
+01:05:29,031 --> 01:05:34,403
+[JEFF] a company run by a man named Joseph Numero. And the receptionist looks at him
+
+1156
+01:05:34,403 --> 01:05:39,774
+[JEFF] and says — and these are the documented words — "We don't have any jobs
+
+1157
+01:05:39,774 --> 01:05:45,145
+[JEFF] for a colored boy."
+
+1158
+01:05:45,145 --> 01:05:45,945
+[CYRUS] Right.
+
+1159
+01:05:45,945 --> 01:05:51,225
+[JEFF] Jones somehow gets past that, gets to Numero, and Numero hires him. And what Jones
+
+1160
+01:05:51,225 --> 01:05:56,505
+[JEFF] does at Ultraphone is extraordinary: he takes silent-movie projectors — which are obsolete because sound
+
+1161
+01:05:56,505 --> 01:06:01,785
+[JEFF] film is taking over — and he converts them into talking projectors using scrap materials.
+
+1162
+01:06:01,785 --> 01:06:07,065
+[JEFF] He essentially invents solutions to problems that shouldn't be solvable with the parts he has.
+
+1163
+01:06:07,065 --> 01:06:12,345
+[JEFF] He and Numero become a team.
+
+1164
+01:06:12,345 --> 01:06:15,945
+[CYRUS] So Numero knows exactly what he has in Jones.
+
+1165
+01:06:15,945 --> 01:06:21,203
+[JEFF] He knows. And then — and this is the moment — it's nineteen thirty-eight. Joseph
+
+1166
+01:06:21,203 --> 01:06:26,460
+[JEFF] Numero is on a golf course with a friend who is in the trucking business.
+
+1167
+01:06:26,460 --> 01:06:31,717
+[JEFF] The friend is venting. He lost a shipment of chickens on a run from St.
+
+1168
+01:06:31,717 --> 01:06:36,974
+[JEFF] Paul to Chicago. Total loss. The ice and salt couldn't keep them cold for the
+
+1169
+01:06:36,974 --> 01:06:42,231
+[JEFF] whole trip. And Numero — I love this about him — Numero makes a bet.
+
+1170
+01:06:42,231 --> 01:06:47,488
+[JEFF] Reportedly six dollars. He says: "I have an engineer who can solve that problem in
+
+1171
+01:06:47,488 --> 01:06:52,745
+[JEFF] thirty days."
+
+1172
+01:06:52,745 --> 01:06:57,545
+[CYRUS] He bets six dollars. On his engineer. Against the laws of physics.
+
+1173
+01:06:57,545 --> 01:07:03,045
+[JEFF] Against the laws of refrigeration, essentially. And he goes back to his shop and tells
+
+1174
+01:07:03,045 --> 01:07:08,545
+[JEFF] Jones about the bet. And here's what Jones does. He goes to the library. He
+
+1175
+01:07:08,545 --> 01:07:14,045
+[JEFF] teaches himself refrigeration. From scratch. In a matter of weeks, he designs the Thermo Control
+
+1176
+01:07:14,045 --> 01:07:19,545
+[JEFF] Model A — a portable, automatic, truck-mounted refrigeration unit.
+
+1177
+01:07:19,545 --> 01:07:25,145
+[CYRUS] Wait. He just... learned refrigeration and then built a truck refrigeration unit? In weeks?
+
+1178
+01:07:25,145 --> 01:07:30,460
+[JEFF] In weeks. And I want to be honest — the Model A is a first
+
+1179
+01:07:30,460 --> 01:07:35,774
+[JEFF] version. It works, but Jones keeps refining it. The Model C, completed in nineteen forty-one,
+
+1180
+01:07:35,774 --> 01:07:41,088
+[JEFF] is the one that becomes the industry standard. Compact. Lightweight. And crucially: shockproof. Because every
+
+1181
+01:07:41,088 --> 01:07:46,403
+[JEFF] previous attempt at truck refrigeration had the same problem — road vibrations destroyed the equipment.
+
+1182
+01:07:46,403 --> 01:07:51,717
+[JEFF] Jones solved it by drawing on his experience with cinema sound equipment, which also had
+
+1183
+01:07:51,717 --> 01:07:57,031
+[JEFF] to handle vibration. He already knew how to build things that could take a beating
+
+1184
+01:07:57,031 --> 01:08:02,345
+[JEFF] and keep working.
+
+1185
+01:08:02,345 --> 01:08:05,945
+[CYRUS] He applied his movie projector knowledge to refrigerated trucks.
+
+1186
+01:08:05,945 --> 01:08:11,245
+[JEFF] Cross-domain engineering from an engineer with no formal training. And it works. Jones and Numero
+
+1187
+01:08:11,245 --> 01:08:16,545
+[JEFF] co-found the U.S. Thermo Control Company — later renamed Thermo King — in nineteen thirty-eight.
+
+1188
+01:08:16,545 --> 01:08:21,845
+[JEFF] Jones is vice president. The patent on the truck refrigeration unit is granted July twelfth,
+
+1189
+01:08:21,845 --> 01:08:27,145
+[JEFF] nineteen forty. And then World War Two starts.
+
+1190
+01:08:27,145 --> 01:08:28,345
+[CYRUS] Oh, that timing.
+
+1191
+01:08:28,345 --> 01:08:34,145
+[JEFF] The technology that started as a solution for spoiled chickens gets drafted. During World War
+
+1192
+01:08:34,145 --> 01:08:39,945
+[JEFF] Two, Jones's refrigeration units are used to preserve blood plasma, medicine, and food for troops
+
+1193
+01:08:39,945 --> 01:08:45,745
+[JEFF] in the field. The thing he built to keep a truckload of chickens cold between
+
+1194
+01:08:45,745 --> 01:08:51,545
+[JEFF] St. Paul and Chicago is now keeping blood plasma cold on a battlefield.
+
+1195
+01:08:51,545 --> 01:08:54,745
+[CYRUS] ... That's a real thing. That saves lives.
+
+1196
+01:08:54,745 --> 01:09:00,145
+[JEFF] That saves lives. Real, specific, countable lives. And in nineteen forty-four — same year Midgley
+
+1197
+01:09:00,145 --> 01:09:05,545
+[JEFF] dies strangled in his own pulley system, I want to say that timing out loud
+
+1198
+01:09:05,545 --> 01:09:10,945
+[JEFF] because it deserves to be said — in nineteen forty-four, Frederick McKinley Jones becomes the
+
+1199
+01:09:10,945 --> 01:09:16,345
+[JEFF] first African American elected to the American Society of Refrigeration Engineers. In an era of
+
+1200
+01:09:16,345 --> 01:09:21,745
+[JEFF] pervasive racial segregation, a self-taught Black orphan from Kentucky is elected to the professional engineering
+
+1201
+01:09:21,745 --> 01:09:27,145
+[JEFF] society of the industry he reshaped.
+
+1202
+01:09:27,145 --> 01:09:30,345
+[CYRUS] And how many people have heard of him?
+
+1203
+01:09:30,345 --> 01:09:35,545
+[JEFF] That's the question. He holds sixty-one patents. Forty of them are for refrigeration. He also
+
+1204
+01:09:35,545 --> 01:09:40,745
+[JEFF] invents portable X-ray machines and an automatic ticket-dispensing machine that he sells to RCA. He
+
+1205
+01:09:40,745 --> 01:09:45,945
+[JEFF] dies on February twenty-first, nineteen sixty-one, at sixty-seven years old. Thermo King by then is
+
+1206
+01:09:45,945 --> 01:09:51,145
+[JEFF] a three million dollar business, and it will become a global leader in transport refrigeration
+
+1207
+01:09:51,145 --> 01:09:56,345
+[JEFF] worth orders of magnitude more.
+
+1208
+01:09:56,345 --> 01:09:57,545
+[CYRUS] And the recognition?
+
+1209
+01:09:57,545 --> 01:10:02,345
+[JEFF] Posthumous. In nineteen ninety-one — thirty years after his death — President George H.W. Bush
+
+1210
+01:10:02,345 --> 01:10:07,145
+[JEFF] awards him the National Medal of Technology. First Black American to receive it. The president
+
+1211
+01:10:07,145 --> 01:10:11,945
+[JEFF] presents it to Jones's widow and to Numero's widow in a ceremony at the White
+
+1212
+01:10:11,945 --> 01:10:16,745
+[JEFF] House Rose Garden.
+
+1213
+01:10:16,745 --> 01:10:18,745
+[CYRUS] Thirty years after he died.
+
+1214
+01:10:18,745 --> 01:10:24,168
+[JEFF] Thirty years after he died. And I want to say something about the survivorship bias
+
+1215
+01:10:24,168 --> 01:10:29,590
+[JEFF] here, because I always try to be honest about this. Jones's story is remarkable —
+
+1216
+01:10:29,590 --> 01:10:35,012
+[JEFF] and it is remarkable. But it's also true that for every Frederick McKinley Jones who
+
+1217
+01:10:35,012 --> 01:10:40,434
+[JEFF] overcomes every obstacle and dies a celebrated inventor, there are many, many people who faced
+
+1218
+01:10:40,434 --> 01:10:45,857
+[JEFF] the same obstacles and didn't get the break, or didn't get the partner, or didn't
+
+1219
+01:10:45,857 --> 01:10:51,279
+[JEFF] get the particular moment when the right person was on the right golf course making
+
+1220
+01:10:51,279 --> 01:10:56,701
+[JEFF] the right bet. Jones's genius is real. His persistence is real. And so is the
+
+1221
+01:10:56,701 --> 01:11:02,123
+[JEFF] pile of structural obstacles that took down other equally brilliant people who never got past
+
+1222
+01:11:02,123 --> 01:11:07,545
+[JEFF] a receptionist.
+
+1223
+01:11:07,545 --> 01:11:12,345
+[CYRUS] I think that's right. And it actually makes his story more interesting, not less. It's
+
+1224
+01:11:12,345 --> 01:11:17,145
+[CYRUS] not a fable. It's a specific confluence of things — genius, timing, Numero, the war
+
+1225
+01:11:17,145 --> 01:11:21,945
+[CYRUS] — that could have gone differently.
+
+1226
+01:11:21,945 --> 01:11:27,545
+[JEFF] At multiple moments. The six-dollar bet. Getting past the receptionist. The war creating a military
+
+1227
+01:11:27,545 --> 01:11:33,145
+[JEFF] application. Any one of those doesn't happen and you don't get Thermo King.
+
+1228
+01:11:33,145 --> 01:11:38,945
+[JEFF] So. What changed. Let me walk through it. The iceman vanishes. Not immediately — ice
+
+1229
+01:11:38,945 --> 01:11:44,745
+[JEFF] delivery hangs on into the nineteen forties in many cities. But by the nineteen fifties,
+
+1230
+01:11:44,745 --> 01:11:50,545
+[JEFF] it's effectively gone. Ninety thousand ice-harvesting jobs plus uncounted delivery jobs — an entire profession
+
+1231
+01:11:50,545 --> 01:11:56,345
+[JEFF] that had existed for over a century — disappears within roughly one generation.
+
+1232
+01:11:56,345 --> 01:12:00,145
+[CYRUS] And it takes something social with it. The iceman was a fixture. He came every
+
+1233
+01:12:00,145 --> 01:12:03,945
+[CYRUS] day. People knew him.
+
+1234
+01:12:03,945 --> 01:12:09,545
+[JEFF] He came every day. He knew which families had kids. He knew the back entrance.
+
+1235
+01:12:09,545 --> 01:12:15,145
+[JEFF] For a lot of women who were homemakers, the iceman was one of the regular
+
+1236
+01:12:15,145 --> 01:12:20,745
+[JEFF] points of contact with the outside world. When he disappears, something genuinely human goes away.
+
+1237
+01:12:20,745 --> 01:12:26,345
+[JEFF] Ice delivery was a service, but it was also a relationship.
+
+1238
+01:12:26,345 --> 01:12:30,145
+[CYRUS] The housework paradox you mentioned in the research. The refrigerator is supposed to liberate women
+
+1239
+01:12:30,145 --> 01:12:33,945
+[CYRUS] from daily shopping, but—
+
+1240
+01:12:33,945 --> 01:12:39,745
+[JEFF] But what actually happens is that as technology removes some of the burden, expectations rise.
+
+1241
+01:12:39,745 --> 01:12:45,545
+[JEFF] Weekly shopping replaces daily shopping — that's real. But now women are expected to prepare
+
+1242
+01:12:45,545 --> 01:12:51,345
+[JEFF] more elaborate meals, offer greater variety, maintain higher standards. The time saved by the refrigerator
+
+1243
+01:12:51,345 --> 01:12:57,145
+[JEFF] gets absorbed by rising standards for what dinner is supposed to look like.
+
+1244
+01:12:57,145 --> 01:13:01,145
+[CYRUS] The technology enables more, and then "more" becomes the expectation.
+
+1245
+01:13:01,145 --> 01:13:06,845
+[JEFF] It's the same dynamic you see with email. It was supposed to save time. But
+
+1246
+01:13:06,845 --> 01:13:12,545
+[JEFF] now the expectation is that you respond to everything within hours. The technology that saves
+
+1247
+01:13:12,545 --> 01:13:18,245
+[JEFF] time creates the expectation that fills the time. I think there's a real principle in
+
+1248
+01:13:18,245 --> 01:13:23,945
+[JEFF] there that we should come back to in the Built In section.
+
+1249
+01:13:23,945 --> 01:13:25,545
+[CYRUS] Agreed. What else changed?
+
+1250
+01:13:25,545 --> 01:13:31,065
+[JEFF] Seasonal eating basically ends. Before refrigeration, what you ate in January was determined by what
+
+1251
+01:13:31,065 --> 01:13:36,585
+[JEFF] was storable — root vegetables, preserved meats, pickles, fermented things. After refrigeration, "fresh" becomes the
+
+1252
+01:13:36,585 --> 01:13:42,105
+[JEFF] default and the old food traditions — pickling, curing, fermenting — start to decline. They're
+
+1253
+01:13:42,105 --> 01:13:47,625
+[JEFF] still practiced, but they shift from necessity to hobby. Nobody's making sauerkraut because they have
+
+1254
+01:13:47,625 --> 01:13:53,145
+[JEFF] to anymore. They're making it because they want to.
+
+1255
+01:13:53,145 --> 01:13:56,545
+[CYRUS] Which is a kind of loss, even if the refrigerator is genuinely better at keeping
+
+1256
+01:13:56,545 --> 01:13:59,945
+[CYRUS] food safe.
+
+1257
+01:13:59,945 --> 01:14:05,865
+[JEFF] There's a thread there worth pulling. And then there's the supermarket. Because Frederick McKinley Jones's
+
+1258
+01:14:05,865 --> 01:14:11,785
+[JEFF] truck refrigeration doesn't just keep food cold — it makes it possible to build the
+
+1259
+01:14:11,785 --> 01:14:17,705
+[JEFF] modern food supply chain. If you can refrigerate a truck, you can ship fresh meat
+
+1260
+01:14:17,705 --> 01:14:23,625
+[JEFF] from a processing plant in Kansas to a grocery store in Philadelphia. You can have
+
+1261
+01:14:23,625 --> 01:14:29,545
+[JEFF] strawberries in December. You can have the entire grocery store as we know it.
+
+1262
+01:14:29,545 --> 01:14:33,545
+[CYRUS] The supermarket only works if the whole chain is cold.
+
+1263
+01:14:33,545 --> 01:14:39,245
+[JEFF] Exactly. And Clarence Birdseye, who'd been watching Inuit fishermen flash-freeze fish in Labrador back in
+
+1264
+01:14:39,245 --> 01:14:44,945
+[JEFF] nineteen twelve and spent the next decade figuring out how to replicate it commercially —
+
+1265
+01:14:44,945 --> 01:14:50,645
+[JEFF] he'd already sold his frozen food company for twenty-two million dollars in nineteen twenty-nine. The
+
+1266
+01:14:50,645 --> 01:14:56,345
+[JEFF] frozen food aisle is waiting. Jones builds the truck that stocks it.
+
+1267
+01:14:56,345 --> 01:15:01,945
+[CYRUS] So the supermarket is the endgame. The whole infrastructure converges in the grocery store.
+
+1268
+01:15:01,945 --> 01:15:06,945
+[JEFF] And by the nineteen fifties, that infrastructure is essentially complete. Refrigerated trucks, refrigerated warehouses, refrigerated
+
+1269
+01:15:06,945 --> 01:15:11,945
+[JEFF] display cases in stores, refrigerators in homes. The cold chain is continuous from farm to
+
+1270
+01:15:11,945 --> 01:15:16,945
+[JEFF] fork. And sitting invisibly at the center of all of it, molecule by molecule accumulating
+
+1271
+01:15:16,945 --> 01:15:21,945
+[JEFF] in the stratosphere, is Freon.
+
+1272
+01:15:21,945 --> 01:15:26,345
+[CYRUS] The thing that made all of it safe enough to happen.
+
+1273
+01:15:26,345 --> 01:15:30,145
+[JEFF] The thing that made all of it safe enough to happen. And we'll come back
+
+1274
+01:15:30,145 --> 01:15:33,945
+[JEFF] to what that cost.
+
+1275
+01:15:33,945 --> 01:15:39,305
+[JEFF] One last thing before we hand this off to the Built In section. I want
+
+1276
+01:15:39,305 --> 01:15:44,665
+[JEFF] to spend a minute on the road not taken. Because in the nineteen thirties, there
+
+1277
+01:15:44,665 --> 01:15:50,025
+[JEFF] were actually two different solutions to the toxic refrigerant problem on the table. Midgley's chemical
+
+1278
+01:15:50,025 --> 01:15:55,385
+[JEFF] solution — Freon — and Einstein and Szilard's mechanical solution. No moving parts, no seals,
+
+1279
+01:15:55,385 --> 01:16:00,745
+[JEFF] no toxic chemicals, but also no CFCs.
+
+1280
+01:16:00,745 --> 01:16:03,945
+[CYRUS] And Freon won because it was more efficient.
+
+1281
+01:16:03,945 --> 01:16:09,945
+[JEFF] Freon won because it was more efficient, and because it arrived right as the market
+
+1282
+01:16:09,945 --> 01:16:15,945
+[JEFF] was ready to explode, and because GM and DuPont were behind it with enormous resources.
+
+1283
+01:16:15,945 --> 01:16:21,945
+[JEFF] The Einstein-Szilard fridge was better on reliability. It was worse on efficiency. In nineteen thirty,
+
+1284
+01:16:21,945 --> 01:16:27,945
+[JEFF] when electricity is cheap and the ozone layer is not a known concern, efficiency wins.
+
+1285
+01:16:27,945 --> 01:16:32,745
+[CYRUS] If you knew in nineteen thirty what you knew in nineteen eighty-five — about the
+
+1286
+01:16:32,745 --> 01:16:37,545
+[CYRUS] ozone hole — you might make a different bet.
+
+1287
+01:16:37,545 --> 01:16:43,065
+[JEFF] You almost certainly make a different bet. The Montreal Protocol happens eventually, and CFCs get
+
+1288
+01:16:43,065 --> 01:16:48,585
+[JEFF] phased out. But by then, billions of units have been running for decades. The ozone
+
+1289
+01:16:48,585 --> 01:16:54,105
+[JEFF] hole over Antarctica is real and measurable. It is the largest-scale unintended consequence in the
+
+1290
+01:16:54,105 --> 01:16:59,625
+[JEFF] history of consumer technology, I would argue. And it starts with one man taking a
+
+1291
+01:16:59,625 --> 01:17:05,145
+[JEFF] breath on stage in Atlanta in April nineteen thirty.
+
+1292
+01:17:05,145 --> 01:17:09,745
+[CYRUS] The road not taken being the no-moving-parts refrigerator from the guy who also invented the
+
+1293
+01:17:09,745 --> 01:17:14,345
+[CYRUS] atomic bomb concept... that's a very specific road.
+
+1294
+01:17:14,345 --> 01:17:20,145
+[JEFF] The roads available in nineteen thirty were unusual, yes. But the choice between them shaped
+
+1295
+01:17:20,145 --> 01:17:25,945
+[JEFF] the next fifty years of atmospheric chemistry. And that is not an exaggeration.
+
+1296
+01:17:25,945 --> 01:17:29,345
+[CYRUS] Okay. I think we need to step back and look at the full arc of
+
+1297
+01:17:29,345 --> 01:17:32,745
+[CYRUS] this thing.
+
+1298
+01:17:32,745 --> 01:17:38,212
+[JEFF] We do. From Frederic Tudor in eighteen oh-six to Frederick McKinley Jones in nineteen forty-one
+
+1299
+01:17:38,212 --> 01:17:43,679
+[JEFF] to Freon silently accumulating through the nineteen fifties, sixties, seventies, and eighties — that is
+
+1300
+01:17:43,679 --> 01:17:49,145
+[JEFF] a story that is still playing out. Let's bring it home.
+
+1301
+01:02:55,159 --> 01:02:58,759
+[JEFF] Okay. We've been at this for a while now.
+
+1302
+01:02:58,759 --> 01:03:01,959
+[CYRUS] Yeah we have. Two hundred years of cold.
+
+1303
+01:03:01,959 --> 01:03:07,825
+[JEFF] Two hundred years of cold. And I want to just... step back for a second.
+
+1304
+01:03:07,825 --> 01:03:13,692
+[JEFF] Because I think if you've been following along with us, you'll see something that's really
+
+1305
+01:03:13,692 --> 01:03:19,558
+[JEFF] hard to see when you're in the middle of any one of these waves.
+
+1306
+01:03:19,558 --> 01:03:20,358
+[CYRUS] What's that?
+
+1307
+01:03:20,358 --> 01:03:25,958
+[JEFF] Every single wave ended with somebody getting destroyed. Every one. Tudor buries the natural ice
+
+1308
+01:03:25,958 --> 01:03:31,558
+[JEFF] guys. The ammonia machines bury Tudor's whole empire. Freon and the sealed compressor bury the
+
+1309
+01:03:31,558 --> 01:03:37,158
+[JEFF] ammonia guys. The cold chain buries the local butchers. And at every single moment, the
+
+1310
+01:03:37,158 --> 01:03:42,758
+[JEFF] people getting buried were not crazy. They were not stupid. They were often right about
+
+1311
+01:03:42,758 --> 01:03:48,358
+[JEFF] the risks — they just couldn't stop what was coming.
+
+1312
+01:03:48,358 --> 01:03:53,058
+[CYRUS] And here's the thing that gets me — they often had reasonable arguments. The railroads
+
+1313
+01:03:53,058 --> 01:03:57,758
+[CYRUS] weren't wrong that Swift's refrigerated cars changed their whole business model. The natural ice guys
+
+1314
+01:03:57,758 --> 01:04:02,458
+[CYRUS] weren't wrong that mechanical machines were dangerous. They were just on the wrong side of
+
+1315
+01:04:02,458 --> 01:04:07,158
+[CYRUS] the wave.
+
+1316
+01:04:07,158 --> 01:04:13,025
+[JEFF] Right. And now we're sitting inside the world that all of those waves built. So
+
+1317
+01:04:13,025 --> 01:04:18,892
+[JEFF] let me just put some numbers on it, because I think they hit differently now
+
+1318
+01:04:18,892 --> 01:04:24,758
+[JEFF] than they did when we threw them out at the top of the episode.
+
+1319
+01:04:24,758 --> 01:04:25,158
+[CYRUS] Yeah.
+
+1320
+01:04:25,158 --> 01:04:31,158
+[JEFF] In eighteen oh six, shipping frozen pond water to the tropics was a joke. The
+
+1321
+01:04:31,158 --> 01:04:37,158
+[JEFF] Boston Gazette literally called it a "slippery speculation." In eighteen fifty-five, the man who invented
+
+1322
+01:04:37,158 --> 01:04:43,158
+[JEFF] the underlying principle behind every single refrigerator on Earth died broke and forgotten at fifty-one.
+
+1323
+01:04:43,158 --> 01:04:44,358
+[CYRUS] Gorrie. Completely humiliated.
+
+1324
+01:04:44,358 --> 01:04:49,158
+[JEFF] Completely humiliated. In nineteen eleven, eating year-old cold-stored food required — and I love this
+
+1325
+01:04:49,158 --> 01:04:53,958
+[JEFF] phrase — "considerable courage." In nineteen thirty, eight percent of American homes had a refrigerator.
+
+1326
+01:04:53,958 --> 01:04:58,758
+[JEFF] By nineteen forty-four, eighty-five percent did.
+
+1327
+01:04:58,758 --> 01:05:01,558
+[CYRUS] Fourteen years. Eight percent to eighty-five percent.
+
+1328
+01:05:01,558 --> 01:05:07,158
+[JEFF] That's Freon. That's what happens when you remove the toxicity barrier. And today — today
+
+1329
+01:05:07,158 --> 01:05:12,758
+[JEFF] — seventy percent of all food on Earth passes through the cold chain at some
+
+1330
+01:05:12,758 --> 01:05:18,358
+[JEFF] point. Refrigeration consumes twenty-five to thirty percent of global electricity. Hundreds of millions of people
+
+1331
+01:05:18,358 --> 01:05:23,958
+[JEFF] live in climates that are only habitable because of air conditioning.
+
+1332
+01:05:23,958 --> 01:05:28,758
+[CYRUS] We have built a world that physically cannot function at ambient temperature.
+
+1333
+01:05:28,758 --> 01:05:34,758
+[JEFF] That's exactly right. And we built it in two centuries. Starting with a twenty-three year
+
+1334
+01:05:34,758 --> 01:05:40,758
+[JEFF] old from Boston who couldn't get anyone to take his ship full of ice seriously.
+
+1335
+01:05:40,758 --> 01:05:43,158
+[CYRUS] ... That is quite an arc.
+
+1336
+01:05:43,158 --> 01:05:47,758
+[JEFF] So that brings us to the Backbone Test — the five questions we ask about
+
+1337
+01:05:47,758 --> 01:05:52,358
+[JEFF] every technology when it crosses from "remarkable" to "built in." And I have to say,
+
+1338
+01:05:52,358 --> 01:05:56,958
+[JEFF] refrigeration is maybe the cleanest answer to every single one of these questions I can
+
+1339
+01:05:56,958 --> 01:06:01,558
+[JEFF] imagine.
+
+1340
+01:06:01,558 --> 01:06:04,758
+[CYRUS] Let's find out. Number one: is it invisible?
+
+1341
+01:06:04,758 --> 01:06:10,225
+[JEFF] Completely invisible. Like, think about the last time you thought about your refrigerator. Not when
+
+1342
+01:06:10,225 --> 01:06:15,692
+[JEFF] you opened it to get food out — that's just automatic at this point. I
+
+1343
+01:06:15,692 --> 01:06:21,158
+[JEFF] mean actually thought about it as a piece of technology.
+
+1344
+01:06:21,158 --> 01:06:22,758
+[CYRUS] I genuinely cannot remember.
+
+1345
+01:06:22,758 --> 01:06:28,358
+[JEFF] No one can. It crossed from "remarkable" to "assumed" sometime in the nineteen-fifties, when the
+
+1346
+01:06:28,358 --> 01:06:33,958
+[JEFF] last icemen retired and refrigerators stopped being advertised as miracles and started being sold as...
+
+1347
+01:06:33,958 --> 01:06:39,558
+[JEFF] kitchen furniture. Another box in the kitchen. As forgettable as the sink.
+
+1348
+01:06:39,558 --> 01:06:43,158
+[CYRUS] And that's the tell, right? The technology disappears into the background. You only notice infrastructure
+
+1349
+01:06:43,158 --> 01:06:46,758
+[CYRUS] when it fails.
+
+1350
+01:06:46,758 --> 01:06:51,158
+[JEFF] Which brings me to something I want to talk about, because this is the best
+
+1351
+01:06:51,158 --> 01:06:55,558
+[JEFF] modern illustration of what happens when this invisible infrastructure goes away. February twenty twenty-one. Texas.
+
+1352
+01:06:55,558 --> 01:06:59,958
+[JEFF] Winter Storm Uri.
+
+1353
+01:06:59,958 --> 01:07:00,758
+[CYRUS] Oh wow.
+
+1354
+01:07:00,758 --> 01:07:06,758
+[JEFF] So Winter Storm Uri hits Texas with temperatures nobody there had planned for. And the
+
+1355
+01:07:06,758 --> 01:07:12,758
+[JEFF] power grid — and I want to be clear, that is a whole separate story
+
+1356
+01:07:12,758 --> 01:07:18,758
+[JEFF] that someone should tell, it's a story about grid design and deregulation — goes down.
+
+1357
+01:07:18,758 --> 01:07:24,758
+[JEFF] Four point eight million customers lose power, some of them for more than a week.
+
+1358
+01:07:24,758 --> 01:07:27,558
+[CYRUS] Right. And when the power goes down—
+
+1359
+01:07:27,558 --> 01:07:33,358
+[JEFF] Everything goes down. The grocery stores lose power. H-E-B — Texas's dominant grocery chain, and
+
+1360
+01:07:33,358 --> 01:07:39,158
+[JEFF] honestly one of the best-run supply chains in the country — H-E-B issues a statement
+
+1361
+01:07:39,158 --> 01:07:44,958
+[JEFF] saying there has been "severe disruption in the food supply chain" because of "unprecedented weather."
+
+1362
+01:07:44,958 --> 01:07:50,758
+[JEFF] Which is a very restrained way to say: everything is going wrong simultaneously.
+
+1363
+01:07:50,758 --> 01:07:53,958
+[CYRUS] What are people actually doing at that point?
+
+1364
+01:07:53,958 --> 01:07:59,025
+[JEFF] This is the part that gets me. People started storing their remaining food in coolers
+
+1365
+01:07:59,025 --> 01:08:04,092
+[JEFF] packed with snow outside their homes. Because the machines had stopped, so they went back
+
+1366
+01:08:04,092 --> 01:08:09,158
+[JEFF] to the original method — using nature's cold.
+
+1367
+01:08:09,158 --> 01:08:14,358
+[CYRUS] Wait. Is that right? They're literally doing Tudor's ice trade, but in reverse?
+
+1368
+01:08:14,358 --> 01:08:19,625
+[JEFF] In reverse, in their own front yards, in twenty twenty-one. The most technologically advanced state
+
+1369
+01:08:19,625 --> 01:08:24,892
+[JEFF] in the most technologically advanced country in the world was reduced, for a week, to
+
+1370
+01:08:24,892 --> 01:08:30,158
+[JEFF] storing food in snowbanks. One Kroger in Houston — people lined up at four in
+
+1371
+01:08:30,158 --> 01:08:35,425
+[JEFF] the morning. The store was sold out of bread, milk, cheese, chicken, and water by
+
+1372
+01:08:35,425 --> 01:08:40,692
+[JEFF] afternoon. A major chicken supplier shut down entirely. Farmers were dumping milk because the processing
+
+1373
+01:08:40,692 --> 01:08:45,958
+[JEFF] plants had no power.
+
+1374
+01:08:45,958 --> 01:08:47,558
+[CYRUS] How many people died?
+
+1375
+01:08:47,558 --> 01:08:53,258
+[JEFF] At least two hundred forty-six. Some estimates put it closer to seven hundred. Mostly hypothermia,
+
+1376
+01:08:53,258 --> 01:08:58,958
+[JEFF] but the point for us is what the collapse of the cold chain looked like.
+
+1377
+01:08:58,958 --> 01:09:04,658
+[JEFF] Eighty billion to a hundred and thirty billion dollars in economic damage. The costliest natural
+
+1378
+01:09:04,658 --> 01:09:10,358
+[JEFF] disaster in Texas history. Agricultural losses alone: over six hundred million dollars.
+
+1379
+01:09:10,358 --> 01:09:11,558
+[CYRUS] In a week.
+
+1380
+01:09:11,558 --> 01:09:17,358
+[JEFF] In a week. That's what invisible infrastructure looks like when it becomes visible. And listeners
+
+1381
+01:09:17,358 --> 01:09:23,158
+[JEFF] — I want you to sit with that for a second. Because when we talk
+
+1382
+01:09:23,158 --> 01:09:28,958
+[JEFF] about refrigeration being "built in," this is what that actually means. Not built into the
+
+1383
+01:09:28,958 --> 01:09:34,758
+[JEFF] technology. Built into civilization. Built into the assumption that cold is always available.
+
+1384
+01:09:34,758 --> 01:09:37,558
+[CYRUS] Okay. Question two: what depends on it?
+
+1385
+01:09:37,558 --> 01:09:37,958
+[JEFF] Everything.
+
+1386
+01:09:37,958 --> 01:09:39,958
+[CYRUS] That's your whole answer?
+
+1387
+01:09:39,958 --> 01:09:45,158
+[JEFF] I mean... yes? Let me put it this way. Seventy percent of all food we
+
+1388
+01:09:45,158 --> 01:09:50,358
+[JEFF] eat. Essentially all vaccines — the WHO estimates that up to fifty percent of vaccines
+
+1389
+01:09:50,358 --> 01:09:55,558
+[JEFF] are wasted globally due to cold-chain failures, not just COVID, but all vaccines. Insulin, blood
+
+1390
+01:09:55,558 --> 01:10:00,758
+[JEFF] products, organ transplants. Semiconductor manufacturing. Data centers — the internet, AI, all of it requires
+
+1391
+01:10:00,758 --> 01:10:05,958
+[JEFF] massive cooling systems to function.
+
+1392
+01:10:05,958 --> 01:10:08,358
+[CYRUS] And then there's the political map.
+
+1393
+01:10:08,358 --> 01:10:13,958
+[JEFF] And then there's the political map. This is the one I find genuinely astonishing when
+
+1394
+01:10:13,958 --> 01:10:19,558
+[JEFF] I really think about it. Willis Carrier invents modern air conditioning in nineteen oh two.
+
+1395
+01:10:19,558 --> 01:10:25,158
+[JEFF] By the nineteen-fifties, affordable window units start showing up. And what happens?
+
+1396
+01:10:25,158 --> 01:10:25,558
+[CYRUS] Phoenix.
+
+1397
+01:10:25,558 --> 01:10:30,758
+[JEFF] Phoenix. Sixty-five thousand people in nineteen forty. Four hundred thirty-nine thousand in nineteen sixty. A
+
+1398
+01:10:30,758 --> 01:10:35,958
+[JEFF] four-hundred-seventy-five percent increase in twenty years. Maricopa County — the broader metro area — goes
+
+1399
+01:10:35,958 --> 01:10:41,158
+[JEFF] from a hundred and eighty-six thousand in nineteen forty to one point five million in
+
+1400
+01:10:41,158 --> 01:10:46,358
+[JEFF] nineteen eighty. Seven hundred eleven percent growth.
+
+1401
+01:10:46,358 --> 01:10:47,958
+[CYRUS] Because of air conditioning.
+
+1402
+01:10:47,958 --> 01:10:53,558
+[JEFF] Without air conditioning, Phoenix in July is not a city. It's a punishment. From nineteen
+
+1403
+01:10:53,558 --> 01:10:59,158
+[JEFF] sixty to two thousand, Sun Belt states gained eighty-six seats in the House of Representatives
+
+1404
+01:10:59,158 --> 01:11:04,758
+[JEFF] and the Electoral College. Eighty-six seats. The political map of the United States was redrawn
+
+1405
+01:11:04,758 --> 01:11:10,358
+[JEFF] by a technology that moves heat from one place to another.
+
+1406
+01:11:10,358 --> 01:11:13,158
+[CYRUS] That doesn't get taught in civics class.
+
+1407
+01:11:13,158 --> 01:11:18,198
+[JEFF] It absolutely does not. I think it should be. The same physics that keeps your
+
+1408
+01:11:18,198 --> 01:11:23,238
+[JEFF] food from spoiling is why American politics looks the way it does. And here's the
+
+1409
+01:11:23,238 --> 01:11:28,278
+[JEFF] version of this I find most striking: the COVID vaccine cold chain. The Pfizer-BioNTech mRNA
+
+1410
+01:11:28,278 --> 01:11:33,318
+[JEFF] vaccine required storage at minus seventy degrees Celsius. Colder than the South Pole. Colder than
+
+1411
+01:11:33,318 --> 01:11:38,358
+[JEFF] winter in Antarctica.
+
+1412
+01:11:38,358 --> 01:11:43,558
+[CYRUS] Which, if you have the infrastructure, is technically doable. But if you don't—
+
+1413
+01:11:43,558 --> 01:11:48,625
+[JEFF] If you don't, you have Peru, where only thirty ultra-cold freezers existed in the entire
+
+1414
+01:11:48,625 --> 01:11:53,692
+[JEFF] country. All thirty of them in Lima. None anywhere else. In Sub-Saharan Africa, one in
+
+1415
+01:11:53,692 --> 01:11:58,758
+[JEFF] four health facilities had no electricity at all. One in four. And in the United
+
+1416
+01:11:58,758 --> 01:12:03,825
+[JEFF] States — which does have the infrastructure — we still discarded eighty-two million vaccine doses
+
+1417
+01:12:03,825 --> 01:12:08,892
+[JEFF] between December twenty twenty and June twenty twenty-one. One point one billion dollars of vaccines.
+
+1418
+01:12:08,892 --> 01:12:13,958
+[JEFF] Gone.
+
+1419
+01:12:13,958 --> 01:12:14,758
+[CYRUS] Holy cow.
+
+1420
+01:12:14,758 --> 01:12:19,958
+[JEFF] And that's us. That's the country that invented the cold chain. So the dependency is
+
+1421
+01:12:19,958 --> 01:12:25,158
+[JEFF] massive, and the gap between who has the infrastructure and who doesn't is itself one
+
+1422
+01:12:25,158 --> 01:12:30,358
+[JEFF] of the biggest public health crises in the world.
+
+1423
+01:12:30,358 --> 01:12:34,758
+[CYRUS] Okay. Question three: what's the hidden cost? And I want to go here, because this
+
+1424
+01:12:34,758 --> 01:12:39,158
+[CYRUS] is where I think we actually disagree.
+
+1425
+01:12:39,158 --> 01:12:40,758
+[JEFF] Let's find out.
+
+1426
+01:12:40,758 --> 01:12:46,492
+[CYRUS] So here's my version. The hidden cost is not just any particular refrigerant. It's the
+
+1427
+01:12:46,492 --> 01:12:52,225
+[CYRUS] structure of the problem. We need more cooling because the planet is warming. But cooling
+
+1428
+01:12:52,225 --> 01:12:57,958
+[CYRUS] consumes energy that accelerates warming. And here is the number that I cannot get out
+
+1429
+01:12:57,958 --> 01:13:03,692
+[CYRUS] of my head: some projections have global cooling demand surging more than thirty-fold by two
+
+1430
+01:13:03,692 --> 01:13:09,425
+[CYRUS] thousand one hundred — the IEA projects a tripling just by twenty-fifty, and some regional
+
+1431
+01:13:09,425 --> 01:13:15,158
+[CYRUS] models for the hottest parts of the world go much higher.
+
+1432
+01:13:15,158 --> 01:13:15,958
+[JEFF] Thirty-three times?
+
+1433
+01:13:15,958 --> 01:13:20,658
+[CYRUS] Thirty-three times. Because billions of people in the hottest climates on Earth — India, Southeast
+
+1434
+01:13:20,658 --> 01:13:25,358
+[CYRUS] Asia, sub-Saharan Africa — are gaining access to cooling for the first time. India's air
+
+1435
+01:13:25,358 --> 01:13:30,058
+[CYRUS] conditioner sales are projected to grow six-fold by twenty thirty-eight. Six times. That's not a
+
+1436
+01:13:30,058 --> 01:13:34,758
+[CYRUS] rounding error.
+
+1437
+01:13:34,758 --> 01:13:36,758
+[JEFF] That's not a rounding error.
+
+1438
+01:13:36,758 --> 01:13:41,718
+[CYRUS] And here's the structural problem. The people who most need cooling are the ones in
+
+1439
+01:13:41,718 --> 01:13:46,678
+[CYRUS] the hottest, often poorest places. And their adoption of cooling is going to be the
+
+1440
+01:13:46,678 --> 01:13:51,638
+[CYRUS] thing that most accelerates the warming that makes them need more cooling. There's a feedback
+
+1441
+01:13:51,638 --> 01:13:56,598
+[CYRUS] loop here that I don't see an institutional solution to. The incentives point directly against
+
+1442
+01:13:56,598 --> 01:14:01,558
+[CYRUS] solving it.
+
+1443
+01:14:01,558 --> 01:14:06,678
+[JEFF] Yeah, and I think... I mean, I hear that. And I'm not sure it is
+
+1444
+01:14:06,678 --> 01:14:11,798
+[JEFF] as structurally unsolvable as you're making it sound. Here's the thing: we've actually done this
+
+1445
+01:14:11,798 --> 01:14:16,918
+[JEFF] before. The Montreal Protocol — when the ozone crisis hit — that was international cooperation
+
+1446
+01:14:16,918 --> 01:14:22,038
+[JEFF] working. That was governments agreeing to eliminate CFCs across the board, and it worked. The
+
+1447
+01:14:22,038 --> 01:14:27,158
+[JEFF] ozone layer is recovering.
+
+1448
+01:14:27,158 --> 01:14:31,758
+[CYRUS] A hundred percent. The Montreal Protocol worked. But here's what happened. We replaced CFCs with
+
+1449
+01:14:31,758 --> 01:14:36,358
+[CYRUS] HFCs. And HFCs turned out to have a global warming potential up to fourteen thousand
+
+1450
+01:14:36,358 --> 01:14:40,958
+[CYRUS] eight hundred times that of CO2. So we fixed the chemistry and created the next
+
+1451
+01:14:40,958 --> 01:14:45,558
+[CYRUS] problem.
+
+1452
+01:14:45,558 --> 01:14:50,625
+[JEFF] Which is why the Kigali Amendment in twenty sixteen is supposed to address HFCs. And
+
+1453
+01:14:50,625 --> 01:14:55,692
+[JEFF] if it gets fully implemented, the modeling says it could avoid zero point four degrees
+
+1454
+01:14:55,692 --> 01:15:00,758
+[JEFF] Celsius of warming by two thousand one hundred.
+
+1455
+01:15:00,758 --> 01:15:01,158
+[CYRUS] If.
+
+1456
+01:15:01,158 --> 01:15:06,758
+[JEFF] If. But that's not nothing. Zero point four degrees is actually a meaningful number.
+
+1457
+01:15:06,758 --> 01:15:12,258
+[CYRUS] It is. But look — I'm not saying institutions can't do anything. I'm saying the
+
+1458
+01:15:12,258 --> 01:15:17,758
+[CYRUS] structural problem is bigger than any single amendment can solve. Cooling consumes twenty-five to thirty
+
+1459
+01:15:17,758 --> 01:15:23,258
+[CYRUS] percent of global electricity right now. And demand is about to explode. The Kigali Amendment
+
+1460
+01:15:23,258 --> 01:15:28,758
+[CYRUS] is not going to bend that curve on its own.
+
+1461
+01:15:28,758 --> 01:15:34,492
+[JEFF] I think where I land on this is — yes, it's structural, but I don't
+
+1462
+01:15:34,492 --> 01:15:40,225
+[JEFF] think that means there's no institutional lever. The Kigali Amendment matters. The UNICEF solar refrigerators
+
+1463
+01:15:40,225 --> 01:15:45,958
+[JEFF] matter. The Einstein fridge revival matters. These aren't sufficient, but they're not nothing.
+
+1464
+01:15:45,958 --> 01:15:50,892
+[CYRUS] Right. I'm not saying do nothing. I'm saying don't kid yourself that the institutional fix
+
+1465
+01:15:50,892 --> 01:15:55,825
+[CYRUS] is going to be enough. The scale of the demand shift is going to require
+
+1466
+01:15:55,825 --> 01:16:00,758
+[CYRUS] a technological leap, not just better policy.
+
+1467
+01:16:00,758 --> 01:16:05,158
+[JEFF] I think that's probably right. The way I think about it is — policy buys
+
+1468
+01:16:05,158 --> 01:16:09,558
+[JEFF] time. Technology has to close the gap.
+
+1469
+01:16:09,558 --> 01:16:11,558
+[CYRUS] That I can agree with.
+
+1470
+01:16:11,558 --> 01:16:17,514
+[JEFF] And I want to come back to something I said in the last wave, because
+
+1471
+01:16:17,514 --> 01:16:23,470
+[JEFF] I promised we'd return to it — the housework paradox. The refrigerator was marketed as
+
+1472
+01:16:23,470 --> 01:16:29,425
+[JEFF] liberating women from daily shopping and daily spoilage. And it did do that. But what
+
+1473
+01:16:29,425 --> 01:16:35,381
+[JEFF] actually happened is that the expectation ratcheted up. Weekly shopping replaced daily shopping, yes —
+
+1474
+01:16:35,381 --> 01:16:41,336
+[JEFF] but now dinner was supposed to have more variety, more courses, higher standards. The time
+
+1475
+01:16:41,336 --> 01:16:47,292
+[JEFF] saved by the refrigerator got absorbed by rising expectations for what the kitchen was supposed
+
+1476
+01:16:47,292 --> 01:16:53,247
+[JEFF] to produce. And that's the same dynamic you see with email. Email was supposed to
+
+1477
+01:16:53,247 --> 01:16:59,203
+[JEFF] save time. What it created was the expectation that you respond to everything within hours.
+
+1478
+01:16:59,203 --> 01:17:05,159
+[JEFF] The technology that removes friction creates the standard that fills the friction back in.
+
+1479
+01:17:05,159 --> 01:17:08,759
+[CYRUS] The refrigerator didn't liberate the kitchen. It raised the bar for what the kitchen was
+
+1480
+01:17:08,759 --> 01:17:12,359
+[CYRUS] supposed to be.
+
+1481
+01:17:12,359 --> 01:17:17,759
+[JEFF] Right. And that's a hidden cost that is completely invisible until you're looking for it.
+
+1482
+01:17:17,759 --> 01:17:23,159
+[JEFF] It's not on anyone's balance sheet. But the social reorganization of domestic labor around refrigeration
+
+1483
+01:17:23,159 --> 01:17:28,559
+[JEFF] is real. Anyway. The hidden cost also isn't just climate. There's something Nicola Twilley points
+
+1484
+01:17:28,559 --> 01:17:33,959
+[JEFF] out in her book Frostbite — refrigeration reduced our exposure to fermented foods, to the
+
+1485
+01:17:33,959 --> 01:17:39,359
+[JEFF] beneficial microbes in food that was naturally preserved in the pre-refrigeration era. We've built an
+
+1486
+01:17:39,359 --> 01:17:44,759
+[JEFF] economy premised on cold equaling fresh, and it's not clear that assumption is even scientifically
+
+1487
+01:17:44,759 --> 01:17:50,159
+[JEFF] correct. Flash-frozen food is often fresher than refrigerated food that's been sitting in your fridge
+
+1488
+01:17:50,159 --> 01:17:55,559
+[JEFF] for four days.
+
+1489
+01:17:55,559 --> 01:17:58,759
+[CYRUS] "Fresh, never frozen." That's still a marketing premium.
+
+1490
+01:17:58,759 --> 01:18:03,825
+[JEFF] It's a marketing premium that goes back to the nineteen eleven Cold-Storage Banquet. Where they
+
+1491
+01:18:03,825 --> 01:18:08,892
+[JEFF] literally tried to prove that a year-old egg was fine to eat. We've been arguing
+
+1492
+01:18:08,892 --> 01:18:13,959
+[JEFF] about this for a hundred and fifteen years.
+
+1493
+01:18:13,959 --> 01:18:16,359
+[CYRUS] We have not resolved it.
+
+1494
+01:18:16,359 --> 01:18:21,159
+[JEFF] We have not resolved it. Okay. Question four: could we go back?
+
+1495
+01:18:21,159 --> 01:18:21,559
+[CYRUS] No.
+
+1496
+01:18:21,559 --> 01:18:22,359
+[JEFF] That's it?
+
+1497
+01:18:22,359 --> 01:18:28,059
+[CYRUS] I mean, what do you want me to say? Seven billion people are fed through
+
+1498
+01:18:28,059 --> 01:18:33,759
+[CYRUS] the cold chain. Hundreds of millions live in climates that are only habitable because of
+
+1499
+01:18:33,759 --> 01:18:39,459
+[CYRUS] air conditioning. Vaccines, insulin, organ transplants — all require cold. The global food system would
+
+1500
+01:18:39,459 --> 01:18:45,159
+[CYRUS] collapse within a week without refrigeration. We are not going back.
+
+1501
+01:18:45,159 --> 01:18:51,159
+[JEFF] And here's the thing I keep coming back to — Tudor's whole business model was
+
+1502
+01:18:51,159 --> 01:18:57,159
+[JEFF] built on creating dependency. That was his insight. You had to get people to want
+
+1503
+01:18:57,159 --> 01:19:03,159
+[JEFF] cold before they would pay for cold. He didn't just build a business; he manufactured
+
+1504
+01:19:03,159 --> 01:19:09,159
+[JEFF] a human expectation. And that expectation, two hundred years later, is so deep that it's
+
+1505
+01:19:09,159 --> 01:19:15,159
+[JEFF] physically load-bearing. We built cities on it. We built a food supply for seven billion
+
+1506
+01:19:15,159 --> 01:19:21,159
+[JEFF] people on it. Tudor's question from eighteen oh six — can you make people depend
+
+1507
+01:19:21,159 --> 01:19:27,159
+[JEFF] on cold? — has been answered. You can. And now you cannot take it back.
+
+1508
+01:19:27,159 --> 01:19:28,759
+[CYRUS] The dependency is total.
+
+1509
+01:19:28,759 --> 01:19:32,759
+[JEFF] The dependency is total. Okay — question five. What's next?
+
+1510
+01:19:32,759 --> 01:19:37,559
+[CYRUS] So this is where I actually get genuinely excited, because a couple of things are
+
+1511
+01:19:37,559 --> 01:19:42,359
+[CYRUS] happening simultaneously. The first is the Kigali Amendment doing its work on HFCs — targeting
+
+1512
+01:19:42,359 --> 01:19:47,159
+[CYRUS] the refrigerants that replaced the ozone-destroying ones. If it gets fully implemented, that zero point
+
+1513
+01:19:47,159 --> 01:19:51,959
+[CYRUS] four degrees matters.
+
+1514
+01:19:51,959 --> 01:19:56,859
+[JEFF] And natural refrigerants are making a comeback. Ammonia, CO2, hydrocarbons — all of them are
+
+1515
+01:19:56,859 --> 01:20:01,759
+[JEFF] being revisited, partly because they don't have the HFC problem and partly because the regulatory
+
+1516
+01:20:01,759 --> 01:20:06,659
+[JEFF] environment is starting to push in that direction. It's a bit of an ironic echo
+
+1517
+01:20:06,659 --> 01:20:11,559
+[JEFF] of the pre-Freon era.
+
+1518
+01:20:11,559 --> 01:20:13,559
+[CYRUS] And then there's Einstein's fridge.
+
+1519
+01:20:13,559 --> 01:20:18,519
+[JEFF] Which — and I will just say this — is one of the great buried
+
+1520
+01:20:18,519 --> 01:20:23,479
+[JEFF] stories in this whole episode. Oxford University engineers have actually revived Einstein and Szilard's nineteen
+
+1521
+01:20:23,479 --> 01:20:28,439
+[JEFF] thirty design — the refrigerator with no moving parts, no toxic refrigerants, no electricity required.
+
+1522
+01:20:28,439 --> 01:20:33,399
+[JEFF] The one Einstein patented after reading about a family killed by refrigerant fumes leaking from
+
+1523
+01:20:33,399 --> 01:20:38,359
+[JEFF] their icebox.
+
+1524
+01:20:38,359 --> 01:20:42,759
+[CYRUS] That design might finally find its purpose — a century later.
+
+1525
+01:20:42,759 --> 01:20:48,759
+[JEFF] A century later. For off-grid developing-world use. Which is exactly the use case Einstein and
+
+1526
+01:20:48,759 --> 01:20:54,759
+[JEFF] Szilard had in mind when they designed it. UNICEF is also deploying solar-powered vaccine refrigerators
+
+1527
+01:20:54,759 --> 01:21:00,759
+[JEFF] in rural areas without electricity — leapfrogging the grid entirely. So there's real innovation happening.
+
+1528
+01:21:00,759 --> 01:21:06,359
+[CYRUS] But the fundamental challenge — how do you provide universal access to cold without making
+
+1529
+01:21:06,359 --> 01:21:11,959
+[CYRUS] the planet uninhabitable — that is still the open question. And here's the thing: that
+
+1530
+01:21:11,959 --> 01:21:17,559
+[CYRUS] is actually the same question John Gorrie was trying to answer in eighteen forty-four. He
+
+1531
+01:21:17,559 --> 01:21:23,159
+[CYRUS] wanted to cool sickrooms to save lives in a warming climate.
+
+1532
+01:21:23,159 --> 01:21:25,559
+[JEFF] And we're still working on it.
+
+1533
+01:21:25,559 --> 01:21:29,959
+[CYRUS] We're still working on it. A hundred and eighty years later.
+
+1534
+01:21:29,959 --> 01:21:35,559
+[JEFF] Okay. We've got a couple of open questions we want to leave with you —
+
+1535
+01:21:35,559 --> 01:21:41,159
+[JEFF] things we don't have tidy answers to, because they don't have tidy answers.
+
+1536
+01:21:41,159 --> 01:21:46,919
+[CYRUS] First one's mine, and it's the cooling paradox. I keep coming back to this because
+
+1537
+01:21:46,919 --> 01:21:52,679
+[CYRUS] it is genuinely structurally alarming. We need more cooling because the planet is warming. Cooling
+
+1538
+01:21:52,679 --> 01:21:58,439
+[CYRUS] accelerates warming. The people who most need cooling are in the places that are warming
+
+1539
+01:21:58,439 --> 01:22:04,199
+[CYRUS] fastest and have the least infrastructure to handle it. And a potential thirty-fold-plus surge in
+
+1540
+01:22:04,199 --> 01:22:09,959
+[CYRUS] cooling demand by two thousand one hundred is not a solved problem.
+
+1541
+01:22:09,959 --> 01:22:15,859
+[JEFF] And the specific version of this that I think is worth sitting with: India. India
+
+1542
+01:22:15,859 --> 01:22:21,759
+[JEFF] is projected to grow air conditioner sales six-fold by twenty thirty-eight. Six times. That's not
+
+1543
+01:22:21,759 --> 01:22:27,659
+[JEFF] a fringe scenario — that's the base case. And HFCs — the refrigerants currently in
+
+1544
+01:22:27,659 --> 01:22:33,559
+[JEFF] use — have that fourteen-thousand-eight-hundred-times-CO2 warming potential. The math on this is not comfortable.
+
+1545
+01:22:33,559 --> 01:22:39,359
+[CYRUS] The honest answer is I don't know how you thread that needle without a genuine
+
+1546
+01:22:39,359 --> 01:22:45,159
+[CYRUS] technology breakthrough. Better efficiency standards help. The Kigali Amendment helps. But none of that bends
+
+1547
+01:22:45,159 --> 01:22:50,959
+[CYRUS] the curve enough at the scale India alone represents, let alone the full developing world.
+
+1548
+01:22:50,959 --> 01:22:56,759
+[CYRUS] This is the one where I think we are genuinely racing against ourselves.
+
+1549
+01:22:56,759 --> 01:23:01,959
+[JEFF] Second question is mine. The cold-chain gap. Thirteen percent of all food produced globally is
+
+1550
+01:23:01,959 --> 01:23:07,159
+[JEFF] lost to inadequate refrigeration. Enough to feed nearly a billion people. Fifty percent of vaccines
+
+1551
+01:23:07,159 --> 01:23:12,359
+[JEFF] wasted globally due to cold-chain failures. These numbers are not natural disasters — they're infrastructure
+
+1552
+01:23:12,359 --> 01:23:17,559
+[JEFF] deficits. And the infrastructure deficit is solvable.
+
+1553
+01:23:17,559 --> 01:23:18,359
+[CYRUS] In principle.
+
+1554
+01:23:18,359 --> 01:23:23,025
+[JEFF] In principle. The tools exist. Solar-powered cold storage. Einstein's fridge for off-grid communities. UNICEF's vaccine
+
+1555
+01:23:23,025 --> 01:23:27,692
+[JEFF] refrigerators. The question is scale and will — both of which are genuine political and
+
+1556
+01:23:27,692 --> 01:23:32,359
+[JEFF] institutional challenges, not physics problems.
+
+1557
+01:23:32,359 --> 01:23:36,759
+[CYRUS] The Peru example is brutal. Thirty ultra-cold freezers in the whole country, all in one
+
+1558
+01:23:36,759 --> 01:23:41,159
+[CYRUS] city, during a global pandemic that required ultra-cold distribution. That's not a technology problem. That's
+
+1559
+01:23:41,159 --> 01:23:45,559
+[CYRUS] an investment problem.
+
+1560
+01:23:45,559 --> 01:23:50,919
+[JEFF] It's a will problem. And I think it's worth naming that the cold-chain gap is
+
+1561
+01:23:50,919 --> 01:23:56,279
+[JEFF] the same gap Tudor identified in eighteen twenty when he showed up in Martinique with
+
+1562
+01:23:56,279 --> 01:24:01,639
+[JEFF] a ship full of ice and nobody there knew what to do with it. Creating
+
+1563
+01:24:01,639 --> 01:24:06,999
+[JEFF] demand in places that don't have the infrastructure for it. It's the same problem, two
+
+1564
+01:24:06,999 --> 01:24:12,359
+[JEFF] hundred years later, at vastly higher stakes.
+
+1565
+01:24:12,359 --> 01:24:17,559
+[CYRUS] The freshness illusion question — we're going to just briefly flag this one.
+
+1566
+01:24:17,559 --> 01:24:23,559
+[JEFF] Yeah. We built an entire food economy on the idea that cold equals fresh. And
+
+1567
+01:24:23,559 --> 01:24:29,559
+[JEFF] Nicola Twilley's argument is that it's not quite right — that flash-frozen food is often
+
+1568
+01:24:29,559 --> 01:24:35,559
+[JEFF] genuinely fresher than refrigerated food that's been sitting in cold storage for days or weeks.
+
+1569
+01:24:35,559 --> 01:24:41,559
+[JEFF] "Fresh, never frozen" is a marketing line. That distinction matters more than we're letting on.
+
+1570
+01:24:41,559 --> 01:24:47,025
+[CYRUS] "Fresh, never frozen" was also the argument at the nineteen eleven Cold-Storage Banquet. And it
+
+1571
+01:24:47,025 --> 01:24:52,492
+[CYRUS] worked. The fear of old food has been with us for a long time, even
+
+1572
+01:24:52,492 --> 01:24:57,959
+[CYRUS] as refrigeration made us dependent on old food marketed as fresh.
+
+1573
+01:24:57,959 --> 01:25:03,025
+[JEFF] This is the worst it will ever be — I actually think that applies here.
+
+1574
+01:25:03,025 --> 01:25:08,092
+[JEFF] Our ability to understand what "fresh" actually means scientifically is getting better. The marketing claims
+
+1575
+01:25:08,092 --> 01:25:13,159
+[JEFF] are going to start running into actual data.
+
+1576
+01:25:13,159 --> 01:25:17,759
+[JEFF] Okay. The part of this I want to leave people with — and this is
+
+1577
+01:25:17,759 --> 01:25:22,359
+[JEFF] the one portable idea from this whole story.
+
+1578
+01:25:22,359 --> 01:25:22,759
+[CYRUS] Go.
+
+1579
+01:25:22,759 --> 01:25:28,119
+[JEFF] Every wave of refrigeration's history required a new chemistry. And every chemistry solution created a
+
+1580
+01:25:28,119 --> 01:25:33,479
+[JEFF] problem its inventors couldn't see. Gorrie's design used the right principle but technology his era
+
+1581
+01:25:33,479 --> 01:25:38,839
+[JEFF] couldn't make safe. Linde's ammonia machines were safe for breweries, deadly for home kitchens. Midgley's
+
+1582
+01:25:38,839 --> 01:25:44,199
+[JEFF] Freon was safe for home kitchens, catastrophic for the ozone layer. HFCs replaced CFCs and
+
+1583
+01:25:44,199 --> 01:25:49,559
+[JEFF] turned out to be potent greenhouse gases.
+
+1584
+01:25:49,559 --> 01:25:52,359
+[CYRUS] Every solution is also the next problem.
+
+1585
+01:25:52,359 --> 01:25:58,059
+[JEFF] But the specific version that I think is the takeaway — and I want to
+
+1586
+01:25:58,059 --> 01:26:03,759
+[JEFF] be careful here, because I don't want this to collapse into "all technology has unintended
+
+1587
+01:26:03,759 --> 01:26:09,459
+[JEFF] consequences," which is true but not useful. The specific thing that happened every time is
+
+1588
+01:26:09,459 --> 01:26:15,159
+[JEFF] this: the cost only appeared after the solution became load-bearing. By the time we understood
+
+1589
+01:26:15,159 --> 01:26:20,859
+[JEFF] what CFCs were doing to the ozone layer, half the civilized world was running on
+
+1590
+01:26:20,859 --> 01:26:26,559
+[JEFF] them. By the time Rowland and Molina published their findings in nineteen seventy-four — the
+
+1591
+01:26:26,559 --> 01:26:32,259
+[JEFF] findings that won them the Nobel Prize — the dependency was already so deep that
+
+1592
+01:26:32,259 --> 01:26:37,959
+[JEFF] the Montreal Protocol took another thirteen years to sign.
+
+1593
+01:26:37,959 --> 01:26:42,759
+[CYRUS] Thirteen years. And in those thirteen years, the ozone hole was forming.
+
+1594
+01:26:42,759 --> 01:26:48,559
+[JEFF] The ozone hole was forming. And the question I keep sitting with — and this
+
+1595
+01:26:48,559 --> 01:26:54,359
+[JEFF] is the one I want to leave listeners with — is not "does this technology
+
+1596
+01:26:54,359 --> 01:27:00,159
+[JEFF] work?" Because refrigeration worked. It worked at every stage. The question is: what will we
+
+1597
+01:27:00,159 --> 01:27:05,959
+[JEFF] discover about this in forty years, when it's too deeply embedded to remove?
+
+1598
+01:27:05,959 --> 01:27:11,159
+[CYRUS] Right. And you can apply that to basically anything we're building right now.
+
+1599
+01:27:11,159 --> 01:27:17,159
+[JEFF] You can. I think specifically about AI, because that's where we spend a lot of
+
+1600
+01:27:17,159 --> 01:27:23,159
+[JEFF] our time. The things we don't know about long-term AI deployment at scale — the
+
+1601
+01:27:23,159 --> 01:27:29,159
+[JEFF] social effects, the economic effects, the concentration effects — those costs are going to appear
+
+1602
+01:27:29,159 --> 01:27:35,159
+[JEFF] on the same timeline as refrigeration's hidden costs. After the dependency is load-bearing. Not before.
+
+1603
+01:27:35,159 --> 01:27:40,959
+[CYRUS] And by that point, you can't uninvent it. You can only invent around it. The
+
+1604
+01:27:40,959 --> 01:27:46,759
+[CYRUS] same way we're inventing around HFCs now with natural refrigerants and the Kigali Amendment.
+
+1605
+01:27:46,759 --> 01:27:52,025
+[JEFF] This is specifically the thing that the refrigeration story teaches that other technology stories often
+
+1606
+01:27:52,025 --> 01:27:57,292
+[JEFF] obscure. The question is not whether the risk is real. The resisters in every wave
+
+1607
+01:27:57,292 --> 01:28:02,559
+[JEFF] of refrigeration had real arguments. Gorrie's machine was genuinely dangerous. Ammonia machines did kill people.
+
+1608
+01:28:02,559 --> 01:28:07,825
+[JEFF] The cold-storage food did make people genuinely uncomfortable for very reasonable reasons. The resisters were
+
+1609
+01:28:07,825 --> 01:28:13,092
+[JEFF] often right about the immediate problem. They just couldn't stop the dependency once it formed.
+
+1610
+01:28:13,092 --> 01:28:18,359
+[JEFF] And neither can we.
+
+1611
+01:28:18,359 --> 01:28:20,759
+[CYRUS] So the lesson is... don't resist?
+
+1612
+01:28:20,759 --> 01:28:26,225
+[JEFF] ... No. I think the lesson is: be honest about the timing gap. We talk
+
+1613
+01:28:26,225 --> 01:28:31,692
+[JEFF] about technology risk like risk assessment and technology adoption happen at the same speed. They
+
+1614
+01:28:31,692 --> 01:28:37,159
+[JEFF] don't. The technology spreads. The risk becomes clear later. The Montreal Protocol is actually the
+
+1615
+01:28:37,159 --> 01:28:42,625
+[JEFF] hopeful version of this story — humanity identified the risk before the damage was irreversible,
+
+1616
+01:28:42,625 --> 01:28:48,092
+[JEFF] coordinated, and acted. Thirteen years after the science. That's not fast. But it was fast
+
+1617
+01:28:48,092 --> 01:28:53,559
+[JEFF] enough for the ozone layer to recover.
+
+1618
+01:28:53,559 --> 01:28:54,759
+[CYRUS] The hopeful version.
+
+1619
+01:28:54,759 --> 01:29:00,759
+[JEFF] The hopeful version. The less hopeful version is the one we're living with now —
+
+1620
+01:29:00,759 --> 01:29:06,759
+[JEFF] a cooling paradox where the solution is also the accelerant. And we built it. We
+
+1621
+01:29:06,759 --> 01:29:12,759
+[JEFF] chose it. Every one of us chose it, every time we bought a refrigerator or
+
+1622
+01:29:12,759 --> 01:29:18,759
+[JEFF] moved to Phoenix or took a vaccine that needed to be kept at minus seventy.
+
+1623
+01:29:18,759 --> 01:29:19,559
+[CYRUS] Tudor's legacy.
+
+1624
+01:29:19,559 --> 01:29:23,959
+[JEFF] Tudor's legacy. Cold, built in. ... You cannot unring that bell.
+
+1625
+01:29:23,959 --> 01:29:28,919
+[JEFF] Before we go — a couple of things. If this episode got you thinking, there's
+
+1626
+01:29:28,919 --> 01:29:33,879
+[JEFF] a lot more in the show notes. Every person we mentioned — Frederic Tudor, John
+
+1627
+01:29:33,879 --> 01:29:38,839
+[JEFF] Gorrie, Carl von Linde, Gustavus Swift, Thomas Midgley, Frederick McKinley Jones, even Einstein and Szilard
+
+1628
+01:29:38,839 --> 01:29:43,799
+[JEFF] — we've got sources linked there, and some of those rabbit holes are genuinely worth
+
+1629
+01:29:43,799 --> 01:29:48,759
+[JEFF] going down.
+
+1630
+01:29:48,759 --> 01:29:54,059
+[CYRUS] And if you've got a friend or a colleague who would love this kind of
+
+1631
+01:29:54,059 --> 01:29:59,359
+[CYRUS] story — the foundational technology stories, the messy middle of how the world got built
+
+1632
+01:29:59,359 --> 01:30:04,659
+[CYRUS] — please share this episode with them. That's genuinely how this show grows. Word of
+
+1633
+01:30:04,659 --> 01:30:09,959
+[CYRUS] mouth from people who love what they found.
+
+1634
+01:30:09,959 --> 01:30:14,759
+[JEFF] We'd love for you to follow us wherever you get your podcasts. Subscribe, leave a
+
+1635
+01:30:14,759 --> 01:30:19,559
+[JEFF] review if you feel like it — all of that matters more than you might
+
+1636
+01:30:19,559 --> 01:30:24,359
+[JEFF] think for a show like this.
+
+1637
+01:30:24,359 --> 01:30:30,359
+[CYRUS] Listeners, this has been one of the stories I've thought about most since we started
+
+1638
+01:30:30,359 --> 01:30:36,359
+[CYRUS] working on this show. I keep coming back to that image of families in Texas
+
+1639
+01:30:36,359 --> 01:30:42,359
+[CYRUS] in twenty twenty-one, storing their food in snowbanks outside their house. Two hundred years after
+
+1640
+01:30:42,359 --> 01:30:48,359
+[CYRUS] Tudor, using nature's cold because the machines stopped. That's the backbone test in one image.
+
+1641
+01:30:48,359 --> 01:30:53,025
+[JEFF] And the next time you open your refrigerator and don't think about it — that's
+
+1642
+01:30:53,025 --> 01:30:57,692
+[JEFF] the whole story right there. That automatic gesture. That's two centuries of obsession, destruction, chemistry,
+
+1643
+01:30:57,692 --> 01:31:02,359
+[JEFF] and human ingenuity, made invisible.
+
+1644
+01:31:02,359 --> 01:31:03,159
+[CYRUS] That's it.
+
+1645
+01:31:03,159 --> 01:31:04,359
+[JEFF] Thanks for listening.
+
+1646
+01:31:04,359 --> 01:31:05,559
+[CYRUS] Until next time.
+

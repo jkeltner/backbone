@@ -2,7 +2,7 @@
 
 This repo is an AI agent pipeline for producing **Backbone: From Breakthrough to Built-In** — a deeply researched, narrative-driven podcast about technological innovations.
 
-Each file in `roles/` is a prompt — a complete briefing for a Claude Code Task agent. Every agent reads this file (shared context) plus its own role file (specific instructions). Templates in `templates/` define output format contracts. The `old_reference/` directory is archived material from the prior human workflow — useful as raw material but not active instructions.
+Each file in `roles/` is a prompt — a complete briefing for a Claude Code Task agent. Every agent reads this file (shared context) plus its own role file (specific instructions). Templates in `templates/` define output format contracts.
 
 ---
 
@@ -123,8 +123,11 @@ Full personality profiles for each host are in `hosts/jeff.md` and `hosts/cyrus.
 ## Directory Structure
 
 ```
-backbone_auto/
+backbone/
 ├── CLAUDE.md                    ← this file (shared context for all agents)
+├── README.md
+├── requirements.txt             ← Python deps for the production/distribution toolchain
+├── .env.example                 ← template for required service keys (Transistor, ElevenLabs, etc.)
 ├── hosts/                       ← host personality profiles (read by Script Writer)
 │   ├── jeff.md
 │   └── cyrus.md
@@ -139,37 +142,54 @@ backbone_auto/
 ├── templates/                   ← output format contracts
 │   ├── research-overview.md
 │   ├── research-chapter.md
-│   └── blueprint.md
+│   ├── blueprint.md
+│   └── social/                  ← HTML templates for social-image rendering
 ├── episodes/                    ← per-episode working directories
 │   └── {topic}/
-│       ├── research/            ← research files
-│       │   ├── overview.md      ← Phase 1: broad overview
-│       │   ├── chapter-01-*.md  ← Phase 2: per-chapter deep dives
-│       │   └── chapter-02-*.md
+│       ├── research/            ← research files (overview + per-chapter deep dives)
 │       ├── blueprint.md         ← story structure (binding contract)
-│       ├── script/              ← script.txt files + review artifacts
-│       │   ├── chapter-01-*.txt
-│       │   ├── chapter-02-*.txt
-│       │   ├── editor-notes.md  ← Editor's review notes
-│       │   ├── fact-check-report.md ← Fact Checker's report
-│       │   └── assembled.txt    ← full episode script
+│       ├── script/              ← script.txt files + review artifacts (editor-notes, fact-check-report)
 │       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
-│       ├── profile-update-proposals.md ← Profile Updater's proposed host file edits
-│       ├── assets/              ← per-episode generated assets
-│       │   └── audio/           ← TTS audio segments + manifest.json
-│       └── final/               ← assembled deliverables
-├── old_reference/               ← v1 templates (archived, not active)
-├── assets/                      ← cover art, promo images, theme music samples
-│   └── music/                   ← theme music mp3s + direction notes (music.md)
-├── pipeline/                    ← technical specs for automated tooling
-│   └── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
+│       ├── profile-update-proposals.md
+│       ├── assets/              ← per-episode generated assets (audio/, video/)
+│       └── final/               ← assembled deliverables (episode.mp3, transcript, chapters, metadata, show-notes, social-content, assembly-map)
+├── assets/                      ← show-level assets
+│   ├── show-description.md      ← canonical show copy (tagline, short, long descriptions)
+│   ├── cover_art.png            ← show-level cover art
+│   ├── audiogram_background.png
+│   ├── promo_image.png
+│   └── music/                   ← locked: backbone-theme.mp3, backbone-bumper.mp3
+├── pipeline/                    ← technical specs + plans for automated tooling
+│   ├── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
+│   ├── production-pipeline.md
+│   ├── distribution-pipeline.md
+│   ├── promotion-pipeline.md
+│   ├── launch-plan.md           ← walkable plan to ship ep 1
+│   └── TODO.md                  ← open work, pruned
 └── tools/                       ← runnable scripts (Python)
-    └── tts_generate.py          ← generate per-turn audio segments via ElevenLabs
+    ├── README.md
+    ├── audio_assemble.py
+    ├── timestamp_chapters.py
+    ├── generate_transcript.py
+    ├── distribute_podcast.py
+    ├── distribute_youtube.py    (deferred from MVP — Transistor handles audio→video)
+    ├── audiogram_video.py       (deferred from MVP)
+    ├── tts_dialogue.py
+    ├── tts_generate.py
+    ├── split_waves_to_cache.py
+    ├── release.py               ← master orchestrator
+    └── (social_images, clip_selector, clip_generate, promote_*, distribute_newsletter — deferred)
 ```
 
 ### File Naming
 - **kebab-case** for all filenames
 - Chapters numbered with zero-padded prefix: `chapter-01-the-ice-trade.md`
+
+### Episode Iteration Policy
+- **One canonical directory per topic** (`episodes/{topic}/`). No `_v1`, `_v2` archive directories — git is the version history.
+- Iterate in place. Feedback lives in `episodes/{topic}/feedback.txt` and downstream review artifacts (`editor-notes.md`, `fact-check-report.md`, `profile-update-proposals.md`).
+- The refrigeration episode is an explicit beta exception: `episodes/refrigeration_v1/` is preserved for reference while we use refrigeration to debug the pipeline. Once we're past beta, this pattern goes away.
+
 ### Front Matter
 All deliverables include front matter for status tracking:
 ```

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=3000, height=3000">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 3000px;
+    height: 3000px;
+    background: linear-gradient(180deg, #1a1a2e 0%, #0f3460 100%);
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+    position: relative;
+  }
+  .show-name {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #4A90D9;
+    margin-bottom: 60px;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+  }
+  .episode-title {
+    font-size: {{title_size}}px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 80px;
+    max-width: 2200px;
+  }
+  .subtitle {
+    font-size: 52px;
+    font-style: italic;
+    color: #aab;
+    max-width: 2000px;
+    line-height: 1.4;
+  }
+  .episode-number {
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 48px;
+    color: rgba(255,255,255,0.3);
+    font-family: -apple-system, sans-serif;
+  }
+  .bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 12px;
+    background: #4A90D9;
+  }
+</style>
+</head>
+<body>
+  <div class="episode-number">{{episode_number}}</div>
+  <div class="show-name">Backbone</div>
+  <div class="episode-title">{{episode_title}}</div>
+  <div class="subtitle">From Breakthrough to Built-In</div>
+  <div class="bottom-bar"></div>
+</body>
+</html>

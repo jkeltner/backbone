@@ -1,0 +1,23 @@
+# Backbone production/distribution pipeline dependencies
+# Install: pip install -r requirements.txt
+# Playwright also needs: playwright install chromium
+
+# TTS (ElevenLabs)
+elevenlabs>=1.0
+
+# Audio processing
+pydub>=0.25
+
+# Social image rendering (headless browser screenshots of HTML templates)
+playwright>=1.40
+
+# HTTP (Transistor, Buttondown APIs)
+requests>=2.31
+
+# YouTube upload + OAuth2
+google-api-python-client>=2.100
+google-auth>=2.23
+google-auth-oauthlib>=1.1
+
+# Twitter/X posting
+tweepy>=4.14

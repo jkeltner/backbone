@@ -15,8 +15,16 @@ __pycache__/
 .venv/
 venv/
 
-# Generated audio (large binary files)
+# Generated audio (large binary files) — match at any depth under assets/audio
+episodes/*/assets/audio/**/*.mp3
+episodes/*/assets/audio/**/*.wav
 episodes/*/assets/audio/*.mp3
 episodes/*/assets/audio/*.wav
-episodes/*/assets/audio/per-turn/
+episodes/*/assets/audio/**/per-turn/
 episodes/*/final/episode.mp3
+episodes/*/final/episode-wave-*.mp3
+
+# Generated video, clips, images (large binary files)
+episodes/*/assets/video/**/*.mp4
+episodes/*/assets/clips/**/*.mp4
+episodes/*/assets/images/**/*.png

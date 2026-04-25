@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, height=675">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 675px;
+    background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 80px;
+    position: relative;
+  }
+  .stat-number {
+    font-size: {{number_size}}px;
+    font-weight: 800;
+    color: #4A90D9;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .stat-label {
+    font-size: 28px;
+    line-height: 1.4;
+    max-width: 800px;
+    color: #dde;
+  }
+  .context {
+    font-size: 18px;
+    color: #889;
+    margin-top: 25px;
+    max-width: 700px;
+    line-height: 1.4;
+  }
+  .branding {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+    font-style: italic;
+    font-family: Georgia, serif;
+  }
+  .divider {
+    width: 80px;
+    height: 3px;
+    background: #4A90D9;
+    margin: 15px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="stat-number">{{stat_number}}</div>
+  <div class="divider"></div>
+  <div class="stat-label">{{stat_label}}</div>
+  <div class="context">{{context}}</div>
+  <div class="branding">Backbone: From Breakthrough to Built-In</div>
+</body>
+</html>

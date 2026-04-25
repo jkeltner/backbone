@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, height=675">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 675px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .quote-mark {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 120px;
+    color: rgba(74, 144, 217, 0.3);
+    font-family: Georgia, serif;
+    line-height: 1;
+  }
+  .quote-text {
+    font-size: {{font_size}}px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 30px;
+    max-width: 1000px;
+  }
+  .attribution {
+    font-size: 20px;
+    color: #aab;
+    font-style: normal;
+  }
+  .attribution .name {
+    color: #4A90D9;
+    font-weight: bold;
+  }
+  .branding {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+    font-style: italic;
+  }
+  .accent-line {
+    width: 60px;
+    height: 3px;
+    background: #4A90D9;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="quote-mark">&ldquo;</div>
+  <div class="accent-line"></div>
+  <div class="quote-text">{{quote_text}}</div>
+  <div class="attribution">
+    &mdash; <span class="name">{{speaker_name}}</span>{{context}}
+  </div>
+  <div class="branding">Backbone: From Breakthrough to Built-In</div>
+</body>
+</html>

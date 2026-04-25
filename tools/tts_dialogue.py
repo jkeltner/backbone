@@ -17,16 +17,17 @@ boundaries — each section between cues becomes one API call.
 
 Usage:
   python tools/tts_dialogue.py refrigeration
-  python tools/tts_dialogue.py refrigeration --model v2       # higher quality, per-turn TTS
+  python tools/tts_dialogue.py refrigeration --model v3       # Dialogue API (archived)
   python tools/tts_dialogue.py refrigeration --speed 1.5      # faster playback (default: 1.3)
   python tools/tts_dialogue.py refrigeration --dry-run
   python tools/tts_dialogue.py refrigeration --wave 0
   python tools/tts_dialogue.py refrigeration --yes
+  python tools/tts_dialogue.py refrigeration --reprocess      # re-concat from cached per-turn files
 
 Models:
-  v3 (default) — ElevenLabs Dialogue API, native multi-speaker, supports audio tags
-  v2           — eleven_multilingual_v2, per-turn TTS (pydub required), audio tags stripped,
-                 often warmer/more natural for conversational speech
+  v2 (default) — eleven_multilingual_v2, per-turn TTS (pydub required), audio tags stripped,
+                 warmer/more natural for conversational speech
+  v3           — ElevenLabs Dialogue API, native multi-speaker, supports audio tags (archived)
 
 Config (set in .env):
   ELEVENLABS_API_KEY
@@ -44,15 +45,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 MODEL_V3 = "eleven_v3"
 MODEL_V2 = "eleven_multilingual_v2"
-DEFAULT_MODEL = MODEL_V3
+DEFAULT_MODEL = MODEL_V2
 OUTPUT_FORMAT = "mp3_44100_128"
 
-# ElevenLabs Dialogue API limit (inputs per request)
-# If a wave exceeds this, it's split into sub-chunks
+# ElevenLabs Dialogue API limits per request
 MAX_INPUTS_PER_REQUEST = 100
+MAX_CHARS_PER_REQUEST = 5000
 
 # Audio tags that ElevenLabs v3 handles natively but v2 does not
 AUDIO_TAG_RE = re.compile(r"\[(?:laughs?|pause|quietly|sighs?|clears throat|whispers?)[^\]]*\]\s*", re.IGNORECASE)
+
+# Per-turn loudness normalization target (EBU R128, standard for podcasts)
+TARGET_LUFS = -16
 
 
 # ---------------------------------------------------------------------------
@@ -230,14 +234,30 @@ def split_into_waves(items: list[dict], model_suffix: str = "") -> list[dict]:
     return waves
 
 
-def sub_chunk_wave(wave: dict, max_inputs: int = MAX_INPUTS_PER_REQUEST) -> list[list[dict]]:
-    """Split a wave's turns into sub-chunks if it exceeds max_inputs."""
+def sub_chunk_wave(wave: dict, max_inputs: int = MAX_INPUTS_PER_REQUEST,
+                   max_chars: int = MAX_CHARS_PER_REQUEST) -> list[list[dict]]:
+    """Split a wave's turns into sub-chunks by input count and character count."""
     turns = wave["turns"]
-    if len(turns) <= max_inputs:
+    total_chars = sum(len(t["text"]) for t in turns)
+    if len(turns) <= max_inputs and total_chars <= max_chars:
         return [turns]
+
     chunks = []
-    for i in range(0, len(turns), max_inputs):
-        chunks.append(turns[i:i + max_inputs])
+    current_chunk = []
+    current_chars = 0
+
+    for turn in turns:
+        turn_chars = len(turn["text"])
+        if current_chunk and (len(current_chunk) >= max_inputs
+                              or current_chars + turn_chars > max_chars):
+            chunks.append(current_chunk)
+            current_chunk = []
+            current_chars = 0
+        current_chunk.append(turn)
+        current_chars += turn_chars
+
+    if current_chunk:
+        chunks.append(current_chunk)
     return chunks
 
 
@@ -276,6 +296,49 @@ def apply_speed(path: Path, speed: float) -> bool:
         return False
 
 
+def measure_lufs(file_path):
+    """Measure integrated loudness (LUFS) of an audio file using ffmpeg."""
+    import subprocess
+    result = subprocess.run(
+        ["ffmpeg", "-i", str(file_path), "-af", "ebur128=framelog=verbose", "-f", "null", "/dev/null"],
+        capture_output=True, text=True,
+    )
+    for line in result.stderr.splitlines():
+        if "I:" in line and "LUFS" in line:
+            m = re.search(r"I:\s*(-?\d+\.?\d*)\s*LUFS", line)
+            if m:
+                return float(m.group(1))
+    return None
+
+
+def normalize_segment(audio_segment, file_path, target_lufs=TARGET_LUFS):
+    """Normalize an AudioSegment to target LUFS. Returns (normalized_audio, adjustment_db).
+
+    For very quiet segments (LUFS below -50 or unmeasurable), falls back to peak
+    normalization — sets peak to -1 dBFS then adjusts to approximate the target LUFS.
+    """
+    current_lufs = measure_lufs(file_path)
+
+    if current_lufs is not None and current_lufs > -50:
+        # Normal LUFS-based normalization — no gain cap
+        adjustment = target_lufs - current_lufs
+        return audio_segment.apply_gain(adjustment), adjustment
+
+    # Fallback: peak normalization for near-silence or unmeasurable segments.
+    # Normalize peak to -1 dBFS, then pull back to approximate target LUFS.
+    # Typical speech has ~10-14 dB crest factor (peak - LUFS), so -1 dBFS peak
+    # ≈ -11 to -15 LUFS. We add a small reduction to land near target.
+    peak_dbfs = audio_segment.max_dBFS
+    if peak_dbfs < -60:
+        # Truly silent — don't amplify noise
+        return audio_segment, 0.0
+    target_peak = -1.0
+    peak_adjustment = target_peak - peak_dbfs
+    # Pull back so the result isn't too hot relative to LUFS-normalized segments
+    adjustment = peak_adjustment - 3.0
+    return audio_segment.apply_gain(adjustment), adjustment
+
+
 def strip_audio_tags(text: str) -> str:
     """Remove audio tags like [laughs], [pause], etc. that v2 would read aloud."""
     return AUDIO_TAG_RE.sub("", text).strip()
@@ -283,22 +346,16 @@ def strip_audio_tags(text: str) -> str:
 
 def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
                   stability: float = 0.4, speed: float = 1.0,
-                  model: str = MODEL_V3) -> bool:
+                  model: str = MODEL_V3, reprocess: bool = False) -> bool:
     """Generate audio for a single wave. Uses Dialogue API for v3, per-turn TTS for v2."""
     out_path = output_dir / wave["filename"]
     turns = wave["turns"]
     sub_chunks = sub_chunk_wave(wave)
     use_v2 = (model == MODEL_V2)
 
-    if out_path.exists():
+    if out_path.exists() and not reprocess:
         print(f"  skip  {wave['filename']}")
         return True
-
-    jeff_vid  = voice_id_for("JEFF")
-    cyrus_vid = voice_id_for("CYRUS")
-
-    def vid_for(speaker):
-        return jeff_vid if speaker == "JEFF" else cyrus_vid
 
     if dry_run:
         total_chars = sum(len(t["text"]) for t in turns)
@@ -309,12 +366,27 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
         return True
 
     try:
-        if use_v2:
-            # v2: per-turn generation, concatenated into a single wave file
+        if reprocess and use_v2:
+            # Re-concatenate from cached per-turn files with normalization (no API calls)
+            model_suffix = "_v2"
+            print(f"  reprocess  {wave['filename']}...")
+            ok = _reprocess_wave_v2(wave, out_path, output_dir, model_suffix)
+            if not ok:
+                print(f"  ERROR: cached per-turn files not found for {wave['filename']}")
+                print(f"         Run without --reprocess first to generate and cache per-turn files.")
+                return False
+        elif use_v2:
+            # v2: per-turn generation, cached + normalized, concatenated into a single wave file
+            jeff_vid = voice_id_for("JEFF")
+            cyrus_vid = voice_id_for("CYRUS")
+            vid_for = lambda speaker: jeff_vid if speaker == "JEFF" else cyrus_vid
             _generate_wave_v2(client, wave, out_path, output_dir,
                               model, vid_for, stability)
         else:
             # v3: Dialogue API (multi-speaker, supports audio tags natively)
+            jeff_vid = voice_id_for("JEFF")
+            cyrus_vid = voice_id_for("CYRUS")
+            vid_for = lambda speaker: jeff_vid if speaker == "JEFF" else cyrus_vid
             _generate_wave_v3(client, wave, out_path, output_dir,
                               model, vid_for, stability, sub_chunks)
 
@@ -324,7 +396,8 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
         kb = out_path.stat().st_size // 1024
         speed_note = f" @{speed}x" if speed != 1.0 else ""
         model_note = f" [{model}]"
-        print(f"  ok    {wave['filename']}  ({len(turns)} turns, {kb} KB{speed_note}{model_note})")
+        reprocess_note = " (reprocessed)" if reprocess else ""
+        print(f"  ok    {wave['filename']}  ({len(turns)} turns, {kb} KB{speed_note}{model_note}{reprocess_note})")
         return True
 
     except Exception as e:
@@ -376,11 +449,29 @@ def _generate_wave_v3(client, wave, out_path, output_dir,
         combined.export(out_path, format="mp3", bitrate="128k")
 
 
+def _per_turn_cache_dir(output_dir, model_suffix):
+    """Return the per-turn cache directory for a given model suffix."""
+    cache_dir = output_dir / f"per-turn{model_suffix}"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    return cache_dir
+
+
+def _per_turn_filename(wave_index, turn_index, speaker):
+    """Consistent per-turn cache filename."""
+    return f"w{wave_index:02d}-t{turn_index:04d}-{speaker.lower()}.mp3"
+
+
 def _generate_wave_v2(client, wave, out_path, output_dir,
                       model, vid_for, stability):
-    """Generate a wave using per-turn TTS calls (v2 multilingual). Strips audio tags."""
+    """Generate a wave using per-turn TTS calls (v2 multilingual). Strips audio tags.
+
+    Per-turn files are cached in per-turn-v2/ for free re-processing later.
+    Each turn is LUFS-normalized to -16 LUFS before concatenation.
+    """
     from pydub import AudioSegment
 
+    model_suffix = "_v2" if model == MODEL_V2 else "_v3"
+    cache_dir = _per_turn_cache_dir(output_dir, model_suffix)
     turns = wave["turns"]
     combined = AudioSegment.empty()
 
@@ -389,24 +480,76 @@ def _generate_wave_v2(client, wave, out_path, output_dir,
         if not text:
             continue
 
-        tmp_path = output_dir / f"_tmp_{wave['index']:02d}_turn_{i:04d}.mp3"
-        audio_iter = client.text_to_speech.convert(
-            text=text,
-            voice_id=vid_for(turn["speaker"]),
-            model_id=model,
-            output_format=OUTPUT_FORMAT,
-            voice_settings={
-                "stability": stability,
-                "similarity_boost": 0.75,
-            },
-        )
-        with open(tmp_path, "wb") as f:
-            for chunk in audio_iter:
-                f.write(chunk)
-        combined += AudioSegment.from_mp3(tmp_path)
-        tmp_path.unlink()
+        cache_path = cache_dir / _per_turn_filename(wave["index"], i, turn["speaker"])
+
+        if cache_path.exists():
+            # Use cached per-turn file (no API call)
+            seg = AudioSegment.from_mp3(cache_path)
+        else:
+            # Generate via API and cache
+            audio_iter = client.text_to_speech.convert(
+                text=text,
+                voice_id=vid_for(turn["speaker"]),
+                model_id=model,
+                output_format=OUTPUT_FORMAT,
+                voice_settings={
+                    "stability": stability,
+                    "similarity_boost": 0.75,
+                },
+            )
+            with open(cache_path, "wb") as f:
+                for chunk in audio_iter:
+                    f.write(chunk)
+            seg = AudioSegment.from_mp3(cache_path)
+
+        # Normalize each turn to target LUFS before concatenation
+        seg, adj = normalize_segment(seg, cache_path)
+        if abs(adj) > 0.5:
+            print(f"    turn {i} ({turn['speaker']}): {adj:+.1f} dB", flush=True)
+        combined += seg
 
     combined.export(out_path, format="mp3", bitrate="128k")
+
+
+def _reprocess_wave_v2(wave, out_path, output_dir, model_suffix):
+    """Re-concatenate a wave from cached per-turn files with LUFS normalization.
+
+    No API calls — reads only from the per-turn cache directory.
+    Returns True if successful, False if cache files are missing.
+    """
+    from pydub import AudioSegment
+
+    cache_dir = output_dir / f"per-turn{model_suffix}"
+    if not cache_dir.exists():
+        return False
+
+    turns = wave["turns"]
+    combined = AudioSegment.empty()
+    missing = 0
+
+    for i, turn in enumerate(turns):
+        text = strip_audio_tags(turn["text"])
+        if not text:
+            continue
+
+        cache_path = cache_dir / _per_turn_filename(wave["index"], i, turn["speaker"])
+        if not cache_path.exists():
+            missing += 1
+            continue
+
+        seg = AudioSegment.from_mp3(cache_path)
+        seg, adj = normalize_segment(seg, cache_path)
+        if abs(adj) > 0.5:
+            print(f"    turn {i} ({turn['speaker']}): {adj:+.1f} dB", flush=True)
+        combined += seg
+
+    if missing:
+        print(f"  WARNING: {missing} cached per-turn files missing for {wave['filename']}")
+        if len(combined) == 0:
+            return False
+
+    combined.export(out_path, format="mp3", bitrate="128k")
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -425,9 +568,12 @@ def main():
                         help="Voice stability 0.0–1.0 (lower=more expressive, default: 0.4)")
     parser.add_argument("--speed", type=float, default=1.3, metavar="N",
                         help="Playback speed multiplier (default: 1.3). Requires ffmpeg.")
-    parser.add_argument("--model", choices=["v3", "v2"], default="v3",
-                        help="ElevenLabs model: v3 (Dialogue API, audio tags) or "
-                             "v2 (multilingual_v2, per-turn, higher quality). Default: v3")
+    parser.add_argument("--model", choices=["v2", "v3"], default="v2",
+                        help="ElevenLabs model: v2 (multilingual_v2, per-turn, default) or "
+                             "v3 (Dialogue API, audio tags). Default: v2")
+    parser.add_argument("--reprocess", action="store_true",
+                        help="Re-concatenate from cached per-turn files with LUFS normalization. "
+                             "No API calls — requires a prior run that cached per-turn files.")
     args = parser.parse_args()
 
     model_id = MODEL_V2 if args.model == "v2" else MODEL_V3
@@ -477,6 +623,21 @@ def main():
             generate_wave(client, w, output_dir, dry_run=True,
                           stability=args.stability, speed=args.speed,
                           model=model_id)
+        return
+
+    if args.reprocess:
+        # Re-concatenate from cached per-turn files — no API calls needed
+        print(f"\n[reprocess] Re-concatenating from cached per-turn files with LUFS normalization...")
+        ok, failed = 0, 0
+        for w in run_waves:
+            if generate_wave(None, w, output_dir, stability=args.stability, speed=args.speed,
+                             model=model_id, reprocess=True):
+                ok += 1
+            else:
+                failed += 1
+        print(f"\nDone: {ok} reprocessed, {failed} failed")
+        if failed:
+            print("Missing cached files — run without --reprocess first to generate them.")
         return
 
     if to_generate == 0:

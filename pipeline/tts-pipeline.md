@@ -2,6 +2,8 @@
 
 This document is the technical spec for the automated Python/ElevenLabs workflow that converts a finished script into a produced audio episode. Build against this spec — the script format contract is defined here.
 
+> **Model status (as of 2026-04-25):** v2 multilingual is the current target. Episode 1 launch is gated on ElevenLabs enabling Professional Voice Cloning on v3 — once v3 PVC lands, voices regenerate on v3, the Script Writer's audio-tag vocabulary expands, and refrigeration is rebuilt as the v3 quality benchmark. Until then, audio tags listed in the v3 sections below are stripped before TTS.
+
 ---
 
 ## Overview
@@ -12,10 +14,10 @@ episodes/{topic}/final/assembled.txt
   ▼
 Parse: split into text chunks + music cue markers
   │
-  ├── Text chunks → ElevenLabs v3 API (multi-speaker TTS)
+  ├── Text chunks → ElevenLabs v2 multilingual API (per-turn TTS)
   │                       │
   │                       ▼
-  │              audio segments (per chunk)
+  │              audio segments (per turn)
   │
   └── Music cues → resolve to audio files in assets/music/
   │
@@ -80,12 +82,12 @@ CYRUS: [laughs] That's what I was afraid of.
 
 ---
 
-## ElevenLabs v3 API
+## ElevenLabs v2 Multilingual API
 
-### Multi-Speaker Mode
-ElevenLabs v3 supports multi-speaker scripts natively. Format per their API spec:
+### Per-Turn TTS
+Using `eleven_multilingual_v2` with per-turn generation — each speaker turn is a separate API call. This produces warmer, more natural conversational speech than the v3 Dialogue API.
 
-Each turn in the script is already formatted as `SPEAKER: text` — parse these into the turn objects the API expects.
+Per-turn audio files are cached in `per-turn_v2/` for free re-processing (LUFS normalization, speed adjustment) without additional API calls.
 
 ### Voice IDs
 Store voice IDs in a config file (not hardcoded):
@@ -97,7 +99,7 @@ CYRUS_VOICE_ID = "..."
 Voice IDs are assigned when the ElevenLabs voices are created/cloned. Update config when voices change.
 
 ### Audio Tags
-ElevenLabs v3 supports a subset of SSML-like tags. Pass audio tags through as-is in the text — the API handles `[laughs]`, `[pause]`, `[quietly]`, etc. natively in v3. Strip any tags the API doesn't support rather than erroring.
+Audio tags (`[laughs]`, `[pause]`, `[quietly]`, etc.) are **stripped** before sending to the v2 API, as v2 would read them aloud. They remain in the script source for future use if/when v3 support improves.
 
 ### Output Format
 Request `mp3_44100_128` for production quality. Save each chunk as a temp file:
@@ -111,26 +113,19 @@ Request `mp3_44100_128` for production quality. Save each chunk as a temp file:
 
 ## Music Files
 
-Resolved from `assets/music/` based on the cue name:
+Locked 2026-04-25. Resolved from `assets/music/` based on the cue name:
 
 | Cue marker | File | Notes |
 |------------|------|-------|
-| `[MUSIC: theme-in]` | `assets/music/{winner}.mp3` | Full theme — TBD once direction selected |
-| `[MUSIC: transition-bumper]` | `assets/music/{winner}-bumper.mp3` | 5–10 sec trimmed version — needs to be generated |
-| `[MUSIC: theme-out]` | `assets/music/{winner}.mp3` | Same as theme-in, faded out |
+| `[MUSIC: theme-in]` | `assets/music/backbone-theme.mp3` | Full theme |
+| `[MUSIC: transition-bumper]` | `assets/music/backbone-bumper.mp3` | 5–10 sec version |
+| `[MUSIC: theme-out]` | `assets/music/backbone-theme.mp3` | Same as theme-in, faded out |
 
-Store the selected music file names in config so the whole pipeline can be updated when Cyrus and Jeff pick a direction:
+Defaults are baked into `tools/audio_assemble.py`. Override via env vars only if intentionally swapping music:
 ```
-# pipeline/config.py
-THEME_MUSIC = "assets/music/funk_1.mp3"         # UPDATE when winner is chosen
-TRANSITION_BUMPER = "assets/music/funk_1-bumper.mp3"  # needs generation
-THEME_OUT_FADE_DURATION = 3  # seconds to fade out theme-out
+THEME_MUSIC=assets/music/backbone-theme.mp3
+TRANSITION_BUMPER=assets/music/backbone-bumper.mp3
 ```
-
-**Still needed before first run:**
-- [ ] Pick winning music direction from samples in `assets/music/`
-- [ ] Generate 5–10 sec bumper version of the winner
-- [ ] Optionally: generate a softer/quieter variation for use under the "World Before" section
 
 ---
 
@@ -186,13 +181,13 @@ JEFF_VOICE_ID = ""
 CYRUS_VOICE_ID = ""
 
 # Music
-THEME_MUSIC = "assets/music/TBD.mp3"
-TRANSITION_BUMPER = "assets/music/TBD-bumper.mp3"
+THEME_MUSIC = "assets/music/backbone-theme.mp3"
+TRANSITION_BUMPER = "assets/music/backbone-bumper.mp3"
 THEME_OUT_FADE_DURATION = 3  # seconds
 
 # ElevenLabs
 ELEVENLABS_API_KEY = ""  # load from environment, don't hardcode
-MODEL_ID = "eleven_v3"
+MODEL_ID = "eleven_multilingual_v2"
 OUTPUT_FORMAT = "mp3_44100_128"
 
 # Chunking

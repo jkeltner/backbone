@@ -41,7 +41,7 @@ In 1806, a twenty-three-year-old Bostonian loaded a ship with pond ice and saile
 
 **Word count (spoken content):** approximately 19,000 words (total file is ~21,400 words; removing front matter, stage directions, segment break markers, and speaker labels reduces to estimated spoken word count)
 
-**Estimated runtime at 150 words/minute:** approximately **126–128 minutes**
+**Estimated runtime at 150 words/minute:** **80 minutes**
 
 **Assessment:** The episode exceeds the 90–120 minute target by approximately 6–8 minutes. This is not a crisis — the content is dense and earns its length — but Jeff and Cyrus should be aware that at production tempo, this may run long. The editor flagged the SS Strathleven section (Wave 2) and the COVID vaccine cold chain passage (Built In) as candidates for trimming if runtime is a concern. The "What the Story Teaches" section (Wave 3) also has minor compression opportunity.
 
@@ -53,13 +53,13 @@ In 1806, a twenty-three-year-old Bostonian loaded a ship with pond ice and saile
 
 | Chapter | Title | Estimated Timestamp |
 |---------|-------|---------------------|
-| Opening | The Hook | 00:00 |
-| Wave 1 | The Ice Trade | 18:30 |
-| Wave 2 | The Machine Age | 47:45 |
-| Wave 3 | Cold Comes Home | 76:30 |
-| Built In | The Big Picture | 112:00 |
+| Opening | The Hook | 00:00:00 |
+| Wave 1 | The Ice Trade | 00:02:36 |
+| Wave 2 | The Machine Age | 00:09:39 |
+| Wave 3 | Cold Comes Home | 00:24:54 |
+| Built In | The Big Picture | 00:43:13 |
 
-*Note: Timestamps are approximate estimates based on word count. Actual timestamps should be set from the final audio file.*
+*Timestamps updated from final audio assembly.*
 
 ---
 

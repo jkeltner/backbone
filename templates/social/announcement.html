@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, height=675">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 675px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+    position: relative;
+  }
+  .new-episode {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #4A90D9;
+    margin-bottom: 20px;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+  }
+  .show-name {
+    font-size: 24px;
+    color: #aab;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  .episode-title {
+    font-size: {{title_size}}px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    max-width: 900px;
+  }
+  .teaser {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #ccd;
+    max-width: 850px;
+  }
+  .hosts {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    font-size: 16px;
+    color: #889;
+  }
+  .listen-cta {
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    font-size: 16px;
+    color: #4A90D9;
+    font-family: -apple-system, sans-serif;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+  <div class="new-episode">New Episode</div>
+  <div class="show-name">Backbone: From Breakthrough to Built-In</div>
+  <div class="episode-title">{{episode_title}}</div>
+  <div class="teaser">{{teaser}}</div>
+  <div class="hosts">Jeff Keltner &amp; Cyrus Mistry</div>
+  <div class="listen-cta">Listen now &rarr;</div>
+</body>
+</html>

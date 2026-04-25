@@ -1,0 +1,20 @@
+{
+  "topic": "refrigeration",
+  "model_suffix": "_v2",
+  "total_duration_ms": 143419,
+  "segments": [
+    {
+      "type": "wave",
+      "index": 0,
+      "file": "wave-00-opening_v2.mp3",
+      "start_ms": 0,
+      "end_ms": 118894
+    },
+    {
+      "type": "music",
+      "cue": "theme-in",
+      "start_ms": 118894,
+      "end_ms": 143419
+    }
+  ]
+}
