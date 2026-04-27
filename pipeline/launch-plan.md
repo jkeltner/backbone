@@ -48,14 +48,14 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 
 1. **Transistor.fm** — DONE 2026-04-25
    - Account created, show configured (title, description, categories: History + Technology, language, author, copyright, explicit flag)
-   - Show-level cover art: **OPEN** — Jeff to upload
+   - Show-level cover art: DONE — uploaded to Transistor
    - API key + Show ID added to `.env`
    - RSS submission to Apple / Spotify directories: **BLOCKED** — needs first episode in feed (which is gated on v3 PVC)
 
 2. **YouTube** — deferred from MVP path (using Transistor's audio→video)
    - If later we want our own audiogram on YouTube, re-enable `tools/distribute_youtube.py` + OAuth setup
 
-3. **Domain (optional)** — not yet decided
+3. **Domain** — DONE — `backbone.fm` registered; point at Transistor site
 
 ### Phase B — Asset prep + visual QA
 
@@ -131,6 +131,5 @@ Then flipping both to public + RSS submission to Apple/Spotify = the real launch
 
 ## Open items
 
-- Show-level cover art (Jeff)
 - Sign-off line for end of every script (`CLAUDE.md` `[PENDING]`)
-- Custom domain decision (backbone.show vs backbone.transistor.fm)
+- Point `backbone.fm` DNS at Transistor site

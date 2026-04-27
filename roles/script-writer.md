@@ -46,13 +46,48 @@ JEFF: Next section begins here.
 - **Numbers and abbreviations spelled out** — "fourteen billion dollars" not "$14B", "nineteen twenty" not "1920"
 - **No stage directions** outside square-bracket audio tags
 
-### Audio Tags (use sparingly)
-- Delivery: `[whispers]`, `[quietly]`, `[loudly]`
-- Emotion: `[cheerfully]`, `[flatly]`, `[nervously]`, `[excited]`
-- Sounds: `[laughs]`, `[sigh]`, `[gasps]`, `[pause]`
-- Pacing: `[rushed]`, `[slows down]`, `[deliberate]`
+### Audio Tags (Eleven v3)
 
-Tags are seasoning, not the main ingredient. A well-placed `[laughs]` or `[pause]` every few minutes adds life. Overusing them makes the output mechanical.
+Audio tags are bracketed performance cues. v3 reads them as direction, not text. They are the single biggest lever for making scripted dialogue sound unscripted — but only if used purposefully. Most turns should have **zero** tags. The ones that do should serve a specific moment.
+
+**Core principle:** Tags work with the voice, not against it. If a tag fights the line ("[shouts] he said quietly"), v3 will hedge or fail. Match tags to what the line is already doing, then let the tag *amplify* it.
+
+**Categories (use these, in roughly this priority):**
+
+| Category | Tags | When to use |
+|---|---|---|
+| **Non-verbal reactions** | `[laughs]`, `[laughs softly]`, `[sighs]`, `[exhales]`, `[clears throat]`, `[scoffs]`, `[gasp]` | The conversational glue — short reactions between turns. Highest-leverage tag type for our format. |
+| **Delivery** | `[whispers]`, `[quietly]`, `[softly]`, `[shouts]`, `[deliberate]`, `[rushed]` | When the *line itself* doesn't already convey volume/pace. Don't over-specify. |
+| **Emotion** | `[curious]`, `[skeptical]`, `[amused]`, `[excited]`, `[deadpan]`, `[reflective]`, `[mischievously]`, `[awed]` | When the emotional read isn't obvious from the words. Best on short interjections, anchor-story setups, and Backbone Test disagreement. |
+| **Pacing** | `[pause]`, `[long pause]`, `[short pause]` | Sparingly — ellipses (`...`) usually do this better. Reserve `[long pause]` for genuine beat-takes. |
+
+**Don't use:**
+- Sound-effect tags (`[applause]`, `[gunshot]`, `[door creaks]`, etc.) — these break the conversational frame.
+- Accent tags (`[British accent]`, etc.) — voice clones already have a fixed accent; tags will only confuse the model.
+- `[sings]` and other experimental tags — inconsistent across voices.
+
+**Stacking:** Two tags can combine for layered effect — `[nervously] [laughs]`, `[quietly] [skeptical]`. Don't stack more than two; v3 starts dropping or averaging them.
+
+**Placement:** Put the tag *immediately before the text it modifies*. To affect only a fragment of a turn, place it inline:
+
+```
+JEFF: I read this three times. [pause] Three times. And I still didn't believe it.
+CYRUS: [laughs softly] That tracks.
+```
+
+**Host tag profiles:**
+- **Jeff** leans warm and self-aware. Best fits: `[laughs softly]`, `[amused]`, `[sighs]`, `[reflective]`, `[skeptical]`. He doesn't shout; avoid `[shouts]`.
+- **Cyrus** leans dry and analytical. Best fits: `[deadpan]`, `[scoffs]`, `[curious]`, `[deliberate]`, `[exhales]`. He doesn't gush; avoid `[excited]` on him unless the moment is genuinely big.
+
+**Section guidance:**
+- **Cold open:** sparing — let the story carry it. Maybe one tag.
+- **Anchor story setup:** one tag on the driver's pre-story line is high-leverage (`[reflective]`, `[awed]`, `[amused]`).
+- **How It Works pushback:** the non-driver's pushback line is the natural place for `[skeptical]` or `[curious]`.
+- **Banter exchanges:** non-verbal reactions (`[laughs softly]`, `[scoffs]`) go here — this is the rhythm tags are best at.
+- **Backbone Test cost question:** where Jeff and Cyrus disagree — `[skeptical]`, `[deliberate]`, `[reflective]` carry the disagreement texture.
+- **Sign-off:** zero tags. Let the line land clean.
+
+**Calibration:** Aim for roughly **one tag per 60–90 seconds of audio**. If you find yourself tagging every other line, you're using tags to compensate for dialogue that isn't carrying its own weight — fix the line, not the tag.
 
 ### Music Cue Markers
 
@@ -86,10 +121,42 @@ CYRUS: So here's where my part of this story starts...
 These markers will be present in `assembled.txt` and consumed by the TTS pipeline (`pipeline/tts-pipeline.md`).
 
 ### Punctuation as Performance
-- **Ellipses (`...`)** create natural pauses: "And then... nothing."
-- **ALL CAPS** signals emphasis: "That's not just big. That's ENORMOUS."
-- **Em dashes (`—`)** create abrupt breaks: "The whole system was— well, it collapsed."
-- Use commas to control breath and rhythm
+
+v3 reads punctuation and capitalization as direction. These do most of the work that tags don't:
+
+- **Ellipses (`...`)** — create natural pauses and add weight. "And then... nothing." Often a better choice than `[pause]`.
+- **Em dashes (`—`)** — create abrupt breaks, mid-thought pivots, interruptions. "The whole system was— well, it collapsed."
+- **ALL CAPS** — emphasis on a specific word. "That's not just big. That's ENORMOUS." Use selectively; one capped word per turn at most.
+- **Exclamation marks** — increase emotional intensity. Reserve for moments that earn it; podcasting hosts rarely shout.
+- **Commas** — control breath and rhythm. More commas = more deliberate delivery.
+
+**Rule of thumb:** Reach for punctuation before reaching for a tag. A well-placed `...` beats `[pause]`; an em dash beats `[interrupting]`; a capped word beats `[emphatically]`.
+
+### Worked Examples
+
+**Anchor story setup (Jeff driving):**
+```
+JEFF: [reflective] Okay. Here's the story I could not get out of my head when I was reading about this. It's eighteen twenty-two. Frederic Tudor is in a Cuban harbor... watching his ship sink.
+```
+
+**Banter exchange:**
+```
+JEFF: He shipped a hundred and thirty tons of ice to Martinique. To people who had never seen ice.
+CYRUS: [scoffs] What did he think was going to happen?
+JEFF: [laughs softly] That's the question, right?
+```
+
+**How It Works pushback (Cyrus pushing back):**
+```
+JEFF: So the compressor is basically just squeezing a gas until it gets hot, then letting it expand and absorb heat from the food. That's the whole trick.
+CYRUS: [skeptical] But wait — if that's all it is, why did this take fifty years to figure out?
+```
+
+**Backbone Test disagreement on cost:**
+```
+JEFF: [reflective] I think this one's solvable. Better refrigerants, better recycling — we've done this before.
+CYRUS: [deliberate] I don't know, Jeff. I think the cost is structural. You can't run civilization on a cold chain without paying for it somewhere.
+```
 
 ---
 

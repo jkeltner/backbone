@@ -2,7 +2,9 @@
 
 This document is the technical spec for the automated Python/ElevenLabs workflow that converts a finished script into a produced audio episode. Build against this spec — the script format contract is defined here.
 
-> **Model status (as of 2026-04-25):** v2 multilingual is the current target. Episode 1 launch is gated on ElevenLabs enabling Professional Voice Cloning on v3 — once v3 PVC lands, voices regenerate on v3, the Script Writer's audio-tag vocabulary expands, and refrigeration is rebuilt as the v3 quality benchmark. Until then, audio tags listed in the v3 sections below are stripped before TTS.
+> **Model status (as of 2026-04-26):** v2 multilingual is the current target. Episode 1 launch is gated on ElevenLabs enabling Professional Voice Cloning on v3. **Scripts are now authored for v3** — see `roles/script-writer.md` "Audio Tags (Eleven v3)" — so when v3 PVC lands, the script writing surface is already aligned. Until then, audio tags are **stripped before TTS** in the v2 path; punctuation and capitalization are preserved (v2 honors them too).
+>
+> When v3 PVC lands: regenerate refrigeration on v3 as the quality benchmark, flip `MODEL_ID` to `eleven_v3`, and stop stripping audio tags (see Audio Tags section below for the pass-through contract).
 
 ---
 
@@ -99,7 +101,14 @@ CYRUS_VOICE_ID = "..."
 Voice IDs are assigned when the ElevenLabs voices are created/cloned. Update config when voices change.
 
 ### Audio Tags
-Audio tags (`[laughs]`, `[pause]`, `[quietly]`, etc.) are **stripped** before sending to the v2 API, as v2 would read them aloud. They remain in the script source for future use if/when v3 support improves.
+
+**Under v2 (current):** All bracketed audio tags are **stripped** before sending to the API — v2 would read them aloud. The script source retains them for v3.
+
+**Under v3 (future, post-PVC):**
+- Tags from the Script Writer's approved vocabulary (see `roles/script-writer.md`) are **passed through** unchanged.
+- `[MUSIC: ...]` cue markers are *always* stripped (they are pipeline directives, not v3 tags) — handled by the music-cue parser, not the tag handler.
+- Unknown tags are stripped and logged (warning, not error) — see Error Handling below.
+- Stability setting: **Natural** (balanced — Creative drifts too far for our format; Robust ignores too many tags).
 
 ### Output Format
 Request `mp3_44100_128` for production quality. Save each chunk as a temp file:

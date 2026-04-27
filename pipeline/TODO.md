@@ -16,7 +16,6 @@ Tracks what's left to ship the first episode. Items that have been completed or 
 ## Open before ship
 
 ### Service setup
-- [ ] Transistor: upload show-level cover art (3000×3000 PNG)
 - [ ] Transistor: submit RSS to Apple Podcasts and Spotify directories (one-time, blocked on first episode in feed)
 
 ### Code gaps
@@ -26,7 +25,6 @@ Tracks what's left to ship the first episode. Items that have been completed or 
 
 ### Decisions
 - [ ] Show sign-off line (`CLAUDE.md` `[PENDING]`)
-- [ ] Custom domain (backbone.show vs backbone.transistor.fm)
 
 ---
 
