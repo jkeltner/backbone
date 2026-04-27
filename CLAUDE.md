@@ -116,7 +116,16 @@ Each wave has a **driver** — one host leads the narrative, the other participa
 Full personality profiles for each host are in `hosts/jeff.md` and `hosts/cyrus.md`. The Script Writer reads these before writing any dialogue. They define each host's background, communication style, areas of expertise, and how they interact with each other.
 
 ### Show Sign-Off
-**[PENDING]** Jeff and Cyrus will decide on the show's signature closing line — the phrase that ends every episode (e.g., Freakonomics' "take care of yourself and if you can, somebody else too"). Once decided, it will be added here and the Script Writer will use it. Until then, scripts should end warmly and include `[FLAG: awaiting signature sign-off line]`.
+Every episode ends with a two-beat close: a brief wrap-up that tees up the next episode's *type* (without naming the topic), then the signature sign-off line.
+
+**Template:**
+> "That's it for this episode of Backbone. We'll be back in a few weeks to dive into another hidden technology that makes the modern world run. Until then — stay curious, and mind the backbones."
+
+The exact wrap-up wording can vary slightly episode to episode (e.g., the bridge sentence may flex to match the just-told story's tone), but the **final line is fixed**:
+
+> **"Stay curious, and mind the backbones."**
+
+Riffed off Whole Earth Catalog's "stay hungry, stay foolish" — repurposed for a show about technological diffusion. The pluralized "backbones" is intentional: it sends the listener back into their own life looking for hidden infrastructure plural, not just the one we just covered.
 
 ---
 

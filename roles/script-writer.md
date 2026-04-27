@@ -314,7 +314,13 @@ This is conversational — both hosts, back and forth. It should feel like two p
 - **Address the listener directly 2–3 times during the Built In** (not just in the CTA), particularly at moments of accumulated insight: "If you've been following along, you'll see exactly why this matters now." "Listeners, this is the part I want you to sit with for a minute."
 - **Cross-episode threading:** If this episode's story connects to anything the show has covered or plans to cover, weave it in here. Even a single sentence builds the show's universe over time: "This is the same dynamic we'll see when we get to [related topic]."
 - Before the final close, include a **listener callout**: naturally prompt the listener to follow the show wherever they listen, share it with someone who'd love this story, and check the show notes for sources and the people mentioned in the episode. This should feel organic to the conversation — not a jarring ad read.
-- End with the show's **signature sign-off** — the closing line that ends every episode. [Jeff and Cyrus will decide the exact wording; once confirmed, it will be added to `CLAUDE.md`. Until then, write a warm, fitting close and mark it `[FLAG: awaiting signature sign-off line]`.]
+- End with the show's **signature two-beat close** (locked in `CLAUDE.md`):
+  1. A brief wrap-up that tees up the next episode's *type* — another hidden technology that runs the modern world. Do not name the next topic. The bridge sentence can flex slightly to match the just-told story's tone, but the structure is fixed.
+  2. The signature sign-off line, **verbatim**: *"Stay curious, and mind the backbones."*
+
+  Reference template: *"That's it for this episode of Backbone. We'll be back in a few weeks to dive into another hidden technology that makes the modern world run. Until then — stay curious, and mind the backbones."*
+
+  No audio tags on the sign-off line. Let it land clean.
 
 ---
 

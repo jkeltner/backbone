@@ -24,7 +24,7 @@ Tracks what's left to ship the first episode. Items that have been completed or 
 - [ ] `tools/release.py` — full produce/distribute end-to-end on refrigeration after v3 regeneration
 
 ### Decisions
-- [ ] Show sign-off line (`CLAUDE.md` `[PENDING]`)
+*(none open)*
 
 ---
 

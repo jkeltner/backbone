@@ -55,7 +55,7 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 2. **YouTube** — deferred from MVP path (using Transistor's audio→video)
    - If later we want our own audiogram on YouTube, re-enable `tools/distribute_youtube.py` + OAuth setup
 
-3. **Domain** — DONE — `backbone.fm` registered; point at Transistor site
+3. **Domain** — DONE — `backbone.fm` registered and pointing at Transistor site
 
 ### Phase B — Asset prep + visual QA
 
@@ -131,5 +131,4 @@ Then flipping both to public + RSS submission to Apple/Spotify = the real launch
 
 ## Open items
 
-- Sign-off line for end of every script (`CLAUDE.md` `[PENDING]`)
-- Point `backbone.fm` DNS at Transistor site
+*(all top-level launch decisions locked — see TODO.md for remaining code-gap and service-setup items)*
