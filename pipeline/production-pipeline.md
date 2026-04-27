@@ -94,7 +94,7 @@ episodes/{topic}/
 - HTML templates in `templates/social/` rendered via Playwright (headless Chromium)
 - Templates use `{{placeholder}}` syntax for dynamic content
 - Quote cards: 1200x675 (Twitter/LinkedIn optimal)
-- Episode cover: 3000x3000 (podcast app artwork)
+- **Per-episode cover art is generated externally** (separate design tool, not this pipeline) — uploaded to Transistor via dashboard. If the external tool drops the file at `episodes/{topic}/assets/images/episode-cover.png`, deferred local tools (audiogram_video, clip_generate) will pick it up.
 
 ### Clip Selection
 - Heuristic scoring: social content overlap, speaker diversity, storytelling markers, emotional reactions
