@@ -19,7 +19,6 @@ Tracks what's left to ship the first episode. Items that have been completed or 
 - [ ] Transistor: submit RSS to Apple Podcasts and Spotify directories (one-time, blocked on first episode in feed)
 
 ### Code gaps
-- [ ] `tools/distribute_podcast.py` — test against real Transistor API (confirm draft-mode default)
 - [ ] `tools/release.py` — full produce/distribute end-to-end on refrigeration after v3 regeneration
 
 ### Decisions
@@ -52,4 +51,5 @@ Tracks what's left to ship the first episode. Items that have been completed or 
 - [x] Pipeline specs: `production-pipeline.md`, `distribution-pipeline.md`, `promotion-pipeline.md`
 - [x] `audio_assemble.py`, `timestamp_chapters.py`, `generate_transcript.py` tested locally on refrigeration
 - [x] `audio_assemble.py` — ID3 tag fix: switched to mutagen (title, artist, album, album_artist, genre, year, track, cover art all verified on refrigeration_beta) (2026-04-26)
+- [x] `distribute_podcast.py` — Transistor API tested live: drop status from create payload (use /publish endpoint), form-encoded `episode[field]` keys, plain-text transcript via `episode[transcript_text]` (HTML silently rejected) (2026-04-26)
 - [x] `.gitignore` updated for video, clips, images

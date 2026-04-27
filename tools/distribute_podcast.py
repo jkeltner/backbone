@@ -87,6 +87,15 @@ def load_show_notes(topic):
     return ""
 
 
+def _check(resp, action):
+    """Raise with response body for easier diagnosis."""
+    if not resp.ok:
+        body = resp.text[:1000]
+        print(f"\nError {action}: {resp.status_code} {resp.reason}")
+        print(f"Response body: {body}")
+        resp.raise_for_status()
+
+
 def upload_to_transistor(topic, dry_run=False, publish=False):
     """Upload episode to Transistor.fm."""
     try:
@@ -98,18 +107,12 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
     api_key = os.environ.get("TRANSISTOR_API_KEY")
     show_id = os.environ.get("TRANSISTOR_SHOW_ID")
 
-    if not api_key:
-        print("Error: TRANSISTOR_API_KEY not set in .env")
-        sys.exit(1)
-    if not show_id:
-        print("Error: TRANSISTOR_SHOW_ID not set in .env")
-        sys.exit(1)
-
     episode_dir = REPO_ROOT / "episodes" / topic
     final_dir = episode_dir / "final"
     mp3_path = final_dir / "episode.mp3"
     chapters_path = final_dir / "chapters.json"
-    transcript_path = final_dir / "transcript.html"
+    transcript_srt_path = final_dir / "transcript.srt"
+    transcript_path = final_dir / "transcript.html"  # for local preview/social, not Transistor
 
     if not mp3_path.exists():
         print(f"Error: {mp3_path} not found. Run audio_assemble.py first.")
@@ -122,6 +125,8 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
     print(f"Episode: {meta['title']}")
     print(f"Description: {description[:100]}...")
     print(f"MP3: {mp3_path} ({mp3_path.stat().st_size / (1024*1024):.1f} MB)")
+    print(f"Credentials: TRANSISTOR_API_KEY={'set' if api_key else 'MISSING'}, "
+          f"TRANSISTOR_SHOW_ID={'set' if show_id else 'MISSING'}")
 
     if chapters_path.exists():
         chapters = json.loads(chapters_path.read_text())
@@ -134,6 +139,13 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
         print("\n[dry run] Would upload to Transistor.fm as draft.")
         return
 
+    if not api_key:
+        print("Error: TRANSISTOR_API_KEY not set in .env")
+        sys.exit(1)
+    if not show_id:
+        print("Error: TRANSISTOR_SHOW_ID not set in .env")
+        sys.exit(1)
+
     headers = {"x-api-key": api_key}
     base_url = "https://api.transistor.fm/v1"
 
@@ -144,78 +156,65 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
         headers=headers,
         params={"filename": f"{topic}-episode.mp3"},
     )
-    resp.raise_for_status()
+    _check(resp, "requesting upload URL")
     upload_data = resp.json()["data"]["attributes"]
     upload_url = upload_data["upload_url"]
-    audio_url = upload_data["audio_url"]  # The final hosted URL (use when creating episode)
+    audio_url = upload_data["audio_url"]  # The final hosted URL
 
-    # Step 2: Upload MP3
-    print("Uploading MP3...")
+    # Step 2: Upload MP3 (PUT to S3)
+    print(f"Uploading MP3 ({mp3_path.stat().st_size / (1024*1024):.1f} MB)...")
     with open(mp3_path, "rb") as f:
         resp = requests.put(upload_url, data=f, headers={"Content-Type": "audio/mpeg"})
-    resp.raise_for_status()
+    _check(resp, "uploading MP3 to S3")
     print("Upload complete.")
 
-    # Step 3: Create episode
+    # Step 3: Create episode (always as draft; publishing is a separate endpoint)
+    # Transistor accepts JSON or form-encoded with episode[field] keys.
     print("Creating episode...")
-    episode_data = {
-        "episode": {
-            "show_id": show_id,
-            "title": meta["title"],
-            "summary": description,
-            "description": show_notes,
-            "audio_url": audio_url,
-            "status": "published" if publish else "draft",
-        }
+    payload = {
+        "episode[show_id]": show_id,
+        "episode[title]": meta["title"],
+        "episode[summary]": description,
+        "episode[description]": show_notes,
+        "episode[audio_url]": audio_url,
     }
-
     if meta.get("number"):
-        episode_data["episode"]["number"] = meta["number"]
+        payload["episode[number]"] = meta["number"]
     if meta.get("keywords"):
-        episode_data["episode"]["keywords"] = meta["keywords"]
+        payload["episode[keywords]"] = meta["keywords"]
 
-    resp = requests.post(f"{base_url}/episodes", headers=headers, json=episode_data)
-    resp.raise_for_status()
+    # Transcript: Transistor's transcript_text field accepts plain text only
+    # (HTML is silently rejected). Convert SRT → plain text by stripping
+    # cue numbers and timestamps. The field is also write-only — GET responses
+    # don't return its content; verify via the transcripts[].url instead.
+    if transcript_srt_path.exists():
+        srt_lines = transcript_srt_path.read_text().splitlines()
+        plain_lines = [
+            s.strip() for s in srt_lines
+            if s.strip() and not s.strip().isdigit() and "-->" not in s
+        ]
+        payload["episode[transcript_text]"] = "\n".join(plain_lines)
+
+    resp = requests.post(f"{base_url}/episodes", headers=headers, data=payload)
+    _check(resp, "creating episode")
     episode_id = resp.json()["data"]["id"]
-    print(f"Episode created: ID {episode_id} (status: {'published' if publish else 'draft'})")
+    print(f"Episode created: ID {episode_id} (status: draft)")
 
-    # Step 4: Upload transcript if available
-    if transcript_path.exists():
-        print("Uploading transcript...")
-        try:
-            with open(transcript_path, "rb") as f:
-                resp = requests.patch(
-                    f"{base_url}/episodes/{episode_id}",
-                    headers=headers,
-                    files={"transcript": f},
-                )
-            resp.raise_for_status()
-            print("Transcript uploaded.")
-        except Exception as e:
-            print(f"Warning: transcript upload failed: {e}")
-
-    # Step 5: Upload chapters if available
-    if chapters_path.exists():
-        print("Uploading chapters...")
-        try:
-            chapters_data = json.loads(chapters_path.read_text())
-            resp = requests.patch(
-                f"{base_url}/episodes/{episode_id}",
-                headers=headers,
-                json={
-                    "episode": {
-                        "chapters": chapters_data.get("chapters", []),
-                    }
-                },
-            )
-            resp.raise_for_status()
-            print("Chapters uploaded.")
-        except Exception as e:
-            print(f"Warning: chapters upload failed: {e}")
+    # Step 4: Publish if requested (separate endpoint)
+    if publish:
+        print("Publishing episode...")
+        resp = requests.patch(
+            f"{base_url}/episodes/{episode_id}/publish",
+            headers=headers,
+            data={"episode[status]": "published"},
+        )
+        _check(resp, "publishing episode")
+        print("Published.")
 
     status_label = "PUBLISHED" if publish else "DRAFT"
     print(f"\nDone! Episode '{meta['title']}' is {status_label} on Transistor.fm.")
-    print("Log into Transistor.fm to review and publish." if not publish else "")
+    if not publish:
+        print("Log into Transistor.fm to review and publish.")
 
     return episode_id
 
