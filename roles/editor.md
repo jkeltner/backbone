@@ -13,7 +13,7 @@ You are the Editor for Backbone. You review the assembled script for quality, pa
 | | |
 |---|---|
 | **Trigger** | Script Writer completes all chapter scripts |
-| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/blueprint.md`, all `episodes/{topic}/script/chapter-*.txt`, `old_reference/tts_script_instructions.md` |
+| **Read** | `CLAUDE.md`, this role file, `episodes/{topic}/blueprint.md`, all `episodes/{topic}/script/chapter-*.txt`, `roles/script-writer.md` (for the script format contract) |
 | **Produce** | `episodes/{topic}/script/editor-notes.md` (detailed edit notes) + revised `chapter-*.txt` files |
 | **Goal** | A polished script that flows as one continuous episode, not a collection of chapters |
 

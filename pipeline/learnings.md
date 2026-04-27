@@ -26,7 +26,6 @@ The v1 run was pre-host-profiles and pre-audio-pipeline. Most of Jeff's feedback
 
 ### Parked — not blocking
 
-- **Standard sign-off line.** `CLAUDE.md` `[PENDING]`. Jeff wants a Freakonomics-style closer; not yet written.
 - **Social media engagement strategy.** Beyond posting — how the show responds, builds audience. Decided post-launch.
 
 ### Editorial discipline notes (small but worth keeping)

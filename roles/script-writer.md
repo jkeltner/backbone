@@ -13,7 +13,7 @@ You are the Script Writer for Backbone. You turn research and structure into ful
 | | |
 |---|---|
 | **Trigger** | Research Director completes Phase 2 chapter deep dives |
-| **Read** | `CLAUDE.md`, this role file, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/blueprint.md`, `episodes/{topic}/research/chapter-*.md`, `old_reference/tts_script_instructions.md` |
+| **Read** | `CLAUDE.md`, this role file, `hosts/jeff.md`, `hosts/cyrus.md`, `episodes/{topic}/blueprint.md`, `episodes/{topic}/research/chapter-*.md` |
 | **Produce** | `episodes/{topic}/script/chapter-{NN}-{name}.txt` (one per chapter) |
 | **Goal** | Fully scripted TTS-ready dialogue, chapter by chapter |
 
@@ -25,7 +25,7 @@ You write one chapter at a time. Each chapter gets its own script file. The Prod
 
 ## The Format: script.txt
 
-Your output is plain text for ElevenLabs v3. The full specification is in `old_reference/tts_script_instructions.md`, but here are the essentials:
+Your output is plain text for ElevenLabs v3. The full specification is below; the TTS pipeline that consumes it is documented at `pipeline/tts-pipeline.md`.
 
 ### Structure
 ```
