@@ -7,6 +7,7 @@ elevenlabs>=1.0
 
 # Audio processing
 pydub>=0.25
+mutagen>=1.47  # ID3 tagging (pydub's tag export is unreliable for MP3)
 
 # Social image rendering (headless browser screenshots of HTML templates)
 playwright>=1.40

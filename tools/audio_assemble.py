@@ -64,6 +64,7 @@ def load_id3_tags(topic):
         "genre": "Podcast",
         "year": str(datetime.now().year),
         "title": f"Backbone: {topic.replace('-', ' ').title()}",
+        "track": "1",
     }
     meta_path = REPO_ROOT / "episodes" / topic / "final" / "metadata.md"
     if meta_path.exists():
@@ -71,16 +72,61 @@ def load_id3_tags(topic):
         m = re.search(r'Top choice:\s*"(.+?)"', text)
         if m:
             tags["title"] = m.group(1)
+        m = re.search(r"^##\s*Episode Number\s*\n+\**(\d+)\**", text, re.MULTILINE)
+        if m:
+            tags["track"] = m.group(1)
     return tags
 
 
 def find_cover_art():
     """Return path to show cover art if present, else None."""
-    for candidate in ("assets/cover.png", "assets/cover.jpg", "assets/show-cover.png"):
+    for candidate in ("assets/cover_art.png", "assets/cover_art.jpg",
+                      "assets/cover.png", "assets/cover.jpg",
+                      "assets/show-cover.png"):
         p = REPO_ROOT / candidate
         if p.exists():
             return str(p)
     return None
+
+
+def write_id3_tags(mp3_path, tags, cover_path=None):
+    """Write ID3v2.4 tags + optional cover art to an MP3 using mutagen.
+
+    pydub's tags=/cover= export kwargs don't reliably write ID3 frames to
+    MP3 output, so we tag after export. This is the standard pattern.
+    """
+    from mutagen.id3 import (
+        ID3, ID3NoHeaderError,
+        TIT2, TPE1, TPE2, TALB, TCON, TDRC, TRCK, APIC,
+    )
+
+    try:
+        id3 = ID3(mp3_path)
+    except ID3NoHeaderError:
+        id3 = ID3()
+
+    frame_map = {
+        "title": TIT2,
+        "artist": TPE1,
+        "album_artist": TPE2,
+        "album": TALB,
+        "genre": TCON,
+        "year": TDRC,
+        "track": TRCK,
+    }
+    for key, frame_cls in frame_map.items():
+        if key in tags and tags[key]:
+            id3.add(frame_cls(encoding=3, text=str(tags[key])))
+
+    if cover_path:
+        cover_p = Path(cover_path)
+        mime = "image/png" if cover_p.suffix.lower() == ".png" else "image/jpeg"
+        id3.add(APIC(
+            encoding=3, mime=mime, type=3,  # type 3 = front cover
+            desc="Cover", data=cover_p.read_bytes(),
+        ))
+
+    id3.save(mp3_path, v2_version=4)
 
 
 def measure_lufs(file_path):
@@ -383,16 +429,17 @@ def assemble(topic, model_suffix="", dry_run=False, no_music=False, wave_filter=
     else:
         output_path = final_dir / "episode.mp3"
     print(f"\nExporting to {output_path}...")
-    export_kwargs = {"format": "mp3", "bitrate": "128k"}
+    result.export(str(output_path), format="mp3", bitrate="128k")
+
     if wave_filter is None:
-        export_kwargs["tags"] = load_id3_tags(topic)
+        tags = load_id3_tags(topic)
         cover = find_cover_art()
+        write_id3_tags(str(output_path), tags, cover_path=cover)
+        print(f"  Wrote ID3 tags: title={tags['title']!r}, track={tags['track']}, year={tags['year']}")
         if cover:
-            export_kwargs["cover"] = cover
-            print(f"  Embedding cover art: {cover}")
+            print(f"  Embedded cover art: {cover}")
         else:
-            print("  (no cover art found at assets/cover.{png,jpg} — skipping embed)")
-    result.export(str(output_path), **export_kwargs)
+            print("  (no cover art found in assets/ — skipping embed)")
 
     total_s = len(result) / 1000
     total_min = total_s / 60

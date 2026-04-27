@@ -172,11 +172,26 @@ audio.export("episodes/{topic}/final/episode.mp3", format="mp3", bitrate="128k")
 ```
 episodes/{topic}/final/
 ├── assembled.txt        ← input (script)
-├── episode.mp3          ← final produced audio
+├── episode.mp3          ← final produced audio (with ID3 tags + cover art)
 ├── metadata.md          ← episode metadata (from Producer agent)
 ├── show-notes.md
 └── social-content.md
 ```
+
+### ID3 Tags
+
+ID3v2.4 tags are written via **mutagen** *after* pydub exports the MP3 — pydub's `tags=`/`cover=` export kwargs do not reliably write ID3 frames to MP3 output.
+
+| Frame | Source |
+|---|---|
+| `TIT2` (title) | `metadata.md` "Top choice:" line; falls back to `Backbone: {topic}` |
+| `TPE1` (artist) | "Jeff Keltner & Cyrus Mistry" |
+| `TPE2` (album artist) | "Backbone" |
+| `TALB` (album) | "Backbone: From Breakthrough to Built-In" |
+| `TCON` (genre) | "Podcast" |
+| `TDRC` (year) | Current year |
+| `TRCK` (track) | Episode number from `metadata.md`, defaults to "1" |
+| `APIC` (cover) | `assets/cover_art.png` (front cover, embedded at 2048×2048) |
 
 ---
 
