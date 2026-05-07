@@ -71,11 +71,61 @@ Profile Updater       Pipeline Reviewer
 ```
 
 **Key mechanics:**
-- The pipeline runs **end-to-end from a single topic selection** — no manual gates.
-- The Research Director runs **twice** — broad overview first, then per-chapter deep dives after the Narrative Architect produces the blueprint.
+- The pipeline runs through **three human-review checkpoints** invoked by slash commands. Each checkpoint command runs a coherent chunk of agents and stops — Jeff and Cyrus then hold a live review meeting and save the transcript for the next checkpoint to consume.
+- The Research Director runs **twice** — broad overview first (in `/blueprint`), then per-chapter deep dives after the Narrative Architect produces the blueprint (in `/script`).
 - The Narrative Architect's blueprint is the **binding creative contract**. All downstream agents build from it.
 - Quality control is built into the pipeline: the Editor checks pacing, accuracy, continuity, and voice consistency against host profiles; the Fact Checker verifies claims.
 - **Two feedback loops close after each episode.** Jeff and Cyrus record a free-form post-episode conversation (`feedback.txt`). The Profile Updater extracts host voice signal and proposes profile edits for async review. The Pipeline Reviewer runs as a **live interactive session** — Jeff works through findings in real time, approves changes, and they're applied immediately to pipeline files. Both read from the same `feedback.txt`.
+
+---
+
+## Checkpoint Structure & Slash Commands
+
+The pipeline is operated via slash commands in `.claude/commands/`. There are three content-pipeline checkpoints with human review meetings between, plus a parallel refinement loop and production wrappers.
+
+### Three content checkpoints
+
+| # | Command | Agents run | Review meeting transcript saved to |
+|---|---------|-----------|------------------------------------|
+| 1 | `/blueprint {topic}` | Research Director (Phase 1) → Narrative Architect | `episodes/{topic}/feedback/01-blueprint.txt` |
+| 2 | `/script {topic}` | Research Director (Phase 2) → Script Writer | `episodes/{topic}/feedback/02-script.txt` |
+| 3 | `/polish {topic}` | Editor → Fact Checker | `episodes/{topic}/feedback/03-polish.txt` |
+
+After each checkpoint, Jeff and Cyrus hold a live conversation reviewing the output. The transcript is saved to the path above. The next checkpoint's agents read that file and treat it as binding guidance.
+
+### Parallel refinement loop
+
+After each review meeting, run `/refine {topic} {checkpoint}` in a **separate Claude Code window** from the pipeline-continuation session. It audits `roles/` and `hosts/` against the meeting transcript and proposes targeted edits to those files at `episodes/{topic}/refinements/{NN}-{checkpoint}-proposals.md`. The continuing pipeline never sees these proposals — they're applied async by Jeff. Out-of-scope changes (CLAUDE.md, templates) are deferred to `/pipeline-review` post-episode.
+
+### Production wrappers (no review gates)
+
+| Command | What it runs |
+|---------|--------------|
+| `/produce {topic}` | Producer agent → `python tools/release.py {topic} produce` (TTS, audio assembly, timestamps, transcript) |
+| `/distribute {topic}` | `python tools/release.py {topic} distribute` (Transistor draft upload; pauses at human publish gates) |
+| `/release-status {topic}` | Unified status report across `pipeline-status.json` + `release-status.json` |
+
+### Post-episode
+
+| Command | What it runs |
+|---------|--------------|
+| `/profile-update {topic}` | Profile Updater agent — proposes host-profile edits from `feedback.txt` |
+| `/pipeline-review {topic}` | Pipeline Reviewer — live interactive session, edits applied as approved |
+
+### Status tracking
+
+Each episode tracks content-pipeline progress in `episodes/{topic}/pipeline-status.json`:
+```json
+{
+  "topic": "refrigeration",
+  "checkpoints": {
+    "blueprint": {"status": "complete", "completed_at": "2026-05-07T..."},
+    "script":    {"status": "pending"},
+    "polish":    {"status": "pending"}
+  }
+}
+```
+Production/distribution status is tracked separately in `release-status.json` (managed by `tools/release.py`).
 
 ---
 
@@ -158,8 +208,12 @@ backbone/
 │       ├── research/            ← research files (overview + per-chapter deep dives)
 │       ├── blueprint.md         ← story structure (binding contract)
 │       ├── script/              ← script.txt files + review artifacts (editor-notes, fact-check-report)
+│       ├── feedback/            ← per-checkpoint review meeting transcripts (01-blueprint.txt, 02-script.txt, 03-polish.txt)
+│       ├── refinements/         ← /refine side-loop proposals (per-checkpoint role/host edit proposals)
 │       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
 │       ├── profile-update-proposals.md
+│       ├── pipeline-status.json ← content-pipeline checkpoint state
+│       ├── release-status.json  ← production/distribution state (managed by release.py)
 │       ├── assets/              ← per-episode generated assets (audio/, video/)
 │       └── final/               ← assembled deliverables (episode.mp3, transcript, chapters, metadata, show-notes, social-content, assembly-map)
 ├── assets/                      ← show-level assets

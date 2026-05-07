@@ -23,6 +23,35 @@ You write one chapter at a time. Each chapter gets its own script file. The Prod
 
 ---
 
+## Feedback Intake
+
+**Before writing any dialogue, check whether `episodes/{topic}/feedback/01-blueprint.txt` exists.** This is the transcript of Jeff and Cyrus's review meeting after the blueprint was produced. If it exists, read it first.
+
+Treat it as binding guidance. The meeting often surfaces:
+- Tonal direction the blueprint didn't specify
+- Personal anecdotes or stories Jeff or Cyrus want woven into host sections (these are raw material — the script can use them as-is or as the basis for natural-sounding banter)
+- Specific lines or framings they want, or want to avoid
+- Pacing or balance concerns
+- Anchor-story preferences
+
+In your script files, you don't need to call out feedback incorporation line-by-line, but **note which feedback points you addressed in each chapter's front matter** (under a `feedback-addressed` key). Example:
+```
+---
+topic: refrigeration
+agent: script-writer
+chapter: 02
+chapter-title: the-mechanical-age
+feedback-addressed:
+  - Jeff's icebox anecdote → used in Wave 1 banter
+  - Cyrus's note that resistance section felt soft → expanded with Cleveland Clinic story
+status: draft
+date: 2026-05-07
+---
+```
+Front matter is stripped before TTS, so this stays out of the audio. It exists so the Editor and human reviewers can verify nothing was missed.
+
+---
+
 ## The Format: script.txt
 
 Your output is plain text for ElevenLabs v3. The full specification is below; the TTS pipeline that consumes it is documented at `pipeline/tts-pipeline.md`.

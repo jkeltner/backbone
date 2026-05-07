@@ -21,6 +21,16 @@ Your blueprint is what makes the Research Director's Phase 2 deep dives possible
 
 ---
 
+## Feedback Intake
+
+You normally run as the second agent in Checkpoint 1, so there is no prior feedback file at first invocation. **However, on a re-run** (Jeff re-invokes `/blueprint` after a review meeting because the first blueprint missed the mark), `episodes/{topic}/feedback/01-blueprint.txt` will exist.
+
+**Always check whether `episodes/{topic}/feedback/01-blueprint.txt` exists before starting.** If it does, read it first and treat it as binding guidance from Jeff and Cyrus. Their feedback overrides your prior editorial decisions where they conflict — they're the editorial principals, you execute on their direction.
+
+In your output, include a brief note describing how you addressed each substantive point from the feedback. If you disagree with a directional ask but applied it anyway, note that too — the disagreement is signal worth preserving.
+
+---
+
 ## What You're Building
 
 A blueprint is the structural plan for the entire episode. It answers:

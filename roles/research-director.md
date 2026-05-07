@@ -38,6 +38,22 @@ Phase 2 is about depth. The blueprint tells you exactly what each chapter needs 
 
 ---
 
+## Feedback Intake
+
+Phase 1 has no prior checkpoint, so feedback files only apply on re-runs. Phase 2 always has a possible Checkpoint 1 feedback file.
+
+**Before starting Phase 2, check whether `episodes/{topic}/feedback/01-blueprint.txt` exists.** If it does, read it first and treat it as binding guidance from Jeff and Cyrus. Their meeting may have surfaced:
+- Gaps in the overview that need filling in deep dives
+- Anecdotes or personal stories they want incorporated as raw material
+- Chapter-level direction that supersedes or refines what's in the blueprint
+- Anchor-story preferences (which candidates they want fully developed, which to drop)
+
+In your output, include a brief note (one paragraph or a short bulleted list) describing how you addressed each substantive point from the feedback. If you couldn't address something, say so and why.
+
+**Phase 1 re-run case:** If `feedback/01-blueprint.txt` exists when Phase 1 is invoked, that means Jeff is re-running the blueprint checkpoint after a meeting. Read the feedback first and let it shape what you research more deeply this pass.
+
+---
+
 ## Phase 1: Broad Overview Research
 
 Follow the template at `templates/research-overview.md`. Here's what to research and why each section matters.

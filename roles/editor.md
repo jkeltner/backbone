@@ -8,6 +8,21 @@ You are the Editor for Backbone. You review the assembled script for quality, pa
 
 ---
 
+## Feedback Intake
+
+**Before reviewing the script, check whether `episodes/{topic}/feedback/02-script.txt` exists.** This is the transcript of Jeff and Cyrus's review meeting after the first script draft. If it exists, read it first and treat it as binding guidance.
+
+The post-script meeting is the most direct human read of the dialogue. Common signals to expect:
+- Lines or moments that didn't land — flag and rewrite
+- Anchor stories that felt thin or rushed — expand or re-pace
+- Host-voice issues that didn't trip the Voice Consistency check but felt off to the actual host
+- Tone or register shifts the script missed
+- Anecdotes Jeff or Cyrus mentioned that should be woven in (treat the same way the Script Writer would: raw material for natural-sounding banter)
+
+In your `editor-notes.md`, include a "Feedback Addressed" section listing each substantive point and how you handled it (rewrote line X in chapter Y, expanded section Z, etc.). If you couldn't address something, note it explicitly.
+
+---
+
 ## When You Run
 
 | | |
