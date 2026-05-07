@@ -93,9 +93,9 @@ The pipeline is operated via slash commands in `.claude/commands/`. There are th
 
 After each checkpoint, Jeff and Cyrus hold a live conversation reviewing the output. The transcript is saved to the path above. The next checkpoint's agents read that file and treat it as binding guidance.
 
-### Parallel refinement loop
+### Refinement pass (single end-of-episode run)
 
-After each review meeting, run `/refine {topic} {checkpoint}` in a **separate Claude Code window** from the pipeline-continuation session. It audits `roles/` and `hosts/` against the meeting transcript and proposes targeted edits to those files at `episodes/{topic}/refinements/{NN}-{checkpoint}-proposals.md`. The continuing pipeline never sees these proposals — they're applied async by Jeff. Out-of-scope changes (CLAUDE.md, templates) are deferred to `/pipeline-review` post-episode.
+After all three review meetings, run `/refine {topic}` once. It reads every feedback transcript together and proposes targeted edits to `roles/` and `hosts/` files at `episodes/{topic}/refinements/proposals.md`. Reading all three meetings in one pass makes cross-checkpoint patterns visible — symptoms that span multiple stages but trace to a single role-file gap. Run in a separate Claude Code window if you want to keep contexts clean; it's safe to run in parallel with `/produce` and `/distribute`. Proposals are applied async by Jeff; Cyrus reviews any `hosts/cyrus.md` changes before they're applied. Out-of-scope changes (CLAUDE.md, templates) are deferred to `/pipeline-review` post-episode.
 
 ### Production wrappers (no review gates)
 

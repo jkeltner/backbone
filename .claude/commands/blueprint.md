@@ -66,5 +66,5 @@ Wait for it to complete. Read blueprint.md to confirm it landed.
 2. Print a short status report to the user:
    - Confirm `research/overview.md` and `blueprint.md` exist and were updated
    - Note the wave count from the blueprint and the proposed thesis (one line)
-   - Tell them: "Hold your review meeting. Save the transcript to `episodes/$ARGUMENTS/feedback/01-blueprint.txt`. Then run `/script $ARGUMENTS` to continue. In parallel, you can run `/refine $ARGUMENTS blueprint` in a separate window once the feedback file is saved."
+   - Tell them: "Hold your review meeting. Save the transcript to `episodes/$ARGUMENTS/feedback/01-blueprint.txt`. Then run `/script $ARGUMENTS` to continue. (`/refine` is a single end-of-episode run after all three checkpoint meetings — not per-checkpoint.)"
 3. Stop. Do not run any further agents.

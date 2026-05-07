@@ -54,5 +54,5 @@ Wait for completion. Verify fact-check-report.md and corrected chapter files exi
    - Editor: number of voice consistency flags, line edits, continuity issues found
    - Fact Checker: claims checked, corrections made, unverified flags remaining
    - Whether `feedback/02-script.txt` was read or absent
-3. Tell the user: "Hold your final review meeting before audio. Save the transcript to `episodes/$ARGUMENTS/feedback/03-polish.txt`. Once you're satisfied, run `/produce $ARGUMENTS` to assemble and generate audio. In parallel, you can run `/refine $ARGUMENTS polish` in a separate window once the feedback file is saved."
+3. Tell the user: "Hold your final review meeting before audio. Save the transcript to `episodes/$ARGUMENTS/feedback/03-polish.txt`. Once you're satisfied, run `/refine $ARGUMENTS` (in a separate window) to generate role/host edit proposals from all three meeting transcripts, and run `/produce $ARGUMENTS` to assemble and generate audio — those two are safe to run in parallel."
 4. Stop. Do not run any further agents.

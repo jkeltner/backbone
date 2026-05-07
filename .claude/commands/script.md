@@ -59,5 +59,5 @@ Wait for completion. Verify chapter scripts exist.
    - Number of chapter script files produced
    - Total approximate word count across scripts (rough indicator of episode length)
    - Whether `feedback/01-blueprint.txt` was read or absent
-3. Tell the user: "Hold your review meeting. Save the transcript to `episodes/$ARGUMENTS/feedback/02-script.txt`. Then run `/polish $ARGUMENTS`. In parallel, you can run `/refine $ARGUMENTS script` in a separate window once the feedback file is saved."
+3. Tell the user: "Hold your review meeting. Save the transcript to `episodes/$ARGUMENTS/feedback/02-script.txt`. Then run `/polish $ARGUMENTS`. (`/refine` is a single end-of-episode run after all three checkpoint meetings — not per-checkpoint.)"
 4. Stop. Do not run any further agents.
