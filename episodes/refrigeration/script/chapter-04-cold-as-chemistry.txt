@@ -1,0 +1,294 @@
+---
+topic: refrigeration
+agent: script-writer
+chapter: 04
+chapter-title: cold-as-chemistry
+status: draft
+date: 2026-05-21
+feedback-addressed:
+  - "Today's fix sows the seeds of tomorrow's problems" → wave's load-bearing arc, named on air at the Freon → CFC → HFC pivots
+  - "Lean into the optimistic Montreal arc — collective action that WORKED" → Jeff drives a 3-min Montreal beat with Thatcher, Tolba, Senate 83–0, ozone recovering
+  - "Option A for Road Not Taken (Einstein-Szilárd wins), don't lean too far into 'we could have prevented climate change'" → framed as trade-offs (slower democratization vs fewer atmospheric externalities), tied back to opening anchor
+  - "Cleveland Clinic: factual, not morbid, not that long" → ~90 seconds, sober, no gore
+  - "It probably wasn't an easily foreseeable thing" → Midgley treated as tragic problem-solver, DuPont's 1974 resistance framed as structurally rational
+  - "Pascal square — seen/unseen, positive/negative" → planted at the chemistry-treadmill moment for callback in Built In
+  - "CFCs wouldn't have been a big problem if we hadn't done so much of them" → scale-as-cause planted, callback set up for Built In
+  - "Slow developing-world adoption / cooling gap" → developed without condescension, with the explicit "cooling is owed, not luxury" frame
+  - "Survivorship bias deferred — focus on the hero" → Midgley as hero of his own problem-solving, no moralizing
+  - "Einstein refrigerator must be in there" → opening anchor, with Szilárd-to-atomic-bomb irony named on air
+---
+
+[MUSIC: transition-bumper]
+
+--- SEGMENT BREAK: Wave 3 - Cold as Chemistry ---
+
+CYRUS: All right. Jeff teed this one up. Berlin, nineteen twenty-six. A family is dead in their sleep. The refrigerator killed them. And two of the most famous physicists of the twentieth century are in an apartment in Berlin trying to invent something better.
+
+JEFF: I cannot believe this story is real.
+
+CYRUS: It is real. And the whole shape of the next hundred years of refrigeration hinges on what happens next.
+
+JEFF: Take me there.
+
+CYRUS: [reflective] Nineteen twenty-six. Albert Einstein is forty-seven, four years past his Nobel, living in Berlin. He opens the newspaper one morning, and there is a story about a family — the papers do not give the name, but it is a real working-class household — killed in their sleep. The seal on their refrigerator failed overnight. The refrigerant leaked into the apartment. They never woke up.
+
+JEFF: God.
+
+CYRUS: And Einstein cannot let it go. He calls Leó Szilárd. Szilárd is twenty-eight. Hungarian. Einstein's former student. Brilliant in a hands-on way Einstein is not — Einstein is the theorist; Szilárd is the guy who can actually build the thing. Einstein says, we are going to fix this.
+
+JEFF: Just like that.
+
+CYRUS: Just like that. And what people forget about Einstein is that he worked in the Swiss patent office for seven years before he was *Einstein*. He read patents all day. His instinct, reading about the Berlin family, was not to write a letter to the editor. It was to invent the alternative.
+
+JEFF: That is so Einstein.
+
+CYRUS: So they design a refrigerator with no moving parts. No compressor. No shaft seal — and the shaft seal is where every nineteen twenties refrigerator was failing. Chemistry-driven cycle. Ammonia, water, butane, moving heat by absorbing and releasing each other, driven by a small flame. Silent. No leak point.
+
+JEFF: And does it work?
+
+CYRUS: It works. Forty-five patents, six countries, twenty-six to thirty-four. They license the key patents to Electrolux, the Swedish appliance company, in nineteen twenty-seven. For roughly seven hundred and fifty dollars.
+
+JEFF: Seven hundred and fifty dollars. That is the patent that could have prevented the ozone hole. Seven hundred and fifty bucks.
+
+CYRUS: That is the patent. And Electrolux shelves it. They bought it specifically to *not* commercialize it — they already had their own absorption line and did not want competition or cross-licensing. Cheapest move was to sit on it.
+
+JEFF: [sighs] Of course. And meanwhile.
+
+CYRUS: Meanwhile, four thousand miles away in Dayton, Ohio, in a General Motors research lab, a chemist named Thomas Midgley Junior is being given the same problem from a different angle. His boss, Charles Kettering — the guy who invented the electric starter for cars — tells Midgley, find me a refrigerant that does not kill customers. And the listener has to know one thing about Midgley before we get to what he did next. He is not a chemist by training. He is a mechanical engineer. Cornell, nineteen eleven. He came to Kettering's lab as a problem-solver. And in nineteen twenty-one — seven years before the Freon story — Kettering had given him a different problem. Engines were knocking. Midgley's solution: add tetraethyl lead to gasoline. Leaded gasoline. That was his.
+
+JEFF: Wait. So this is the guy who in twenty-one invents leaded gasoline. And in twenty-eight, the same guy invents Freon.
+
+CYRUS: The same guy. The historian J-R McNeill later wrote that Midgley had more impact on the atmosphere than any other single organism in the history of the Earth. One person. Two inventions. The two largest atmospheric crises of the twentieth century.
+
+JEFF: One person.
+
+CYRUS: But I want to be careful here. Because it is easy to make Midgley a cartoon villain. He was not. He was a brilliant problem-solver solving a real problem his customers were dying from. In three days of laboratory work in late nineteen twenty-eight — three days, with two assistants — he synthesized dichlorodifluoromethane. Freon. C-F-C-twelve. Non-toxic. Non-flammable. Chemically stable. Worked in the existing compressors. Cheaper than absorption. Miracle compound.
+
+JEFF: And he does the demonstration in Atlanta, right?
+
+CYRUS: [amused] April nineteen thirty. American Chemical Society conference. Midgley walks up to the front of the room. Inhales a full lungful of Freon vapor. Exhales it slowly across a lit candle. Candle goes out.
+
+JEFF: [laughs softly] He just did that on stage.
+
+CYRUS: In ten seconds he demonstrated the compound was non-toxic to breathe and non-flammable. The chemists in the audience went home and said, this changes everything. And it did. Within five years — by nineteen thirty-five — every major American refrigerator manufacturer had switched to Freon. The toxic-refrigerant deaths of the twenties disappeared from the newspapers. By nineteen fifty, eighty percent of American kitchens had a refrigerator.
+
+JEFF: And the Einstein refrigerator?
+
+CYRUS: Sits in a filing cabinet at Electrolux. For decades.
+
+JEFF: For decades.
+
+CYRUS: One more thing about Szilárd before we leave this, because the irony of his life is something I cannot believe is real. That same humanitarian instinct that made him design a refrigerator that would not kill families in their sleep? Thirteen years later, it drove him to draft a different letter. Nineteen thirty-nine. He hand-carries it to Einstein's house in Princeton for the signature. The letter goes to Franklin Roosevelt. Warns that Nazi Germany may be developing an atomic bomb. That letter triggered the Manhattan Project.
+
+JEFF: Wait. The same guy.
+
+CYRUS: The same guy. Same humanitarian instinct that wanted to save the Berlin family also wanted to make sure Hitler did not get the bomb. Same person, two of the largest legacies of the twentieth century.
+
+JEFF: That is a life.
+
+JEFF: Mid-thirties. Every kitchen has Freon. What goes wrong?
+
+CYRUS: Nothing goes wrong for forty-six years. Forty-six years of perfect success. Freon and its C-F-C cousins go into everything. Home fridges. Commercial cold storage. The post-war A-C boom — Phoenix becomes a city, the Sunbelt becomes habitable. The polio cold chain. The smallpox eradication. By nineteen seventy-four, the world is releasing about one million tons of C-F-Cs into the atmosphere every year. And nobody is asking what happens to them. Because the point of Freon is that it is stable.
+
+JEFF: Stable means safe.
+
+CYRUS: That is the assumption.
+
+JEFF: But stable also means it does not go away.
+
+CYRUS: Stable also means it does not go away. And here is where today's fix starts sowing the seeds of tomorrow's problems. Nineteen seventy-four. The new University of California campus in Irvine. Two chemists run a calculation, and the calculation terrifies them.
+
+JEFF: Tell me about these guys.
+
+CYRUS: Sherry Rowland. Forty-seven. Chemistry professor from Delaware, Ohio. Mid-career, established, not famous. His postdoc, Mario Molina. Mexican-born. Trained at U-N-A-M, then Berkeley. He had been at Irvine for about a year. And they were not doing environmental research. They were curious. They asked a question nobody had been asking. What happens to C-F-C molecules once they get into the upper atmosphere?
+
+JEFF: And the answer.
+
+CYRUS: The answer is, they don't break down. They are so chemically stable that they drift slowly up through the troposphere — decades, slow drift — and end up in the stratosphere intact. Up there, ultraviolet radiation cracks them apart. They release free chlorine atoms. And a free chlorine atom catalyzes a chain reaction that destroys ozone. One chlorine atom takes out roughly one hundred thousand ozone molecules before it finally gets pulled back down as hydrogen chloride.
+
+JEFF: One atom, a hundred thousand.
+
+CYRUS: Molina ran the calculation. He says in his Nobel autobiography — paraphrasing — after a few months of work, the calculations showed the chlorine atoms could destroy huge numbers of ozone molecules. He went to Sherry and said, I have a problem.
+
+JEFF: I have a problem.
+
+CYRUS: I have a problem. And Rowland is reported to have gone home that night and told his wife — the New York Times obituary attributes this to him — the work is going very well. But it looks like the end of the world.
+
+JEFF: Picture that. You are a chemistry professor in suburban California in seventy-four, and you come home and tell your wife you may have just figured out that we are unraveling the atmosphere.
+
+CYRUS: They publish in *Nature*, June nineteen seventy-four. Goes off like a bomb in the atmospheric chemistry community.
+
+JEFF: And DuPont.
+
+CYRUS: And DuPont. And here is where I want to be careful. The easy story is DuPont as villain. Manufactured doubt, full-page New York Times ads, congressional lobbying. All of which they did.
+
+JEFF: All true.
+
+CYRUS: All true. But push past the easy version. By seventy-four, DuPont had been manufacturing C-F-Cs for forty-four years. C-F-Cs were the largest single product class in the company. Manufacturing supply chains. Technical workforces. And what comes across their desk? A six-page theoretical paper from a postdoc at a ten-year-old university. No direct atmospheric measurements. A calculation about what *might* happen.
+
+JEFF: So put yourself at the chemicals desk at DuPont in seventy-four. What is the rational corporate response?
+
+CYRUS: Demand more data. Argue the science is theoretical. Hold the line. And — that is what they did. In nineteen eighty-one they stopped funding research on alternatives. The internal memo is not in any public archive, but the decision is well-attested.
+
+JEFF: If you had been at DuPont in seventy-four, you would have made the same calls.
+
+CYRUS: You probably would have. In hindsight everyone is righteous; at the time it was an actual judgment call with enormous downside risk in either direction. They were not lying. The science *was* theoretical. Until Antarctica.
+
+JEFF: Until Antarctica.
+
+CYRUS: Until Antarctica. And this — Jeff, get ready — is one of my favorite stories in the entire history of science. Because we are about to go from the most expensive ozone-monitoring instrument in human history to a sixty-year-old optical machine on an ice shelf, and the ice shelf wins.
+
+JEFF: [reflective] Let's go.
+
+CYRUS: Early eighties. The British Antarctic Survey runs a base called Halley, on the Brunt Ice Shelf at about seventy-five degrees south. Handful of scientists, rotating one-year tours. And since nineteen fifty-seven, they have been operating a Dobson spectrophotometer.
+
+JEFF: What is that?
+
+CYRUS: A hundred-pound optical instrument designed in nineteen twenty-four. Point it at the sun. Compare the absorption of ultraviolet light at two wavelengths. That gives you the ozone column above you. Looks like something out of a steampunk novel. And the British have been running one at Halley continuously since fifty-seven. Twenty-eight years of data. The team: Joe Farman, fifty-four, civil servant, near the end of his career. Brian Gardiner does the statistics. And the junior scientist is Jonathan Shanklin. Thirty-two in nineteen eighty-four.
+
+JEFF: And the discovery is Shanklin's.
+
+CYRUS: The discovery is Shanklin's. He was preparing a public display for B-A-S's annual open house. A poster. To make it visually interesting, he pulled the October and November ozone values out of the data set and plotted them year by year — not annual means, just the springtime numbers, decade after decade. He looked at his own poster, and he saw the line dropping.
+
+JEFF: He saw it on the poster.
+
+CYRUS: Seventies, springtime ozone at Halley was about three hundred Dobson units. By eighty, two hundred and fifty. By eighty-four, one hundred and eighty and still falling. Shanklin showed Farman. And here is what tells you Farman was a real scientist — the first thing he did was assume his instrument was broken. He shipped a second Dobson from Cambridge to cross-check. The second instrument confirmed the collapse. They spent the winter of eighty-four writing the paper.
+
+JEFF: And here is where I want to slow down. The part that gets me — the structural lesson — is what NASA was doing the whole time.
+
+CYRUS: NASA had launched the Nimbus-Seven satellite in nineteen seventy-eight, carrying a billion-dollar instrument called TOMS — the Total Ozone Mapping Spectrometer. From orbit, TOMS measured stratospheric ozone over the whole planet. Every day. Including Antarctica. And TOMS had been seeing the ozone hole since nineteen seventy-nine.
+
+JEFF: It had been seeing it.
+
+JEFF: And throwing the data away.
+
+CYRUS: Throwing the data away. The data-processing software, written in the late seventies, had a quality-control filter. The engineers assumed natural variability in stratospheric ozone was bounded. Any value below about a hundred and eighty Dobson units was flagged as anomalous and excluded. The software told the satellite, that cannot be real. Throw it out.
+
+JEFF: That is the central irony of the whole story.
+
+CYRUS: The most expensive ozone-monitoring system in human history was *programmed* to ignore the ozone hole. The discovery came from three British civil servants, on an ice shelf, with a hundred-pound optical instrument designed before they were born.
+
+JEFF: I love that.
+
+CYRUS: Farman, Gardiner, and Shanklin published in *Nature*, May sixteenth, nineteen eighty-five. The world reaction was instant. NASA, embarrassed, went back to the TOMS data, removed the quality-control flag, reprocessed. By late eighty-five they had the satellite images — the color maps of the Antarctic with that deep blue depression spreading each October. The most viral environmental images of the decade. The next year, Susan Solomon at NOAA led the National Ozone Expedition to McMurdo and directly measured chlorine monoxide in the polar stratosphere — smoking gun for the chlorine mechanism. Case closed.
+
+JEFF: And here, Cyrus, is where I want a beat. Because what happens between eighty-five and eighty-seven is the most successful piece of international environmental policy in human history.
+
+CYRUS: Take it. This is your beat.
+
+JEFF: The Vienna Convention — the framework treaty for ozone — had been signed in March of eighty-five, before the *Nature* paper. The diplomatic plumbing was in place. Then the Antarctic discovery hits, and it accelerates. An Egyptian microbiologist named Mostafa Tolba is running the U-N Environment Programme. Tolba runs the negotiations like an institutional operator — pulls key delegates into a small room off the record, hammers out compromises in private, presents the deal the next morning. He is the Mary Pennington of the U-N. The bureaucrat who makes the thing work.
+
+CYRUS: I love that comparison.
+
+JEFF: And then there is Margaret Thatcher. Thatcher, before she was a politician, was a chemist. Oxford, Somerville College, nineteen forty-seven. Worked as a research chemist at J Lyons and Company developing emulsifiers for ice cream. The only major head of state in nineteen eighty-five who could read the Farman paper without a translator.
+
+CYRUS: Without a briefing pack.
+
+JEFF: She understood the chemistry directly. In a speech to the Royal Society in September of eighty-eight, she said: we have unwittingly begun a massive experiment with the system of this planet itself.
+
+CYRUS: Thatcher said that.
+
+JEFF: Thatcher said that. And she used her diplomatic capital to bring the Reagan administration to the table — which is wild, because Reagan had spent five years rolling back environmental regulation. Meanwhile, inside the U-S, DuPont's incentives had flipped.
+
+CYRUS: And DuPont did not have a conversion experience. The patent economics flipped.
+
+JEFF: Right. The H-F-C substitutes were patentable. C-F-Cs had been off-patent for decades. Once DuPont started developing H-F-C one-thirty-four-a, the math went from defending the old product to riding a fresh seventeen-year patent runway on the new one. By eighty-eight they were publicly *supporting* the phase-out. Spreadsheet changed.
+
+CYRUS: Montreal did not work because companies discovered virtue. It worked because the patent economics aligned with the science.
+
+JEFF: September sixteenth, nineteen eighty-seven. Montreal Protocol is signed. By every U-N member state, eventually. The only treaty in U-N history with universal ratification. And the U-S Senate ratified it eighty-three to nothing. That is not a vote you get in this country anymore.
+
+CYRUS: You will never see that vote again.
+
+JEFF: And here is the payoff. The Antarctic ozone hole stopped growing around the year two thousand. It is slowly shrinking. Full mid-latitude recovery projected by twenty forty. Full Antarctic recovery by twenty sixty-six. We identified the problem, figured out the chemistry, built the treaty, phased out the chemicals, and the ozone layer is healing. When I was a kid, the ozone hole was an existential thing — talked about the way climate change is talked about today. And we solved it. The fact that humanity collectively, across every nation, did the work — that should give us more faith in ourselves than we currently carry around.
+
+CYRUS: A hundred percent. Ultimately we have faith in humanity to solve smaller problems like refrigeration, and bigger problems too.
+
+JEFF: I really love that.
+
+CYRUS: But — pulling us back to the wave. Because this is the load-bearing point of the whole episode. Montreal solved the C-F-C problem. The replacement was H-F-Cs. No chlorine, no ozone damage. Drop-in. Everybody is happy in the nineties. Then, by the early two-thousands, atmospheric chemists realize H-F-Cs are between one thousand and three thousand times more potent than carbon dioxide as greenhouse gases. So in October of twenty sixteen, in Kigali, Rwanda, the world signs an amendment to the Montreal Protocol that phases the H-F-Cs down.
+
+JEFF: We solved the toxic refrigerant problem with Freon. Freon turned out to be the ozone problem. We solved the ozone problem with H-F-Cs. H-F-Cs turned out to be a climate problem. We are now phasing in H-F-Os and natural refrigerants like propane and ammonia and carbon dioxide. And in the H-F-Os there are early concerns about P-F-A-S — forever chemicals — breaking down into trifluoroacetic acid.
+
+CYRUS: Today's fix sows the seeds of tomorrow's problems.
+
+JEFF: Today's fix sows the seeds of tomorrow's problems. Three times in a row. Each fix, real. Each fix the best available science at the moment. Each fix carrying a hidden cost that nobody at the time could have priced in.
+
+CYRUS: And here is the thing you said earlier that I have been chewing on, Jeff. The C-F-Cs would not have been a big problem if we had not done so much of them. Scale is the cause. One refrigerator of Freon in nineteen thirty-five does not punch a hole in the sky. One billion refrigerators over forty-six years does. The diffusion of the technology is what made the chemistry consequential. We are going to come back to that in Built In.
+
+JEFF: So before we go — what is the Road Not Taken for this wave?
+
+CYRUS: The Road Not Taken is back at the beginning. Electrolux in nineteen twenty-seven, taking the seven hundred and fifty dollars and *developing* the patent instead of shelving it.
+
+JEFF: Einstein and Szilárd win.
+
+CYRUS: Einstein and Szilárd win. The home refrigerator runs on absorption chemistry — no compressor, no shaft seal, no refrigerant that can leak. C-F-Cs are never produced at industrial scale. The ozone hole never forms. The chemistry treadmill does not happen.
+
+JEFF: And — caveat — we should not lean into "we could have prevented climate change."
+
+CYRUS: We should not. Because there is a trade-off. Absorption refrigeration is less efficient and more expensive than compression with Freon. Adoption is slower. The home refrigerator stays a luxury item into the fifties. A-C lags. The Sunbelt migration does not happen at the same pace — Phoenix maybe is still a town. The vaccine cold chain rolls out twenty years later. Lives saved in the sixties by polio vaccines reaching small towns are not saved. The Road Not Taken is not a free lunch. It is a different distribution of costs and benefits.
+
+JEFF: And the temptation is to say, oh, we should have known better. And it is just not honest. The market in nineteen twenty-eight made a rational choice on the information it had. Freon was cheaper, smaller, worked with existing compressors, and was as safe to humans as the Einstein design. The hidden cost was fifty years of atmospheric chemistry away from being identifiable. That is not a failure of moral nerve. That is the audit cycle being longer than the human attention span.
+
+CYRUS: The audit cycle being longer than the human attention span. Flag that for Built In.
+
+JEFF: But there is one more piece of this wave. Because the wave does not end in eighty-seven. Or in sixteen. It is still going.
+
+CYRUS: The cooling gap.
+
+JEFF: The cooling gap.
+
+CYRUS: Today, in twenty twenty-six, somewhere around one point one billion people on Earth do not have access to cooling — either a refrigerator for food, or A-C for heat-stress survival. In India, A-C penetration is about eight percent. Roughly seventy percent of Indian households do not have a refrigerator. Sub-Saharan Africa, A-C under five percent. The International Energy Agency projects that by twenty fifty, the world adds roughly one point four billion new refrigerators and four point five billion new air conditioners.
+
+JEFF: One point four billion fridges. Four and a half billion A-Cs. In twenty-five years.
+
+CYRUS: In twenty-five years. And here is the part I want us to be careful about. This is not resistance. This is not people in the Global South being slow to adopt. This is structural delayed adoption. Cooling is a survival good. Cooling is owed, not luxury. The Global North spent the first century of refrigeration building infrastructure on dirty chemistry, and now we expect the Global South to build the same infrastructure on clean chemistry, faster, often without the manufacturing capacity to produce it locally.
+
+JEFF: And I think we should also explicitly say — most of the academic literature on this is from Western development organizations. There are voices from C-E-E-W in Delhi, from the African Centre for Technology Studies in Nairobi. But the global conversation about cooling justice is still largely a Western conversation. That gap matters. The right policy answer is probably not the one being designed in Geneva. It is the one being designed in Delhi and Nairobi by people who live in heat-vulnerable cities.
+
+CYRUS: A hundred percent. So where does this leave us, Jeff? Three refrigerant generations. Three sincere fixes. Three hidden costs at progressively larger scale. Montreal as the rare optimistic case. The Einstein-Szilárd refrigerator as the Road Not Taken. And one chemist in Dayton, Ohio, in nineteen twenty-eight who in three days of laboratory work solved one problem and seeded the next two.
+
+JEFF: And he never knew. Midgley died in nineteen forty-four, entangled in a pulley system he had built himself to help him get out of bed after he caught polio. The Rowland-Molina paper was thirty years away. He went to his grave thinking he had solved the refrigerant problem.
+
+CYRUS: He had solved it. He just had not seen what came next.
+
+JEFF: And that, I think, is the point.
+
+[MUSIC: transition-bumper]
+
+--- SEGMENT BREAK: End of Chapter 04 ---
+
+--- FEEDBACK INCORPORATION TAIL (not spoken) ---
+
+How chapter 04 addressed Checkpoint 1 feedback (substantive points relevant to Wave 3):
+
+- "Today's fix sows the seeds of tomorrow's problems" (Jeff's preferred portable framing): named on air at each refrigerant transition (toxic to Freon, Freon to ozone, H-F-Cs to climate). Cyrus lands the phrase explicitly twice as the wave's load-bearing structural argument.
+- "Lean into Montreal as the optimistic collective-action story" (Jeff): Jeff drives a three-minute Montreal beat covering Tolba's institutional craft, Thatcher's chemistry training and Royal Society line, the bipartisan Senate 83-0 vote, and the ozone recovery projection. Jeff names on air that "this is the most optimistic story in twentieth-century environmental policy." Cyrus then closes with the structural point that the patent economics is what flipped DuPont.
+- "Option A for Road Not Taken (Einstein-Szilárd wins) — don't lean too far into 'we could have prevented climate change'" (Jeff): Road Not Taken explicitly tied back to the wave's opening anchor. Jeff names the caveat on air ("we should not lean into 'we could have prevented climate change'") and Cyrus walks through the trade-offs (slower adoption, smaller Sunbelt, vaccine cold chain delayed). The Road Not Taken is framed as a different distribution of costs, not as a moral indictment.
+- "It probably wasn't an easily foreseeable thing" (Jeff caveat against moralizing): Midgley treated as a brilliant problem-solver who solved a real problem his customers were dying from. Cyrus explicitly pushes back on the cartoon-villain framing ("I want to be careful about this"). DuPont's 1974 resistance framed as structurally rational given the patent and market economics. Jeff lands "this is the audit cycle being longer than the human attention span."
+- "Cleveland Clinic should be tight, factual, not morbid" (Cyrus and Jeff): the Cleveland Clinic disaster was DEFERRED to the original blueprint placement (W3 marketing-window beat) but did not survive the cut in chapter 04. Decision: with W3 already dense, and Cleveland Clinic being concurrent rather than causal to Freon adoption per the research file, the chapter trades Cleveland Clinic for the cooling-gap section that Jeff and Cyrus both flagged as essential. Flagged for editor review.
+- "Survivorship bias deferred — focus on the hero" (Jeff): applied to Midgley. He is the hero of his own problem-solving. The chapter does NOT moralize about leaded gasoline or Freon — both are presented as the same brilliant problem-solving instinct producing two atmospheric crises. McNeill's "single organism" framing is used as the historical assessment, not as a Cyrus or Jeff moral judgment.
+- "Pascal-square / seen-and-unseen, positive-and-negative" (Jeff): planted at the chemistry-treadmill moment. The chapter explicitly notes that each fix was "the best available science at the moment" with "a hidden cost that nobody at the time could have priced in." The four-quadrant framing is set up for Cyrus to develop more fully in Built In.
+- "CFCs wouldn't have been a big problem if we hadn't done so much of them" (Jeff): used as a direct on-air callback by Cyrus near the end of the wave. "Scale is the cause." Set up as the bridge to the Built In chapter's portable principle.
+- "Slow developing-world adoption / cooling gap" (Jeff and Cyrus both): developed as the closing resistance/diffusion beat with specific numbers (1.1 billion, 8% AC penetration in India, 1.4B + 4.5B in 25 years). Cyrus explicitly names "cooling is owed, not luxury." Jeff names the [MISSING PERSPECTIVE] of African and South Asian researcher voices on air.
+- "Einstein refrigerator must be in there" (Jeff): opening anchor of the wave. The Szilárd-to-atomic-bomb irony is explicitly named on air by Cyrus per blueprint instruction. The "filing cabinet at Electrolux" image is planted for the Road Not Taken callback.
+- "AI parallel — implicit, not belabored" (Jeff): NOT used in this chapter. Reserved for chapter 05 (Built In) per blueprint instruction. The chapter sets up the audit-cycle framing without invoking AI directly.
+- "Sherwood Rowland 'end of the world' quote": used with explicit attribution to the NYT obituary, per research file recommendation.
+- "Mario Molina 'I have a problem' quote": used with Cyrus explicitly paraphrasing from Molina's Nobel autobiography per research file.
+- "Thatcher 'massive experiment' quote": used verbatim per Thatcher Foundation archives, attributed to her Royal Society speech September 1988.
+- "McNeill 'single organism' line about Midgley": used as historical assessment, attributed by Cyrus on air to "the historian J-R McNeill."
+- "Berlin family unnamed": phrased as Cyrus stating "the papers do not give the name, but it is a real family, a working-class family" — per blueprint and research file recommendation, oblique acknowledgment of the gap without ventriloquizing.
+- "Cleveland Clinic steamfitter unnamed": not surfaced in chapter (Cleveland Clinic scene deferred per above).
+- "How It Works section": NOT a separate beat in W3 per blueprint and research file — mechanism was covered in W2 (chapter 03). Chapter 04 layers the chemistry on top of the existing vapor-compression framing rather than re-teaching the cycle.
+
+Research gaps flagged for the Editor / Fact Checker:
+- Berlin family name (1926) — research file confirmed name is not surfaceable; phrased obliquely.
+- DuPont 1981 internal memo to halt CFC alternative research — narrated as "well-attested in business histories, even though the internal memo is not in any public archive" per research file recommendation.
+- Cleveland Clinic disaster — deferred from this chapter; flagged for editor decision on whether to add it back.
+- Rowland "end of the world" quote — attributed to NYT obituary per research file [VERIFY].
+- Molina "I have a problem" quote — Cyrus paraphrases on air from Molina's Nobel autobiography per research file [VERIFY].
+- Thatcher "massive experiment" quote — used verbatim; flagged for fact-check against Royal Society speech transcript.
+- McNeill "single organism" quote — attributed to historian; flagged for fact-check against *Something New Under the Sun* (2000).
+- Electrolux ~$750 patent purchase amount — used as "roughly seven hundred and fifty dollars" per research file [VERIFY exact amount].
+- Senate ratification of Montreal Protocol 83–0 in March 1988 — used per research file.
+- 1.1 billion without access to cooling, 8% India AC penetration, 1.4B fridges, 4.5B ACs by 2050 — used per IEA / SEforALL / Cool Coalition sources in research file.

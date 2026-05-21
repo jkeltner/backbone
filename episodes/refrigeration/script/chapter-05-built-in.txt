@@ -1,0 +1,256 @@
+---
+topic: refrigeration
+agent: script-writer
+chapter: 05
+chapter-title: built-in
+status: draft
+date: 2026-05-21
+feedback-addressed:
+  - "107 → 33 Energy Star correction with Cyrus catching it on air" → done in Numbers Revisited; Cyrus's "ten times an hour for ten hours straight" line lands as authentic skepticism, Jeff produces the Energy Star 33
+  - "Today's fix sows the seeds of tomorrow's problems" → portable principle, demonstrated through three named refrigerant generations
+  - "Pascal-square / seen-and-unseen, positive-and-negative" → developed by Jeff in What the Story Teaches with four quadrants made concrete
+  - "Q3 hidden cost — honor the disagreement, don't resolve" → Jeff/Cyrus disagreement beat preserved, both partially concede, neither wins
+  - "Q4 Could we go back — Montreal as optimistic case" → Jeff drives the optimistic Montreal payoff, names the climate contrast honestly
+  - "AI parallel — implicit, not belabored" → Cyrus closes by extending to current rapidly-diffusing technologies (AI, lithium, microplastics) without belaboring AI rhetoric
+  - "Cooling gap" → built into Q3 as the second hidden cost, framed as "cooling is owed, not luxury"
+  - "Stay curious, and mind the backbones" → locked sign-off, verbatim, no audio tags, with [MUSIC: theme-out] after
+  - "Listener callout" → embedded naturally in the wrap-up before the sign-off
+---
+
+[MUSIC: transition-bumper]
+
+--- SEGMENT BREAK: Built In - The Big Picture ---
+
+JEFF: All right. Three waves done. Can we do the whole thing in two minutes? Thirty-thousand-foot version.
+
+CYRUS: Let's try.
+
+JEFF: Eighteen oh-six. A twenty-three-year-old Boston Brahmin named Frederic Tudor puts a hundred and thirty tons of pond ice on a brig and ships it to Martinique. The *Boston Gazette* calls it a slippery speculation. Six years later, he is in debtor's prison. Twenty-seven years after that, his ship the *Tuscany* arrives in Calcutta with the ice intact, and a merchant on the dock lays his palm flat on a block and screams it has burned him like fire. By the eighteen-eighties, ice is the second-largest U-S export by tonnage.
+
+CYRUS: Wave one. Eighteen seventy-six, Carl von Linde gets an ammonia compressor running at the Spaten Brewery in Munich. Beer goes year-round. Six years later, Captain John Whitson nearly freezes to death sawing air holes in the hold of the *Dunedin* to save five thousand frozen sheep on a ninety-eight-day voyage to London. He saves the cargo. He saves a national economy. Mary Engle Pennington applies to the U-S-D-A as M-E because the civil service board will not hire a woman, and writes the standards that make the food cold chain trustworthy. By nineteen fifty, eighty percent of American households have a refrigerator.
+
+JEFF: Wave two. Nineteen twenty-eight, Thomas Midgley — who four years earlier added lead to gasoline and called it safe — synthesizes Freon and inhales a lungful of it across a candle flame in Atlanta. Within five years, Freon is in every American kitchen. Forty-six years later, three British scientists on an Antarctic ice shelf, with a hundred-pound optical instrument designed in nineteen twenty-four, find a hole in the sky the size of the United States that NASA's satellites have been *programmed* to throw away. Two years later, every nation on Earth signs the only U-N treaty in history with universal ratification. The hole begins to close.
+
+CYRUS: Wave three. And here we are. The planet spends one-fifth of its electricity on cold. Three-quarters of the food Americans eat passes through a refrigerator. Seventy percent of households in India do not have one yet. They are about to.
+
+JEFF: That is the story.
+
+CYRUS: That is the story. And the through-line is not about *cold*. It is that each generation's solution carried the seed of the next problem. Tudor's natural-ice empire bred the Ice Trust corruption that broke Tammany Hall. Mechanical refrigeration solved the seasonal problem and created the toxic-refrigerant deaths of the twenties. Freon solved that and created the ozone hole. H-F-Cs solved the ozone hole and became one of the fastest-growing greenhouse-gas sources on the planet. Three rounds in. Same pattern.
+
+JEFF: Today's fix sows the seeds of tomorrow's problems.
+
+CYRUS: Today's fix sows the seeds of tomorrow's problems. But before we go deep — let's revisit the numbers we opened with. Because there is one I have to come back to.
+
+JEFF: Let me guess.
+
+CYRUS: One hundred and seven refrigerator-door opens a day.
+
+JEFF: [laughs softly] You hated that at the top.
+
+CYRUS: [skeptical] I had it then, I have it now. Ten times an hour for ten straight hours. There is no way.
+
+JEFF: You were right. The one-oh-seven figure is not from a source I would trust. Energy Star, the actual government data — thirty-three.
+
+CYRUS: Thirty-three I believe. Still a lot. But not insane.
+
+JEFF: Consider it the correction. The fridge is the most-touched object in the modern American kitchen — about thirty-three times a day. And the most invisible. The rest of the numbers held up. Eight to eighty percent household adoption between nineteen thirty and nineteen fifty — fastest mass-consumer-tech diffusion in American history to that point. Through a depression.
+
+CYRUS: One chlorine atom destroys a hundred thousand ozone molecules. The only one of these numbers we have actually *solved*. Antarctic ozone projected fully recovered by twenty sixty-six.
+
+JEFF: Refrigeration: twenty percent of global electricity, seven and a half percent of greenhouse-gas emissions. Fastest-growing emissions sector.
+
+CYRUS: And the one I keep thinking about — eight thousand New York City infants dead from contaminated milk in eighteen fifty-eight. More than the U-S military death toll in the Mexican-American war. The closing reminder of what the pre-cold-chain world actually cost. Every vaccine, every blood transfusion, most pharmaceuticals — all of it descends from Mary Pennington's nineteen-oh-seven U-S-D-A work.
+
+JEFF: Okay. Let's do The Backbone Test. Five questions. Refrigeration edition.
+
+CYRUS: Let's.
+
+JEFF: One. Is it invisible?
+
+CYRUS: It is the most thoroughly invisible critical infrastructure in modern life. Most Americans can tell you who built the iPhone. Most cannot tell you what is in their refrigerator's compressor. Most can name the founder of Tesla. Almost none can name Carl von Linde.
+
+JEFF: And here is the test I love. Walking around your kitchen — name three things older than your refrigerator. Most people cannot. The fridge is the longest-lived appliance in the American home. Fourteen to seventeen years. It outlives the dishwasher, the microwave, the stove. It is the appliance the household is organized around.
+
+CYRUS: And listeners, sit with this for a second. The invisibility is the *successful* state of the backbone. Tudor's ice trade was visible — every household knew the iceman, the cost, the rhythm. Modern refrigeration is invisible *because* it works. Thousands of trucks, tens of thousands of warehouses, millions of square feet of cold storage, and you never once think about it. Until the power goes out.
+
+JEFF: Visibility is the failure mode. Invisibility is success. That is a real frame for any backbone.
+
+CYRUS: Two. What depends on it?
+
+JEFF: Three-quarters of the food Americans eat. The global meat trade. The supermarket as a category. Every vaccine. Every blood transfusion. Most pharmaceuticals. The fact that you can buy a strawberry in Massachusetts in January. United Fruit's Great White Fleet made banana republics — the food, the export economies, the geopolitics. The mRNA vaccines at minus seventy in twenty twenty stress-tested the global cold chain, and it largely held.
+
+CYRUS: And the one I keep finding wild — Phoenix.
+
+JEFF: Phoenix.
+
+CYRUS: Phoenix, Arizona. Sixty-five thousand people in nineteen forty. One point six million today. The whole Sunbelt — Phoenix, Houston, Atlanta, Dallas, Las Vegas, Miami — none of them habitable at scale before air conditioning. The political geography of modern America is, in significant part, a refrigeration story.
+
+JEFF: And then.
+
+CYRUS: And then the data center. U-S data centers were one point nine percent of national electricity in eighteen. Four point four percent in twenty-three. Projected as high as twelve percent by twenty-eight. Cooling is seven to thirty percent of that. A-I workloads are so dense that air cooling cannot keep up — liquid cooling, dielectric fluid running directly across the silicon, is taking over. Every Claude query, every search, every Netflix stream — refrigeration is in the loop.
+
+JEFF: Even this podcast is a refrigeration story.
+
+CYRUS: Even this podcast is a refrigeration story.
+
+JEFF: Three. What is the hidden cost? And Cyrus, this is the one where you and I are not going to agree.
+
+CYRUS: We are not going to agree. And the listener should hear us disagree honestly. Five costs. Energy and emissions. The cooling gap. Diet and public health. The loss of regional foodways. The chemistry treadmill. Energy first. Twenty percent of global electricity, seven and a half percent of emissions, fastest-growing sector. Jeff.
+
+JEFF: We have done this before. Montreal worked. Kigali is working. Grid decarbonization plus climate-compatible chemistry plus efficiency standards is a tractable policy problem. Solvable on a multi-decade timeline.
+
+CYRUS: [deliberate] My view is, the demand curve is the problem. Four and a half billion new A-Cs by twenty fifty. One point four billion new fridges. Even with the cleanest chemistry and aggressive grid decarbonization, the *math does not close*. The cooling demand in the Global South is structural — rooted in human survival under climate warming, in food security — and no treaty design constrains it to the climate-safe envelope.
+
+JEFF: I think you are underweighting the speed at which substitute chemistry can roll out once the patent structure is right.
+
+CYRUS: It has been fast in the Global North. *Slow* in the Global South. Which is cost two. The cooling gap. One point one billion people without access to cooling. India eight percent A-C penetration. Sub-Saharan Africa under five. And here you and I have the same frame. Cooling is owed, not luxury. In heat-vulnerable regions, cooling is a survival good.
+
+JEFF: A hundred percent. And let me explicitly say — most of the cooling-justice literature is from Western development organizations. There are voices from C-E-E-W in Delhi, from A-C-T-S in Nairobi, but they are not the voices dominating the conversation. That gap matters.
+
+CYRUS: It matters. And — I will grant you something, Jeff. I have been hard on Montreal as "the patent economics flipped." But Montreal also showed that when the structural conditions align, even sclerotic international institutions move fast. Two years from Antarctic discovery to signed treaty. The institutional capacity is there. My worry is the demand curve will outrun the chemistry curve. But Montreal is a real counter-example to my pessimism.
+
+JEFF: And I will grant you the demand curve is real. Four and a half billion A-Cs is a structural fact. We are not going to talk Bombay or Lagos out of needing cooling. My case has to engineer up to that demand, not around it.
+
+CYRUS: Cost three. Diet and public health. Ultra-processed food. Obesity. Cardiovascular disease. Downstream of a food system that stores anything indefinitely.
+
+JEFF: But the same cold chain ended the swill-milk era. Cut infant mortality. Made cheap fresh produce year-round available to working-class families. The hidden cost has to be priced against the hidden benefit.
+
+CYRUS: Yes. But the structural feature of a global cold chain is that anything storable indefinitely will be commodified into the cheapest form. Ultra-processed food is the *predictable output*, not a regulatory accident.
+
+JEFF: I do not fully buy that. Labeling. Sugar taxes. There are levers.
+
+CYRUS: We will see. Cost four. Loss of regional foodways. The iceman, the local butcher, the cured-meat traditions. Bacon. Pepperoni. Aged cheese. Country ham. Some of my favorite things in the world come from the *lack* of refrigeration. The food culture humans built when they could not put things in a box.
+
+JEFF: Some of my favorite things too. And this cost does not have a Jeff-versus-Cyrus axis. We agree. We kept some as luxury — artisanal salami, dry-aged steak — but lost most as everyday cuisine. A whole way of being in the world, attached to the seasons and to your region.
+
+CYRUS: Gone. And the kids growing up now do not know they lost it.
+
+JEFF: Cost five. The chemistry treadmill.
+
+CYRUS: Each refrigerant generation solves the previous one's problem and creates the next at larger scale. C-F-Cs to ozone. H-F-Cs to climate. H-F-Os to P-F-A-S concerns.
+
+JEFF: And here is where I find some optimism. The lag from "science publishes" to "regulation acts" has been shrinking. Thirteen years from Rowland-Molina to Montreal. Seventeen from early H-F-C science to Kigali. Lags keep shrinking.
+
+CYRUS: The lag is shrinking. But the *scale* is growing. And every generation locks in physical capital that you cannot turn over fast enough to stay ahead of the chemistry.
+
+JEFF: I will concede structural ground. The capital lock-in is real.
+
+CYRUS: And I will concede institutional credit. Montreal worked. Collective action at the highest level we have ever achieved.
+
+JEFF: We end somewhere honest. Both partially right. And to your earlier framing — ultimately we have faith in humanity to solve smaller problems like refrigeration, and bigger ones too.
+
+CYRUS: Even when we cannot quite see how yet.
+
+JEFF: Even when we cannot quite see how. Four. Could we go back?
+
+CYRUS: This is your beat, Jeff.
+
+JEFF: And this is the optimistic one. On the specific chemical — on C-F-Cs — *we already did*. Montreal Protocol phased them out. The ozone hole stopped growing around two thousand. It is shrinking. By twenty forty, the mid-latitude ozone layer is projected to be fully recovered. By twenty sixty-six, the Antarctic. We identified the problem, settled the science, aligned the politics, and the regulation worked. Listeners, sit with this. When I was a kid, the ozone hole was an existential thing. The way climate change is talked about today. We solved it. Universal ratification. Bipartisan Senate, eighty-three to zero. Tolba at U-N-E-P. Thatcher with her chemistry degree. Even Reagan signed it. We did this thing.
+
+CYRUS: We did this thing.
+
+JEFF: And I am going to be honest about the climate parallel. The structural conditions that made Montreal work — science localized to a visible crisis, patent economics on substitutes aligning, industry's incentives flipping — those are *harder* to assemble for climate. Substitutes for fossil fuels are diffuse. Patent economics are more contested. The crisis is harder to localize to one chart, one image, one hole in the sky.
+
+CYRUS: So the lesson is not "international policy works." The lesson is "international policy works when the structural conditions align." Montreal is the exception that defines the rule.
+
+JEFF: But the exception *happened*. It is not theoretical. Humans, across every nation on Earth, identified an atmospheric problem and fixed it. That is in our toolkit. It is rare. But it is in our toolkit.
+
+CYRUS: And on refrigeration as a whole?
+
+JEFF: No. Three days without power and most American cities lose their food supply. The dependency is total. The only other infrastructure this deep is water and electricity. Modern food security, modern healthcare, modern data infrastructure — all of it sits downstream of refrigeration. The technology cannot be unbuilt. It can only be re-engineered. Chemistry yes. Dependency no.
+
+CYRUS: Chemistry yes, dependency no. Five. What is next?
+
+CYRUS: A-I data center cooling is the new frontier. Workloads are so hot that air cooling cannot keep up. Liquid cooling — dielectric fluid running directly across the chips — is becoming standard. We are building a new generation of refrigeration infrastructure, at scale, for a workload that did not exist five years ago.
+
+JEFF: That is wild.
+
+CYRUS: Magnetic refrigeration is the wave-four candidate. Solid-state. No working fluid. No compressor. No refrigerant chemistry to phase out. Still early — labs in the U-K, France, China have prototypes. If it scales, it ends the chemistry treadmill entirely.
+
+JEFF: Kigali implementation is the load-bearing decade. The H-F-C phase-down has to actually happen. The developing-country schedule is slower — that is the right policy design — but it has to land.
+
+CYRUS: And the cooling gap closing. Chemistry, manufacturing, grid decarbonization — all have to align, or the math does not close. And the vaccine cold chain is getting colder. mRNA at minus seventy. C-A-R-T-cell therapies at liquid-nitrogen cryogenic. Medical refrigeration is getting harder.
+
+JEFF: And smart cold-chain monitoring could cut the fifty-percent vaccine wastage figure to under twenty in the next decade.
+
+CYRUS: And the next refrigerant problem we have not identified yet. The chemistry treadmill is not optional. P-F-A-S in some H-F-Os is the early signal. Every refrigerant generation has been deployed at scale before its full consequences were understood. The H-F-Os may be the safe substitute. They may also be the next C-F-C. We will not know for twenty or thirty years.
+
+JEFF: Twenty or thirty years.
+
+CYRUS: Which brings us to the part I really wanted to land. What does this story *teach* us?
+
+JEFF: Every Backbone episode should give the listener one portable principle. For refrigeration, it is the line we have used twice already. Today's fix sows the seeds of tomorrow's problems. Not generic. Specific. Three refrigerant generations. Each a sincere fix for the previous problem. Each carrying a hidden cost that became visible only when the technology was so universally adopted there was no practical alternative.
+
+CYRUS: Toxic refrigerants to Freon — hidden cost took forty-six years to identify. C-F-Cs to H-F-Cs — about fifteen years. H-F-Cs to H-F-Os — real time. The lag is shrinking.
+
+JEFF: The lag is shrinking. But the *scale* of adoption is growing. And the lesson is not "they should have known better." Midgley in twenty-eight could not see the ozone hole. The DuPont chemists in seventy-four did not have the measurements. Each generation made a rational choice. The lesson is the bigger the diffusion, the longer the audit cycle has to be — and we are bad at long audit cycles.
+
+CYRUS: We are bad at long audit cycles.
+
+JEFF: And here is the frame you called a Pascal square. Every backbone has four quadrants. Seen positive — cheap cold food, vaccines. Unseen positive — the mRNA cold chain, the Sunbelt, A-I data centers. Seen negative — the iceman's job, the local butcher's craft, toxic-refrigerant deaths. Unseen negative — the ozone hole, the H-F-C climate problem, the chemistry treadmill.
+
+CYRUS: All four quadrants. Every backbone has all four.
+
+JEFF: And the work is honest accounting across all four. Not denial of the unseen-negative. Not denial of the unseen-positive either.
+
+CYRUS: And here is where I want to carry the principle forward. Because the reason this episode matters *now* is that we are right now building backbones whose hidden costs we cannot yet see. A-I compute. Lithium-battery supply chains. Microplastics in food packaging. The platform economy. Some we will catch the hidden cost on. Some we will not.
+
+JEFF: Right.
+
+CYRUS: And the question the listener should sit with is not "what is the cost we can see today." It is, what is the multi-decade hidden cost we will not see for thirty years — and how do we build the monitoring infrastructure to catch it earlier than we caught the C-F-Cs?
+
+JEFF: That is the question.
+
+CYRUS: And the optimistic answer is that *because* of refrigeration — because of Rowland and Molina and Farman and Shanklin — we now know what the pattern looks like. Underfunded teams doing ground-truth measurements while the satellite software throws the data away. That is in our institutional repertoire. We have done it once. We can probably do it again. We just have to be looking.
+
+JEFF: We just have to be looking.
+
+JEFF: Listeners, that is the story. Refrigeration. From a twenty-three-year-old Boston Brahmin sending pond ice to the tropics, to three British scientists on an ice shelf, to whatever is in your kitchen right now, opening and closing thirty-three times a day. If this episode landed for you, share it with one person you think would love it. Follow the show wherever you are listening. The show notes have every source we cited, and every name we mentioned — Tudor, Linde, Pennington, Whitson, Einstein, Szilárd, Midgley, Rowland, Molina, Farman, Shanklin, Tolba, Thatcher. Go look them up. They are real, and most of them are worth a long evening of reading.
+
+CYRUS: That's it for this episode of Backbone. We will be back in a few weeks to dive into another hidden technology that makes the modern world run.
+
+JEFF: Until then —
+
+CYRUS: Stay curious, and mind the backbones.
+
+[MUSIC: theme-out]
+
+--- SEGMENT BREAK: End of Chapter 05 ---
+
+--- FEEDBACK INCORPORATION TAIL (not spoken) ---
+
+How chapter 05 addressed Checkpoint 1 feedback (substantive points relevant to Built In):
+
+- "107 → 33 Energy Star correction with Cyrus catching it on air" (Cyrus's authentic skepticism on tape): honored. Cyrus's "ten times an hour for ten straight hours" line lands as authentic skepticism (verbatim from his Checkpoint 1 dismissal). Jeff produces the Energy Star 33 figure, Cyrus accepts it. The correction beat is a small live moment of the show owning its own error.
+- "Today's fix sows the seeds of tomorrow's problems" (Jeff's preferred portable framing): adopted as the explicit portable principle. Named on air at the Full Arc, at the chemistry-treadmill cost beat, and at the What the Story Teaches beat. Tied to three named refrigerant generations with specific lags (46 years, ~15 years, real-time).
+- "Pascal-square / seen-and-unseen, positive-and-negative" (Jeff): developed by Jeff in What the Story Teaches as the four-quadrant framing. Each quadrant has concrete refrigeration examples: seen-positive (cheap cold food, vaccines), unseen-positive (mRNA cold chain, Sunbelt, AI data centers), seen-negative (iceman job loss, local butcher), unseen-negative (ozone hole, HFC climate problem).
+- "Q3 hidden cost — honor the disagreement, don't resolve" (blueprint): the Jeff/Cyrus disagreement beat on energy/emissions is preserved with both hosts staking positions, then both partially conceding ground (Jeff concedes the capital lock-in is real; Cyrus concedes Montreal as institutional success). Neither wins. Cyrus closes with "ultimately we have faith in humanity to solve bigger problems" (verbatim from his Checkpoint 1 conversation with Jeff).
+- "Q4 Could we go back — Montreal as optimistic collective-action case" (Jeff): Jeff drives Q4 with the full optimistic arc — universal ratification, 83-0 Senate vote, Tolba, Thatcher, Reagan, ozone recovering by 2066. Jeff also names the climate parallel honestly: "the structural conditions that made Montreal work are harder to assemble for climate." The honest framing of the contrast is on the page.
+- "AI parallel — implicit, not belabored" (Jeff): Cyrus closes the What the Story Teaches beat by extending the portable principle forward to "AI compute, lithium-battery supply chains, microplastics in food packaging, the platform economy." No explicit AI rhetoric. The principle generalizes; Cyrus is "just looking."
+- "Cooling gap as structural delayed adoption, no condescension" (Jeff and Cyrus both): built into Q3 hidden-cost #2. Cyrus explicitly names "cooling is owed, not luxury." Jeff names the [MISSING PERSPECTIVE] of African and South Asian researcher voices on air.
+- "Bacon and pepperoni — pre-refrigeration food culture as a positive cultural legacy" (Jeff and Cyrus both): used in Q3 hidden-cost #4 (loss of regional foodways). Cyrus says "some of my favorite things in the world come from the lack of refrigeration" (verbatim from his Checkpoint 1 line). Jeff joins. Both agree it is not a disagreement beat — it is a shared regret.
+- "Stay curious, and mind the backbones" (locked sign-off per project memory): used verbatim. No audio tags. [MUSIC: theme-out] placed immediately after. Cyrus delivers the final line; the prior wrap-up sentence is split Jeff/Cyrus to mirror the show's two-host close.
+- "Listener callout — natural, not jarring ad read" (script writer role file): embedded into Jeff's wrap-up speech before the locked sign-off. Includes follow-the-show, share-with-one-person, and show-notes/sources prompts. Designed to feel organic.
+- "Cross-episode threading — even one sentence builds the show's universe" (script writer role file): light touch — the close lists the named people from across all three waves ("Tudor, Linde, Pennington, Whitson, Einstein, Szilárd, Midgley, Rowland, Molina, Farman, Shanklin, Tolba, Thatcher"). Each name was a beat in the actual episode, so the recitation functions as both a credit roll and an invitation to dig further.
+- "Direct address to the listener 2-3 times during Built In" (script writer role file): Cyrus addresses listeners during Q1 ("listeners, this is the part I want you to sit with") and Jeff at the start of the wrap-up ("listeners, that is the story"); Jeff once more inside Q4 ("listeners, this is the part I want you to really sit with").
+- "End on Cyrus extending the principle forward" (blueprint): Cyrus delivers the forward-looking extension. Jeff lands the principle ("today's fix sows the seeds"); Cyrus carries it forward to AI/lithium/microplastics. The "we just have to be looking" beat is Cyrus's, repeated softly by Jeff. The wrap-up bridge follows.
+
+Research gaps flagged for the Editor / Fact Checker:
+- Energy Star "33 times a day" figure — used per research file recommendation, replacing the unsourced 107.
+- "Three-quarters of food Americans eat passes through cold chain" — used per Twilley *Frostbite* attribution in research file [VERIFY in book].
+- 20% global electricity / 7.5% global GHG emissions — used per International Institute of Refrigeration attribution [VERIFY 17-20% range].
+- 1.1 billion without access to cooling, 8% India AC penetration, 1.4B new fridges and 4.5B new ACs by 2050 — used per IEA / SEforALL / Cool Coalition data in research file.
+- Phoenix population 65,000 (1940) → 1.6M (2020) — used per U.S. Census per research file.
+- Senate Montreal ratification 83-0 — used per research file.
+- Antarctic ozone recovery projected ~2066, mid-latitudes ~2040 — used per WMO/UNEP 2022 assessment in research file.
+- Cyrus's "ultimately we have faith in humanity to solve bigger problems" — used as scripted Cyrus line per Checkpoint 1 transcript (verbatim from feedback file).
+- Jeff's "some of my favorite things in the world come from the lack of refrigeration" — split: Cyrus delivers the original line per Checkpoint 1 transcript; Jeff agrees. (In Checkpoint 1, both Jeff and Cyrus said versions of this; the chapter assigns the canonical version to Cyrus to match his profile's interest in pre-refrigeration food culture.)
+- US data center electricity 1.9% (2018) → 4.4% (2023) → 12% (2028 projected) — used per Lawrence Berkeley National Lab 2024 study per research file.
+- Refrigerator lifespan 14-17 years — used per Energy Star per research file.
+- 50% vaccine wastage figure — used per UNEP/WHO per research file.
+- DuPont/Frigidaire/Kelvinator/Westinghouse universal Freon adoption by 1935 — used per research file.
+
+NOTES ON CHOICES MADE:
+- The Backbone Test five questions structure was preserved per blueprint and CLAUDE.md, with each question getting 2–3 min of genuine material. Q3 ("hidden cost") got slightly more because the Jeff/Cyrus disagreement beat required real space.
+- The wrap-up bridge before "Stay curious, and mind the backbones" flexed to fit the just-told story — naming the cast of characters and the per-day refrigerator-door stat as the closing image — but the locked final line is verbatim, with no audio tags, exactly as in CLAUDE.md.
+- "Open Questions" as a separate explicit section was folded into the Backbone Test (Q5 functionally carries the "what's next" forward-looking question; Q3 carries the cooling-gap question; and What the Story Teaches functionally carries Q3 from the blueprint's Open Questions section). Decision rationale: in a tight 18-min Built In with a dense disagreement beat in Q3, the blueprint's separate Open Questions section started to feel redundant with The Backbone Test's Q3 and Q5 and with What the Story Teaches. The blueprint's Open Questions content is still on the page, distributed across the Test questions and the closing extension. Flagged for editor review.

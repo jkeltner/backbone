@@ -1,0 +1,688 @@
+Jeff | Cyrus - May 21
+VIEW RECORDING - 71 mins (No highlights): https://fathom.video/share/zbZ_MGknNWqgamZQByekyG53m_ByKfDA
+
+---
+
+13:54 - Cyrus Mistry
+  Fathom, Fathom, Fathom, Fathom, Fathom. So were just talking about Fathom.
+
+19:03 - Jeff Keltner
+  Sorry. Well, no, it's okay.
+
+19:06 - Cyrus Mistry
+  What's up?
+
+19:08 - Jeff Keltner
+  My wife got back from Paris and we extended our dog walk for breakfast.
+
+19:12 - Cyrus Mistry
+  Oh, it's totally fine.
+
+19:14 - Jeff Keltner
+  How are doing? Nice life of retired people.
+
+19:17 - Cyrus Mistry
+  Very nice. It was funny.
+
+19:19 - Jeff Keltner
+  We're on our way home. I'm to book it back. And we run into a neighbor walking his dog.
+
+19:23 - Cyrus Mistry
+  And he's like, hey, how you guys doing? He's like, is that what we call retired people today?
+
+19:28 - Jeff Keltner
+  And I was like, yeah, more or less. I don't have to say I'm retired. I say I'm a podcast host, but really I don't make any money from it.  So I really just retired, but host a podcast. How you doing? Good. Life's good. Yeah. When do your kids finish school?  You got to be closing in on it, right?
+
+19:50 - Cyrus Mistry
+  They claim they have six more academic days left.
+
+19:58 - Jeff Keltner
+  They claim? What does that mean? I don't know.
+
+20:00 - Cyrus Mistry
+  It seems low, but I think that's about right. They're done June 4th or whatever that is, and Memorial Day is there.  So, yeah. Mine are basically done.
+
+20:12 - Jeff Keltner
+  Oh, they must be so happy. Yeah, I mean, my eighth graders, well, my eighth graders, I told you about what he's doing, right?  Because they've got, he's on an outdoor education trip this week. Because everybody does a week, but the people who are graduating different segments do it at the end of the year.  It's kind of an end of year celebration where everybody else does it in like September. So he's rafting the Colorado River this week with, or canoeing with his friends.  And then he comes back and next week they have no school, but they have to do a project. And then Monday, the first, there's like a night and they all demonstrate what they did for the week.  And so these things range from, I cooked with some friends, which some of his friends are doing, to my son is building a go-kart.
+
+20:52 - Cyrus Mistry
+  I thought your older son was the one doing the...
+
+20:55 - Jeff Keltner
+  He's the advisor for the building of the go-kart.
+
+20:58 - Cyrus Mistry
+  Oh, got it. Okay. Okay. Oh, but yeah. So, Oh, no, I didn't, I didn't, I wanted to grab the corner and resize this window.  did not want to. That's so fun building a go-kart. That is so fun.
+
+21:11 - Jeff Keltner
+  Yeah. It's pretty wild here. I'll show you that. Is like a closed circuit he can go take it on that has like tires all around and stuff?  Uh, we'll just put them on a, uh, we'll put them in a parking lot and have them do, you know, do that thing.  Yeah, that works.
+
+21:25 - Cyrus Mistry
+  You'll appreciate it. true. If it's big and empty enough, then it's safe. That might even be safer than that.
+  SCREEN SHARING: Jeff started screen sharing - WATCH: https://fathom.video/share/zbZ_MGknNWqgamZQByekyG53m_ByKfDA?timestamp=1293.083473
+
+21:30 - Jeff Keltner
+  I can't wait to see what the claw makes this does. Those are my two children, my older one supervising and my younger one is the solar car, but there he is.  That's my little one. My 14 year old.
+
+21:45 - Cyrus Mistry
+  Oh my God. I've never used that in my life. Something like that.
+
+21:50 - Jeff Keltner
+  Well, when you come to LA, we can have you. that's my shop. That's my welding machine.
+
+21:55 - Cyrus Mistry
+  What the heck?
+
+21:58 - Jeff Keltner
+  That's what that big yellow thing is. It's my welding machine.
+
+22:01 - Cyrus Mistry
+  This is so good. They're going to get a love for working with their hands, which is also so awesome.
+
+22:07 - Jeff Keltner
+  There you go. Yeah, that's the top of the solar car. They're taking on the panel. You'll like this. I woke up my wife.  We were up late for prom, and the next morning after prom, my son gets home at like, you know, 1.  And my wife's got a 6 a.m. departure for the airport. And so I'm like, passed out. And then I get her to the airport, and then I went back to sleep.  Because we didn't have anything else to do until 9, and we had to show up for the solar car meeting.  And in the interim, I went back to sleep in my living room, and then this is what my beagle woke me up, looking at me like, where the  is my breakfast, ?  So this is, I woke up to this, looking staring at me like, Daddy, I ain't been fed. And then I had to get up.  I mean, at 6, I go back to sleep. And at 9, I've got to be in the shop doing welding with these kids and whatever.  Like 10 high schoolers and two middle schoolers. It's life. Yeah, my little monkey.
+
+23:09 - Cyrus Mistry
+  Have you met him? Did I show you this dog?
+
+23:11 - Jeff Keltner
+  No. Come here. Chrissy, come here.
+
+23:13 - Cyrus Mistry
+  He wakes me up sprinting around me on purpose because he wants his breakfast too. See? Say hi. Oh, he's cute.
+
+23:26 - Jeff Keltner
+  A little scruffy.
+
+23:27 - Cyrus Mistry
+  What kind of dog is that? I have to brush him. Sometimes I do this to his hair and he doesn't like it.
+
+23:35 - Jeff Keltner
+  Wow.
+
+23:35 - Cyrus Mistry
+  He's a West Highland White Terrier, which all means basically a Westie. Westie is the short name for that enormously long, ridiculous name.
+
+23:46 - Jeff Keltner
+  Westie. But a Westie is a very cute dog.
+
+23:49 - Cyrus Mistry
+  The Caesar dog food, that's a Westie that they use for that.
+
+23:54 - Jeff Keltner
+  yeah, yeah. Okay. I'm good. He's a very cute dog.
+
+24:00 - Cyrus Mistry
+  Dogs are nice. They give you company all day because we're home alone.
+
+24:05 - Jeff Keltner
+  So I argued with my wife for years about getting a dog. She was kind of like, eh, it's always worked for us and the kids won't really do it.  And it's all true, right?
+
+24:13 - Cyrus Mistry
+  Yeah. We have the dogs now.
+
+24:15 - Jeff Keltner
+  She's like, the dogs are really for us, not for the kids.
+
+24:17 - Cyrus Mistry
+  Oh, 100%. This dog is 100% for me.
+
+24:20 - Jeff Keltner
+  I mean, I think it's actually great for the kids. They get three teenagers and they're angsty and they're frustrated and they don't want to talk to their parents.  I'll like, the dog is like a calming influence. I'll like, complain to the dog about you, which is great.
+
+24:29 - Cyrus Mistry
+  Well, and it's apparently good for allergies. They say people with dogs have significantly lower allergy issues in life, apparently.  Because dogs are just, you know, crawling with crap. Well, as it happens.
+
+24:46 - Jeff Keltner
+  All right. Should we talk about this blueprint file that it spit out? Did you read this thing? Okay.
+
+24:50 - Cyrus Mistry
+  It ain't short.
+
+24:52 - Jeff Keltner
+  It was not short.
+
+24:53 - Cyrus Mistry
+  It was quite a read.
+
+24:54 - Jeff Keltner
+  Do you like how it leaves itself notes on things to research or things it's not sure about? Yeah. Yeah, yeah.
+
+25:00 - Cyrus Mistry
+  It said, you and Jeff need to discuss the Cleveland Clinic thing. I didn't think the Cleveland Clinic thing was that big a deal.  I read it, and I'm like, no, I think it's Let's just start at the top.
+
+25:10 - Jeff Keltner
+  We'll work our way down. I've got a couple notes, but I'm going to pull up the Blueprint file.
+
+25:14 - Cyrus Mistry
+  I've got it open in front of me here. I've got my notes on it open.
+
+25:17 - Jeff Keltner
+  I need to open the actual Blueprint file so I can, I just jot it down. I love the hook, by the way.  I still think that opening is awesome and right on point to get people interested. Let's see. I was really skeptical about the 107 number.  So, Claude, double, triple check that. Like, people open the refrigerator 107 times a day. Same thing.
+
+25:36 - Cyrus Mistry
+  I look at it and I go, that cannot be right. I just, it cannot be right.
+
+25:41 - Jeff Keltner
+  And I don't think Claude had the best sourcing for it. was like, saw a great number of true, but like, triple check that one because I'm skeptical.
+
+25:50 - Cyrus Mistry
+  Yeah, I agree. All right, I'm just going to go through.
+
+25:53 - Jeff Keltner
+  The other thing, so here's one of the things.
+
+25:55 - Cyrus Mistry
+  Like, I'm doing the math and that means 10 times an hour or 10. 10 hours straight like that's just 10 times an hour for 10 straight hours like that can't be right people are working from home.
+
+26:09 - Jeff Keltner
+  How's that possible? Right?
+
+26:11 - Cyrus Mistry
+  Exactly.
+
+26:11 - Jeff Keltner
+  I don't know what I got a when I make a dinner. number of times that is it can't be 100% that gotta be that can't be.
+
+26:16 - Cyrus Mistry
+  Yeah, so I think that's a mistake. But anyway, um, unless we can find a source. Did you find a source?  Well, told Claude Scott, it's still got its second phase of research is next. So it's gonna Oh, nice. Okay, okay.  Yeah, as long as say, show me your source. Yeah, as long as you say, show me your source, like we just want to see the actual source, then it's fine.
+
+26:34 - Jeff Keltner
+  Yeah, yeah. Yeah. Um, there's a whole the second round of research and there's a fact checking phase. So it will it will find this eventually, for sure.  Um, here's one thing I thought always thought should be in the world before there's kind of an amusing thing is just like bacon.  Like we have the lack of refrigeration to thank for one of my favorite foods. Like if we had had refrigeration in the early days, we probably never would have had bacon because that was just cured so that it would last unrefrigerated, right?  That's why you... There are benefits.
+
+27:02 - Cyrus Mistry
+  And so it's kind of amusing to me that some of my favorite things in the world come from the lack of refrigeration.
+
+27:06 - Jeff Keltner
+  And thank God we had a period of time without it, so we learned how to make pepperoni and stuff.  You know what I mean? I agree.
+
+27:12 - Cyrus Mistry
+  I always felt like that was something that would be fun to put in this episode, like a little bit of that.  Oh, the Energy Star says Americans open their refrigerator on average 33 times a day, which is a lot still, but that comes from...  That, I believe.
+
+27:29 - Jeff Keltner
+  Energy Star.
+
+27:30 - Cyrus Mistry
+  33 is still a lot, but it's much more reasonable. Okay.
+
+27:34 - Jeff Keltner
+  That's good. But anyway, but we can let it do its work and we can... Well, I'd say it's going to take this as feedback on things to think about.  So it'll, you know, I'll think about that. Oh, yeah.
+
+27:43 - Cyrus Mistry
+  It's listening to us, right? So I'm going to give it this transcript.
+
+27:47 - Jeff Keltner
+  The way the pipeline works now is there's like three checkpoints or two or three. And at each checkpoint, we do a call and give it the transcript and it's waiting for our transcript.  And it takes that as input along with its own notes to it. And then uses that to take the next phase.
+
+28:02 - Cyrus Mistry
+  Love it. Okay. So that's the, that's where we're at now.
+
+28:06 - Jeff Keltner
+  Okay. And we get like, I think it's this one and then it's going to do like research and write the script and then we get to like review the script and give it feedback and then it'll go.
+
+28:13 - Cyrus Mistry
+  Okay. All right.
+
+28:14 - Jeff Keltner
+  I got to say, I love Frederick Tudor, like this whole Ice King guy, like cutting up ice and shipping it to Martinique and .  Like that story is just too  good to be like, to not be included. It's one of my favorite parts, this whole thing.  know, a hundred percent, a hundred percent agree. And can I just say in the wave one, they had this, they had never seen ice in Calcutta.  Like he shipped it to India and.
+
+28:34 - Cyrus Mistry
+  I saw the whole Calcutta thing. Yeah. So, okay. Meta question for us to talk about for two seconds. Length of this thing.  This is a lot. Um, there are a ton of interesting aspects to this. Is this, this is going to be what?  90 minutes. said, is that like, we need to worry about 20.
+
+28:54 - Jeff Keltner
+  Yeah.
+
+28:55 - Cyrus Mistry
+  Do we need to be, are we fine with that? Like this first one. I'm being around a hundred minutes.
+
+29:01 - Jeff Keltner
+  Yeah, I think, I mean, the reason we came to that was the sense of like, you kind of got to earn the right to do an acquired, that people won't get into it, but you can't do the kind of thing we want to do at like 60.  So 90 to 120 felt like, not.
+
+29:14 - Cyrus Mistry
+  What I mean, I guess to put it a different way, I don't want it to have worked to stretch it to, like, all I'm saying is when we're going through this, if a story is not interesting enough, we should be okay cutting it, even if it lowers the, if it goes from a hundred minutes.
+
+29:29 - Jeff Keltner
+  Yeah, I agree, we can, we'll, review that. Cause I think when we get the script, we'll get length and we'll able to look at like, Hey, it's just stretched, it's compressed.
+
+29:37 - Cyrus Mistry
+  Acquired is so good because like, I'm even listening to the Vanguard episode, but it's like, you'd think something so dry about index funds, but it's so interesting the way they do it that, you know, as long as we are keeping it that high.  You think index funds are boring, but then when you hear that Warren Buffett described Jack Bogle as a hero to the American public for whom a statue should be erected, like.  A hundred percent. A hundred percent. hundred percent.
+
+30:00 - Jeff Keltner
+  Boring. 100%. He took away, in fees alone, took away $500 billion in fees. take away. He gave that to the investing public.  Yeah, exactly, exactly.
+
+30:10 - Cyrus Mistry
+  Yeah, I just finished the episode yesterday.
+
+30:12 - Jeff Keltner
+  That's a great episode. good. I love that guy. I mean, that's where I started all my investing, started with Vanguard.
+
+30:19 - Cyrus Mistry
+  It's why I retired, literally. So yeah, anyway. I'm not there anymore.
+
+30:25 - Jeff Keltner
+  Let's see. I've got some other notes. What else did you, what else came up to you?
+
+30:33 - Cyrus Mistry
+  Walk me through what's happening.
+
+30:35 - Jeff Keltner
+  This is a, think of this as a outline for what it's going to use to build a script, is what I'm looking so the way the process works is there's a research level, then there's a narrative arc draft.  That's what this is. It says, okay, based on the research, what's the arc? Then there's more research and write a script, right?  And then there's fact check the script. And so it's going to go. So you'll see there's a research folder and there's like a whole bunch of research in there.  If you go into that file, that's like even bigger because it's just all the research. And then this blueprint file is the like, okay, you know, you imagine you're the acquired guys.  going, how do we, what's the story arc? Like what's the, what's the, you know, what, how do we, what's the story we're telling based on all this research we've done?  So now I read the 15,000 books that they read. And then we said, what's the, what's the outline of the episode?  Right. And then from there we provide feedback on the outline. That's what we're doing here. And then it's going to go and go deeper research on the parts that it chose to include or not include.  And then it's going to like write the script. And then we'll get a chance to look at the script it wrote.  And you can reference the research. We could probably ask the questions like, what did you cut? Why'd you cut it?  And what would be the best things to add? Or what were the first things you'd cut?
+
+31:47 - Cyrus Mistry
+  That kind of thing. Got it. Okay. Okay.
+
+31:50 - Jeff Keltner
+  So that's all we're doing here is kind of reacting to the blueprint. What works, what doesn't. And I think a little bit too, like getting our voices for color and like, cause it's going to take all these transcripts.  Okay. And refine the Jeff Cyrus style and the kind of, also any personal anecdotes you want to throw in or whatever, like those will, it can pull those from here.  So any kind of stories you think are great or whatever, it can, it can pull in from here.
+
+32:13 - Cyrus Mistry
+  I mean, there are so many fascinating arcs in here, by the way, the other one that we never talked or I didn't see in the original script, but maybe it was there is, you know, the amount of good it's done for the world and the amount of lives it's saved milk and all of the things, you know, babies and all the stuff that we've talked about.  But then the cost to humanity is so astronomical. But the CFC isn't a...
+
+32:39 - Jeff Keltner
+  Yeah, the CFC, right?
+
+32:40 - Cyrus Mistry
+  If it can't be, if it, and by the way, the way they did it was so good, right? Where they're, they literally talked about people doing an Antarctica work or whatever, and then they'll look up and they're like, this, this can't be right.  This can't be a hole that big.
+
+32:54 - Jeff Keltner
+  And it was a hole the size of the United States, right? Above our atmosphere. Yeah, but I love that story.  So, We can put this in here. This is, I think in wave three, but the amazing thing is that in the time where we've created the hole in the ozone, we also like collectively figured it out, found a solution and implemented it at global scale and are basically solving this problem.  mean, it's not, the hole isn't closed, but we're on, we feel like we're on the path to this thing being a non-issue, right?  So you remember when we were kids, was like, like people were freaking out about it. It was existential.
+
+33:23 - Cyrus Mistry
+  People were freaked out a hundred percent, a hundred percent.
+
+33:25 - Jeff Keltner
+  And now climate change is, I feel less optimistic about that. We're finding the, the impetus to collective action, the way we did for the ozone hole today in the current world.  But it was interesting because it is an example of like, oh yeah, we created a problem that we realized it.  then we found a solution. We came together and we did it. And we like, you know, but then it's a very optimistic story.
+
+33:45 - Cyrus Mistry
+  The way you're just saying it actually is ultimately we have faith in humanity to not only solve smaller problems, smaller problems like refrigeration, but then bigger problems.
+
+33:55 - Jeff Keltner
+  It's like existential crisis to humanity. Right. And I think I love that story.
+
+34:00 - Cyrus Mistry
+  That humanity, like humans, especially now with AI, are going to be very, very good at solving much bigger problems, colonizing Mars, whatever.
+
+34:09 - Jeff Keltner
+  The other thing that occurs to me, the two things that are really parallel to the AI moment is the disruption that refrigeration, particularly mechanical refrigeration, created to all of a sudden local farmers had problems.  All sorts of industries that were disrupted and there was guys whose job was to just carry the ice around and put it in your icebox.  And those jobs were just gone, right? All of a sudden you didn't have to have a farm next to New York City to feed all the people in New York.  You could like put the food into a refrigerator truck and ship it. And so now all the farming is done in places where farming is easier to do and less expensive land.  But like all those farmers in different places, in cattlemen and whatever, like they really struggled. And so that feels very like the current moment.  And like the current moment, I think it probably was hard for those people. It was both more disruptive to individuals than to society.  The next generation will train to do a new thing, not the thing that you did. Capitalism will solve itself out, and people will find the work that works.  But it doesn't mean it's not disruptive to those people. But it is to me also this great story of American capitalism, of finding an opportunity, building a thing, growing, and depending on the kind of Adam Smith invisible hand to create the thing that we need next.  Not that the invisible hand does it, but that the forces of market capitalism kind of drive innovation and improvement in human flourishing, ultimately.
+
+35:34 - Cyrus Mistry
+  And by the way, and I think it's covered in here too, the broader arc of what you're talking about, even if you just take farmers, the fact that you can now produce food at scale, transported at scale, meant everyone didn't have to be a local farmer.
+
+35:53 - Jeff Keltner
+  Right. If that makes sense.
+
+35:54 - Cyrus Mistry
+  Like you didn't have to think about your own food you could do, and then you could even store it at huge grocery stores.  Much longer. This also meant, by the way, you can start doing things in mass, right? A farmer would never make 400 tons of a spare unless there was a way to kind of get it there at scale and cheap.  But that also meant that now I can bring my prices way down and I can feed many more people.  So, yes, there are smaller issues that this came with, small job loss. Have ever seen the Disney movie Frozen, by the way?
+
+36:24 - Jeff Keltner
+  Remember the entire – have you ever seen that movie with Elsa and Anna Frozen?
+
+36:28 - Cyrus Mistry
+  Of course, of course. Because you don't – you have daughters, right? You don't have a daughter? No, I daughters.
+
+36:32 - Jeff Keltner
+  No daughter. You watch Frozen.
+
+36:33 - Cyrus Mistry
+  You have to watch Frozen like 70 times. But they – the opening scene is literally men cutting ice and then hauling it, right?  So, yeah, that entire industry, all of those workers wouldn't – so, anyway. But, yeah, that's a very good arc, by the way.  This is why it's so interesting. This story, you could take in so many ways, right, about the good it's done in the world or what impact it had on labor, what impact it had on the environment.  Like, there's A lot of people don't think about it, and I think the us putting it all together is actually super interesting for people, how massive this was, right?
+
+37:08 - Jeff Keltner
+  Yeah, and how, as you build these things, you don't always know where they go, like the whole impact on vaccines and health is fascinating, because nobody necessarily would have thought that this was a thing.  The other, the two threads I really like that come up with this, I think will come up in most episodes, to be honest, is one, the kind of overnight success decades in the making, like the number of failed attempts at mechanical refrigeration they talk about.  And it's like, oh, when it happened probably like, oh, my God, this brilliant inventor, and it's like, no, like, people have been trying to do this for the last 30 years, trying to figure out a way to make it work, and, you know, I think that that's good.  And then also the, this one's really interesting in that the, every success kind of lays the seeds, the challenges lay the seeds for the next thing that comes along, right?  Like, that sowing of the seeds of what's going to cause the future, like, oh, this thing caused these problems, and the solution to those problems will be the next, way.  The thing we'll do, I think is a great narrative arc for the kinds of technologies we want to talk about in this in the show.  So I think that's going to work really well.
+
+38:06 - Cyrus Mistry
+  Yeah, I love that. Constantly standing on the shoulders of giants and then building the next thing and to keep going.
+
+38:12 - Jeff Keltner
+  it is the thing that terrified me. It's funny. I think about this. Now we're getting off topic. But in the AI, people go, well, no, nobody knows how code because the AI.  like, you know, back in the day, you had to know the commands that your processor was capable of doing and write an assembly.  And nobody's done that for decades. Do we feel like lost skills because we don't write an assembly anymore? Will you have a compiler?
+
+38:32 - Cyrus Mistry
+  Like, no, don't feel like we've lost skills.
+
+38:35 - Jeff Keltner
+  100%. What was there?
+
+38:37 - Cyrus Mistry
+  So it's actually, by the way, this is a super interesting question. Am I happy that I had ever written in assembly and that I understand assembly is actually a very interesting question.  Some people would say, yes, it's important to know how things work at that level. Other people would say, no, it was an opportunity cost.  I could have been focused on AI and optimization of my...
+
+39:01 - Jeff Keltner
+  I mean, here's my answer to you. It's going to be both are good answers. The world needs both, right?  everybody needs to understand. Somebody needs to understand how assembly works.
+
+39:11 - Cyrus Mistry
+  Someone does because the people doing the chips, et cetera, and the instructions.
+
+39:14 - Jeff Keltner
+  Somebody's out there at NVIDIA writing the CUDA libraries and optimizing at the assembly level, and we need those people.  We need people that aren't doing it, but I learned assembly and I learned the physics of semiconductors. I had a quarter at Stanford, since we don't do semesters, and I was taking physics of semiconductors, assembly language programming, and compilers.  So I was literally writing something that would take Java and make it assembly, learning how to write assembly based on a chip, and learning how to make a chip to execute commands in one semester.  So I was going from electrons to Java code, roughly, and all the bits in between. And to me, that was a thing I wanted to understand the parts of.  So not that I have to be expert at it, but that this knowledge is actually quite useful. we had a class called CSF, which was Computer System Fundamentals, where we did AND and OR gates.  Thank you. probably remembered the and and or games.
+
+40:01 - Cyrus Mistry
+  How it actually works in binary is just literally tons and of times.
+
+40:06 - Jeff Keltner
+  Because my degree wasn't all CS, I had to lay out like a VLSI class where I laid out a chip to do a JPEG decoder.  Like laid out the and or gates in the whole thing. Like we, that was hours in the basement, like zooming in and out of a CAD program that was doing only, I think we only had two layers of metal.  So very simplistic kind of, you know, circuit design, but like we did it all. I I'm glad I did it.  I'm glad I don't have to do it anymore. But it just, it reminds me that when people go, oh my God, nobody's going to know how to code anymore.  Nobody will find the errors. I'm like, I mean, like who finds the errors in the compiler when you write C?  Like who, who knows if your Java interpreter is working right? Like nobody, people just assume that that stuff works.  The electricity gets to the  data center into the G, like the person writing software never knew any of that stuff.  And this is just the next version of that in my mind where you're going, oh yeah. Yeah.
+
+40:55 - Cyrus Mistry
+  Um, the, the call I just had by those, my friend who's a level seven, a deep mind, right? In London, works with Demis and all that.  And yeah, this is literally what we were talking about. We literally were talking about, so this is a side thing, but it's a good thing for your what the AI, real quick.  What's, I had this idea when they were doing the whole IO keynote, I watched it at like 3X, I got the whole thing.  They were talking about how amazing these models are and how amazing they're doing at coding now. And I'm like, well, the Gemini 3 whatever pro, I'm like, why wouldn't you have it itself start to optimize and figure itself out?  I'm like, well, it's not done, but couldn't you use the frontier model right before to do it? And he goes, no, it's one step further.  My friend Nate was like, no, Sergey wants us to do, he's calling it top up. Like he constantly wants the previous model to be building the next one.  He doesn't even want humans. He's like, it should be, if you put the right eval framework and you're like, this is what it means to be done and amazing.  It should be leapfrogging to the next thing. If that's a super interesting recursive, like, this is like that movie Inception, like thinking about...  ... ... The AI itself is helping the AI get better. It's super interesting.
+
+42:04 - Jeff Keltner
+  Did you read Andrej Karpathy published a, it was called auto something, I forget what it was, but the basic idea was that it was a set of commands and I downloaded it and set it off against a Kaggle project.  So I had like one shot coded a Kaggle, you know, I think it was Spaceship Titanic. So it's one of these like binary classification problems on Kaggle.  I was like, you're just trying to like play around. So I just one-shotted it with Claude to see what happened.  I did like, okay. So what this, what this thing that Andrej open source was, is it basically goes, here's my, here's my evaluation framework.  You are an AI researcher, come up with a bunch of theories for what could be better about this model, implement them, run a short test run.  And if the evaluation improves, then commit this and then repeat. And if the evaluation gets worse, then throw it away.
+
+42:48 - Cyrus Mistry
+  Okay. And then he's like, okay, a 10 minute, I think it's a five minute training run.
+
+42:53 - Jeff Keltner
+  So you don't, you don't train too, you don't, it doesn't take too long. And then I just let this thing run overnight.  I'm like, I put it on my mat. I'm like, just, just go and just keep doing this where I can keep the good stuff and get the, and then eventually it starts, it was really fascinating, it would get a bunch of easy wins.  And I moved like 50% of way up the leaderboard from where I started, middle of path to 25th percentile or something.  And then, and then eventually I didn't push mine this far, but Andre said, he, it actually found like optimizations in a model he had written and he's like, you know, open AI co-founder kind of guy.  So it was great. But he said, what happens is it finds the easy stuff. And then it, to get stuff.  It's like, oh, I got to do research. it starts downloading like recent ML papers from the world and trying to interpret what it could apply.  So it has to spend more time in planning mode because there's no easy wins. It's none of the easy wins.  And so it starts doing real research and having a hypothesis for why it'll work.
+
+43:46 - Cyrus Mistry
+  And he's like, you can, and so, and it was just an auto tuning. They would just literally just make it better.
+
+43:52 - Jeff Keltner
+  And then he opensource it. So you could just download it. So I, I literally, this is what I did because I didn't want to download his code.  So I just went into Claude and In the directory where I had written this one-shot version for this Kaggle competition, I said, here's this cool auto-improvement feature that Andres wrote in open source, here's the GitHub URL, can you implement this concept here on my codebase in this thing?  Because you already know the evaluation, I we've already built a thing. So it's like, yeah, yeah. So then it just recoded his stuff off the GitHub URL, just pulled his code down, figured out, implemented it locally, and then I was like, now run for the next day and see how much better you get.  And it just climbed up the leaderboard. And, you know, I don't need to be a Kaggle winner, but I just was trying to figure out if I was just, for me, was like a existence proof.
+
+44:34 - Cyrus Mistry
+  Like, can I do this? Can I make it happen? Literally what you did almost to a T in 1996, I was doing natural language processing, teaching a computer how to understand a Wall Street Journal article.  And I didn't know any of this concept. I'm like, well, I have training data and I have to now feed in a new one and see how it does.  And I couldn't figure out how to do it because I'm like, there's a gazillion different ways that can do compound.  It had to tag the compound what an and is so like Jeff and Siren. So I started to write some rules.  I'm like, well, try it if it's one word before and after. Try if it's got a comma. So I started to put all of these different ways of doing it.  And I'm like, but how do I weight these? I don't know which is the best way to weight it.  And I'm like, what if I get the computer to weight them and it tests differently? Different weights. The problem is I had so many rules, but I'm like, you know why this will work?  Well, if a certain rule is actually wrong, asymptotically, that rule is going to get to zero. Like it will weight it to zero and it will just keep getting better.  The problem is it was so technically complex that I had to let it go overnight. And I'd be like, try different weights.  If it's not better than your last amazing set of weights, throw this  out and then do it again. And I wanted to circle through all the 40 rules with different weights.  It was like trillions of parameters. wouldn't have worked. So instead, I literally cheated. And I'm like, just come up with completely random numbers, run it, because at the time, the supercomputers weren't fast enough.  So it would take like 20 minutes or whatever for that run. And then I'd wake up in the morning, I'd be like, it'd be a whole new set of weights, right?  And it'd be like, this is now your best set of weights. But anyway, it's like, I was doing this.  This is literally 30 years ago, 1996, exactly 30 years ago that I did. And I turned it in. And I didn't know it was machine.  I turned it into Dr. Brill, ran natural language at Johns Hopkins. And he went on to run the natural language at Microsoft.  He looked at me, he goes, it's very interesting. So you use machine learning for this? And I go, what?  And he goes, that's what you did. I never forget that.
+
+46:45 - Jeff Keltner
+  Anyway, so you didn't know how to implement proper stochastic gradient descent.
+
+46:49 - Cyrus Mistry
+  Otherwise, you know, and I I did not do it correctly. And I didn't even do it where I could have iterated through all of the things I didn't know any.  But again, I was literally putting in random weights. But the eval framework is the key. You have It has to know whether it's better.  I think all of AI is gonna fundamentally devolve to, how does it know whether it's doing the right thing?  How does it know whether it's better? That's for coding, that's for everything, for language, for images, right? Most of the experts think the reason it's so good at coding is because you can codify that.  You can write a unit test, you can write an evaluation framework, and then it's like, oh. And it can figure itself out.  It can be like, oh, it didn't work, it didn't work, I'll just keep doing it. But computers are very good at just repeating .
+
+47:28 - Jeff Keltner
+  And then a script like this, it's like harder, right? It takes, which is why we're doing these reviews. Yeah, anyway, sorry, sorry, sorry.  It has a bunch of questions for us at the bottom, by the way. Yeah, yeah, we can do them.  I looked at all of those too. W1 length versus W2, I did not see a problem with, you know.  No, I say, let's look at the script once it comes, like you said, I think that'll be a really good way to see are certain things longer, are certain things feeling like they're dragging.  But I feel like the key, this would be my feedback to Guad, is like, the key is that the story works.  The evenness of different waves is irrelevant. Does the story carry?
+
+48:06 - Cyrus Mistry
+  Does it feel like it flows? They talk about how it works. I think the how it works is really cool.  This is a great one where you're like, how do you make cold? You don't make cold.
+
+48:13 - Jeff Keltner
+  You move heat. you can't eliminate heat because of the entropy, right? Like the first law of thermodynamics, can't destroy heat, but you can move it from A to B.  I mean, that's why there's hot coils in the back of your refrigerator. You're moving heat from inside to outside.  That's fascinating. I just think that the key is the narrative interest in the flow. And you can, I think, breaks and flow, like this bird's eye decision thing where they said they cut this, this is number two in their questions.  It doesn't structurally fit. Like the acquired guys do assigns a lot where they're like in the middle of something, get distracted.  Oh, yeah, let's talk about that story. Then we'll go back to where we're at. So I think having it be interesting to listen to versus fit into a particular framework or structure or parallelism of times is much more important.  And so I would definitely. I was intrigued by the road not taken choice in wave three. First of all, have to have Einstein because the Einstein tried to make a refrigerator, you can't cut that, that has to be in there.  I was not clear if the road not taken was a segment we had clearly labeled we wanted to do all the time.  I don't remember that. But it seems to have a number of these, the road not taken choices and I was a little confused by that.  I'm reading it now.
+
+49:36 - Cyrus Mistry
+  I'm rereading that section. I don't know, for all of these, I'm at leave it in. Same for the next one, the Cleveland Clinic.  I think it was not that R-rated at all.
+
+49:53 - Jeff Keltner
+  No, I think you don't buzz over it. You don't make it too morbid of a like, my God, such a terrible.
+
+50:00 - Cyrus Mistry
+  I don't even think it was that long. A few places it's making it sound like it was this really long thing.  I went and looked at it and I'm like, this was not that long at all.
+
+50:10 - Jeff Keltner
+  We're not scripted yet, right? This is just an outline. Oh, got it.
+
+50:13 - Cyrus Mistry
+  Got it. Maybe from this transcript, you and me talking, it wants to understand how much it would go into it.
+
+50:20 - Jeff Keltner
+  think it's an important event, right? And it should be treated. I'm not worried about being not PG-13, like people dying.  It's life.
+
+50:28 - Cyrus Mistry
+  happens. 100%. And it's very unlikely there's going to be kids under 18 listening to this. I'm going have a hot take on number five is survivorship bias.
+
+50:35 - Jeff Keltner
+  It has me wanting to talk about, hey, for every tutor that wins, there's a bunch of guys who probably tried something and failed.  And this is true. But I also feel like these podcasts work better when you focus on the hero as the guy who did the thing.  And you don't need to kind of keep making the point that there were a bunch of failed entrepreneurs behind.  It's a true thing. And if I were in an entrepreneur class, I would teach that, or a business class, I would teach that.  But here it's like, let's talk about the guy who did the thing.
+
+51:02 - Cyrus Mistry
+  So generally speaking, the podcast will do well if it ends optimistically or has an optimistic arc through the whole thing.
+
+51:09 - Jeff Keltner
+  so, yes, I think that's heroes and you can have villains, but they kind of like, you know, that we didn't see are kind of not a, not a narratively interesting topic.  A hundred percent, a hundred percent.
+
+51:20 - Cyrus Mistry
+  But by the way, it doesn't mean you can't give a nod to it and say, by the way, of course, there were many merchants that da, da, da, You can say it, but you don't need to dwell on it.
+
+51:27 - Jeff Keltner
+  That doesn't need to be the main point.
+
+51:29 - Cyrus Mistry
+  Yes.
+
+51:29 - Jeff Keltner
+  And we don't need to like spend a bunch of time discussing it or debating it. can just, um, global versus American, again, I'm just going to go with, go where the story is.  If the story is that this wall was invented in America and the EU, that's fine. It will not be true for every episode, but I don't feel there's any equity need to be like, oh, we got to talk about what was going on.  No, a hundred percent.
+
+51:45 - Cyrus Mistry
+  A hundred percent. I do think one question on this though, you know, it is probably worth, cause I don't think, I don't remember seeing it.  Maybe it was there. Um, how quickly global expansion. I and how in certain areas it still took an incredibly long time.  Like there are, there were, there were enormous portions of the planet that either couldn't afford it or didn't have the manufacturing capacity.
+
+52:13 - Jeff Keltner
+  I mean, like AC is still not prevalent across large portions of the world or even refrigerated food in some portions of the world.
+
+52:20 - Cyrus Mistry
+  So I think exactly.
+
+52:21 - Jeff Keltner
+  So I agree with you, this idea that like, even things that are obviously better take a long time to defeat.  I mean, we talked about this show, having a lot of the topics. of diffusion and the resistors to diffusion and adoption.  I think that, Hey, it takes it. Cause people keep going like, these AI models can replace coding. everybody's going to be all the software engineers to be unemployed in five years.
+
+52:40 - Cyrus Mistry
+  I'm like, good luck with that. There's no history of that being the way new technologies work. Even though adoption in the U S was highly compressed given how game changing this was.  I think it's worth saying if you think, if you visually think of the spread right with color through. It was very fast in the U.S., then Europe as well, but then it's still extremely slow going to the rest of the world for a lot of reasons.  anyway, it's just good for people to kind of, we are so fortunate. goes back to that optimistic arc. We're very fortunate.  mean, we're sitting here talking about Claude, right? There's still people that, you know, so anyway. Okay. Get on the internet or get on.
+
+53:19 - Jeff Keltner
+  Yeah. And then the last question is what the story teaches. Fix becomes a problem. And that's a little shorter than I would describe it.  I, what I had written down, you may like this, Cyrus says, today's fix sows the seeds of tomorrow's problems, which I think is, was true here.  it's true. A lot of times it's like, you solve one problem and it's not always easy to tell what, you know, the, it was interesting.  was talking about this with Jamie Cassidy, if you remember Jamie and the context of education. Um, I just, I did a podcast interview with him yesterday, which it's very hard to keep him on topic.  Like he's just everywhere. But, uh, you know, one of the things we were talking about is like, we put, I just posted, actually, I just wrote my blog post about this published today.  Um, but it was, uh, you know, we put devices in classrooms and, you know, I think. In large part, without a real sense of how the pedagogy would like what it was supposed to enable other than like, all the businesses are moving to digital, we're gonna put digital in class.  wasn't like a real, here's how learning is improved through digital. There are theories behind it, but they weren't really the driving force.  You were there, you know, that's if we were just doing it, because it should be done. But the problems we have with devices and classrooms today were kind of unseeable, like social media didn't exist.  There was no YouTube feed. So all the things were going, Oh my god, that's such a distraction device. Like, they just weren't at the time, like googling interesting topics about like information, like the all you could, there was nothing else to do.  And so it's, while it's true that like the thing you do today may lay the seeds for the challenges you face tomorrow, it's also true that it may not be easy to see those challenges.  It's not like you're knowingly trading one problem for another, you're doing the thing, and then the next problem will come and you don't, for maybe, there was no way to foresee, there was no way to foresee the ozone issue, right?  When refrigeration came out, we thought we fixed the, we fixed the ozone, and we didn't realize we're gonna hit global, like greenhouse gases.  we were like, Oh, problem solution, solution, new problem. But it's, it's, It's like you were weighing off the problem A versus problem B.  were solving a problem and then that solution ends up when carried to its logical extreme, like probably too, by the way, the CFCs wouldn't have been a big problem if we hadn't done so much.  Like at the scale it was at when we made the switch, it probably wasn't a huge issue. And then we've increased the scale so much it's become an issue, but that was not a necessarily easily foreseeable thing.  These are complex systems and the interaction effects are really hard to forecast. This is that old expression, right?
+
+55:28 - Cyrus Mistry
+  No good deed goes unpunished, right? Like this is a good example of people are trying to do the right thing, but there will be ramifications that are seen and unforeseen, right?  This my favorite songs from Wicked.
+
+55:42 - Jeff Keltner
+  Sorry? This is one of my favorite songs from Wicked. Yeah.
+
+55:45 - Cyrus Mistry
+  I love that song. No good deed goes... But by the way, there are both though. What we should acknowledge is the people that were doing refrigeration knew that there were some negative consequences.  The people delivering ice are going to go away. away. But there were some also that are unseen. And there are both.  And by the way, this is true for probably everything. AI is another amazing example. We can even come up with some of these AI examples to bring it more fresh.  But there are things we know this is going to impact in a negative way. Of course, there's a lot of positive.  But there's also a negative that we don't know. I'm not saying Terminator. But there are negatives. Cybersecurity, the stuff that could happen, people's accounts being empty.  I also think that you got to talk about the unforeseen positives, right?
+
+56:32 - Jeff Keltner
+  Like you can talk about mobile phones, unforeseen negative social media, distraction, polarization, didn't see it coming. But Ubers of the world, right?  The things you can only uniquely do because of the accessibility stuff for 100% that for disabled people, for translation, for there's a lot of enormously saving people's lives, kids lives, people now can find their kids when they couldn't before.
+
+56:54 - Cyrus Mistry
+  Like, there's a lot of other amazing things. By the way, people's lives have literally been saved. The f***. It detects your fall, right?  So anyway, there's a lot of- Yeah, it's like, yeah, I think it's just- I like that.
+
+57:06 - Jeff Keltner
+  I like that Pascal square.
+
+57:08 - Cyrus Mistry
+  And the positive, like just both are going to come down the that isn't literally a perfect Pascal square, right, of like good and bad, seen and unforeseen.  And I think every technology hits all four if you think about it, every big disruption, right?
+
+57:22 - Jeff Keltner
+  Yeah, but I think one of the challenges is we, you know, for the AI debate, this probably has been true historically, there's a lot of, oh my gods, for the, you know, seen or kind of maybe predicted negatives that maybe don't materialize.  I mean, you see a lot of this in AI, right? Like it's going to destroy X, Y, Z. And it's very hard to, the unforeseen positives are very hard to predict.  And when you're weighing, you have to weigh those against the seen negatives, right? They're like, oh, these people are going to lose their jobs.  Like, well, it's the same AI job debate in it, right? It's like, oh, I can see the jobs that will be lost.  I can't see the jobs that will be created. And so what do I do? And like, you know. If you talk to somebody in 2005, when I got out of school, like when I got out of school, the concept of a mobile software engineer didn't even exist because there were no, mobile phones were just T9 texting with your one through zero through nine keyboard.
+
+58:13 - Cyrus Mistry
+  Like there was no, you know what I mean? When we got out of school, you just don't see those things coming.
+
+58:18 - Jeff Keltner
+  And so it's hard sometimes to weigh the unforeseen positives against the C negatives. And the unforeseen negatives are also, those things are in the concept.  It's very hard to get that right. Yes. Agreed.
+
+58:29 - Cyrus Mistry
+  All right, man, we got a, we got a transcript here.
+
+58:31 - Jeff Keltner
+  I think we covered all the highlights. I'm curious. This is So now I just have to, but I tell you, it's so funny.  So my briefed is costing me like a couple of bucks a day in API tokens to generate. Yeah, you told me.
+
+58:43 - Cyrus Mistry
+  Yeah, yeah, yeah.
+
+58:43 - Jeff Keltner
+  And this is like far more complicated work, but, but free because it doesn't use my, but because, because I do it in an interactive mode and Claude and your Claude subscription has like, if you were to do everything you do in your Claude app through API tokens, it would.  It would cost you way more than a hundred bucks or whatever you pay a month, like an order of magnitude more.  And so this is like, I can do way more sophisticated stuff on this because I do it interactive, but I can't do interactive for briefed because it needs to be like generated at 6 a.m.  every morning. I'm not going to like wake up every morning at 6 and like run a command to do it in my cloud.  It'd be pretty funny, actually, if I, maybe I should try it, I should just like do a launch D every morning at 5 for a cloud command on my laptop, on my Mac mini that creates the briefed script and then sends it off to the cloud.  And then triggers the like generation. It'd be really funny if I did it that way. So I could use the cloud subscription as opposed to just use a cloud command.
+
+59:36 - Cyrus Mistry
+  You, you, like, why couldn't you write a script to have it actually, see what I'm trying to say? Like to actually have it go and do that.
+
+59:43 - Jeff Keltner
+  I could, I could, but I don't, don't know if it would be as reliable as using like code with the API calls in it.  Cause you've got it very prescriptive, but it should be able to.
+
+59:51 - Cyrus Mistry
+  Well, this is another inception question. Can you have a cloud agent go into cloud to do stuff?
+
+59:55 - Jeff Keltner
+  Well, you can have a launch D command that crons. . . A clawed command with a prompt. So you can say clawed, give it a prompt, or give it a skill to run, and you can just have that croned, right?  So at that point, you can do something close to what I'm doing, which is where I'm, you know, triggering, you know, a particular cloud run module.  Then my Mac mini becomes the failure point for the entire briefed, which is maybe not the best you've ever done.  But like, not that we have that many listeners that we have to worry about it too much.
+
+1:00:26 - Cyrus Mistry
+  I read my briefed every single morning. I love that. I It's interesting.
+
+1:00:30 - Jeff Keltner
+  So we've, there's so many things that claw is going to have to ignore in this transcript. It's really funny.  Just use it for the host notes updates. So our listens, like go up, like on a good day on the web, on a good day, get four or five listens.  On a bad day, we get one or two, like it's not many, right? And it kind of goes up and down.  We get like 15 one day and it'll drop down. But they like, the emails have many days and over a hundred percent open rate.  So these people are opening it like twice and a very low click rate. I was like, and I don't know what we make of this, but people are like, and it's a small in, so I don't want to over-index on the 20 people or whatever they're using it, but the open rate's over 100%, but the click and the listen rate is much lower.
+
+1:01:11 - Cyrus Mistry
+  It's because I can skim it in exactly nine seconds, I get all the headlines, and I'm like, I love it.  Yeah.
+
+1:01:20 - Jeff Keltner
+  I wonder if that's the thing. I read multiple newsletters, both generic and topical, AI-specific and general news. But I told him, I was like, I prefer to read.  I prefer to be able to skim when I want to skim, go deep when I want to go deep.  I get, my major ones are The Economist, The Washington Post, and The Wall Street Journal. And so I've got different perspectives, different takes on the same story.  And I, many days may not care, but it's easy when I'm scrolling, go, yeah, yeah, yeah. Oh, I'm going to hear a journal that says about that story.  You know, I can like choose my suggestion type. And so I prefer writing or reading for that content, not all content, but for that content.  And so I was like, hmm, maybe. We got the wrong format for this content. Maybe we should make an email newsletter.  And the other thing I told her was the email newsletter becomes way easier to do the personalized because you don't have to have that big script, right?  You can get back to just stories and pick the right stories and slam it together and give you exactly what you want.
+
+1:02:15 - Cyrus Mistry
+  You could even do a dynamic email where I say, I'm not really interested in stories like this, right? And it learns from that.  You know what I mean? Totally.
+
+1:02:24 - Jeff Keltner
+  Yeah. So, I don't know. We're thinking about what's next on that product.
+
+1:02:29 - Cyrus Mistry
+  No, it's good. But I was like, I'm more, I'm more excited about this one.
+
+1:02:32 - Jeff Keltner
+  This one's more interesting to me. I'm really like, this is one I would, because my problem is like, I like the, I like my new setup.  And so building a new, new setup for people is like, I can intellectually engage with it, but it's not a personal use case.  And I think the best work does is on things you want. And this one, I like, I will listen to this other than not liking to hear my own voice.  I will listen to this. And so that, that makes it a different kind of beast.
+
+1:02:53 - Cyrus Mistry
+  So one last point on this, by the way, um, I was thinking about this today, I was talking to a friend and I'm like.  I was telling him, given I'm retiring, my new thing now is I want to make sure I don't take on anything that has homework, or I have to do things after hours.  I only want to do it in the moment and then not think about it. It's true for my consulting, my paid, I'm not even gonna do equity type stuff anymore.  Except this, I told him by one exception, is there's a podcast that I'm super excited about. And so I will do exceptions for things that are like, I'm actually excited about it, that makes sense.  So the bar has to be high. Like this one crosses the line, right? Like of things that I, like last night, I'm like, I'm going to go read, you know, the book.
+
+1:03:37 - Jeff Keltner
+  I told you what Anna called, it doesn't quite hit the nail for me yet, but when we set up, she's like, we need a name for what we're doing.  That's not just a brief podcast. And she called it Zest Labs. And the reason was like, it's like, it has to be fun.  Like the bar for projects would engage in it. Like we enjoy working on them.
+
+1:03:52 - Cyrus Mistry
+  And if we don't enjoy working on them, then  it.
+
+1:03:54 - Jeff Keltner
+  Yeah.
+
+1:03:55 - Cyrus Mistry
+  You have to enjoy who you're doing it with and every moment of it as much as you. But I don't mind the homework.  I don't mind.
+
+1:04:00 - Jeff Keltner
+  Because like, you know, yeah, my family's got something.
+
+1:04:02 - Cyrus Mistry
+  but you are wired differently. Like you are like, you do so many things and it's pretty awesome, to be honest.
+
+1:04:08 - Jeff Keltner
+  Like, it's really good. But yeah, I gotta, I gotta, you know, it's next to my making list. So while my son's building his go-kart, I'm making a Japanese style stool with hand tools.  Did you see this?
+
+1:04:18 - Cyrus Mistry
+  Out of walnut and maple.
+
+1:04:19 - Jeff Keltner
+  I've got the wood.
+
+1:04:20 - Cyrus Mistry
+  I've started, I've designed it.
+
+1:04:22 - Jeff Keltner
+  I'm gonna.
+
+1:04:24 - Cyrus Mistry
+  You, there is no risk of your brain turning soft. I'll tell you that. I'm, um, and let me know when we are, and I'm going to start helping a ton on the, cause you're doing all of this coding stuff.  I'm going to help with all the go-to-market stuff. So I'll, I'll, I'll carry my own weight. I promise. I mean, not worried about it.
+
+1:04:40 - Jeff Keltner
+  Um, I've got the, yeah, I think I've got a, the logo is a pretty good shape. I use Claude design by the way, to make all the, the new versions of everything.  It it looks great. And like Claude does a really, the Claude design does a really good job of the designing, but then I'm like, I'm like, I want an exportable one that I can like put in Canva and then just edit.  And so it made an end Claude here. I'm going to show you what it did. You got like five minutes, two minutes?
+  SCREEN SHARING: Jeff started screen sharing - WATCH: https://fathom.video/share/zbZ_MGknNWqgamZQByekyG53m_ByKfDA?timestamp=3905.340183  Yeah, yeah. Whatever, I don't have, I don't know where to be today. My wife's going to go work here in a little bit.  Where's my cloud design? got to go to, cloud design is not in the app yet. You people, Chrome, just, you people are  stupid.
+
+1:05:19 - Cyrus Mistry
+  OK.
+
+1:05:20 - Jeff Keltner
+  It's like, this is my experience with cloud design, just in case you're curious, is it's like really, the first run gets at 80%, and then getting the last 20%, just frickin' brittle.  Right. So I think that's initial artwork is what I did. Where I took the cloud design system and I created some initial artwork.  And then it created a, see if I can find it, yeah, Composer. Where, now how do I open it?  Dang it, how do I get back to this thing?
+
+1:05:50 - Cyrus Mistry
+  Oh yeah, you want to see what it actually looks like.
+
+1:05:53 - Jeff Keltner
+  But what it did is it actually created a- It must be an assets, isn't it?
+
+1:05:59 - Cyrus Mistry
+  Isn't that top?
+
+1:06:15 - Jeff Keltner
+  So it created this little app, so it gives me a cover art version. Well, this is the generic cover art that mastered an episode cover art, and then an audiogram, and it should have an audiogram horizontal for the full episode, and then an audiogram vertical for shorts, right, to do shorts in there.
+
+1:06:45 - Cyrus Mistry
+  How did you make it so that it shows the words and highlighting as you're going?
+
+1:06:49 - Jeff Keltner
+  What did you call that? What do you mean? Like a video of the podcast where it just shows the transcript.  Oh, I mean, the audiogram is like a little image of the...
+
+1:07:00 - Cyrus Mistry
+  Yeah, that's what it's called an audiogram. Yeah.
+
+1:07:02 - Jeff Keltner
+  And so I'm using Descript for that. And so what you do is I've got a template for Descript where it's got the words and the color, and then the waveform in particular locations.  And so these files are built to just like, go as the background, right? So you go, you throw this one in for the full size of the horizontal, and then it'll have the words and the audiogram below it.  So it's just this is the thing you can, right? What tool are you using to make the audiogram is what I'm saying?
+
+1:07:28 - Cyrus Mistry
+  you using cloggers? Descript. Oh, it's an actual thing. Oh, got it. Okay, okay, okay.
+
+1:07:36 - Jeff Keltner
+  It's not Descript. I thought you were saying I Descript it.
+
+1:07:39 - Cyrus Mistry
+  Like, oh, yeah, there, there, there. So you come here, and then I can say this as a template, or we can just copy it or whatever, you upload the audio, it does the transcription.  That's what I was going to say. It does the transcription, right? So that's the other thing you got to watch, and we just have to do a quick check, right?  But yeah, the thing that's weird is I'm like, we have the, we have the script, but it probably doesn't want to match it that way.  Yeah. Exactly.
+
+1:08:00 - Jeff Keltner
+  But so this app will do this, and then it just takes, you know, it's got the text item, this item, so you can kind of like, you know, whatever, like this.  And then, here, I'll just… By the way, I do watch podcasts with the word like this.
+
+1:08:12 - Cyrus Mistry
+  I do kind of like the audiogram with it.
+
+1:08:15 - Jeff Keltner
+  Well, the audience, this part down here is the audiogram, and then the closed caption, whatever you want to call this.  I was like, we just have to have it. If you're going to do a big video, you need to have the freaking words out there.
+
+1:08:23 - Cyrus Mistry
+  If you're not going to have faces, you need to have the words. A hundred percent. But I love seeing the words there.  Yeah, I love seeing that, right? Because I don't know why, but I… So, and then this whole thing is just an image, right?
+
+1:08:33 - Jeff Keltner
+  Like, this is just the image that Claude Design put out, and we just grab it and throw it in here, and then all I've got to do is going to just descript and throw the new video, the new audio file, and give it, you know, this template for put the words here at these colors and this font, and put the audiogram down here, and then it's easy.  And then, of course, it gave me a vertical version, which we can do the same thing for… If they're holding a portrait, yeah, yeah, yeah.
+
+1:08:56 - Cyrus Mistry
+  Well, for shorts, right?
+
+1:08:57 - Jeff Keltner
+  So, go, okay, cut me the best 60-second Oh, shorts. And so we can do that short speed style. this will be the cover art, right?  That shows up in your podcast thing.
+
+1:09:10 - Cyrus Mistry
+  So, but it's like, once you get, if you're like, Oh, I want to edit this just a little bit.
+
+1:09:14 - Jeff Keltner
+  Like, what is this? The backbone test verdict? Like, what does that  mean? Where did that come from? It's like that getting down to like, how do I change this?  Like, Oh, good luck. It just doesn't like follow you very well at that level. Well, can't you just reprompt it or no, you can't like, I actually think this is pretty good, except like, I don't know what this means.  A documentary podcast diffusion in monthly chapters. I don't know. And then this is good. Hosted by Jeff Keltner, Cyrus Mistry, backbone.fm.  That's our web. That's good. This, the backbone test verdict back. Like, this is weird. I would, you so I'm like, we'll change a little bit of these little things, but, but, and I got, so I changed it to this.  I tried to get some sort of a vertebrae looking thing in this line.
+
+1:09:52 - Cyrus Mistry
+  No, like it. I like it. This is good.
+
+1:09:53 - Jeff Keltner
+  is fine infinitely.
+
+1:09:55 - Cyrus Mistry
+  So I was like, this is clean.
+
+1:09:56 - Jeff Keltner
+  It's got kind of a bone color. It's clean.
+
+1:09:58 - Cyrus Mistry
+  I like it.
+
+1:09:59 - Jeff Keltner
+  Good. Good.
+
+1:10:00 - Cyrus Mistry
+  Well, and by the way, if you only see the one dot, this is the transverse view of the spine, right?  Meaning you can just imagine that.
+
+1:10:09 - Jeff Keltner
+  tried to get this to be like more of a spine like shape as opposed to just an oval, like.  Or yeah, you couldn't even do the spine shape, but that's fine. But it was trying to vector graphics it like it was just not, there were like 10 iterations from like this is not.
+  ACTION ITEM: Upload meeting transcript to Claude; notify Cyrus when next checkpoint ready - WATCH: https://fathom.video/share/zbZ_MGknNWqgamZQByekyG53m_ByKfDA?timestamp=4223.9999  This is not the right use of your, right? This is where I was going, okay, if I had a human designer, they could do what I want like this.  And Claude is just really not getting me from doing it in like two seconds.
+
+1:10:31 - Cyrus Mistry
+  not working well.
+
+1:10:34 - Jeff Keltner
+  So anyway, I'm going to give, I'm going to, so I'm going to throw this transcript in to, there's a place that I store it in the, like in the feedback area.  And then I run Claude again, and it knows to look there for the feedback and then do its next set of things in this and then get us to the next checkpoint.  So I will do that and then tell you when it's at the next checkpoint, what you're supposed to look at.
+
+1:10:54 - Cyrus Mistry
+  Love it. Game on. Thanks, man. This is going to be good.
+
+1:10:57 - Jeff Keltner
+  I'm looking forward to this. I mean, just get kids. 11 labs guys get this. V3 with PVC out the door, so you don't sound like a confusing version yourself.
+
+1:11:03 - Cyrus Mistry
+  so excited I can't even deal. Okay. All right.
+
+1:11:07 - Jeff Keltner
+  you soon, man.
+
+1:11:08 - Cyrus Mistry
+  later. Bye.
