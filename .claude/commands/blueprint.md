@@ -15,7 +15,7 @@ Two role agents run in sequence:
 1. **Research Director (Phase 1)** — broad overview research → `episodes/{topic}/research/overview.md`
 2. **Narrative Architect** — story blueprint → `episodes/{topic}/blueprint.md`
 
-After both complete, you stop. Jeff and Cyrus hold a live review meeting and save the transcript to `episodes/{topic}/feedback/01-blueprint.txt` for the next checkpoint to consume.
+After both complete, you stop. Jeff and Cyrus each write solo notes (`episodes/{topic}/feedback/01-jeff-notes.md`, `01-cyrus-notes.md`) before the audio review, then hold a live review meeting and save the transcript to `episodes/{topic}/feedback/01-blueprint.txt`. All three are optional; the next checkpoint reads whatever exists.
 
 ## Before you start
 
@@ -66,5 +66,5 @@ Wait for it to complete. Read blueprint.md to confirm it landed.
 2. Print a short status report to the user:
    - Confirm `research/overview.md` and `blueprint.md` exist and were updated
    - Note the wave count from the blueprint and the proposed thesis (one line)
-   - Tell them: "Hold your review meeting. Save the transcript to `episodes/$ARGUMENTS/feedback/01-blueprint.txt`. Then run `/script $ARGUMENTS` to continue. (`/refine` is a single end-of-episode run after all three checkpoint meetings — not per-checkpoint.)"
+   - Tell them: "Jeff and Cyrus each write solo notes to `episodes/$ARGUMENTS/feedback/01-jeff-notes.md` and `01-cyrus-notes.md` (informal markdown — see existing examples) before the audio review. Hold the review meeting and save the transcript to `episodes/$ARGUMENTS/feedback/01-blueprint.txt`. Then run `/script $ARGUMENTS` to continue. (`/refine` is a single end-of-episode run after all three checkpoint meetings — not per-checkpoint.)"
 3. Stop. Do not run any further agents.

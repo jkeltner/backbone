@@ -85,13 +85,18 @@ The pipeline is operated via slash commands in `.claude/commands/`. There are th
 
 ### Three content checkpoints
 
-| # | Command | Agents run | Review meeting transcript saved to |
-|---|---------|-----------|------------------------------------|
+| # | Command | Agents run | Audio review transcript |
+|---|---------|-----------|------------------------|
 | 1 | `/blueprint {topic}` | Research Director (Phase 1) → Narrative Architect | `episodes/{topic}/feedback/01-blueprint.txt` |
 | 2 | `/script {topic}` | Research Director (Phase 2) → Script Writer | `episodes/{topic}/feedback/02-script.txt` |
 | 3 | `/polish {topic}` | Editor → Fact Checker | `episodes/{topic}/feedback/03-polish.txt` |
 
-After each checkpoint, Jeff and Cyrus hold a live conversation reviewing the output. The transcript is saved to the path above. The next checkpoint's agents read that file and treat it as binding guidance.
+After each checkpoint, Jeff and Cyrus produce up to three feedback files in `episodes/{topic}/feedback/`:
+- `0N-jeff-notes.md` — Jeff's solo notes, written before the audio review (markdown, informal — organize by section, keep terse and opinionated)
+- `0N-cyrus-notes.md` — Cyrus's solo notes, written before the audio review (same format)
+- `0N-{checkpoint}.txt` — the audio review meeting transcript
+
+All three are optional but recommended. The next checkpoint's agents read whichever exist and treat them as binding guidance. **Precedence on conflict:** the transcript wins — the live conversation supersedes pre-meeting solo takes. Solo notes still carry line-level signal the transcript may not revisit.
 
 ### Refinement pass (single end-of-episode run)
 
@@ -208,7 +213,7 @@ backbone/
 │       ├── research/            ← research files (overview + per-chapter deep dives)
 │       ├── blueprint.md         ← story structure (binding contract)
 │       ├── script/              ← script.txt files + review artifacts (editor-notes, fact-check-report)
-│       ├── feedback/            ← per-checkpoint review meeting transcripts (01-blueprint.txt, 02-script.txt, 03-polish.txt)
+│       ├── feedback/            ← per-checkpoint feedback: solo notes (0N-jeff-notes.md, 0N-cyrus-notes.md) + audio review transcript (01-blueprint.txt, 02-script.txt, 03-polish.txt)
 │       ├── refinements/         ← /refine side-loop proposals (per-checkpoint role/host edit proposals)
 │       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
 │       ├── profile-update-proposals.md

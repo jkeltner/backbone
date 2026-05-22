@@ -29,7 +29,7 @@ Each episode runs 90–120 minutes and follows a consistent structure:
 
 ## How the Pipeline Works
 
-This repo is an AI agent pipeline operated through **slash commands** in Claude Code. Each command runs a coherent chunk of the pipeline and stops at a natural review point. Jeff and Cyrus then hold a live review meeting, save the transcript, and the next command picks up from there — incorporating their feedback as binding guidance.
+This repo is an AI agent pipeline operated through **slash commands** in Claude Code. Each command runs a coherent chunk of the pipeline and stops at a natural review point. Jeff and Cyrus each write solo notes, then hold a live review meeting and save the transcript. The next command picks up from there — incorporating all of it as binding guidance.
 
 Three content checkpoints, three review meetings, then a single refinement pass and production:
 
@@ -42,7 +42,8 @@ Topic Selection (human)
   └── Narrative Architect (story blueprint)
         │
         ▼
-  [Review meeting #1 → episodes/{topic}/feedback/01-blueprint.txt]
+  [Solo notes → 01-jeff-notes.md, 01-cyrus-notes.md]
+  [Audio review → episodes/{topic}/feedback/01-blueprint.txt]
         │
         ▼
   /script {topic}
@@ -50,7 +51,8 @@ Topic Selection (human)
   └── Script Writer (TTS-ready dialogue, chapter by chapter)
         │
         ▼
-  [Review meeting #2 → episodes/{topic}/feedback/02-script.txt]
+  [Solo notes → 02-jeff-notes.md, 02-cyrus-notes.md]
+  [Audio review → episodes/{topic}/feedback/02-script.txt]
         │
         ▼
   /polish {topic}
@@ -58,7 +60,8 @@ Topic Selection (human)
   └── Fact Checker (claims, stats, quotes)
         │
         ▼
-  [Review meeting #3 → episodes/{topic}/feedback/03-polish.txt]
+  [Solo notes → 03-jeff-notes.md, 03-cyrus-notes.md]
+  [Audio review → episodes/{topic}/feedback/03-polish.txt]
         │
         ▼  (in parallel with /produce, in a separate window)
   /refine {topic}   → role/host edit proposals from all 3 meetings
@@ -84,13 +87,19 @@ Topic Selection (human)
 
 ### The three review meetings
 
-Each `/blueprint`, `/script`, `/polish` command stops when its agents finish. **You and Cyrus hold a live conversation about the output** — what landed, what didn't, anecdotes worth weaving in, anything that needs to change. Save the transcript to the path the command tells you. The next command's agents read that file and treat it as binding direction.
+Each `/blueprint`, `/script`, `/polish` command stops when its agents finish. Then a three-part feedback flow:
 
-The meetings are deliberately live (not written feedback) because conversation surfaces the things written notes don't — personal stories, off-the-cuff reactions, the "huh, I'd never thought of it that way" moments. Those become raw material for host sections.
+1. **Solo notes (optional but recommended).** Jeff and Cyrus each write their own notes first, saved to `episodes/{topic}/feedback/0N-jeff-notes.md` and `0N-cyrus-notes.md`. Informal markdown — organize by section, keep it terse and opinionated. These catch line-level signal that often gets lost in the live conversation.
+2. **Audio review.** You and Cyrus hold a live conversation about the output — what landed, what didn't, anecdotes worth weaving in, anything that needs to change.
+3. **Save the transcript** to the path the command tells you (`01-blueprint.txt` / `02-script.txt` / `03-polish.txt`).
+
+The next command's agents read whichever of the three files exist and treat them as binding direction. **Precedence on conflict:** the transcript wins (the live conversation supersedes pre-meeting solo takes), but solo notes carry line-level signal the transcript may not revisit.
+
+The audio review stays the heart of the feedback loop — conversation surfaces what notes don't (personal stories, off-the-cuff reactions, the "huh, I'd never thought of it that way" moments). Solo notes are the supplement: a place to capture specific reactions before the conversation drifts, and a way for Cyrus to weigh in even when scheduling slips the live meeting.
 
 ### The /refine side loop
 
-Once all three review meetings are done, run `/refine {topic}` once. It reads all three feedback transcripts together and proposes targeted edits to `roles/` and `hosts/` files — the kind of fixes that prevent the same issue recurring on future episodes. Proposals are written to `episodes/{topic}/refinements/proposals.md`; Jeff applies the ones that land.
+Once all three review meetings are done, run `/refine {topic}` once. It reads every feedback file together — solo notes and audio transcripts across all three checkpoints — and proposes targeted edits to `roles/` and `hosts/` files. These are the fixes that prevent the same issue recurring on future episodes. Proposals are written to `episodes/{topic}/refinements/proposals.md`; Jeff applies the ones that land.
 
 Reading all three meetings at once is what makes cross-checkpoint patterns visible — for example, "the script writer drifted from the blueprint AND the editor didn't catch it AND the fact checker found knock-on errors" is one root-cause story that fragments into disconnected reports if you split it. Run it in a separate Claude Code window from your main production session if you want to keep contexts clean; it's fine to run it in parallel with `/produce` and `/distribute` since those don't depend on `roles/` or `hosts/`.
 
@@ -107,10 +116,10 @@ Runs **twice** per episode. Phase 1 (in `/blueprint`) casts a wide net — sourc
 Turns raw research into a **blueprint** — the binding creative contract. Defines wave boundaries, selects and places anchor stories, assigns hosts by worldview fit, specifies the "road not taken" for each wave, and identifies what the episode's diffusion story teaches. Every downstream agent builds from the blueprint.
 
 ### Script Writer
-Writes fully scripted, TTS-ready dialogue for ElevenLabs v3. Works chapter by chapter, following the blueprint. Manages host knowledge division (one host drives each wave, the other discovers), primes every anchor story with host reaction, and writes How It Works sections as dialogue rather than monologue. Reads the Checkpoint 1 feedback transcript and weaves in any anecdotes Jeff or Cyrus shared.
+Writes fully scripted, TTS-ready dialogue for ElevenLabs v3. Works chapter by chapter, following the blueprint. Manages host knowledge division (one host drives each wave, the other discovers), primes every anchor story with host reaction, and writes How It Works sections as dialogue rather than monologue. Reads the Checkpoint 1 feedback (solo notes + audio transcript) and weaves in any anecdotes Jeff or Cyrus shared.
 
 ### Editor
-Reviews the assembled script as a continuous episode. Catches continuity gaps, pacing problems, voice drift, planted callbacks that never land, and transitions that complete rather than propel. Also runs a systematic voice consistency check against the host profiles. Reads the Checkpoint 2 feedback transcript and addresses each substantive point.
+Reviews the assembled script as a continuous episode. Catches continuity gaps, pacing problems, voice drift, planted callbacks that never land, and transitions that complete rather than propel. Also runs a systematic voice consistency check against the host profiles. Reads the Checkpoint 2 feedback (solo notes + audio transcript) and addresses each substantive point.
 
 ### Fact Checker
 Verifies claims, statistics, and quotes against sources. Produces a report with confidence levels and corrects the chapter scripts in place. Treats anything Jeff or Cyrus flagged in the Checkpoint 2 meeting as Priority 1.
@@ -146,9 +155,9 @@ All pipeline operations live in `.claude/commands/`. Every command takes the top
 
 | Command | What it runs | Stops at |
 |---------|-------------|----------|
-| `/blueprint <topic>` | Research Director Phase 1 → Narrative Architect | Save meeting transcript to `feedback/01-blueprint.txt` |
-| `/script <topic>` | Research Director Phase 2 → Script Writer | Save meeting transcript to `feedback/02-script.txt` |
-| `/polish <topic>` | Editor → Fact Checker | Save meeting transcript to `feedback/03-polish.txt` |
+| `/blueprint <topic>` | Research Director Phase 1 → Narrative Architect | Solo notes → `feedback/01-jeff-notes.md` + `01-cyrus-notes.md`, then audio review → `feedback/01-blueprint.txt` |
+| `/script <topic>` | Research Director Phase 2 → Script Writer | Solo notes → `feedback/02-jeff-notes.md` + `02-cyrus-notes.md`, then audio review → `feedback/02-script.txt` |
+| `/polish <topic>` | Editor → Fact Checker | Solo notes → `feedback/03-jeff-notes.md` + `03-cyrus-notes.md`, then audio review → `feedback/03-polish.txt` |
 
 ### Production (no review gates)
 
@@ -162,7 +171,7 @@ All pipeline operations live in `.claude/commands/`. Every command takes the top
 
 | Command | What it runs |
 |---------|-------------|
-| `/refine <topic>` | After all three review meetings — proposes role/host file edits from every feedback transcript. Single end-of-episode run. |
+| `/refine <topic>` | After all three review meetings — proposes role/host file edits from every feedback file (solo notes + audio transcripts). Single end-of-episode run. |
 | `/profile-update <topic>` | Post-episode — proposes host-profile edits from `feedback.txt`. |
 | `/pipeline-review <topic>` | Post-episode — live interactive session, edits to roles/templates/CLAUDE.md applied in real time. |
 
@@ -216,9 +225,15 @@ backbone/
         │   ├── chapter-NN-*.txt    ← chapter scripts
         │   ├── editor-notes.md
         │   └── fact-check-report.md
-        ├── feedback/                ← per-checkpoint review meeting transcripts
-        │   ├── 01-blueprint.txt
+        ├── feedback/                ← per-checkpoint feedback (solo notes + audio transcript)
+        │   ├── 01-jeff-notes.md     ← Jeff's solo notes (optional, pre-meeting)
+        │   ├── 01-cyrus-notes.md    ← Cyrus's solo notes (optional, pre-meeting)
+        │   ├── 01-blueprint.txt     ← audio review transcript
+        │   ├── 02-jeff-notes.md
+        │   ├── 02-cyrus-notes.md
         │   ├── 02-script.txt
+        │   ├── 03-jeff-notes.md
+        │   ├── 03-cyrus-notes.md
         │   └── 03-polish.txt
         ├── refinements/             ← /refine proposals (per-checkpoint role/host edits)
         ├── feedback.txt             ← post-episode Jeff + Cyrus conversation
@@ -239,17 +254,17 @@ A complete episode run, start to finish:
 
 **2. Run `/blueprint <topic>`.** Research Director (Phase 1) and Narrative Architect produce `research/overview.md` and `blueprint.md`. Takes 30–60 minutes of agent time.
 
-**3. Review meeting #1.** Jeff and Cyrus read the blueprint together. Discuss: does the thesis land? Are the wave boundaries right? Are the anchor story selections vivid enough? Any personal angle either of them want woven in? Save the transcript to `episodes/<topic>/feedback/01-blueprint.txt`.
+**3. Review meeting #1.** Jeff and Cyrus each read the blueprint and write solo notes to `episodes/<topic>/feedback/01-jeff-notes.md` and `01-cyrus-notes.md` (informal markdown, organize by section). Then meet live: does the thesis land? Are the wave boundaries right? Are the anchor story selections vivid enough? Any personal angle either of them want woven in? Save the audio transcript to `feedback/01-blueprint.txt`.
 
-**4. Run `/script <topic>`.** Research Director (Phase 2) deep-dives every chapter; Script Writer produces TTS-ready dialogue. Both agents read the Checkpoint 1 feedback file. Takes 1–2 hours of agent time.
+**4. Run `/script <topic>`.** Research Director (Phase 2) deep-dives every chapter; Script Writer produces TTS-ready dialogue. Both agents read all available Checkpoint 1 feedback (notes + transcript). Takes 1–2 hours of agent time.
 
-**5. Review meeting #2.** Jeff and Cyrus read the chapter scripts. Discuss: does the dialogue sound like us? Are the anchor stories landing as scenes? Anything tonally off? Specific lines to change? Save to `feedback/02-script.txt`.
+**5. Review meeting #2.** Same flow: solo notes to `02-jeff-notes.md` / `02-cyrus-notes.md` first, then live conversation. Does the dialogue sound like us? Are the anchor stories landing as scenes? Anything tonally off? Specific lines to change? Save audio transcript to `feedback/02-script.txt`.
 
-**6. Run `/polish <topic>`.** Editor catches continuity, pacing, voice issues; Fact Checker verifies every claim. Both read the Checkpoint 2 feedback file. Takes 30–60 minutes.
+**6. Run `/polish <topic>`.** Editor catches continuity, pacing, voice issues; Fact Checker verifies every claim. Both read all available Checkpoint 2 feedback. Takes 30–60 minutes.
 
-**7. Review meeting #3.** Final pass before audio. Jeff and Cyrus read the cleaned scripts and the editor + fact-check reports. Anything else to change? Save to `feedback/03-polish.txt`.
+**7. Review meeting #3.** Final pass before audio. Solo notes to `03-jeff-notes.md` / `03-cyrus-notes.md`, then meet. Anything else to change? Save audio transcript to `feedback/03-polish.txt`.
 
-**8. Run `/refine <topic>`.** Reads all three feedback transcripts and proposes role/host file improvements. Run in a separate window — it's fine in parallel with the next two steps. Jeff applies the proposals that land async; Cyrus reviews any `hosts/cyrus.md` changes before they're applied.
+**8. Run `/refine <topic>`.** Reads every feedback file across all three checkpoints (solo notes + audio transcripts) and proposes role/host file improvements. Run in a separate window — it's fine in parallel with the next two steps. Jeff applies the proposals that land async; Cyrus reviews any `hosts/cyrus.md` changes before they're applied.
 
 **9. Run `/produce <topic>`.** Producer assembles `final/`; `release.py` generates TTS audio, assembles the episode, builds chapters and transcript.
 
@@ -269,7 +284,7 @@ A complete episode run, start to finish:
 
 If you're Cyrus, your touchpoints in the pipeline are:
 
-- **Three review meetings per episode** (after `/blueprint`, `/script`, `/polish`). Live conversation with Jeff. Bring reactions, anecdotes, pushback, anything you want woven into your sections — it all becomes raw material.
+- **Three review meetings per episode** (after `/blueprint`, `/script`, `/polish`). Each is two parts: solo notes to `feedback/0N-cyrus-notes.md` first (informal markdown — organize by section, terse and opinionated), then a live conversation with Jeff. Bring reactions, anecdotes, pushback, anything you want woven into your sections — it all becomes raw material.
 - **Post-episode conversation** with Jeff. Free-form. What worked, what didn't, where the script got your voice right or wrong.
 - **Reviewing host-profile proposals** that touch `hosts/cyrus.md` before they're applied — you have veto on changes to your own profile.
 
@@ -295,6 +310,6 @@ Everything else is automation. The agents handle research, drafting, editing, fa
 
 **Contingency over inevitability.** Every wave specifies the Road Not Taken — the competing path, the near-miss, what the world would have looked like if the resistance had won. This is how the diffusion story becomes intellectually honest rather than a winner's narrative.
 
-**Live meetings, not written feedback.** Conversation surfaces what notes don't — anecdotes, reactions, "huh, I'd never thought of it that way" moments. Those become the raw material that makes scripts sound human.
+**Live conversation drives the feedback loop, solo notes back it up.** The audio review is what surfaces anecdotes, reactions, and "huh, I'd never thought of it that way" moments that become raw material for the hosts. Pre-meeting solo notes catch the line-level stuff the conversation rarely revisits — and let Cyrus weigh in async when scheduling slips the live meeting. The transcript wins on conflict; notes carry the specifics.
 
-**The feedback loop compounds.** Every checkpoint meeting feeds `/refine` (immediate role/host improvements). Every post-episode conversation feeds Profile Updater + Pipeline Reviewer (broader pipeline improvements). Over time, the system gets better at sounding like Jeff and Cyrus and at producing episodes they're proud of.
+**The feedback loop compounds.** Every checkpoint's feedback (solo notes + transcript) feeds `/refine` (immediate role/host improvements). Every post-episode conversation feeds Profile Updater + Pipeline Reviewer (broader pipeline improvements). Over time, the system gets better at sounding like Jeff and Cyrus and at producing episodes they're proud of.
