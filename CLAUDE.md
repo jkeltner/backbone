@@ -229,7 +229,6 @@ backbone/
 │   ├── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
 │   ├── production-pipeline.md
 │   ├── distribution-pipeline.md
-│   ├── promotion-pipeline.md
 │   ├── launch-plan.md           ← walkable plan to ship ep 1
 │   └── TODO.md                  ← open work, pruned
 └── tools/                       ← runnable scripts (Python)
@@ -238,14 +237,13 @@ backbone/
     ├── timestamp_chapters.py
     ├── generate_transcript.py
     ├── distribute_podcast.py
-    ├── distribute_youtube.py    (deferred from MVP — Transistor handles audio→video)
-    ├── audiogram_video.py       (deferred from MVP)
     ├── tts_dialogue.py
     ├── tts_generate.py
     ├── split_waves_to_cache.py
-    ├── release.py               ← master orchestrator
-    └── (social_images, clip_selector, clip_generate, promote_*, distribute_newsletter — deferred)
+    └── release.py               ← master orchestrator
 ```
+
+**Out of pipeline scope:** Video assembly (audiogram, vertical shorts) is done by hand in Descript using the assembled `episode.mp3` plus externally-generated background images (cover + horizontal full-episode + vertical shorts) dropped into `episodes/{topic}/assets/images/`. Promotion is manual. There is no automated audiogram, clip, social-image, or social-posting tooling in this repo.
 
 ### File Naming
 - **kebab-case** for all filenames

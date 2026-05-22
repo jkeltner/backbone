@@ -4,14 +4,14 @@
 
 Backbone's script pipeline is producing good output. The next gap is everything that happens *after* the MP3 is assembled: getting the episode onto Spotify and Apple, onto YouTube with a video layer, onto a website, and into the channels where listeners find it.
 
-A previous session scaffolded most of this — `pipeline/production-pipeline.md`, `pipeline/distribution-pipeline.md`, `pipeline/promotion-pipeline.md`, `pipeline/TODO.md`, and ~13 Python tools in `tools/`. Most of that code is written but **untested against real APIs**. This plan is therefore less "what to build from scratch" and more "what to decide, set up, test, and fill in to ship episode 1." The refrigeration episode is the guinea pig — and explicitly a beta. The full pipeline will be re-run on it before publish.
+The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distribution-pipeline.md`, `pipeline/TODO.md`, and the audio/distribution Python tools in `tools/`. The refrigeration episode is the guinea pig. The full pipeline will be re-run on it before publish.
 
 **Decisions locked:**
 - **Podcast host:** Transistor.fm ($19/mo) — auto-distributes RSS to Spotify, Apple, and all podcast apps
 - **Website:** Transistor's built-in site for launch (revisit PodPage / custom later if SEO or branding becomes a constraint)
-- **Launch scope for ep 1:** MVP — audio on Spotify/Apple + YouTube full-episode audio→video + one announcement. Defer clips, scheduled social threads, newsletter automation
-- **Short-form video (Shorts/Reels/TikTok):** Skip for ep 1; revisit after launch
-- **YouTube video:** Use **Transistor's built-in audio→video pipeline** for ep 1, not the local `tools/audiogram_video.py`. Keeps the launch surface area small. Local audiogram tool is preserved in repo for later.
+- **Launch scope for ep 1:** audio on Spotify/Apple + YouTube full-episode video (assembled in Descript) + one announcement
+- **Video assembly:** Done by hand in Descript using assembled audio + externally-generated background images. No automated audiogram or clip generation in this pipeline
+- **Per-episode artwork + audiogram backgrounds:** Generated externally (Claude Design), dropped into `episodes/{topic}/assets/images/`. Horizontal backgrounds for full episodes, vertical for shorts
 - **Music:** locked to `assets/music/backbone-theme.mp3` and `assets/music/backbone-bumper.mp3` (2026-04-25)
 - **Show description:** locked at `assets/show-description.md`; in production on Transistor
 - **Categories on Transistor:** History (primary), Technology (secondary)
@@ -29,16 +29,17 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 - `tools/timestamp_chapters.py` — produces Podcasting 2.0 `chapters.json`
 - `tools/generate_transcript.py` — produces `transcript.html` + `transcript.srt`
 
-**Coded, API-untested:**
+**Coded, API-tested live (2026-04-26):**
 - `tools/distribute_podcast.py` — upload to Transistor as draft
-
-**Coded, deferred from MVP (still in repo, leave alone):**
-- `tools/distribute_youtube.py`, `tools/audiogram_video.py` (replaced by Transistor's audio→video for ep 1)
-- `tools/distribute_newsletter.py`, `tools/promote_prepare.py`, `tools/promote_twitter.py`, `tools/social_images.py`, `tools/clip_selector.py`, `tools/clip_generate.py`
 
 **Master orchestrator:** `tools/release.py` — tracks step completion in `release-status.json`
 
-**Refrigeration episode artifacts already present** in `episodes/refrigeration_beta/final/`: `episode.mp3` (v2 audio, beta), `assembly-map.json`, `chapters.json`, `transcript.html`, `transcript.srt`, `metadata.md`, `social-content.md`, `show-notes.md`. **All to be regenerated on v3 before publish.** The `_beta` suffix flips off and the directory becomes `episodes/refrigeration/` once ep 1 ships.
+**Out of pipeline (external):**
+- Video assembly (audiogram for full episode, vertical for shorts) → Descript
+- Per-episode artwork + audiogram backgrounds → Claude Design (external creator)
+- Promotion → manual (no automated Twitter/LinkedIn/newsletter tooling)
+
+**Refrigeration status (2026-05-22):** `episodes/refrigeration/` is the live in-flight ep 1. `episodes/refrigeration_beta/` is a completed beta reference (not the active episode). Audio will be regenerated on ElevenLabs v3 before publish.
 
 ---
 
@@ -52,17 +53,16 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
    - API key + Show ID added to `.env`
    - RSS submission to Apple / Spotify directories: **BLOCKED** — needs first episode in feed (which is gated on v3 PVC)
 
-2. **YouTube** — deferred from MVP path (using Transistor's audio→video)
-   - If later we want our own audiogram on YouTube, re-enable `tools/distribute_youtube.py` + OAuth setup
+2. **YouTube** — uploads done manually from Descript exports. No service setup or API tokens required.
 
 3. **Domain** — DONE — `backbone.fm` registered and pointing at Transistor site
 
-### Phase B — Asset prep + visual QA
+### Phase B — Asset prep
 
-4. **Show-level cover art (3000×3000 PNG)** — **OPEN**, Jeff working
+4. **Show-level cover art** — DONE — `assets/show_cover_art.png` (2026-05-22)
 5. **Music sign-off** — DONE 2026-04-25, files locked at `assets/music/backbone-{theme,bumper}.mp3`
-6. ~~Full-episode audiogram visual QA~~ — REMOVED. Using Transistor's audio→video. The `tools/audiogram_video.py` path is parked for later.
-7. **Episode metadata polish** — refrigeration still considered beta; pipeline will be re-run before publish, so final metadata gets locked at that point
+6. **Per-episode artwork + audiogram backgrounds** — Generated externally in Claude Design; dropped into `episodes/{topic}/assets/images/` before Descript handoff
+7. **Episode metadata polish** — locked when the pipeline is re-run on v3 audio
 
 ### Phase C — Close the small code gaps
 
@@ -76,36 +76,31 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 11. **Pipeline re-run** (deferred — happens after v3 PVC lands)
     - Regenerate audio on v3 with updated audio-tag vocabulary
     - Re-run audio assembly, transcript, chapters
-12. **Run `python tools/release.py distribute refrigeration_beta --dry-run`**
+12. **Run `python tools/release.py refrigeration distribute`**
     - Creates a draft episode in Transistor
-    - Use Transistor's audio→video to create the YouTube video; keep it unlisted
-13. **Fix whatever breaks.**
+13. **Assemble video in Descript** from the assembled `episode.mp3` + externally-generated artwork; upload to YouTube as unlisted
+14. **Fix whatever breaks.**
 
 ### Phase E — Launch ep 1 (when ready)
 
-14. **Submit RSS feed to Apple / Spotify** from Transistor dashboard once the first draft episode exists
-15. **Flip Transistor episode draft → published**
-16. **Flip the Transistor-generated YouTube video unlisted → public**
-17. **Post a single launch announcement** — hand-written, not automated
+15. **Submit RSS feed to Apple / Spotify** from Transistor dashboard once the first draft episode exists
+16. **Flip Transistor episode draft → published**
+17. **Flip YouTube video unlisted → public**
+18. **Post a single launch announcement** — hand-written, not automated
 
 ---
 
-## Deferred (post-ep-1 roadmap, not in this plan's scope but tracked)
+## Deferred (post-ep-1 roadmap)
 
-- **Newsletter launch:** Buttondown setup + `distribute_newsletter.py` test
-- **Twitter/X thread automation:** dev app + `promote_twitter.py` + cadence
-- **LinkedIn + Instagram:** manual posting from `promote_prepare.py` output
-- **Short-form clips:** QA `clip_generate.py`, decide platforms
-- **Custom YouTube audiogram:** revisit `tools/audiogram_video.py` + `tools/distribute_youtube.py` if Transistor's video output isn't good enough
-- **Scheduling:** cron / Trigger.dev wrapper
-- **Analytics rollup:** weekly Transistor + YouTube + Buttondown stats
+- **Analytics rollup:** weekly Transistor + YouTube stats
+- **Short-form clips:** decide Descript template + cadence
 
 ---
 
 ## Critical files
 
 **Read-only references:**
-- `pipeline/production-pipeline.md`, `pipeline/distribution-pipeline.md`, `pipeline/promotion-pipeline.md`, `pipeline/TODO.md`
+- `pipeline/production-pipeline.md`, `pipeline/distribution-pipeline.md`, `pipeline/TODO.md`
 - `tools/release.py` — orchestrator
 
 **Likely to modify in Phase C/D:**
@@ -121,7 +116,7 @@ A previous session scaffolded most of this — `pipeline/production-pipeline.md`
 
 The plan is verified when:
 1. A draft episode exists on Transistor with correct audio (v3-regenerated), title, description, chapters, transcript
-2. Transistor's audio→video has produced the YouTube video, unlisted, with correct title and description
+2. A video assembled in Descript is uploaded to YouTube, unlisted, with correct title and description
 3. The Transistor auto-website renders the show correctly
 4. `release-status.json` shows production + distribution steps completed for refrigeration
 

@@ -202,8 +202,8 @@ backbone/
 │   ├── research-overview.md
 │   └── research-chapter.md
 ├── tools/                           ← Python production toolchain
-│   ├── release.py                   ← orchestrator (produce / distribute / promote)
-│   ├── tts_dialogue.py              ← ElevenLabs v3 dialogue generation
+│   ├── release.py                   ← orchestrator (produce + distribute)
+│   ├── tts_dialogue.py              ← ElevenLabs dialogue generation
 │   ├── audio_assemble.py            ← stitch waves + music into episode.mp3
 │   ├── timestamp_chapters.py
 │   ├── generate_transcript.py

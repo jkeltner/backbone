@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 """
-release.py — Master orchestrator for production, distribution, and promotion
+release.py — Master orchestrator for production and distribution
 
-Chains together the individual pipeline scripts, tracking completion in
-release-status.json. Pauses at human review checkpoints.
+Chains together the audio production and podcast distribution scripts,
+tracking completion in release-status.json. Pauses at human review checkpoints.
+
+Video assembly (audiogram for YouTube, vertical clips for shorts) is done
+by hand in Descript using the assembled audio + externally-generated
+background images from each episode's `assets/` folder. It is not in
+this pipeline's scope.
 
 Usage:
-  python tools/release.py refrigeration produce      # production pipeline
-  python tools/release.py refrigeration distribute    # distribution pipeline
-  python tools/release.py refrigeration promote       # promotion pipeline
-  python tools/release.py refrigeration status        # show current state
-  python tools/release.py refrigeration full          # run everything (with pauses)
+  python tools/release.py refrigeration produce      # audio production
+  python tools/release.py refrigeration distribute   # Transistor draft upload
+  python tools/release.py refrigeration status       # show current state
+  python tools/release.py refrigeration full         # produce + distribute
 
 Each step can be re-run safely — scripts skip already-completed work or
 overwrite as appropriate.
@@ -41,23 +45,9 @@ def load_status(topic):
             "audio_assembly": {"status": "pending"},
             "timestamps": {"status": "pending"},
             "transcript": {"status": "pending"},
-            "audiogram_video": {"status": "pending"},
-            "clip_selection": {"status": "pending", "review": "required"},
-            "clip_generation": {"status": "pending"},
-            "social_images": {"status": "pending", "review": "required"},
-            "episode_cover": {"status": "pending", "review": "required"},
         },
         "distribution": {
             "podcast_upload": {"status": "pending", "review": "publish on Transistor"},
-            "youtube_upload": {"status": "pending", "review": "publish on YouTube"},
-            "newsletter_draft": {"status": "pending", "review": "review and send on Buttondown"},
-        },
-        "promotion": {
-            "content_prep": {"status": "pending", "review": "approve schedule"},
-            "twitter_thread": {"status": "pending"},
-            "twitter_drip": {"status": "pending"},
-            "linkedin": {"status": "pending", "review": "copy/paste to LinkedIn"},
-            "instagram": {"status": "pending", "review": "upload from phone"},
         },
     }
     return status, status_path
@@ -122,7 +112,7 @@ def pause_for_review(step_name, instructions):
 
 
 def run_produce(topic):
-    """Run the production pipeline."""
+    """Run the audio production pipeline."""
     status, status_path = load_status(topic)
     model_args = []  # Could be ["--model", "v3"] etc.
 
@@ -153,65 +143,15 @@ def run_produce(topic):
         status, status_path, "transcript", "production",
     )
 
-    # 4. Audiogram video
-    run_step(
-        "Audiogram Video",
-        [str(TOOLS_DIR / "audiogram_video.py"), topic],
-        status, status_path, "audiogram_video", "production",
-    )
-
-    # 5. Social images
-    run_step(
-        "Social Images",
-        [str(TOOLS_DIR / "social_images.py"), topic],
-        status, status_path, "social_images", "production",
-    )
-
-    # Review checkpoint: social images
-    review = pause_for_review(
-        "Social Images",
-        "Check generated images in episodes/{}/assets/images/".format(topic),
-    )
-    if review == "quit":
-        return False
-
-    # 6. Episode cover
-    step = status["production"]["episode_cover"]
-    if step["status"] != "completed":
-        step["status"] = "completed"
-        step["note"] = "Generated as part of social images"
-        save_status(status, status_path)
-
-    # 7. Clip selection
-    run_step(
-        "Clip Selection",
-        [str(TOOLS_DIR / "clip_selector.py"), topic],
-        status, status_path, "clip_selection", "production",
-    )
-
-    # Review checkpoint: approve clips
-    review = pause_for_review(
-        "Clip Selection",
-        "Review clip-manifest.json, set 'approved: true' for clips you want.",
-    )
-    if review == "quit":
-        return False
-
-    # 8. Clip generation
-    run_step(
-        "Clip Generation",
-        [str(TOOLS_DIR / "clip_generate.py"), topic],
-        status, status_path, "clip_generation", "production",
-    )
-
     print(f"\n{'#'*60}")
     print(f"  PRODUCTION COMPLETE")
+    print(f"  Next: hand the assembled audio to Descript for video assembly.")
     print(f"{'#'*60}")
     return True
 
 
 def run_distribute(topic):
-    """Run the distribution pipeline."""
+    """Run the podcast distribution pipeline (Transistor draft upload)."""
     status, status_path = load_status(topic)
 
     print(f"\n{'#'*60}")
@@ -232,113 +172,8 @@ def run_distribute(topic):
     if review == "quit":
         return False
 
-    # 2. YouTube upload (unlisted)
-    run_step(
-        "YouTube Upload",
-        [str(TOOLS_DIR / "distribute_youtube.py"), topic],
-        status, status_path, "youtube_upload", "distribution",
-    )
-
-    review = pause_for_review(
-        "YouTube",
-        "Log into YouTube to review, add end screen, and publish.",
-    )
-    if review == "quit":
-        return False
-
-    # 3. Newsletter draft
-    run_step(
-        "Newsletter Draft (Buttondown)",
-        [str(TOOLS_DIR / "distribute_newsletter.py"), topic],
-        status, status_path, "newsletter_draft", "distribution",
-    )
-
-    review = pause_for_review(
-        "Newsletter",
-        "Log into Buttondown to review and send the newsletter.",
-    )
-    if review == "quit":
-        return False
-
     print(f"\n{'#'*60}")
     print(f"  DISTRIBUTION COMPLETE")
-    print(f"{'#'*60}")
-    return True
-
-
-def run_promote(topic):
-    """Run the promotion pipeline."""
-    status, status_path = load_status(topic)
-
-    print(f"\n{'#'*60}")
-    print(f"  PROMOTION PIPELINE: {topic}")
-    print(f"{'#'*60}")
-
-    # 1. Content prep
-    run_step(
-        "Promotion Content Prep",
-        [str(TOOLS_DIR / "promote_prepare.py"), topic],
-        status, status_path, "content_prep", "promotion",
-    )
-
-    review = pause_for_review(
-        "Promotion Schedule",
-        "Review schedule.json and content files in episodes/{}/promotion/".format(topic),
-    )
-    if review == "quit":
-        return False
-
-    # 2. Twitter thread
-    print("\nTwitter thread posting:")
-    print("  Run: python tools/promote_twitter.py {} --thread".format(topic))
-    print("  (Requires Twitter API credentials in .env)")
-
-    step = status["promotion"]["twitter_thread"]
-    if step["status"] != "completed":
-        review = pause_for_review(
-            "Twitter Thread",
-            "Post the thread manually or via promote_twitter.py, then press Enter.",
-        )
-        if review == "quit":
-            return False
-        if review != "skip":
-            step["status"] = "completed"
-            save_status(status, status_path)
-
-    # 3. LinkedIn
-    print("\nLinkedIn post:")
-    print("  Content ready in: episodes/{}/promotion/linkedin-post.md".format(topic))
-    print("  Copy and paste into LinkedIn manually.")
-
-    step = status["promotion"]["linkedin"]
-    if step["status"] != "completed":
-        review = pause_for_review("LinkedIn", "Post to LinkedIn, then press Enter.")
-        if review == "quit":
-            return False
-        if review != "skip":
-            step["status"] = "completed"
-            save_status(status, status_path)
-
-    # 4. Instagram
-    print("\nInstagram/TikTok:")
-    print("  Clips in: episodes/{}/assets/clips/".format(topic))
-    print("  Captions in: episodes/{}/promotion/instagram-captions.md".format(topic))
-
-    step = status["promotion"]["instagram"]
-    if step["status"] != "completed":
-        review = pause_for_review("Instagram/TikTok", "Upload from phone, then press Enter.")
-        if review == "quit":
-            return False
-        if review != "skip":
-            step["status"] = "completed"
-            save_status(status, status_path)
-
-    # 5. Twitter drip
-    print("\nTwitter drip campaign (days 2-7):")
-    print("  Run daily: python tools/promote_twitter.py {} --all".format(topic))
-
-    print(f"\n{'#'*60}")
-    print(f"  PROMOTION LAUNCHED")
     print(f"{'#'*60}")
     return True
 
@@ -350,7 +185,7 @@ def show_status(topic):
     print(f"\nRelease Status: {topic}")
     print(f"Updated: {status.get('updated', 'never')}\n")
 
-    for phase_name in ["production", "distribution", "promotion"]:
+    for phase_name in ["production", "distribution"]:
         phase = status.get(phase_name, {})
         total = len(phase)
         completed = sum(1 for s in phase.values() if s.get("status") == "completed")
@@ -373,17 +208,16 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Commands:
-  produce      Run the production pipeline (audio → video → images → clips)
-  distribute   Run the distribution pipeline (Transistor → YouTube → newsletter)
-  promote      Run the promotion pipeline (schedule → Twitter → LinkedIn → Instagram)
+  produce      Run the audio production pipeline (audio assembly → timestamps → transcript)
+  distribute   Run the distribution pipeline (Transistor draft upload, pauses at publish gate)
   status       Show current release status
-  full         Run all pipelines sequentially
+  full         Run produce + distribute sequentially
         """,
     )
     parser.add_argument("topic", help="Episode topic")
     parser.add_argument(
         "command",
-        choices=["produce", "distribute", "promote", "status", "full"],
+        choices=["produce", "distribute", "status", "full"],
         help="Pipeline to run",
     )
     args = parser.parse_args()
@@ -400,12 +234,9 @@ Commands:
         run_produce(args.topic)
     elif args.command == "distribute":
         run_distribute(args.topic)
-    elif args.command == "promote":
-        run_promote(args.topic)
     elif args.command == "full":
         if run_produce(args.topic):
-            if run_distribute(args.topic):
-                run_promote(args.topic)
+            run_distribute(args.topic)
 
 
 if __name__ == "__main__":

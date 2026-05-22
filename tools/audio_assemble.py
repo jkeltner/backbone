@@ -4,8 +4,7 @@ audio_assemble.py — Backbone Audio Assembly
 
 Stitches per-wave TTS audio files + music into a single episode.mp3 with
 crossfades. Also produces a position map (assembly-map.json) used by
-downstream tools (timestamp_chapters, clip_generate) to locate content
-by time offset.
+timestamp_chapters to locate content by time offset.
 
 Usage:
   python tools/audio_assemble.py refrigeration
