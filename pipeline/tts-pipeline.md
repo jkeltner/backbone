@@ -191,7 +191,7 @@ ID3v2.4 tags are written via **mutagen** *after* pydub exports the MP3 — pydub
 | `TCON` (genre) | "Podcast" |
 | `TDRC` (year) | Current year |
 | `TRCK` (track) | Episode number from `metadata.md`, defaults to "1" |
-| `APIC` (cover) | `assets/cover_art.png` (front cover, embedded at 2048×2048) |
+| `APIC` (cover) | `assets/show_cover_art.png` (front cover, embedded at 2048×2048) |
 
 ---
 

@@ -214,7 +214,7 @@ backbone/
 │   ├── distribution-pipeline.md
 │   ├── launch-plan.md
 │   └── learnings.md                 ← distilled lessons from prior runs
-├── assets/                          ← show-level: cover art, header, music
+├── assets/                          ← show-level: cover art master, music
 └── episodes/
     └── {topic}/
         ├── research/

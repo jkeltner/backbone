@@ -223,8 +223,7 @@ backbone/
 │       └── final/               ← assembled deliverables (episode.mp3, transcript, chapters, metadata, show-notes, social-content, assembly-map)
 ├── assets/                      ← show-level assets
 │   ├── show-description.md      ← canonical show copy (tagline, short, long descriptions)
-│   ├── cover_art.png            ← show-level cover art
-│   ├── header.png               ← show-level header image (backbone.fm / Transistor site)
+│   ├── show_cover_art.png       ← show-level cover art master (square)
 │   └── music/                   ← locked: backbone-theme.mp3, backbone-bumper.mp3
 ├── pipeline/                    ← technical specs + plans for automated tooling
 │   ├── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec

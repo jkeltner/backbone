@@ -80,7 +80,8 @@ def load_id3_tags(topic):
 
 def find_cover_art():
     """Return path to show cover art if present, else None."""
-    for candidate in ("assets/cover_art.png", "assets/cover_art.jpg",
+    for candidate in ("assets/show_cover_art.png", "assets/show_cover_art.jpg",
+                      "assets/cover_art.png", "assets/cover_art.jpg",
                       "assets/cover.png", "assets/cover.jpg",
                       "assets/show-cover.png"):
         p = REPO_ROOT / candidate

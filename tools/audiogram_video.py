@@ -103,7 +103,7 @@ def find_background_image(topic, override=None):
     if audiogram_bg.exists():
         return audiogram_bg
 
-    for name in ["promo_image.png", "promo_image.jpg", "cover_art.png", "cover_art.jpg"]:
+    for name in ["promo_image.png", "promo_image.jpg", "show_cover_art.png", "show_cover_art.jpg", "cover_art.png", "cover_art.jpg"]:
         p = REPO_ROOT / "assets" / name
         if p.exists():
             return p
