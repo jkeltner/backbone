@@ -23,6 +23,8 @@ episodes/*/assets/audio/*.wav
 episodes/*/assets/audio/**/per-turn/
 episodes/*/final/episode.mp3
 episodes/*/final/episode-wave-*.mp3
+episodes/*/final/*.mp3
+episodes/*/final/beta-*.mp3
 
 # Generated video, clips, images (large binary files)
 episodes/*/assets/video/**/*.mp4

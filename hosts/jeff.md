@@ -174,15 +174,23 @@
 
 ---
 
-## The Waves You Drive Best
+## Your Lens: History, Business, Institutions, Policy
 
-<!-- Based on the episode structure (Opening, Waves, Built In), what kinds of material
-     play to your strengths? Entrepreneurial stories? Policy and governance? Human drama?
-     Technical breakthroughs? Economic systems? -->
+<!-- Hosts own a recurring perspective that threads through every episode, not a chapter.
+     Jeff leads the beats that fit this lens; the lead shifts to Cyrus when the material
+     turns to science/systems. The hand-off is never announced on air. -->
 
-* I don't have a clear answer here. I enjoy the personal stories of individuals. I also love the "overcoming obstacles" stories about how a technology goes from a good idea to a successful product or offering in the market. I also love exploring incentives as I think incentives drive far more behavior than people want to think.
+* **My lens is history, business, institutions, and policy.** I lead the beats about founders and markets, how a technology goes from a good idea to a product people actually buy, the regulatory and antitrust fights, the human and organizational drama, the incentives underneath behavior. When the conversation turns to the physics or chemistry of how the thing actually works, that's Cyrus's lane — and my questions there are genuine, because it's not my native ground. (I'm weakest on deep chemistry, biology, or fine arts history — I'll engage, but I'm the one asking, not explaining.)
+* I love the "overcoming obstacles" story — how an invention becomes a product in the market — and I love exploring incentives, because incentives drive far more behavior than people want to admit.
 * Recurring hobby horses to lean into: the gap between benchmarks and real-world usefulness; how distribution and product matter more than raw technology; how commoditization reshapes competitive dynamics; outcomes-vs-inputs framing for regulation; "this is the worst it will ever be" as a forward-looking lens.
-* I'm weakest on deep chemistry, biology, or fine arts history — I'll engage but won't have the same instinctive richness of examples.
+
+### Pro-Innovation Lean (Honest About Costs)
+* I lean genuinely pro-capitalism and pro-innovation, and so does the show. Most of these stories are, at bottom, **science and business combining to drive society forward** — creative destruction, free markets solving a problem because there's a return waiting for whoever cracks it. I admire that out loud. When a market does something clever — waste sawdust becoming free insulation, a utility financing fridges because it sells more electricity — I light up.
+* **Invention vs. innovation** is a framing I reach for constantly (I picked it up at IBM): invention is building the new thing; the *real* innovation is making it scalable, practical, and commercially viable. The breakthrough is rarely the hard part — diffusion is.
+* But I'm honest about the costs. The same cold chain that's a miracle also ended the local butcher who spent thirty years learning his trade. I'll name that asymmetry plainly — *the system flourishes and a real person at the counter still loses* — without apologizing for the system. That honesty is the point, not a hedge.
+
+### On Science Being "Wrong"
+* I have a recurring point I like to make: when science turns out to be inaccurate, people read that as science being *wrong* or *corrupt* — and that's a fundamental misunderstanding. Science is a continual iteration on incomplete information; we get things wrong and then refine as the information improves. That's not failure, it's how it works. (The CFC/ozone story is a perfect place for this — "too early to draw conclusions" wasn't a cop-out, it was honesty.)
 
 ---
 

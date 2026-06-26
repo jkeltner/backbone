@@ -29,7 +29,7 @@ Each episode runs 90–120 minutes and follows a consistent structure:
 
 ## How the Pipeline Works
 
-This repo is an AI agent pipeline operated through **slash commands** in Claude Code. Each command runs a coherent chunk of the pipeline and stops at a natural review point. Jeff and Cyrus each write solo notes, then hold a live review meeting and save the transcript. The next command picks up from there — incorporating all of it as binding guidance.
+This repo is an AI agent pipeline operated through **slash commands** in Claude Code. Each command runs a coherent chunk of the pipeline and stops at a natural review point. The command itself uploads the deliverable to a Google Doc in `Backbone Feedback / {topic} /` and writes the URL to `feedback/docs.json` — Jeff and Cyrus just open the doc, comment inline, and hold a live review meeting. The next command picks up from there — fetching the doc + comments via the Drive API and incorporating both sources as binding guidance.
 
 Three content checkpoints, three review meetings, then a single refinement pass and production:
 
@@ -42,7 +42,8 @@ Topic Selection (human)
   └── Narrative Architect (story blueprint)
         │
         ▼
-  [Solo notes → 01-jeff-notes.md, 01-cyrus-notes.md]
+  [/blueprint creates Google Doc → feedback/docs.json["01"]]
+  [Hosts comment in the doc → fetched → 01-blueprint-comments.md by /script]
   [Audio review → episodes/{topic}/feedback/01-blueprint.txt]
         │
         ▼
@@ -51,7 +52,8 @@ Topic Selection (human)
   └── Script Writer (TTS-ready dialogue, chapter by chapter)
         │
         ▼
-  [Solo notes → 02-jeff-notes.md, 02-cyrus-notes.md]
+  [/script creates Google Doc → feedback/docs.json["02"]]
+  [Hosts comment in the doc → fetched → 02-script-comments.md by /polish]
   [Audio review → episodes/{topic}/feedback/02-script.txt]
         │
         ▼
@@ -60,7 +62,8 @@ Topic Selection (human)
   └── Fact Checker (claims, stats, quotes)
         │
         ▼
-  [Solo notes → 03-jeff-notes.md, 03-cyrus-notes.md]
+  [/polish creates Google Doc → feedback/docs.json["03"]]
+  [Hosts comment in the doc → fetched → 03-polish-comments.md by /refine]
   [Audio review → episodes/{topic}/feedback/03-polish.txt]
         │
         ▼  (in parallel with /produce, in a separate window)
@@ -87,19 +90,20 @@ Topic Selection (human)
 
 ### The three review meetings
 
-Each `/blueprint`, `/script`, `/polish` command stops when its agents finish. Then a three-part feedback flow:
+Each `/blueprint`, `/script`, `/polish` command stops when its agents finish — and before stopping, it uploads the deliverable to a Google Doc in `Backbone Feedback / {topic} /` and writes the URL to `docs.json` under the checkpoint key. Then a two-part feedback flow:
 
-1. **Solo notes (optional but recommended).** Jeff and Cyrus each write their own notes first, saved to `episodes/{topic}/feedback/0N-jeff-notes.md` and `0N-cyrus-notes.md`. Informal markdown — organize by section, keep it terse and opinionated. These catch line-level signal that often gets lost in the live conversation.
-2. **Audio review.** You and Cyrus hold a live conversation about the output — what landed, what didn't, anecdotes worth weaving in, anything that needs to change.
-3. **Save the transcript** to the path the command tells you (`01-blueprint.txt` / `02-script.txt` / `03-polish.txt`).
+1. **Google Doc with inline comments (optional but recommended).** Open the auto-created doc (URL is in the command's output and in `feedback/docs.json`). Both hosts comment inline using highlights. The next command auto-fetches the doc body + comments via `tools/fetch_feedback.py` and writes `0N-{checkpoint}-comments.md` — anchored comments come through inline with the paragraph they reference, with author, timestamp, reply threads, and resolved status. The `.md` is the audit trail of what the agent saw; the live doc is the source of truth.
+2. **Audio review.** You and Cyrus hold a live conversation about the output — what landed, what didn't, anecdotes worth weaving in, anything that needs to change. Save the transcript to `01-blueprint.txt` / `02-script.txt` / `03-polish.txt`.
 
-The next command's agents read whichever of the three files exist and treat them as binding direction. **Precedence on conflict:** the transcript wins (the live conversation supersedes pre-meeting solo takes), but solo notes carry line-level signal the transcript may not revisit.
+The next command's agents read whichever artifacts exist and treat them as binding direction. **Precedence on conflict:** the transcript wins (the live conversation supersedes pre-meeting comments), but anchored comments carry line-level signal the transcript may not revisit.
 
-The audio review stays the heart of the feedback loop — conversation surfaces what notes don't (personal stories, off-the-cuff reactions, the "huh, I'd never thought of it that way" moments). Solo notes are the supplement: a place to capture specific reactions before the conversation drifts, and a way for Cyrus to weigh in even when scheduling slips the live meeting.
+**One-time setup:** share the root `Backbone Feedback` folder in your Drive with Cyrus as commenter. All per-episode sub-folders and per-checkpoint docs inherit access — you never have to think about permissions again.
+
+The audio review stays the heart of the feedback loop — conversation surfaces what comments don't (personal stories, off-the-cuff reactions, the "huh, I'd never thought of it that way" moments). The Google Doc is the supplement: a collaborative surface where both hosts can react to specific lines before the conversation drifts, and a way for Cyrus to weigh in even when scheduling slips the live meeting.
 
 ### The /refine side loop
 
-Once all three review meetings are done, run `/refine {topic}` once. It reads every feedback file together — solo notes and audio transcripts across all three checkpoints — and proposes targeted edits to `roles/` and `hosts/` files. These are the fixes that prevent the same issue recurring on future episodes. Proposals are written to `episodes/{topic}/refinements/proposals.md`; Jeff applies the ones that land.
+Once all three review meetings are done, run `/refine {topic}` once. It re-fetches any Google Docs listed in `docs.json` (so every comment markdown is current), then reads every feedback artifact together — fetched comment markdowns and audio transcripts across all three checkpoints — and proposes targeted edits to `roles/` and `hosts/` files. These are the fixes that prevent the same issue recurring on future episodes. Proposals are written to `episodes/{topic}/refinements/proposals.md`; Jeff applies the ones that land.
 
 Reading all three meetings at once is what makes cross-checkpoint patterns visible — for example, "the script writer drifted from the blueprint AND the editor didn't catch it AND the fact checker found knock-on errors" is one root-cause story that fragments into disconnected reports if you split it. Run it in a separate Claude Code window from your main production session if you want to keep contexts clean; it's fine to run it in parallel with `/produce` and `/distribute` since those don't depend on `roles/` or `hosts/`.
 
@@ -116,10 +120,10 @@ Runs **twice** per episode. Phase 1 (in `/blueprint`) casts a wide net — sourc
 Turns raw research into a **blueprint** — the binding creative contract. Defines wave boundaries, selects and places anchor stories, assigns hosts by worldview fit, specifies the "road not taken" for each wave, and identifies what the episode's diffusion story teaches. Every downstream agent builds from the blueprint.
 
 ### Script Writer
-Writes fully scripted, TTS-ready dialogue for ElevenLabs v3. Works chapter by chapter, following the blueprint. Manages host knowledge division (one host drives each wave, the other discovers), primes every anchor story with host reaction, and writes How It Works sections as dialogue rather than monologue. Reads the Checkpoint 1 feedback (solo notes + audio transcript) and weaves in any anecdotes Jeff or Cyrus shared.
+Writes fully scripted, TTS-ready dialogue for ElevenLabs v3. Works chapter by chapter, following the blueprint. Manages host knowledge division (one host drives each wave, the other discovers), primes every anchor story with host reaction, and writes How It Works sections as dialogue rather than monologue. Reads the Checkpoint 1 feedback (Google Docs comments + audio transcript) and weaves in any anecdotes Jeff or Cyrus shared.
 
 ### Editor
-Reviews the assembled script as a continuous episode. Catches continuity gaps, pacing problems, voice drift, planted callbacks that never land, and transitions that complete rather than propel. Also runs a systematic voice consistency check against the host profiles. Reads the Checkpoint 2 feedback (solo notes + audio transcript) and addresses each substantive point.
+Reviews the assembled script as a continuous episode. Catches continuity gaps, pacing problems, voice drift, planted callbacks that never land, and transitions that complete rather than propel. Also runs a systematic voice consistency check against the host profiles. Reads the Checkpoint 2 feedback (Google Docs comments + audio transcript) and addresses each substantive point.
 
 ### Fact Checker
 Verifies claims, statistics, and quotes against sources. Produces a report with confidence levels and corrects the chapter scripts in place. Treats anything Jeff or Cyrus flagged in the Checkpoint 2 meeting as Priority 1.
@@ -155,9 +159,9 @@ All pipeline operations live in `.claude/commands/`. Every command takes the top
 
 | Command | What it runs | Stops at |
 |---------|-------------|----------|
-| `/blueprint <topic>` | Research Director Phase 1 → Narrative Architect | Solo notes → `feedback/01-jeff-notes.md` + `01-cyrus-notes.md`, then audio review → `feedback/01-blueprint.txt` |
-| `/script <topic>` | Research Director Phase 2 → Script Writer | Solo notes → `feedback/02-jeff-notes.md` + `02-cyrus-notes.md`, then audio review → `feedback/02-script.txt` |
-| `/polish <topic>` | Editor → Fact Checker | Solo notes → `feedback/03-jeff-notes.md` + `03-cyrus-notes.md`, then audio review → `feedback/03-polish.txt` |
+| `/blueprint <topic>` | Research Director Phase 1 → Narrative Architect → creates `01-blueprint` doc | Hosts comment in the doc, then audio review → `feedback/01-blueprint.txt` |
+| `/script <topic>` | Research Director Phase 2 → Script Writer → creates `02-script` doc | Hosts comment in the doc, then audio review → `feedback/02-script.txt` |
+| `/polish <topic>` | Editor → Fact Checker → creates `03-polish` doc | Hosts comment in the doc, then audio review → `feedback/03-polish.txt` |
 
 ### Production (no review gates)
 
@@ -171,7 +175,7 @@ All pipeline operations live in `.claude/commands/`. Every command takes the top
 
 | Command | What it runs |
 |---------|-------------|
-| `/refine <topic>` | After all three review meetings — proposes role/host file edits from every feedback file (solo notes + audio transcripts). Single end-of-episode run. |
+| `/refine <topic>` | After all three review meetings — proposes role/host file edits from every feedback artifact (Google Docs comments + audio transcripts). Single end-of-episode run. |
 | `/profile-update <topic>` | Post-episode — proposes host-profile edits from `feedback.txt`. |
 | `/pipeline-review <topic>` | Post-episode — live interactive session, edits to roles/templates/CLAUDE.md applied in real time. |
 
@@ -207,6 +211,8 @@ backbone/
 │   ├── audio_assemble.py            ← stitch waves + music into episode.mp3
 │   ├── timestamp_chapters.py
 │   ├── generate_transcript.py
+│   ├── create_feedback_doc.py       ← uploads artifact to a Google Doc per checkpoint (auto-called by /blueprint, /script, /polish)
+│   ├── fetch_feedback.py            ← fetches checkpoint Google Doc + comments via gws → .md
 │   └── distribute_podcast.py        ← Transistor upload
 ├── pipeline/                        ← specs + plans for the production toolchain
 │   ├── tts-pipeline.md
@@ -225,15 +231,13 @@ backbone/
         │   ├── chapter-NN-*.txt    ← chapter scripts
         │   ├── editor-notes.md
         │   └── fact-check-report.md
-        ├── feedback/                ← per-checkpoint feedback (solo notes + audio transcript)
-        │   ├── 01-jeff-notes.md     ← Jeff's solo notes (optional, pre-meeting)
-        │   ├── 01-cyrus-notes.md    ← Cyrus's solo notes (optional, pre-meeting)
-        │   ├── 01-blueprint.txt     ← audio review transcript
-        │   ├── 02-jeff-notes.md
-        │   ├── 02-cyrus-notes.md
+        ├── feedback/                ← per-checkpoint feedback (Google Docs comments + audio transcript)
+        │   ├── docs.json                   ← auto-managed: {"folder_id":"...","01":"<url>","02":"<url>","03":"<url>"}
+        │   ├── 01-blueprint-comments.md    ← fetched via tools/fetch_feedback.py (audit trail)
+        │   ├── 01-blueprint.txt            ← audio review transcript
+        │   ├── 02-script-comments.md
         │   ├── 02-script.txt
-        │   ├── 03-jeff-notes.md
-        │   ├── 03-cyrus-notes.md
+        │   ├── 03-polish-comments.md
         │   └── 03-polish.txt
         ├── refinements/             ← /refine proposals (per-checkpoint role/host edits)
         ├── feedback.txt             ← post-episode Jeff + Cyrus conversation
@@ -254,17 +258,17 @@ A complete episode run, start to finish:
 
 **2. Run `/blueprint <topic>`.** Research Director (Phase 1) and Narrative Architect produce `research/overview.md` and `blueprint.md`. Takes 30–60 minutes of agent time.
 
-**3. Review meeting #1.** Jeff and Cyrus each read the blueprint and write solo notes to `episodes/<topic>/feedback/01-jeff-notes.md` and `01-cyrus-notes.md` (informal markdown, organize by section). Then meet live: does the thesis land? Are the wave boundaries right? Are the anchor story selections vivid enough? Any personal angle either of them want woven in? Save the audio transcript to `feedback/01-blueprint.txt`.
+**3. Review meeting #1.** `/blueprint` has already created a `01-blueprint` Google Doc inside `Backbone Feedback / <topic> /` and printed the URL. Open it, both you and Cyrus comment inline. Then meet live: does the thesis land? Are the wave boundaries right? Are the anchor story selections vivid enough? Any personal angle either of them want woven in? Save the audio transcript to `feedback/01-blueprint.txt`.
 
-**4. Run `/script <topic>`.** Research Director (Phase 2) deep-dives every chapter; Script Writer produces TTS-ready dialogue. Both agents read all available Checkpoint 1 feedback (notes + transcript). Takes 1–2 hours of agent time.
+**4. Run `/script <topic>`.** Research Director (Phase 2) deep-dives every chapter; Script Writer produces TTS-ready dialogue. The command first fetches the Google Doc + comments (using the URL in `docs.json["01"]`) and writes `01-blueprint-comments.md`; both agents read it alongside the transcript. Then `/script` creates the next review doc (`02-script`) populated with the new chapter scripts and saves its URL to `docs.json["02"]`. Takes 1–2 hours of agent time.
 
-**5. Review meeting #2.** Same flow: solo notes to `02-jeff-notes.md` / `02-cyrus-notes.md` first, then live conversation. Does the dialogue sound like us? Are the anchor stories landing as scenes? Anything tonally off? Specific lines to change? Save audio transcript to `feedback/02-script.txt`.
+**5. Review meeting #2.** Open the auto-created `02-script` doc, comment inline. Then live conversation. Does the dialogue sound like us? Are the anchor stories landing as scenes? Anything tonally off? Specific lines to change? Save audio transcript to `feedback/02-script.txt`.
 
-**6. Run `/polish <topic>`.** Editor catches continuity, pacing, voice issues; Fact Checker verifies every claim. Both read all available Checkpoint 2 feedback. Takes 30–60 minutes.
+**6. Run `/polish <topic>`.** Editor catches continuity, pacing, voice issues; Fact Checker verifies every claim. Both read all available Checkpoint 2 feedback. The command also creates the `03-polish` Google Doc populated with the post-edit scripts. Takes 30–60 minutes.
 
-**7. Review meeting #3.** Final pass before audio. Solo notes to `03-jeff-notes.md` / `03-cyrus-notes.md`, then meet. Anything else to change? Save audio transcript to `feedback/03-polish.txt`.
+**7. Review meeting #3.** Open the auto-created `03-polish` doc. Comment inline, then meet. Anything else to change? Save audio transcript to `feedback/03-polish.txt`.
 
-**8. Run `/refine <topic>`.** Reads every feedback file across all three checkpoints (solo notes + audio transcripts) and proposes role/host file improvements. Run in a separate window — it's fine in parallel with the next two steps. Jeff applies the proposals that land async; Cyrus reviews any `hosts/cyrus.md` changes before they're applied.
+**8. Run `/refine <topic>`.** Re-fetches every Google Doc in `docs.json` and reads every feedback artifact across all three checkpoints, then proposes role/host file improvements. Run in a separate window — it's fine in parallel with the next two steps. Jeff applies the proposals that land async; Cyrus reviews any `hosts/cyrus.md` changes before they're applied.
 
 **9. Run `/produce <topic>`.** Producer assembles `final/`; `release.py` generates TTS audio, assembles the episode, builds chapters and transcript.
 
@@ -284,7 +288,8 @@ A complete episode run, start to finish:
 
 If you're Cyrus, your touchpoints in the pipeline are:
 
-- **Three review meetings per episode** (after `/blueprint`, `/script`, `/polish`). Each is two parts: solo notes to `feedback/0N-cyrus-notes.md` first (informal markdown — organize by section, terse and opinionated), then a live conversation with Jeff. Bring reactions, anecdotes, pushback, anything you want woven into your sections — it all becomes raw material.
+- **One-time:** Jeff shares the root `Backbone Feedback` folder with you in Drive. All per-episode sub-folders and per-checkpoint docs inherit access — no per-doc share notifications.
+- **Three review meetings per episode** (after `/blueprint`, `/script`, `/polish`). Each is two parts: open the auto-created Google Doc in the episode's sub-folder and comment inline (anchored to specific lines — the comments reach the next agent intact), then a live conversation with Jeff. Bring reactions, anecdotes, pushback, anything you want woven into your sections — it all becomes raw material.
 - **Post-episode conversation** with Jeff. Free-form. What worked, what didn't, where the script got your voice right or wrong.
 - **Reviewing host-profile proposals** that touch `hosts/cyrus.md` before they're applied — you have veto on changes to your own profile.
 
@@ -310,6 +315,6 @@ Everything else is automation. The agents handle research, drafting, editing, fa
 
 **Contingency over inevitability.** Every wave specifies the Road Not Taken — the competing path, the near-miss, what the world would have looked like if the resistance had won. This is how the diffusion story becomes intellectually honest rather than a winner's narrative.
 
-**Live conversation drives the feedback loop, solo notes back it up.** The audio review is what surfaces anecdotes, reactions, and "huh, I'd never thought of it that way" moments that become raw material for the hosts. Pre-meeting solo notes catch the line-level stuff the conversation rarely revisits — and let Cyrus weigh in async when scheduling slips the live meeting. The transcript wins on conflict; notes carry the specifics.
+**Live conversation drives the feedback loop, inline comments back it up.** The audio review is what surfaces anecdotes, reactions, and "huh, I'd never thought of it that way" moments that become raw material for the hosts. The Google Doc comments catch the line-level stuff the conversation rarely revisits — and let Cyrus weigh in async when scheduling slips the live meeting. The transcript wins on conflict; comments carry the specifics, anchored to the exact line.
 
-**The feedback loop compounds.** Every checkpoint's feedback (solo notes + transcript) feeds `/refine` (immediate role/host improvements). Every post-episode conversation feeds Profile Updater + Pipeline Reviewer (broader pipeline improvements). Over time, the system gets better at sounding like Jeff and Cyrus and at producing episodes they're proud of.
+**The feedback loop compounds.** Every checkpoint's feedback (Google Docs comments + transcript) feeds `/refine` (immediate role/host improvements). Every post-episode conversation feeds Profile Updater + Pipeline Reviewer (broader pipeline improvements). Over time, the system gets better at sounding like Jeff and Cyrus and at producing episodes they're proud of.

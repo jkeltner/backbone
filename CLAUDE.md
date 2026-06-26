@@ -20,6 +20,9 @@ Each file in `roles/` is a prompt — a complete briefing for a Claude Code Task
 - **No "dorm room" debates** — avoid simplistic good/bad framing
 - **Historical empathy** — don't judge past decisions by today's values without context
 - **Waves, not acts** — treat each technology as an evolving story with multiple chapters
+- **Pro-innovation, honest about costs** — the show has a point of view: a slight pro-capitalism, pro-innovation lean. Most of these stories are, at bottom, about how **science and business combine to drive society forward** — creative destruction, free markets solving a problem because a return waits for whoever cracks it, invention becoming innovation when someone makes it scalable and commercial. Let the hosts genuinely admire that. But the lean is honest, not naive: name the real human costs plainly (the displaced butcher who spent thirty years learning his trade) without apologizing for the system that flourished. That honesty is what keeps the lean from sounding like cheerleading.
+- **Two people, not a produced show** — the hosts speak as two smart friends having a real conversation. They are never aware of the episode's machinery. The show's internal vocabulary (waves, cold open, segments, By the Numbers, the Backbone Test as a named segment) and host assignments are production scaffolding — felt by the listener, never spoken aloud. See *Host Division* and *Things to Avoid*.
+- **Believable beats technically-true** — a statistic that is correctly sourced but *sounds* unbelievable damages trust in everything around it. Every stat must pass two tests: true **and** believable to a smart listener on first hearing. Cut or hedge anything that fails the second, and pair every number with a comparative anchor that helps rather than strains.
 
 ### Things to Avoid
 - Over-explaining "how it works" (one clear analogy beats five technical paragraphs — 5 min max)
@@ -30,7 +33,11 @@ Each file in `roles/` is a prompt — a complete briefing for a Claude Code Task
 - Using today's values to judge past decisions
 - Worshipping founders (teams, institutions, timing, and luck matter too)
 - **Inappropriate language or jokes** — both hosts use casual profanity in private conversation, but Jeff has explicitly stated scripts must be clean. Keep all scripts PG-13 at most. No crude humor, no profanity.
-- **Unchecked survivorship bias** — when telling stories of persistence paying off, leave room for the honest observation that many equally persistent people failed. Jeff will naturally flag this; scripts should give him space to.
+- **Unchecked survivorship bias** — when telling stories of persistence paying off, leave room for the honest observation that many equally persistent people failed. Jeff will naturally flag this; scripts should give him space to — once, lightly, where it fits. Don't dwell or moralize.
+- **The echo handoff** — the single most-flagged scripting failure. The next speaker repeating the previous speaker's words (often verbatim) as a reaction or transition: *"Tammany Hall is killed by an ice scandal." / "Tammany Hall is killed by an ice scandal."* Banned as a default. Reactions should be questions, emphasis, additive thoughts, or research-handoffs — not mirrors. Literal repetition is allowed only rarely, as a deliberate earned emphasis.
+- **Meta / production language in dialogue** — never let the show's internal structure or production notes be spoken: "this wave," "your wave," "cold open," "segment," "By the Numbers," "I want to leave you with," "that's the through line," "that's a critical reframe," or previewing a disagreement ("this is where we disagree"). Carry transitions with story, not labels.
+- **Fake naivety** — writing a host as a dim audience stand-in who's "never thought about" everyday things. Both hosts are smart and curious; genuine discovery is earned by a real find and framed as comparing research ("did you come across…?"), not feigned ignorance.
+- **Unbelievable statistics** — a sourced-but-implausible-sounding number ("Americans open the fridge a hundred and seven times a day," "the fridge is the most-touched object in the home, more than the phone," "adoption faster than the smartphone curve"). Cut or hedge; credibility costs more than the stat is worth.
 
 ---
 
@@ -85,22 +92,23 @@ The pipeline is operated via slash commands in `.claude/commands/`. There are th
 
 ### Three content checkpoints
 
-| # | Command | Agents run | Audio review transcript |
-|---|---------|-----------|------------------------|
-| 1 | `/blueprint {topic}` | Research Director (Phase 1) → Narrative Architect | `episodes/{topic}/feedback/01-blueprint.txt` |
-| 2 | `/script {topic}` | Research Director (Phase 2) → Script Writer | `episodes/{topic}/feedback/02-script.txt` |
-| 3 | `/polish {topic}` | Editor → Fact Checker | `episodes/{topic}/feedback/03-polish.txt` |
+| # | Command | Agents run | Pre-meeting Google Doc | Audio review transcript |
+|---|---------|-----------|------------------------|------------------------|
+| 1 | `/blueprint {topic}` | Research Director (Phase 1) → Narrative Architect | `docs.json["01"]` → fetched `01-blueprint-comments.md` | `01-blueprint.txt` |
+| 2 | `/script {topic}` | Research Director (Phase 2) → Script Writer | `docs.json["02"]` → fetched `02-script-comments.md` | `02-script.txt` |
+| 3 | `/polish {topic}` | Editor → Fact Checker | `docs.json["03"]` → fetched `03-polish-comments.md` | `03-polish.txt` |
 
-After each checkpoint, Jeff and Cyrus produce up to three feedback files in `episodes/{topic}/feedback/`:
-- `0N-jeff-notes.md` — Jeff's solo notes, written before the audio review (markdown, informal — organize by section, keep terse and opinionated)
-- `0N-cyrus-notes.md` — Cyrus's solo notes, written before the audio review (same format)
-- `0N-{checkpoint}.txt` — the audio review meeting transcript
+**The pipeline owns feedback-doc creation.** At the end of each checkpoint command, `python tools/create_feedback_doc.py {topic} {NN}` uploads the deliverable (blueprint, script bundle, polished script) to a Google Doc inside `Backbone Feedback / {topic} /` in Jeff's Drive and writes the doc URL to `episodes/{topic}/feedback/docs.json` under the matching key (`"01"`, `"02"`, `"03"`). Jeff and Cyrus comment on the doc inline; no manual upload, no URL pasting. Idempotent — re-running a checkpoint doesn't dupe the doc; if Jeff wants a fresh one, he deletes the key from `docs.json`. **Share the root `Backbone Feedback` folder with Cyrus once, ever** — all sub-folders and docs inherit access.
 
-All three are optional but recommended. The next checkpoint's agents read whichever exist and treat them as binding guidance. **Precedence on conflict:** the transcript wins — the live conversation supersedes pre-meeting solo takes. Solo notes still carry line-level signal the transcript may not revisit.
+After each checkpoint, Jeff and Cyrus can produce up to two feedback artifacts in `episodes/{topic}/feedback/`:
+- The auto-created Google Doc with both hosts' inline comments added in Drive. The next checkpoint command runs `python tools/fetch_feedback.py {topic} {NN}` which uses the `gws` CLI to export the doc as markdown, fetch comments + replies via the Drive API, and write the comment-annotated `0N-{checkpoint}-comments.md` audit trail. Downstream agents read the `.md`.
+- `0N-{checkpoint}.txt` — the audio review meeting transcript.
+
+Both are optional. The next checkpoint's agents read whichever exist and treat them as binding guidance. **Precedence on conflict:** the transcript wins — the live conversation supersedes pre-meeting comments. Comments still carry line-level signal the transcript may not revisit.
 
 ### Refinement pass (single end-of-episode run)
 
-After all three review meetings, run `/refine {topic}` once. It reads every feedback transcript together and proposes targeted edits to `roles/` and `hosts/` files at `episodes/{topic}/refinements/proposals.md`. Reading all three meetings in one pass makes cross-checkpoint patterns visible — symptoms that span multiple stages but trace to a single role-file gap. Run in a separate Claude Code window if you want to keep contexts clean; it's safe to run in parallel with `/produce` and `/distribute`. Proposals are applied async by Jeff; Cyrus reviews any `hosts/cyrus.md` changes before they're applied. Out-of-scope changes (CLAUDE.md, templates) are deferred to `/pipeline-review` post-episode.
+After all three review meetings, run `/refine {topic}` once. It re-fetches any Google Docs listed in `docs.json` so every `0N-{checkpoint}-comments.md` is current, then reads all six possible feedback artifacts together (three comment markdowns plus three transcripts) and proposes targeted edits to `roles/` and `hosts/` files at `episodes/{topic}/refinements/proposals.md`. Reading all three meetings in one pass makes cross-checkpoint patterns visible — symptoms that span multiple stages but trace to a single role-file gap. Run in a separate Claude Code window if you want to keep contexts clean; it's safe to run in parallel with `/produce` and `/distribute`. Proposals are applied async by Jeff; Cyrus reviews any `hosts/cyrus.md` changes before they're applied. Out-of-scope changes (CLAUDE.md, templates) are deferred to `/pipeline-review` post-episode.
 
 ### Production wrappers (no review gates)
 
@@ -140,14 +148,16 @@ Every episode follows this structure. All agents need this shared vocabulary.
 
 | Section | Duration | Hosts | Purpose |
 |---------|----------|-------|---------|
-| **OPENING: The Hook** | 12–18 min | Both | Cold open story, "By the Numbers" stats, "World Before," preview of waves |
-| **THE WAVES** (×2–4) | 15–25 min each | Alternate drivers | Each wave: Breakthrough → Diffusion & Resistance → What Changed |
-| **BUILT IN: The Big Picture** | 15–20 min | Both | Full arc, The Backbone Test, open questions, What the Story Teaches |
+| **OPENING: The Hook** | 8–12 min | Both | Cold open story leads, "World Before" woven in as backstory, a 1–2 sentence teaser (not a full preview). Get into the narrative fast. |
+| **THE WAVES** (×2–4) | 15–25 min each | Lead by lens | Each wave: Breakthrough → Diffusion & Resistance → What Changed. The lead shifts to whoever's lens fits the beat, even within a wave. |
+| **BUILT IN: The Big Picture** | 15–20 min | Both | "By the Numbers" (present-day scale), Full arc, The Backbone Test, open questions, What the Story Teaches |
+
+**Note on "waves":** the word is internal vocabulary — a structural tool for the team and the blueprint. It is **never spoken on air**. The listener feels chapters through narrative bridges, not labels. "By the Numbers" now lands near the **end** (Acquired-style), not in the opening.
 
 ### What Each Wave Contains
 - **The Breakthrough** — 2–3 key people with vivid human details (including the backstory that explains *why* they made their central decision), the pivotal moment, failed attempts and near-misses
 - **Anchor Stories** — 1–2 specific, vivid, short-form narratives (named person, date, place) that capture larger dynamics in miniature. These are the hardest to find and the most valuable. Each anchor story is preceded by 1–2 sentences of host setup.
-- **How It Works** — In the wave that first introduces the core mechanism. Mental model + analogy, not engineering specs. 5 min max. Structured as dialogue: setup → mechanism → non-driving host pushback → resolution + concrete consequence.
+- **How It Works** — In the wave that first introduces the core mechanism. Mental model + analogy *and then the actual mechanism* — analogy first, but don't gloss the real thing (what's compressed, what changes state, what gets hot vs. cold, where the energy goes). 5 min max. Structured as dialogue: setup → mechanism → the other host's pushback (the real objection) → resolution + concrete consequence. Led by whoever's lens fits (usually Cyrus for science).
 - **Diffusion & Resistance** — Early adopters, resisters (their arguments were often reasonable), enabling conditions, the tipping point. **Resistance gets equal time to the breakthrough — if it's shorter, the wave isn't done.**
 - **What Changed** — Immediate consequences, winners and losers, the Road Not Taken (what would the world look like if the resistance had won?), the bridge to the next wave
 
@@ -164,8 +174,14 @@ Each question gets 2–3 minutes of genuine discussion, not a summary sentence.
 ### What the Story Teaches
 The Built In section closes with a portable principle from this episode's diffusion story — something specific to what happened, not a generic observation. This is the intellectual payoff of the whole episode and builds the show's identity over time. See the Narrative Architect and Script Writer roles for guidance.
 
-### Host Division
-Each wave has a **driver** — one host leads the narrative, the other participates and reacts. **Hosts are assigned by worldview fit, not just rotation.** Jeff's instincts run toward institutional reform; Cyrus's toward structural disruption. The host whose analytical lens fits the wave's central tension should drive it. Opening and Built In are conversational (both hosts).
+### Host Division — by lens, not by chapter
+Hosts do **not** take turns "owning" waves. Each owns a **recurring perspective** that threads through the entire episode:
+- **Jeff** leads on **history, business, institutions, and policy** — founders and markets, regulatory and antitrust fights, organizational drama, deal mechanics. His instinct runs toward institutional/policy dimensions.
+- **Cyrus** leads on **science, systems, and market structure** — how the technology actually works, the physics/chemistry, systemic and economic dynamics, second-order effects at scale. His instinct runs toward structural/systems dimensions.
+
+Whoever's lens fits the beat in front of you **leads that beat**, regardless of where it falls — and the lead can pass back and forth *within* a single wave as the material shifts (business of the ice trade → Jeff; why sawdust insulates → Cyrus → monopoly fight → Jeff). This is what makes the hosts' curiosity authentic: when Cyrus explains the refrigeration cycle, Jeff's questions are *real*, and vice versa.
+
+**The division is felt, never announced.** No "this is your wave," no "I'll take this part." The hand-off is carried by the material — the moment the conversation turns to *how the cold gets made*, Cyrus is simply the one talking. Opening and Built In are the most conversational, but the lens principle holds throughout.
 
 ### Host Profiles
 Full personality profiles for each host are in `hosts/jeff.md` and `hosts/cyrus.md`. The Script Writer reads these before writing any dialogue. They define each host's background, communication style, areas of expertise, and how they interact with each other.
@@ -213,7 +229,7 @@ backbone/
 │       ├── research/            ← research files (overview + per-chapter deep dives)
 │       ├── blueprint.md         ← story structure (binding contract)
 │       ├── script/              ← script.txt files + review artifacts (editor-notes, fact-check-report)
-│       ├── feedback/            ← per-checkpoint feedback: solo notes (0N-jeff-notes.md, 0N-cyrus-notes.md) + audio review transcript (01-blueprint.txt, 02-script.txt, 03-polish.txt)
+│       ├── feedback/            ← per-checkpoint feedback: docs.json (Google Doc URLs per checkpoint) → fetched 0N-{checkpoint}-comments.md (audit trail) + audio review transcript (01-blueprint.txt, 02-script.txt, 03-polish.txt)
 │       ├── refinements/         ← /refine side-loop proposals (per-checkpoint role/host edit proposals)
 │       ├── feedback.txt         ← post-episode conversation (Jeff + Cyrus)
 │       ├── profile-update-proposals.md
@@ -240,6 +256,8 @@ backbone/
     ├── tts_dialogue.py
     ├── tts_generate.py
     ├── split_waves_to_cache.py
+    ├── create_feedback_doc.py   ← creates per-checkpoint Google Doc via gws (auto-called by /blueprint, /script, /polish)
+    ├── fetch_feedback.py        ← fetches checkpoint Google Doc + comments via gws → .md (audit trail)
     └── release.py               ← master orchestrator
 ```
 

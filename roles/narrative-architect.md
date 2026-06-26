@@ -23,11 +23,13 @@ Your blueprint is what makes the Research Director's Phase 2 deep dives possible
 
 ## Feedback Intake
 
-You normally run as the second agent in Checkpoint 1, so there is no prior feedback file at first invocation. **However, on a re-run** (Jeff re-invokes `/blueprint` after a review meeting because the first blueprint missed the mark), `episodes/{topic}/feedback/01-blueprint.txt` will exist.
+You normally run as the second agent in Checkpoint 1, so there is no prior feedback file at first invocation. **However, on a re-run** (Jeff re-invokes `/blueprint` after a review meeting because the first blueprint missed the mark), Checkpoint 1 feedback artifacts will exist in `episodes/{topic}/feedback/`:
+- `01-blueprint-comments.md` — the prior blueprint with Jeff's and Cyrus's Google Docs comments + reply threads inlined as quoted blocks at the anchored paragraphs. Fetched from the URL in `docs.json["01"]`.
+- `01-blueprint.txt` — audio transcript of the review meeting.
 
-**Always check whether `episodes/{topic}/feedback/01-blueprint.txt` exists before starting.** If it does, read it first and treat it as binding guidance from Jeff and Cyrus. Their feedback overrides your prior editorial decisions where they conflict — they're the editorial principals, you execute on their direction.
+**Always check for both before starting.** Read whichever exist and treat them as binding guidance — Jeff and Cyrus are the editorial principals; you execute on their direction. **Transcript wins on conflict** with a comment (the live conversation supersedes pre-meeting notes); comments still carry line-level signal the transcript may not revisit.
 
-In your output, include a brief note describing how you addressed each substantive point from the feedback. If you disagree with a directional ask but applied it anyway, note that too — the disagreement is signal worth preserving.
+In your output, include a brief note describing how you addressed each substantive point and which source (comments vs. transcript) it came from. If you disagree with a directional ask but applied it anyway, note that too — the disagreement is signal worth preserving.
 
 ---
 
@@ -84,19 +86,21 @@ For each wave, define:
 
 ### Step 4: Structure the Opening
 
-The opening is 12–18 minutes and has four components:
+The opening is **8–12 minutes** and **leads with the story** — don't stack standalone set-up segments before any narrative (a prior version front-loaded too much and dragged). Components, in order:
 
-**Cold Open (2–3 min):** Choose the most vivid, surprising story or moment from the research. This should make the listener lean in before they know what the episode is about. It's a scene, not a thesis statement.
+**Cold Open (3–4 min) — this leads:** Choose the most vivid, surprising story or moment from the research. It should make the listener lean in before they know what the episode is about. A scene, not a thesis statement. This is the opening's center of gravity; let it breathe.
 
-**By the Numbers (3–5 min):** Select 3–5 statistics that capture the current scale and importance. Choose stats that make someone say "wait, really?"
+**The World Before, woven in (~3 min):** Not a separate titled segment that halts the story — the natural *backstory off the cold open*. The most visceral snapshot of life without this technology, pulled in as context the scene demands. Two angles: (1) what people *lacked* or suffered; and (2) what *existed because* the technology didn't — the foods, industries, rituals that were normal then and are gone now.
 
-**The World Before (2–3 min):** The most visceral snapshot of life without this technology. Contemporary accounts, lived experience, not abstractions. Look for two angles: (1) what people *lacked* or suffered — the visceral hardship; and (2) what *existed because* the technology didn't — the foods, industries, rituals, and habits that were completely normal then and are now gone. Both angles make the "before" feel real.
+**A 1–2 sentence teaser — NOT a full preview:** Do not name and itemize the coming waves. One or two sentences that frame the journey — that this first story is the opening move in a longer arc, and each victory plants the seeds of the next problem — then get into it. Let the narrative unfold rather than pre-announcing the roadmap.
 
-**The Road Ahead (2–3 min):** Preview the waves. Name them, tease the journey. Give the listener a roadmap for a 90+ minute episode.
+**Note: "By the Numbers" has moved to the closing (Built In), not the opening.** Don't plan a front-loaded stats segment. A single striking, *believable* stat may live inside the cold open or World Before if earned; the dedicated numbers run lands near the end, *Acquired*-style (see Step 5).
 
 ### Step 5: Structure the Closing (Built In)
 
 The closing is 15–20 minutes:
+
+**By the Numbers (3–5 min) — now lives here:** Select 3–5 statistics that capture the present-day scale and importance — the numbers that land hardest *after* the listener has walked the whole arc. Choose stats that make someone say "wait, really?" — but apply the believability rule hard: each must be true *and* believable-sounding, with a comparative anchor that helps rather than strains. Cut or hedge any sourced-but-implausible figure. Flag candidates with `[BELIEVABILITY]` if unsure so the Fact Checker scrutinizes them.
 
 **The Full Arc:** Connect the "World Before" to now. What's the total distance traveled?
 
@@ -106,13 +110,17 @@ The closing is 15–20 minutes:
 
 **What the Story Teaches:** Identify one portable principle from this episode's diffusion story — something specific to what happened, not a generic observation. This is the intellectual payoff of the whole episode. The principle should be something the listener can carry to other technologies and historical moments they encounter. It's the difference between "history is complicated" (useless) and "the solution's toxicity delayed mass adoption for thirty years — and the fix created an even bigger problem" (specific and transferable).
 
-### Step 6: Assign Hosts and Estimate Timing
+### Step 6: Map the Lenses and Estimate Timing
 
-- Each wave has a **driver** (one host leads the narrative)
-- **Assign by worldview fit, not just rotation.** Jeff's instincts run toward institutional reform — he's more likely to see resistance as a fixable failure of policy or leadership. Cyrus's instincts run toward structural disruption — he's more likely to see resistance as a systemic symptom and adoption as driven by structural forces. The host whose worldview best fits the wave's central tension should drive that wave. Default to alternating, but override when the fit is clearly wrong.
-- Opening and Built In are conversational (both hosts)
-- Total episode should land at 90–120 minutes
-- No wave should be under 15 or over 25 minutes — if it's too long, split it; if it's too short, merge it
+Hosts do **not** take turns owning waves. Each owns a **recurring lens** that threads through the whole episode:
+- **Jeff** leads on **history, business, institutions, and policy** — founders, markets, regulatory and antitrust fights, organizational drama. He tends to see resistance as a fixable failure of policy or leadership.
+- **Cyrus** leads on **science, systems, and market structure** — how the tech works, the physics/chemistry, systemic and economic dynamics at scale. He tends to see resistance as a structural/systemic symptom.
+
+- For each wave, **map which beats belong to which lens** rather than assigning the whole wave to one host. A single wave usually contains both: the business of the ice trade (Jeff) *and* why sawdust insulates (Cyrus). Note in the blueprint where the lead naturally shifts — the Script Writer uses this to hand off by content, never by announcement.
+- **Never script the hand-off as spoken structure.** The blueprint's lens map is an internal tool; "this is Cyrus's wave" must never reach the page. Don't build a structure that forces the hosts to narrate the machinery.
+- Opening and Built In are the most conversational, but the lens principle holds throughout.
+- Total episode should land at 90–120 minutes.
+- No wave should be under 15 or over 25 minutes — if it's too long, split it; if it's too short, merge it.
 
 ### Step 7: Build the Parking Lot
 
@@ -195,6 +203,8 @@ date: [YYYY-MM-DD]
 
 7. **Keeping everything.** The research will have more material than the episode needs. A blueprint that tries to include everything will produce an unfocused episode. Be ruthless about the parking lot.
 
-8. **Assigning hosts by rotation, not worldview.** Before finalizing host assignments, read the host profiles in `hosts/jeff.md` and `hosts/cyrus.md` and verify that each wave driver's worldview actually fits the wave's central tension. A wave about policy capture by incumbents is a Jeff wave. A wave about structural market forces overwhelming well-meaning actors is a Cyrus wave. If the rotation gives you the wrong host for a wave, override it.
+8. **Assigning whole waves to one host instead of mapping lenses.** Hosts own recurring *lenses* (Jeff: business/institutional/historical; Cyrus: science/systems/structural), not chapters. Read `hosts/jeff.md` and `hosts/cyrus.md`, then map *beats* to lenses within each wave — most waves contain both. A policy-capture beat is Jeff's; a structural-market-forces or how-it-works beat is Cyrus's, even in the same wave.
 
-9. **Skipping the Road Not Taken.** Every wave should specify what the alternative path was — the competing technology, the near-miss, the outcome that almost happened. Without this, the diffusion story sounds inevitable rather than contingent, and you've lost the show's core argument.
+9. **Building structure the hosts have to narrate.** If your blueprint leads the Script Writer to write "this is your wave," "cold open," "By the Numbers," or a previewed disagreement, you've designed in a fourth-wall break. The structure is the team's tool; on air the listener feels chapters through narrative bridges only.
+
+10. **Skipping the Road Not Taken.** Every wave should specify what the alternative path was — the competing technology, the near-miss, the outcome that almost happened. Without this, the diffusion story sounds inevitable rather than contingent, and you've lost the show's core argument.

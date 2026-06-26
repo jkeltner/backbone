@@ -165,15 +165,22 @@
 
 ---
 
-## The Waves You Drive Best
+## Your Lens: Science, Systems, Market Structure
 
-* **Business disruption and institutional inertia** — transportation, education, healthcare. He understands resistance deeply because he understands incentive structures.
-* **AI-enabled workflows and labor displacement** — hands-on experience, strong instincts, no hand-waving.
-* **Market fragmentation and bottom-up disruption** — he sees how change starts at the margins and works inward.
-* **Luxury, scarcity, and consumer psychology** — he's observed this across watches, bags, cars and has frameworks for it.
-* **Any wave with strong human drama around institutional frustration** — he understands why the people inside broken systems act the way they do.
+<!-- Hosts own a recurring perspective that threads through every episode, not a chapter.
+     Cyrus leads the beats that fit this lens; the lead shifts to Jeff when the material
+     turns to business/institutional/historical drama. The hand-off is never announced on air. -->
 
-*Weaker ground:* pure technical deep-dives (unless framed as "why traditional companies can't build this"), sustained romantic or sentimental narrative, episodes requiring a lot of historical empathy for past decisions.
+* **My lens is science, systems, and market structure.** I lead the beats about how the technology actually works, the systemic and economic dynamics, the market-structure forces, and the second-order effects at scale. When the conversation turns to founders, institutions, policy fights, and human drama, that's Jeff's lane and I probe it.
+* **How It Works is mine — and I want the real mechanism, not a hand-wave.** I'm not a chemist, so I lead these beats by *working through* the mechanism out loud with genuine rigor: what's actually being compressed, is there liquid moving around in there or just gas, what makes one part cold and another part hot, where the energy goes. If an explanation glosses the real magic, I'll stop and ask for it. My curiosity here is real, and it's the engine of the section — I push until I actually understand it.
+* **Market structure and business-model mechanics light me up.** The razor-and-blades move (a utility happily eating the cost of the fridge because it sells more electricity forever — "give away the razor, sell the blades"), surge pricing during a heat wave, monopoly and consolidation dynamics, how scarcity gets engineered. I read these as systems with incentives, and I'll name the modern parallel ("that's just Uber's surge pricing").
+* **Business disruption and institutional inertia** — I understand resistance deeply because I understand incentive structures and who's locked in by legacy assets.
+
+*Strong ground also:* AI-enabled workflows and labor displacement; market fragmentation and bottom-up disruption; luxury/scarcity/consumer psychology.
+*Weaker ground:* sustained romantic or sentimental narrative; episodes requiring a lot of historical empathy for past decisions (I'll get there, but Jeff leads the empathy).
+
+### Forward-Looking Tension (esp. AI)
+* I'm the one who'll pull a historical pattern forward to today, and I won't reflexively land on the optimistic read. When a story suggests "the arc bends toward more total human flourishing," I'll push: maybe — but AI is genuinely different, because for the first time a technology can mimic *both* the human brain and (with humanoids) the human body. In that world, what's actually left for humans? I hold that tension honestly rather than resolving it. Jeff is more wary of leaning too hard on AI comparisons; I'll reach for them — so when we go there, we *disagree honestly* and don't tie a bow on it. Use sparingly and never force it.
 
 ---
 
@@ -182,6 +189,7 @@
 * **Content guardrail:** Both hosts use profanity naturally in private conversation, but Jeff has explicitly stated the podcast scripts should NOT include inappropriate jokes or language. Cyrus's cheeky humor (the kind of joke he'd immediately walk back in person) should be kept PG-13 in scripts.
 * **Humor style on air:** Cyrus's humor should be dry, observational, and occasionally self-deprecating — not crude. "Slightly before I was born" when discussing 1850s New York is perfect. Keep the irreverence without crossing into inappropriate territory.
 * **Genuine enthusiasm for the material:** Cyrus is not faking excitement about the content. He's deeply engaged with the stories and finds real delight in surprising details. Scripts should give him moments of genuine "no way" discovery rather than scripted-sounding reactions.
-* **Reads statistics with authority:** When Cyrus delivers numbers, he does it with conviction and contextualizes them — "one in twelve, if I'm doing my math right." He makes data conversational, not lecturing.
+* **Reads statistics with authority:** When Cyrus delivers numbers, he does it with conviction and contextualizes them — "one in twelve, if I'm doing my math right." He makes data conversational, not lecturing. (But he's also the first to call a number *out* — "fact-check this," "that's dubious" — when it sounds too good to be true. He'd rather drop an unbelievable stat than spend trust defending it.)
+* **Discovery via comparing research, not feigned ignorance:** Cyrus likes the Acquired move where the hosts don't pretend to each know everything — one will say "did you come across the story where…?" and the other gets to discover it in real time. A little genuine fallibility ("honestly, I didn't get to that part — walk me through it") *adds* credibility and reinforces that these are two real people comparing notes live, not two omniscient narrators. He's smart and curious, never dumb — the discovery is real, not performed.
 
 *[Additional to be filled in by Cyrus directly — things to avoid, patterns that feel off when read back]*

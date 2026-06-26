@@ -1,64 +1,63 @@
 ---
 topic: refrigeration
 agent: narrative-architect
-status: complete
-date: 2026-05-19
+status: revised
+date: 2026-06-25
 ---
 
 # Episode Blueprint: Refrigeration
 
+> **Checkpoint-2 revision (2026-06-25).** Revised after Jeff's and Cyrus's comments on the blueprint and the first-draft script. Structural changes baked in here: (1) **Host division is by lens, not by wave** — Jeff leads history/business/institutions/policy beats, Cyrus leads science/systems/market-structure beats, and the lead shifts *within* a chapter; never spoken on air. (2) **Opening restructured** — cold-open-led, "World Before" woven in as backstory, a 1–2 sentence teaser instead of a full wave-preview; **"By the Numbers" moved to the Built In close** (Acquired-style). (3) **Stat credibility** — the 107-opens-a-day and "more-touched-than-the-phone" claims are cut; the smartphone-curve comparison is replaced with radio/TV; remaining striking stats carry a believability check. (4) Content tweaks from the hosts threaded throughout (bacon/pepperoni in World Before, Einstein as a cold-open teaser option, lean into the Pennington sexism, ozone as collective action that *worked*, science-as-iteration, Option A road-not-taken with a caveat, banquet trimmed, pro-innovation lean, AI handled as honest disagreement). See `CLAUDE.md` (Host Division, Tone Principles) for the governing rules.
+
 ## Episode Thesis
 
 **One sentence:**
-Refrigeration's 180-year arc isn't a story about cold — it's the story of how each generation's "solution" silently built the next generation's hidden problem, until humanity finally built a civilization that can't survive without a backbone whose true costs only show up across decades.
+Refrigeration's 180-year arc isn't a story about cold — it's the story of how **today's fix sows the seeds of tomorrow's problem**: each generation's "solution" silently built the next generation's hidden cost, until we'd built a civilization that can't survive without a backbone whose true price only shows up across decades.
 
 **Key surprise or tension:**
-The same chemistry that finally made refrigeration safe enough to put in every American kitchen (Freon, 1928) became the chemistry that punched a hole in the sky 50 years later — and its replacement is now one of the fastest-growing sources of climate warming. Refrigeration is the rare technology where we can trace, in a single arc, how the "fix becomes the problem" — three times in a row.
+The same chemistry that finally made refrigeration safe enough to put in every American kitchen (Freon, 1928) became the chemistry that punched a hole in the sky 50 years later — and its replacement is now one of the fastest-growing sources of climate warming. Refrigeration is the rare technology where we can trace, in a single arc, how the "fix becomes the problem" — three times in a row. (This is the show's portable principle; the script should *demonstrate* it through the three named refrigerant generations, never state it as a slogan, and never narrate it as "the through-line.")
+
+**The lean (per CLAUDE.md Tone Principles):** This is, at bottom, a story about how **science and business combine to drive society forward** — the hosts admire that openly (creative destruction, free markets solving a problem because a return waits for whoever cracks it, invention becoming innovation when someone makes it scalable). The lean is honest, not naive: name the real costs (the displaced butcher, the families killed by early refrigerants) without apologizing for the system that flourished.
 
 ---
 
-## OPENING: The Hook (~14 min, both hosts)
+## OPENING: The Hook (~8–12 min, both hosts)
 
-### Cold Open (~3 min)
-**Story/moment:** February 10, 1806. The brig *Favorite* clears Boston Harbor with 130 tons of ice cut from a Massachusetts farm pond, bound for Martinique. Twenty-three-year-old Frederic Tudor — son of a Boston Brahmin lawyer — has bet his inheritance and his reputation that he can sell frozen water in the tropics. The *Boston Gazette* prints a one-sentence sneer: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation." Most of the cargo melts before arrival. Tudor loses $4,500. Six years later, he is in debtor's prison. He writes in his journal: *"Let those laugh who win."*
+**Structure note (revised):** The opening now **leads with the cold open and gets into the story fast** — no stack of standalone set-up segments. "World Before" is woven in as backstory off the cold open, the preview is one or two sentences (not a segment), and **"By the Numbers" has moved to the Built In close** (see that section). Work the word "Backbone" in naturally during the welcome.
+
+### Welcome (~1–2 min)
+Brief, spontaneous host banter — two smart friends genuinely excited to get into this. Tease the topic without giving it away; name the show ("Backbone") and frame it (the hidden technologies the modern world runs on). Then move into the cold open. **Do not** narrate the episode's structure.
+
+### Cold Open (~3–4 min) — this leads
+**Story/moment:** February 10, 1806. The brig *Favorite* clears Boston Harbor with 130 tons of ice cut from a Massachusetts farm pond, bound for Martinique. Twenty-three-year-old Frederic Tudor — son of a Boston Brahmin lawyer — has bet his inheritance and his reputation that he can sell frozen water in the tropics. The *Boston Gazette* prints a one-sentence sneer: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation." Most of the cargo melts before arrival. Tudor loses $4,500. Six years later, he is in debtor's prison. He writes in his journal: *"Let those laugh who win."* (Jeff loves this line as an entrepreneur's family motto — let it land.)
 
 **Why it works:** It's the show's signature move in miniature — a "fool's errand" that everyone in 1806 had every reason to mock, that would eventually become the second-largest U.S. export by tonnage. It sets up the diffusion story as a contingent, mocked, decades-long grind — not an inevitability. The Gazette quote also tees up a recurring beat: every refrigeration breakthrough in this episode gets mocked or panicked over before it gets normalized.
 
-**Tonal note for the writer:** Let the cold open breathe. Don't tell the listener "this is the start of a 180-year arc" yet. Just plant the scene — the ship, the snicker, the prison — and let it sit. The wave preview later does the structural work.
+**Optional teaser-flash (Jeff's note):** Consider a 10–15 second flash-forward inside the cold open — *"and a hundred and twenty years later, two of the most famous physicists alive will try to fix this same problem, and lose to a guy you've never heard of"* (Einstein–Szilárd). Plant intrigue, don't explain it. Keep it to a teaser; the real story lands in Wave 3.
 
-### By the Numbers (~4 min)
-| Stat | What It Means | Source |
-|------|---------------|--------|
-| Americans open the refrigerator door an average of **107 times a day** | Most-touched object in the modern home. Comparative anchor: more than they touch their phone screens (excluding scrolling). | Twilley, *Frostbite* [VERIFY in *Frostbite*] |
-| In 1930, **8%** of U.S. households had a refrigerator. By 1950, **80%** did. | Twenty-year flip; faster than the smartphone curve. Counterintuitively, the steepest part of the curve was during the Great Depression. | AEI, Pacific Standard |
-| Refrigeration consumes **~20% of global electricity**. ~7.5% of global GHG emissions. | The backbone you can't see is also one of the biggest line items on the planet's energy budget. Comparative anchor: AC alone uses more electricity than the entire continent of Africa consumes. | International Institute of Refrigeration |
-| In 1858, the *New York Times* reported **~8,000 NYC infants died in one year from contaminated milk**. | More than the entire U.S. military death toll in the Mexican-American War. The world before refrigeration wasn't quaint — it was lethal. | NYT (1858), Atlas Obscura |
-| One chlorine atom from a CFC molecule destroys **~100,000 ozone molecules**. | The chemistry of one refrigerant generation became the atmospheric crisis of the next. Comparative anchor: the "miracle compound" of 1928 became the most regulated chemical class on Earth by 1987. | American Chemical Society |
+**Tonal note for the writer:** Let the cold open breathe. Don't tell the listener "this is the start of a 180-year arc," and don't call it a "cold open." Just plant the scene — the ship, the snicker, the prison — and let it sit.
 
-**Framing notes:** Lead with the 107-times-a-day stat — it earns the "wait, really?" reaction and personalizes the abstraction. Then 8%→80%. Save the chlorine-atom number for the very end of this segment as the foreshadowing punch — listeners will hear it again in W3. The 8,000-infants stat is the most disturbing; deploy with Jeff naming it with the appropriate gravity, not as a "fun fact." **[FLAG: tonal handling]** for the writer — infant death is a real thing, and the cold open's mocking-Tudor energy needs to reset before this stat lands.
-
-### The World Before (~3 min)
-**Scene/detail:** Two interlocking images, woven together.
+### The World Before — woven in as backstory (~3 min)
+Pull back from the cold-open scene to make the listener *feel* the world that made Tudor's bet make sense. Don't title it or treat it as a separate segment — it's the context the scene demands.
 
 *Image 1 — the iceman's card:* Pre-1920, a household keeps a square card in the kitchen window. One side reads "25," then turning ninety degrees gives "50," "75," "100" — the pounds of ice the iceman should drop today. He works from a horse-drawn wagon, with the block on a sheepskin-draped shoulder, lifted with tongs. Women coordinated their entire kitchen day around the cadence of his arrival. The pan under the icebox had to be emptied every night, or it would flood the floor by morning.
 
-*Image 2 — the cow in the basement:* 1858 New York. A tenement dairy keeps cows tethered in a basement next to a whiskey distillery, feeding them on the spent mash. The resulting milk is bluish and thin. The dairyman whitens it with plaster of Paris, thickens it with starch and egg, colors it with molasses, and sends it out on the streets at sunrise. Frank Leslie's *Illustrated Newspaper* runs the multi-issue exposé. The death toll over one year, per the *New York Times*: roughly 8,000 infants.
+*Image 2 — the cow in the basement:* 1858 New York. A tenement dairy keeps cows tethered in a basement next to a whiskey distillery, feeding them on the spent mash. The resulting milk is bluish and thin. The dairyman whitens it with plaster of Paris, thickens it with starch and egg, colors it with molasses, and sends it out on the streets at sunrise. Frank Leslie's *Illustrated Newspaper* runs the multi-issue exposé. The death toll over one year, per the *New York Times*: roughly 8,000 infants. **[FLAG: tonal handling]** — infant death is real; reset the mocking-Tudor energy before this lands, and let Jeff name it with gravity. **[FACT CHECKER]** the ~8,000 figure is a period estimate — hedge it ("by the *Times*' own count, something like eight thousand").
 
-**What were people doing instead?** Salting cod (the world's most-traded fish; the Atlantic protein backbone). Spice trade routes partly to mask the taste of food turning bad. Root cellars, springhouses, ice houses dug into the earth and packed with sawdust. Ice cream was a luxury until 1850. Cocktails on the rocks didn't exist outside coastal towns where ice arrived by ship. Eating in season wasn't a virtue — it was the only option.
+**The bacon hook (Jeff's note — lead with this, it's a delight):** A lot of what we think of as "classic" food only exists *because* there was no refrigeration. Bacon, ham, pepperoni, prosciutto, salt cod, the entire cured-and-smoked larder — these are preservation technologies we now eat for pleasure. "We have the lack of refrigeration to thank for bacon." It's a warm, funny, accessible way into the World Before before the swill-milk darkness.
 
-**[FLAG: historical empathy reminder]** — Listeners should hear that the swill-milk dairyman wasn't a cartoon villain; he was running the only urban dairy model that worked when fresh milk couldn't survive a hot day. The horror is structural, not personal. Don't let the writer slip into "the past was so dumb." The point is: this was rational behavior in a world where the cold chain didn't exist.
+**What were people doing instead?** Salting cod (the world's most-traded fish; the Atlantic protein backbone). Curing and smoking meat (bacon, ham, pepperoni). Spice trade routes partly to mask the taste of food turning bad. Root cellars, springhouses, ice houses dug into the earth and packed with sawdust. Ice cream was a luxury until 1850. Cocktails on the rocks didn't exist outside coastal towns where ice arrived by ship. Eating in season wasn't a virtue — it was the only option.
 
-### The Road Ahead (~4 min)
-**Wave preview:**
-- **Wave 1: Cold as Commodity (1806–1900)** — Frederic Tudor and his obsession with packaging frozen New England ponds. The world's most absurd-looking trade becomes the second-largest U.S. export by tonnage. Then a heat wave in 1900 ends it.
-- **Wave 2: Cold as Infrastructure (1834–1927)** — A 40-year chain of failed mechanical inventors. Then Linde's ammonia compressor turns Munich beer year-round, Swift's refrigerated railcars centralize American meat, a captain in 1882 nearly freezes to death saving the first New Zealand mutton shipment, and a chemist named Mary Pennington has to apply for her own promotion as "M.E." to slip past the all-male civil service board. Refrigeration becomes plumbing.
-- **Wave 3: Cold as Chemistry (1926–present)** — A Berlin family dies in their sleep from a refrigerator leak in 1926. Einstein and Szilárd try to invent a safer machine. They fail. A General Motors chemist named Thomas Midgley invents Freon in 1928 — the "miracle compound." Fifty years later, three British scientists in Antarctica find what NASA's satellites had been throwing away as a measurement error: a hole in the sky the size of the United States.
+**[FLAG: historical empathy reminder]** — the swill-milk dairyman wasn't a cartoon villain; he was running the only urban dairy model that worked when fresh milk couldn't survive a hot day. The horror is structural, not personal. The point is: this was rational behavior in a world where the cold chain didn't exist.
 
-**Connecting thread:** Each wave's solution becomes the next wave's problem. Each generation's fix carries the seed of the next crisis, at larger scale. The episode is asking: what does it mean to build a civilization on a backbone whose true costs only become visible decades after you've built around it?
+### The Teaser — 1–2 sentences, NOT a preview segment (revised)
+Do **not** name and itemize the three waves. One or two sentences that frame the journey and then get out of the way — something like: *"And that ship leaving Boston is just the first move. Because the whole story of cold is the same move, over and over — somebody solves the problem in front of them, and the solution quietly becomes the next problem. Three times. Let's start with the ice."* Then go. Let the narrative unfold; don't hand the listener a roadmap.
+
+*(For the team's reference only — never spoken as a preview: Wave 1 Cold as Commodity 1806–1900 / Wave 2 Cold as Infrastructure 1834–1927 / Wave 3 Cold as Chemistry 1926–present. Each wave's solution becomes the next wave's problem, at larger scale.)*
 
 ---
 
-## WAVE 1: Cold as Commodity (~22 min, Cyrus drives)
+## WAVE 1: Cold as Commodity (~22 min)
 
 ### Timeframe
 1806–1900. Tudor's first cargo to the Ice Trust's collapse in the 1900 New York heat wave.
@@ -66,7 +65,7 @@ The same chemistry that finally made refrigeration safe enough to put in every A
 ### The Story of This Wave
 A 23-year-old Boston Brahmin invents — out of nothing — a global trade in frozen water. The natural ice industry grows to roughly 90,000 workers and 25,000 horses, with single Hudson River warehouses holding 250,000 tons. It ships ice to Calcutta, Bombay, Havana, Hong Kong, Rio. Tudor reshapes how cities eat, drink, and grieve. Then a different kind of capitalist — Charles Morse — turns the industry into a monopoly, gouges New York during a heat wave, brings down Tammany Hall, and dies of a different scandal. The wave ends because mechanical refrigeration is finally cheaper than ice cut from a pond.
 
-**Why this is Cyrus's wave:** This is a structural/systems story — how a global commodity infrastructure gets assembled from zero, how vertical integration locks in scale, how a market consolidates into monopoly, how a heat wave reveals which corruption is load-bearing. Cyrus's instincts (legacy assets, incentive misalignment, structural disruption from outside) fit Tudor's empire being killed by mechanical chemistry from the outside, not reformed from within.
+**Lens map for this chapter (internal — never spoken):** The spine here is **structural/systems** — how a global commodity market gets assembled from zero, how vertical integration locks in scale, how it consolidates into monopoly, how a heat wave reveals which corruption is load-bearing. That's **Cyrus's lens**, so he leads most of it (Tudor's market-building, Wyeth's productivity lever, Morse's monopoly, the structural disruption from outside). But the lead **shifts to Jeff** for the institutional/political beats: the Ice Trust → Tammany Hall corruption riff (a 2–3 min Jeff beat) and the human/entrepreneurial drama of Tudor as a founder. The Thoreau-at-Walden anchor is a genuine both-hosts exchange. Hand-offs happen on the material, never announced. **Pro-innovation lean:** Tudor is a founder Jeff openly admires — "creative destruction in action," the first vertical-integration capitalist; let that admiration show.
 
 ### The Breakthrough
 **Key figures:**
@@ -130,7 +129,7 @@ A 23-year-old Boston Brahmin invents — out of nothing — a global trade in fr
 
 ---
 
-## WAVE 2: Cold as Infrastructure (~24 min, Jeff drives)
+## WAVE 2: Cold as Infrastructure (~24 min)
 
 ### Timeframe
 1834 (Perkins's first vapor-compression patent in London) – 1927 (the GE Monitor-Top arrives, and refrigeration enters the home before the chemistry crisis surfaces).
@@ -138,7 +137,7 @@ A 23-year-old Boston Brahmin invents — out of nothing — a global trade in fr
 ### The Story of This Wave
 A 40-year chain of failed inventors — Perkins, Gorrie, Harrison, Carré, Tellier — finally produces, with Carl von Linde in Munich in 1876, a mechanical refrigeration cycle that actually works at industrial scale. Beer leads the way (lager brewing requires year-round cold). Then Gustavus Swift's refrigerated railcars centralize American meat in Chicago, destroy the local-butcher trade, and create the Beef Trust. Australian and New Zealand frozen meat begins arriving in London. The food cold chain emerges as a global system. Mary Engle Pennington, hidden under "M.E." to get past an all-male civil service board, writes the institutional standards that turn a chaotic industry into a regulated one. Christian Steenstrup designs the GE Monitor-Top in 1927; financing on the electric bill puts a refrigerator in every American kitchen during the Great Depression. Refrigeration becomes plumbing. But the refrigerants powering it — methyl chloride, sulfur dioxide, ammonia — are killing people in their sleep.
 
-**Why this is Jeff's wave:** This is the institutional/policy wave. Pure Food and Drug Act (1906). Meat Inspection Act (1906). Antitrust against the Beef Trust (Roosevelt sues Swift, 1902). The Cold Storage Banquet as PR to fend off regulators (1911). Mary Pennington at USDA. Utility-bill financing as a quasi-public-private market design. The labor displacement of local butchers and the regulatory response. This is dense with what Jeff calls "the gap between benchmarks and real-world usefulness" — translating engineering breakthroughs into institutional practice. It's also the wave with the most "incentives drive behavior" texture (the Veeder Pool meeting every Tuesday at 2 p.m. in Chicago to fix prices is Jeff catnip).
+**Lens map for this chapter (internal — never spoken):** The spine here is **institutional/policy** — Pure Food and Drug Act (1906), Meat Inspection Act (1906), antitrust against the Beef Trust (Roosevelt sues Swift, 1902), Mary Pennington at USDA, utility-bill financing as quasi-public-private market design, the labor displacement of local butchers and the regulatory response. That's **Jeff's lens**, so he leads most of it — the founders-and-markets drama, the regulatory fights, the Pennington anchor, the Veeder Pool price-fixing riff (Jeff catnip). The lead **shifts to Cyrus** for the two science/systems beats: the **"How It Works" explainer** (5 min — his to lead) and the **market-structure read on the Beef Trust** (the Veeder Pool as a cartel; the GE/utility razor-and-blades financing — "give away the fridge, sell the electricity"). **Pro-innovation lean:** this is the great American capitalism story — invention becoming innovation when Linde obsesses over the *seal*, not the cycle; Swift seeing that the answer isn't better cattle cars but *not shipping live cattle at all*. Jeff openly frames it as invention vs. innovation. And the **honest cost**: the individual butcher with thirty years of skill is still done — name that asymmetry without apologizing for the system.
 
 ### The Breakthrough
 
@@ -185,15 +184,23 @@ Three years, three continents, three different applications. After 1880, the col
 
 **Mental model:** Refrigeration doesn't *make* cold — it *moves heat*. A refrigerator is a pump that pulls heat out of the inside and dumps it out the back.
 
-**Best analogy:** Pumping up a bicycle tire makes the pump warm — you can feel it. Letting an aerosol can spray makes the can cold — you can feel that too. A refrigerator is just doing those two things in a closed loop, forever. The compressor squeezes a gas (it gets hot, heat escapes out the coils at the back of the fridge). The valve lets the gas expand (it gets very cold, it absorbs heat from inside the fridge). Repeat. Every fridge, freezer, AC unit, walk-in cooler, banana-ripening room, vaccine fridge, and data-center cooling system on Earth is doing this same thing at different scale.
+**Best analogy (lead with this):** Pumping up a bicycle tire makes the pump warm — you can feel it. Letting an aerosol can spray makes the can cold — you can feel that too. A refrigerator is just doing those two things in a closed loop, forever.
+
+**Then name the real mechanism — don't gloss it (Cyrus's explicit note: explain the actual magic).** The writer must get past "and then physics happens." The real chain, in plain English:
+- The refrigerant is **a fluid that cycles between liquid and gas** — there genuinely *is* liquid moving around in there, not just gas. That phase change is where the magic is.
+- The **compressor squeezes the gas**, which makes it **hot** (compress a gas, it heats — the bicycle pump). That heat is dumped **out the coils on the back/bottom** into your kitchen.
+- The now-cooled high-pressure fluid passes through an **expansion valve and suddenly expands**, which makes it **very cold** (expand a gas, it cools — the aerosol can), and it **absorbs heat from inside the fridge** as it evaporates back to gas.
+- Repeat, forever. Every fridge, freezer, AC unit, walk-in cooler, banana-ripening room, vaccine fridge, and data-center cooling loop on Earth is this same cycle at different scale.
+
+The listener should come out knowing *what's compressed, what changes state, what gets hot, what gets cold, and where the heat goes* — not just "it moves heat."
 
 **4-beat dialogue structure (writer notes):**
-1. **Setup (Jeff):** "Hold on — I always thought refrigeration *made* cold. It doesn't?"
-2. **Mechanism (Cyrus, the non-driver here, but stepping up because he wants the chemistry):** Explains compress-cool-expand-absorb in plain English, with the bicycle-pump-and-aerosol analogy.
-3. **Non-driver pushback (Jeff):** "Wait — so the back of the fridge is dumping all the heat from inside out into my kitchen? That doesn't sound efficient." (It's not. This is a true pushback. Jeff is right.)
-4. **Resolution + concrete consequence (Cyrus):** Yeah, exactly — that's why the inside of your house gets warmer when the fridge runs hard, and why an air conditioner is the same machine just blowing the heat *outside* your house instead of into your kitchen. And it's why refrigeration is now ~20% of global electricity. You're not generating cold for free — you're paying, in heat moved, every single time. That's the whole game.
+1. **Setup (Cyrus leads — this is his lens):** frames the counterintuitive thing — refrigeration doesn't *make* cold, it *moves* heat — and works through the real mechanism above, analogy first, then the actual liquid/gas cycle. He's not a chemist; he leads by *working it out with rigor* and insisting on the real answer, which is his authentic posture.
+2. **The genuine pushback (Jeff):** "Wait — so the back of the fridge is dumping all the heat from inside straight into my kitchen? That can't be efficient." (It's not. Jeff is right — and as the institutional/business mind, he's the honest proxy for the listener here.)
+3. **Resolution + concrete consequence (Cyrus):** Exactly — your kitchen really is a little warmer when the fridge runs hard, and an air conditioner is the *same machine* just dumping the heat outside your house instead of into your kitchen. You never get cold for free; you pay in heat moved, every time.
+4. **Scale anchor:** that's why cooling is now roughly a fifth of the world's electricity. (Believable framing — pair with the radio/TV-era adoption comparison, not the smartphone curve.)
 
-**Why Cyrus does the explaining even though Jeff drives the wave:** Jeff's authentic posture is the curious non-expert here — he'd genuinely never think about refrigeration as "moving heat." The mechanism is conceptual, not institutional; Cyrus, who builds with systems, is the natural explainer. This is the kind of moment where the non-driver gets a discovery beat — Jeff actually learning something he didn't know — and where the driver (Jeff) hands the mic over for five minutes.
+This is a discovery beat for *both* of them done honestly: Cyrus genuinely working out the mechanism, Jeff genuinely pushing on the efficiency. Neither plays dumb; the curiosity is real because the lens division is real.
 
 ### Diffusion & Resistance (target: ≥ length of Breakthrough section)
 
@@ -206,7 +213,7 @@ Three years, three continents, three different applications. After 1880, the col
 - **The Monitor-Top (1927) and the Depression-era boom (1930s):** GE's $18M production + $1M advertising + utility-bill installment financing ($10/month on the electric bill) takes adoption from 8% to 44% in a decade — during the Great Depression. The fall in real cost outpaced the income drop.
 
 **Resisters (their arguments were often reasonable):**
-- **Local butchers (1880s):** Organized boycotts of "Chicago beef" in New York, Boston, Philadelphia, San Francisco. Their arguments: early dressed beef *was* often spoiled; the Chicago oligopoly was clearly engaged in price fixing (they were — the Veeder Pool met every Tuesday at 2 p.m. to set prices); centuries-old apprenticed craft was being destroyed. They were *right* about all of it. They lost because consumers chose price. By 1893, the Big Five controlled ~45% of the U.S. cattle market.
+- **Local butchers (1880s):** Organized boycotts of "Chicago beef" in New York, Boston, Philadelphia, San Francisco. Their arguments: early dressed beef *was* often spoiled; the Chicago oligopoly was clearly engaged in price fixing (they were — the Veeder Pool met every Tuesday at 2 p.m. to set prices); centuries-old apprenticed craft was being destroyed. They were *right* about all of it. They lost because consumers chose price. By 1893, the Big Five controlled ~45% of the U.S. cattle market. **(Surface Jeff's general principle here:** resisters are usually *right about the specifics of their moment* and wrong only about where the larger trend is headed. The butchers weren't stupid or merely self-interested — they were correct about the spoilage and the collusion, and the trend still rolled over them.)
 - **Western cattle ranchers:** Centralized slaughter meant they were selling cattle into a market priced by five colluding firms. They testified before Congress, lost in court for years, never recovered leverage.
 - **Cultural / consumer resistance to "old food":** Through the 1900s and 1910s, refrigerated food carried a real stigma — it was the working-class option, while "fresh from market" was high-status. The 1911 Cold Storage Banquet (see below) was the industry's response.
 - **Cattle ranchers and farmers who saw the cold chain as a wedge for industrial consolidation:** This wasn't paranoia. The Beef Trust did what they said it would do.
@@ -214,8 +221,8 @@ Three years, three continents, three different applications. After 1880, the col
 - **Working-class women and household uncertainty (1920s–30s):** **[MISSING PERSPECTIVE]** — most marketing analysis from this era comes from manufacturer archives, not from women's own accounts. The script should acknowledge that we know more about what GE *thought* its customers wanted than about what they actually thought of the appliance.
 - **Toxic refrigerants killing families:** The Berlin family (1926). Multiple home refrigerator-leak deaths through the 1920s. Newspapers ran panic stories. The Cleveland Clinic disaster (May 15, 1929) — 123 people dead from burning X-ray film releasing phosgene, methyl chloride, and other gases — became the political backdrop. This wasn't manufactured fear. Methyl chloride was odorless. Sulfur dioxide was overpowering. Ammonia was lethal in enclosed spaces.
 
-**The 1911 Cold Storage Banquet — a resistance set piece (writer beat, ~3 min):**
-On October 23, 1911, in the Louis XVI Room of the Hotel Sherman in Chicago, the National Poultry, Butter, and Egg Association hosted 400 guests including Mayor Carter Harrison Jr. and the city's health commissioner. Everything but the olives in the dry martinis was refrigerated. A capon had been in cold storage since Valentine's Day. The vice president of the association made a point of advertising the *age* of the food. It was a PR stunt to break the cultural stigma that "cold storage = old + dangerous + adulterated." Twilley features this scene prominently in *Frostbite*; the writer should treat it as the wave's emblem of cultural resistance — not as an anchor story (we already have two), but as a vivid 2–3 minute scene Jeff sets up: *"The industry knew the technology worked. The problem was, the public still thought refrigerated food was old food. So they tried something kind of insane."*
+**The 1911 Cold Storage Banquet — a brief resistance beat (writer beat, ~1–1.5 min; trimmed per Jeff):**
+On October 23, 1911, in the Hotel Sherman in Chicago, the National Poultry, Butter, and Egg Association hosted 400 guests — including the mayor and the city's health commissioner — a banquet where everything but the martini olives was refrigerated, and a capon had been in cold storage since Valentine's Day. The association *advertised* the age of the food on purpose. It was a PR stunt to break the stigma that "cold storage = old + dangerous." Keep this **tight** — it's a single vivid image of cultural resistance, not a set piece. One punchy beat (the eight-month-old capon served as a flex), a laugh, and move on. Don't linger.
 
 **Enabling conditions:** Urban electrification (1880s onward); the Rural Electrification Act (1936) extending the grid; the trans-American railroad network (1869+) with icing stations along the route (Omaha, Utah, Sierra Nevada); cheap consumer installment credit; hermetic compressor seal technology (1920s); cold storage warehouses in port cities; the rise of national advertising; and — crucially — Pennington's USDA cold-chain standards making the food *trustworthy*.
 
@@ -244,7 +251,7 @@ From 8% household adoption in 1930 to 80% in 1950 is the fastest mass-consumer-t
 
 ---
 
-## WAVE 3: Cold as Chemistry (~22 min, Cyrus drives)
+## WAVE 3: Cold as Chemistry (~22 min)
 
 ### Timeframe
 1926 (Einstein and Szilárd start working on a safer refrigerator) – present (Kigali Amendment, the cooling gap, AI data center cooling).
@@ -252,7 +259,7 @@ From 8% household adoption in 1930 to 80% in 1950 is the fastest mass-consumer-t
 ### The Story of This Wave
 The chemistry that solved the toxic-refrigerant problem became the chemistry that destroyed the ozone layer became the chemistry that's warming the climate. Three generations of refrigerants, three solutions, three problems — each at a larger scale than the last. The wave opens with a Berlin family killed in their sleep in 1926 by a refrigerator leak, and Einstein and Szilárd trying to invent a safer machine. It moves through Thomas Midgley Jr.'s 1928 synthesis of Freon (the "miracle compound"), DuPont's manufacturing empire, the Cleveland Clinic disaster (1929) accelerating Freon adoption, the Rowland-Molina paper of 1974 connecting CFCs to ozone destruction, DuPont's manufactured-doubt PR campaign, and the three British scientists at Halley Station, Antarctica, in 1985 discovering the ozone hole that NASA's satellites had been throwing away as a measurement error. The Montreal Protocol (1987) — the only UN treaty ratified by every country on Earth — phases out CFCs. They're replaced with HFCs. HFCs turn out to be 1,000 to 3,000 times more potent than CO₂ as greenhouse gases. The Kigali Amendment (2016) phases those down. Meanwhile, India is at 8% AC penetration, 70% of households still have no fridge, and the developing world's cooling demand is about to add a billion-plus new refrigerators to a planet that already spends a fifth of its electricity on cold.
 
-**Why this is Cyrus's wave:** This is a structural/systems wave — externalities of infrastructure operating at planetary scale, global coordination problems, atmospheric chemistry as the limiting factor on a market that nobody planned. Cyrus's instincts (legacy assets locking in behavior; incentive misalignment; the unfixable structural constraint) fit DuPont's 50-year arc — they were the largest manufacturer of CFCs, then HFCs, then HFOs, and at every stage their behavior was *rational given the patent and market structure they were operating in*. The Montreal Protocol works because the *patent landscape* on HFCs flipped the incentive structure, not because environmental morality won. That's a Cyrus argument. (Jeff has strong material here too — Reagan-era environmental policy, international coordination as institutional achievement — but the central tension of the wave is structural, not institutional.)
+**Lens map for this chapter (internal — never spoken):** The spine here is **structural/systems** — externalities of infrastructure at planetary scale, global coordination, atmospheric chemistry as the limiting factor on a market nobody planned. That's **Cyrus's lens**: he leads the chemistry (the actual atoms — what a CFC is, why a chlorine atom is catalytic), DuPont's 50-year arc as *structurally rational* corporate behavior (largest maker of CFCs → HFCs → HFOs, rational at every stage given the patent and market structure), and the cooling-gap-as-permanent-demand. The lead **shifts to Jeff** for the **Montreal Protocol as institutional achievement** (the rare global-coordination success — his strongest material; give him a 3–4 min beat) and the human/biographical drama (Midgley, the Einstein–Szilárd story). **Two threads to surface (Jeff's notes):** (1) **Ozone/Montreal as collective action that WORKED** — this is the rare science story with a *happy ending*; lean into it (see anchors). (2) **The science-as-iteration point** — when CFC science was first dismissed as "too early to draw conclusions," that wasn't science being *wrong* or corrupt; science is continual refinement on incomplete information. Work Jeff's framing of this in around the Rowland–Molina resistance beat — it's a genuinely important idea about how the public misreads science. **AI guidance:** the present-day "is AI the next one of these?" comparison can surface here and in Built In, but **sparingly and as honest disagreement** — Cyrus reaches for it, Jeff is wary we know enough to draw the parallel. Don't force it; don't tie a bow on it.
 
 ### The Breakthrough
 
@@ -264,7 +271,7 @@ The chemistry that solved the toxic-refrigerant problem became the chemistry tha
 | **Joe Farman, Brian Gardiner, Jonathan Shanklin** | British Antarctic Survey; 1985 *Nature* paper on the ozone hole | Three British civil-service scientists working at Halley Research Station on the Brunt Ice Shelf with a 28-year-old Dobson spectrophotometer. Farman was 55, near the end of his career. Shanklin was the junior scientist who first plotted the multi-year time series. Their backstory-as-thesis: the underdog, low-budget, ground-instrument team beating the satellite mission. NASA's expensive satellite over Antarctica had been seeing the same data for years, but the software was *programmed to discard* values that low as instrument error. The British team, on the ground, with old instruments, saw what the satellites had been throwing away. | The most dramatic confirmation of an atmospheric prediction in scientific history. Two years after their *Nature* paper, the Montreal Protocol was signed. Shanklin is still alive and gives interviews. |
 
 **[NEEDS RESEARCH for Phase 2]:**
-- The specific Berlin family killed in 1926. Multiple sources reference the death; none I found name the family. Some sources call it apocryphal. Phase 2 should either find the name or accept it as undocumented and route around it (e.g., use a broader "1920s refrigerant deaths" framing instead of a specific named family). **[MISSING PERSPECTIVE]** — silent acceptance is also okay if the name is genuinely lost; the writer should phrase it as "a Berlin family the newspapers didn't name."
+- The specific Berlin family killed in 1926. **Jeff's call: the details don't matter — the *impact* of the story does. Don't burn Phase 2 effort hunting the name.** If it's not cleanly documented, the writer should just say so lightly — "a Berlin family, in a story that may be partly apocryphal" — and keep moving. The point is that toxic refrigerants were killing people in their sleep, which is why Einstein and Szilárd cared. A hedge costs nothing here.
 - The Cleveland Clinic disaster, minute-by-minute reconstruction. The clock on the third floor stopped at 11:30:00 — get the contemporaneous newspaper accounts.
 - Shanklin interview material. He's still living as of 2025. If Phase 2 can pull from a recent interview (he's done several BBC and BAS retrospectives), the closing of the episode will sing.
 - DuPont internal documents from the 1974–1987 CFC-era. Some are in litigation archives. The 1981 decision to stop funding alternatives is well-attested in business histories but needs a primary memo or board minute.
@@ -338,23 +345,35 @@ The pattern is: *new chemistry → unforeseen cost identified by science → ind
 
 *Option B — DuPont keeps funding alternatives in 1981 instead of stopping:* HFOs and natural refrigerants arrive a decade earlier; HFCs are never widely deployed at scale. The 1990s-2010s climate cost of cooling is much smaller. The Kigali Amendment never has to exist because HFCs aren't the dominant tech to phase out. The cooling gap in the Global South gets closed with climate-compatible chemistry. The trade-off: DuPont's CFC profits dip earlier; the chemical industry's resistance to environmental science becomes a 1980s political issue, not a 2010s climate issue.
 
-**Recommendation:** Use Option A — it ties most tightly to the wave's opening anchor (Einstein-Szilárd) and makes the contingency feel personal, not just corporate.
+**Decision (Jeff confirmed): Use Option A** — it ties most tightly to the wave's opening anchor (Einstein-Szilárd) and makes the contingency feel personal, not just corporate. **Caveat from Jeff: don't lean too far into "we could have prevented climate change."** Play it as genuine contingency with real trade-offs (Option A also means slower, more expensive adoption — cold stays a luxury longer, the Sunbelt and the Global South wait longer for cheap cooling), not as a finger-wagging "if only." The honest version is that the better answer would have carried its own costs too — which is the whole point of the episode.
 
 **Bridge to finale:** The wave doesn't close — it opens out into the present. The 1.4 billion people who don't yet have a refrigerator are about to get one. AI data centers need cooling at planetary scale. The next refrigerant problem hasn't been identified yet (PFAS in some HFOs is the early signal). And the planet is now ~20% of its electricity dedicated to cold. We have built a civilization that cannot survive without a backbone whose true cost is still being tallied.
 
 ---
 
-## BUILT IN: The Big Picture (~18 min, both hosts)
+## BUILT IN: The Big Picture (~22 min, both hosts)
+
+### By the Numbers (~4 min) — moved here from the opening
+Having walked the whole arc, the hosts pull back to the present-day scale of the thing — these land harder *after* the story than they would up front (Acquired-style). Weave them into conversation as reveals, not a data dump. **Believability rule applies hard** — every number must be true *and* believable on hearing; cut or hedge anything that sounds made up. Cyrus is the natural lead (he reads stats with authority) but he's also the one who'll call a dubious number out.
+
+| Stat | What It Means | Notes for writer |
+|------|---------------|------------------|
+| In 1930, **8%** of U.S. households had a refrigerator. By 1950, **80%** did. | A 20-year flip — and the steepest part of the curve was *during the Great Depression*, because real cost fell faster than incomes and utility-bill financing made the math work. | **Comparative anchor: faster than radio or TV adoption** (Jeff's ask). **Do NOT use "faster than the smartphone curve"** — both hosts flagged it as not believable. |
+| Refrigeration consumes **~a fifth of the world's electricity**; roughly 7.5% of greenhouse emissions, and the fastest-growing slice. | The invisible backbone is one of the biggest line items on the planet's energy budget. | The "AC alone uses more electricity than the entire continent of Africa" line is striking but Cyrus flagged it as "incredible *if* true" — **[FACT CHECKER / BELIEVABILITY]** verify before use; if it doesn't hold cleanly, drop it. |
+| One chlorine atom from a CFC destroys **~100,000 ozone molecules**. | The chemistry of one refrigerant generation became the atmospheric crisis of the next — and it's the one number on this list we actually *solved*. | The payoff of the W3 foreshadowing. Land it as the collective-action-that-worked beat. |
+| Roughly **three-quarters of everything Americans eat** passes through the cold chain. | The dependence made tangible. | **[FACT CHECKER]** pin Twilley's *Frostbite* citation; phrase as "by one estimate" if soft. |
+| Callback: the ~8,000 NYC infant deaths from contaminated milk in 1858. | What the world *before* the backbone actually cost. The closing reminder. | Already used in the World Before; reprise briefly as the gut-punch anchor. |
+
+**Cut for credibility (do not use anywhere):** "Americans open the fridge 107 times a day" and "the fridge is the most-touched object in the home / more than the phone." Both hosts flagged these as not believable; the cost to credibility outweighs the punch.
 
 ### The Full Arc
 **30,000-foot view:** In 1806, a 23-year-old Boston Brahmin gets laughed at for shipping pond ice to the tropics. By 1900, ice is the second-largest U.S. export by tonnage. By 1950, four out of five American households have a refrigerator. By 2025, the world spends one-fifth of its electricity on cold and 70% of Indian households still don't have a fridge — and the planet is warming partly because of the chemistry we used to make sure cooling was safe for the kitchen.
 
-**Numbers revisited:**
-- The 107-times-a-day fridge-door stat now reads differently: most-touched object in the modern home, and most invisible.
-- The 8% → 80% adoption stat is a story about Depression-era utility-bill financing, not about prosperity.
-- The 20% of global electricity stat is about to grow as 1.4 billion more people enter the cooling market.
-- The chlorine atom destroying 100,000 ozone molecules is the only one of these numbers we *solved*.
-- The 8,000 NYC infant deaths in 1858 is the closing reminder of what the pre-cold-chain world actually cost.
+**Numbers reframed (tie the By-the-Numbers set to the arc):**
+- The 8% → 80% adoption stat is a story about Depression-era utility-bill financing, not about prosperity — and it beat radio and TV.
+- The ~one-fifth-of-global-electricity stat is about to grow as a billion-plus more people enter the cooling market.
+- The chlorine atom destroying 100,000 ozone molecules is the only one of these numbers we *solved* — the collective-action win.
+- The ~8,000 NYC infant deaths in 1858 is the closing reminder of what the pre-cold-chain world actually cost.
 
 ### The Backbone Test
 
@@ -371,7 +390,7 @@ The American diet (three-quarters of what we eat). The global meat trade. Every 
 - **The loss of regional foodways and seasonal eating.** The salt cod, the spice routes, the local butcher, the iceman ritual — gone. A particular kind of cultural texture that doesn't come back.
 - **The chemistry treadmill.** Each refrigerant generation creates the next problem. CFCs → ozone. HFCs → climate. HFOs → PFAS concerns. The next one is unknown.
 
-**Jeff/Cyrus disagreement to plan for:** Jeff is likely to argue *we've done this before, we can do it again* — Montreal worked; with policy alignment and regulatory infrastructure, the Kigali phase-down will work too; the cooling gap is solvable with climate-compatible chemistry plus aid. Cyrus is likely to argue *the demand curve in the Global South will overrun every regulatory mechanism* — 1.4 billion new fridges in 25 years is a structural fact that no treaty can constrain to the climate-safe envelope; the chemistry treadmill is permanent because the demand for cold is permanent. Don't resolve this. Honor the tension. Jeff will probably concede some structural ground; Cyrus will probably concede some institutional credit to Montreal. They don't agree — but they end somewhere honest about both being partly right.
+**Jeff/Cyrus disagreement to plan for (use Jeff's actual position):** Jeff's real take is *we can absolutely invent our way out of this — the technology and chemistry are solvable — but only with smart national and international coordination and governance, which is genuinely very hard to imagine in today's political environment.* So his optimism is conditional and pointed: Montreal proves humanity *can* do global coordination (a treaty every country on Earth signed), and the gut-punch is that the one time we pulled it off was over refrigerant chemistry — and it's almost impossible to picture us repeating it now. His live question for Cyrus: *how would we even achieve that kind of coordination today?* Cyrus pushes the structural counter: *the demand curve in the Global South will overrun every regulatory mechanism* — a billion-plus new fridges in 25 years is a structural fact no treaty constrains to the climate-safe envelope; the chemistry treadmill is permanent because the demand for cold is permanent. Don't resolve it. Jeff concedes the coordination problem is brutal; Cyrus concedes Montreal really did work. They end honest about both being partly right. (This is also the natural home for the *science-as-iteration* point and, lightly, the AI parallel — Cyrus reaches for it, Jeff is wary; keep it honest, don't tie a bow.)
 
 **4. Could we go back?**
 On the specific chemical (CFCs): we already did. On refrigeration writ large: no. Three days without power and most cities lose their food supply. The dependence is total. Comparative anchor: water and electricity are the only other infrastructure backbones this deep.
@@ -397,11 +416,11 @@ On the specific chemical (CFCs): we already did. On refrigeration writ large: no
 
 **Why this isn't fortune-cookie generic:** It's tied to specifics — three named refrigerant generations, three named scientific discoveries, three named regulatory responses. It's also actionable in a forward-looking way: when you're evaluating a new technology that's diffusing universally (AI, lithium batteries, microplastics in food packaging), the right question isn't "what's the cost we can see today" — it's "what is the multi-decade hidden cost we won't see for 30 years, and how do we build the monitoring infrastructure to catch it earlier than we caught CFCs?"
 
-**Driver:** Both. Jeff lands the principle ("here's what I think this teaches"); Cyrus extends it forward to the next technologies (AI compute as the early case where we *might* be able to catch the hidden cost earlier because we've now learned the pattern). End on Cyrus extending; let it sit. Then the wrap-up and sign-off.
+**Lead:** Both. Jeff lands the principle ("here's what I think this teaches"). Cyrus extends it forward to the next technologies — lithium batteries, microplastics, the platform economy, and *maybe* AI compute as the case where, having learned the pattern, we might catch the hidden cost earlier. **Handle the AI parallel honestly, not as a tidy mic-drop:** Jeff is genuinely wary that we know enough about AI yet to draw the comparison cleanly, and he should say so — that wariness is the more interesting beat than a confident prediction. So Cyrus reaches forward, Jeff pumps the brakes ("I'm not sure we understand AI well enough to say it's the same shape"), and they leave the question open rather than answered. The portable principle stands; its application to AI is left as the thing for the listener to sit with. Then the wrap-up and sign-off. (No meta lines — no "I want to leave you with," no "that's the through-line.")
 
 ### Show Sign-Off
 
-Wrap-up bridge (~30 sec): A brief return to the iceman-card-in-the-window image, or to the refrigerator-door-107-times-a-day stat. Something to recenter the listener on the invisibility of the backbone they just heard about. Then tee up the next episode's *type* — "another hidden technology that makes the modern world run" — without naming the topic.
+Wrap-up bridge (~30 sec): A brief return to the iceman-card-in-the-window image (the card turned to "50" in the kitchen window, the horse-drawn wagon) — something concrete to recenter the listener on the invisibility of the backbone they just heard about. Then tee up the next episode's *type* — "another hidden technology that makes the modern world run" — without naming the topic.
 
 Final line is locked, exactly as written:
 
@@ -409,15 +428,17 @@ Final line is locked, exactly as written:
 
 ---
 
-## Host Assignments
+## Lens Map (host division)
 
-| Section | Driver | Worldview Fit | Notes |
-|---------|--------|---------------|-------|
-| Opening | Both | Conversational | Jeff opens the cold open (he's the natural storyteller — "Get this, get this" energy fits the Tudor mocking-press setup). Cyrus owns "By the Numbers" (he reads stats with authority and contextualizes them, per his profile). Both on "World Before" and "Road Ahead." |
-| Wave 1: Cold as Commodity | **Cyrus** | Structural/systems story. Tudor builds a global commodity market from zero; Wyeth provides the productivity-tech scaling lever; Morse consolidates into monopoly; the wave dies from outside disruption (mechanical refrigeration), not internal reform. This is Cyrus's wheelhouse — how a market emerges, scales, and is killed by a structurally different competitor. | Jeff has a strong discovery beat in W1 around the Ice Trust scandal (institutional corruption); writer should give him a 2–3 minute Tammany Hall riff. The Thoreau-at-Walden anchor is a moment where both hosts riff on the collision of American myths — let it open up into a genuine exchange, not a monologue. |
-| Wave 2: Cold as Infrastructure | **Jeff** | Institutional/policy story. Pure Food Act, Meat Inspection Act, antitrust against the Beef Trust, Pennington at USDA, GE's utility-bill financing as quasi-public-private market design. Dense with what Jeff is good at — how regulation and institutional practice translate engineering breakthroughs into trustworthy infrastructure. | Cyrus owns the "How It Works" 5-minute segment within this wave — he's the natural explainer of the vapor-compression mechanism. He also owns the Beef Trust / Veeder Pool antitrust material (incentive misalignment / monopoly behavior — his territory). Jeff drives the wave-frame and Pennington anchor. |
-| Wave 3: Cold as Chemistry | **Cyrus** | Structural/systems story. Externalities of infrastructure operating at planetary scale. DuPont's 50-year arc as structurally rational corporate behavior. The Antarctic discovery as ground-truth beating satellite. The cooling gap as permanent demand structure, not policy failure. | Jeff has a strong discovery beat on the Montreal Protocol as institutional success (rare in the policy world); writer should give him a 3–4 minute Montreal riff that ends with him acknowledging Cyrus's structural point about the Global South cooling demand. The Einstein-Szilárd opening anchor is Cyrus's setup; the Farman/Shanklin closing anchor is the wave's emotional peak — give it room. |
-| Built In | Both | Conversational; planned disagreement on Backbone Test Q3 (hidden cost). | Jeff lands the portable principle; Cyrus extends it forward to AI compute as the case where we might catch the hidden cost earlier. End on Cyrus extending. |
+Division is **by lens, not by chapter** (see `CLAUDE.md` → Host Division). Jeff = history/business/institutions/policy. Cyrus = science/systems/market-structure. The lead shifts to whoever's lens fits the beat — *within* a chapter, often several times — and is **never announced on air** (no "this is your wave," no host-assignment talk). This table maps where each lens leads; the writer hands off on the material.
+
+| Chapter | Lens spine (primary lead) | Where the lead shifts to the other host |
+|---------|---------------------------|------------------------------------------|
+| Opening | Both, conversational | Jeff's storyteller energy fits the Tudor cold open and the bacon/World-Before hook; Cyrus picks up any stat or systems aside. No "By the Numbers" here — it moved to Built In. |
+| Wave 1: Cold as Commodity | **Cyrus** (market built from zero, vertical integration, monopoly consolidation, killed by outside disruption) | **Jeff** for the Ice Trust → Tammany Hall corruption riff (2–3 min) and Tudor-as-founder admiration. Thoreau-at-Walden is a genuine both-hosts exchange. |
+| Wave 2: Cold as Infrastructure | **Jeff** (Pure Food/Meat Inspection Acts, Beef Trust antitrust, Pennington at USDA, utility-bill financing, the founders-and-markets drama) | **Cyrus** for the "How It Works" explainer (5 min) and the market-structure read on the Beef Trust cartel + the GE/utility razor-and-blades financing. |
+| Wave 3: Cold as Chemistry | **Cyrus** (the chemistry itself, DuPont's structurally-rational 50-year arc, cooling-gap-as-permanent-demand) | **Jeff** for the Montreal Protocol as institutional success (3–4 min; ends acknowledging Cyrus's Global-South structural point) and the Midgley / Einstein–Szilárd human drama. |
+| Built In | Both, conversational | Planned honest disagreement on Backbone Test Q3 (hidden cost) and on the AI parallel. Jeff lands the portable principle; Cyrus extends it forward; Jeff pumps the brakes on the AI comparison. Leave it open. |
 
 ---
 
@@ -425,17 +446,16 @@ Final line is locked, exactly as written:
 
 | Section | Target (min) | Running Total |
 |---------|-------------|---------------|
-| Cold Open | 3 | 3 |
-| By the Numbers | 4 | 7 |
-| The World Before | 3 | 10 |
-| The Road Ahead | 4 | 14 |
-| Wave 1: Cold as Commodity | 22 | 36 |
-| Wave 2: Cold as Infrastructure | 24 | 60 |
-| Wave 3: Cold as Chemistry | 22 | 82 |
-| Built In | 18 | 100 |
-| **Total** | **100** | **90–120 target ✓** |
+| Welcome + Cold Open | 5 | 5 |
+| World Before (woven in) | 3 | 8 |
+| Teaser (1–2 sentences) | <1 | ~9 |
+| Wave 1: Cold as Commodity | 22 | 31 |
+| Wave 2: Cold as Infrastructure | 24 | 55 |
+| Wave 3: Cold as Chemistry | 22 | 77 |
+| Built In (incl. By the Numbers ~4 min) | 22 | 99 |
+| **Total** | **~99** | **90–120 target ✓** |
 
-W2 gets the extra time because it carries "How It Works" (5 min) inside it. W1 and W3 are deliberately near-equal because they bookend the arc.
+The opening is now leaner (~9 min vs. the old ~14) because "By the Numbers" moved to the Built In close and the wave-preview shrank to a teaser. Built In absorbs those ~4 minutes. W2 still gets the extra time because it carries "How It Works" (5 min) inside it. W1 and W3 are deliberately near-equal because they bookend the arc.
 
 ---
 

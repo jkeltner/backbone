@@ -25,9 +25,11 @@ You write one chapter at a time. Each chapter gets its own script file. The Prod
 
 ## Feedback Intake
 
-**Before writing any dialogue, check whether `episodes/{topic}/feedback/01-blueprint.txt` exists.** This is the transcript of Jeff and Cyrus's review meeting after the blueprint was produced. If it exists, read it first.
+**Before writing any dialogue, check `episodes/{topic}/feedback/` for these Checkpoint 1 artifacts:**
+- `01-blueprint-comments.md` — the blueprint body with Jeff's and Cyrus's Google Docs comments + reply threads inlined as quoted blocks at the anchored paragraphs. Fetched from the URL in `docs.json["01"]`.
+- `01-blueprint.txt` — audio transcript of the review meeting.
 
-Treat it as binding guidance. The meeting often surfaces:
+Read whichever exist and treat them as binding guidance. **Transcript wins on conflict** with a comment (the live conversation supersedes pre-meeting notes); comments still carry line-level signal the transcript may not revisit. The feedback often surfaces:
 - Tonal direction the blueprint didn't specify
 - Personal anecdotes or stories Jeff or Cyrus want woven into host sections (these are raw material — the script can use them as-is or as the basis for natural-sounding banter)
 - Specific lines or framings they want, or want to avoid
@@ -77,9 +79,13 @@ JEFF: Next section begins here.
 
 ### Audio Tags (Eleven v3)
 
-Audio tags are bracketed performance cues. v3 reads them as direction, not text. They are the single biggest lever for making scripted dialogue sound unscripted — but only if used purposefully. Most turns should have **zero** tags. The ones that do should serve a specific moment.
+Audio tags are bracketed performance cues. **v3 (our release model) performs them natively — they are the single biggest lever we have for expressiveness.** Tag generously and purposefully: reach for a tag at *every genuine emotional shift* — surprise, amusement, skepticism, warmth, a beat of awe, a dry aside. Under-tagging is the most common way a v3 script comes out flat, because the model has nothing to act on. (Historical note: an earlier version of this guidance said "most turns should have zero tags" — that was correct for the v2 model, which *strips tags entirely*. We are on v3 now. Tag richly.)
+
+**The expressiveness ceiling is the voice, not just the tags.** Tags push the read *within* the voice clone's learned range; they can't exceed it. Write the tags to extract the most the voice can give — but know that the clone's own expressive range is the hard limit.
 
 **Core principle:** Tags work with the voice, not against it. If a tag fights the line ("[shouts] he said quietly"), v3 will hedge or fail. Match tags to what the line is already doing, then let the tag *amplify* it.
+
+**Never write a tag-only turn.** v3's Dialogue API rejects any turn that is only a tag (e.g. `CYRUS: [laughs]` with no words) — it errors on empty text. Every turn must contain spoken words; attach the reaction tag to a short line (`CYRUS: [laughs] Come on.`).
 
 **Categories (use these, in roughly this priority):**
 
@@ -87,7 +93,7 @@ Audio tags are bracketed performance cues. v3 reads them as direction, not text.
 |---|---|---|
 | **Non-verbal reactions** | `[laughs]`, `[laughs softly]`, `[sighs]`, `[exhales]`, `[clears throat]`, `[scoffs]`, `[gasp]` | The conversational glue — short reactions between turns. Highest-leverage tag type for our format. |
 | **Delivery** | `[whispers]`, `[quietly]`, `[softly]`, `[shouts]`, `[deliberate]`, `[rushed]` | When the *line itself* doesn't already convey volume/pace. Don't over-specify. |
-| **Emotion** | `[curious]`, `[skeptical]`, `[amused]`, `[excited]`, `[deadpan]`, `[reflective]`, `[mischievously]`, `[awed]` | When the emotional read isn't obvious from the words. Best on short interjections, anchor-story setups, and Backbone Test disagreement. |
+| **Emotion** | `[curious]`, `[skeptical]`, `[amused]`, `[excited]`, `[genuinely surprised]`, `[incredulous]`, `[warmly]`, `[deadpan]`, `[dry]`, `[reflective]`, `[mischievously]`, `[awed]`, `[emphatic]` | The workhorse category for v3. Use whenever the emotional read could land more than one way — on interjections, reactions, anchor-story setups, the back-and-forth of a disagreement. Lean on these. |
 | **Pacing** | `[pause]`, `[long pause]`, `[short pause]` | Sparingly — ellipses (`...`) usually do this better. Reserve `[long pause]` for genuine beat-takes. |
 
 **Don't use:**
@@ -109,14 +115,14 @@ CYRUS: [laughs softly] That tracks.
 - **Cyrus** leans dry and analytical. Best fits: `[deadpan]`, `[scoffs]`, `[curious]`, `[deliberate]`, `[exhales]`. He doesn't gush; avoid `[excited]` on him unless the moment is genuinely big.
 
 **Section guidance:**
-- **Cold open:** sparing — let the story carry it. Maybe one tag.
-- **Anchor story setup:** one tag on the driver's pre-story line is high-leverage (`[reflective]`, `[awed]`, `[amused]`).
-- **How It Works pushback:** the non-driver's pushback line is the natural place for `[skeptical]` or `[curious]`.
-- **Banter exchanges:** non-verbal reactions (`[laughs softly]`, `[scoffs]`) go here — this is the rhythm tags are best at.
-- **Backbone Test cost question:** where Jeff and Cyrus disagree — `[skeptical]`, `[deliberate]`, `[reflective]` carry the disagreement texture.
-- **Sign-off:** zero tags. Let the line land clean.
+- **Cold open:** still let the *story* carry the stakes, but tag the hosts' reactions to it — a `[genuinely surprised]` or `[awed]` lands the hook.
+- **Anchor story setup:** tag the leading host's pre-story line (`[reflective]`, `[awed]`, `[amused]`) *and* the listening host's payoff reaction (`[incredulous]`, `[laughs]`).
+- **How It Works pushback:** the pushback line wants `[skeptical]` or `[incredulous]`; the resolution can carry `[warmly]` or `[amused]`.
+- **Banter exchanges:** the richest tag zone — non-verbal reactions (`[laughs]`, `[laughs softly]`, `[scoffs]`) plus emotion tags on the quick back-and-forth.
+- **Disagreement (Backbone Test cost question):** `[skeptical]`, `[deliberate]`, `[emphatic]`, `[reflective]` carry the texture — tag both sides.
+- **Sign-off:** zero tags. Let the locked line land clean.
 
-**Calibration:** Aim for roughly **one tag per 60–90 seconds of audio**. If you find yourself tagging every other line, you're using tags to compensate for dialogue that isn't carrying its own weight — fix the line, not the tag.
+**Calibration (v3):** tag **every genuine emotional beat** — in practice that's often several tags per minute, not one. The guardrail is *truth, not scarcity*: every tag must match what the line is actually doing (don't paste `[excited]` on a flat line). Over-tagging only fails when the tags fight the words or pile up unmotivated — not when there are simply many genuine emotional beats. If a turn is genuinely neutral exposition, leave it clean; but reactions, surprises, and disagreements should almost always carry a tag.
 
 ### Music Cue Markers
 
@@ -144,8 +150,10 @@ JEFF: ...and that's what changed everything about how food moved around the worl
 
 --- SEGMENT BREAK: Wave 2 - The Mechanical Age ---
 
-CYRUS: So here's where my part of this story starts...
+CYRUS: So while all of that is happening, there's a chemist in Munich who is about to get obsessed with a completely different way to make cold.
 ```
+
+(Segment-break lines like `Wave 2 - The Mechanical Age` are internal structure markers — they are stripped before TTS and never spoken. The internal "wave" vocabulary is fine *here*; it must never appear in a spoken `JEFF:`/`CYRUS:` line.)
 
 These markers will be present in `assembled.txt` and consumed by the TTS pipeline (`pipeline/tts-pipeline.md`).
 
@@ -200,6 +208,47 @@ The most important technique is the **rhythm between modes**. The best podcast e
 
 Neither mode works on its own. All exposition sounds like an audiobook. All banter sounds like empty chatter. The contrast between them is what makes it feel like a real podcast.
 
+### Handoffs and Reactions: Vary Them — Never Echo
+
+**This is the single most important rule in this file.** The most common failure in our scripts is the **echo handoff**: the next speaker repeats the previous speaker's words back, often verbatim, as their reaction or transition. Both hosts have flagged this as the thing that most breaks the illusion of a real conversation. It is banned as a default device.
+
+**The anti-pattern (do NOT do this):**
+```
+JEFF: Tammany Hall is killed by an ice scandal.
+CYRUS: Tammany Hall is killed by an ice scandal.
+```
+```
+JEFF: You don't get prosciutto.
+CYRUS: You don't get prosciutto.
+```
+```
+CYRUS: That is so good and so depressing at the same time.
+JEFF: That is so good and so depressing at the same time.
+```
+
+When you want the second host to *land* on what was just said, reach for one of these instead — never the echo:
+
+- **A question that pushes the point forward:** "Wait — an *ice* scandal brought down Tammany Hall? How does that even happen?"
+- **An emphasis or escalation** (not a repeat): "Forty years before Linde got it right" → "FORTY YEARS." (Emphasis on the number that matters, not a restatement of the sentence.)
+- **An additive reaction** — a *new* thought, not a mirror: "Of course they're not paying attention. The infrastructure they've got works — right up until it doesn't."
+- **A genuine research-handoff** (see below): "That's the part I didn't have in my notes — where did you find that?"
+
+Literal repetition is allowed only **rarely**, as a deliberate emphatic beat you've earned — at most once or twice in an entire episode, never as the standard way two turns connect. If you can delete a line because it only restates the line above it, delete it.
+
+Also vary the *shape* of handoffs. Don't fall into a single rhythm where every transition is "the next speaker repeats the last few words and then continues." Mix questions, reactions, silence-then-pivot, and direct disagreement.
+
+### Never Name the Machinery
+
+The hosts are two people having a conversation — they are **not** aware they are inside a produced episode with a structure. Never let the show's internal vocabulary or production scaffolding be spoken aloud. This breaks the fourth wall and sounds like reading stage directions.
+
+**Never say, in dialogue:**
+- The internal structure words: "wave," "this wave," "cold open," "segment," "by the numbers," "the Backbone Test" *as a named segment*.
+- **Ownership / assignment talk:** "this is your wave," "Cyrus, this one's yours," "I'll take this part," "you own the science here." The listener should *feel* who leads from how naturally each host carries their material — never from an announcement.
+- **Production-note phrasing** that exposes the writing rather than the thinking: "that's such a critical reframe," "that's the through line," "I want to leave you with," "let me plant the flag," "and then move on," "that's a hell of a teaser."
+- **Previewing the structure of the conversation:** "this is the part where you and I disagree," "we're going to come back to this in a bit." Just *have* the disagreement when it arrives; don't announce it.
+
+Replace structural signposting with **narrative content** (see "Bridge With Story, Not Labels" below). Instead of "okay, that's the end of this wave," say something that carries the story forward: "So the ice trade is booming. And that very success is about to become the thing that nearly kills the next idea."
+
 ### Write for the Ear
 
 Every line should sound natural when spoken aloud. Read your dialogue in your head. If it sounds stiff, rewrite it.
@@ -221,35 +270,28 @@ Jeff and Cyrus are not interchangeable narrators. They should react differently,
 
 Humor should come from the material, not from transitions. The funniest moments in great podcasts are things only this specific story could produce — the absurdity of a historical figure's decision, the irony of an unintended consequence, the contrast between how something looked then and what we know now. Don't write jokes into transitions; let the research supply the comedy.
 
-### Host Knowledge Division: Manufacturing Authentic Discovery
+### Who Leads: Division by Lens, Not by Chapter
 
-The hardest craft problem in a scripted podcast is making dialogue sound like genuine discovery. These techniques make it work:
+The two hosts are not interchangeable narrators, and they do **not** take turns "owning" chapters. Each owns a **recurring perspective** that threads through the entire episode:
 
-**Divide knowledge, don't share it.** The driving host for each wave should appear to know things the other host doesn't — yet. The non-driving host asks questions that reveal they're encountering details for the first time. Don't write both hosts as equally omniscient about everything.
+- **Jeff** leads on **history, business, institutions, and policy** — the founders and markets, the regulatory and antitrust fights, the human/organizational drama, the deal mechanics.
+- **Cyrus** leads on **science, systems, and market structure** — how the technology actually works, the physics and chemistry, the systemic/economic dynamics, the second-order effects at scale.
 
-**Engineer at least 2–3 "prepared surprise" moments per episode.** These are moments where the driving host drops a find — a biographical connection, a forgotten detail, a counterintuitive fact — that appears to surprise the other. The non-driving host's reaction should mirror what the listener is feeling. Script the reaction, not just the information:
+Whoever's lens fits the beat in front of you **leads that beat** — regardless of where it falls in the episode. The hand-off happens when the *material* shifts, not on a schedule. Inside a single chapter the lead can pass back and forth several times: Jeff carries the business of the ice trade, Cyrus takes over to explain why sawdust insulation works, Jeff picks the story back up for the monopoly fight. This is the engine that makes curiosity authentic — when Cyrus explains the refrigeration cycle, Jeff's questions are *real* because chemistry genuinely isn't his lane, and vice versa.
 
-- "Wait — he was an orphan too?"
-- "Hold on. She was doing this at... how old?"
-- "That's the same family? I did not make that connection."
+**Hand-offs are carried by content, never announced.** Don't write "Cyrus, this is your wave." Let the lens shift do the work: the moment the conversation turns to *how the cold actually gets made*, Cyrus is simply the one talking. If you need a connective beat, make it a real question the leading-out host would ask the leading-in host — see research-handoffs below.
 
-**Use explicit hand-off signals at wave transitions.** When the narrative passes to the other host, make it concrete:
+**Both hosts are smart and deeply curious — never fake-naive.** Jeff and Cyrus are not the type to have "I've never thought about that in my life" moments about everyday things. Don't write a host as a dim audience-stand-in. Genuine "huh, I didn't know that" beats must be *earned* by a genuinely obscure or counterintuitive find — and used sparingly. The non-leading host's job is to be an **intelligent curious questioner**, asking the sharp question the listener is actually thinking — not playing dumb:
 
-- "Cyrus, this is where your wave takes over — walk me through what happens next."
-- "Jeff, you've been sitting on this part. Tell me what's happening on the other side of this."
+- "But wait — if that was true, how did nobody see this coming?"
+- "So the people fighting this weren't just being stubborn. They had a real argument — what was it?"
+- "Okay, but that's a bold claim. What's the evidence?" (When a host states something surprising, the other can demand receipts — that's more credible than awe.)
 
-This signals to the listener that the mode has shifted and gives authority to the incoming host.
-
-**The non-driving host plays "intelligent curious questioner."** Not "wow" and "that's wild" — the actual question the listener is thinking:
-
-- "But wait — if that was true, how did anyone not see this coming?"
-- "So the people fighting this... they weren't just being stubborn. They had a real argument."
-
-These interjections break up narration *and* model the listener's own reasoning.
+**Research-handoffs: the authenticity trick.** A powerful way to manufacture real-time discovery *without* fake naivety is to frame a hand-off as one host genuinely encountering the other's research: "Did you come across the story about…?" / "That wasn't in what I dug up — where's that from?" / "Honestly, I didn't get to that part — walk me through it." A little fallibility ("I didn't see that one") *adds* credibility; it reinforces that these are two real people comparing notes in real time, not two omniscient narrators reciting a shared script. Engineer **2–3 of these genuine discovery moments per episode**, anchored to a real find — a biographical connection, a forgotten detail, a counterintuitive number — and script the *reaction*, not just the information.
 
 ### Prime the Listener Before Every Anchor Story
 
-Before dropping into an anchor story, the driving host should spend 1–2 sentences signaling their own reaction to it. This is what turns a story from information into an event.
+Before dropping into an anchor story, the leading host should spend 1–2 sentences signaling their own reaction to it. This is what turns a story from information into an event.
 
 **Yes:**
 - "Okay — here is the story I could not get out of my head when I was reading about this."
@@ -260,7 +302,7 @@ Before dropping into an anchor story, the driving host should spend 1–2 senten
 
 The setup creates anticipation. The listener leans forward. Then when the story lands — particularly when the payoff is a surprise or a vivid detail — the reaction feels earned rather than inserted.
 
-After a major revelation or counterintuitive fact, the non-driving host should confirm it — not just react, but mirror what the listener is feeling: "Wait, is that right?" / "That actually happened?" / "I believe that, and I hate that I believe that." These confirmation beats are brief, but they reset the listener's attention for what comes next.
+After a major revelation or counterintuitive fact, the non-leading host should confirm it — not just react, but mirror what the listener is feeling: "Wait, is that right?" / "That actually happened?" / "I believe that, and I hate that I believe that." These confirmation beats are brief, but they reset the listener's attention for what comes next.
 
 ### Tell Stories, Don't Summarize
 
@@ -272,13 +314,27 @@ When you hit an anchor story, commit to it. Set the scene. Name the person. Buil
 
 The first version makes you lean in. The second is a Wikipedia sentence.
 
-### Script Every Transition
+### The Hosts' Lens: Pro-Innovation, Honest About Costs
 
-The gap between sections is where amateur scripts fall apart. Every topic shift needs actual dialogue:
+Backbone has a point of view, and the hosts share it: a **slight pro-capitalism, pro-innovation lean.** Most of these stories are, at bottom, about how **science and business combine to drive society forward** — creative destruction, free markets solving a problem because there's a return waiting for whoever cracks it, the relentless drive to improve on what already works. Let the hosts genuinely *admire* that. When a market mechanism does something clever — sawdust waste becoming free insulation, a utility financing fridges because it sells more electricity (give away the razor, sell the blades) — that's a delight, not a footnote. Cyrus brings the business-model and systems read; Jeff brings the "this is invention becoming innovation" read (the real value isn't the breakthrough, it's making it scalable, practical, and commercially viable).
 
-- "Okay, so that's how the ice trade worked. But here's the thing — it had a ceiling."
-- "Now, Cyrus, this is where your wave picks up. What happened next?"
-- "So we've been talking about industry. But what about regular people? When did refrigerators actually show up in homes?"
+But the lean is **honest, not naive.** The same story that celebrates the cold chain also killed the local butcher who'd spent thirty years learning his trade. Name that cost plainly — *the system flourishes and the individual at the counter still loses his livelihood, and we don't have to apologize for the system to acknowledge the asymmetry.* That honesty is what keeps the pro-innovation lean from sounding like cheerleading. (This is also where Jeff's survivorship-bias instinct lives — see Common Mistakes.)
+
+### Stat Credibility: Believable Beats Technically-True
+
+A statistic that is correctly sourced but *sounds* unbelievable does damage: the listener stops trusting everything around it. When you reach for a number, apply two tests, not one — **is it true** *and* **will a smart listener believe it on hearing it?** If a stat fails the second test, cut it or hedge it, even if the research supports it. (Real examples that failed: "Americans open the fridge 107 times a day," "the fridge is the most-touched object in the home — more than your phone," "adoption faster than the smartphone curve.") Prefer numbers with a clean, intuitive comparative anchor over numbers that are merely impressive. When a figure is striking but genuinely true, you can *pre-empt the disbelief* — "this sounds made up, and I checked it three times" — rather than dropping it flat.
+
+### Bridge With Story, Not Labels
+
+The gap between sections is where amateur scripts fall apart. Every topic shift needs actual dialogue — but that dialogue must carry the story forward, **never name the structure** (no "that's the end of this wave," no "Cyrus, your part's next"). A good bridge points *forward* with tension, not backward with a summary, and the listener should never feel the seam.
+
+- "So that's how the ice trade worked. And here's the thing — it had a ceiling. A hard one. And the people who hit it first were about to try something that sounded insane."
+- "Which is all happening above ground. But while the ice barons are getting rich, a handful of inventors are quietly trying to make cold without any ice at all."
+- "So we've covered the industry. But none of this is in anyone's *kitchen* yet. So how does it get from the slaughterhouse to your house?"
+
+Notice the lead can change across one of these bridges without anyone announcing it — the second example naturally hands from the business story (Jeff) to the invention story; whoever's lens fits simply starts talking.
+
+A **weak** transition is backward-looking and inert ("Okay, that covers the ice trade. Next, mechanical refrigeration."). A **strong** one creates a question the listener wants answered before you've told them what's coming. If a transition could be deleted without losing momentum, it's a label, not a bridge — rewrite it.
 
 ### Vary Turn Length
 
@@ -302,39 +358,41 @@ JEFF: That's the crazy part. Not only did nobody stop him, but within five years
 ## Chapter-by-Chapter Approach
 
 ### Writing the Opening Chapter
-The opening sets the tone for the entire episode. It has five components in order:
+The opening sets the tone for the entire episode. **Get into the story fast** — a previous version front-loaded too many separate set-up segments before any narrative, and it dragged. The opening now leads with the scene and weaves the context in, rather than stacking standalone segments. Components, in order:
 
-**The Welcome (1–2 min):** Before anything else — before the cold open story — write a brief moment of host banter. This is the listener's first impression of the show and of Jeff and Cyrus as people. It should feel spontaneous, not formal: two smart friends who are genuinely excited about what they're about to get into. Tease the topic in a way that builds anticipation without giving anything away. Then transition naturally into the cold open ("So let me start with a scene..."). This Welcome is also where a first-time listener learns who these hosts are before they're pulled into the story.
+**The Welcome (1–2 min):** Before the story, a brief moment of host banter. This is the listener's first impression of the show and of Jeff and Cyrus as people. It should feel spontaneous, not formal: two smart friends genuinely excited about what they're about to get into. Tease the topic to build anticipation without giving anything away, then move into the cold open. Work the word **"Backbone"** in naturally somewhere here (the show's name and frame), but don't over-formalize it — it can flex episode to episode.
 
-**The Cold Open (2–3 min):** Drop the listener into a vivid scene — a named person, a specific moment, a "wait, what?" hook. Make it vivid from word one.
+**The Cold Open (3–4 min) — this leads:** Drop the listener into a vivid scene — a named person, a specific moment, a "wait, what?" hook. Make it vivid from word one. This is the center of gravity of the opening; let it breathe.
 
-**By the Numbers (3–5 min):** Stats should feel like reveals, not a data dump. Weave them into conversation. Each one should make the listener say "wait, really?"
+**The World Before, woven in (~3 min):** Don't make this a separate titled segment that stops the story. Use it as the natural *backstory off the cold open* — the host pulling back from the scene to make the listener feel what life was actually like (what people lacked *and* what stood in its place: the products, habits, and rituals that were normal before this technology). It should feel like context the scene demanded, not a new chapter.
 
-**The World Before (2–3 min):** Make the listener feel what life was like. Include both what people lacked *and* what existed in its place — the products, habits, and rituals that were completely normal before this technology arrived.
+**A 1–2 sentence teaser (NOT a full preview segment):** Do **not** lay out all the coming chapters. One or two sentences that frame the journey — that this first story is just the opening move in a longer arc, and that each victory plants the seeds of the next problem — then get into it. Resist the urge to itemize what's ahead; let the narrative unfold.
 
-**The Road Ahead (2–3 min):** Make each wave sound unmissable. Preview with energy.
+**Note: "By the Numbers" has moved to the END of the episode** (see the Built In chapter). Do not write a standalone stats segment up front. A single genuinely striking, *believable* stat may live inside the cold open or World Before if it earns its place — but the dedicated numbers run now lands near the close, the way *Acquired* saves its breakdown for the end.
 
 ### Writing Wave Chapters
-Each wave chapter follows the blueprint's structure: Breakthrough → Anchor Stories → How It Works (if applicable) → Diffusion & Resistance → What Changed.
+Each chapter follows the blueprint's structure: Breakthrough → Anchor Stories → How It Works (if applicable) → Diffusion & Resistance → What Changed.
 
-- The **driver host** leads the narrative for this wave. The other host reacts, asks questions, adds color.
-- Start each wave with a strong scene or statement that orients the listener
-- The **anchor stories** are the emotional core — give them room to breathe, and prime each one with the driver host's reaction before beginning (see "Prime the Listener" above)
-- The **resistance section** should feel like a genuine debate, not a straw man — the blueprint will have specified why the resisters' arguments were reasonable; honor that
-- End with the **bridge** — what was now possible but not yet realized
+- **Lead by lens, not by chapter assignment.** Whoever's perspective fits the beat leads it (Jeff: business/institutional/historical; Cyrus: science/systems/structural), and the lead can change inside the chapter as the material shifts. See "Who Leads: Division by Lens." Never announce the hand-off.
+- Start each chapter with a strong scene or statement that orients the listener.
+- The **anchor stories** are the emotional core — give them room to breathe, and prime each one with the leading host's reaction before beginning (see "Prime the Listener" above).
+- The **resistance section** should feel like a genuine debate, not a straw man — the blueprint will have specified why the resisters' arguments were reasonable; honor that. (A recurring truth worth surfacing: resisters are usually *right about the specifics of their moment* and wrong only about the larger trend.)
+- **Introduce people before you use them.** A name dropped cold ("John Gorrie.") lands as a non sequitur. Give a half-line of who they are first: "And that brings in a Florida doctor named John Gorrie." One clause of context is enough; then the story can run.
+- End with the **bridge** — what was now possible but not yet realized.
 
 **Writing the How It Works section:** The goal is revelation, not lecture. Frame it as something the hosts are helping the listener discover together. Use this four-beat structure:
 
-1. **Set up the difficulty:** The driving host acknowledges why this is counterintuitive or hard to grasp. "So here's the thing I couldn't figure out until I actually read how this works..."
-2. **Deliver the mechanism:** One clear analogy. Not five technical paragraphs — one analogy that clicks.
-3. **Non-driving host pushes back once:** They ask the question the listener is thinking. "But wait — if that's how it works, doesn't that mean the whole thing would..." The pushback should be the real objection, not a softball.
-4. **Resolve and show scale:** The driving host answers the pushback, then immediately anchors the mechanism to a concrete consequence or number. "Exactly — and that's why within five years, every brewery in the country had one."
+1. **Set up the difficulty:** The leading host (usually Cyrus, since this is the science lens) acknowledges why this is counterintuitive or hard to grasp. "So here's the thing I couldn't figure out until I actually read how this works..."
+2. **Deliver the mechanism — analogy first, but don't gloss the real thing.** Lead with one clear analogy that clicks. *Then actually name what's physically happening* — don't hand-wave. For refrigeration that means: a working fluid that **cycles between liquid and gas** (not "just a gas"); a **compressor that squeezes the gas, which heats it**; the heat dumped outside via the coils; then the fluid **expands and goes cold** as it pulls heat from inside. The listener should come away knowing *what gets compressed, what gets hot, what gets cold, and why* — not just "physics happens." Rigor is a feature here; Cyrus specifically wants the real magic explained, not skipped. Keep it to ~5 minutes, but make those minutes *land the actual mechanism*.
+3. **The other host pushes back once — the real objection:** "But wait — if compressing the gas makes it hot, how does any of this end up making things *cold*?" or "So my fridge is actually dumping heat into my kitchen?" The pushback should be the genuine question, not a softball — and it's the natural place for the non-science host to be the smart proxy for the listener.
+4. **Resolve and show scale:** Answer the pushback cleanly, then immediately anchor the mechanism to a concrete consequence or number. "Right — your kitchen really is a little warmer because of it. And that same cycle is why, within a few years, every brewery in the country had one."
 
-This four-beat structure prevents How It Works from becoming a monologue. The pushback is essential — it models the listener's own skepticism and makes the resolution feel earned.
+This four-beat structure prevents How It Works from becoming a monologue *or* a hand-wave. The pushback models the listener's skepticism; the rigor in beat 2 is what makes the resolution actually satisfying.
 
 ### Writing the Built In Chapter
 This is conversational — both hosts, back and forth. It should feel like two people who've just told an incredible story stepping back to reflect on it.
 
+- **By the Numbers now lives here**, near the close (not in the opening). Having walked the whole arc, the hosts pull back to the present-day scale of the thing — the stats that land hardest *after* you understand the story. Weave them into conversation as reveals, not a data dump. **Credibility rule applies hard here** (see below): every number must be both true *and* believable-sounding. Cut or hedge any stat that makes a smart listener think "that can't be right" — a technically-sourced but unbelievable-sounding figure costs more trust than the fact is worth. Pair each number with a comparative anchor that *helps* ("refrigerators hit eighty percent of American homes faster than radio did"), not one that strains credulity.
 - The **Full Arc** is the "holy crap" moment of the whole episode
 - The **Backbone Test** questions should feel like genuine exploration, not a checklist — each question deserves 2–3 minutes, not 30 seconds
 - The **Backbone Test question 3** ("What's the hidden cost?") is where Jeff and Cyrus's worldviews are most likely to diverge: Jeff tends toward "this is solvable through better institutions or policy," Cyrus tends toward "this cost is structural and won't go away." Write a genuine exchange of views here, not consensus.
@@ -391,30 +449,40 @@ Place a segment break at the beginning and between major sections within the cha
 
 ## Common Mistakes
 
-1. **Sounding like a textbook.** If a line would work in an encyclopedia entry, rewrite it. Podcast dialogue is informal, energetic, and conversational.
+1. **The echo handoff.** The #1 failure. The next speaker repeats the previous speaker's words (often verbatim) as a reaction or transition. Banned as a default — use a question, an emphasis, an additive reaction, or a research-handoff instead. See "Handoffs and Reactions: Vary Them — Never Echo." If a line only restates the line above it, delete it.
 
-2. **Constant interjections.** Don't have the non-driving host react after every sentence. Let the narrator build momentum for 6–10 sentences before breaking for dialogue.
+2. **Naming the machinery.** Any spoken reference to the show's internal structure or production scaffolding — "this wave," "cold open," "your wave," "I want to leave you with," "that's the through line," previewing a disagreement. The hosts don't know they're in a produced episode. See "Never Name the Machinery."
 
-3. **Monotone pacing.** If every turn is roughly the same length, the rhythm goes flat. Mix long narrative stretches with rapid exchanges.
+3. **Fake naivety.** Writing a host as a dim audience-stand-in who's never thought about everyday things. Both hosts are smart and curious. Real discovery must be earned by a genuinely obscure find and framed as a research-handoff ("did you come across…?"), not feigned ignorance.
 
-4. **Forgetting to spell out numbers.** "In 1920" should be "in nineteen twenty." "$14 billion" should be "fourteen billion dollars." The TTS model will mispronounce symbols and abbreviations.
+4. **Unbelievable stats.** A technically-true number that *sounds* made up costs trust. Apply both tests — true AND believable — and cut or hedge anything that fails the second. See "Stat Credibility."
 
-5. **Over-tagging.** Audio tags on every other line sound robotic. Use them at key moments where the text alone doesn't convey the delivery.
+5. **Dropping names cold.** Introduce a person with a half-line of who they are before using them. "John Gorrie." with no setup is a non sequitur.
 
-6. **Summarizing instead of storytelling.** Anchor stories should unfold as scenes with tension and payoff, not as compressed summaries.
+6. **Sounding like a textbook.** If a line would work in an encyclopedia entry, rewrite it. Podcast dialogue is informal, energetic, and conversational.
 
-7. **Weak transitions.** If you just end one topic and start the next without scripted connective tissue, the episode will sound choppy.
+7. **Constant interjections.** Don't have the non-leading host react after every sentence. Let the narrator build momentum for 6–10 sentences before breaking for dialogue.
 
-8. **Inventing facts.** If the research doesn't include a detail, don't make it up. Flag it.
+8. **Monotone pacing.** If every turn is roughly the same length, the rhythm goes flat. Mix long narrative stretches with rapid exchanges.
 
-9. **Including profanity or crude humor.** Both hosts are casual and funny in real life, but Jeff has explicitly directed that scripts remain PG-13. No swearing, no off-color jokes.
+9. **Forgetting to spell out numbers.** "In 1920" should be "in nineteen twenty." "$14 billion" should be "fourteen billion dollars." The TTS model will mispronounce symbols and abbreviations.
 
-10. **Letting survivorship bias go unchecked.** When a story celebrates persistence or grit (e.g., Tudor banging his head against the wall for decades), the script should give Jeff room to flag the survivorship bias — "so did a lot of people who ended up broke and penniless." This is a natural Jeff instinct and adds intellectual honesty to inspirational stories.
+10. **Over-tagging.** Audio tags on every other line sound robotic. Use them at key moments where the text alone doesn't convey the delivery.
 
-9. **Both hosts knowing everything equally.** If you can swap Jeff and Cyrus's labels and nothing changes, the knowledge division isn't working. The driving host should have clearly done more work on their wave's material.
+11. **Summarizing instead of storytelling.** Anchor stories should unfold as scenes with tension and payoff, not as compressed summaries.
 
-10. **Launching into anchor stories cold.** Every anchor story needs 1–2 sentences of setup from the driver — their reaction, their anticipation — before the scene begins. Skipping setup flattens the story's impact.
+12. **Weak transitions.** A transition that points backward and summarizes ("okay, that covers that") instead of forward with tension. Bridge with story, not labels.
 
-11. **How It Works as monologue.** The mechanism explanation should be a dialogue with a real pushback, not one host teaching while the other nods. If the non-driving host doesn't raise a genuine objection, the section will sound like a lecture.
+13. **Inventing facts.** If the research doesn't include a detail, don't make it up. Flag it.
 
-12. **Rushing the Backbone Test.** Treating the five questions as a rapid-fire checklist wastes the whole episode's setup. Each question deserves room to breathe.
+14. **Including profanity or crude humor.** Both hosts are casual and funny in real life, but Jeff has explicitly directed that scripts remain PG-13. No swearing, no off-color jokes.
+
+15. **Letting survivorship bias go unchecked.** When a story celebrates persistence or grit (e.g., Tudor banging his head against the wall for decades), give Jeff room to flag the survivorship bias — "so did a lot of people who ended up broke and penniless." A natural Jeff instinct that adds honesty. (Keep it light — flag it once where it fits; don't dwell or moralize.)
+
+16. **Both hosts knowing everything equally.** If you can swap Jeff and Cyrus's labels and nothing changes, the lens division isn't working. The host whose lens fits the beat should clearly own the material there.
+
+17. **Launching into anchor stories cold.** Every anchor story needs 1–2 sentences of setup from the leading host — their reaction, their anticipation — before the scene begins.
+
+18. **How It Works as monologue or hand-wave.** It must be a dialogue with a real pushback, *and* it must name the actual mechanism (liquid/gas cycle, what's compressed, what gets hot/cold) — not gloss it.
+
+19. **Rushing the Backbone Test.** Treating the five questions as a rapid-fire checklist wastes the whole episode's setup. Each question deserves room to breathe.
