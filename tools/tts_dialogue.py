@@ -23,6 +23,7 @@ Usage:
   python tools/tts_dialogue.py refrigeration --wave 0
   python tools/tts_dialogue.py refrigeration --yes
   python tools/tts_dialogue.py refrigeration --reprocess      # re-concat from cached per-turn files
+  python tools/tts_dialogue.py refrigeration --clone ivc      # use instant voice clones (default: pvc)
 
 Models:
   v2 (default) — eleven_multilingual_v2, per-turn TTS (pydub required), audio tags stripped,
@@ -31,8 +32,15 @@ Models:
 
 Config (set in .env):
   ELEVENLABS_API_KEY
-  JEFF_VOICE_ID
-  CYRUS_VOICE_ID
+  JEFF_VOICE_ID_PVC / JEFF_VOICE_ID_IVC     professional / instant clone (both optional)
+  CYRUS_VOICE_ID_PVC / CYRUS_VOICE_ID_IVC
+  JEFF_VOICE_ID / CYRUS_VOICE_ID            fallback when no per-clone ID is set
+  VOICE_CLONE=pvc|ivc                       default clone when --clone is not passed
+
+Clones:
+  pvc (default) — professional voice clones; output files keep their existing names
+  ivc           — instant voice clones; wave files and per-turn cache get an extra
+                  "_ivc" suffix so PVC and IVC renders can live side by side
 """
 
 import os
@@ -47,6 +55,16 @@ MODEL_V3 = "eleven_v3"
 MODEL_V2 = "eleven_multilingual_v2"
 DEFAULT_MODEL = MODEL_V2
 OUTPUT_FORMAT = "mp3_44100_128"
+
+# Voice clone selector: "pvc" (professional) or "ivc" (instant). PVC is the
+# backward-compatible default — its files carry no extra suffix.
+CLONE_CHOICES = ("pvc", "ivc")
+DEFAULT_CLONE = "pvc"
+
+
+def clone_suffix(clone: str) -> str:
+    """Filename suffix for a clone choice: "" for pvc, "_ivc" for ivc."""
+    return "" if clone == DEFAULT_CLONE else f"_{clone}"
 
 # ElevenLabs Dialogue API limits per request
 MAX_INPUTS_PER_REQUEST = 100
@@ -87,10 +105,18 @@ def get_client():
     return ElevenLabs(api_key=api_key)
 
 
-def voice_id_for(speaker: str) -> str:
-    vid = os.environ.get(f"{speaker}_VOICE_ID", "")
+def voice_id_for(speaker: str, clone: str = DEFAULT_CLONE) -> str:
+    """Resolve a speaker's voice ID for the chosen clone.
+
+    Looks for {SPEAKER}_VOICE_ID_{CLONE} first (e.g. JEFF_VOICE_ID_IVC), then
+    falls back to the plain {SPEAKER}_VOICE_ID. Fails loudly if neither is set —
+    never generate with the wrong voice.
+    """
+    specific = f"{speaker}_VOICE_ID_{clone.upper()}"
+    generic = f"{speaker}_VOICE_ID"
+    vid = os.environ.get(specific, "") or os.environ.get(generic, "")
     if not vid:
-        print(f"Error: {speaker}_VOICE_ID not set in .env")
+        print(f"Error: {specific} (or {generic}) not set in .env")
         sys.exit(1)
     return vid
 
@@ -346,12 +372,14 @@ def strip_audio_tags(text: str) -> str:
 
 def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
                   stability: float = 0.4, speed: float = 1.0,
-                  model: str = MODEL_V3, reprocess: bool = False) -> bool:
+                  model: str = MODEL_V3, reprocess: bool = False,
+                  clone: str = DEFAULT_CLONE) -> bool:
     """Generate audio for a single wave. Uses Dialogue API for v3, per-turn TTS for v2."""
     out_path = output_dir / wave["filename"]
     turns = wave["turns"]
     sub_chunks = sub_chunk_wave(wave)
     use_v2 = (model == MODEL_V2)
+    cache_suffix = ("_v2" if use_v2 else "_v3") + clone_suffix(clone)
 
     if out_path.exists() and not reprocess:
         print(f"  skip  {wave['filename']}")
@@ -362,30 +390,29 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
         speed_note = f", speed={speed}x" if speed != 1.0 else ""
         mode = "per-turn TTS" if use_v2 else f"{len(sub_chunks)} request(s)"
         print(f"  dry-run  {wave['filename']}  ({len(turns)} turns, {total_chars:,} chars, "
-              f"{mode}, model={model}, stability={stability}{speed_note})")
+              f"{mode}, model={model}, clone={clone}, stability={stability}{speed_note})")
         return True
 
     try:
         if reprocess and use_v2:
             # Re-concatenate from cached per-turn files with normalization (no API calls)
-            model_suffix = "_v2"
             print(f"  reprocess  {wave['filename']}...")
-            ok = _reprocess_wave_v2(wave, out_path, output_dir, model_suffix)
+            ok = _reprocess_wave_v2(wave, out_path, output_dir, cache_suffix)
             if not ok:
                 print(f"  ERROR: cached per-turn files not found for {wave['filename']}")
                 print(f"         Run without --reprocess first to generate and cache per-turn files.")
                 return False
         elif use_v2:
             # v2: per-turn generation, cached + normalized, concatenated into a single wave file
-            jeff_vid = voice_id_for("JEFF")
-            cyrus_vid = voice_id_for("CYRUS")
+            jeff_vid = voice_id_for("JEFF", clone)
+            cyrus_vid = voice_id_for("CYRUS", clone)
             vid_for = lambda speaker: jeff_vid if speaker == "JEFF" else cyrus_vid
             _generate_wave_v2(client, wave, out_path, output_dir,
-                              model, vid_for, stability)
+                              model, vid_for, stability, cache_suffix)
         else:
             # v3: Dialogue API (multi-speaker, supports audio tags natively)
-            jeff_vid = voice_id_for("JEFF")
-            cyrus_vid = voice_id_for("CYRUS")
+            jeff_vid = voice_id_for("JEFF", clone)
+            cyrus_vid = voice_id_for("CYRUS", clone)
             vid_for = lambda speaker: jeff_vid if speaker == "JEFF" else cyrus_vid
             _generate_wave_v3(client, wave, out_path, output_dir,
                               model, vid_for, stability, sub_chunks)
@@ -395,7 +422,7 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
 
         kb = out_path.stat().st_size // 1024
         speed_note = f" @{speed}x" if speed != 1.0 else ""
-        model_note = f" [{model}]"
+        model_note = f" [{model}, {clone}]"
         reprocess_note = " (reprocessed)" if reprocess else ""
         print(f"  ok    {wave['filename']}  ({len(turns)} turns, {kb} KB{speed_note}{model_note}{reprocess_note})")
         return True
@@ -462,16 +489,17 @@ def _per_turn_filename(wave_index, turn_index, speaker):
 
 
 def _generate_wave_v2(client, wave, out_path, output_dir,
-                      model, vid_for, stability):
+                      model, vid_for, stability, cache_suffix="_v2"):
     """Generate a wave using per-turn TTS calls (v2 multilingual). Strips audio tags.
 
-    Per-turn files are cached in per-turn-v2/ for free re-processing later.
+    Per-turn files are cached in per-turn{cache_suffix}/ (e.g. per-turn_v2/,
+    per-turn_v2_ivc/) for free re-processing later. The clone is part of the
+    suffix so a PVC cache is never reused for an IVC render, or vice versa.
     Each turn is LUFS-normalized to -16 LUFS before concatenation.
     """
     from pydub import AudioSegment
 
-    model_suffix = "_v2" if model == MODEL_V2 else "_v3"
-    cache_dir = _per_turn_cache_dir(output_dir, model_suffix)
+    cache_dir = _per_turn_cache_dir(output_dir, cache_suffix)
     turns = wave["turns"]
     combined = AudioSegment.empty()
 
@@ -574,9 +602,15 @@ def main():
     parser.add_argument("--reprocess", action="store_true",
                         help="Re-concatenate from cached per-turn files with LUFS normalization. "
                              "No API calls — requires a prior run that cached per-turn files.")
+    parser.add_argument("--clone", choices=list(CLONE_CHOICES),
+                        default=os.environ.get("VOICE_CLONE", DEFAULT_CLONE).lower(),
+                        help="Which voice clones to use: pvc (professional, default) or ivc "
+                             "(instant). Reads {SPEAKER}_VOICE_ID_{CLONE} from .env, falling back "
+                             "to {SPEAKER}_VOICE_ID. Default comes from VOICE_CLONE in .env.")
     args = parser.parse_args()
 
     model_id = MODEL_V2 if args.model == "v2" else MODEL_V3
+    clone = args.clone
 
     script_path = REPO_ROOT / "episodes" / args.topic / "final" / "assembled.txt"
     output_dir  = REPO_ROOT / "episodes" / args.topic / "assets" / "audio"
@@ -586,9 +620,10 @@ def main():
         sys.exit(1)
 
     # Parse and split into waves
-    model_suffix = f"_{args.model}"  # "_v3" or "_v2"
+    model_suffix = f"_{args.model}" + clone_suffix(clone)  # "_v3", "_v2", "_v3_ivc", "_v2_ivc"
     print(f"\nParsing {script_path.name} ...")
     print(f"  Model: {model_id}" + (" (per-turn TTS, audio tags stripped)" if args.model == "v2" else " (Dialogue API)"))
+    print(f"  Clone: {clone}  (JEFF={voice_id_for('JEFF', clone)}, CYRUS={voice_id_for('CYRUS', clone)})")
     items = parse_assembled(script_path)
     waves = split_into_waves(items, model_suffix=model_suffix)
 
@@ -622,7 +657,7 @@ def main():
         for w in run_waves:
             generate_wave(client, w, output_dir, dry_run=True,
                           stability=args.stability, speed=args.speed,
-                          model=model_id)
+                          model=model_id, clone=clone)
         return
 
     if args.reprocess:
@@ -631,7 +666,7 @@ def main():
         ok, failed = 0, 0
         for w in run_waves:
             if generate_wave(None, w, output_dir, stability=args.stability, speed=args.speed,
-                             model=model_id, reprocess=True):
+                             model=model_id, reprocess=True, clone=clone):
                 ok += 1
             else:
                 failed += 1
@@ -657,7 +692,7 @@ def main():
     print()
     for w in run_waves:
         if generate_wave(client, w, output_dir, stability=args.stability, speed=args.speed,
-                         model=model_id):
+                         model=model_id, clone=clone):
             ok += 1
         else:
             failed += 1

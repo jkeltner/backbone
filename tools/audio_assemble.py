@@ -10,6 +10,7 @@ Usage:
   python tools/audio_assemble.py refrigeration
   python tools/audio_assemble.py refrigeration --model v3       # use _v3 wave files (archived)
   python tools/audio_assemble.py refrigeration --model default  # use unsuffixed wave files
+  python tools/audio_assemble.py refrigeration --clone ivc      # use *_ivc wave files (instant clones)
   python tools/audio_assemble.py refrigeration --dry-run        # show plan, don't assemble
   python tools/audio_assemble.py refrigeration --no-music       # skip music (no music files yet)
 
@@ -461,6 +462,8 @@ def assemble(topic, model_suffix="", dry_run=False, no_music=False, wave_filter=
 
 
 def main():
+    load_dotenv()  # before argparse so VOICE_CLONE from .env can seed --clone's default
+
     parser = argparse.ArgumentParser(description="Assemble Backbone episode audio")
     parser.add_argument("topic", help="Episode topic (directory name under episodes/)")
     parser.add_argument(
@@ -469,16 +472,18 @@ def main():
         default="v2",
         help="Which wave files to use (v2: _v2 [default], v3: _v3, default: no suffix)",
     )
+    parser.add_argument("--clone", choices=["pvc", "ivc"],
+                        default=os.environ.get("VOICE_CLONE", "pvc").lower(),
+                        help="Which clone's wave files to use: pvc (no extra suffix, default) or "
+                             "ivc (files ending _ivc). Default comes from VOICE_CLONE in .env.")
     parser.add_argument("--wave", type=int, metavar="N",
                         help="Only assemble wave N (0=opening). Output: episode-wave-NN.mp3")
     parser.add_argument("--dry-run", action="store_true", help="Show plan without assembling")
     parser.add_argument("--no-music", action="store_true", help="Skip music (insert silence instead)")
     args = parser.parse_args()
 
-    load_dotenv()
-
     suffix_map = {"default": "", "v2": "_v2", "v3": "_v3"}
-    model_suffix = suffix_map[args.model]
+    model_suffix = suffix_map[args.model] + ("" if args.clone == "pvc" else f"_{args.clone}")
 
     assemble(args.topic, model_suffix=model_suffix, dry_run=args.dry_run,
              no_music=args.no_music, wave_filter=args.wave)

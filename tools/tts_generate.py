@@ -66,10 +66,18 @@ def get_client():
     return ElevenLabs(api_key=api_key)
 
 
-def voice_id_for(speaker: str) -> str:
-    vid = os.environ.get(f"{speaker}_VOICE_ID", "")
+def voice_id_for(speaker: str, clone: str | None = None) -> str:
+    """Resolve a speaker's voice ID for the chosen clone ("pvc" or "ivc").
+
+    Looks for {SPEAKER}_VOICE_ID_{CLONE} first, then falls back to the plain
+    {SPEAKER}_VOICE_ID. The clone defaults to VOICE_CLONE in .env, else "pvc".
+    """
+    clone = (clone or os.environ.get("VOICE_CLONE", "pvc")).upper()
+    specific = f"{speaker}_VOICE_ID_{clone}"
+    generic = f"{speaker}_VOICE_ID"
+    vid = os.environ.get(specific, "") or os.environ.get(generic, "")
     if not vid:
-        print(f"Error: {speaker}_VOICE_ID not set. Add it to .env or set the environment variable.")
+        print(f"Error: {specific} (or {generic}) not set. Add it to .env or set the environment variable.")
         sys.exit(1)
     return vid
 
@@ -310,7 +318,12 @@ def main():
     parser.add_argument("--segment", metavar="NAME", help="Only generate turns in matching segment(s)")
     parser.add_argument("--list", dest="list_only", action="store_true", help="List all turns and exit")
     parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompt")
+    parser.add_argument("--clone", choices=["pvc", "ivc"], default=None,
+                        help="Which voice clones to use: pvc (professional) or ivc (instant). "
+                             "Default: VOICE_CLONE in .env, else pvc.")
     args = parser.parse_args()
+    if args.clone:
+        os.environ["VOICE_CLONE"] = args.clone
 
     script_path = REPO_ROOT / "episodes" / args.topic / "final" / "assembled.txt"
     output_dir  = REPO_ROOT / "episodes" / args.topic / "assets" / "audio"

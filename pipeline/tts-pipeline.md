@@ -92,13 +92,19 @@ Using `eleven_multilingual_v2` with per-turn generation — each speaker turn is
 Per-turn audio files are cached in `per-turn_v2/` for free re-processing (LUFS normalization, speed adjustment) without additional API calls.
 
 ### Voice IDs
-Store voice IDs in a config file (not hardcoded):
+Store voice IDs in `.env` (not hardcoded). Each host can have two clones — a professional voice clone (PVC) and an instant voice clone (IVC):
 ```
-# pipeline/config.py (or .env)
-JEFF_VOICE_ID = "..."
-CYRUS_VOICE_ID = "..."
+VOICE_CLONE=pvc            # default clone: pvc | ivc
+JEFF_VOICE_ID_PVC=...
+JEFF_VOICE_ID_IVC=...
+CYRUS_VOICE_ID_PVC=...
+CYRUS_VOICE_ID_IVC=...
 ```
-Voice IDs are assigned when the ElevenLabs voices are created/cloned. Update config when voices change.
+`tts_dialogue.py`, `tts_generate.py`, and `audio_assemble.py` all accept `--clone pvc|ivc` (default from `VOICE_CLONE`). The tools look up `{SPEAKER}_VOICE_ID_{CLONE}` first and fall back to a plain `{SPEAKER}_VOICE_ID`, failing loudly if neither is set.
+
+Output naming: PVC renders keep the existing names (`wave-01_v3.mp3`, `per-turn_v2/`). IVC renders add an `_ivc` suffix (`wave-01_v3_ivc.mp3`, `per-turn_v2_ivc/`) so both clones can be rendered and compared side by side without one overwriting or reusing the other's cache. Assemble with the matching `--clone`.
+
+Voice IDs are assigned when the ElevenLabs voices are created/cloned. Update `.env` when voices change.
 
 ### Audio Tags
 
