@@ -1,0 +1,76 @@
+--- SEGMENT BREAK: Opening - The Welcome ---
+
+JEFF: Welcome to Backbone. I'm Jeff Keltner.
+
+CYRUS: And I'm Cyrus Mistry.
+
+JEFF: And this is the show where we go looking for the technologies that hold the modern world up — the stuff you never think about until the day it stops working. And Cyrus, I have to say, for the first one, I think we picked well.
+
+CYRUS: [dry] We picked the most boring object in your house.
+
+JEFF: [laughs] We did. And I mean that as the highest compliment, because I don't think either of us is going to look at it the same way again.
+
+CYRUS: [animated] A hundred percent. I've now told my kids more about this than they ever wanted to know. They take it for granted. Like, there's fridges now. That's just... the world.
+
+JEFF: [emphatic] And the thing is, it wasn't. For most of human history, cold was weather. It happened to you. Nobody sold it. And the first guy who tried to sell it got laughed at in the newspaper.
+
+CYRUS: [excited] Okay. I want to hear about that guy!
+
+--- SEGMENT BREAK: Opening - The Cold Open ---
+
+JEFF: Okay. So it's February, eighteen oh six. Boston Harbor. And a small two-masted ship, a brig, has just cleared customs, headed for Martinique. Which is a French sugar island in the Caribbean. Three weeks south. Two thousand miles. And the town paper, the Boston Gazette, runs a little notice about it. [excited] I'm going to read it, because it might be my favorite sentence in the whole story. Quote: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."
+
+CYRUS: [laughs] [delighted] Slippery speculation. That is a two-hundred-and-twenty-year-old burn. And it still lands. Like, whoever wrote that went home happy that night.
+
+JEFF: [laughs] Oh, absolutely. And the whole town thought this was insane. The ship is carrying about eighty tons of ice. Pond ice. Cut off a family farm north of Boston, in a town called Saugus. And it belongs to a twenty-three-year-old named Frederic Tudor.
+
+CYRUS: [incredulous] Twenty-three?!
+
+JEFF: [animated] Yeah. And here's the thing you have to understand about Frederic Tudor. He is a Boston Brahmin kid. His father was a lawyer — studied law in John Adams's office, was George Washington's first Judge Advocate General in the Continental Army. Serious family. His older brother William went to Harvard, class of seventeen ninety-six, and later founded the North American Review. And Frederic... is the one son who didn't go to Harvard. He left school at thirteen. [emphatic] Thirteen! Went to work as the youngest apprentice in a counting house on State Street. And his own family did not think much of him. There's a journal entry from his older brother, in eighteen oh one, that says — and I'm paraphrasing only slightly — "It is the greatest difficulty I can get him to do anything. I hope there will be a time when I shall be able to rouse him."
+
+CYRUS: [dry] So he's the family disappointment.
+
+JEFF: [emphatic] Completely. And on top of that, his father has just lost a big chunk of the family fortune speculating on land in South Boston. So you've got a kid who opted out of the approved path, whose own brother thinks he's lazy, whose dad just lost the money. And that kid decides the thing he's going to do with his life... is ship frozen pond water to the tropics.
+
+CYRUS: [skeptical] Okay, but where does the idea even come from? Like, nobody in Boston is sitting around going, you know what the Caribbean needs?
+
+JEFF: Yeah, that's the thing — the record doesn't really tell us. What we do have is his diary. August first, eighteen oh five: "William and myself have this day determined to get together what property we have and embark on the undertaking of carrying ice to the West Indies." [amused] And then, later that same year, this line, which I love: "People only laugh and believe me not when I tell them I'm going to the West Indies."
+
+CYRUS: [laughs] So he knows. He knows he's the joke before the ship ever leaves.
+
+JEFF: [excited] He's writing it down! And it gets better — nobody in Boston would carry the cargo. Not one ship owner. Because eighty tons of ice melts, the meltwater floods your hold, rots your timbers, ruins your ship. So Tudor buys his own ship. He'd raised about ten thousand dollars, most of it borrowed, and he spends nearly half of it — forty-seven hundred and fifty dollars — on the brig.
+
+CYRUS: [incredulous] Half the money on the boat before he's sold a pound of ice.
+
+JEFF: Yeah. And then the ice goes in, and he sails. Three weeks. And the cargo actually does okay on the voyage — a lot of it survives. The problem is what happens when he gets there. Because there's no icehouse in Martinique. His brother and a cousin had gone ahead to build one and line up buyers, and they'd basically failed at both. So the ice is sitting on a dock in the Caribbean, melting, while Frederic Tudor goes looking for anyone who wants it. And he prints a handbill. March seventh, eighteen oh six. "The price is ten cents a pound. It is necessary to bring a wool cloth or a piece of covering to wrap the ice."
+
+CYRUS: [incredulous] He has to tell people to bring a blanket.
+
+JEFF: [animated] Because nobody there has anywhere to keep it! His biographer quotes his diary: customers wrapping their chunk of ice in a blanket, waddling home, and wondering why it's gone by the time they get there.
+
+CYRUS: [laughs] Of course it's gone.
+
+JEFF: The one thing that does sell is ice cream. He makes it himself, and a local businessman clears a small fortune in one night. But that's it. [reflective] And there's a line in his diary from that trip that I think is the whole emotional core of the guy: "I found myself without money and without friends and with only a cargo of ice in a torrid zone to depend on."
+
+CYRUS: [quietly] Oof.
+
+JEFF: He loses about forty-five hundred dollars on the voyage. Nearly half his stake — almost exactly what the ship cost. And then it gets worse. He tries Havana, loses more. Then Jefferson's embargo in eighteen oh seven wrecks the whole West Indies trade, and he's tens of thousands of dollars in debt. And within a few years — more than once, between eighteen oh nine and eighteen thirteen — Frederic Tudor is in debtors' prison.
+
+CYRUS: [exhales] Which we don't even have a modern equivalent for. You failed at a business, and they put you in jail.
+
+JEFF: Right. And in his journal, through all of this, there's one line that keeps showing up. And I don't know exactly when he first wrote it — nobody does — but he wrote it, and he came back to it. "Let those laugh who win."
+
+CYRUS: [reflective] That's the whole guy in five words.
+
+JEFF: [emphatic] That should be on the wall of every founder's office. Honestly.
+
+CYRUS: [animated] I mean — this guy would fit right in in Silicon Valley. Like, drop him in Palo Alto in twenty twenty-six and he has a pitch deck by Tuesday.
+
+JEFF: [skeptical] Okay, receipts. Why?
+
+CYRUS: [animated] Look at the shape of it. Dropout. Family thinks he's lazy. Product nobody's asked for. Burns half his capital on infrastructure before revenue. And — [emphatic] this is the part — his twenty years of losses were financed. That's family money absorbing the hits. That's not grit alone, that's a seed round from your parents that keeps getting extended.
+
+JEFF: [laughs] That's fair. Although most founders I know would've quit after the second prison stint.
+
+CYRUS: [deadpan] The good ones would've pivoted to ice cream.
+

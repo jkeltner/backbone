@@ -1,0 +1,98 @@
+{
+  "topic": "refrigeration",
+  "model_suffix": "_v4",
+  "total_duration_ms": 6740956,
+  "segments": [
+    {
+      "type": "wave",
+      "index": 0,
+      "file": "wave-00-opening_v4.mp3",
+      "start_ms": 0,
+      "end_ms": 327936
+    },
+    {
+      "type": "music",
+      "cue": "theme-in",
+      "start_ms": 327936,
+      "end_ms": 342483
+    },
+    {
+      "type": "wave",
+      "index": 1,
+      "file": "wave-01_v4.mp3",
+      "start_ms": 342483,
+      "end_ms": 689020
+    },
+    {
+      "type": "music",
+      "cue": "transition-bumper",
+      "start_ms": 689020,
+      "end_ms": 693762
+    },
+    {
+      "type": "wave",
+      "index": 2,
+      "file": "wave-02_v4.mp3",
+      "start_ms": 693762,
+      "end_ms": 1919963
+    },
+    {
+      "type": "music",
+      "cue": "transition-bumper",
+      "start_ms": 1919963,
+      "end_ms": 1924705
+    },
+    {
+      "type": "wave",
+      "index": 3,
+      "file": "wave-03_v4.mp3",
+      "start_ms": 1924705,
+      "end_ms": 3310981
+    },
+    {
+      "type": "music",
+      "cue": "transition-bumper",
+      "start_ms": 3310981,
+      "end_ms": 3315723
+    },
+    {
+      "type": "wave",
+      "index": 4,
+      "file": "wave-04_v4.mp3",
+      "start_ms": 3315723,
+      "end_ms": 4595796
+    },
+    {
+      "type": "music",
+      "cue": "transition-bumper",
+      "start_ms": 4595796,
+      "end_ms": 4600538
+    },
+    {
+      "type": "wave",
+      "index": 5,
+      "file": "wave-05_v4.mp3",
+      "start_ms": 4600538,
+      "end_ms": 5743073
+    },
+    {
+      "type": "music",
+      "cue": "transition-bumper",
+      "start_ms": 5743073,
+      "end_ms": 5747815
+    },
+    {
+      "type": "wave",
+      "index": 6,
+      "file": "wave-06-built-in_v4.mp3",
+      "start_ms": 5747815,
+      "end_ms": 6721420
+    },
+    {
+      "type": "music",
+      "cue": "theme-out",
+      "start_ms": 6721420,
+      "end_ms": 6740956
+    }
+  ]
+}

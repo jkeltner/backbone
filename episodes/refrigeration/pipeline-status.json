@@ -1,8 +1,17 @@
 {
   "topic": "refrigeration",
   "checkpoints": {
-    "blueprint": {"status": "complete", "completed_at": "2026-05-19T08:12:00Z"},
-    "script":    {"status": "complete", "completed_at": "2026-05-21T13:56:00Z"},
-    "polish":    {"status": "pending"}
+    "blueprint": {
+      "status": "complete",
+      "completed_at": "2026-09-13T04:00:59Z"
+    },
+    "script": {
+      "status": "complete",
+      "completed_at": "2026-09-13T21:04:12Z"
+    },
+    "polish": {
+      "status": "complete",
+      "completed_at": "2026-09-14T00:43:37Z"
+    }
   }
 }

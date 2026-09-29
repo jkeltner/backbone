@@ -1,0 +1,239 @@
+---
+topic: refrigeration
+agent: script-writer
+chapter: 02
+chapter-title: "WAVE 1: Cold as a Commodity"
+feedback-addressed:
+  - Host division by lens, never announced (01 comments, both) → Jeff carries Tudor, Roffignac, the Ice Trust and Tammany; Cyrus carries sawdust, Wyeth's cost curve, the incumbency read at Gorrie, the 1890 price map; no "this is your part"
+  - "Innovation and economics colliding" / "free markets at work" at Wyeth and sawdust (Jeff, 01 comments) → both beats built for Jeff to light up
+  - Calcutta as Jeff's favorite, told via "did you come across…" (Cyrus, 02 comments) → shared anchor with a genuine research handoff; ritual-purity aside cut (Jeff)
+  - "He was right — just forty years early" phrasing (Jeff, 02 comments) → used verbatim; "such a young patent number" (Cyrus) → used
+  - Gorrie's name arrives with context, not cold (Jeff, 02 comments)
+  - Tammany riff as Jeff's wheelhouse; "surge pricing" (Cyrus, 02 comments) → Cyrus says it and then sharpens it to price discrimination by a monopolist who owns the piers
+  - "Give the host something to say at narrative breaks" / kill repetitions (Jeff, 02 comments) → reactions are questions, emphasis, or additive
+  - No survivorship-bias beat here (transcript; Jeff) → none; no "voices we don't have" aside (Jeff) → Thoreau names the Irishmen and we move on
+  - Frozen aside (both hosts) → placed at the harvest, short; Wenham Lake cut per blueprint cut order
+  - Research corrections applied: 90,000 people / 25,000 horses attributed to an 1893 trade manual; "more ice than any cargo except cotton" hedged as "it was said"; Roffignac "reportedly"; Calcutta crowd anecdotes as "the stories that came back to Boston"; Brightman's Ghaut; Clement Littlefield; statue in the Capitol's Hall of Columns; "a New York paper sneered"; Tudor's role as Gorrie's belief; Van Wyck's shares as "thousands"; Tammany "damaged; a reform ticket won"; 1890 famine via the January headline and the June price map
+editor-pass: 2026-09-13 (see editor-notes.md)
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+status: draft
+date: 2026-09-13
+---
+
+--- SEGMENT BREAK: Wave 1 - Cold as a Commodity ---
+
+JEFF: So Frederic Tudor gets out of debtors' prison. And the thing I find fascinating about the next fifteen years is that he doesn't change the idea. The idea was fine. What he'd learned, the hard way, is that he had two problems and neither one of them was cold.
+
+CYRUS: Melt and demand.
+
+JEFF: Right. The ice melts before you can sell it, and when it gets there, nobody knows what to do with it. And he attacks both. And the melt one is the piece I didn't really get until I read your notes. Why does hay fail?
+
+CYRUS: [curious] Yeah, this one I loved, because it's so counterintuitive. The first cargo reportedly went out packed in hay, and here's the thing — the insulation is never the stuff. It's the air trapped in the stuff. Still air is a terrible conductor of heat, which is what you want. But hay and straw compress, they mat down, they get wet, and wet insulation conducts heat right through. Worse, the meltwater channels through it. So you've built a wet blanket around your ice.
+
+JEFF: And sawdust?
+
+CYRUS: Sawdust — and the other one they used was spent tan bark, the waste from tanneries — packs into a dense mass of tiny dead-air pockets, stays granular when it gets damp, and drains. The water runs off instead of sitting against the ice. The period manuals are very specific: eight inches of sawdust along the sides of the ship, and the filling has to be dry. Dry. That's the whole rule.
+
+JEFF: And here's the part I love. Sawdust is garbage. It's what comes out the back of every sawmill in New England. Tanneries were throwing the bark away. So one industry's disposal problem becomes another industry's most important input, at basically zero cost. Nobody planned that.
+
+CYRUS: [dry] Free markets at work.
+
+JEFF: It's like finding out your key input is somebody else's trash. And he does the same thing at the other end. Eighteen fifteen, he borrows twenty-one hundred dollars and builds an icehouse in Havana. Double walls packed with dry tan bark, drainage so the meltwater never pools, and you get in from the roof so you're not opening a door into warm air all day. He'd figured out you can't sell ice off a dock.
+
+CYRUS: So now walk me through the plow, because I think the plow is the biggest thing in this whole stretch and nobody's heard of it.
+
+JEFF: [reflective] Yeah, so this is a guy named Nathaniel Wyeth, and he's the operations story behind the visionary. He grew up on the shore of Fresh Pond, in Cambridge, running his family's hotel there when Tudor hired him to manage the harvest. Tudor's diary has this wonderful entry from January eighteen twenty-eight — "I found Wyeth wandering about the woods at Fresh Pond in all the lonely perturbation of invention and contrivance."
+
+CYRUS: [laughs softly] The lonely perturbation of invention.
+
+JEFF: Isn't that great? And what he'd invented, a few years before, was a horse-drawn ice cutter.
+
+CYRUS: So picture what harvesting looked like before this. Men with hand saws, cutting irregular chunks off a pond. Slow, and every block a different shape. Wyeth's tool is a plow with two iron blades about twenty inches apart. A horse drags it across the pond and it scores a groove; a guide arm rides in that groove while you cut the next one, so every line is parallel. Then you do it again at right angles. Now the whole pond is a grid of uniform blocks, and men with iron bars just snap them off and float them to the icehouse.
+
+JEFF: And the number on it.
+
+CYRUS: It cut the cost of harvesting from about thirty cents a ton to ten. Same man, same horse — three tons where he used to deliver one. But honestly the cost is the smaller effect. The bigger one is standardization. A uniform block is a unit. You can price it. You can stack it in a ship's hold with no air gaps — and air gaps are melt. Thoreau, watching this at Walden, says they stacked the blocks "as surely as so many barrels of flour." That's the moment ice stops being a thing you scrape off a pond and becomes a commodity in the literal sense.
+
+JEFF: And Tudor, being Tudor, locks up the rights to Wyeth's tools. So he controls the harvest technology, the ships, and the icehouses at the far end.
+
+CYRUS: [deadpan] The founder locks up the ops IP. Of course he does.
+
+JEFF: [laughs softly] Quick aside, because you're going to bring it up anyway — the opening scene of Frozen.
+
+CYRUS: [deadpan] Which I have seen seventy times. The very first scene — before any princesses — is a crew of men on a frozen lake, sawing blocks in rhythm and loading them onto a sled. That's Wyeth's harvest. Disney opened a billion-dollar movie on the pre-refrigeration economy and none of us noticed.
+
+JEFF: Okay. So melt is solved. Now — demand. And this is where I think Tudor is genuinely ahead of his time, because he understands that his product isn't ice. His product is the habit of ice. He gets an icehouse into Charleston in eighteen twenty, New Orleans the year after. And in New Orleans he tells his agent to pick four saloons. Just four. Give them ice for free for a year, teach the bartenders how to store it, teach them cocktails — and let them get their customers hooked.
+
+CYRUS: [laughs] He's running a freemium model on bartenders in eighteen twenty-one.
+
+JEFF: He is! And he explains the theory himself in a letter to his icehouse keeper in Martinique. Get this: "A man who has drank his drinks cold at the same expense for one week can never be presented with them warm again."
+
+CYRUS: [deliberate] That's the entire consumer-behavior playbook in one sentence. Same price, better experience, one week, and you can never go back, right? That's, like, every subscription business that has ever existed.
+
+JEFF: And he was right! By eighteen nineteen he's writing to a creditor that he has sold nearly thirty thousand dollars' worth of ice that season and that he is — his words — "inevitably and unavoidably rich."
+
+CYRUS: [skeptical] Was he?
+
+JEFF: [laughs softly] On paper. He was in and out of debt his whole life. But the demand was real. And not everybody wanted it. So — here's the first person who looked at this stuff and said no. Tudor's agents get a cargo into New Orleans, which is a city that should want ice more than anywhere in America. Hot, humid, rich, and a yellow-fever town — buries people by the hundreds most summers. And the mayor takes one look at it.
+
+CYRUS: [curious] The mayor?
+
+JEFF: His name is Louis Philippe de Roffignac. A French aristocrat — his godparents were the Duke and Duchess of Orléans — who'd fled the Revolution and spent two terms trying to civilize New Orleans. Levees, paved streets, gas lamps. Serious reformer. And the story New Orleans has told about him for a hundred and fifty years is that he looked at this boatload of frozen water and decided it was — quote — "dangerous to the health of people inhabiting so warm a clime." And reportedly had the whole cargo dumped in the Mississippi.
+
+CYRUS: [incredulous] He threw it in the river.
+
+JEFF: Reportedly. Nobody's found a paper from the eighteen twenties that confirms it, so I'll say it the way the city says it. But here's why I like it even with the hedge: he wasn't a fool. Nobody in the eighteen twenties knew what a block of frozen water did to a body in August. In a city where fever killed thousands, a public-health instinct against a strange new thing off a ship from the north — that's not crazy. That's a reasonable man being wrong.
+
+CYRUS: And then?
+
+JEFF: And then within a couple of decades New Orleans is one of the biggest ice markets on the planet. And — the punchline — fifty years after he left office, a cocktail served over ice gets named after him. The Roffignac. Brandy, red syrup, soda, and a big glass of the thing he supposedly threw in the river.
+
+CYRUS: [laughs] That is a very New Orleans way to win an argument.
+
+JEFF: [warmly] It really is. Okay — now the big one. Because by eighteen thirty-three Tudor has been at this twenty-seven years. And instead of the Caribbean, he loads a ship for India.
+
+CYRUS: So I went deep on Calcutta, and I have to know if you found the same thing I did.
+
+JEFF: Please. This was my favorite piece of the whole story going in, so I want your version.
+
+CYRUS: [deliberate] Okay. May twelfth, eighteen thirty-three. Tudor's diary: "Sailed this day the ship Tuscany, Captain Littlefield, for Calcutta with one hundred eighty tons of ice — an experiment I have been desirous of making for twenty years." Twenty years he'd wanted to try this. And the route is Boston, down around the Cape of Good Hope, across the Indian Ocean, up the Hooghly River to Calcutta. Sixteen thousand miles. Four months at sea. Across the equator twice.
+
+JEFF: [quietly] Four months — and the ice is just sitting in the hold that whole time?
+
+CYRUS: Packed in tan bark, stowed so the meltwater drains straight to the pump well, and the crew pumps the whole way. And when it gets there in September — and this is where I found the primary source, a London journal that reprinted the Calcutta newspapers — the colonial government does two things immediately. It lets the ice be landed after sunset, so it's not sitting in the sun. And it declares ice duty-free. Any ice, from any country, under any flag, from then on.
+
+JEFF: [genuinely surprised] Wait, they wrote a tariff exemption for ice? On arrival?
+
+CYRUS: On arrival. And then the residents build him an icehouse. Near a landing on the river — Brightman's Ghaut, north of the Strand Mills — and they raise the money by public subscription. The customers build the infrastructure. And he sells the ice at four annas a seer, which works out to about threepence a pound — half the price of the local slush ice from the clay pans.
+
+JEFF: [incredulous] He undercuts the locals. With ice that's been at sea for four months.
+
+CYRUS: Right. Now — did you come across the crowd stories?
+
+JEFF: I did, and I want to know how much you trust them. The hand, and the trees.
+
+CYRUS: So here's the honest version. The stories that came back to Boston — repeated for a hundred and fifty years without anybody finding the original — are that people on the riverbank pressed their palms to the blocks, and one man pulled his hand away and cried out that he'd been burned. And that somebody asked the captain whether ice grew on trees in America. They're not in the newspaper accounts. But they're the kind of thing that's true even if the specific man didn't exist, because think about what it means to touch ice for the first time in your life.
+
+JEFF: [awed] Yeah. That's the thing I can't get my head around. Not the shipping. That there were millions of people, in a city that size, for whom cold was simply not a category. You'd have no way to predict what it feels like.
+
+CYRUS: Right. And the trade is real. The first cargo clears about ten thousand dollars in profit. Regular sailings from eighteen thirty-five, icehouses in Madras and Bombay by the forties. And it saves him — because in eighteen thirty-four, he'd blown himself up a second time.
+
+JEFF: [laughs softly] Yeah, this is the part that makes me think he'd fit in Silicon Valley.
+
+CYRUS: [laughs] Now you're making my argument. He speculated in coffee futures. And by eighteen thirty-four he is two hundred and ten thousand dollars in debt — more than forty of his first ships. And he doesn't default. He pays back every penny, with interest. The total is two hundred eighty thousand, one hundred fifty-four dollars and fifty-nine cents. Takes him fifteen years. He's finally clear in eighteen forty-nine, at sixty-five. And the thing that dug him out was India.
+
+JEFF: The fifty-nine cents is what sells me. That's a man who kept a ledger.
+
+CYRUS: [amused] Kept a ledger, and kept score. By mid-century Boston is calling him the Ice King, and Boston's ships carry something like a hundred and fifty thousand tons a year.
+
+JEFF: So — I want to read you one thing, because the trade by now is big enough that it shows up in the most unlikely place. Thoreau. Walden. Winter of eighteen forty-six, forty-seven, Tudor's crews come to cut Walden Pond, and Thoreau watches from his cabin for sixteen days. "A hundred Irishmen, with Yankee overseers, came from Cambridge every day to get out the ice." A thousand tons a day. And then: "The sweltering inhabitants of Charleston and New Orleans, of Madras and Bombay and Calcutta, drink at my well. The pure Walden water is mingled with the sacred water of the Ganges."
+
+CYRUS: [quietly] That's beautiful.
+
+JEFF: It is. And his larger point is right — the scale of this thing by the eighteen eighties is genuinely hard to picture.
+
+CYRUS: [deliberate] So let me give you the denominators, because the numbers on this trade get thrown around loosely. Eighteen forty-seven: three hundred and fifty-three ice-laden ships clear Boston Harbor in a single year. By eighteen fifty-five, a period estimate has two million tons of ice in storage in the United States. And then the Hudson Valley becomes an ice factory. In the eighteen eighties, between New York City and Albany, there are about a hundred and thirty-five big icehouses employing something like twenty thousand men every winter. New York City alone is eating close to three million tons of ice a year by eighteen ninety.
+
+JEFF: And the national number?
+
+CYRUS: The national numbers everybody quotes — ninety thousand people and twenty-five thousand horses — come from an eighteen ninety-three trade manual, and they include seasonal labor. It's the industry's own estimate, not a census. But even discounted, it's a real industry. And there's a line from mid-century that I love but can't fully source, so I'll say it the way it was said: that Boston's ships carried more ice by weight than any cargo except cotton.
+
+JEFF: [amused] Frozen pond water, behind only cotton. I want that to be true so badly.
+
+CYRUS: So did I, which is why I'm hedging it. And here's what that industry does to daily life. It teaches whole cities to expect cold. Every day. By the eighteen nineties there's a guy — the iceman — who comes down your street with a wagon and a wet sack over his shoulder. You've got a square card in your window with twenty-five, fifty, seventy-five, and a hundred printed on the corners, and whichever number you turn upright is how many pounds you want. He reads it from the street, cuts the block, slides it into the zinc-lined icebox in your kitchen. And if you forget to empty the drip pan underneath, you flood the floor.
+
+JEFF: [amused] Every kid in America had that chore.
+
+CYRUS: That's the daily rhythm of an American household for fifty years. Cocktails on the rocks. Ice cream as a business. Lager brewed all summer. So — a huge industry, a daily habit, and a whole country's worth of capital in ponds, ships, and icehouses. And that's exactly the moment somebody shows up with a better idea.
+
+JEFF: [reflective] Yeah. And this is the story I think about most from this whole stretch. So — that brings us to a doctor in Florida named John Gorrie. Apalachicola, a big cotton port on the Gulf. Gorrie is the town's fever doctor. Yellow fever. And he's working from the medical theory of the day, which is that heat and bad air spread disease. So his treatment is to cool the sickroom — he hangs pans of ice above the patients' beds and lets the air flow down over them.
+
+CYRUS: Ice he's getting from —
+
+JEFF: From Boston. Tudor's ice. And in summer, when the ships don't come, there isn't any. So this doctor, with fever patients dying in the heat, decides he's going to build a machine that makes it. Eighteen forty-four, he makes ice mechanically. Eighteen forty-five he gives up medicine to work on the machine full time.
+
+CYRUS: [curious] And it actually made ice? What was he doing in there — one line.
+
+JEFF: One line: compress air, it gets hot, dump the heat, let the air expand, it gets cold, run that cold air over brine and freeze water. It's not the cycle that eventually wins. But it makes ice. And here's the scene I love. July fourteenth, eighteen fifty. Bastille Day. There's a French cotton buyer in town named Rosan, who's also the French consul, and he's throwing a dinner for the Northern cotton brokers at the Mansion House — the biggest hotel in Florida. The summer ice shipment hasn't come. And when a guest wishes out loud for ice for his wine, Rosan, who has seen the machine, bets a basket of champagne he can produce it. And at the toast to the Republic, the waiters walk in carrying champagne buckets full of ice, made in a back room by John Gorrie's machine.
+
+CYRUS: [laughs] That is a great party trick.
+
+JEFF: In Florida. In July. In eighteen fifty. A friend remembered Gorrie being "excited and nervous," which — of course he was. The next year, May sixth, eighteen fifty-one, he gets a United States patent for it.
+
+CYRUS: And this is the detail I flagged — the patent number. Eight thousand and eighty. That is such a young patent number. There are more than eleven million now. Also — the patent lists him as "John Gorrie, of New Orleans," which tells you something.
+
+JEFF: It tells you he'd gone to New Orleans to raise money. And he finds it. He sells a half interest to a Boston investor who pledges enough capital to build a full-scale plant. And then the investor dies.
+
+CYRUS: [exhales] Oh no.
+
+JEFF: The investor dies. And we don't even know his name — the histories say "a man from Boston, whose name is not known." And after that, nobody will fund him. Gorrie becomes convinced the natural-ice interests are running a press campaign against him — he thought Tudor himself was behind it. There's no document that proves that. But there is a New York paper that sneered — the line has been quoted for a century, even if nobody's found the clipping — that "there is a crank down in Apalachicola, Florida, that thinks he can make ice by his machine as good as God Almighty."
+
+CYRUS: [scoffs] And the crank was right.
+
+JEFF: And he dies in eighteen fifty-five. Broke. In seclusion. His health gone. The official description at the Capitol says "humiliated by criticism, financially ruined, and his health broken." Florida later gave him a marble statue — it stands in the U-S Capitol today, in the Hall of Columns.
+
+CYRUS: [deliberate] So here's the structural read, because I think it's the important one. Gorrie didn't fail because the machine didn't work. It worked. He failed because the incumbent was real. In eighteen fifty-five there are two million tons of ice in storage in this country, three hundred and fifty ships a year out of Boston, a workforce, wharf rights, icehouses in twenty ports. Every dollar of that is a reason not to fund a guy who makes ice in a back room. The technology that wins isn't always the one that works. It's the one with the existing capital on its side.
+
+JEFF: He was right — just forty years early. And he died ruined for it.
+
+CYRUS: And I found the receipt on the "forty years." In June of eighteen ninety, the Savannah newspaper lists the city's machine-ice makers. One of them is called the Gorrie Ice Company. Thirty-five years after he died broke, Southern ice factories are naming themselves after him.
+
+JEFF: [quietly] That's a hard one.
+
+CYRUS: It is. And by the way — the ice trade didn't have to conspire against him. It just had to exist. Tudor solved the problem so well that his solution built the capital that kept the better solution out for a generation. Nobody had to be a villain.
+
+JEFF: Although — once you have an industry that big —
+
+CYRUS: — it attracts a different kind of capitalist. Yeah. Who?
+
+JEFF: [amused] His name is Charles W. Morse. He's from Bath, Maine — his family shipped ice and lumber — and in the eighteen nineties he starts rolling up New York's ice supply. And in eighteen ninety-nine he forms the American Ice Company — capitalized at sixty million dollars, which the papers at the time called grossly overcapitalized. And the key thing he controls isn't the ice. It's the piers. His company is essentially the only one allowed to land ice at New York's docks. An independent dealer up in Albany told the Tribune, "He can ruin any independent dealer in this town and we all know it."
+
+CYRUS: So he owns the chokepoint.
+
+JEFF: And then — May first, nineteen hundred. Right as the heat is coming. The American Ice Company notifies its customers that the price of ice for the season will be sixty cents per hundred pounds. It had been twenty-five, maybe thirty. So the price doubles. And — this is the detail that gives it moral weight — the company announces that no small pieces will be sold.
+
+CYRUS: [skeptical] Meaning what?
+
+JEFF: Meaning the five-cent piece and the ten-cent piece. Which is the only ice a tenement family can buy. No room for a block, no money for one. They buy a nickel's worth, every day, and it goes in a pan next to the baby's milk in a room with no cross-breeze in July. So abolishing the nickel piece — that is the price increase for the poor, specifically. Everybody else just pays more. They get cut off.
+
+CYRUS: [deliberate] Okay, and my first reaction reading this was, that's surge pricing. Demand spikes, price doubles — that's just Uber on a rainy night. But honestly, when I read the Tribune reporting, it's worse than surge pricing. Surge pricing is one price that goes up for everyone.
+
+JEFF: Right — so the Tribune goes out in late June and finds the Trust selling ice at, quote, "as many prices as the fakirs in Fulton Street." Sixty-five cents to the rich. As low as thirty-three cents in the tenements, once the heat is on them. One ice cart in Harlem sold at four different prices along the length of a single block. And then — the kicker — the Trust bid to supply the federal buildings downtown at twenty-five cents a hundred. So they could sell at twenty-five and make money. The paper's line is, "the trust is practically the supply."
+
+CYRUS: So that's not supply and demand. That's price discrimination by a monopolist who owns the piers. Whatever each customer will bear, block by block. You can only do that when you are the supply.
+
+JEFF: And the press goes to war. Hearst's Journal, Pulitzer's World, the Tribune, the Times. The World goes to court and gets a judge — Justice Gaynor, in Brooklyn — to open an inquiry, and hires the lawyer who prosecuted Boss Tweed to do the questioning. And in the courtroom, alongside Morse and the ice barons, are the city's dock commissioners. Because the piers were the monopoly. And the Mayor of New York.
+
+CYRUS: [incredulous] The mayor's in the room?
+
+JEFF: The mayor is on the stand. June ninth, nineteen hundred. Robert Van Wyck, Tammany's man, first mayor of the consolidated city. And under oath he admits he owns thousands of shares of American Ice stock — worth around six hundred and eighty thousand dollars at par. On a salary of fifteen thousand a year. He swears he borrowed the money from a bank — and the bank's president gets up and swears he never lent the mayor a cent.
+
+CYRUS: [laughs] Under oath. Both of them.
+
+JEFF: Which tells you how nervous the room was. And Richard Croker, the boss of Tammany Hall, whose family holds a pile of the stock in his wife's name, writes a public letter that same week: "If it were in my power or in the power of Tammany Hall to give the poor ice for nothing we would do so." The paper prints it right above the list of his family's shares. And then he sails for England.
+
+CYRUS: [deadpan] As one does.
+
+JEFF: [laughs softly] And here's the part I find genuinely interesting. Charges go to the governor to remove the mayor. And the governor is Theodore Roosevelt — the reformer. And in October, Roosevelt dismisses the charges, because owning the stock, by itself, wasn't legally sufficient cause. The scandal had no legal handle. It got resolved by voters instead: Van Wyck doesn't run again, and the next year a reform ticket under Seth Low takes City Hall. The Ice Trust damaged Tammany badly. Though Tammany came back two years after that.
+
+CYRUS: They always come back. And Morse?
+
+JEFF: Morse walks away from ice with something like twelve million dollars, eventually gets fifteen years for bank fraud — and gets pardoned by President Taft after Army doctors diagnose a fatal kidney disease he had faked by drinking soapsuds.
+
+CYRUS: [incredulous] He faked a fatal disease by drinking soap?
+
+JEFF: And lived another twenty years. And the nickel piece? It came back within a couple of weeks, under the press pressure — but only at the depots, and only if you showed a certificate from a charity proving you were poor. The Tribune called it "a miserable subterfuge, almost fiendish in the forfeiture of self-respect which it inflicts."
+
+CYRUS: So — step back. What New York just learned in one summer is that its cold comes from two places. It comes from the weather. And it comes from Tammany Hall.
+
+JEFF: [reflective] And both of those had been on display ten years earlier, if anybody had been looking. Because the winter of eighteen eighty-nine, ninety, was one of the warmest on record. The Hudson barely froze. January seventh, eighteen ninety, the Jersey City paper's front page: "An Ice Famine at Hand. None in the storage houses to meet present demands. It may rise to twenty dollars per ton. Agents are scouring the country and Canada for a supply."
+
+CYRUS: And here's the thing nobody in New York was paying attention to. Same year — June, eighteen ninety — the Savannah paper runs a story. Ice is wholesaling in New York at ten dollars a ton. Cincinnati, twenty. Savannah? Five to seven-fifty. And the editor is very pleased with himself about it: "It is some satisfaction to know, when the mercury is up in the nineties, that ice is selling lower in Savannah than in the north and west." And then the headline — "The natural ice trade gone and machine ice the entire supply now."
+
+JEFF: [genuinely surprised] Wait — the South is already fully on machine ice in eighteen ninety?
+
+CYRUS: Fully. Every corner grocery in Savannah sells it. And that's the natural experiment. Same country, same month, a two-to-four-times price gap — and the entire difference is whether you were making cold or harvesting it. The thing Gorrie died trying to sell is, by eighteen ninety, ordinary, everywhere it never snowed. And a machine in Munich had been running a brewery's cellars since eighteen seventy-six.
+
+JEFF: So the next part of this isn't about cutting ice at all. It's about making it. And then — harder — moving it. Getting cold from a machine to a plate a thousand miles away.
+
+[MUSIC: transition-bumper]

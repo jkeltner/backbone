@@ -3,28 +3,55 @@ topic: refrigeration
 agent: research-director
 phase: 2
 chapter: 01
-chapter-title: Opening — The Hook (Cold Open, By the Numbers, World Before, Road Ahead)
-status: draft
-date: 2026-05-21
+chapter-title: "OPENING: The Hook"
+status: complete
+date: 2026-09-13
 ---
 
-# Chapter 01 Research: The Hook
+# Chapter 01 Research: OPENING: The Hook
 
 ## Chapter Context
 
-*From the blueprint — what this chapter covers and what it needs to accomplish.*
+**Blueprint summary (lines 67–103):** The story leads. Cold open (~3–4 min, Jeff tells it): February 1806, Boston Harbor, a brig cleared for Martinique with a cargo of pond ice, the *Boston Gazette*'s "No joke… slippery speculation" line, Frederic Tudor at twenty-three, the Brahmin dropout who left school at thirteen and refused to follow his brother to Harvard, nobody would charter him a ship so he bought one, the melt, the buyer search on a hot island, debtors' prison, and the journal line "Let those laugh who win." Then the World Before *as backstory* (~3 min) answering "why was this a joke?" — two angles: (1) what people lacked (ice outside the ice belt; the lethal version: summer, cities, babies — 1891 NYC infant mortality ~240 per 1,000, spiking in July–August; optional hedged swill-milk color), and (2) what existed *because* cold didn't (bacon, pepperoni, prosciutto, salt cod — Jeff's ask, Cyrus's beat). Then a 1–2 sentence teaser with one Einstein image. No stats block, no roadmap, no production vocabulary.
 
-**Blueprint summary:**
-The Opening is roughly 14 minutes total, both hosts, with four beats: (1) a ~3-min Cold Open dramatizing February 10, 1806 — Frederic Tudor's brig *Favorite* leaving Boston Harbor with ice for Martinique, the *Boston Gazette*'s "slippery speculation" sneer, the $4,500 loss, debtor's prison; (2) a ~4-min "By the Numbers" segment with five hook stats; (3) a ~3-min "World Before" weaving the iceman's window-card and the 1858 swill-milk scandal; and (4) a ~4-min "Road Ahead" previewing the three waves. The Opening sets up the diffusion-as-contingent-grind argument and plants the recurring "every breakthrough is mocked first" beat.
+**Gaps to fill (blueprint lines 552–556 plus inline markers):**
+- `[VERIFY]` 80 tons (the *Gazette*) vs. 130 tons; Tudor's $4,500 first-voyage loss.
+- `[NEEDS RESEARCH]` one or more *dated* Tudor journal entries — the context of "Let those laugh who win," plus an insulation experiment, a note of despair, or an account of losses.
+- `[BELIEVABILITY]` the swill-milk "8,000 infant deaths a year" — pin the original estimate and label it, or use the peer-reviewed number only.
+- Plus the task's asks: the exact *Gazette* date and wording; ship name; did he really have to buy his own ship; what happened at Martinique; debtors' prison dates; family background as thesis; Calcutta "hoogly ice" method; Caribbean first-ice accounts; cured foods with a few crisp verified facts and the spice myth; Einstein teaser safety; pronunciations.
 
-**Gaps to fill:**
-- [NEEDS RESEARCH] Verify the 107-door-opens-a-day stat. Jeff and Cyrus both flagged it as implausible; ENERGY STAR cites 33. We should hand the Script Writer both numbers and let them pick the defensible one. ⭐
-- [NEEDS RESEARCH] Tudor's "Let those laugh who win" — verify primary-source provenance.
-- [NEEDS RESEARCH] Verify "Ice Fool" nickname — is it real or apocryphal?
-- [NEW from feedback] Bacon / pepperoni / cured meats as a "world before" beat — Jeff wants this in. ("We have the lack of refrigeration to thank for bacon. And pepperoni.")
-- [NEW from feedback] Einstein-Szilárd refrigerator failure as a Cold-Open teaser (Jeff suggested this). Tee it up here as a deferred mystery; full payoff in Wave 3.
-- [VERIFY] 8,000 NYC infant deaths from swill milk in 1858 — the New York Times figure.
-- [VERIFY] The 1858 *NYT* citation for the swill-milk figure (Phase 2 needs to pin original publication).
+**Research-access note for downstream agents:** this pass ran after the session's web-search quota was exhausted, so it was done by direct fetches of known primary/secondary pages (HNOC, Wikipedia with its archival footnotes, HUB History ep. 211's transcription of Tudor's diary, Investor Amnesia, New England Historical Society, Europe PMC, CDC, Wikisource Riis 1890, LacusCurtius Cato, Wikipedia wikitext for reference chains). Smithsonian's "The Ice King Cometh," Smith's 1961 "Crystal Blocks of Yankee Coldness," Google Books, JSTOR (Pearson 1933; Chase & Walker 1985), and the archive.org full texts of Weightman and Cummings were all blocked (403/429/lending-only). Where a claim rests on one of those, it is flagged below with the exact source the Fact Checker should pull.
+
+---
+
+## Feedback Intake Note
+
+- **Cold open leads; World Before as backstory; no roadmap** (01 comments, Jeff + Cyrus). The file is organized in the blueprint's order — ship first, then "why was this a joke?" — and the World Before material is written as *answers to that question*, not as a survey. Nothing here needs a table of contents to land.
+- **Einstein teaser** (Jeff, 01 notes). One-sentence safety check done: Einstein and Szilárd really did design refrigerators (1926–1934; U.S. Patent 1,781,541, Nov. 11, 1930; Electrolux bought the best patents; it never sold). The teaser line is safe as written. Nothing more here — Wave 3 owns the story.
+- **Cured foods as World Before** (transcript, both hosts; 01 notes). Tight, quotable, verified: Cato's ham-salting recipe (c. 160 BC), the Gauls exporting salt pork to Rome (Polybius), why salt works (osmosis/water activity, ~20% salt), what smoke actually does (phenols, formaldehyde, acids), salt cod's Basque/Newfoundland/Catholic-Friday story, and a note so the hosts don't repeat the "spices masked rotten meat" myth. The overview's "Romans learned it from the Greeks by 200 BC" line was *not* re-sourced — replaced with Cato, which is dated and quotable.
+- **Infant mortality — believable and anchored** (01 comments, transcript, 02 comments). 240 per 1,000 (1891 NYC) confirmed via the Science History Institute and the *J. Food Protection* review; anchored to CDC 2024 (5.5 per 1,000) and to 1914 NYC (71 per 1,000). One correction: the blueprint's citation "Wilson et al. 2018" is wrong — the authors are **Currier and Widness** (2018). A period voice is supplied (Jacob Riis, 1890: "Life in the tenements in July and August spells death to an army of little ones"). The swill-milk 8,000 is pinned to the *New York Times*, May 22, 1858, as a reported *estimate*, with hedge wording.
+- **No survivorship-bias beat at Tudor** (transcript; Jeff, 02 comments). Nothing in this file invites one. The failed-partner and debtors'-prison material is written as Tudor's own grind, not as a comment on the odds.
+- **"Let those laugh who win" as "a great family motto for entrepreneurs"** (Jeff, 02 comments). The line is attested but *undated* in every accessible source; what I could date is better: his 1805 diary line "People only laugh and believe me not when I tell them I'm going to the West Indies" — which is the *setup* for the motto and lets Jeff use both honestly. Details and hedge wording below.
+- **Believable beats technically true.** Two blueprint details fail the test and are flagged with replacements: "1,500 miles" to Martinique (it is closer to 2,000 statute miles — say "a three-week voyage south"), and "in a Caribbean port there is no word for what Tudor is selling" (French Martinique had the word *glace*; use Tudor's own, funnier, sourced detail — buyers wrapping ice in blankets and wondering where it went).
+- **Discovery framed as comparing research, not feigned ignorance** (Cyrus, 02 comments). The World Before beats are supplied as *finds* ("did you come across the Riis line about the fifty summer doctors?") rather than as things a host has "never thought about."
+- **Calcutta ritual-purity aside — cut** (Jeff, 02 comments). Not researched, not included. Calcutta appears here only as the "what ice existed outside the ice belt" example.
+
+---
+
+## Blueprint Markers Resolved
+
+| Marker | Status | Finding | Source | Recommendation |
+|---|---|---|---|---|
+| `[VERIFY]` 80 tons vs. 130 tons | **RESOLVED (80); 130 not found** | Every source reached this pass says 80 tons: Investor Amnesia gives "160,000 pounds of ice"; HUB History ep. 211 says "80 tons"; HNOC and Investor Amnesia quote a *Gazette* version containing "80 tons." No source reached says 130. **But** two versions of the *Gazette* text circulate: (A) "No joke. A vessel with a cargo of 80 tons of ice has cleared out from this port for Martinique. We hope this will not prove to be a slippery speculation" (HNOC; Investor Amnesia); (B) "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation" (Wikipedia, citing Weightman; New England Historical Society). Version B tracks Weightman's transcription and may be the more faithful one; the number may be Tudor's accounting rather than the paper's. | HNOC "The Big Freezy"; Investor Amnesia "Breaking the Ice"; HUB History ep. 211; Wikipedia *Frederic Tudor* (refs to Weightman 2004, Smith 1961) | **Use "eighty tons" as the cargo** (well corroborated). **Quote the *Gazette* in version B** — the words both versions share ("No joke… cleared… for Martinique with a cargo of ice… slippery speculation") — and do not attribute the tonnage to the newspaper. Primary is the *Boston Gazette*, Feb. 10, 1806 (Readex *Early American Newspapers*, paywalled) — Fact Checker should pull the page. |
+| `[VERIFY]` $4,500 first-voyage loss | **RESOLVED (with a range)** | Wikipedia (citing Weightman/Smith): "a loss of $4,500 overall"; Investor Amnesia: "a loss of $4,500"; HUB History ep. 211: "about $4,000." He had raised about $10,000 (largely borrowed) and spent $4,750 of it on the ship. | Wikipedia *Frederic Tudor* refs 14–15; Investor Amnesia; HUB History ep. 211 | Use "he lost about forty-five hundred dollars on the voyage — nearly half of everything he had raised." The comparative anchor is the $10,000 stake, not a modern-dollar conversion. |
+| `[NEEDS RESEARCH]` a dated Tudor journal entry | **RESOLVED** (several dated entries; the motto itself remains undated) | See *Tudor in His Own Words* below: Aug. 1, 1805 (the decision); 1805 ("People only laugh and believe me not…"); Mar. 7, 1806 (the Martinique handbill: "bring a wool cloth… to wrap the ice"); undated Martinique despair ("without money and without friends and with only a cargo of ice in a torrid zone"); 1816 (leaving Charleston "in a clandestine manner"); 1819 ("inevitably and unavoidably rich"); Jan. 13, 1828 (finding Wyeth "in all the lonely perturbation of invention"). All via HUB History ep. 211's transcription of the diaries; primary is the Tudor Papers (Houghton, bMS Am 1197/2027) and the Tudor Ice Company Collection (Baker Library, HBS); scholarly transcriptions in Pearson (MHS *Proceedings* 65, 1933) and Seaburg et al., *The Ice King* (MHS, 2003). "Let those laugh who win" — confirmed as a journal line by Smithsonian (per overview) and Investor Amnesia ("after his first loss"), **no date found**. | HUB History ep. 211; Wikipedia refs; Investor Amnesia; overview (Smithsonian) | Say "in his journal" without a year for the motto. Pair it with the *dated* 1805 line, which sets it up. |
+| `[BELIEVABILITY]` swill-milk "8,000 infant deaths" | **RESOLVED as an attributed estimate** | *Frank Leslie's Illustrated Newspaper* ran "Exposure of the Milk Trade" on **May 8, 1858** (The Henry Ford, object 71.1.663). The 8,000 figure is the *New York Times*: "Swill-Milk and Infant Mortality," **May 22, 1858** — Wikipedia's wording: "The New York Times reported an estimate that in one year, 8,000 infants died from swill milk." Atlas Obscura: "Nearly 8,000 babies a year shriveled to death from uncontrollable diarrhea, as reported by *The New York Times*." It is a period estimate, not a count. | Wikipedia *Swill milk scandal* (ref: NYT May 22, 1858); The Henry Ford; Atlas Obscura | Either "the *New York Times* put the toll at something like eight thousand babies a year — an estimate, but the order of magnitude was not disputed" **or** drop the number and say "thousands." Never state 8,000 as a fact. |
+| *(new)* Blueprint cites "Wilson et al. 2018" | **CORRECTION** | The *J. Food Protection* review is **Currier RW, Widness JA**, "A Brief History of Milk Hygiene and Its Impact on Infant Mortality from 1875 to 1925 and Implications for Today: A Review," *J Food Prot* 81(10):1713–1722 (2018), doi 10.4315/0362-028X.JFP-18-186. Abstract: early/mid-19th-c. infant mortality "30- to 60-fold higher than the current rates of five or six deaths per 1,000 live births per year"; lists "summer diarrhea" among milkborne diseases. | Europe PMC record for PMID 30234385 | Fact Checker: fix the attribution wherever it appears. |
+| *(new)* "1,500 miles" Boston→Martinique | **BELIEVABILITY / accuracy** | Wikipedia repeats 1,500; the great-circle distance (42.4°N 71°W → 14.6°N 61°W) is ≈2,000 statute miles. A geography-literate listener will flinch. | Own calculation | Say "a three-week voyage south" (HUB: 20-day passage; Wikipedia: "three-week journey") or "two thousand miles." |
+| *(new)* "no word for ice" in the Caribbean | **UNSUPPORTED — recommend replace** | French colonists on Martinique had *glace*; wealthy colonials knew of ice. What's sourced and funnier is Tudor's own diary: customers "wrap their piece of ice in blankets and waddled off and wondered why that disappeared when they got home" (Weightman, 99% Invisible), and his handbill of Mar. 7, 1806 telling buyers to bring "a wool cloth or a piece of covering to wrap the ice." | 99% Invisible transcript (Weightman); HUB History ep. 211 | Replace with "an island where almost nobody had ever held a piece of ice — and nobody had anywhere to keep it." |
+| *(new)* "debtors' prison three times, 1809–1813" | **PARTIAL — sources disagree** | Investor Amnesia: "three times from 1809–1813 for family debts incurred from a ruinous investment." Wikipedia (citing Weightman/Smith): "spent parts of 1812 and 1813 in debtor's prison." NEHS: 1812–1813 "after his business partner swindled him." HUB History: jailed in Boston and Cambridge after Jefferson's 1807 embargo left him ~$25,000 in debt. | as listed | Safe wording: "Within a few years he was in debtors' prison — more than once, between 1809 and 1813." Do not say "three times" as a hard count unless the Fact Checker confirms it in Weightman/Seaburg. |
+| *(new)* "packed in hay" | **NOT RE-VERIFIED** | Weightman describes hay insulation on the first voyage (training data); no page reached this pass. | — | `[VERIFY]` or say "packed in whatever he thought might hold the cold." |
+| *(new)* Ship sailed Feb. 10 or Feb. 13? | **PARTIAL** | Wikipedia and Investor Amnesia: Feb. 10, 1806. HUB History: sailed Feb. 13 after a 20-day passage. Feb. 10, 1806 was a Monday and Feb. 13 a Thursday — the *Gazette* was a semi-weekly, and a Monday notice that the vessel had *cleared* customs followed by a Thursday departure reconciles the two. `[VERIFY]` the publication days. | as listed | Say "February 1806"; if a date is wanted, "the tenth of February" for the *Gazette* notice. |
 
 ---
 
@@ -32,196 +59,252 @@ The Opening is roughly 14 minutes total, both hosts, with four beats: (1) a ~3-m
 
 ### Narrative Arc
 
-The Opening has to do four things in 14 minutes:
+The opening tells one story in one breath and then asks one question. The story: a twenty-three-year-old with no college, no ship, and a pond, clears Boston customs for a French sugar island with eighty tons of frozen water, and the town paper makes a pun about it. The question the story forces: *why was this a joke?* The answer is the World Before — a world in which cold was a thing that happened to you in winter, in which ice on a tropical island had no place to exist, in which the hottest months of the year killed one city baby in four, and in which humanity's entire culinary response to the absence of cold was salt, smoke, and time. Then a single forward glance (Einstein will try to build a refrigerator and fail) and into the story.
 
-1. **Plant a mocked-and-vindicated protagonist** (Tudor) so the listener knows from minute one that this episode treats diffusion as a contested, comedic, and contingent process — not a triumphal march.
-2. **Drop five stats** that make the listener stop scrolling. Lead with one that personalizes (door-opens-per-day, with the right number); follow with the 1930→1950 adoption flip; the 20% of global electricity figure; the 8,000 NYC infant deaths; and (as the foreshadowing punch) the chlorine-atom number that pays off in Wave 3.
-3. **Sensory "World Before"** — two interlocking images: the iceman's window-card and the swill-milk cow tethered in a brewery basement. Plus a Jeff-requested beat on what existed *because* refrigeration didn't: cured meats (bacon, pepperoni), salt cod, spice routes, eating in season.
-4. **Tee up the three waves** so the listener has a mental map — Commodity (Tudor), Infrastructure (the cold chain), Chemistry (refrigerants and their consequences). And — per Jeff's note — drop the Einstein-Szilárd teaser here.
+### The Cold Open in Full Detail
+
+**The people.**
+
+*Frederic Tudor* (born Sept. 4, 1783; d. 1864). Boston Brahmin family. Father **William Tudor** (1750–1819) studied law in John Adams's office, served as George Washington's first Judge Advocate General in the Continental Army, later held state offices (HUB History describes him as clerk of the Massachusetts supreme court), built a lucrative Boston practice — and lost much of his fortune in South Boston land speculation (Sources: New England Historical Society; HUB History ep. 211). Mother Delia Jarvis Tudor. Siblings William, John Henry, Emma, James, Henry (Source: Wikipedia, citing Seaburg et al. 2003). The family farm, **Rockwood**, in **Saugus**, north of Boston — inherited when Frederic's grandfather died in 1795; about 250 acres with a small pond near the almshouse, where Frederic conducted his boyhood ice experiments (Sources: Wikipedia citing Seaburg; HUB History ep. 211). Note: Wikipedia's *Ice trade* article mislinks Rockwood to Maine; it is Saugus, Massachusetts.
+
+*The brother.* **William Tudor** (1779–1830), Harvard A.B. 1796, later co-founder and first editor of the *North American Review*, co-founder of the Boston Athenaeum, and the man who christened Boston "the Athens of America" in an 1819 letter. He was Frederic's first partner in the ice scheme and later used Harvard connections to raise money for both the *Review* and the New Orleans ice house (Sources: Wikipedia *William Tudor (1779–1830)*; HUB History ep. 211; NEHS).
+
+*Cousin James Savage* went to Martinique ahead of the cargo with William to arrange storage and buyers (Sources: Investor Amnesia; HUB History). His journal of that trip is the primary account of what happened on the island — published as Chase & Walker, "The Journal of James Savage and the Beginning of Frederic Tudor's Career in the Ice Trade," *Proceedings of the Massachusetts Historical Society* 97 (1985). Not reachable this pass (JSTOR); flagged for the Fact Checker.
+
+**Backstory as thesis — why a Brahmin dropout had to prove the joke wrong.**
+Frederic was, per HUB History, "the only son who didn't attend Harvard." He left Boston Latin School at thirteen to apprentice with a State Street merchant firm; the surviving letter to his father is dated **Nov. 10, 1796**: "Mr Ducator & Marshall have opened a Store in state Street … I am with them & at present the youngest Apprentice…" — adding that he attended evening classes, was "treated with great kindness," and hoped his father "will not be displeased with my going so young" (Source: Wikipedia, citing Tudor Papers, Houghton Library, bMS Am 1197/2027). He quit the apprenticeship early and went back to Rockwood for reasons the record doesn't give (Wikipedia, citing Seaburg). The famous line that he called Harvard "a place for loafers" is repeated by HUB History; treat as secondary — `[VERIFY]` in Seaburg or Pearson before quoting.
+
+His older brother John Henry's letter of **Nov. 7, 1800** shows the family's view of the merchant world Frederic chose over college — merchants "are a contemptible set of beings. They are afraid to receive a young man from College, lest they should expose their meanness and ignorance" — and John Henry's journal of **May 16, 1801** shows how the family saw Frederic: "It is the greatest difficulty I can get him to do anything. I hope there will be a time when I shall be able to rouse him" (Source: Wikipedia, citing Tudor Ice Company Collection, Baker Library, and Tudor Papers, Houghton). ⭐ This is the thesis in two sentences: the lawyer's son who wouldn't go to Harvard, whose own family wrote him down as un-rousable, and whose father had just lost money speculating on land. A twenty-three-year-old in that position doesn't need the ice to be a good idea. He needs it to be *his*.
+
+**The decision.** Diary, **Aug. 1, 1805**: "William and myself have this day determined to get together what property we have and embark on the undertaking of carrying ice to the West Indies" (Source: HUB History ep. 211 transcription). The idea is usually traced to a family picnic joke about the Rockwood pond ice — that anecdote was not re-sourced this pass; `[VERIFY]` before using.
+
+**The mockery, before the ship ever sailed.** Diary, **1805**: ⭐ "People only laugh and believe me not when I tell them I'm going to the West Indies" (Source: HUB History ep. 211). This is the line that makes "Let those laugh who win" a *reply* rather than a slogan.
+
+**The ship.** No Boston shipowner would carry the cargo — the fear, per Investor Amnesia's summary of the record, was that "melted ice flooded the vessels" and might sink or ruin them — so Tudor **bought** a brig, the ***Favorite***, for **$4,750**, nearly half of the roughly **$10,000** (mostly borrowed) that he had raised (Sources: Investor Amnesia; HUB History ep. 211; Wikipedia). Captain **Pearson** commanding (HUB History). `[VERIFY]` the "no one would charter" reason specifically against Weightman or the Smithsonian piece — it is consistent across secondary accounts but I could not reach the underlying page this pass.
+
+**The cargo and the departure.** About **eighty tons** of ice, cut from the Rockwood pond in Saugus (Wikipedia: "probably harvested from his family estate"), packed — per Weightman — in hay (`[VERIFY]`). Cleared the Custom House about **Feb. 10, 1806**; HUB History has the *Favorite* sailing Feb. 13; passage of about **twenty days** ("three weeks") to Martinique (Sources: Wikipedia; HUB History; Investor Amnesia).
+
+**The *Boston Gazette*.** Two versions circulate (see Markers table). The safe quote is the common core: ⭐ **"No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."** (Sources: Wikipedia citing Weightman; New England Historical Society; HNOC and Investor Amnesia give the variant with "80 tons"). Cyrus's beat — "a two-hundred-and-twenty-year-old burn" — is fine; the pun is *slippery*, and it is real.
+
+**Martinique.** William and James had gone ahead to "locat[e] appropriate storage facilities and clinch orders" and made "little headway" (Investor Amnesia). There was no icehouse waiting — the brothers had failed to get one built (HUB History) — and the residents "didn't understand the product, had no interest in purchasing it, and possessed no storage facilities" (HNOC, paraphrased by fetch). Tudor's own handbill, dated **Mar. 7, 1806**: ⭐ "The price is 10 cents a pound. It is necessary to bring a wool cloth or a piece of covering to wrap the ice" (Source: HUB History ep. 211). Weightman, on 99% Invisible: "He wrote a rather amusing entry in his diary about the fact that people wrap their piece of ice in blankets and waddled off and wondered why that disappeared when they got home." **The ice cream:** Tudor "personally made ice cream that earned a local businessman $300 in only one night" (Investor Amnesia) — the one thing on the island that sold. And the diary line for the low point (undated in my source, but placed at Martinique): ⭐ "I found myself without money and without friends and with only a cargo of ice in a torrid zone to depend on" (Source: HUB History ep. 211). `[VERIFY]` exact wording and date in Pearson/Seaburg. The port was almost certainly Saint-Pierre, then Martinique's commercial capital — training data, `[VERIFY]`; don't name it unless confirmed.
+
+**The loss.** About **$4,500** on the voyage (Wikipedia citing Weightman/Smith; Investor Amnesia; HUB says ~$4,000). Then Havana on the brig *Trident*, with "severe financial losses" (Wikipedia). NEHS: "His first venture failed, and so did his second, third and fourth."
+
+**Prison.** Jefferson's **1807 embargo** wrecked the West Indies trade and left Tudor roughly **$25,000** in debt (HUB History). He was jailed for debt in Boston and Cambridge (HUB); Wikipedia (citing Weightman) puts the prison time in "parts of 1812 and 1813"; Investor Amnesia says three times, 1809–1813, "for family debts incurred from a ruinous investment"; NEHS says 1812–13 "after his business partner swindled him." By **Nov. 1, 1815**, "pursued by sheriffs to the very wharf," he sailed for Havana with $2,100 borrowed to build an icehouse there (Wikipedia). Diary, **1816**, on slipping out of Charleston: "Hateful and debasing feelings to be in such a situation is to be obliged to leave one's home in anything like a clandestine manner" (HUB History).
+
+**The motto.** ⭐ **"Let those laugh who win."** Attested as a journal line (Smithsonian, per overview; Investor Amnesia: "proclaimed… after his first loss"). **No accessible source dates it**, and the widely repeated claim that it was inked on the cover of his "Ice House Diary" in 1805 or 1806 could not be confirmed this pass — the Smithsonian page and Smith's 1961 monograph, the two most likely to carry the context, were unreachable. There is a second maxim often attributed to the same diary ("He who gives back at the first repulse and without striking the second blow despairs of success has never been, is not, and never will be a hero in war, love or business") — training data only; **do not use** unless the Fact Checker finds it in Weightman/Pearson. **Recommendation for Jeff's "family motto" beat:** quote the 1805 "People only laugh and believe me not…" (dated, sourced), then "and a few years later, in the same journal: *Let those laugh who win*" — true as far as any source goes, and it doesn't assert a date.
+
+**The payoff line the writer may want for later (Wave 1, not the opening):** to a creditor in **1819**: "You did not appear to be aware that I have this season sold nearly $30,000 worth of ice… that I am inevitably and unavoidably rich" (HUB History ep. 211; 99% Invisible quotes "inevitably and unavoidably rich"). Weightman's caveat on 99PI: he "never really became inevitably and unavoidably rich like he'd predicted… his whole life, he was in and out of debt."
+
+### Tudor in His Own Words — dated entries (quick list)
+
+| Date | Entry (as transcribed) | Source / status |
+|---|---|---|
+| Nov. 10, 1796 (age 13) | "Mr Ducator & Marshall have opened a Store in state Street … I am with them & at present the youngest Apprentice…" | Letter to his father; Wikipedia citing Tudor Papers, Houghton. Verified chain. |
+| Aug. 1, 1805 | "William and myself have this day determined to get together what property we have and embark on the undertaking of carrying ice to the West Indies." | HUB History ep. 211 transcription. `[VERIFY]` wording vs. Pearson/Seaburg. |
+| 1805 | "People only laugh and believe me not when I tell them I'm going to the West Indies." | HUB History ep. 211. `[VERIFY]` wording. ⭐ |
+| Mar. 7, 1806 | Handbill: "The price is 10 cents a pound. It is necessary to bring a wool cloth or a piece of covering to wrap the ice." | HUB History ep. 211. ⭐ |
+| 1806, Martinique (undated) | "I found myself without money and without friends and with only a cargo of ice in a torrid zone to depend on." | HUB History ep. 211. `[VERIFY]`. ⭐ |
+| undated | "Let those laugh who win." | Smithsonian (per overview); Investor Amnesia. Date unknown — say "in his journal." |
+| 1816 | "Hateful and debasing feelings to be in such a situation is to be obliged to leave one's home in anything like a clandestine manner." | HUB History ep. 211. |
+| 1819 | "…I have this season sold nearly $30,000 worth of ice… that I am inevitably and unavoidably rich." | HUB History ep. 211; 99% Invisible. (Wave 1 material.) |
+| Jan. 13, 1828 | "I found Wyeth wandering about the woods at Fresh Pond and all the lonely perturbation of invention and contrivance." | HUB History ep. 211. (Wave 1 material — the ice-plow story.) |
+
+**Primary-source locations for the Fact Checker:** Tudor Papers, Houghton Library, Harvard (bMS Am 1197 and bMS Am 2027); Tudor Ice Company Collection, Baker Library, Harvard Business School. Scholarly transcriptions: Henry Greenleaf Pearson, "Frederic Tudor, Ice King," *Proceedings of the Massachusetts Historical Society* 65 (1933); Carl Seaburg, Stanley Paterson & Alan Seaburg, *The Ice King: Frederic Tudor and His Circle* (MHS, 2003); Chase & Walker, *Proc. MHS* 97 (1985) on James Savage's Martinique journal; Philip Chadwick Foster Smith, "Crystal Blocks of Yankee Coldness" (1961, Essex Institute Historical Collections; mirrored at iceharvestingusa.com — 403 this pass).
 
 ### Key Figures in This Chapter
-
 | Person | Role | Human Details for Script | Sources |
-|--------|------|--------------------------|---------|
-| **Frederic Tudor** (1783–1864) | Boston Brahmin, 23-year-old in 1806; the protagonist of the Cold Open | Dropped out of school at 13. Father was Judge William Tudor, lawyer and clerk to Adams. Watched his father lose family money on speculative investments — the controlling instinct came from there. The *idea* for the ice trade is split between Frederic and older brother William (a wealthy Bostonian who later became a writer and Madrid consul). Frederic's "Ice House Diary" entry, Aug 1, 1805: "Plan etc for transporting Ice to Tropical Climates… William and myself have this day determined to get together what property we have and embark in the undertaking of carrying ice to the West Indies the ensuing winter." William pulled out after the first disastrous Martinique trip; Frederic kept going alone. He was in debtor's prison three times between 1806 and 1820. He kept a journal where, per Smithsonian, he tracked insults and shipments and famously wrote some version of *"Let those laugh who win."* Died rich in 1864 at age 80. | New England Historical Society; Smithsonian; Wikipedia; Investor Amnesia; Wiredpen |
-| **Captain Thomas Pearson** | Skipper of the brig *Favorite* on the 1806 Martinique voyage | Named in primary records as the captain of Tudor's first ice ship. A useful name to drop in the Cold Open — it makes the scene specific, not abstract. | Wikipedia (Tudor); Wiredpen |
-| **William Tudor (1779–1830)** | Frederic's older brother; co-conceiver of the ice plan | Boston Brahmin man of letters; went to Martinique in November 1805 to scout ice-house sites and find buyers. Pulled out of the partnership after the first failure. Later became U.S. Consul to Lima and Madrid. Useful for the "this wasn't a one-man flash" point — and a reminder that William, the conventional success, walked away; Frederic, the dropout, kept going. | Wikipedia (William Tudor); New England Historical Society |
-| **Frank Leslie** | Magazine publisher whose May 1858 *Illustrated Newspaper* exposé broke the swill-milk story | Born Henry Carter in England. Used pen name "Frank Leslie." His sensationalist illustrated weekly was the *New York Times*-equivalent visual investigative outlet of its era. The swill-milk series was the most consequential investigative journalism of mid-19th-century New York. | Atlas Obscura; Wikipedia |
-| **Albert Einstein** + **Leó Szilárd** | (Teaser only — full treatment in Ch. 4) Two of the most famous physicists of the 20th century, who in 1926 read about a Berlin family killed in their sleep by a refrigerator leak and decided, on a Berlin afternoon, to invent a safer one. They failed. | A 30-second Cold-Open teaser, per Jeff's feedback. Set the mystery; deliver it 60 minutes later. | Wikipedia: Einstein refrigerator; APS News |
+|---|---|---|---|
+| Frederic Tudor (1783–1864) | The kid with the pond | Left Boston Latin at 13 for a State Street counting house; the only Tudor son who skipped Harvard; father a Washington-era lawyer who lost money on South Boston land; family wrote him down as un-rousable (1801); bought his own brig because nobody would carry ice; made ice cream on a hot island to prove a point; jailed for debt more than once; "inevitably and unavoidably rich" by 1819 — on paper. | Wikipedia (Seaburg/Weightman/Smith refs); HUB History ep. 211; NEHS; Investor Amnesia |
+| William Tudor (1779–1830) | Brother, first partner | Harvard 1796; went ahead to Martinique with cousin James and couldn't get an icehouse built; went on to found the *North American Review* and name Boston "the Athens of America." The brother who did what the family expected — and whose failure on the island is the first of many. | Wikipedia *William Tudor (1779–1830)*; HUB History; NEHS |
+| William Tudor Sr. (1750–1819) | Father | John Adams's law student; Washington's first Judge Advocate General; lost his fortune speculating on South Boston land — the family pressure behind the son's need to win. | NEHS; HUB History |
+| James Savage | Cousin, advance man in Martinique | His journal is the primary account of the island fiasco (Chase & Walker 1985). | Investor Amnesia; HUB History; Wikipedia refs |
+| The *Boston Gazette* | The chorus | One sentence, one pun. | HNOC; Wikipedia; NEHS; Investor Amnesia |
 
-### Anchor Stories (Fully Developed)
+---
 
-#### ⭐ The *Favorite* Leaves Boston Harbor (February 10, 1806)
+### The World Before — woven in as backstory
 
-- **Who:** Frederic Tudor (23), Captain Thomas Pearson, his brother William Tudor (in Martinique already, scouting), the *Boston Gazette*'s anonymous editorialist.
-- **When:** February 10, 1806 (some sources say February 13 — the original *Boston Gazette* mention dates to Feb 13). Arrival in St. Pierre, Martinique: March 5, 1806.
-- **Where:** Boston Harbor → St. Pierre, Martinique (≈1,500 miles south).
-- **Setup:** No existing ship would carry the cargo. Boston shipowners refused — they thought it would melt in the hold and rot the wood. Tudor was forced to *buy his own brig* — the *Favorite* — for $4,750 to make the trip happen. The ice came from the pond at the Tudor family's Rockwood estate in Saugus, Massachusetts. The crew loaded approximately 130 tons of pond ice, in blocks, insulated by hay and wood shavings (Tudor was still in the trial-and-error phase of insulation — sawdust as the breakthrough comes later). His older brother William had sailed ahead to Martinique three months earlier to scout ice-house sites and try to negotiate a monopoly with the colonial government.
-- **What Happened:** The brig cleared the Custom House February 10. The next day, or three days later — depending on which paper you read — the *Boston Gazette* published the one-sentence sneer that the rest of the trade has quoted for two centuries: ⭐ *"No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."* (Source: *Boston Gazette*, Feb 13, 1806, verbatim in multiple primary-sourced accounts.) The voyage took 23 days. About half the cargo — roughly 65 tons — melted en route. The remaining ice arrived intact in St. Pierre, but Tudor had no ice-house ready to receive it. He had not anticipated that buyers would not know what to *do* with ice — bartenders had no recipes, households had no use cases, the colonial elite had no infrastructure for storage. Most of the rest melted on the dock. The voyage netted a $4,500 loss. Within six years (by 1812), Tudor was in debtor's prison for the first time.
-- **Aftermath:** Tudor was in and out of debtor's prison three times between 1812 and 1820. William quit the partnership. Frederic kept iterating: experimented with hay, straw, wood shavings, sawdust, rice chaff, double-shell ice houses. The insulation breakthrough — sawdust packed between two layers of pine — came in the 1810s, and is what eventually made the trade viable. He paid down his debts by the late 1820s. The vindicating moment — the *Tuscany*'s arrival in Calcutta — was 27 years away (1833).
-- **Why It Matters:** This is the entire show's signature move in miniature: a "fool's errand" that everyone with their right mind in 1806 mocked, that took 27 years to vindicate, and that ultimately created a global commodity trade reaching from Boston to Calcutta to Rio. It plants the diffusion-as-contingent-grind thesis. The *Boston Gazette* quote primes the recurring beat: every breakthrough in this episode gets mocked first.
-- **Verified Details:** *Favorite* purchased for $4,750. 130 tons of ice. Departed Feb 10, 1806. *Boston Gazette* quote published Feb 13, 1806. Captain Thomas Pearson. Arrived St. Pierre March 5, 1806. ~65 tons lost in transit. $4,500 net loss. Tudor was in debtor's prison three times.
-- **Sources:** Wikipedia (Frederic Tudor); New England Historical Society; Wiredpen; Antique Ice Tool Museum timeline; Smithsonian ("The Ice King Cometh"); Investor Amnesia.
-- **Best Source:** Weightman, *The Frozen-Water Trade* (full-length popular history); New England Historical Society for the primary-source quotes.
+*Organized as answers to the question the cold open forces: why was this a joke?*
 
-#### ⭐ The Iceman's Window Card (the central "World Before" scene)
+#### (1) Because cold, in 1806, was weather — not a product
 
-- **Who:** Generic — every American urban household, 1830s–1920s. The iceman as social institution.
-- **When:** Peak era 1870s–1920s; tail extends back to the 1820s in Boston and Calcutta and out to the early 1930s in poorer households still without electric refrigerators.
-- **Where:** Every U.S. city block with an icebox-keeping household — New York, Boston, Chicago, Philadelphia, San Francisco.
-- **Setup:** Before mechanical refrigeration entered the home, the icebox was the standard household appliance for keeping food cool — a wooden cabinet, zinc-lined or galvanized inside, with a chamber at the top for a block of ice (usually 25, 50, 75, or 100 pounds). The ice slowly melted; the cold air sank into the food chamber below. A drip pan caught the melt.
-- **What Happened (a typical day):** A square cardboard card hung in the kitchen window facing the street. One side faced out, reading "25." Rotate it ninety degrees and the next side read "50." Another quarter-turn: "75." Final side: "100." Whichever number faced the street that morning was what the iceman left. He worked from a horse-drawn wagon, the block on a sheepskin pad over one shoulder, lifted with iron tongs. He didn't ring the bell — he read the card, brought the block to the back door, slotted it into the icebox, and moved on. Every night, someone had to empty the drip pan under the icebox, or the kitchen floor would flood by morning. The whole rhythm of the household — what could be cooked when, what could be bought, what was discarded — ran on the iceman's cadence.
-- **Aftermath:** The iceman trade peaked at roughly 90,000 workers in 1880 (combined with seasonal harvesters) and was effectively extinct by the late 1930s, replaced in a single decade by the mass-market home electric refrigerator. The card-in-the-window ritual disappeared.
-- **Why It Matters:** This is the sensory anchor of "what life was like before refrigeration." It puts the listener inside a real kitchen, hauling a real block, with a real drip pan that floods if you forget. It is the texture of a daily routine we have completely lost.
-- **Verified Details:** The 25/50/75/100-lb card-in-the-window system is well-documented in early-20th-century memoirs and 1930s-era WPA oral histories. The sheepskin-padded shoulder and tongs are standard period detail.
-- **Sources:** Twilley, *Frostbite*; Smithsonian NMAH ("Keeping your food cool"); Refrigeration Nation (Rees).
-- **Best Source:** Rees, *Refrigeration Nation*.
+**Outside the ice belt, ice barely existed.**
+- ⭐ **Calcutta's "hoogly ice."** Before American ice arrived (1833), Bengal made its own: "Porous clay pots containing boiled, cooled water were laid out on top of straw in shallow trenches; under favourable circumstances, thin ice would form on the surface during winter nights which could be harvested and combined for sale" — production sites at Hugli-Chuchura and Allahabad; "only available in limited amounts and considered of poor quality because it often resembled soft slush rather than hard crystals" (Source: Wikipedia *Ice trade*, citing Herold, "Ice in the Tropics," *Revista Espaço Acadêmico* 126 (2011) p. 163; Cummings 1949 p. 1; Weightman p. 105). Atlas Obscura: "Ice pits were built and small pots of water placed outside on wintry nights. In the morning, the coating of ice that formed was sliced away and stored in the pits, but this ice was usually too gritty and slushy to be consumed." The physics is worth one clause for Cyrus: the pots are porous so they sweat, the straw insulates from the ground, and a clear, still winter night radiates heat to the sky — an evaporative-plus-radiative freezer that only works a few nights a year. Other workarounds: hired *abdars* cooled water and wine with saltpetre; wet *khus*-grass mats hung in doorways for evaporative cooling; the Mughals hauled Himalayan/Kashmiri ice to Delhi by mule, packed in saltpetre (Sources: Atlas Obscura "How Did People Get Ice?"; The Print). Scholarly source for the Fact Checker: Dickason, "The Nineteenth-Century Indo-American Ice Trade," *Modern Asian Studies* 25:1 (1991). **Do not** include the ritual-purity aside (cut by Jeff).
+- **The Caribbean.** No period Martinique account of first ice was reachable. What *is* sourced is Tudor's own record of the problem — nobody had anywhere to keep it (HNOC; Wikipedia *Ice trade*: "Sales were hampered… by the lack of local storage facilities, both for Tudor's stock and any ice bought by domestic customers"), and buyers carried it home in blankets and wondered where it went (Weightman on 99% Invisible). **Replace the blueprint's "no word for ice"** with that.
+- **In the ice belt itself,** cold was seasonal and domestic: springhouses over a cold stream, root cellars, wealthy Europeans' estate icehouses "from the 16th century onwards" (Wikipedia *Ice trade*, citing Weightman), and eating in season because there was no alternative. Keep to a line or two; the iceman and the drip pan belong to Wave 1 as *products* of Tudor's trade.
 
-#### ⭐ Frank Leslie's Swill-Milk Exposé (May 1858)
+**The lethal version — summer, cities, babies.**
+- ⭐ **The number.** "In 1891 the infant mortality rate for New York City averaged 240 deaths per every 1,000 births" (Source: Science History Institute, "The Lingering Heat over Pasteurized Milk"). That is **roughly one baby in four**. The peer-reviewed frame: 19th-century infant mortality ran "30- to 60-fold higher than the current rates of five or six deaths per 1,000 live births per year," and "summer diarrhea" was among the milkborne killers (Source: Currier & Widness, *J. Food Protection* 81(10), 2018 — **not "Wilson et al."**). **Anchors:** by 1914, after pasteurization was enforced, NYC's rate was 71 per 1,000 — "less than one-third of the rate in 1891" (SHI); the U.S. today is **5.5 per 1,000** (CDC FastStats, 2024 data: 552.5 per 100,000 live births; 20,050 infant deaths). Believability: "one in four" is startling but a smart listener accepts it once the 1914 and today figures bracket it. Say "roughly one baby in four" rather than "240 per thousand" on air.
+- ⭐ **The season, in a period voice — Jacob Riis, *How the Other Half Lives* (1890), ch. XIV "The Common Herd":** "Life in the tenements in July and August spells death to an army of little ones whom the doctor's skill is powerless to save." "Fifty 'summer doctors,' especially trained to this work, are then sent into the tenements by the Board of Health, with free advice and medicine." "When the white badge of mourning flutters from every second door, sleepless mothers walk the streets in the gray of the early dawn." "Little coffins are stacked mountains high on the deck of the Charity Commissioners' boat when it makes its semi-weekly trips to the city cemetery." (Source: Wikisource, *How the Other Half Lives*, ch. XIV.) From ch. IV, "The Down Town Back-Alleys": "When the summer heats come with their suffering they have meaning more terrible than words can tell." "Hear the pump squeak! It is the lullaby of tenement-house babes." (Wikisource, ch. IV.) These are the contemporary voice the blueprint asked for — a reporter, not a physician, but dated, famous, and quotable. Frame as a find: "did you come across the Riis passage about the fifty summer doctors?"
+- **Why summer.** Heat spoils milk fastest; the babies who died were disproportionately the bottle-fed. The overview's Berlin 1906 figure (bottle-fed infants dying at 5.3× the breastfed rate, worst in July–August) is from the same review (Currier & Widness) — use if a second number is wanted; otherwise one number is enough.
+- **Optional, hedged color — swill milk, 1858.** *Frank Leslie's Illustrated Newspaper*, **May 8, 1858**, "Exposure of the Milk Trade": whiskey distillers "had been keeping dairy cows in cramped sheds and feeding them leftover mash, sickening them and tainting their milk" (Source: The Henry Ford, object 71.1.663). Cows stood in stalls "for the rest of their lives, often standing in their own manure, covered with flies and sores"; the thin bluish milk was "whitened with plaster of Paris, thickened with starch and eggs, and hued with molasses" (Source: Wikipedia *Swill milk scandal*). Someone left "a disgusting dose of milk and pus" at Leslie's door (Atlas Obscura). The death toll: "The New York Times reported an estimate that in one year, 8,000 infants died from swill milk" — NYT, "Swill-Milk and Infant Mortality," **May 22, 1858** (Wikipedia ref). Alderman Michael Tuomey ("Butcher Mike," later "Swill Milk Tuomey") ran the investigation as a whitewash, "arguing that swill milk was as good or better for children than regular milk"; New York's first milk law followed in **1862** (Wikipedia; Atlas Obscura). `[BELIEVABILITY]` on the 8,000: use only as "the *Times* estimated…" or say "thousands."
+- **Historical-empathy note (keep).** The distillery dairy was the only way to put fresh milk in a city of half a million when milk couldn't survive a hot day's cart ride from the country. The horror is structural, not personal — and the eventual fix (rail plus ice, then pasteurization) is Wave 1 and Wave 3 material. The proof that milk was the problem is in the numbers: **Nathan Straus's** privately funded pasteurized-milk depots opened in New York in **1892–93** and the city's infant death rate fell hardest where his milk went (Source: Wikipedia *Nathan Straus*, citing *Disease in Milk: The Remedy Pasteurization*) — mention only if the writer needs a one-line landing; the Straus figures on that page are loosely stated and should not be quoted as numbers.
 
-- **Who:** Frank Leslie (publisher, *Frank Leslie's Illustrated Newspaper*); the New York Academy of Medicine; the unnamed dairymen of Manhattan and Brooklyn distillery dairies; the New York Times reporter who put the death-count number on the record.
-- **When:** Multi-issue exposé beginning May 1858. State milk regulations passed in 1862 in response.
-- **Where:** Manhattan and Brooklyn — specifically the distillery-dairy operations where cows were tethered in basement stalls next to whiskey distilleries, fed on spent mash.
-- **Setup:** Pre-refrigeration urban dairy. Fresh milk could not survive the trip from rural farms to city consumers in any kind of heat. So urban dairies kept cows literally inside city buildings — most commonly basements next to whiskey distilleries, fed on the spent mash ("swill") that the distillery would otherwise throw away. The economics were rational: free cattle feed, urban consumer access, no transport. The product was lethal.
-- **What Happened:** The cows, fed only on whiskey mash, tied in narrow stalls for their entire lives, standing in their own manure, produced a bluish, thin, sometimes blood-flecked milk. The dairymen disguised it for sale: whitening it with plaster of Paris, thickening it with starch and beaten eggs, coloring it with molasses or burnt sugar. The milk went out at sunrise from horse-drawn carts to working-class households across New York. Frank Leslie's reporters and illustrators went into the dairies — the *Illustrated Newspaper* was an early adopter of the wood-engraved scene-of-the-crime aesthetic — and ran a multi-issue exposé in May 1858. The *New York Times* picked it up; the New York Academy of Medicine launched its own inquiry. The Academy and *Times* reporting placed the death toll at roughly **8,000 infants in NYC in 1858 alone** — more than the entire U.S. military death toll in the Mexican-American War. [VERIFY: the 8,000 figure is widely repeated by Atlas Obscura, Smithsonian, Wikipedia, and modern historians as the *Times*-era estimate; modern historians treat it as approximate, not precise. Phase 2 has pinned the source as the *NYT*'s 1858 reporting, citing the Academy of Medicine inquiry. The number should be presented in the script as "the New York Times estimated" or "an estimated."]
-- **Aftermath:** New York state passed its first milk regulations in 1862 — the first U.S. food-safety statute, four decades before the federal Pure Food and Drug Act of 1906. The swill-milk system did not disappear immediately. Modern dairy safety — pasteurization (1890s+), refrigerated transport (1900s+), Mary Pennington's USDA standards (1907+) — eventually solved it. The episode's W2 picks up that thread.
-- **Why It Matters:** This is the disturbing pre-refrigeration scene. It is not "the past was quaint" — it is "the past was lethal in ways that look ordinary because everyone accepted them." It is also a vivid case of the **historical-empathy** rule: the swill-milk dairyman wasn't a cartoon villain. He was running the only urban dairy model that worked when fresh milk couldn't survive a hot day. The horror is structural, not personal. Frank Leslie's reporting is also a reminder that *journalism* — not technology — was what cracked the political logjam first.
-- **Verified Details:** Frank Leslie's *Illustrated Newspaper* exposé began May 1858. Distillery-dairies in Manhattan and Brooklyn. Whitening with plaster of Paris, thickening with starch and eggs, coloring with molasses — all confirmed by multiple period and modern accounts. NY state passed first milk regulations in 1862. The 8,000-infant-deaths figure is from the *NYT*'s reporting, attributed to the NY Academy of Medicine inquiry — widely cited, sometimes treated as approximate by modern historians.
-- **Sources:** Atlas Obscura ("The Swill Milk Scandal"); Wikipedia: Swill milk scandal; Smithsonian ("The Surprisingly Intolerant History of Milk"); Big Think; *Saturday Evening Post* (2025); New York Almanack.
-- **Best Source:** Atlas Obscura (cleanest narrative); Wikipedia for the citations to the original *NYT* and Frank Leslie's coverage.
+#### (2) Because humanity had already solved "no cold" — with salt, smoke, and time (Jeff's ask, Cyrus's beat)
 
-#### Anchor Beat: Bacon, Pepperoni, and What Refrigeration Didn't Give Us (added per Jeff's feedback)
+*Tight, quotable, verified. The warm counterweight to the babies.*
 
-- **Setup for the script:** Jeff's note: "We have the lack of refrigeration to thank for bacon. And pepperoni." This is a vivid, slightly comedic "what existed *because* refrigeration didn't" beat — the kind of detail that reframes "the world before" as not entirely bleak.
-- **What to convey:** Curing dates to at least the 3rd century BCE. Cato recorded directions for dry-curing hams. Pre-refrigeration meat preservation was its own technology stack: salting, smoking, fermenting, brining, packing in fats, sweetening, pickling, steeping in alcohol. The result was a global cuisine of cured meats — bacon, prosciutto, ham, pepperoni, salami, jamón ibérico, country ham, biltong, jerky. Salt cod, similarly, was the protein backbone of the Atlantic world — it sustained Caribbean slave colonies, European Lent, and the Atlantic shipping economy.
-- **The deeper beat — and Cyrus's natural follow:** Some of the food we love most exists because refrigeration didn't. The trade-off cuts both ways: refrigeration gave us fresh produce in January, but it also normalized food without character. "Some of my favorite things in the world come from the lack of refrigeration" (Cyrus, blueprint feedback). The 5-min "World Before" beat can lift this from kitchen color to a real argument: a backbone gives, and a backbone takes away.
-- **Sources:** Carnivore Club USA; Earthworm Express; D'Artagnan; Food Republic.
-- **Best Source:** D'Artagnan's history of preserved meats for a concise overview.
+- ⭐ **The oldest recipe in the room.** Cato the Elder, *De Agri Cultura* (c. 160 BC), ch. 162, "Salting of hams": "You should salt hams in the following manner, in a jar or large pot: When you have bought the hams cut off the hocks…" — layer hams and salt so that "meat does not touch meat," after five days move the top ones to the bottom, leave twelve more days, brush off the salt, hang two days "in a draught," sponge clean, rub with oil, smoke, then rub "with a mixture of oil and vinegar, and hang in the meat-house. No moths or worms will touch them." (Source: Cato, *De Agricultura* 162, Loeb translation at LacusCurtius/University of Chicago.) That is, functionally, prosciutto and country ham — written down twenty-one centuries before the compressor. The overview's "Romans learned it from the Greeks by 200 BC" is unsourced; use Cato instead. Companion fact: in Polybius's day (c. 200–118 BC) "the Gauls exported salt pork each year to Rome in large quantities" (Source: Wikipedia *Curing (food preservation)*, citing Polybius).
+- ⭐ **Why salt works (Cyrus, one breath).** Curing "by the addition of salt, with the aim of drawing moisture out of the food by the process of osmosis" — salt "decreases its water potential" so "the food becomes inhospitable for the microbe growth that causes food spoilage"; a solute-rich surface where "osmotic pressure draws water out of microorganisms"; the strong-preservation threshold is "a concentration of salt of nearly 20%" (Source: Wikipedia *Curing (food preservation)*). The mental model: salt doesn't kill the bacteria so much as it steals their water. Bacon, ham, salami, pepperoni, salt cod, sauerkraut brine — same trick.
+- ⭐ **What smoke actually does.** "Phenol and other phenolic compounds in wood smoke are both antioxidants, which slow rancidification of animal fats, and antimicrobials, which slow bacterial growth"; smoke also carries "formaldehyde, acetic acid, and other organic acids, which give wood smoke a low pH — about 2.5"; the flavor comes from lignin breaking into "guaiacol, phenol, and syringol" and from cellulose caramelizing into carbonyls. The catch: smoke "is insufficient for preserving food because it does not penetrate far into meat or fish" — which is why smoked foods are salted first (Source: Wikipedia *Smoking (cooking)*, citing Hui, *Meat Science and Applications*, 2001). Smoke is a flavor with a preservative side hustle; salt does the heavy lifting.
+- **Salt cod.** Cabot's crew in 1497 reported "the sea there is full of fish that can be taken not only with nets but with fishing-baskets"; Basque fishermen were on the Newfoundland/Labrador coast "from at least 1517 onward, predating all recorded European settlements in the region except those of the Norse"; "Salting became economically feasible during the 17th century, when cheap salt from Southern Europe became available to the maritime nations of Northern Europe"; dried fish "has a storage life of several years"; salt cod "became a staple item in the diet of the populations of Catholic countries on 'meatless' Fridays and during Lent" and "formed one leg of the so-called triangular trade" (Sources: Wikipedia *Cod fisheries* and *Dried and salted cod*, both citing Kurlansky, *Cod*, 1997/1999). Honesty note for the "gives and takes" undertone: New England cod "went to England and then to the West Indies to feed slaves working in the sugar cane fields" — the preserved-food economy and the slave economy were the same ships. One clause, not a detour.
+- **Do not repeat the spice myth.** The idea that medieval cooks used spices to mask rotten meat is "a conclusion without support in historical fact and contemporary sources": "Fresh meat could be procured throughout the year by those who could afford it," preservation methods "were perfectly adequate," and spices were far too expensive to waste on spoiled food (Source: Wikipedia *Medieval cuisine*, citing Paul Freedman, *Out of the East*; Terence Scully; Melitta Weiss Adamson). If a host reaches for "that's why the spice trade existed," the other should gently not agree.
+- **Pepperoni specifically** is an Italian-American invention of the early twentieth century (training data — `[VERIFY]` before stating a date); safer to let Jeff's meeting line carry it as a joke about the *family* of cured sausages rather than a historical claim about pepperoni itself.
+- **The hosts' own lines from the meeting** (transcript): Jeff — "Thank God we had a period without it, so we learned how to make pepperoni." Cyrus — "some of my favorite things in the world come from the lack of refrigeration." Give them room; don't over-script.
+
+### The Teaser — safety check on the Einstein image
+
+Einstein and Leo Szilárd "From 1926 until 1934… collaborated on ways to improve home refrigeration technology," reportedly "motivated by contemporary newspaper reports of a Berlin family who had been killed when a seal in their refrigerator failed and leaked toxic fumes into their home." The Einstein–Szilárd refrigerator was patented in the U.S. on **Nov. 11, 1930** (U.S. Patent 1,781,541); Electrolux bought the most promising patents; it never reached market — less efficient than existing machines, then undercut by Freon, the Depression, and the two inventors' flight from Germany (Source: Wikipedia *Einstein refrigerator*). The teaser sentence — "Albert Einstein is going to try to build a refrigerator, and fail" — is accurate. Per the blueprint and the hosts (transcript; 01 comments), the Berlin family is "reported/perhaps apocryphal"; the teaser doesn't need it. Everything else is Wave 3.
 
 ### Resistance & Diffusion
-
-*(Not the Opening's primary work — but the Opening should plant the recurring beat:* every breakthrough gets mocked first.*)*
-
-The *Boston Gazette*'s "slippery speculation" line is the seed that pays off three times across the episode:
-- W1: Tudor is mocked, then vindicated.
-- W2: Mechanical refrigeration is mocked (Gorrie dies bankrupt and ridiculed); local butchers boycott Chicago beef; the public believes refrigerated food is "old food."
-- W3: Rowland and Molina's 1974 ozone paper is attacked by DuPont's full-page *NYT* ads claiming the science is "too early to draw conclusions." The same shape, three times.
-
-The script can plant the *Gazette* line in the Cold Open with the confidence that the listener will hear three more versions of it before the end.
+*Not this chapter's job — but the cold open plants the pattern.* The *Gazette*'s pun, the shipowners' refusal, the Martinique customers with blankets: three flavors of reasonable disbelief in one voyage. The writer should **not** name the pattern on air (no "and this will happen again and again"); it lands on its own when Roffignac dumps the ice in 1826 and when the ice men fight Gorrie.
 
 ### Consequences & Changes
+*Deferred to Wave 1.* The only consequence the opening needs is the personal one: he lost nearly half his stake and kept going.
 
-*Not the Opening's beat — but the "Road Ahead" should briefly tee up:*
-
-- **Wave 1:** Tudor's *individual* obsession scales into a global commodity trade. Frozen Massachusetts pond water becomes the second-largest U.S. export by tonnage by the 1880s. Then a heat wave ends it.
-- **Wave 2:** Mechanical refrigeration finally works (Linde, 1876). Beer → meatpacking → ships → home refrigerators. The cold chain becomes infrastructure. But the refrigerants are killing people.
-- **Wave 3:** A General Motors chemist invents Freon (1928); the miracle compound solves the toxic-refrigerant problem. Fifty years later, three British scientists in Antarctica find a hole in the sky the size of the United States — caused by the same chemistry that solved the kitchen-safety problem. The fix becomes the problem. Then the next fix becomes the next problem.
-
-**Connecting thread to plant in the Road Ahead:** *Today's fix sows the seeds of tomorrow's problems* (Jeff's preferred framing from feedback). Don't lean on "fix becomes problem" as a slogan; demonstrate it through three named refrigerant generations across 100 minutes.
-
-#### Cold-Open Teaser: Einstein and Szilárd (planted here, paid off in Ch. 4)
-
-Per Jeff's feedback: the Einstein-Szilárd refrigerator failure is so emotionally resonant it could open the episode — or, better, be planted as a teaser. A 30-second dropped seed at the end of the Cold Open or the start of "By the Numbers":
-
-> *"Twenty years from now — well, a hundred and twenty years from now — two of the smartest physicists alive will read a newspaper story about a Berlin family killed in their sleep by a refrigerator. They'll try to invent a safer one. They'll fail. We'll tell you why later."*
-
-Or, even more economically, slipped into "Road Ahead":
-
-> *"Wave Three opens with Einstein and Szilárd trying to save the world from refrigerators — and failing. We'll get there."*
-
-Either works. The full anchor lives in Wave 3.
-
-### Bridge to Next Chapter
-
-The Opening ends with the Road Ahead preview teeing up Wave 1: "It starts with a 23-year-old Boston Brahmin who thinks he can ship frozen New England pond water to the tropics. It does not go well." Hand to Cyrus; he picks up the Tudor thread.
+### Bridge to Wave 1
+The opening ends on the teaser and drops into the story: a man in debtors' prison with a pond and a motto. Wave 1 picks up with what he learned — insulation, icehouses in the ports, creating demand bar by bar — and the moment the *Gazette*'s joke becomes a trade. (The 1819 "inevitably and unavoidably rich" line is Wave 1's to spend.)
 
 ---
 
 ## Key Details for Script
 
 ### Names & Pronunciations
-
 | Name | Pronunciation (if tricky) | Role |
-|------|---------------------------|------|
-| Frederic Tudor | FRED-rik TOO-der | Boston ice merchant, 1783–1864 |
-| William Tudor | (standard) | Frederic's older brother, co-conceiver of the ice plan, 1779–1830 |
-| Thomas Pearson | (standard) | Captain of the brig *Favorite*, 1806 |
-| Frank Leslie | (standard) | Publisher, *Frank Leslie's Illustrated Newspaper* (born Henry Carter) |
-| Saugus, Massachusetts | SAW-gus | Tudor family's Rockwood estate, where the 1806 ice was cut |
-| St. Pierre, Martinique | san pee-AIR | Destination of the 1806 voyage |
-| Leó Szilárd | LAY-oh SIL-ard (Hungarian) | Physicist; the 30-sec teaser only |
-| Apalachicola | ap-uh-LATCH-uh-COH-lah | (Plants the W1 location; Gorrie's town) |
+|---|---|---|
+| Frederic Tudor | FRED-rik TOO-der (no "k" in Frederic) | The Ice King, age 23 in 1806 |
+| William Tudor (brother) | — | Harvard 1796; first partner; *North American Review* |
+| William Tudor (father) | — | Lawyer; Washington's first Judge Advocate General |
+| James Savage | — | Cousin; advance man in Martinique |
+| *Favorite* | — | The brig Tudor bought for $4,750 |
+| Martinique | mar-tin-EEK | French sugar island; destination |
+| Saugus | SAW-gus | Town north of Boston; site of Rockwood farm |
+| Rockwood | — | The Tudor family farm and pond |
+| Hooghly / "hoogly ice" | HOOG-lee | Bengal's slush ice, pre-1833 |
+| Hugli-Chuchura | HOOG-lee CHOO-choo-rah | Ice-making site near Calcutta (say "on the Hooghly, near Calcutta") |
+| Cato the Elder | KAY-toh | *De Agri Cultura*, c. 160 BC |
+| Polybius | puh-LIB-ee-us | Greek historian; Gaulish salt pork |
+| Jacob Riis | REESS (rhymes with "peace") | *How the Other Half Lives*, 1890 |
+| Frank Leslie | — | *Frank Leslie's Illustrated Newspaper*, 1858 |
+| Michael Tuomey | TOO-mee | "Swill Milk Tuomey," alderman |
+| Nathan Straus | STRAUSS (as in the composer) | Pasteurized-milk depots, 1892–93 |
+| Leo Szilárd | SIL-ard (Hungarian: ZHIL-ard) | Einstein's co-inventor (teaser only) |
+| prosciutto | pro-SHOO-toh | — |
+| Roffignac | ROFF-in-yak | Wave 1 — the New Orleans mayor |
 
 ### Key Dates
-
 | Date | Event |
-|------|-------|
-| August 1, 1805 | Frederic and William Tudor sign their joint "Ice House Diary" entry committing to the plan |
-| November 1805 | William Tudor sails to Martinique to scout |
-| February 10, 1806 | Brig *Favorite* clears Boston Harbor with 130 tons of ice |
-| February 13, 1806 | *Boston Gazette* publishes the "slippery speculation" line |
-| March 5, 1806 | *Favorite* arrives St. Pierre, Martinique (≈65 tons of ice remaining) |
-| 1812 | Tudor enters debtor's prison for the first time |
-| May 1858 | Frank Leslie's *Illustrated Newspaper* begins the swill-milk exposé |
-| 1862 | New York state passes first U.S. milk-safety regulations |
+|---|---|
+| Sept. 4, 1783 | Frederic Tudor born, Boston |
+| 1795 | Grandfather dies; Rockwood farm (Saugus) passes to William Tudor Sr. |
+| Nov. 10, 1796 | Frederic, 13, writes his father from a State Street counting house |
+| 1796 | Brother William graduates Harvard |
+| Nov. 7, 1800 / May 16, 1801 | John Henry Tudor's letter and journal on Frederic ("rouse him") |
+| Aug. 1, 1805 | Diary: the decision to carry ice to the West Indies |
+| 1805 | Diary: "People only laugh and believe me not…" |
+| Feb. 10, 1806 (Mon.) | *Boston Gazette* notice; vessel cleared Custom House (HUB: sailed Feb. 13) |
+| ~Mar. 1806 | *Favorite* reaches Martinique after ~20 days; handbill Mar. 7 |
+| 1807 | Jefferson's embargo; Tudor ~$25,000 in debt |
+| 1809–1813 | Debtors' prison, more than once (sources vary: 1812–13 per Weightman) |
+| Nov. 1, 1815 | Sails for Havana "pursued by sheriffs to the very wharf" |
+| 1819 | "Inevitably and unavoidably rich" (Wave 1) |
+| May 8, 1858 | *Frank Leslie's* "Exposure of the Milk Trade" |
+| May 22, 1858 | NYT "Swill-Milk and Infant Mortality" — the 8,000 estimate |
+| 1862 | New York's first milk law |
+| 1890 | Riis, *How the Other Half Lives* |
+| 1891 | NYC infant mortality 240 per 1,000 |
+| 1892–93 | Straus milk depots open |
+| 1914 | NYC infant mortality 71 per 1,000 |
+| 1926–1934 | Einstein–Szilárd refrigerator work; U.S. patent Nov. 11, 1930 |
 
-### Key Numbers (with comparative anchors)
-
-| Stat | Anchor | Source | Verified? |
-|------|--------|--------|-----------|
-| **33 refrigerator door openings per day** — per household, average | More credible than the 107 figure attributed to Twilley. **Recommend the Script Writer use 33, not 107.** Jeff and Cyrus both flagged 107 as implausible; Cyrus found the ENERGY STAR figure of 33 during the feedback meeting. | ENERGY STAR (U.S. EPA) | ✓ High |
-| **107 refrigerator door openings per day** — per household, average | Twilley, *Frostbite* | Twilley | ✗ Disputed (Jeff and Cyrus both flagged; modern usage data does not support; not pinned to a primary measurement study) — **DO NOT USE without verification** |
-| **8%** of U.S. households had a refrigerator in 1930 → **80%** by 1950 | Anchor: faster than the smartphone curve; counterintuitively, the steepest part was during the Great Depression | AEI; Pacific Standard | ✓ High |
-| **~20%** of global electricity goes to refrigeration and cooling | Anchor: AC alone uses more electricity than the entire continent of Africa consumes (IEA). Domestic refrigerators alone use ~4% of global electricity. | International Institute of Refrigeration; IEA | ✓ High |
-| **~8,000** NYC infant deaths from swill milk in 1858 | Anchor: more than the entire U.S. military death toll in the Mexican-American War (~13,000 total deaths, but only ~1,700 in combat). Modern historians treat as approximate. | *New York Times* (1858), Frank Leslie's *Illustrated Newspaper*; cited by Atlas Obscura, Wikipedia | ✓ Medium (period estimate, widely cited; not a precise modern count) |
-| One chlorine atom from a CFC molecule destroys **~100,000** ozone molecules | Anchor: the 1928 "miracle compound" became the most-regulated chemical class on Earth by 1987. Foreshadowing punch — listeners will hear this stat again in W3. | American Chemical Society | ✓ High |
-| **$4,500** — Tudor's loss on the 1806 *Favorite* voyage | Anchor: that's over $100,000 in 2026 dollars. Tudor was 23. He'd just lost six figures betting on a frozen-water trade. | Multiple primary-sourced biographies | ✓ High |
-| **3/4** of the food Americans eat is preserved by the cold chain | Anchor: if the cold chain stopped tomorrow, most kitchens would be empty by week's end | Twilley, *Frostbite* | ✓ Medium [VERIFY in book for exact citation] |
-| **Up to 50%** of vaccines globally are wasted due to cold-chain failures | Anchor: the world spends ~$34B/year on vaccines that never reach an arm | UNEP; WHO | ✓ High |
+### Key Numbers
+| Stat | Source | Verified? |
+|---|---|---|
+| ~80 tons of ice on the *Favorite* (160,000 lb) | Investor Amnesia; HUB History; HNOC (Gazette variant) | Yes — three secondary sources agree; whether the *Gazette* printed it: no |
+| 130 tons | — | Not found in any source this pass; drop |
+| Ship cost $4,750 of ~$10,000 raised | Investor Amnesia; HUB History | Secondary, consistent |
+| First-voyage loss ~$4,500 (HUB: ~$4,000) | Wikipedia (Weightman/Smith); Investor Amnesia | Yes (secondary); say "about forty-five hundred" |
+| Ice price at Martinique: 10 cents a pound | HUB History (handbill Mar. 7, 1806) | Secondary transcription; `[VERIFY]` |
+| $300 in one night from ice cream | Investor Amnesia | Single secondary source; `[VERIFY]` or say "a small fortune in one night" |
+| ~20-day passage | HUB History; Wikipedia ("three-week") | Yes |
+| Boston→Martinique ≈ 2,000 statute miles (not 1,500) | Own calculation | Use "three weeks south" |
+| ~$25,000 debt after 1807 embargo | HUB History | Single secondary; hedge "tens of thousands" |
+| 1891 NYC infant mortality 240/1,000 (~1 in 4) | Science History Institute; Currier & Widness 2018 | Yes |
+| 1914 NYC 71/1,000 | Science History Institute | Yes |
+| U.S. today 5.5/1,000 (2024) | CDC FastStats (552.5 per 100,000) | Yes |
+| 19th-c. rates "30- to 60-fold" today's | Currier & Widness 2018 abstract | Yes |
+| 50 "summer doctors" sent by the Board of Health | Riis 1890, ch. XIV | Yes (period source) |
+| 8,000 infant deaths/yr from swill milk | NYT May 22, 1858 (via Wikipedia ref); Atlas Obscura | Period *estimate* — attribute or say "thousands" |
+| ~20% salt for strong preservation | Wikipedia *Curing* | Secondary; fine as "around twenty percent" |
+| Wood smoke pH ≈ 2.5 | Wikipedia *Smoking (cooking)* citing Hui 2001 | Secondary |
+| Basques at Newfoundland by 1517; Cabot 1497 | Wikipedia *Cod fisheries* citing Kurlansky | Secondary |
+| Einstein–Szilárd U.S. Patent 1,781,541, Nov. 11, 1930 | Wikipedia *Einstein refrigerator* | Yes |
 
 ### Verified Quotes
-
-| Quote | Speaker / Publication | Date/Context | Source |
-|-------|----------------------|--------------|--------|
-| *"No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."* | *Boston Gazette*, anonymous editorial | February 13, 1806 (printed 3 days after the *Favorite*'s departure) | *Boston Gazette*; cited verbatim in Smithsonian, New England Historical Society, Wikipedia, multiple biographies |
-| *"Plan etc for transporting Ice to Tropical Climates. Boston Augst 1st 1805 William and myself have this day determined to get together what property we have and embark in the undertaking of carrying ice to the West Indies the ensuing winter."* | Frederic Tudor, "Ice House Diary" entry | August 1, 1805 | Tudor's diary, cited in Wikipedia (Frederic Tudor) and the New England Historical Society |
-| *"Let those laugh who win."* | Frederic Tudor, journal | Date undetermined; widely cited as a recurring refrain in Tudor's journals during his debtor's-prison years 1812–1820 | Smithsonian ("The Ice King Cometh"); [VERIFY: not pinned to a specific dated journal entry. Script may use it; Fact Checker should note that the line is attested in Smithsonian's primary-source-based feature but the precise entry has not been pinned.] |
+| Quote | Speaker | Date/Context | Source / status |
+|---|---|---|---|
+| "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation." | *Boston Gazette* | Feb. 10, 1806 | Wikipedia (Weightman); NEHS. Variant with "80 tons… cleared out from this port… prove to be" in HNOC/Investor Amnesia. Primary paywalled (Readex). |
+| "People only laugh and believe me not when I tell them I'm going to the West Indies." | Tudor, diary | 1805 | HUB History ep. 211. `[VERIFY]` wording in Pearson/Seaburg. |
+| "William and myself have this day determined to get together what property we have and embark on the undertaking of carrying ice to the West Indies." | Tudor, diary | Aug. 1, 1805 | HUB History ep. 211. |
+| "The price is 10 cents a pound. It is necessary to bring a wool cloth or a piece of covering to wrap the ice." | Tudor, handbill | Mar. 7, 1806, Martinique | HUB History ep. 211. |
+| "I found myself without money and without friends and with only a cargo of ice in a torrid zone to depend on." | Tudor, diary | 1806, Martinique (undated) | HUB History ep. 211. `[VERIFY]`. |
+| "Let those laugh who win." | Tudor, journal | Undated | Smithsonian (per overview); Investor Amnesia. Don't date it. |
+| "…I am inevitably and unavoidably rich." | Tudor, to a creditor | 1819 | HUB History; 99% Invisible. (Wave 1.) |
+| "Mr Ducator & Marshall have opened a Store in state Street … I am with them & at present the youngest Apprentice…" | Tudor, age 13, to his father | Nov. 10, 1796 | Wikipedia, citing Tudor Papers, Houghton. |
+| "It is the greatest difficulty I can get him to do anything. I hope there will be a time when I shall be able to rouse him." | John Henry Tudor, journal | May 16, 1801 | Wikipedia, citing Tudor Papers, Houghton. |
+| "Life in the tenements in July and August spells death to an army of little ones whom the doctor's skill is powerless to save." | Jacob Riis | 1890, ch. XIV | Wikisource. |
+| "Fifty 'summer doctors,' especially trained to this work, are then sent into the tenements by the Board of Health, with free advice and medicine." | Riis | 1890, ch. XIV | Wikisource. |
+| "Little coffins are stacked mountains high on the deck of the Charity Commissioners' boat when it makes its semi-weekly trips to the city cemetery." | Riis | 1890, ch. XIV | Wikisource. |
+| "When the summer heats come with their suffering they have meaning more terrible than words can tell." | Riis | 1890, ch. IV | Wikisource. |
+| "Hear the pump squeak! It is the lullaby of tenement-house babes." | Riis | 1890, ch. IV | Wikisource. |
+| "…hang in the meat-house. No moths or worms will touch them." | Cato, *De Agri Cultura* 162 | c. 160 BC | LacusCurtius (Loeb). |
+| "the sea there is full of fish that can be taken not only with nets but with fishing-baskets" | Cabot's crew (reported) | 1497 | Wikipedia *Cod fisheries* (Kurlansky). |
+| "Harvard… a place for loafers" | Tudor (attributed) | — | HUB History only. `[VERIFY]` before use. |
+| "He who gives back at the first repulse…" | Tudor (attributed) | — | Training data only. **Do not use** unless found. |
 
 ---
 
 ## Sources for This Chapter
-
 | Source | Type | What It Provides |
-|--------|------|------------------|
-| Twilley, *Frostbite* (2024) | Book | "World before" texture; the 107-times-a-day stat (which should NOT be used unverified); the 3/4-of-food stat; Cold Storage Banquet color. |
-| New England Historical Society — "Frederic Tudor in 1806 Brings Cocktails and Ice Cream…" | Article | Tudor's 1805 diary entry verbatim; the *Boston Gazette* quote; the brig *Favorite* purchase price ($4,750); Captain Pearson named. |
-| Smithsonian — "The Ice King Cometh" | Article | Tudor's full arc, the "Let those laugh who win" line, debtor's-prison detail. ⭐ |
-| Wikipedia — Frederic Tudor; William Tudor; Swill milk scandal; Ice trade | Reference | Cross-validation for dates, names, voyage details. |
-| Atlas Obscura — "The Swill Milk Scandal That Poisoned Thousands of Babies in 19th-Century New York City" | Article | Best-told version of the swill-milk scene; period detail on Frank Leslie's exposé. ⭐ |
-| New York Almanack — "How We Poison Our Children: The 1850s Swill Milk Scandal" | Article | Additional period context and New York Academy of Medicine inquiry detail. |
-| Big Think — "The 19th-century milk scandal that killed thousands of babies" | Article | Modern retrospective on the swill-milk death toll figure; useful for the "approximate, not precise" framing. |
-| ENERGY STAR (U.S. EPA) | Government source | The 33-times-a-day figure; the correct stat to use for refrigerator door openings. |
-| Wikipedia — Einstein refrigerator | Reference | The 1926 Berlin family detail for the teaser. Full treatment lives in Ch. 4. |
-| D'Artagnan / Carnivore Club USA / Earthworm Express | Articles | History of meat preservation pre-refrigeration — bacon, prosciutto, ham, pepperoni. |
-| Antique Ice Tool Museum (West Chester, PA) — 1806 timeline | Reference | Primary-source-grounded timeline of the natural ice trade. |
-| Wiredpen — "Frederic Tudor created the market for ice" | Article | Cleanest summary of the 1806 voyage and the 1833 Calcutta arrival; uses period figures. |
+|---|---|---|
+| Historic New Orleans Collection, "The Big Freezy" — https://hnoc.org/publishing/first-draft/the-big-freezy | Article | *Gazette* text (80-ton variant); Martinique had no storage or interest; "extremely slippery" |
+| HUB History ep. 211, "The Ice King of Boston" — https://www.hubhistory.com/episodes/the-ice-king-of-boston-episode-211/ | Podcast (with source list) | Dated diary entries; family; Boston Latin at 13; Favorite, Capt. Pearson, Feb. 13 sailing, 20 days, 10¢/lb handbill, ~$4,000 loss; 1807 embargo, $25,000, Boston and Cambridge jails. Cites Pearson 1933; Chase & Walker 1985; Simpson 1968; Kistler 1984 |
+| Investor Amnesia, "Breaking the Ice" (Feb. 28, 2024) — https://investoramnesia.com/2024/02/28/breaking-the-ice/ | Article | *Gazette* Feb. 10, 1806; no ship would carry ice; $4,750 ship, $10,000 raised, 160,000 lb; ice cream $300; $4,500 loss; prison 1809–13 "three times"; "let those laugh who win" after the loss |
+| Wikipedia, *Frederic Tudor* (wikitext with refs) — https://en.wikipedia.org/wiki/Frederic_Tudor | Reference with archival footnotes | Family; 1796 letter; Rockwood; Favorite; Feb. 10; $4,500; prison 1812–13; Nov. 1, 1815; refs to Seaburg 2003, Weightman 2004, Smith 1961, Cummings 1949, Tudor Papers (Houghton bMS Am 1197/2027), Tudor Ice Co. Collection (Baker) |
+| New England Historical Society — https://newenglandhistoricalsociety.com/frederic-tudor-1806-brings-cocktails-and-ice-cream-world/ | Article | Father's biography; *Gazette* (Weightman variant); prison 1812–13 "swindled"; "first venture failed, and so did his second, third and fourth" |
+| 99% Invisible, "The Ice King" transcript — https://99percentinvisible.org/episode/frozen-assets/transcript/ | Podcast transcript (Weightman interviewed) | Blankets anecdote; "inevitably and unavoidably rich"; in and out of debt all his life |
+| Wikipedia, *Ice trade* (wikitext) — https://en.wikipedia.org/wiki/Ice_trade | Reference | Hoogly ice method with Herold p. 163 / Cummings p. 1 / Weightman p. 105; 1806 storage problem (Cummings pp. 8–9; Weightman pp. 19–21); Dickason 1991 |
+| Atlas Obscura, "How Did People Get Ice?" — https://www.atlasobscura.com/articles/how-did-people-get-ice | Article | Pit ice "too gritty and slushy"; abdars, saltpetre, khus mats; 1833 Calcutta anecdotes (Wave 1) |
+| The Print, "History of the clinking glasses" — https://theprint.in/feature/history-of-the-clinking-glasses-how-tudor-ice-co-brought-ice-to-india/573953/ | Article | Mughal Kashmir ice; *Tuscany* 1833 (Wave 1) |
+| Science History Institute, "The Lingering Heat over Pasteurized Milk" — https://www.sciencehistory.org/stories/magazine/the-lingering-heat-over-pasteurized-milk/ | Magazine | 1891 NYC 240/1,000; 1914 71/1,000; cholera infantum; swill barns |
+| Currier & Widness, *J. Food Protection* 81(10):1713–22 (2018), PMID 30234385 — https://europepmc.org/abstract/MED/30234385 | Peer-reviewed review | "30- to 60-fold" frame; "summer diarrhea"; correct attribution |
+| CDC FastStats, Infant Health — https://www.cdc.gov/nchs/fastats/infant-health.htm | Government | 2024 U.S. infant mortality 5.5/1,000 |
+| Jacob Riis, *How the Other Half Lives* (1890), chs. IV and XIV — https://en.wikisource.org/wiki/How_the_Other_Half_Lives | Primary (period) | Summer deaths, summer doctors, little coffins, white bow on the door |
+| The Henry Ford, *Frank Leslie's* May 8, 1858 — https://www.thehenryford.org/collections-and-research/digital-collections/artifact/87141 | Primary (artifact record) | Exposé date and description |
+| Wikipedia, *Swill milk scandal* (wikitext) — https://en.wikipedia.org/wiki/Swill_milk_scandal | Reference | NYT May 22, 1858 "Swill-Milk and Infant Mortality" (8,000 estimate); adulterants; Tuomey; 1862 law |
+| Atlas Obscura, swill milk — https://www.atlasobscura.com/articles/swill-milk-scandal-new-york-city | Article | Leslie's language; "milk and pus" at his door; 1906 aftermath |
+| Wikipedia, *Nathan Straus* — https://en.wikipedia.org/wiki/Nathan_Straus | Reference | 1892 pasteurized-milk laboratory/depots |
+| Cato, *De Agri Cultura* 162 (Loeb) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cato/De_Agricultura/L*.html | Primary (ancient) | Ham-salting recipe |
+| Wikipedia, *Curing (food preservation)*; *Smoking (cooking)* | Reference | Osmosis/water activity, ~20% salt; Polybius on Gaulish salt pork; phenols/formaldehyde/pH; smoke doesn't penetrate (Hui 2001) |
+| Wikipedia, *Cod fisheries*; *Dried and salted cod* (citing Kurlansky, *Cod*) | Reference | Cabot 1497; Basques 1517; 17th-c. salt; Lenten staple; triangular trade |
+| Wikipedia, *Medieval cuisine* (citing Freedman, Scully, Adamson) | Reference | Spice-mask-rot myth debunked |
+| Wikipedia, *Einstein refrigerator* | Reference | 1926–34; U.S. 1,781,541 (Nov. 11, 1930); Electrolux; why it failed |
+| Wikipedia, *William Tudor (1779–1830)* | Reference | Harvard 1796; *North American Review*; Athenaeum; "Athens of America" 1819 |
+| Publishers Weekly & Kirkus reviews of Weightman | Reviews | Confirm book's scope ("nervous collapse," "sheriff's debt collectors") |
+| **Unreached this pass (Fact Checker should pull):** Smithsonian, "The Ice King Cometh" (403); Smith, "Crystal Blocks of Yankee Coldness" (1961; iceharvestingusa.com 403); Pearson, *Proc. MHS* 65 (1933) and Chase & Walker, *Proc. MHS* 97 (1985) (JSTOR); Seaburg et al., *The Ice King* (MHS 2003); Weightman, *The Frozen-Water Trade* (archive.org lending copy `frozenwatertrade00gavi`); Cummings, *The American Ice Harvests* (archive.org `americaniceharve0000rich`); *Boston Gazette*, Feb. 10, 1806 (Readex Early American Newspapers); NYT May 22, 1858 (TimesMachine). | — | — |
 
 ---
 
 ## Remaining Gaps
 
-- **[GAP / RESOLVED via feedback]** The 107-times-a-day stat. Resolved by handing the Script Writer the credible 33-times figure from ENERGY STAR and flagging 107 as disputed. The script should use 33. If the writer wants the larger figure for hook impact, they can use "more than 30 times a day" rather than the unverified 107.
-- **[VERIFY]** Tudor's "Let those laugh who win" line. Cited by Smithsonian as a journal entry; primary-source date not pinned by Phase 2. Recommend the script use the line, attributed simply as "from his journal," and let the Fact Checker decide whether the language needs softening to "later described" or "wrote later."
-- **[VERIFY]** The "Ice Fool" nickname. Phase 2 web searches did not surface a primary-source *Boston Gazette* or other named-paper use of the term "Ice Fool." The "slippery speculation" *Boston Gazette* line IS solidly attested. Recommend the script use the *Gazette* quote directly and avoid the "Ice Fool" attribution unless the Editor wants to soften to "as the Boston press mocked him."
-- **[VERIFY]** The 8,000-infant-deaths figure. The *New York Times*'s 1858 reporting is the source; modern historians treat the number as approximate. Recommend the script phrase it as "an estimated eight thousand infants" or "the *New York Times* reported." Phase 2 has not pinned the specific *NYT* article date, but the figure is uncontested across modern coverage as the period's reported estimate.
-- **[OPEN]** Whether to plant the Einstein teaser in the Cold Open or the Road Ahead. Recommend Road Ahead — it tees up Wave 3 cleanly without crowding the Tudor scene.
-
----
-
-## How I addressed Checkpoint 1 feedback (for this chapter)
-
-- **"107 feels unrealistic — double check"** → ENERGY STAR cites 33 door-opens per day; I've flagged 107 as disputed and recommended the script use 33. This is a substantive change to the blueprint's stat menu.
-- **"Bacon. And pepperoni."** → Added a dedicated "World Before" beat on cured meats with research on the global cured-meat tradition dating to Cato (3rd c. BCE). Slotted as Cyrus material (he's the "some of my favorite things come from the lack of refrigeration" line).
-- **"Einstein failure feels like it could live in the cold open as a Teaser"** → Added an Einstein-Szilárd teaser option for the Cold Open or Road Ahead. Recommended Road Ahead placement; full payoff is in Ch. 4.
-- **"Hook is great"** → Preserved the *Favorite*-leaves-Boston-Harbor cold open without dilution.
-- **"Length / cut if not interesting enough"** → No additions of marginal material; only the substantive bacon/pepperoni beat per Jeff's explicit request.
+- **The *Gazette*'s exact wording and whether it printed "80 tons."** Two transcriptions circulate. The primary is paywalled. Script should quote the shared core and not attribute the tonnage to the paper until the Fact Checker pulls the Feb. 10, 1806 page.
+- **The date and physical context of "Let those laugh who win."** Attested as a journal line; the "written on the cover of the Ice House Diary, 1805/1806" story could not be confirmed. The Smithsonian article and Smith 1961 are the likeliest carriers. Script says "in his journal," undated.
+- **The "no one would charter him a ship / melt would rot the timbers" reason.** Consistent across secondary accounts (Investor Amnesia explicit), but the underlying Weightman/Smithsonian page was unreachable. Low risk; `[VERIFY]` noted.
+- **Debtors' prison count.** "Three times" (Investor Amnesia) vs. "parts of 1812 and 1813" (Weightman via Wikipedia). Hedge as "more than once, between 1809 and 1813."
+- **Martinique specifics** — the port (Saint-Pierre?), the governor, the buyer, how much ice actually sold, the $300 ice-cream night. James Savage's journal (Chase & Walker 1985) is the primary; JSTOR access needed.
+- **"Packed in hay"** — not re-verified.
+- **A physician's (as opposed to a reporter's) period voice on summer complaint.** Riis covers the need; if the writer wants a doctor, the Board of Health's annual reports (1870s–90s) and Abraham Jacobi's writings on infant diarrhea are the places to look. Not required.
+- **A period Martinique or Havana first-encounter-with-ice account.** None reachable; the blueprint's "no word for ice" should be replaced with Tudor's blankets anecdote, which is sourced.
+- **Pepperoni's date of origin** (Italian-American, early 1900s) — training data only; keep it as a joke, not a claim.
+- `[MISSING PERSPECTIVE]` The enslaved and free Black laborers who would have unloaded the ice at Saint-Pierre in 1806, and the enslaved people fed on New England salt cod — no accessible first-person record for this beat. Flag only; per Jeff, no on-air "voices we don't have" aside.

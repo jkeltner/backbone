@@ -2,149 +2,172 @@
 topic: refrigeration
 agent: script-writer
 chapter: 01
-chapter-title: opening
-status: draft
-date: 2026-06-25
+chapter-title: "OPENING: The Hook"
 feedback-addressed:
-  - "Don't refer to the 'cold open' / 'wave' / 'by the numbers' on air" → removed all production vocabulary; transitions carried by story
-  - "Move 'By the Numbers' to the end like Acquired; too much / too long up front" → removed the entire stats segment from the opening; only one believable stat (the ~8,000-infants figure) survives, inside World Before where it earns its place
-  - "107 opens / more-touched-than-phone / faster-than-smartphone are not credible" → all three cut entirely
-  - "Echo handoffs break the illusion" → eliminated; replaced with questions, emphasis, additive thoughts, and a research-handoff (Cyrus's bacon find)
-  - "We have the lack of refrigeration to thank for bacon. And pepperoni." (Jeff's note) → leads the World Before lighter beat, before the swill-milk darkness
-  - "Einstein failure could be a teaser" → ~12-second flash-forward planted inside the cold open, not explained; full payoff held for chapter 04
-  - "Don't describe who owns which wave" → no ownership/assignment language; lead shifts by lens only
-  - "Reset the mocking energy before the swill-milk infant deaths; handle with gravity; hedge the 8,000" → reset beat added; "by the Times' own count, something like eight thousand"
-  - "In the city / In the city would work better as a surprised question" → fixed
-  - "Let those laugh who win" (Jeff loves it as a founder's motto) → preserved and landed clean
-  - "1-2 sentence teaser, not a preview segment" → replaced the full wave-preview with a two-sentence frame; no roadmap
+  - Cold open leads, World Before woven in as backstory, no roadmap ("too much leadup" / "start with the ship" / "Agatha Christie") → Welcome is ~1 min, Tudor's ship is the first story, World Before is a conversation off the cold open, teaser is two sentences
+  - "By the Numbers" moved to the end → no stats block here; one believable stat (one baby in four) lives inside the World Before
+  - Einstein as a teaser (Jeff, 01 notes) → one image in the teaser, no roadmap
+  - Bacon / pepperoni as World Before (transcript, both hosts) → Cyrus's cured-foods beat; Jeff's "thank God we had a period without it" line used near-verbatim
+  - "Let those laugh who win" as a family motto for entrepreneurs (Jeff, 02 comments) → paired with the dated 1805 "people only laugh" line so it reads as a reply, not a slogan
+  - Tudor "would fit in Silicon Valley" (Cyrus) → said, and Jeff asks for receipts (bold claims get challenged)
+  - 107 opens / most-touched / smartphone-curve stats → absent; no correction beat
+  - No survivorship-bias beat at Tudor (transcript; Jeff) → none
+  - No production vocabulary; echo handoffs replaced with questions, emphasis, or additive reactions; discovery framed as comparing research ("did you come across…")
+  - Research corrections applied: two thousand miles / three weeks (not 1,500); "more than once" in debtors' prison (not "three times"); tonnage not attributed to the Gazette; swill-milk toll as "thousands"; spice-mask-rot myth not repeated
+editor-pass: 2026-09-13 (see editor-notes.md)
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+status: draft
+date: 2026-09-13
 ---
 
 --- SEGMENT BREAK: Opening - The Welcome ---
 
-JEFF: Hey everybody. Welcome to Backbone. I'm Jeff Keltner.
+JEFF: Welcome to Backbone. I'm Jeff Keltner.
 
 CYRUS: And I'm Cyrus Mistry.
 
-JEFF: And this is the show about the hidden technologies the modern world is quietly built on. The stuff that runs everything — and that you never, ever think about. Until the day it breaks.
+JEFF: And this is the show where we go looking for the technologies that hold the modern world up — the stuff you never think about until the day it stops working. And Cyrus, I have to say, for the first one, I think we picked well.
 
-CYRUS: The infrastructure underneath the infrastructure. The backbone you don't see.
+CYRUS: [dry] We picked the most boring object in your house.
 
-JEFF: [warmly] Exactly. And today we're doing one that I think is almost too good. Because once you see the whole story, you can't unsee it. It's been hiding in plain sight in your kitchen your entire life.
+JEFF: [laughs softly] We did. And I mean that as the highest compliment, because I don't think either of us is going to look at it the same way again.
 
-CYRUS: I'll be honest — this is, like, the fourth time I've gone through a lot of this material, and I was still stopping every couple of pages going, [amused] wait, that's real?
+CYRUS: A hundred percent. I've now told my kids more about this than they ever wanted to know. They take it for granted. Like, there's fridges now. That's just... the world.
 
-JEFF: Right? So I want to start where the whole thing starts. With a guy, a ship, and an idea that everyone he knew thought was completely insane.
+JEFF: And the thing is, it wasn't. For most of human history, cold was weather. It happened to you. Nobody sold it. And the first guy who tried to sell it got laughed at in the newspaper.
+
+CYRUS: [curious] Okay. I want to hear about that guy.
 
 --- SEGMENT BREAK: Opening - The Cold Open ---
 
-JEFF: It's February tenth, eighteen oh six. Boston Harbor, dead of winter. There's a small two-masted ship tied up at the Custom House — a brig called the Favorite. And it has just been cleared to sail. The owner of that ship is twenty-three years old. He's a Boston Brahmin, son of a judge, and he dropped out of school at thirteen. His name is Frederic Tudor. And he is loading the Favorite with a hundred and thirty tons of cargo.
+JEFF: [reflective] Okay. So it's February, eighteen oh six. Boston Harbor. And a small two-masted ship, a brig, has just cleared customs, headed for Martinique. Which is a French sugar island in the Caribbean. Three weeks south. Two thousand miles. And the town paper, the Boston Gazette, runs a little notice about it. I'm going to read it, because it might be my favorite sentence in the whole story. Quote: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."
 
-CYRUS: Okay.
+CYRUS: [laughs] Slippery speculation. That is a two-hundred-and-twenty-year-old burn. And it still lands. Like, whoever wrote that went home happy that night.
 
-JEFF: The cargo is ice.
+JEFF: [laughs] Oh, absolutely. And the whole town thought this was insane. The ship is carrying about eighty tons of ice. Pond ice. Cut off a family farm north of Boston, in a town called Saugus. And it belongs to a twenty-three-year-old named Frederic Tudor.
 
-CYRUS: [laughs] Ice.
+CYRUS: [genuinely surprised] Twenty-three?
 
-JEFF: A hundred and thirty tons of pond ice. Cut by hand out of his family's farm pond up in Saugus, Massachusetts. Packed in hay and wood shavings, stacked in the hold of a wooden ship. And he is going to sail it about fifteen hundred miles south — to Martinique. In the Caribbean.
+JEFF: Yeah. And here's the thing you have to understand about Frederic Tudor. He is a Boston Brahmin kid. His father was a lawyer — studied law in John Adams's office, was George Washington's first Judge Advocate General in the Continental Army. Serious family. His older brother William went to Harvard, class of seventeen ninety-six, and later founded the North American Review. And Frederic... is the one son who didn't go to Harvard. He left school at thirteen. Thirteen! Went to work as the youngest apprentice in a counting house on State Street. And his own family did not think much of him. There's a journal entry from his older brother, in eighteen oh one, that says — and I'm paraphrasing only slightly — "It is the greatest difficulty I can get him to do anything. I hope there will be a time when I shall be able to rouse him."
 
-CYRUS: [incredulous] He's shipping ice. To the tropics.
+CYRUS: [dry] So he's the family disappointment.
 
-JEFF: [amused] To the tropics. And here's my favorite part. [reflective] No shipowner in Boston would charter him a vessel — they were convinced the ice would melt in the hold, soak the timbers, and rot the ship out from under them. So Tudor had to go buy his own brig. Forty-seven hundred and fifty dollars. Most of his inheritance, gone, on a boat to haul frozen water to people who'd never seen it.
+JEFF: Completely. And on top of that, his father has just lost a big chunk of the family fortune speculating on land in South Boston. So you've got a kid who opted out of the approved path, whose own brother thinks he's lazy, whose dad just lost the money. And that kid decides the thing he's going to do with his life... is ship frozen pond water to the tropics.
 
-CYRUS: [incredulous] Oh my God.
+CYRUS: [skeptical] Okay, but where does the idea even come from? Like, nobody in Boston is sitting around going, you know what the Caribbean needs?
 
-JEFF: Three days after he clears the harbor, the Boston Gazette runs exactly one sentence about the voyage. And I want to read it to you word for word, because two hundred and twenty years later it is still the perfect summary of how everybody felt. Quote: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."
+JEFF: Yeah, that's the thing — the record doesn't really tell us. What we do have is his diary. August first, eighteen oh five: "William and myself have this day determined to get together what property we have and embark on the undertaking of carrying ice to the West Indies." And then, later that same year, this line, which I love: "People only laugh and believe me not when I tell them I'm going to the West Indies."
 
-CYRUS: [laughs] Slippery speculation. Somebody workshopped that.
+CYRUS: [laughs softly] So he knows. He knows he's the joke before the ship ever leaves.
 
-JEFF: [amused] That is an eighteen-oh-six burn. Some editor took ten seconds out of his afternoon to make sure history remembered he thought this was the dumbest idea he'd ever heard.
+JEFF: He's writing it down! And it gets better — nobody in Boston would carry the cargo. Not one ship owner. Because eighty tons of ice melts, the meltwater floods your hold, rots your timbers, ruins your ship. So Tudor buys his own ship. He'd raised about ten thousand dollars, most of it borrowed, and he spends nearly half of it — forty-seven hundred and fifty dollars — on the brig.
 
-CYRUS: [curious] So what happens?
+CYRUS: Half the money on the boat before he's sold a pound of ice.
 
-JEFF: He was right. Most of the ice melts before the ship even reaches Martinique. And then Tudor gets there — and realizes he hasn't built an ice house. He never really thought through what people would do with the stuff once they had it. There are no bartenders who know what to do with ice. No iceboxes in anybody's home. Nowhere to store it. So the ice that survived the crossing just melts on the dock while he runs around trying to find a buyer. The whole voyage loses him forty-five hundred dollars. In today's money — call it a hundred grand.
+JEFF: Yeah. And then the ice goes in, and he sails. Three weeks. And the cargo actually does okay on the voyage — a lot of it survives. The problem is what happens when he gets there. Because there's no icehouse in Martinique. His brother and a cousin had gone ahead to build one and line up buyers, and they'd basically failed at both. So the ice is sitting on a dock in the Caribbean, melting, while Frederic Tudor goes looking for anyone who wants it. And he prints a handbill. March seventh, eighteen oh six. "The price is ten cents a pound. It is necessary to bring a wool cloth or a piece of covering to wrap the ice."
 
-CYRUS: [deadpan] On the first try.
+CYRUS: [incredulous] He has to tell people to bring a blanket.
 
-JEFF: On the first try. He sails home. And within six years, he's in debtor's prison.
+JEFF: Because nobody there has anywhere to keep it! His biographer quotes his diary: customers wrapping their chunk of ice in a blanket, waddling home, and wondering why it's gone by the time they get there.
 
-CYRUS: [incredulous] He goes to prison.
+CYRUS: [laughs] Of course it's gone.
 
-JEFF: Three times before eighteen twenty. And during those years, in his journal, he keeps coming back to one line. A kind of refrain. "Let those laugh who win."
+JEFF: The one thing that does sell is ice cream. He makes it himself, and a local businessman clears a small fortune in one night. But that's it. And there's a line in his diary from that trip that I think is the whole emotional core of the guy: "I found myself without money and without friends and with only a cargo of ice in a torrid zone to depend on."
 
-CYRUS: [reflective] Wow.
+CYRUS: [quietly] Oof.
 
-JEFF: [warmly] I love that line. As somebody who's started a few things, I think about that line a lot. "Let those laugh who win." And here's why I'm starting with this guy. Frozen pond water, three trips to debtor's prison, mocked in the paper — and by the eighteen eighties, ice cut from New England ponds is the second-largest American export by tonnage. Behind only cotton.
+JEFF: He loses about forty-five hundred dollars on the voyage. Nearly half his stake — almost exactly what the ship cost. And then it gets worse. He tries Havana, loses more. Then Jefferson's embargo in eighteen oh seven wrecks the whole West Indies trade, and he's tens of thousands of dollars in debt. And within a few years — more than once, between eighteen oh nine and eighteen thirteen — Frederic Tudor is in debtors' prison.
 
-CYRUS: [genuinely surprised] Wait — behind cotton? Frozen pond water is the number two export in the country?
+CYRUS: [exhales] Which we don't even have a modern equivalent for. You failed at a business, and they put you in jail.
 
-JEFF: Number two. Behind cotton. And that's just the opening move. Because — [amused] oh, and a hundred and twenty years after Tudor's ship clears this exact harbor, two of the most famous physicists alive are going to try to fix this same problem. And they're going to lose. To a chemist you've never heard of. But we're getting way ahead of ourselves.
+JEFF: Right. And in his journal, through all of this, there's one line that keeps showing up. And I don't know exactly when he first wrote it — nobody does — but he wrote it, and he came back to it. "Let those laugh who win."
+
+CYRUS: [reflective] That's the whole guy in five words.
+
+JEFF: That should be on the wall of every founder's office. Honestly.
+
+CYRUS: I mean — this guy would fit right in in Silicon Valley. Like, drop him in Palo Alto in twenty twenty-six and he has a pitch deck by Tuesday.
+
+JEFF: [skeptical] Okay, receipts. Why?
+
+CYRUS: Look at the shape of it. Dropout. Family thinks he's lazy. Product nobody's asked for. Burns half his capital on infrastructure before revenue. And — this is the part — his twenty years of losses were financed. That's family money absorbing the hits. That's not grit alone, that's a seed round from your parents that keeps getting extended.
+
+JEFF: [laughs softly] That's fair. Although most founders I know would've quit after the second prison stint.
+
+CYRUS: [deadpan] The good ones would've pivoted to ice cream.
 
 [MUSIC: theme-in]
 
 --- SEGMENT BREAK: Opening - The World Before ---
 
-CYRUS: Okay, so before we go anywhere with Tudor, I want to do something. Because we just keep saying this phrase — "the world before refrigeration" — like it means something. And I don't think people actually feel it. [deliberate] I want to make them feel it.
+JEFF: So, okay. Before we follow him out of jail — I think we have to answer the newspaper. Because the Gazette wasn't being dumb. Everybody in Boston thought this was funny.
 
-JEFF: [warmly] Yeah, do it.
+CYRUS: Right, and that's the question I kept coming back to. Why was it a joke? We're sitting here in a world where cold is the most boring thing imaginable. What did the world look like that made a boatload of ice funny?
 
-CYRUS: Picture a normal American kitchen. Anywhere from, say, eighteen seventy to nineteen twenty. There's a square cardboard card hanging in the window facing the street. Four sides, four numbers — twenty-five, fifty, seventy-five, one hundred.
+JEFF: Yeah — and you went deeper on this than I did. What did you find?
 
-JEFF: Pounds.
+CYRUS: So this is the part I found genuinely hard to picture. In eighteen oh six, cold is a season. It's not a thing you have — it's a thing that happens to you, for a few months, if you live far enough north. Outside of that belt, it basically doesn't exist. My favorite example is Calcutta. Before American ice showed up there, the local ice was made by laying porous clay pots of water out on straw in shallow trenches on cold, clear winter nights. The pots sweat, the straw insulates you from the ground, a clear night radiates heat to the sky, and by morning there's a skin of ice you can scrape off. It works a few nights a year. And what you get is gritty, slushy, and expensive. That was ice, in one of the biggest cities on earth.
 
-CYRUS: Pounds of ice. Whichever number's facing the street that morning, that's how much you want the iceman to bring. And he comes by every single day. Horse-drawn wagon. A block of ice riding on a sheepskin pad on his shoulder, carried with iron tongs. He doesn't knock. He reads your card, walks the block in through the back, and drops it into the icebox.
+JEFF: And in Boston?
 
-JEFF: [curious] Which is just a wooden cabinet, right? Ice on top, food underneath.
+CYRUS: In Boston you had winter, and then you had ways to stretch winter. A springhouse over a cold stream. A root cellar. Rich estates had icehouses — dig a pit, pack it in January, hope it lasts to July. And mostly, you ate in season, because there was no alternative.
 
-CYRUS: Zinc-lined wooden cabinet. Ice up top, cold air sinks down over the food, and there's a drip pan underneath catching the meltwater. And here's the detail that gets me — somebody in that house has to empty the drip pan. Every night. Because if you forget, you wake up to a flooded kitchen floor.
+JEFF: Right. And there's a version of this that's kind of charming — oh, everybody ate seasonally, how lovely. And then there's the other version.
 
-JEFF: [laughs softly] Every night. Forever.
+CYRUS: [deliberate] Which is the babies.
 
-CYRUS: Forever. The entire rhythm of the household ran on that man's schedule. What you could buy, what you could cook, how fast you had to eat it before it turned. All of it.
+JEFF: Yeah. So — the lethal version of no cold is summer, in a city, with an infant. In eighteen ninety-one, in New York City, infant mortality was about two hundred and forty per thousand births. That is roughly one baby in four. Not surviving the first year.
 
-JEFF: [amused] And it's funny — that's the part everybody pictures as the hardship. But honestly, the world before refrigeration also gave us some genuinely great stuff. Did you get into the food side of this at all?
+CYRUS: [quietly] One in four.
 
-CYRUS: A little. What'd you find?
+JEFF: And it spiked every July and August. They called it the summer complaint. And the reason is milk. Heat spoils milk fastest, and the babies who died were disproportionately the bottle-fed ones. Did you come across the Jacob Riis passage on this? How the Other Half Lives, eighteen ninety?
 
-JEFF: [amused] So here's a thing I love. We have the lack of refrigeration to thank for bacon.
+CYRUS: I did not get to Riis. Walk me through it.
 
-CYRUS: [laughs] Okay, that can't be true.
+JEFF: So Riis is a reporter, not a doctor, but he's in the tenements, and he writes: "Life in the tenements in July and August spells death to an army of little ones whom the doctor's skill is powerless to save." And the Board of Health, every summer, sends fifty specially trained doctors — he calls them the summer doctors — into the tenements with free medicine. Fifty doctors, every summer. And there's a line about the little coffins stacked on the deck of the charity boat that goes out to the city cemetery twice a week.
 
-JEFF: [emphatic] I'm serious. Think about it. You've got meat, and no way to keep it cold. So what do you do? You figure out how to make it last anyway. You salt it. You smoke it. You cure it. You ferment it. And what comes out the other end of all that is — bacon. Ham. Pepperoni. Prosciutto. Salami. Country ham. Jamón ibérico. Salt cod, which was the protein backbone of the whole Atlantic world for centuries.
+CYRUS: [quietly] A scheduled boat. For the coffins.
 
-CYRUS: [genuinely surprised] So some of the best food on the planet only exists because nobody could keep anything cold.
+JEFF: And there's an ugly detail underneath it, which is where a city's milk actually came from. Whiskey distillers kept cows in sheds next to the stills, fed them the leftover mash, and sold the milk — thin and bluish, so they'd whiten it with plaster of Paris. When the papers exposed it in eighteen fifty-eight, the Times put the toll in the thousands of babies a year.
 
-JEFF: That's the whole thing. If you'd had a refrigerator in ancient Rome, you never get prosciutto. There's a Roman senator, Cato, who wrote down step-by-step instructions for dry-curing a ham — third century B-C-E. Entire cuisines — Italian, Spanish, the American South — are basically brilliant solutions to the problem of meat not lasting.
+CYRUS: [incredulous] Plaster of Paris. In the milk.
 
-CYRUS: [reflective] I think about that a lot, actually. Some of my favorite things in the world come from the lack of refrigeration. A backbone gives you something. It also quietly takes something away. And we're going to keep running into that.
+JEFF: To make it look like milk. And it's easy to make the distillery guys into monsters, but that was the only urban dairy model that worked. If milk can't survive a hot day's cart ride from the countryside, the cows have to be in the city, and the cheapest place to keep a cow in the city is next to the thing producing tons of leftover grain mash. The horror isn't personal. It's structural.
 
-JEFF: [reflective] Okay. But I want to be honest, because the world before this wasn't all cured ham and charm. There's a darker side, and we have to sit with it for a second — because it's where the real stakes are.
+CYRUS: And that's the number that moves, by the way. Like — that's the number this whole story is about moving. By nineteen fourteen, New York's rate is down to seventy-one per thousand. Today in the United States it's about five and a half.
 
-CYRUS: Yeah. Go there.
+JEFF: From two hundred and forty.
 
-JEFF: Eighteen fifty-eight. New York City. Enormous demand for fresh milk — but fresh milk cannot survive the trip from a rural farm into the city in any kind of heat. It spoils. So the urban dairymen come up with a solution. They keep the cows in the city.
+CYRUS: [deliberate] Now — can I do the other half of this? Because I think there's a version of the world before that's actually kind of wonderful, and it's the part I'm weirdly grateful for.
 
-CYRUS: [incredulous] Wait — they kept live cows inside the city? Where?
+JEFF: [amused] Please. I have a personal stake in this half.
 
-JEFF: In basements. Tethered in basement stalls, right next to whiskey distilleries — so they could feed the cows on the spent mash from the distillery. Free feed. So these cows live their whole lives in narrow stalls, standing in their own waste, drinking distillery runoff. And the milk that comes out of them is thin, and bluish, and sometimes flecked with blood. So the dairymen disguise it. They whiten it with plaster of Paris. Thicken it with starch and beaten eggs. Color it with molasses. And they send it out on the carts at sunrise.
+CYRUS: So here's the thing. Humanity had already solved "no cold." Not with cold — with salt, smoke, and time. And basically every cured food you love exists because somebody needed summer's abundance to survive the winter without refrigeration. Bacon. Ham. Salami. Salt cod. Prosciutto. The oldest recipe I found is Cato the Elder, a Roman, around one hundred sixty B-C, and it's a recipe for salting hams. Layer them in salt so that "meat does not touch meat," leave them twelve days, hang them in a draft, smoke them. And he ends with, "No moths or worms will touch them."
 
-CYRUS: [exhales] Holy cow.
+JEFF: [laughs softly] That's prosciutto. He's describing prosciutto.
 
-JEFF: A publisher named Frank Leslie — he ran an illustrated newspaper — sends reporters and artists down into those basements in May of eighteen fifty-eight, and runs the story across multiple issues. The Times picks it up. The New York Academy of Medicine launches an inquiry. And the death toll they put on the record — by the Times' own count, something like eight thousand infants. In one city. In one year.
+CYRUS: That is functionally a country ham, written down twenty centuries before anybody built a compressor. Salt doesn't kill the bacteria so much as it steals their water. You pack the surface with salt, and osmosis pulls the water out of everything — including the microbes. Get to around twenty percent salt and almost nothing can live in it. Wood smoke is full of phenols, which slow the fat from going rancid and slow the bacteria — but smoke doesn't penetrate very far into meat, so you salt first and smoke second. Smoke is mostly a flavor with a preservative side hustle. Salt does the heavy lifting.
 
-CYRUS: [pause] Eight thousand babies.
+JEFF: And I'd always assumed — this is the thing everybody says — that the whole spice trade was about covering up rotten meat. Right? That's why they wanted pepper.
 
-JEFF: Roughly. From milk. And I want to be careful here, because the easy move is to make that dairyman a villain. He wasn't. He was running the only urban dairy model that actually worked in a world where milk couldn't survive a warm afternoon. The horror isn't the man. [deliberate] The horror is structural — it's a whole city that had no way to keep anything cold.
+CYRUS: [skeptical] Yeah, so I went looking for that, and the food historians basically say no. Spices were incredibly expensive. Nobody was wasting saffron on a bad roast. People who could afford fresh meat got fresh meat; everybody else had perfectly good preservation. The rotten-meat thing is a myth.
 
-CYRUS: [reflective] That's what gets me. From here it looks insane. But everyone living in it just accepted it — because it was the only system there was.
+JEFF: Huh. Okay, I'm going to have to retire that one.
 
-JEFF: Right. New York passes its first milk-safety law four years later — the first food-safety statute in the country, forty years before there's any federal one. But the thing that actually fixes this is a cold chain that doesn't exist yet. And until it does — this is the world.
+CYRUS: [warmly] I know. I was sad too. But salt cod is real, and it's my favorite. Basque fishermen were working the Newfoundland coast by fifteen seventeen, and dried, salted cod keeps for years. A fish caught off Canada, eaten in Portugal months later. A global food trade with zero cold in it.
 
---- SEGMENT BREAK: Opening - The Teaser ---
+JEFF: Yeah. And, I mean — thank God we had a couple thousand years without refrigeration, so we learned how to make pepperoni.
 
-CYRUS: So that ship leaving Boston Harbor, with a hold full of melting pond ice and a guy on his way to prison — that's not just a fool's errand that happens to pay off. That's the first move in a story that runs almost two hundred years, and keeps making the same move: somebody solves the cold problem right in front of them, and the solution quietly becomes the next problem.
+CYRUS: [laughs] Some of my favorite things in the world exist because of the lack of refrigeration. Literally.
 
-JEFF: [reflective] Three times. Each one bigger than the last. So let's go back to the kid with the melting ice — because the most absurd part of Frederic Tudor's story isn't that he failed. It's what happens NEXT.
+JEFF: Right. So that's the world Tudor's ship is sailing into. Cold is a season. Milk kills babies every August. And people have gotten really, really good at living without it — so good that the idea of buying cold sounds like a joke.
+
+CYRUS: [reflective] Right. You can't sell people a thing they don't know they lack.
+
+JEFF: Yeah. And here's the thing that got me, reading all of this. That ridiculous voyage is the opening move in a story that runs two hundred years — and every single time somebody wins a round of it, the win plants the next problem. And somewhere down this road, Albert Einstein is going to try to build a refrigerator. And fail.
+
+CYRUS: [curious] Einstein.
+
+JEFF: But first, we've got a guy in debtors' prison with a pond and a motto.
 
 [MUSIC: transition-bumper]
-
---- SEGMENT BREAK: End of Chapter 01 ---

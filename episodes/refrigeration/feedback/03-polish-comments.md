@@ -1,6 +1,6 @@
-# Feedback document: script (checkpoint 02)
+# Feedback document: polish (checkpoint 03)
 
-> Topic: `refrigeration`. Source: Google Doc `1syDAbiHyJKTTp7wH0H3pbAKwfav_kRzTUxle48adPIc`.
+> Topic: `refrigeration`. Source: Google Doc `1yY207F5JdfB6Gqhc5L5od9CNNzUB1RR6WnKF1yzDf7o`.
 > Body exported via `gws drive files export` (text/markdown).
 > Comments fetched via `gws drive comments list` and inserted
 > as block quotes after the line containing each anchor.
@@ -41,6 +41,10 @@ feedback-addressed:
 
   \- Research corrections applied: two thousand miles / three weeks (not 1,500); "more than once" in debtors' prison (not "three times"); tonnage not attributed to the Gazette; swill-milk toll as "thousands"; spice-mask-rot myth not repeated
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -65,7 +69,7 @@ JEFF: And this is the show where we go looking for the technologies that hold th
 
 &nbsp;
 
-CYRUS: \[amused\] We picked the most boring object in your house.
+CYRUS: \[dry\] We picked the most boring object in your house.
 
 &nbsp;
 
@@ -81,7 +85,7 @@ JEFF: And the thing is, it wasn't. For most of human history, cold was weather. 
 
 &nbsp;
 
-CYRUS: \[curious\] Okay. So start there. Start with the ship.
+CYRUS: \[curious\] Okay. I want to hear about that guy.
 
 &nbsp;
 
@@ -89,7 +93,7 @@ CYRUS: \[curious\] Okay. So start there. Start with the ship.
 
 &nbsp;
 
-JEFF: \[reflective\] Okay. So it's February, eighteen oh six. Boston Harbor. And a small two-masted ship, a brig, has just cleared customs, headed for Martinique. Which is a French sugar island in the Caribbean. Three weeks south. Two thousand miles. And the town paper, the Boston Gazette, runs a little notice about it. I'm going to read it to you, because it's one sentence, and it might be my favorite sentence in the whole story. Quote: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."
+JEFF: \[reflective\] Okay. So it's February, eighteen oh six. Boston Harbor. And a small two-masted ship, a brig, has just cleared customs, headed for Martinique. Which is a French sugar island in the Caribbean. Three weeks south. Two thousand miles. And the town paper, the Boston Gazette, runs a little notice about it. I'm going to read it, because it might be my favorite sentence in the whole story. Quote: "No joke. A vessel has cleared at the Custom House for Martinique with a cargo of ice. We hope this will not prove a slippery speculation."
 
 &nbsp;
 
@@ -97,7 +101,7 @@ CYRUS: \[laughs\] Slippery speculation. That is a two-hundred-and-twenty-year-ol
 
 &nbsp;
 
-JEFF: \[laughs softly\] Oh, absolutely. And the whole town thought this was insane. The ship is carrying about eighty tons of ice. Pond ice. Cut off a family farm north of Boston, in a town called Saugus. And it belongs to a twenty-three-year-old named Frederic Tudor.
+JEFF: \[laughs\] Oh, absolutely. And the whole town thought this was insane. The ship is carrying about eighty tons of ice. Pond ice. Cut off a family farm north of Boston, in a town called Saugus. And it belongs to a twenty-three-year-old named Frederic Tudor.
 
 &nbsp;
 
@@ -109,7 +113,7 @@ JEFF: Yeah. And here's the thing you have to understand about Frederic Tudor. He
 
 &nbsp;
 
-CYRUS: \[amused\] So he's the family disappointment.
+CYRUS: \[dry\] So he's the family disappointment.
 
 &nbsp;
 
@@ -145,7 +149,7 @@ CYRUS: \[incredulous\] He has to tell people to bring a blanket.
 
 &nbsp;
 
-JEFF: Because nobody there has anywhere to keep it\! His diary — his biographer quotes this — his diary has customers wrapping their chunk of ice in a blanket, waddling home, and wondering why it's gone by the time they get there.
+JEFF: Because nobody there has anywhere to keep it\! His biographer quotes his diary: customers wrapping their chunk of ice in a blanket, waddling home, and wondering why it's gone by the time they get there.
 
 &nbsp;
 
@@ -161,7 +165,7 @@ CYRUS: \[quietly\] Oof.
 
 &nbsp;
 
-JEFF: He loses about forty-five hundred dollars on the voyage. Nearly half his stake — almost exactly what the ship cost. And then it gets worse. He tries Havana, loses more. Then Jefferson's embargo in eighteen oh seven wrecks the whole West Indies trade, and he's tens of thousands of dollars in debt. And by eighteen oh nine, and again over the next few years — more than once — Frederic Tudor is in debtors' prison.
+JEFF: He loses about forty-five hundred dollars on the voyage. Nearly half his stake — almost exactly what the ship cost. And then it gets worse. He tries Havana, loses more. Then Jefferson's embargo in eighteen oh seven wrecks the whole West Indies trade, and he's tens of thousands of dollars in debt. And within a few years — more than once, between eighteen oh nine and eighteen thirteen — Frederic Tudor is in debtors' prison.
 
 &nbsp;
 
@@ -185,7 +189,7 @@ CYRUS: I mean — this guy would fit right in in Silicon Valley. Like, drop him 
 
 &nbsp;
 
-JEFF: \[amused\] Okay, receipts. Why?
+JEFF: \[skeptical\] Okay, receipts. Why?
 
 &nbsp;
 
@@ -217,7 +221,7 @@ CYRUS: Right, and that's the question I kept coming back to. Why was it a joke? 
 
 &nbsp;
 
-JEFF: Yeah. Take a swing at it.
+JEFF: Yeah — and you went deeper on this than I did. What did you find?
 
 &nbsp;
 
@@ -257,11 +261,11 @@ CYRUS: I did not get to Riis. Walk me through it.
 
 &nbsp;
 
-JEFF: So Riis is a reporter, not a doctor, but he's in the tenements, and he writes: "Life in the tenements in July and August spells death to an army of little ones whom the doctor's skill is powerless to save." And the Board of Health, every summer, sends fifty specially trained doctors — he calls them the summer doctors — into the tenements with free medicine. Fifty doctors, just for summer, just for the babies. And there's a line about the little coffins stacked on the deck of the charity boat that goes out to the city cemetery twice a week.
+JEFF: So Riis is a reporter, not a doctor, but he's in the tenements, and he writes: "Life in the tenements in July and August spells death to an army of little ones whom the doctor's skill is powerless to save." And the Board of Health, every summer, sends fifty specially trained doctors — he calls them the summer doctors — into the tenements with free medicine. Fifty doctors, every summer. And there's a line about the little coffins stacked on the deck of the charity boat that goes out to the city cemetery twice a week.
 
 &nbsp;
 
-CYRUS: \[quietly\] Twice a week.
+CYRUS: \[quietly\] A scheduled boat. For the coffins.
 
 &nbsp;
 
@@ -273,7 +277,7 @@ CYRUS: \[incredulous\] Plaster of Paris. In the milk.
 
 &nbsp;
 
-JEFF: In the milk. And it's easy to make the distillery guys into monsters, but that was the only urban dairy model that worked. If milk can't survive a hot day's cart ride from the countryside, the cows have to be in the city, and the cheapest place to keep a cow in the city is next to the thing producing tons of leftover grain mash. The horror isn't personal. It's structural.
+JEFF: To make it look like milk. And it's easy to make the distillery guys into monsters, but that was the only urban dairy model that worked. If milk can't survive a hot day's cart ride from the countryside, the cows have to be in the city, and the cheapest place to keep a cow in the city is next to the thing producing tons of leftover grain mash. The horror isn't personal. It's structural.
 
 &nbsp;
 
@@ -289,7 +293,7 @@ CYRUS: \[deliberate\] Now — can I do the other half of this? Because I think t
 
 &nbsp;
 
-JEFF: \[amused\] Please. This is the part I asked for.
+JEFF: \[amused\] Please. I have a personal stake in this half.
 
 &nbsp;
 
@@ -297,11 +301,11 @@ CYRUS: So here's the thing. Humanity had already solved "no cold." Not with cold
 
 &nbsp;
 
-JEFF: \[laughs softly\] That's prosciutto. That's a twenty-one-hundred-year-old prosciutto recipe.
+JEFF: \[laughs softly\] That's prosciutto. He's describing prosciutto.
 
 &nbsp;
 
-CYRUS: That is functionally a country ham, written down twenty-one centuries before anybody built a compressor. And the science is really elegant. Salt doesn't kill the bacteria so much as it steals their water. You pack the surface with salt, and osmosis pulls the water out of everything — including the microbes. Get to around twenty percent salt and nothing can live in it. Wood smoke is full of phenols, which slow the fat from going rancid and slow the bacteria — but smoke doesn't penetrate very far into meat, so you salt first and smoke second. Smoke is mostly a flavor with a preservative side hustle. Salt does the heavy lifting.
+CYRUS: That is functionally a country ham, written down twenty centuries before anybody built a compressor. Salt doesn't kill the bacteria so much as it steals their water. You pack the surface with salt, and osmosis pulls the water out of everything — including the microbes. Get to around twenty percent salt and almost nothing can live in it. Wood smoke is full of phenols, which slow the fat from going rancid and slow the bacteria — but smoke doesn't penetrate very far into meat, so you salt first and smoke second. Smoke is mostly a flavor with a preservative side hustle. Salt does the heavy lifting.
 
 &nbsp;
 
@@ -317,7 +321,7 @@ JEFF: Huh. Okay, I'm going to have to retire that one.
 
 &nbsp;
 
-CYRUS: \[amused\] I know. I was sad too. But salt cod is real, and it's my favorite. Basque fishermen were working the Newfoundland coast by fifteen seventeen, and dried, salted cod keeps for years. A fish caught off Canada, eaten in Portugal months later. A global food trade with zero cold in it.
+CYRUS: \[warmly\] I know. I was sad too. But salt cod is real, and it's my favorite. Basque fishermen were working the Newfoundland coast by fifteen seventeen, and dried, salted cod keeps for years. A fish caught off Canada, eaten in Portugal months later. A global food trade with zero cold in it.
 
 &nbsp;
 
@@ -333,15 +337,15 @@ JEFF: Right. So that's the world Tudor's ship is sailing into. Cold is a season.
 
 &nbsp;
 
-CYRUS: \[reflective\] Which is exactly why the newspaper laughed.
+CYRUS: \[reflective\] Right. You can't sell people a thing they don't know they lack.
 
 &nbsp;
 
-JEFF: Right. And I'll say just one thing about where this goes, and then we'll get into it. That ridiculous voyage is the opening move in a story that runs two hundred years — and every single time somebody wins a round of it, the win plants the next problem. And somewhere down this road, Albert Einstein is going to try to build a refrigerator. And fail.
+JEFF: Yeah. And here's the thing that got me, reading all of this. That ridiculous voyage is the opening move in a story that runs two hundred years — and every single time somebody wins a round of it, the win plants the next problem. And somewhere down this road, Albert Einstein is going to try to build a refrigerator. And fail.
 
 &nbsp;
 
-CYRUS: \[amused\] Einstein.
+CYRUS: \[curious\] Einstein.
 
 &nbsp;
 
@@ -385,6 +389,10 @@ feedback-addressed:
 
   \- Research corrections applied: 90,000 people / 25,000 horses attributed to an 1893 trade manual; "more ice than any cargo except cotton" hedged as "it was said"; Roffignac "reportedly"; Calcutta crowd anecdotes as "the stories that came back to Boston"; Brightman's Ghaut; Clement Littlefield; statue in the Capitol's Hall of Columns; "a New York paper sneered"; Tudor's role as Gorrie's belief; Van Wyck's shares as "thousands"; Tammany "damaged; a reform ticket won"; 1890 famine via the January headline and the June price map
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -405,11 +413,11 @@ CYRUS: Melt and demand.
 
 &nbsp;
 
-JEFF: Right. The ice melts before you can sell it, and when it gets there, nobody knows what to do with it. And he attacks both. And the melt one, I think, is your kind of story.
+JEFF: Right. The ice melts before you can sell it, and when it gets there, nobody knows what to do with it. And he attacks both. And the melt one is the piece I didn't really get until I read your notes. Why does hay fail?
 
 &nbsp;
 
-CYRUS: \[curious\] Yeah, this one I loved, because it's so counterintuitive. The first cargo went out packed in hay, and the question is why hay fails and why what eventually works, works. And the answer is that the insulation is never the stuff. It's the air trapped in the stuff. Still air is a terrible conductor of heat, which is what you want. But hay and straw compress, they mat down, they get wet, and wet insulation conducts heat right through. Worse, the meltwater channels through it. So you've built a wet blanket around your ice.
+CYRUS: \[curious\] Yeah, this one I loved, because it's so counterintuitive. The first cargo reportedly went out packed in hay, and here's the thing — the insulation is never the stuff. It's the air trapped in the stuff. Still air is a terrible conductor of heat, which is what you want. But hay and straw compress, they mat down, they get wet, and wet insulation conducts heat right through. Worse, the meltwater channels through it. So you've built a wet blanket around your ice.
 
 &nbsp;
 
@@ -421,15 +429,15 @@ CYRUS: Sawdust — and the other one they used was spent tan bark, the waste fro
 
 &nbsp;
 
-JEFF: And here's the part I love. Sawdust is garbage. It's what comes out the back of every sawmill in New England. Tanneries were throwing the bark away. So one industry's disposal problem becomes another industry's most important input, at basically zero cost. Nobody planned that. Some guy just noticed the sawmill had a pile of it.
+JEFF: And here's the part I love. Sawdust is garbage. It's what comes out the back of every sawmill in New England. Tanneries were throwing the bark away. So one industry's disposal problem becomes another industry's most important input, at basically zero cost. Nobody planned that.
 
 &nbsp;
 
-CYRUS: \[amused\] Free markets at work.
+CYRUS: \[dry\] Free markets at work.
 
 &nbsp;
 
-JEFF: That's exactly the kind of thing that gets me excited about these stories. And he does the same thing at the other end. Eighteen fifteen, he borrows twenty-one hundred dollars and builds an icehouse in Havana. Double walls packed with dry tan bark, drainage so the meltwater never pools, and you get in from the roof so you're not opening a door into warm air all day. He'd figured out you can't sell ice off a dock.
+JEFF: It's like finding out your key input is somebody else's trash. And he does the same thing at the other end. Eighteen fifteen, he borrows twenty-one hundred dollars and builds an icehouse in Havana. Double walls packed with dry tan bark, drainage so the meltwater never pools, and you get in from the roof so you're not opening a door into warm air all day. He'd figured out you can't sell ice off a dock.
 
 &nbsp;
 
@@ -469,11 +477,11 @@ CYRUS: \[deadpan\] The founder locks up the ops IP. Of course he does.
 
 &nbsp;
 
-JEFF: \[laughs softly\] Quick aside, since you brought it up in our prep — the opening scene of Frozen.
+JEFF: \[laughs softly\] Quick aside, because you're going to bring it up anyway — the opening scene of Frozen.
 
 &nbsp;
 
-CYRUS: \[amused\] Which I have seen roughly seventy times. The very first scene — before any princesses — is a crew of men on a frozen lake, sawing blocks in rhythm and loading them onto a sled. That's Wyeth's harvest. Disney opened a billion-dollar movie on the pre-refrigeration economy and none of us noticed.
+CYRUS: \[deadpan\] Which I have seen seventy times. The very first scene — before any princesses — is a crew of men on a frozen lake, sawing blocks in rhythm and loading them onto a sled. That's Wyeth's harvest. Disney opened a billion-dollar movie on the pre-refrigeration economy and none of us noticed.
 
 &nbsp;
 
@@ -489,7 +497,7 @@ JEFF: He is\! And he explains the theory himself in a letter to his icehouse kee
 
 &nbsp;
 
-CYRUS: \[deliberate\] That's the entire consumer-behavior playbook in one sentence. Same price, better experience, one week, and you can never go back. That's every subscription business that has ever existed.
+CYRUS: \[deliberate\] That's the entire consumer-behavior playbook in one sentence. Same price, better experience, one week, and you can never go back, right? That's, like, every subscription business that has ever existed.
 
 &nbsp;
 
@@ -501,7 +509,7 @@ CYRUS: \[skeptical\] Was he?
 
 &nbsp;
 
-JEFF: \[laughs softly\] On paper. He was in and out of debt his whole life. But the demand was real. And not everybody wanted it. So — here's the first story where the resistance has a face. Tudor's agents get a cargo into New Orleans, which is a city that should want ice more than anywhere in America. Hot, humid, rich, and a yellow-fever town — buries people by the hundreds most summers. And the mayor takes one look at it.
+JEFF: \[laughs softly\] On paper. He was in and out of debt his whole life. But the demand was real. And not everybody wanted it. So — here's the first person who looked at this stuff and said no. Tudor's agents get a cargo into New Orleans, which is a city that should want ice more than anywhere in America. Hot, humid, rich, and a yellow-fever town — buries people by the hundreds most summers. And the mayor takes one look at it.
 
 &nbsp;
 
@@ -509,7 +517,7 @@ CYRUS: \[curious\] The mayor?
 
 &nbsp;
 
-JEFF: His name is Louis Philippe de Roffignac. A French aristocrat — his godparents were the Duke and Duchess of Orléans — who'd fled the Revolution and spent two terms trying to civilize New Orleans. Levees, paved streets, gas lamps, the first real fire department. Serious reformer. And the story New Orleans has told about him for a hundred and fifty years is that he looked at this boatload of frozen water and decided it was — quote — "dangerous to the health of people inhabiting so warm a clime." And reportedly had the whole cargo dumped in the Mississippi.
+JEFF: His name is Louis Philippe de Roffignac. A French aristocrat — his godparents were the Duke and Duchess of Orléans — who'd fled the Revolution and spent two terms trying to civilize New Orleans. Levees, paved streets, gas lamps. Serious reformer. And the story New Orleans has told about him for a hundred and fifty years is that he looked at this boatload of frozen water and decided it was — quote — "dangerous to the health of people inhabiting so warm a clime." And reportedly had the whole cargo dumped in the Mississippi.
 
 &nbsp;
 
@@ -533,11 +541,11 @@ CYRUS: \[laughs\] That is a very New Orleans way to win an argument.
 
 &nbsp;
 
-JEFF: \[amused\] It really is. Okay — now the big one. Because by eighteen thirty-three Tudor has been at this twenty-seven years. And instead of the Caribbean, he loads a ship for India.
+JEFF: \[warmly\] It really is. Okay — now the big one. Because by eighteen thirty-three Tudor has been at this twenty-seven years. And instead of the Caribbean, he loads a ship for India.
 
 &nbsp;
 
-CYRUS: So can I take this one? Because I went deep on Calcutta and I have to know if you found the same thing I did.
+CYRUS: So I went deep on Calcutta, and I have to know if you found the same thing I did.
 
 &nbsp;
 
@@ -545,15 +553,15 @@ JEFF: Please. This was my favorite piece of the whole story going in, so I want 
 
 &nbsp;
 
-CYRUS: \[deliberate\] Okay. May twelfth, eighteen thirty-three. Tudor's diary: "Sailed this day the ship Tuscany, Captain Littlefield, for Calcutta with one hundred eighty tons of ice — an experiment I have been desirous of making for twenty years." Twenty years he'd wanted to try this. The ship is the Tuscany, the captain is Clement Littlefield, and the route is Boston, down around the Cape of Good Hope, across the Indian Ocean, up the Hooghly River to Calcutta. Sixteen thousand miles. Four months at sea. Across the equator twice.
+CYRUS: \[deliberate\] Okay. May twelfth, eighteen thirty-three. Tudor's diary: "Sailed this day the ship Tuscany, Captain Littlefield, for Calcutta with one hundred eighty tons of ice — an experiment I have been desirous of making for twenty years." Twenty years he'd wanted to try this. And the route is Boston, down around the Cape of Good Hope, across the Indian Ocean, up the Hooghly River to Calcutta. Sixteen thousand miles. Four months at sea. Across the equator twice.
 
 &nbsp;
 
-JEFF: \[quietly\] Four months.
+JEFF: \[quietly\] Four months — and the ice is just sitting in the hold that whole time?
 
 &nbsp;
 
-CYRUS: Four months. The ice is packed in tan bark and stowed so the meltwater drains straight to the pump well, and the crew pumps the whole way. And when it gets there in September — and this is where I found the primary source, a London journal that reprinted the Calcutta newspapers — the colonial government does two things immediately. It lets the ice be landed after sunset, so it's not sitting in the sun. And it declares ice duty-free. Any ice, from any country, under any flag, forever.
+CYRUS: Packed in tan bark, stowed so the meltwater drains straight to the pump well, and the crew pumps the whole way. And when it gets there in September — and this is where I found the primary source, a London journal that reprinted the Calcutta newspapers — the colonial government does two things immediately. It lets the ice be landed after sunset, so it's not sitting in the sun. And it declares ice duty-free. Any ice, from any country, under any flag, from then on.
 
 &nbsp;
 
@@ -565,11 +573,11 @@ CYRUS: On arrival. And then the residents build him an icehouse. Near a landing 
 
 &nbsp;
 
-JEFF: Half the price of the local stuff. Shipped from Boston.
+JEFF: \[incredulous\] He undercuts the locals. With ice that's been at sea for four months.
 
 &nbsp;
 
-CYRUS: And he undercuts the local supplier. Now — did you come across the crowd stories?
+CYRUS: Right. Now — did you come across the crowd stories?
 
 &nbsp;
 
@@ -581,7 +589,7 @@ CYRUS: So here's the honest version. The stories that came back to Boston — re
 
 &nbsp;
 
-JEFF: \[reflective\] Yeah. That's the thing I can't get my head around. Not the shipping. That there were millions of people, in a city that size, for whom cold was simply not a category. You'd have no way to predict what it feels like.
+JEFF: \[awed\] Yeah. That's the thing I can't get my head around. Not the shipping. That there were millions of people, in a city that size, for whom cold was simply not a category. You'd have no way to predict what it feels like.
 
 &nbsp;
 
@@ -601,7 +609,7 @@ JEFF: The fifty-nine cents is what sells me. That's a man who kept a ledger.
 
 &nbsp;
 
-CYRUS: \[amused\] Kept a ledger, and kept score. By mid-century Boston is calling him the Ice King. In eighteen forty-nine alone he ships something like a hundred and fifty thousand tons.
+CYRUS: \[amused\] Kept a ledger, and kept score. By mid-century Boston is calling him the Ice King, and Boston's ships carry something like a hundred and fifty thousand tons a year.
 
 &nbsp;
 
@@ -629,11 +637,11 @@ CYRUS: The national numbers everybody quotes — ninety thousand people and twen
 
 &nbsp;
 
-JEFF: Except cotton. Frozen pond water.
+JEFF: \[amused\] Frozen pond water, behind only cotton. I want that to be true so badly.
 
 &nbsp;
 
-CYRUS: And here's what that industry does to daily life, which is the part that matters for the rest of this story. It teaches whole cities to expect cold. Every day. By the eighteen nineties there's a guy — the iceman — who comes down your street with a wagon and a wet sack over his shoulder. You've got a square card in your window with twenty-five, fifty, seventy-five, and a hundred printed on the corners, and whichever number you turn upright is how many pounds you want. He reads it from the street, cuts the block, slides it into the zinc-lined icebox in your kitchen. And if you forget to empty the drip pan underneath, you flood the floor.
+CYRUS: So did I, which is why I'm hedging it. And here's what that industry does to daily life. It teaches whole cities to expect cold. Every day. By the eighteen nineties there's a guy — the iceman — who comes down your street with a wagon and a wet sack over his shoulder. You've got a square card in your window with twenty-five, fifty, seventy-five, and a hundred printed on the corners, and whichever number you turn upright is how many pounds you want. He reads it from the street, cuts the block, slides it into the zinc-lined icebox in your kitchen. And if you forget to empty the drip pan underneath, you flood the floor.
 
 &nbsp;
 
@@ -641,7 +649,7 @@ JEFF: \[amused\] Every kid in America had that chore.
 
 &nbsp;
 
-CYRUS: That's the daily rhythm of an American household for fifty years. Cocktails on the rocks. Ice cream as a business. Lager brewed all summer. So — a huge industry, a daily habit, and a whole country's worth of capital in ponds, ships, icehouses, and wharves. And that's exactly the moment somebody shows up with a better idea.
+CYRUS: That's the daily rhythm of an American household for fifty years. Cocktails on the rocks. Ice cream as a business. Lager brewed all summer. So — a huge industry, a daily habit, and a whole country's worth of capital in ponds, ships, and icehouses. And that's exactly the moment somebody shows up with a better idea.
 
 &nbsp;
 
@@ -657,7 +665,7 @@ JEFF: From Boston. Tudor's ice. And in summer, when the ships don't come, there 
 
 &nbsp;
 
-CYRUS: \[curious\] How does it work? Just in one line, because I know we're going to do the real thing later.
+CYRUS: \[curious\] And it actually made ice? What was he doing in there — one line.
 
 &nbsp;
 
@@ -685,11 +693,11 @@ CYRUS: \[exhales\] Oh no.
 
 &nbsp;
 
-JEFF: The investor dies. And we don't even know his name — the histories literally say "a man from Boston, whose name is not known." And after that, nobody will fund him. Gorrie becomes convinced the natural-ice interests are running a press campaign against him — he thought Tudor himself was behind it. There's no document that proves that. But there is a New York paper that sneered — and the quote is real, even if nobody's found the date — that "there is a crank down in Apalachicola, Florida, that thinks he can make ice by his machine as good as God Almighty."
+JEFF: The investor dies. And we don't even know his name — the histories say "a man from Boston, whose name is not known." And after that, nobody will fund him. Gorrie becomes convinced the natural-ice interests are running a press campaign against him — he thought Tudor himself was behind it. There's no document that proves that. But there is a New York paper that sneered — the line has been quoted for a century, even if nobody's found the clipping — that "there is a crank down in Apalachicola, Florida, that thinks he can make ice by his machine as good as God Almighty."
 
 &nbsp;
 
-CYRUS: \[scoffs\] A crank.
+CYRUS: \[scoffs\] And the crank was right.
 
 &nbsp;
 
@@ -721,11 +729,11 @@ JEFF: Although — once you have an industry that big —
 
 &nbsp;
 
-CYRUS: — it attracts a different kind of capitalist. Yeah. Go.
+CYRUS: — it attracts a different kind of capitalist. Yeah. Who?
 
 &nbsp;
 
-JEFF: \[amused\] Okay. So this is my wheelhouse. His name is Charles W. Morse. He's from Bath, Maine — his family shipped ice and lumber — and in the eighteen nineties he starts rolling up New York's ice supply. And in eighteen ninety-nine he forms the American Ice Company — capitalized at sixty million dollars, which even the papers at the time called grossly overcapitalized. And the key thing he controls isn't the ice. It's the piers. His company is essentially the only one allowed to land ice at New York's docks. An independent dealer up in Albany told the Tribune, "He can ruin any independent dealer in this town and we all know it."
+JEFF: \[amused\] His name is Charles W. Morse. He's from Bath, Maine — his family shipped ice and lumber — and in the eighteen nineties he starts rolling up New York's ice supply. And in eighteen ninety-nine he forms the American Ice Company — capitalized at sixty million dollars, which the papers at the time called grossly overcapitalized. And the key thing he controls isn't the ice. It's the piers. His company is essentially the only one allowed to land ice at New York's docks. An independent dealer up in Albany told the Tribune, "He can ruin any independent dealer in this town and we all know it."
 
 &nbsp;
 
@@ -745,7 +753,7 @@ JEFF: Meaning the five-cent piece and the ten-cent piece. Which is the only ice 
 
 &nbsp;
 
-CYRUS: \[deliberate\] Okay, and the thing I wrote in the margin here was "that's surge pricing." Demand spikes, price doubles — that's just Uber on a rainy night. But honestly, when I read the Tribune reporting, it's worse than surge pricing. Surge pricing is one price that goes up for everyone.
+CYRUS: \[deliberate\] Okay, and my first reaction reading this was, that's surge pricing. Demand spikes, price doubles — that's just Uber on a rainy night. But honestly, when I read the Tribune reporting, it's worse than surge pricing. Surge pricing is one price that goes up for everyone.
 
 &nbsp;
 
@@ -773,7 +781,7 @@ CYRUS: \[laughs\] Under oath. Both of them.
 
 &nbsp;
 
-JEFF: Both of them. And Richard Croker, the boss of Tammany Hall, whose family holds a pile of the stock in his wife's name, writes a public letter that same week: "If it were in my power or in the power of Tammany Hall to give the poor ice for nothing we would do so." The paper prints it right above the list of his family's shares. And then he sails for England.
+JEFF: Which tells you how nervous the room was. And Richard Croker, the boss of Tammany Hall, whose family holds a pile of the stock in his wife's name, writes a public letter that same week: "If it were in my power or in the power of Tammany Hall to give the poor ice for nothing we would do so." The paper prints it right above the list of his family's shares. And then he sails for England.
 
 &nbsp;
 
@@ -781,7 +789,7 @@ CYRUS: \[deadpan\] As one does.
 
 &nbsp;
 
-JEFF: \[laughs softly\] And here's the institutional part I find genuinely interesting. Charges go to the governor to remove the mayor. And the governor is Theodore Roosevelt — the reformer. And in October, Roosevelt dismisses the charges, because owning the stock, by itself, wasn't legally sufficient cause. The scandal had no legal handle. It got resolved by voters instead: Van Wyck doesn't run again, and the next year a reform ticket under Seth Low takes City Hall. The Ice Trust damaged Tammany badly. Though Tammany came back two years after that.
+JEFF: \[laughs softly\] And here's the part I find genuinely interesting. Charges go to the governor to remove the mayor. And the governor is Theodore Roosevelt — the reformer. And in October, Roosevelt dismisses the charges, because owning the stock, by itself, wasn't legally sufficient cause. The scandal had no legal handle. It got resolved by voters instead: Van Wyck doesn't run again, and the next year a reform ticket under Seth Low takes City Hall. The Ice Trust damaged Tammany badly. Though Tammany came back two years after that.
 
 &nbsp;
 
@@ -793,11 +801,11 @@ JEFF: Morse walks away from ice with something like twelve million dollars, even
 
 &nbsp;
 
-CYRUS: \[incredulous\] Soapsuds.
+CYRUS: \[incredulous\] He faked a fatal disease by drinking soap?
 
 &nbsp;
 
-JEFF: Lived another twenty years. And the nickel piece? It came back within a couple of weeks, under the press pressure — but only at the depots, and only if you showed a certificate from a charity proving you were poor. The Tribune called it "a miserable subterfuge, almost fiendish in the forfeiture of self-respect which it inflicts."
+JEFF: And lived another twenty years. And the nickel piece? It came back within a couple of weeks, under the press pressure — but only at the depots, and only if you showed a certificate from a charity proving you were poor. The Tribune called it "a miserable subterfuge, almost fiendish in the forfeiture of self-respect which it inflicts."
 
 &nbsp;
 
@@ -821,7 +829,7 @@ CYRUS: Fully. Every corner grocery in Savannah sells it. And that's the natural 
 
 &nbsp;
 
-JEFF: So the next part of this isn't about cutting ice at all. It's about making it. And then — harder — making it something you'd actually trust with your food.
+JEFF: So the next part of this isn't about cutting ice at all. It's about making it. And then — harder — moving it. Getting cold from a machine to a plate a thousand miles away.
 
 &nbsp;
 
@@ -863,6 +871,10 @@ feedback-addressed:
 
   \- Research corrections applied: Barber convicted in St. Paul, Ramsey County; Harrison editor of the Melbourne Age by 1873; "twenty-odd tons" on the Norfolk; Bell-Coleman is a cold-air machine — Cyrus says air; Whitson "clearing a snowed-up air trunk," "hauled out by the heels with a rope," no invented first-person; "roughly forty to forty-five percent never reaches the counter"; railroads' fear paraphrased, not quoted; Veeder pool "met weekly"; United Fruit's first reefer 1903; "within days" for Linde-era claims kept as sourced
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -899,7 +911,7 @@ CYRUS: \[skeptical\] Why not?
 
 &nbsp;
 
-JEFF: Because London is getting perfectly good ice by ship from Norway and from a pond in Massachusetts. And there's a distinction IBM used to draw between invention and innovation. Invention is building the new thing. Innovation is making it scalable, practical, and commercially viable. Perkins invented it. He did not innovate it. And then Gorrie, who we just talked about, dies broke in eighteen fifty-five. And then comes the one that gets me.
+JEFF: Because London can get perfectly good ice by ship — first from a pond in Massachusetts, then from Norway. And there's a distinction IBM used to draw between invention and innovation. Invention is building the new thing. Innovation is making it scalable, practical, and commercially viable. Perkins invented it. He did not innovate it. And then Gorrie, who we just talked about, dies broke in eighteen fifty-five. And then comes the one that gets me.
 
 &nbsp;
 
@@ -907,7 +919,7 @@ CYRUS: \[curious\] Harrison?
 
 &nbsp;
 
-JEFF: James Harrison. A Scottish-born printer who emigrates to Australia and founds a newspaper in Geelong, near Melbourne — and who reportedly got the idea cleaning type with ether and noticing the metal went cold. By eighteen fifty-four he has a commercial ice plant — the world's first — and a brewery in Bendigo is running on it. He blew himself up at least twice doing this.
+JEFF: James Harrison. A Scottish-born printer who emigrates to Australia and founds a newspaper in Geelong, near Melbourne — and who reportedly got the idea cleaning type with ether and noticing the metal went cold. By eighteen fifty-four he has a commercial ice plant — the world's first — and a brewery in Bendigo is running on it. He reportedly blew himself up at least twice doing this.
 
 &nbsp;
 
@@ -915,7 +927,7 @@ CYRUS: \[laughs\] Of course he did.
 
 &nbsp;
 
-JEFF: \[laughs softly\] Occupational hazard. And in January eighteen seventy-three — by this point he's editor of the Melbourne Age — he wins the gold medal at the Melbourne Exhibition for preserving meat by freezing. The papers say the process costs "a farthing a pound." Australia has millions of sheep, Britain has millions of hungry people, and now you can freeze one and ship it to the other. So that July, he bets everything on it. He loads twenty-odd tons of frozen beef and mutton onto a ship called the Norfolk, bound for London. And he's on board.
+JEFF: \[dry\] Occupational hazard. And in January eighteen seventy-three — by this point he's editor of the Melbourne Age — he wins the gold medal at the Melbourne Exhibition for preserving meat by freezing. The papers say the process costs "a farthing a pound." Australia has millions of sheep, Britain has millions of hungry people, and now you can freeze one and ship it to the other. So that July, he bets everything on it. He loads twenty-odd tons of frozen beef and mutton onto a ship called the Norfolk, bound for London. And he's on board.
 
 &nbsp;
 
@@ -931,7 +943,7 @@ CYRUS: \[exhales\] He watched it go over the side.
 
 &nbsp;
 
-JEFF: He watched it. Gold medal in January, meat in the ocean by September. It ruins him, and it ruins public confidence in frozen meat for years. His own explanation was "too much hurry in the preparations." And the lesson the trade took from it — which turns out to be exactly right — is that the machine has to travel with the meat.
+JEFF: Standing on the deck. Gold medal in January, meat in the ocean by September. It ruins him, and it ruins public confidence in frozen meat for years. His own explanation was "too much hurry in the preparations." And the lesson the trade took from it — which turns out to be exactly right — is that the machine has to travel with the meat.
 
 &nbsp;
 
@@ -959,7 +971,7 @@ JEFF: No. It's New Orleans, and the reason is a war. So — the Civil War. The U
 
 &nbsp;
 
-CYRUS: \[amused\] In New Orleans. In the middle of a war.
+CYRUS: \[incredulous\] In New Orleans. In the middle of a war.
 
 &nbsp;
 
@@ -967,7 +979,7 @@ JEFF: One of the machines goes to a Confederate hospital in Augusta for fever pa
 
 &nbsp;
 
-CYRUS: \[deliberate\] So think about what that means structurally. The American machine-ice industry is a war baby. Not a eureka moment — a naval blockade. The South had no pond ice, so no local incumbent, and the blockade removed the imported one. A market with a real problem and nobody defending the old way. Of course it adopted the machine twenty years before the North did. The South got the future first because it got cut off from the past.
+CYRUS: \[deliberate\] So, like, think about what that means structurally. The American machine-ice industry is a war baby. Not a eureka moment — a naval blockade. The South had no pond ice, so no local incumbent, and the blockade removed the imported one. A market with a real problem and nobody defending the old way, right? Of course it adopted the machine twenty years before the North did. The South got the future first because it got cut off from the past.
 
 &nbsp;
 
@@ -983,7 +995,7 @@ JEFF: And the customer is beer.
 
 &nbsp;
 
-CYRUS: \[amused\] Beer. And this is one of my favorite details in the whole episode. Lager has to ferment and be stored cold. And in Bavaria there was a law — from fifteen fifty-three until eighteen fifty, three hundred years — that made it illegal to brew beer between St. George's Day in late April and Michaelmas at the end of September. Because summer heat spoiled the fermentation.
+CYRUS: \[amused\] Which is one of my favorite details in this whole story. Lager has to ferment and be stored cold. And in Bavaria there was a law — from fifteen fifty-three until eighteen fifty, three hundred years — that made it illegal to brew beer between Saint George's Day in late April and Michaelmas at the end of September. Because summer heat spoiled the fermentation.
 
 &nbsp;
 
@@ -1007,7 +1019,7 @@ JEFF: \[genuinely surprised\] Thirty-one years.
 
 &nbsp;
 
-CYRUS: Thirty-one years, in a brewery basement. And that's the whole story of Linde in one sentence: his first machine failed on its seal, his second succeeded on its seal, and the second one ran for three decades. He didn't invent the cycle — Perkins did that forty years earlier. He made it reliable. He quits his professorship in eighteen seventy-nine to start a company, with Sedlmayr as an investor, and by eighteen ninety there are hundreds of Linde machines running, most of them in breweries. That company is still one of the largest industrial gas companies on earth.
+CYRUS: In a brewery basement, with nobody babysitting it. And that's the whole story of Linde in one sentence: his first machine failed on its seal, his second succeeded on its seal, and the second one ran for three decades. He didn't invent the cycle — Perkins did that forty years earlier. He made it reliable. He quits his professorship in eighteen seventy-nine to start a company, with Sedlmayr as an investor, and by eighteen ninety there are hundreds of Linde machines running, most of them in breweries. That company is still one of the largest industrial gas companies on earth.
 
 &nbsp;
 
@@ -1015,7 +1027,7 @@ JEFF: So the brewer didn't want a demonstration. He wanted a machine that ran al
 
 &nbsp;
 
-CYRUS: That's it. The seal, not the cycle, was the invention. Okay, so — here's what I actually want to do, because I think we owe it to people. The machine humming in your kitchen right now is, in its bones, Linde's machine. And I want to explain how it works. Not hand-wave it.
+CYRUS: That's it. The seal, not the cycle, was the invention. Okay, so — I want to actually do this properly, because the machine humming in your kitchen right now is, in its bones, Linde's machine. And I want to explain how it works. Not hand-wave it.
 
 &nbsp;
 
@@ -1027,11 +1039,11 @@ CYRUS: Right. And everything else is plumbing. So let me start with the analogy 
 
 &nbsp;
 
-JEFF: Okay.
+JEFF: \[curious\] Okay. Where does it break?
 
 &nbsp;
 
-CYRUS: Here's what's wrong with it. Squeezing doesn't push the heat out. What squeezing actually does is make the heat flow in the right direction. And to see that, you have to know the real thing, which is this: there is a liquid in there. Not just a gas. There's a liquid, and the entire trick is that it keeps changing back and forth between liquid and gas.
+CYRUS: Here's where. Squeezing doesn't push the heat out. What squeezing actually does is make the heat flow in the right direction. And to see that, you have to know the real thing, which is this: there is a liquid in there. Not just a gas. There's a liquid, and the entire trick is that it keeps changing back and forth between liquid and gas.
 
 &nbsp;
 
@@ -1039,15 +1051,15 @@ JEFF: \[curious\] So what is it?
 
 &nbsp;
 
-CYRUS: It's a fluid chosen for one property above everything else: it boils far below kitchen temperature. Linde's ammonia boils at about minus thirty-three Celsius — twenty-seven below zero Fahrenheit. The isobutane in a modern fridge boils around minus twelve Celsius. And here's the physics that makes it work: boiling absorbs an enormous amount of heat. Think about a kettle. Bringing water from cold to a boil takes a certain amount of energy. Boiling that kettle completely dry takes about five times as much. Turning a liquid into a gas is where the energy goes.
+CYRUS: It's a fluid chosen for one property above everything else: it boils far below kitchen temperature. Linde's ammonia boils at about minus thirty-three Celsius — twenty-seven below zero Fahrenheit. The isobutane in a modern fridge boils around minus twelve Celsius. And here's the physics that makes it work: boiling absorbs an enormous amount of heat. Think about a kettle. Bringing water from cold to a boil takes a certain amount of energy. Boiling that kettle completely dry takes five or six times as much. Turning a liquid into a gas is where the energy goes.
 
 &nbsp;
 
-JEFF: So the refrigerant boils.
+JEFF: So the refrigerant is boiling. Inside my fridge.
 
 &nbsp;
 
-CYRUS: The refrigerant boils. Inside the box, behind the back wall, there's a coil — the evaporator. Low-pressure liquid refrigerant comes into it and boils, exactly like water on a stove, except this liquid boils at twenty-five below zero. So the "stove" is your leftovers. The heat to boil it comes out of the food and the air in the box. That's where cold is made — a liquid boiling below freezing, and pulling the heat it needs out of your dinner.
+CYRUS: Inside the box, yes. Behind the back wall, there's a coil — the evaporator. Low-pressure liquid refrigerant comes into it and boils, exactly like water on a stove, except this liquid boils at twenty-five below zero. So the "stove" is your leftovers. The heat to boil it comes out of the food and the air in the box. That's where cold is made — a liquid boiling below freezing, and pulling the heat it needs out of your dinner.
 
 &nbsp;
 
@@ -1087,7 +1099,7 @@ JEFF: \[skeptical\] Okay. So — hang on. Because if I'm following the accountin
 
 &nbsp;
 
-CYRUS: \[warmly\] Yes. Exactly right. And by exactly the size of your electric bill. Heat out equals heat in plus the work you paid for. You can feel it on a hot day — stand behind the fridge. And there are two consequences of that. One: an air conditioner is the same machine with the condenser coil hung outside the wall instead of in the room. That's the only difference. Two: cooling is a real line item on the planet's electricity bill, and we'll get to that number later. But — and this is the part that makes it elegant — the box moves more heat than the electricity it eats. Well above one to one. Because it's moving heat, not making cold. You're just paying for the pump.
+CYRUS: \[warmly\] Yes. Exactly right. And by exactly the size of your electric bill. Heat out equals heat in plus the work you paid for. You can feel it on a hot day — stand behind the fridge. And there are two consequences of that. One: an air conditioner is the same machine with the condenser coil hung outside the wall instead of in the room. That's the only difference. Two: cooling is a real line item on the planet's electricity bill. A big one. But — and this is the part that makes it elegant — the box moves more heat than the electricity it eats. Well above one to one. Because it's moving heat, not making cold. You're just paying for the pump.
 
 &nbsp;
 
@@ -1095,11 +1107,11 @@ JEFF: \[reflective\] So the sponge was half right.
 
 &nbsp;
 
-CYRUS: Exactly half. And here's the handoff to the next fifty years. The fluid in that loop has to do five things. Boil at the right temperature. Carry a lot of heat per pound — ammonia carries about six times what the later fluids carry, which is why Linde picked it and why it never left industrial cold storage. Not eat the metal. Not burn. And not kill you if it leaks. Ammonia fails "not kill you." Ether — Harrison's fluid — fails "not burn." That fifth requirement is the next fifty years of this story. Also — Linde's shaft came out of the cylinder, which is why the seal was the whole problem. Somebody is going to weld the entire thing shut. Later.
+CYRUS: Exactly half. And here's what sets up the next fifty years. The fluid in that loop has to do five things. Boil at the right temperature. Carry a lot of heat per pound — ammonia carries about six times what the later fluids carry, which is why Linde picked it and why it never left industrial cold storage. Not eat the metal. Not burn. And not kill you if it leaks. Ammonia fails "not kill you." Ether — Harrison's fluid — fails "not burn." That fifth requirement is the next fifty years of this story. Also — Linde's shaft came out of the cylinder, which is why the seal was the whole problem. Somebody is going to weld the entire thing shut. Later.
 
 &nbsp;
 
-JEFF: \[amused\] I know who.
+JEFF: \[mischievously\] I know who.
 
 &nbsp;
 
@@ -1107,7 +1119,7 @@ CYRUS: I know you know. Don't spoil it.
 
 &nbsp;
 
-JEFF: Okay — so the machine is running in breweries. And beer, not meat, is the first mass customer in America too: Adolphus Busch in St. Louis pasteurizes his bottled beer in eighteen seventy-two, buys five refrigerated railcars in seventy-six, and has eight hundred and fifty of them by eighty-eight. That's how Budweiser becomes the first national beer brand.
+JEFF: Okay — so the machine is running in breweries. And beer, not meat, is the first mass customer in America too: Adolphus Busch in Saint Louis pasteurizes his bottled beer in eighteen seventy-two, buys five refrigerated railcars in seventy-six, and has eight hundred and fifty of them by eighty-eight. That's how Budweiser becomes the first national beer brand.
 
 &nbsp;
 
@@ -1115,7 +1127,7 @@ CYRUS: Beer builds the cold chain and meat rides on it.
 
 &nbsp;
 
-JEFF: \[reflective\] And the meat story is the most American story in this whole episode. Gustavus Swift. Born on Cape Cod in eighteen thirty-nine to a family that raised and slaughtered animals. At fourteen he's working in his brother's butcher shop. At sixteen he opens his own, with four hundred dollars from an uncle. He moves to Chicago in eighteen seventy-five, where the Union Stock Yards are. And he looks at how the business works — buy a live steer in Chicago, ship it to Boston, slaughter it there — and sees the thing only a butcher would see.
+JEFF: \[reflective\] And the meat story is, to me, the most American story of the bunch. Gustavus Swift. Born on Cape Cod in eighteen thirty-nine to a family that raised and slaughtered animals. At fourteen he's working in his brother's butcher shop. At sixteen he opens his own, with four hundred dollars from an uncle. He moves to Chicago in eighteen seventy-five, where the Union Stock Yards are. And he looks at how the business works — buy a live steer in Chicago, ship it to Boston, slaughter it there — and sees the thing only a butcher would see.
 
 &nbsp;
 
@@ -1131,7 +1143,7 @@ CYRUS: And the design is smart — ice in compartments at the top of the car, me
 
 &nbsp;
 
-JEFF: \[laughs softly\] Noted. So Swift has the car designed. He goes to the railroads to build them. And every major railroad says no.
+JEFF: \[laughs softly\] Noted. It's like the whole business is a series of people discovering that cold air sinks. So Swift has the car designed. He goes to the railroads to build them. And every major railroad says no.
 
 &nbsp;
 
@@ -1139,7 +1151,7 @@ CYRUS: \[skeptical\] All of them?
 
 &nbsp;
 
-JEFF: All of them. Because the railroads owned the stockyards along their lines, the cattle pens, the feedlots. Hauling live cattle was a huge business, and a refrigerator car threatened all of that capital. So Swift builds his own cars — finances them himself — and routes them over the one line without a cattle business, the Grand Trunk, up through Michigan and Canada. Within a year he has nearly two hundred cars and he's moving about three thousand carcasses a week into Boston.
+JEFF: Every one. Because the railroads owned the stockyards along their lines, the cattle pens, the feedlots. Hauling live cattle was a huge business, and a refrigerator car threatened all of that capital. So Swift builds his own cars — finances them himself — and routes them over the one line without a cattle business, the Grand Trunk, up through Michigan and Canada. Within a year he has nearly two hundred cars and he's moving about three thousand carcasses a week into Boston.
 
 &nbsp;
 
@@ -1147,7 +1159,7 @@ CYRUS: The founder routes around the incumbent.
 
 &nbsp;
 
-JEFF: Around the incumbent. And it works. Dressed beef undercuts the local butcher by a wide margin, and retail meat prices in this country fall by roughly a third over the eighteen eighties. By eighteen ninety, Swift and three other Chicago packers — Armour, Morris, Hammond — are slaughtering eighty-nine percent of the cattle that come through Chicago, and selling everything but the squeal — lard, soap, glue, buttons, fertilizer.
+JEFF: \[amused\] And it works. Dressed beef undercuts the local butcher by a wide margin, and retail meat prices in this country fall by roughly a third over the eighteen eighties. By eighteen ninety, Swift and three other Chicago packers — Armour, Morris, Hammond — are slaughtering eighty-nine percent of the cattle that come through Chicago, and selling everything but the squeal — lard, soap, glue, buttons, fertilizer.
 
 &nbsp;
 
@@ -1155,11 +1167,11 @@ CYRUS: \[deliberate\] Which is creative destruction in its purest form. And I ha
 
 &nbsp;
 
-JEFF: \[amused\] I've heard the thing. It's a good thing. Okay — but so far the chain runs Chicago to Boston. And here's the thing about a chain of cold. It's only as good as its weakest link. And in February of eighteen eighty-two, the weakest link was the air inside the hold of a ship called the Dunedin.
+JEFF: \[dry\] I've heard the thing. It's a good thing. Okay — but so far the chain runs Chicago to Boston. And here's the thing about a chain of cold. It's only as good as its weakest link. And in February of eighteen eighty-two, the weakest link was the air inside the hold of a ship called the Dunedin.
 
 &nbsp;
 
-CYRUS: So plant the physics for one second. The Dunedin's machine was not a Linde machine. It was a Bell-Coleman machine, which is a cold-air machine — no liquid refrigerant at all. You compress air, cool it, let it expand, and it comes out freezing. Which means the air itself is the working fluid, and it moves through wooden trunks into the hold. And cold air sinks. If it doesn't circulate, the bottom of the hold freezes and the top warms up while the engine runs perfectly.
+CYRUS: So — one piece of physics first, because it matters in a minute. The Dunedin's machine was not a Linde machine. It was a Bell-Coleman machine, which is a cold-air machine — Gorrie's idea, basically, done properly. No liquid refrigerant at all. You compress air, cool it, let it expand, and it comes out freezing. Which means the air itself is the working fluid, and it moves through wooden trunks into the hold. And cold air sinks. If it doesn't circulate, the bottom of the hold freezes and the top warms up while the engine runs perfectly.
 
 &nbsp;
 
@@ -1171,7 +1183,7 @@ CYRUS: \[laughs\] Somebody wanted the tongues.
 
 &nbsp;
 
-JEFF: Somebody did. And the engine burns three tons of coal a day the whole way — they only need to run it a few hours in cool weather. And then they hit the tropics, and the ship gets becalmed near the equator. And the company's own report says the heat was "hotter than Captain Whitson had before experienced."
+JEFF: Somebody did. And the engine burns three tons of coal a day — they only need to run it a few hours in cool weather. And then they hit the tropics, and the ship gets becalmed near the equator. And the company's own report says the heat was "hotter than Captain Whitson had before experienced."
 
 &nbsp;
 
@@ -1179,7 +1191,7 @@ CYRUS: And here's where the air matters. Because when the ship is moving in roug
 
 &nbsp;
 
-JEFF: And the captain — John Whitson — goes down himself. The account from a few years later says "the main air trunk had got snowed up, and the captain himself crawled down to clear it out, and was successful, but got so benumbed during the process that he had to be hauled out by the heels with a rope."
+JEFF: And the captain — John Whitson — goes down himself. An account from some years later says "the main air trunk had got snowed up, and the captain himself crawled down to clear it out, and was successful, but got so benumbed during the process that he had to be hauled out by the heels with a rope."
 
 &nbsp;
 
@@ -1187,7 +1199,7 @@ CYRUS: \[quietly\] By the heels.
 
 &nbsp;
 
-JEFF: By the heels. And that wasn't even his only problem — on certain tacks he was in "constant dread" of the sparks from the refrigeration engine's funnel setting his sails on fire. He's captaining a sailing ship with a coal-fired engine bolted to the deck.
+JEFF: Frozen stiff, inside his own cargo. And that wasn't even his only problem — on certain tacks he was in "constant dread" of the sparks from the refrigeration engine's funnel setting his sails on fire. He's captaining a sailing ship with a coal-fired engine bolted to the deck.
 
 &nbsp;
 
@@ -1195,7 +1207,7 @@ CYRUS: \[laughs softly\] Nobody's ever seen this before.
 
 &nbsp;
 
-JEFF: Nobody has. Ninety-eight days. London, May twenty-fourth, eighteen eighty-two. They unload at night so the sheep are still hard frozen when the butchers come to Smithfield in the morning. And the sheep come out — quote — "as bright as newly-killed mutton." Out of nearly five thousand carcasses, one is condemned. One.
+JEFF: Right. Ninety-eight days. London, May twenty-fourth, eighteen eighty-two. They unload at night so the sheep are still hard frozen when the butchers come to Smithfield in the morning. And the sheep come out — quote — "as bright as newly-killed mutton." Out of nearly five thousand carcasses, one is condemned. One.
 
 &nbsp;
 
@@ -1235,7 +1247,7 @@ CYRUS: \[deliberate\] Which is a law that only Chicago beef can fail.
 
 &nbsp;
 
-JEFF: Precisely. Minnesota passes it on April sixteenth, eighteen eighty-nine. And the text is remarkable — "The sale of any fresh beef, veal, mutton, lamb, or pork for human food in this state, except as hereinafter provided, is hereby prohibited." And the "provided" is the live inspection. So — here's the story. There's a meat dealer in St. Paul named Henry Barber. And he sells a hundred pounds of fresh beef from an animal slaughtered in Illinois. And he gets convicted before a justice of the peace in Ramsey County. And the case goes all the way to the Supreme Court of the United States.
+JEFF: Precisely. Minnesota passes it on April sixteenth, eighteen eighty-nine. And the text is remarkable — "The sale of any fresh beef, veal, mutton, lamb, or pork for human food in this state, except as hereinafter provided, is hereby prohibited." And the "provided" is the live inspection. So — here's the story. There's a meat dealer in Saint Paul named Henry Barber. And he sells a hundred pounds of fresh beef from an animal slaughtered in Illinois. And he gets convicted before a justice of the peace in Ramsey County. And the case goes all the way to the Supreme Court of the United States.
 
 &nbsp;
 
@@ -1251,7 +1263,7 @@ CYRUS: So the Commerce Clause makes the national market legal.
 
 &nbsp;
 
-JEFF: The Commerce Clause makes the national market legal, and the twenty state laws fall with it. A year later the Court strikes down Virginia's version over eighteen pounds of beef. And I think this is the general principle in almost every one of these stories: the resisters are right about the specifics of the moment — some of the meat was bad, the packers were colluding — and wrong about the trend. They lost in the one venue the packers couldn't buy.
+JEFF: Yeah. And the twenty state laws fall with it. A year later the Court strikes down Virginia's version over eighteen pounds of beef. And I think this is the general principle in almost every one of these stories: the resisters are right about the specifics of the moment — some of the meat was bad, the packers were colluding — and wrong about the trend. They lost in the one venue the packers couldn't buy.
 
 &nbsp;
 
@@ -1263,7 +1275,7 @@ JEFF: \[deliberate\] Yeah. So here's the honest version of this. The system flou
 
 &nbsp;
 
-CYRUS: And the cattlemen get hit from the other side. Because once Chicago is the only buyer, a rancher in Wyoming is selling into a market priced by four firms. And those four firms did cartelize — the pool met weekly in the offices of their lawyer, Henry Veeder. The Senate sends a committee out — Senator Vest, hearings in St. Louis in eighteen eighty-eight — and the report finds documented price-fixing incidents but no proof of a formal conspiracy. What it does find is an "artificial and abnormal centralization of markets." Cattle prices fell while retail beef held steady, and the difference went to Chicago.
+CYRUS: And the cattlemen get hit from the other side. Because once Chicago is the only buyer, a rancher in Wyoming is selling into a market priced by four firms. And those four firms did cartelize — the pool met weekly in the offices of their lawyer, Henry Veeder. The Senate sends a committee out — Senator Vest, hearings in Saint Louis in eighteen eighty-eight — and the report finds documented price-fixing incidents but no proof of a formal conspiracy. What it does find is an "artificial and abnormal centralization of markets." Cattle prices fell faster than retail beef did, and the difference went to Chicago.
 
 &nbsp;
 
@@ -1271,15 +1283,15 @@ JEFF: And Congress passes the Sherman Antitrust Act that same summer. July secon
 
 &nbsp;
 
-CYRUS: Six weeks after Barber. And it takes fifteen years to actually win a case against the packers — nineteen oh five, Swift versus the United States, where Holmes writes that commerce among the states is "a practical one, drawn from the course of business." But here's the nuance. The Beef Trust never achieved a monopoly — the number of slaughterhouses in the country went up in the eighties, not down. What concentrated was the buying end. That's where the cattleman had zero leverage.
+CYRUS: Six weeks after Barber. And it takes fifteen years to actually win a case against the packers — nineteen oh five, Swift versus the United States. But here's the nuance. The Beef Trust never achieved a monopoly — the number of slaughterhouses in the country went up in the eighties, not down. What concentrated was the buying end. That's where the cattleman had zero leverage.
 
 &nbsp;
 
-JEFF: And then there's the last resister, which is the British consumer.
+JEFF: And then there's the last holdout, which is the British consumer.
 
 &nbsp;
 
-CYRUS: \[amused\] Who was wary.
+CYRUS: \[dry\] Who was wary.
 
 &nbsp;
 
@@ -1291,11 +1303,11 @@ CYRUS: And now "fresh and local" is the high-status option again. A hundred and 
 
 &nbsp;
 
-JEFF: \[laughs softly\] It really did. One more thing, because it's too good. In nineteen oh three the United Fruit Company puts its first refrigerated banana ship into service — the Venus — and builds a fleet, reportedly painted white to reflect the sun. The very next year, O. Henry, who'd been hiding in Honduras from an embezzlement charge, coins the phrase "banana republic." So that phrase sits on a cold chain. A fruit that rots in a week can't be a country's economy — until you can chill it.
+JEFF: \[laughs softly\] It really did. One more thing, because it's too good. In nineteen oh three the United Fruit Company puts its first refrigerated banana ship into service — the Venus — and builds a fleet, reportedly painted white to reflect the sun. The very next year, O Henry, who'd been hiding in Honduras from an embezzlement charge, coins the phrase "banana republic." So that phrase sits on a cold chain. A fruit that rots in a week can't be a country's economy — until you can chill it.
 
 &nbsp;
 
-CYRUS: \[deliberate\] And one number starts moving in here. The one-baby-in-four figure from New York — by nineteen hundred the American infant mortality rate is down to about one in ten. And I want to be careful about cold's share of that, because pasteurization and sewers do most of the work. But cold is what lets clean milk reach the tenement still clean.
+CYRUS: \[deliberate\] And one number starts moving in here. The steepest fall in infant mortality in American history runs from about eighteen seventy-five to nineteen twenty-five — that one-baby-in-four figure starts coming down. And I want to be careful about cold's share of that, because pasteurization and sewers do most of the work. But cold is what lets clean milk reach the tenement still clean.
 
 &nbsp;
 
@@ -1347,6 +1359,10 @@ feedback-addressed:
 
   \- Research corrections applied: 1920 machine-ice \= 2,867 plants / 38,605 workers / 27.9M tons; telephone \~seventy years to half of homes; Wiley did the filing, she scored highest; certificate 1892, Ph.D. 1895; "within days" for Freon (not "three days"); Monitor-Top "a few hundred dollars" / $525 at launch; the 1940 census 44 / 27 / 27
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -1367,7 +1383,7 @@ CYRUS: \[curious\] Her initials?
 
 &nbsp;
 
-JEFF: Her initials. So this is Mary Engle Pennington, and she's one of my favorite people in this whole story. Philadelphia Quaker. Fell in love with chemistry from a medical textbook at twelve. Goes to the University of Pennsylvania at eighteen, and in eighteen ninety-two she finishes every single requirement for a bachelor of science in chemistry. And Penn hands her a "certificate of proficiency." Because the trustees did not give degrees to women.
+JEFF: Yeah — M-E Pennington. And she's one of my favorite people in this whole story. Philadelphia Quaker. Fell in love with chemistry from a medical textbook at twelve. Goes to the University of Pennsylvania at eighteen, and in eighteen ninety-two she finishes every single requirement for a bachelor of science in chemistry. And Penn hands her a "certificate of proficiency." Because the trustees did not give degrees to women.
 
 &nbsp;
 
@@ -1375,7 +1391,7 @@ CYRUS: \[incredulous\] A certificate. For the same coursework.
 
 &nbsp;
 
-JEFF: Same coursework, same exams. And here's the part that makes it almost funny — three years later, the same university gives her a Ph.D. She's one of about a dozen American women with a chemistry doctorate before nineteen hundred. And then nobody will hire a woman chemist. So she starts her own lab, in eighteen ninety-eight, and sells subscriptions — fifty dollars a year — to Philadelphia doctors, and eventually to the city itself. And as the city's bacteriologist she spends years chasing bad milk and bad ice cream through Philadelphia's dairies. Which, given what we said about milk earlier, is not a small job.
+JEFF: Same coursework, same exams. And here's the part that makes it almost funny — three years later, the same university gives her a doctorate. She's one of about a dozen American women with a chemistry doctorate before nineteen hundred. And then nobody will hire a woman chemist. So she starts her own lab, in eighteen ninety-eight, and sells subscriptions — fifty dollars a year — to Philadelphia doctors, and eventually to the city itself. And as the city's bacteriologist she spends years chasing bad milk and bad ice cream through Philadelphia's dairies. Not a small job, given what we said about milk.
 
 &nbsp;
 
@@ -1383,7 +1399,7 @@ CYRUS: \[amused\] So she's the person who knows what's actually in the milk.
 
 &nbsp;
 
-JEFF: She's the person. And Harvey Wiley notices. Wiley runs the Bureau of Chemistry at the Department of Agriculture — he's the guy behind the Pure Food and Drugs Act of nineteen oh six. And his next fight is perishables. Eggs, poultry, fish — and the new cold-storage warehouses nobody trusts. He wants her to run a new lab. Federal hiring goes through a civil-service exam and a board. So she takes the exam, under her own name, and gets the highest score. And then Wiley submits the hiring paperwork as "M.E. Pennington."
+JEFF: Which is exactly what gets her noticed. Harvey Wiley runs the Bureau of Chemistry at the Department of Agriculture — he's the guy behind the Pure Food and Drugs Act of nineteen oh six. And his next fight is perishables. Eggs, poultry, fish — and the new cold-storage warehouses nobody trusts. He wants her to run a new lab. Federal hiring goes through a civil-service exam and a board. So she takes the exam, under her own name, and gets the highest score. And then Wiley submits the hiring paperwork as "M-E Pennington."
 
 &nbsp;
 
@@ -1391,7 +1407,7 @@ CYRUS: \[laughs softly\] So Wiley does the maneuver.
 
 &nbsp;
 
-JEFF: He does. And when the Civil Service Commission figures out M.E. is a woman, they try to rescind it. And Wiley's argument — which wins — is that the civil-service law does not give him the right to refuse the top scorer because she's a woman. So she's in. First woman to run a federal lab. Highest-paid woman in the federal government. And then she goes and does the work.
+JEFF: He does. And when the Civil Service Commission figures out M-E is a woman, they try to rescind it. And Wiley's argument — which wins — is that the civil-service law does not give him the right to refuse the top scorer because she's a woman. So she's in. The first woman to run a lab there. And, by at least one account, the highest-paid woman in the federal government. And then she goes and does the work.
 
 &nbsp;
 
@@ -1403,7 +1419,7 @@ JEFF: She puts thermometers in railcars. Between nineteen oh nine and nineteen t
 
 &nbsp;
 
-CYRUS: \[amused\] The Ice Woman. To Tudor's Ice King.
+CYRUS: \[dry\] The Ice Woman. To Tudor's Ice King.
 
 &nbsp;
 
@@ -1443,7 +1459,7 @@ JEFF: And the legislature's answer was a date stamp. Massachusetts capped cold s
 
 &nbsp;
 
-CYRUS: \[deliberate\] Right — because now the machine shrinks. And this is the part I want to walk through carefully, because it's a systems failure, not a villain story. Kelvinator puts a household unit on the market in nineteen eighteen. Frigidaire gets bought by General Motors in nineteen nineteen. And in nineteen twenty-seven, only about forty percent of American homes have any refrigeration at all — and almost all of that is ice. In April of nineteen twenty-nine, under five percent of homes have an electric refrigerator. So this is a tiny, rich-people product. And the early ones look like this: a wooden cabinet, with a compressor either in the basement or bolted on top, driven by a belt, with a shaft passing through a wall — and a seal around that shaft.
+CYRUS: \[deliberate\] Right — because now the machine shrinks. And this is the part I want to walk through carefully, because it's a systems failure, not a villain story. Kelvinator puts a household unit on the market in nineteen eighteen. Frigidaire gets bought by General Motors in nineteen nineteen. And in nineteen twenty-seven, only about forty percent of American homes have any refrigeration at all — and almost all of that is ice. In April of nineteen twenty-nine, under five percent of homes have an electric refrigerator. So this is, like, a tiny, rich-people product. And the early ones look like this: a wooden cabinet, with a compressor either in the basement or bolted on top, driven by a belt, with a shaft passing through a wall — and a seal around that shaft.
 
 &nbsp;
 
@@ -1451,7 +1467,7 @@ JEFF: Which is Linde's problem again.
 
 &nbsp;
 
-CYRUS: Linde's problem again, in your kitchen. Seals wear. Belts slip. And when the seal leaks, what leaks out is one of three fluids: ammonia, sulfur dioxide, or methyl chloride. And here's the systems failure. Those fluids were chosen for physics — for a boiling point and a pressure a small compressor could handle. Nobody chose them for what happens when they get out. Sulfur dioxide burns your eyes, which at least warns you. Methyl chloride is nearly odorless. And all three, in the quantities inside one refrigerator, can kill you.
+CYRUS: In your kitchen this time. Seals wear. Belts slip. And when the seal leaks, what leaks out is one of three fluids: ammonia, sulfur dioxide, or methyl chloride. And here's the systems failure. Those fluids were chosen for physics — for a boiling point and a pressure a small compressor could handle. Nobody chose them for what happens when they get out. Sulfur dioxide burns your eyes, which at least warns you. Methyl chloride is nearly odorless. And all three, in the quantities inside one refrigerator, can kill you.
 
 &nbsp;
 
@@ -1467,7 +1483,7 @@ JEFF: \[exhales\] One night.
 
 &nbsp;
 
-CYRUS: And the city immediately called for banning the gas. And I want to put one more thing in the room, carefully, because it's the same spring and the same fear. May fifteenth, nineteen twenty-nine, the Cleveland Clinic. In the basement, three or four tons of nitrocellulose X-ray film start to decompose — from heat off a light bulb or a steam pipe, the accounts differ — and the fumes go up through the building. A hundred and twenty-three people die, including one of the clinic's founders. Now — that was not a refrigerant. It was film. But it was poison gas in a building, in nineteen twenty-nine, on the front page. That is the air the electric refrigerator is trying to sell itself into.
+CYRUS: And the city immediately called for banning the gas. And I want to put one more thing in the room, because it's the same spring and the same fear. May fifteenth, nineteen twenty-nine, the Cleveland Clinic. In the basement, three or four tons of nitrocellulose X-ray film start to decompose — from heat off a light bulb or a steam pipe, the accounts differ — and the fumes go up through the building. A hundred and twenty-three people die, including one of the clinic's founders. Now — that was not a refrigerant. It was film. But it was poison gas in a building, in nineteen twenty-nine, on the front page. That is the air the electric refrigerator is trying to sell itself into.
 
 &nbsp;
 
@@ -1475,11 +1491,11 @@ JEFF: So the box works, and people are afraid of it. And they should be.
 
 &nbsp;
 
-CYRUS: Which brings me to the story you said we couldn't cut.
+CYRUS: Which brings me to the two most famous physicists in Berlin.
 
 &nbsp;
 
-JEFF: \[amused\] You cannot cut this one.
+JEFF: \[amused\] Oh, I have been waiting for this one.
 
 &nbsp;
 
@@ -1515,7 +1531,7 @@ JEFF: \[skeptical\] Liquid metal? In a kitchen appliance?
 
 &nbsp;
 
-CYRUS: Yes. And the metal attacks the wire insulation, so Szilárd takes it to Einstein, and their engineer Korodi says, "Einstein thought a few minutes," and proposed driving it by induction from outside the tube. Korodi ran the numbers and knew it would be much less efficient than a normal compressor. But it would never leak. So the big German electrical company, A-E-G, funds a department. They pay Korodi five hundred reichsmarks a month — about a hundred and twenty dollars — which he called "a good salary at a time when a car, a Ford, cost three hundred dollars." And his own summary of working with the most famous physicist alive was, "I didn't talk to Einstein about physics." And the prototype pump — this is my favorite detail — howled. A physicist friend of theirs said it "howled like a jackal." Another said it wailed like a banshee. It was cavitation in the liquid metal, and they eventually got it down to acceptable.
+CYRUS: Yes. And the metal attacks the wire insulation, so Szilárd takes it to Einstein, and their engineer Korodi says, "Einstein thought a few minutes," and proposed driving it by induction from outside the tube. Korodi ran the numbers and knew it would be much less efficient than a normal compressor. But it would never leak. So the big German electrical company, A-E-G, funds a department. They pay Korodi five hundred reichsmarks a month — about a hundred and twenty dollars — which he called "a good salary at a time when a car, a Ford, cost three hundred dollars." And his own summary of working with the most famous physicist alive was, "I didn't talk to Einstein about physics." And the prototype pump howled. A physicist friend of theirs said it "howled like a jackal." Another said it wailed like a banshee. It was cavitation in the liquid metal, and they eventually got it down to acceptable.
 
 &nbsp;
 
@@ -1523,7 +1539,7 @@ JEFF: \[laughs softly\] A refrigerator that screams.
 
 &nbsp;
 
-CYRUS: Briefly. And by July thirty-first, nineteen thirty-one, there is an Einstein-Szilárd refrigerator running continuously in the A-E-G research institute — mounted in a General Electric cabinet — drawing a hundred and thirty-six watts. It worked. And then three things happen at once. The Depression guts A-E-G's budget. In nineteen thirty the Nazis take twenty percent of the Reichstag, and Szilárd writes Einstein, "I don't know if it will be possible to build our refrigerator in Europe." And — from America — a chemist demonstrates a gas that can't burn and can't poison you. Which, in one stroke, erases the entire reason to build a refrigerator with no moving parts.
+CYRUS: Briefly. And by July thirty-first, nineteen thirty-one, there is an Einstein-Szilárd refrigerator running continuously in the A-E-G research institute — mounted in a General Electric cabinet — drawing a hundred and thirty-six watts. It worked. And then three things happen at once. The Depression guts A-E-G's budget. In nineteen thirty the Nazis take nearly twenty percent of the Reichstag, and Szilárd writes Einstein, "I don't know if it will be possible to build our refrigerator in Europe." And — from America — a chemist demonstrates a gas that can't burn and can't poison you. Which, in one stroke, erases the entire reason to build a refrigerator with no moving parts.
 
 &nbsp;
 
@@ -1535,7 +1551,7 @@ CYRUS: \[deliberate\] The only one. Their engineer wrote the final report in Aug
 
 &nbsp;
 
-JEFF: \[reflective\] That's remarkable. And I think the honest reading of that story is that nobody chose wrong. Because the road they didn't take had real costs too. A gas-absorption fridge needs a gas line and a flame in your kitchen. The prototype drew roughly twice the electricity of a compressor box. Servel actually sold gas-absorption refrigerators in America for thirty years, right up to nineteen fifty-six — and they carried their own hazard, carbon monoxide. The "better" answer wasn't free.
+JEFF: \[reflective\] That's remarkable. And I think the honest reading of that story is that nobody chose wrong. Because the road they didn't take had real costs too. A gas-absorption fridge needs a gas line and a flame in your kitchen. The prototype drew roughly twice the electricity of a compressor box. Servel sold gas-absorption refrigerators in America for thirty years, right up to nineteen fifty-six — and they carried their own hazard, carbon monoxide. The "better" answer wasn't free.
 
 &nbsp;
 
@@ -1555,7 +1571,7 @@ JEFF: \[reflective\] Okay, but here's the thing I want to spend a minute on, bec
 
 &nbsp;
 
-CYRUS: \[deliberate\] So this is my favorite business-model story in the whole episode, and the answer is: the electric company. And I want to actually do the math, because when I first read that the utilities were financing refrigerators, I assumed it was some kind of public-service thing. It is not. Start with what a house used. In the mid-nineteen thirties, a home with lights and a radio and a few small appliances draws something like fifteen to forty kilowatt-hours a month. A refrigerator of that era draws thirty to forty-five kilowatt-hours a month — by itself.
+CYRUS: \[deliberate\] So this is my favorite business-model story in this whole thing, and the answer is: the electric company. And I want to actually do the math, because when I first read that the utilities were financing refrigerators, I assumed it was some kind of public-service thing. It is not. Start with what a house used. In the mid-nineteen thirties, a home with lights and a radio and a few small appliances draws something like fifteen to forty kilowatt-hours a month. A refrigerator of that era draws thirty to forty-five kilowatt-hours a month — by itself.
 
 &nbsp;
 
@@ -1571,7 +1587,7 @@ JEFF: \[laughs\] So they'd happily eat the cost of the box.
 
 &nbsp;
 
-CYRUS: They would happily give away the razor to sell you the blades — except in this case the customer pays for the razor too, on installments, on the same bill as the blades. Commonwealth Edison's refrigeration sales supervisor in Chicago says it in his own words in nineteen thirty-five: "For Commonwealth Edison Company it is the terms that close the deal — thirty-five months to pay, with charges coming on the electric bill." And a Montana utility's ad: "One dollar down and one dollar per month, to be paid with your electric light bill." A Chicago department store had even spent three years selling refrigerators with a coin meter on the box — you fed it nickels the way you'd paid the iceman.
+CYRUS: They would happily give away the razor to sell you the blades — except in this case the customer pays for the razor too, on installments, on the same bill as the blades. Commonwealth Edison's refrigeration sales supervisor in Chicago says it in his own words in nineteen thirty-five: "For Commonwealth Edison Company it is the terms that close the deal — thirty-five months to pay, with charges coming on the electric bill." And a Montana utility's appliance ad: "One dollar down and one dollar per month, to be paid with your electric light bill." A Chicago department store had even spent three years selling refrigerators with a coin meter on the box — you fed it nickels the way you'd paid the iceman.
 
 &nbsp;
 
@@ -1579,11 +1595,11 @@ JEFF: \[laughs softly\] Meter ice.
 
 &nbsp;
 
-CYRUS: Meter ice. And the trade press actually worried the terms were getting too easy. A nineteen thirty-four editorial frets that "the housewife will begin to regard ten-cents-a-day for refrigeration as a gross extravagance."
+CYRUS: And the trade press worried the terms were getting too easy. A nineteen thirty-four editorial frets that "the housewife will begin to regard ten-cents-a-day for refrigeration as a gross extravagance."
 
 &nbsp;
 
-JEFF: That is the free market being genuinely clever. The incentive is perfectly aligned — it's the model every software company rediscovered eighty years later, where the box is just the onboarding cost. And it's not the government doing it.
+JEFF: That is the free market being genuinely clever. The incentive is perfectly aligned — it reminds me of every software company that rediscovered this eighty years later, where the box is just the onboarding cost. And it's not the government doing it.
 
 &nbsp;
 
@@ -1599,11 +1615,11 @@ CYRUS: The sales pitch is the best part. The salesmen worked evenings — three 
 
 &nbsp;
 
-JEFF: \[quietly\] The iceman is the first line crossed out.
+JEFF: \[quietly\] So the iceman is on the worksheet. As a savings.
 
 &nbsp;
 
-CYRUS: Literally. Then "food spoilage prevented," then "savings from buying a week's supply instead of one day or one meal at a time." Minus operating cost, equals net savings per month, versus your monthly payment.
+CYRUS: Line one. Then "food spoilage prevented," then "savings from buying a week's supply instead of one day or one meal at a time." Minus operating cost, equals net savings per month, versus your monthly payment.
 
 &nbsp;
 
@@ -1615,7 +1631,7 @@ CYRUS: And the ice industry fights.
 
 &nbsp;
 
-JEFF: It does, and every argument it makes is true. Electric boxes are dangerous — true, until nineteen thirty. They're expensive — true. They're unreliable — Commonwealth Edison tried selling them in nineteen twenty-three and installed two hundred and seventy-nine in two years; the product wasn't ready. And ice keeps food better — moist air, no drying out. And here's the detail I found delicious. The ice industry's trade association put the government's own cold-chain authority on its payroll. Mary Engle Pennington spent the nineteen twenties writing consumer pamphlets for the ice industry.
+JEFF: It does, and every argument it makes is true. Electric boxes are dangerous — true, until nineteen thirty. They're expensive — true. They're unreliable — Commonwealth Edison tried selling them in nineteen twenty-three and installed two hundred and seventy-nine in two years; the product wasn't ready. And ice keeps food better — moist air, no drying out. And here's the detail I found delicious. The ice industry's trade association underwrote the government's former cold-chain authority. Mary Engle Pennington spent the nineteen twenties writing consumer pamphlets with the ice industry's backing.
 
 &nbsp;
 
@@ -1623,15 +1639,15 @@ CYRUS: \[incredulous\] The Ice Woman worked for the ice men.
 
 &nbsp;
 
-JEFF: The Ice Woman worked for the ice men. Right about every specific. Wrong about the trend. In nineteen forty, twenty-seven percent of American homes still ran on ice. Within about a decade of the war, big-city home ice delivery was gone.
+JEFF: \[amused\] Right about every specific. Wrong about the trend. In nineteen forty, twenty-seven percent of American homes still ran on ice. Within about a decade of the war, big-city home ice delivery was gone.
 
 &nbsp;
 
-CYRUS: So — the curve. Let me read it, because this is the one that got you in our prep.
+CYRUS: So — the curve. Let me read it, because I still don't think you believe it.
 
 &nbsp;
 
-JEFF: It's the one I didn't believe.
+JEFF: I don't. I read it three times.
 
 &nbsp;
 
@@ -1663,11 +1679,11 @@ CYRUS: Neither did the fridge by nineteen thirty-five. That's the answer to your
 
 &nbsp;
 
-JEFF: \[reflective\] Yeah. And I want to name the cost of that plainly, once, because I think we owe it to the story. The iceman had a route. He had a horse, later a truck. He had customers who knew his name and kids who knew the sound of his wagon. And the electric company sold the box that ended him, and profited on both ends of it — the installment and the kilowatt-hours. A real person lost his living. And the system flourished — cheaper food, safer milk, the weekly shop instead of buying one meal at a time. Both of those are true. I don't think you apologize for the second to say the first.
+JEFF: \[sighs\] Yeah. And I want to name the cost of that plainly, because I think we owe it to the guy. The iceman had a route. He had a horse, later a truck. He had customers who knew his name and kids who knew the sound of his wagon. And the electric company sold the box that ended him, and profited on both ends of it — the installment and the kilowatt-hours. A real person lost his living. And the system flourished — cheaper food, safer milk, the weekly shop instead of buying one meal at a time. Both of those are true. I don't think you apologize for the second to say the first.
 
 &nbsp;
 
-CYRUS: No. And you don't skip the first to celebrate the second. And the shape of the kitchen changes with him, by the way. Daily marketing becomes the weekly shop. The first supermarket — King Kullen, in Queens — opens in August of nineteen thirty, ten times the size of an A and P, with a parking lot. And that same March, in Springfield, Massachusetts, a man named Clarence Birdseye put twenty-seven frozen products into a grocery store for the first time.
+CYRUS: No. And you don't skip the first to celebrate the second. And the shape of the kitchen changes with him, by the way. Daily marketing becomes the weekly shop. The first supermarket — King Kullen, in Queens — opens in August of nineteen thirty, ten times the size of an A and P, with a parking lot. And that same year, in March, in Springfield, Massachusetts, a man named Clarence Birdseye put twenty-seven frozen products into a grocery store for the first time.
 
 &nbsp;
 
@@ -1675,11 +1691,11 @@ JEFF: \[amused\] Which is a whole other story for another day. Okay — so. The 
 
 &nbsp;
 
-CYRUS: \[deliberate\] The safe gas. So — General Motors owns Frigidaire, and Frigidaire has a problem, which is that its product occasionally kills its customers. Charles Kettering, who runs G-M research, has a chemist named Thomas Midgley. And Midgley is a character — Cornell mechanical engineer, not a chemist by training. As a high-school pitcher he went looking for a substance to make his spitball break harder and found slippery-elm bark. His prep-school chemistry teacher gave him a periodic table, and he carried a copy for the rest of his life. And in nineteen twenty-one he'd already given the world leaded gasoline.
+CYRUS: \[deliberate\] So — General Motors owns Frigidaire, and Frigidaire has a problem, which is that its product occasionally kills its customers. Charles Kettering, who runs G-M research, has a chemist named Thomas Midgley. And Midgley is a character — Cornell mechanical engineer, not a chemist by training. As a high-school pitcher he went looking for a substance to make his spitball break harder and found slippery-elm bark. His prep-school chemistry teacher gave him a periodic table, and he carried a copy for the rest of his life. And in nineteen twenty-one he'd already given the world leaded gasoline.
 
 &nbsp;
 
-JEFF: \[laughs softly\] So one for one on the environment so far.
+JEFF: \[dry\] So one for one on the environment so far.
 
 &nbsp;
 
@@ -1707,7 +1723,7 @@ JEFF: \[genuinely surprised\] He breathed it in and blew out a candle with it.
 
 &nbsp;
 
-CYRUS: Breathed it in and blew out the candle. Non-toxic and non-flammable, in one breath. The two things every earlier refrigerant wasn't. Kettering called them "the only such compounds known which are stable, non-inflammable, and completely nontoxic." G-M and DuPont form a joint company to make it, and by nineteen thirty-five more than eight million refrigerators are running on Freon. And within a few years, essentially every new box in America.
+CYRUS: Non-toxic and non-flammable, in one breath. The two things every earlier refrigerant wasn't. Kettering called them "the only such compounds known which are stable, non-inflammable, and completely nontoxic." G-M and DuPont form a joint company to make it, and within five years the makers using Freon have sold something like eight million refrigerators. Before long, essentially every new box in America.
 
 &nbsp;
 
@@ -1715,7 +1731,7 @@ JEFF: \[reflective\] So after a century of fluids that burned or poisoned — yo
 
 &nbsp;
 
-CYRUS: Every test they wrote. And by nineteen fifty, four out of five American kitchens have a sealed steel box humming in the corner, and the gas inside it is the safest chemical anyone has ever put in a home.
+CYRUS: Every test they'd thought to write. And by nineteen fifty, four out of five American kitchens have a sealed steel box humming in the corner, and the gas inside it is the safest chemical anyone has ever put in a home.
 
 &nbsp;
 
@@ -1763,6 +1779,10 @@ feedback-addressed:
 
   \- Research corrections applied: "the decision memo is in Reagan's own handwriting" (not "first head of state"); the 1975 pledge (not "nothing is settled"); Kigali 0.3–0.5°C; cooling gap "just over a billion — roughly one in eight"; Midgley's death stated, not adjudicated; McNeill wording without "adverse"; "two dozen nations" at Montreal; "almost unanimously" for the 1987 Senate resolution; "three senators"; the Rowland line as Joan recalled it; Japan 38% in 1964 / 89% in 1970; "the wrong channels had been read on the instrument"
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -1783,7 +1803,7 @@ CYRUS: \[quietly\] In his own machine.
 
 &nbsp;
 
-JEFF: Yeah. He'd been elected president of the American Chemical Society that same year. He wrote his own epitaph in his last address to them: "This one did a lot of living in a mighty little while." He died believing he'd made the world safer twice — leaded gasoline, and Freon. And an environmental historian named J.R. McNeill would later write that Midgley "had more impact on the atmosphere than any other single organism in earth history."
+JEFF: Yeah. He'd been elected president of the American Chemical Society that same year. He wrote his own epitaph in his last address to them: "This one did a lot of living in a mighty little while." He died believing he'd made the world safer twice — leaded gasoline, and Freon. And an environmental historian named J-R McNeill would later write that Midgley "had more impact on the atmosphere than any other single organism in earth history."
 
 &nbsp;
 
@@ -1791,7 +1811,7 @@ CYRUS: \[exhales\] That is a remarkable sentence to have written about you.
 
 &nbsp;
 
-JEFF: \[laughs softly\] It is. And to understand why it's true, you have to jump thirty years, to a chemistry lab in Southern California.
+JEFF: \[reflective\] It is. And to understand why it's true, you have to jump thirty years, to a chemistry lab in Southern California.
 
 &nbsp;
 
@@ -1803,7 +1823,7 @@ JEFF: \[curious\] All of it?
 
 &nbsp;
 
-CYRUS: All of it. And Rowland's reaction was — his words — "I knew that such a molecule could not remain inert in the atmosphere forever." Something eventually breaks it. So he puts it on his list of possible projects for a new postdoc. And the postdoc who picks it is Mario Molina. Thirty years old, born in Mexico City, fresh Berkeley Ph.D. in chemical lasers. And he'd walked away from lasers on purpose — he wrote later that he was "dismayed by the fact that high-power chemical lasers were being developed elsewhere as weapons." He wanted to work on something useful. And off Rowland's list he picks the boring one: finding out the environmental fate of these very inert industrial chemicals. Where do they go.
+CYRUS: Essentially all of it. And Rowland's reaction was — his words — "I knew that such a molecule could not remain inert in the atmosphere forever." Something eventually breaks it. So he puts it on his list of possible projects for a new postdoc. And the postdoc who picks it is Mario Molina. Thirty years old, born in Mexico City, fresh Berkeley doctorate in chemical lasers. And he'd walked away from lasers on purpose — he wrote later that he was "dismayed by the fact that high-power chemical lasers were being developed elsewhere as weapons." He wanted to work on something useful. And off Rowland's list he picks the boring one: finding out the environmental fate of these very inert industrial chemicals. Where do they go.
 
 &nbsp;
 
@@ -1827,7 +1847,7 @@ JEFF: \[quietly\] Scale.
 
 &nbsp;
 
-CYRUS: Scale. And that winter, Rowland comes home from the lab and — as his wife Joan later remembered it — tells her, "The work is going well, but it looks like the end of the world."
+CYRUS: And that winter, Rowland comes home from the lab and — as his wife Joan later remembered it — tells her, "The work is going well, but it looks like the end of the world."
 
 &nbsp;
 
@@ -1847,7 +1867,7 @@ CYRUS: Slowly. They publish in Nature in June of nineteen seventy-four. That Sep
 
 &nbsp;
 
-JEFF: \[deliberate\] And this is where I want to slow down, because I think it's easy to make DuPont the villain here, and I think that's the wrong read — at least in nineteen seventy-five. DuPont takes out a full-page ad. And the sentence in it that I think is the important one is this: "Should reputable evidence show that some fluorocarbons cause a health hazard through depletion of the ozone layer, we are prepared to stop production of the offending compounds." Now — in nineteen seventy-five, nobody had measured any ozone loss anywhere. The theory rested on lab rate constants and a model. The National Academy of Sciences looked at it in nineteen seventy-six, said the theory was probably right, and recommended waiting two more years for data before regulating. So DuPont's position was "show us the evidence." And that's not a lie. That's — honestly — what science is supposed to sound like.
+JEFF: \[reflective\] And this is where I want to slow down, because I think it's easy to make DuPont the villain here, and I think that's the wrong read — at least in nineteen seventy-five. DuPont takes out a full-page ad. And the sentence in it that I think is the important one is this: "Should reputable evidence show that some fluorocarbons cause a health hazard through depletion of the ozone layer, we are prepared to stop production of the offending compounds." Now — in nineteen seventy-five, nobody had measured any ozone loss anywhere. The theory rested on lab rate constants and a model. The National Academy of Sciences looked at it in nineteen seventy-six, said the theory was probably right, and recommended waiting two more years for data before regulating. So DuPont's position was "show us the evidence." And that's not a lie. That's — honestly — what science is supposed to sound like.
 
 &nbsp;
 
@@ -1855,11 +1875,11 @@ CYRUS: \[skeptical\] Except they also spent the next decade lobbying against reg
 
 &nbsp;
 
-JEFF: They did. And they were wrong about the trend. But here's the thing I keep coming back to on this: when science turns out to have been incomplete, people read that as science being wrong, or corrupt. And that's a fundamental misunderstanding of what science is. It's a continual iteration on incomplete information. "Too early to draw conclusions" wasn't a cop-out in nineteen seventy-five. It was accurate. The question is what you do when the evidence changes. And hold onto that pledge, because we're going to find out whether they kept it.
+JEFF: Yeah, they did. And they were wrong about the trend. But here's the thing I keep coming back to on this: when science turns out to have been incomplete, people read that as science being wrong, or corrupt. And that's a fundamental misunderstanding of what science is. It's a continual iteration on incomplete information. "Too early to draw conclusions" wasn't a cop-out in nineteen seventy-five. It was accurate. The question is what you do when the evidence changes. And hold onto that pledge, because we're going to find out whether they kept it.
 
 &nbsp;
 
-CYRUS: So here's who moved first, and it wasn't governments. Consumers. Before there was any ban at all, aerosol sales fell sharply. People just stopped buying spray cans. The industry, in the words of one historian, "feeling invulnerable, was not prepared for such a strong public and political reaction." And the structural reason it could happen so fast is that hairspray is nonessential and there was a pump bottle on the shelf right next to it. Substitutes on the shelf. Culture moved faster than regulation.
+CYRUS: So here's who moved first, and it wasn't governments. Consumers. Before there was any ban at all, aerosol sales fell sharply. People just stopped buying spray cans. The industry, in the words of one historian, "feeling invulnerable, was not prepared for such a strong public and political reaction." And the structural reason it could happen so fast is that hairspray is nonessential and there was a pump bottle on the shelf right next to it. Substitutes on the shelf, right? Culture moved faster than regulation.
 
 &nbsp;
 
@@ -1871,15 +1891,15 @@ CYRUS: The United States banned nonessential aerosol C-F-Cs in nineteen seventy-
 
 &nbsp;
 
-JEFF: \[amused\] Which, from where they sat, was not a crazy read.
+JEFF: \[reflective\] Which, from where they sat, was not a crazy read.
 
 &nbsp;
 
-CYRUS: Not crazy at all. And DuPont's position in nineteen seventy-nine was: "No ozone depletion has ever been detected." Which was true. So by March nineteen eighty-five you get the Vienna Convention — forty-three countries agree that the ozone layer is important and that they should do something, with no actual controls. A framework with nothing in it. And two months later, three men on an ice shelf publish a paper.
+CYRUS: No, it wasn't. And DuPont's position in nineteen seventy-nine was: "No ozone depletion has ever been detected." Which was true. So by March nineteen eighty-five you get the Vienna Convention — forty-three countries agree that the ozone layer is important and that they should do something, with no actual controls. A framework with nothing in it. And two months later, three men on an ice shelf publish a paper.
 
 &nbsp;
 
-JEFF: \[curious\] You said this one was your favorite.
+JEFF: \[curious\] This is your favorite part, isn't it.
 
 &nbsp;
 
@@ -1903,11 +1923,11 @@ CYRUS: And this is the part. In nineteen eighty-three the Survey has a public op
 
 &nbsp;
 
-JEFF: \[laughs softly\] The graph he drew to say don't worry.
+JEFF: \[laughs softly\] He's trying to calm everybody down, and the data won't let him.
 
 &nbsp;
 
-CYRUS: The graph he drew to say don't worry. And there's no eureka. He says that explicitly — "there was no real eureka moment in the discovery, more a combination of pieces falling into place." The theory said springtime Antarctic values were noisy, weather-dependent, don't read anything into them. Farman himself thought the instrument must be broken — until a replacement Dobson gave the same numbers. Shanklin, looking back on it recently: "The problem was the points were starting to fall off the top of the graph. Quite unusual in science, really." What finally convinced them was a plot of the lowest eleven-day average for each spring, which showed the decline was systematic. Farman worked out the chemistry connecting it to C-F-Cs. Brian Gardiner did the data quality. And they publish in Nature in May of nineteen eighty-five. Springtime ozone over Antarctica down about forty percent from the nineteen seventies. Where the models had predicted a few percent, globally, maybe.
+CYRUS: And there's no eureka. He says that explicitly — "there was no real eureka moment in the discovery, more a combination of pieces falling into place." The theory said springtime Antarctic values were noisy, weather-dependent, don't read anything into them. Farman himself thought the instrument must be broken — until a replacement Dobson gave the same numbers. Shanklin, looking back on it recently: "The problem was the points were starting to fall off the top of the graph. Quite unusual in science, really." What finally convinced them was a plot of the lowest eleven-day average for each spring, which showed the decline was systematic. Farman worked out the chemistry connecting it to C-F-Cs. Brian Gardiner did the data quality. And they publish in Nature in May of nineteen eighty-five. Springtime ozone over Antarctica down about forty percent from the nineteen seventies. Where the models had predicted a few percent, globally, maybe.
 
 &nbsp;
 
@@ -1919,15 +1939,15 @@ CYRUS: \[deliberate\] So I chased this, because I'd heard that version too, and 
 
 &nbsp;
 
-JEFF: \[amused\] So they were fourteen months behind three guys with a nineteen fifties instrument.
+JEFF: \[amused\] So they were more than a year behind three guys with an instrument designed in the nineteen twenties.
 
 &nbsp;
 
-CYRUS: Fourteen months behind three guys with a slide-rule-era instrument and no theory to protect. The guy who wrote the best account of this called it "a tale of poor communications and siloed researchers." Siloes, not stupidity. And NASA then confirmed it — bigger. Their satellite map in nineteen eighty-six showed the hole was the size of a continent. Meanwhile Shanklin, after that nineteen eighty-three open day, had written a letter to the satellite data center asking whether they were seeing low values too. And I love his line about it: "I never received a reply — perhaps another lucky break for our team."
+CYRUS: And no theory to protect — that's the real difference. The guy who wrote the best account of this called it "a tale of poor communications and siloed researchers." Siloes, not stupidity. And NASA then confirmed it — bigger. Their satellite map in nineteen eighty-six showed the hole was the size of a continent. Meanwhile Shanklin, after that nineteen eighty-three open day, had written a letter to the satellite data center asking whether they were seeing low values too. And I love his line about it: "I never received a reply — perhaps another lucky break for our team."
 
 &nbsp;
 
-JEFF: \[amused\] Perhaps another lucky break.
+JEFF: \[amused\] Nobody on the satellite side answered the mail.
 
 &nbsp;
 
@@ -1935,11 +1955,11 @@ CYRUS: And one more piece, because it answers the obvious question — why Antar
 
 &nbsp;
 
-JEFF: \[reflective\] And then it moves fast. Which is the part I find genuinely astonishing, and it's the part I want to tell. Because two years — two years — after that paper, there's a treaty. And it very nearly wasn't a strong one. Spring of nineteen eighty-seven, inside the Reagan administration, there's a revolt. Interior, Commerce, Energy, the budget office — they want a freeze on production and nothing more. And the Interior Secretary, Donald Hodel, floats what he calls a "personal protection plan." Instead of a treaty — hats. Sunglasses. Sunscreen.
+JEFF: \[reflective\] And then it moves fast. Which is the part I find genuinely astonishing. Because two years — two years — after that paper, there's a treaty. And it very nearly wasn't a strong one. Spring of nineteen eighty-seven, inside the Reagan administration, there's a revolt. Interior, Commerce, Energy, the budget office — they want a freeze on production and nothing more. And the Interior Secretary, Donald Hodel, floats what he calls a "personal protection plan." Instead of a treaty — hats. Sunglasses. Sunscreen.
 
 &nbsp;
 
-CYRUS: \[incredulous\] Instead of a treaty. Sunglasses.
+CYRUS: \[incredulous\] He said that out loud? In a cabinet meeting?
 
 &nbsp;
 
@@ -1955,7 +1975,7 @@ JEFF: We know the decision memo is in Reagan's own handwriting. Beyond that — 
 
 &nbsp;
 
-CYRUS: \[deliberate\] Every country. And Shanklin — of all people — has the best analysis of why that worked, and I want to read it, because it's a scientist, not a pundit. He says the manufacturers were "able and willing, after some initial resistance, to produce substitutes." The evidence was clear. "The hole sounded threatening." There was a link to cancer. And then this: "the public did not feel bullied or threatened — no one was telling them to radically change their way of life. There was a problem, and something could be done about it." And elsewhere he puts it even more simply: with the ozone hole, "you could show politicians a picture."
+CYRUS: \[deliberate\] Which has never happened for anything else. And Shanklin — of all people — has the best analysis of why that worked, and I want to read it, because it's a scientist, not a pundit. He says the manufacturers were "able and willing, after some initial resistance, to produce substitutes." The evidence was clear. "The hole sounded threatening." There was a link to cancer. And then this: "the public did not feel bullied or threatened — no one was telling them to radically change their way of life. There was a problem, and something could be done about it." And elsewhere he puts it even more simply: with the ozone hole, "you could show politicians a picture."
 
 &nbsp;
 
@@ -1967,7 +1987,7 @@ CYRUS: And now your pledge.
 
 &nbsp;
 
-JEFF: \[amused\] Now my pledge. March of nineteen eighty-eight. Twenty days that I think are one of the best corporate stories I know. March fourth: DuPont's chairman, Richard Heckert, writes to three senators — quote — "scientific evidence does not point to the need for dramatic C-F-C emission reductions." March fifteenth: a NASA panel — the Ozone Trends Panel, more than a hundred scientists — reports that it's not just Antarctica. Ozone over the northern mid-latitudes — where the people live — is down two to three percent since nineteen sixty-nine, up to six percent in winter, and it cannot be explained by anything natural. Where the models had said essentially zero.
+JEFF: \[amused\] Now my pledge. March of nineteen eighty-eight. Twenty days that I think are one of the best corporate stories I know. March fourth: DuPont's chairman, Richard Heckert, writes to three senators — quote — "scientific evidence does not point to the need for dramatic C-F-C emission reductions." March fifteenth: a NASA panel — the Ozone Trends Panel, an international team of scientists — reports that it's not just Antarctica. Ozone over the northern mid-latitudes — where the people live — is down two to three percent since nineteen sixty-nine, up to six percent in winter, and it cannot be explained by anything natural. Where the models had said essentially zero.
 
 &nbsp;
 
@@ -1975,15 +1995,15 @@ CYRUS: And DuPont has a guy on that panel.
 
 &nbsp;
 
-JEFF: \[amused\] They do. Mack McFarland, their own atmospheric scientist — the only industry scientist on it. He's read the draft. And he tells the company the link is now real. March twenty-fourth — nine days later — DuPont, the world's largest producer of C-F-Cs, announces it will phase them out entirely. Total phase-out. Twenty days from "the evidence doesn't point to the need" to "we're getting out of the business."
+JEFF: \[mischievously\] They do. Mack McFarland, their own atmospheric scientist — the only industry scientist on it. He's read the draft. And he tells the company the link is now real. March twenty-fourth — nine days later — DuPont, the world's largest producer of C-F-Cs, announces it will phase them out entirely. Total phase-out. Twenty days from "the evidence doesn't point to the need" to "we're getting out of the business."
 
 &nbsp;
 
-CYRUS: \[genuinely surprised\] Nine days after the report.
+CYRUS: \[genuinely surprised\] Nine days after the report? That's not a corporate timeline. That's a memo.
 
 &nbsp;
 
-JEFF: Nine days. And here's why I love it. That's not a confession. That's an update. The nineteen seventy-five pledge — "should reputable evidence show, we are prepared to stop production" — they kept it, on the first day the evidence was reputable enough for their own scientist. Thirteen years late by one reading; exactly on time by another. And then they sold the substitutes. Creative destruction, run inside one company, in one corporate calendar.
+JEFF: And here's why I love it. That's not a confession. That's an update. The nineteen seventy-five pledge — "should reputable evidence show, we are prepared to stop production" — they kept it, on the first day the evidence was reputable enough for their own scientist. Thirteen years late by one reading; exactly on time by another. And then they sold the substitutes. Creative destruction, run inside one company, in one corporate calendar.
 
 &nbsp;
 
@@ -1995,15 +2015,15 @@ JEFF: \[laughs softly\] Of course it is.
 
 &nbsp;
 
-CYRUS: So in October two thousand sixteen, in Kigali, Rwanda, a hundred and ninety-seven countries amend the Montreal Protocol to phase down the replacement. And the scientific assessment says that amendment alone is expected to avoid somewhere between three-tenths and half a degree Celsius of warming by twenty-one hundred. A treaty about what's inside your refrigerator is one of the largest single climate actions anyone has ever taken. And it ran on the ozone treaty's machinery, because that machinery worked. The U-S Senate ratified it in twenty twenty-two, sixty-nine to twenty-seven.
+CYRUS: So in October two thousand sixteen, in Kigali, Rwanda, a hundred and ninety-seven countries amend the Montreal Protocol to phase down the replacement. And the scientific assessment says that amendment alone is expected to avoid somewhere between a third and half a degree Celsius of warming by twenty-one hundred. A treaty about what's inside your refrigerator is one of the largest single climate actions anyone has ever taken. And it ran on the ozone treaty's machinery, because that machinery worked. The U-S Senate ratified it in twenty twenty-two, sixty-nine to twenty-seven.
 
 &nbsp;
 
-JEFF: Which is a data point for a question I want to come back to.
+JEFF: \[genuinely surprised\] Sixty-nine votes. I did not expect that.
 
 &nbsp;
 
-CYRUS: I know it is. And here's where the fluids have landed. A new home refrigerator today runs on isobutane. Which is flammable — so the safety standard caps the charge at a hundred and fifty grams, a few ounces — and which is one of the fluids Freon displaced in the nineteen thirties. Supermarkets are going to carbon dioxide, at very high pressure. And industrial cold storage never left ammonia. Linde's fluid, a hundred and fifty years on. Four fluids in a century — and the fourth one is the first one.
+CYRUS: Neither did I. And here's where the fluids have landed. A new home refrigerator today runs on isobutane. Which is flammable — so the safety standard caps the charge at a hundred and fifty grams, a few ounces — and which is one of the fluids Freon displaced in the nineteen thirties. Supermarkets are going to carbon dioxide, at very high pressure. And industrial cold storage never left ammonia. Linde's fluid, a hundred and fifty years on. Four fluids in a century — and the fourth one is the first one.
 
 &nbsp;
 
@@ -2011,19 +2031,19 @@ JEFF: \[reflective\] And the sky?
 
 &nbsp;
 
-CYRUS: Healing. Slowly. The C-F-Cs are gone — phased out in the rich world by ninety-six, everywhere by twenty-ten. The ozone layer is projected to be back to nineteen eighty levels around twenty-forty globally, and over Antarctica around twenty sixty-six. Which is after most of the people listening to this are dead. And it's not tidy — the latest assessment found emissions of one leftover fluorocarbon running eight times higher than anyone expected, and somebody had to go find out where an outlawed C-F-C was still coming from. But Shanklin's line is that "perhaps the most startling lesson from the ozone hole is just how quickly our planet can change." In both directions.
+CYRUS: Healing. Slowly. The C-F-Cs are gone — phased out in the rich world by ninety-six, everywhere by twenty-ten. The ozone layer is projected to be back to nineteen eighty levels around twenty-forty globally, and over Antarctica around twenty sixty-six. Which is after most of the people listening to this are dead. And it's not tidy — the latest assessment found emissions of one by-product gas, HFC-twenty-three, running up to eight times higher than expected, and somebody had to go find out where an outlawed C-F-C was still coming from. But Shanklin's line is that "perhaps the most startling lesson from the ozone hole is just how quickly our planet can change." In both directions.
 
 &nbsp;
 
-JEFF: So there's one more thing I want to put on the table before we step back, because you raised it in our prep and I think it's important. Everything we've described is the rich world. America, Europe, Japan. Where's everybody else?
+JEFF: So there's one more thing I want to put on the table before we step back, because I think it's the thing we'd be most embarrassed to skip. Everything we've described is the rich world. America, Europe, Japan. Where's everybody else?
 
 &nbsp;
 
-CYRUS: \[deliberate\] So this is the thing I actually wanted in the episode. If you picture the map filling in with color — the United States goes from one home in twelve to four in five between nineteen thirty and nineteen fifty. Then Europe, a generation later. Then Japan, which is incredible: one home in ten in nineteen sixty, nine in ten by nineteen seventy. America's twenty-year curve, run in ten. Then China's cities — single digits in the mid-eighties, nine in ten by the late two thousands. And then it slows way down. India today is about thirty-eight percent — but that's sixty-three percent in the cities and twenty-five percent in the villages. India's cities are where America was in nineteen fifty; its villages are where America was in nineteen thirty-five. And rural sub-Saharan Africa is at about four percent.
+CYRUS: \[deliberate\] So this is the part I keep coming back to. If you picture the map filling in with color — the United States goes from one home in twelve to four in five between nineteen thirty and nineteen fifty. Then Europe, a generation later. Then Japan, which is incredible: one home in ten in nineteen sixty, nine in ten by nineteen seventy. America's twenty-year curve, run in ten. Then China's cities — single digits in the mid-eighties, nine in ten by the late two thousands. And then it slows way down. India today is about thirty-eight percent — but that's sixty-three percent in the cities and twenty-five percent in the villages. India's cities are where America was in nineteen fifty; its villages are where America was in nineteen thirty-five. And rural sub-Saharan Africa is at about four percent.
 
 &nbsp;
 
-JEFF: \[incredulous\] Four percent.
+JEFF: \[incredulous\] Four?
 
 &nbsp;
 
@@ -2035,11 +2055,11 @@ JEFF: And I'd add that it's their framing, not ours. India's government wrote th
 
 &nbsp;
 
-CYRUS: A developmental need. And the Kigali schedule encodes that, by the way — India and the Gulf states don't have to finish phasing down until twenty forty-seven, because the rich world built its cold on Freon first. So — a billion people are where New York's tenements were in nineteen hundred. Their governments call cold a developmental need. Montreal worked. Kigali is the encore. And the machine in your kitchen has been through four fluids in a hundred years.
+CYRUS: Which is their word, not an aid agency's. And the Kigali schedule encodes that, by the way — India and the Gulf states don't have to finish phasing down until twenty forty-seven, because the rich world built its cold on Freon first. So — a billion people are where New York's tenements were in nineteen hundred. Their governments call cold a developmental need. Montreal worked. Kigali is the encore. And the machine in your kitchen has been through four fluids in a hundred years.
 
 &nbsp;
 
-JEFF: \[reflective\] That's the whole arc. And I think the numbers land harder now than they would have at the start.
+JEFF: \[reflective\] Four fluids. And every single one of them was the safe one, the day it was chosen.
 
 &nbsp;
 
@@ -2083,6 +2103,10 @@ feedback-addressed:
 
   \- Research corrections applied: Kigali "a third to half a degree"; "roughly one in eight" for the cooling gap; food cold chain \~4% / food lost for lack of cold \~2% and 12% of food; Twilley's "roughly three-quarters" attributed; cheese-cave figure hedged; blackout-heat study labeled as modeling; "the first UN treaty ratified by every country" (first, not only)
 
+editor-pass: 2026-09-13 (see editor-notes.md)
+
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+
 status: draft
 
 date: 2026-09-13
@@ -2095,15 +2119,15 @@ date: 2026-09-13
 
 &nbsp;
 
-JEFF: So we've walked two hundred years. And I think this is the moment to pull back and look at what that story built. Because you sent me a page of numbers before we sat down, and every one of them lands differently now than it would have an hour and a half ago.
+JEFF: So we've walked two hundred years. And I think this is the moment to pull back and look at what that story built. Because you've got a page of numbers in front of you, and I think every one of them lands differently now than it would have an hour and a half ago.
 
 &nbsp;
 
-CYRUS: \[amused\] I checked every one of them three times. Because there are a lot of bad refrigerator statistics floating around out there and I didn't want to be the guy who read one.
+CYRUS: \[amused\] I checked each of them three times. Because there are a lot of bad refrigerator statistics floating around out there and I didn't want to be the guy who read one.
 
 &nbsp;
 
-JEFF: \[laughs softly\] I appreciate that.
+JEFF: \[warmly\] I appreciate that.
 
 &nbsp;
 
@@ -2115,7 +2139,7 @@ JEFF: Which we've established I still find hard to believe.
 
 &nbsp;
 
-CYRUS: Now here's the one that changes how you look at your kitchen. Nicola Twilley, who wrote the best modern book on this, puts it this way: roughly three-quarters of the food consumed in the United States is processed, shipped, stored, or sold under refrigeration. Three-quarters of everything on your plate has been cold somewhere you've never seen. And the somewhere is enormous — about five and a half billion cubic feet of refrigerated warehouse space in this country. That's sixteen cubic feet per person. Roughly one home refrigerator's worth of industrial cold for every man, woman, and child in America, sitting in a building you've never been inside.
+CYRUS: Now here's the one that changes how you look at your kitchen. Nicola Twilley, who wrote the best modern book on this, puts it this way: roughly three-quarters of the food consumed in the United States is processed, shipped, stored, or sold under refrigeration. Three-quarters of everything on your plate has been cold somewhere you've never seen. And the somewhere is enormous — three and a half to five and a half billion cubic feet of refrigerated warehouse space in this country, depending on who counts. That's eleven to sixteen cubic feet per person. Roughly one home refrigerator's worth of industrial cold for every man, woman, and child in America, sitting in a building you've never been inside.
 
 &nbsp;
 
@@ -2123,7 +2147,7 @@ JEFF: \[genuinely surprised\] A fridge per person, in warehouses.
 
 &nbsp;
 
-CYRUS: A fridge per person. And in your own house — one in three American homes has two or more refrigerators. About one home in two hundred has none. And then flip it over. Just over a billion people on earth — roughly one in eight — are at high risk from lacking access to cooling. In rural sub-Saharan Africa, four homes in a hundred have a refrigerator.
+CYRUS: Right. And in your own house — one in three American homes has two or more refrigerators. About one home in two hundred has none. And then flip it over. Just over a billion people on earth — roughly one in eight — are at high risk from lacking access to cooling. In rural sub-Saharan Africa, four homes in a hundred have a refrigerator.
 
 &nbsp;
 
@@ -2131,7 +2155,7 @@ JEFF: So the nickel piece didn't go away. It moved.
 
 &nbsp;
 
-CYRUS: It moved. And here's the one you asked me to double-check. The International Energy Agency worked out that the United States uses about as much energy cooling its buildings as the entire continent of Africa uses for everything. Three hundred and twenty-eight million Americans, versus one point two billion people — all their lights, all their factories, all their everything. And it's true, in that specific form. There's a version of that stat that's about global air conditioning versus Africa that I don't trust, so I'm not going to say it.
+CYRUS: And here's the one you asked me to double-check. The International Energy Agency worked out that the United States uses about as much energy cooling its buildings as the entire continent of Africa uses, in electricity, for everything. Three hundred and twenty-eight million Americans, versus one point two billion people — all their lights, all their factories, all their everything. And it's true, in that specific form. There's a version of that stat that's about global air conditioning versus Africa that I don't trust, so I'm not going to say it.
 
 &nbsp;
 
@@ -2139,7 +2163,7 @@ JEFF: \[reflective\] Which — good. And that's the cost side. How big is the wh
 
 &nbsp;
 
-CYRUS: Roughly five billion refrigeration, air-conditioning and heat-pump systems running on earth — one machine for every one and a half people alive — and something like fifteen million people employed keeping them running. Tudor's twenty thousand Hudson Valley ice cutters, times seven hundred and fifty.
+CYRUS: Roughly five billion refrigeration, air-conditioning and heat-pump systems running on earth — one machine for every one and a half people alive — and something like fifteen million people employed keeping them running. The Hudson Valley's twenty thousand ice cutters, times seven hundred and fifty.
 
 &nbsp;
 
@@ -2159,11 +2183,11 @@ CYRUS: And the thing I'd add — the pattern I didn't see until we'd told the wh
 
 &nbsp;
 
-JEFF: \[reflective\] That's the shape of it. So let me ask the question we ask about everything on this show. Is it invisible? Has it become the kind of thing you only notice when it fails?
+JEFF: \[reflective\] That's the shape of it. Okay — so here's the question I want to ask about every one of these. Is it invisible? Has it become the kind of thing you only notice when it fails?
 
 &nbsp;
 
-CYRUS: Completely. You notice it the moment the power goes out and you start doing math about the milk. The rest of the time — I mean, think about what Twilley describes. Orange juice. There are tank farms in Florida with individual tanks holding a million gallons of juice, chilled to thirty-two degrees, stripped of oxygen, where the juice sits for up to a year, from one harvest to the next. One company's indoor tank farm holds twenty-five million gallons. A supply-chain professor who toured it said it looked like the warehouse at the end of Raiders of the Lost Ark.
+CYRUS: Completely. You notice it the moment the power goes out and you start doing math about the milk. The rest of the time — think about what Twilley describes. Orange juice. There are tank farms in Florida with tanks holding a million gallons of juice, chilled to thirty-two degrees, stripped of oxygen, where the juice sits for up to a year, from one harvest to the next. One company's indoor tank farm holds twenty-five million gallons. A supply-chain professor who toured it said it looked like the warehouse at the end of Raiders of the Lost Ark.
 
 &nbsp;
 
@@ -2171,7 +2195,7 @@ JEFF: \[laughs\] Your orange juice is a year old.
 
 &nbsp;
 
-CYRUS: Your orange juice may be a year old. There's a Kraft cheese warehouse in a disused limestone mine under Springfield, Missouri, held at fifty-eight degrees, four hundred thousand square feet underground. American warehouses hold something like a billion and a half pounds of cheese at any moment. Bananas arrive green and go into ripening rooms where they're gassed with ethylene for five days at sixty-two degrees — Twilley says the gas smells like a pub carpet — and a ripener can speed that up or slow it down by a degree or two to hit the day the supermarket wants them. The apple you bought last week may have been picked a year ago and held in a low-oxygen room, essentially asleep.
+CYRUS: Your orange juice may be a year old. There's a Kraft cheese warehouse in a disused limestone mine under Springfield, Missouri, held at fifty-eight degrees, four hundred thousand square feet. American warehouses hold something like a billion and a half pounds of cheese at any moment. Bananas arrive green and go into ripening rooms where they're gassed with ethylene for five days at sixty-two degrees — Twilley says the gas smells like a pub carpet — and a ripener speeds that up or slows it down by a degree or two to hit the day the supermarket wants them. The apple you bought last week may have been picked a year ago and held in a low-oxygen room, essentially asleep.
 
 &nbsp;
 
@@ -2183,7 +2207,7 @@ CYRUS: — is the back of the fridge. The coils are warm. And now everybody list
 
 &nbsp;
 
-JEFF: \[amused\] Which I'm going to think about every time now. Okay — what depends on it? Because I think this is where the list gets long fast.
+JEFF: \[amused\] Which I'm going to think about every time now. Okay — what depends on it? Because this is where the list gets long fast.
 
 &nbsp;
 
@@ -2199,11 +2223,11 @@ CYRUS: \[deadpan\] Same machine. Different episode.
 
 &nbsp;
 
-JEFF: \[laughs softly\] Different episode. Okay. Hidden cost. And I think this is the one where I want to hear you first, because you've been building a ledger this whole time.
+JEFF: \[laughs softly\] Okay. Hidden cost. And this is the one where I want to hear you first, because you've been building a ledger this whole time.
 
 &nbsp;
 
-CYRUS: \[deliberate\] I have. And if you're listening, this is the part I'd ask you to actually sit with for a minute, because it's not simple. So — the ledger. Cooling's carbon emissions have tripled since nineteen ninety, to roughly the total emissions of Japan. On the current path they nearly double again by twenty-fifty, to roughly the total emissions of Africa today. Refrigerant leakage from an installed base that lasts decades is a line item all its own. There's a food system optimized for shelf life over flavor — that year-old apple. There's the iceman, the forty thousand people in the machine-ice industry, the Norwegian ice cutters, the local butcher. And there's who got it and who didn't. In the nineteen forty census, a quarter of white households had no refrigeration. Half of Black households. In the South, six in ten Black households had nothing.
+CYRUS: \[deliberate\] I have. And if you're listening, this is the part I'd ask you to sit with for a minute, because it's not simple. So — the ledger. Cooling's carbon emissions have tripled since nineteen ninety, to roughly the total emissions of Japan. On the current path they nearly double again by twenty-fifty, to roughly the total emissions of Africa today. Refrigerant leakage from an installed base that lasts decades is a line item all its own. There's a food system optimized for shelf life over flavor — that year-old apple. There's the iceman, the forty thousand people in the machine-ice industry, the Norwegian ice cutters, the local butcher. And there's who got it and who didn't. In the nineteen forty census, a quarter of white households had no refrigeration. Half of Black households. In the South, six in ten Black households had nothing.
 
 &nbsp;
 
@@ -2211,11 +2235,11 @@ JEFF: \[quietly\] The nickel piece, in the census.
 
 &nbsp;
 
-CYRUS: And here's my honest read. The demand for cold is a structural fact. There are a billion-plus people about to buy their first refrigerator, and by the I-E-A's count something like two billion air conditioners going into China and India alone by twenty-fifty. India's cooling demand grows fifteen-fold. In Saudi Arabia, air conditioning is already seventy percent of electricity demand. No treaty constrains that to a climate-safe envelope, because you can't tell a billion people they don't get what New York got in nineteen hundred. And the fluid treadmill — four fluids in a century, each one solving the last one's problem and carrying a new one — that treadmill is permanent, because the demand is permanent.
+CYRUS: And here's my honest read. The demand for cold is a structural fact. There are a billion-plus people about to buy their first refrigerator, and by the I-E-A's count something like two billion air conditioners going into China and India alone by twenty-fifty. India's cooling demand grows fifteen-fold. In Saudi Arabia, on a hot day, air conditioning can already be seventy percent of electricity demand. No treaty constrains that to a climate-safe envelope, because you can't tell a billion people they don't get what New York got in nineteen hundred. And the fluid treadmill — four fluids in a century, each one solving the last one's problem and carrying a new one — that treadmill is permanent, because the demand is permanent.
 
 &nbsp;
 
-JEFF: \[deliberate\] Yeah. So here's where I land. I think we can invent our way out of it. And I don't think that's naive, because we have the receipt. Montreal is a treaty every country on earth ratified. The sky is healing. Kigali is the same mechanism working again — a third to half a degree, from a treaty about refrigerants, that the U-S Senate ratified sixty-nine to twenty-seven in twenty twenty-two. The I-E-A's own numbers say the efficiency of the world's air conditioners could more than double by twenty-fifty, and if it does, the growth in cooling energy is less than half of what it would otherwise be. Seventy-five countries signed a cooling pledge at the last climate summit. The tools exist.
+JEFF: \[emphatic\] Yeah. So here's where I land. I think we can invent our way out of it. And I don't think that's naive, because we have the receipt. Montreal is a treaty every country on earth ratified. The sky is healing. Kigali is the same mechanism working again — a third to half a degree, from a treaty about refrigerants, that the U-S Senate ratified sixty-nine to twenty-seven in twenty twenty-two. The I-E-A's numbers say the efficiency of the world's air conditioners could more than double by twenty-fifty, and if it does, the growth in cooling energy is less than half of what it would otherwise be. Seventy-five countries have signed a global cooling pledge, launched at the Dubai climate summit. The tools exist.
 
 &nbsp;
 
@@ -2227,7 +2251,7 @@ JEFF: No, it isn't. That's exactly my caveat. What it needs is smart national an
 
 &nbsp;
 
-CYRUS: And I'll give you Montreal. Montreal was real — Shanklin himself points out it did more to cut greenhouse gases than the Kyoto treaty ever did, almost by accident, because the C-F-Cs were potent greenhouse gases too. But here's what I'd push on. Montreal worked because it asked nobody to change how they lived, and because there was a substitute on the shelf. The cooling problem isn't a substitute problem. It's a demand problem. The I-E-A's baseline — with every policy already on the books — still has cooling emissions nearly doubling. Efficiency is a scenario. Demand is a fact.
+CYRUS: And I'll give you Montreal. Montreal was real — Shanklin himself points out it did more to cut greenhouse gases than the Kyoto treaty, almost by accident, because the C-F-Cs were potent greenhouse gases too. But here's what I'd push on. Montreal worked because it asked nobody to change how they lived, and because there was a substitute on the shelf. The cooling problem isn't a substitute problem. It's a demand problem. The I-E-A's baseline — with every policy already on the books — still has cooling emissions nearly doubling. \[emphatic\] Efficiency is a scenario. Demand is a fact.
 
 &nbsp;
 
@@ -2235,7 +2259,7 @@ JEFF: \[reflective\] Yeah. And I think that's fair, and I'll concede the structu
 
 &nbsp;
 
-CYRUS: Both. And that's the paradox I hold. The same machine is the emitter and the preventer. I don't think you get to resolve that. You get to manage it.
+CYRUS: And that's the paradox I hold. The same machine is the emitter and the preventer. I don't think you get to resolve that. You get to manage it.
 
 &nbsp;
 
@@ -2243,19 +2267,19 @@ JEFF: \[warmly\] And I think managing it is a thing institutions can actually do
 
 &nbsp;
 
-CYRUS: \[amused\] A little. Okay — could we go back?
+CYRUS: \[dry\] A little. Okay — could we go back?
 
 &nbsp;
 
-JEFF: On the specific chemical — we already did. That's the remarkable part. We took the safest chemical ever invented out of every kitchen on earth and the sky is healing. On cold itself — no. And I think the honest way to say why is the F-D-A's own guidance: an unopened refrigerator keeps food safe for about four hours in a power outage. A full freezer, about forty-eight. That's it. The entire American food supply is one long afternoon from spoiling.
+JEFF: On the specific chemical — we already did. That's the remarkable part. We took the safest chemical ever invented out of every kitchen on earth and the sky is healing. On cold itself — no. And I think the honest way to say why is the F-D-A's guidance: an unopened refrigerator keeps food safe for about four hours in a power outage. A full freezer, about forty-eight. That's it. The entire American food supply is one long afternoon from spoiling.
 
 &nbsp;
 
-CYRUS: \[deliberate\] And the outages are the moment the whole thing shows itself. Texas, February twenty twenty-one — more than four million homes without power, some for more than three days. The two thousand three Northeast blackout — fifty-five million people, and in New York the restaurants just cooked everything they had and handed it out on the sidewalk, because it was going to spoil anyway. But the one that actually scares me is heat. In the hottest places, air conditioning can be seventy percent of peak electricity demand on a hot day — Philadelphia hit seventy-four percent one July afternoon. So a blackout during a heat wave isn't an inconvenience anymore. There's a modeling study out of Georgia Tech that looked at a multi-day blackout during a heat wave in three cities, and in Phoenix it had half the city seeking emergency care.
+CYRUS: \[deliberate\] And the outages are the moment the whole thing shows itself. Texas, February twenty twenty-one — more than four million homes without power, some for more than three days. The two thousand three Northeast blackout — fifty-five million people, and in New York the restaurants just cooked everything they had and handed it out on the sidewalk, because it was going to spoil anyway. But the one that actually scares me is heat. On a hot afternoon, air conditioning can be most of a city's electricity demand — Philadelphia hit seventy-four percent one July afternoon. So a blackout during a heat wave isn't an inconvenience anymore. There's a modeling study out of Georgia Tech that looked at a multi-day blackout during a heat wave in three cities, and in Phoenix it had half the city seeking emergency care.
 
 &nbsp;
 
-JEFF: \[quietly\] Half the city.
+JEFF: \[quietly\] In a city that only exists at that size because of the machine.
 
 &nbsp;
 
@@ -2267,7 +2291,7 @@ JEFF: So what's next? Because this is the story that doesn't end.
 
 &nbsp;
 
-CYRUS: A few things. There are about one point six billion air conditioners in the world right now, and by the I-E-A's count something like ten new ones are sold every second, and will be for the next thirty years — so the machine that's the same as the fridge is about to be everywhere the fridge is. The fluids are going backwards, in a good way — carbon dioxide, propane, and Linde's ammonia are all coming back, because we finally care about the property the engineers weren't measuring. There are off-grid solar refrigerators going into villages in sub-Saharan Africa — a few hundred thousand appliances so far, against a billion people, so the scale problem is enormous. The ozone hole closes around twenty sixty-six. And — one line, because it's your world — the data centers running the models we've all been using this year are, by the I-E-A's count, about one and a half percent of global electricity, and cooling is a real fraction of that.
+CYRUS: A few things. There are well over one and a half billion air conditioners in the world, and by the I-E-A's count something like ten new ones are sold every second, and will be for the next thirty years — so the machine that's the same as the fridge is about to be everywhere the fridge is. The fluids are going backwards, in a good way — carbon dioxide, propane, and Linde's ammonia are all coming back, because we finally care about the property the engineers weren't measuring. There are off-grid solar refrigerators going into villages in sub-Saharan Africa — a few hundred thousand off-grid appliances so far, not all of them fridges, against a billion people, so the scale problem is enormous. The ozone hole closes around twenty sixty-six. And — one line, because it's your world — the data centers running the models we've all been using this year are, by the I-E-A's count, about one and a half percent of global electricity, and cooling is a real fraction of that.
 
 &nbsp;
 
@@ -2275,7 +2299,7 @@ JEFF: \[laughs softly\] Same machine.
 
 &nbsp;
 
-CYRUS: Same machine. And here's the thing I actually think about, since we're talking about the models. The arc of this story bends toward more human flourishing. Fewer dead babies, cheaper food, a healing sky. And every technology we've talked about displaced people and then created more for the next generation to do. But — for the first time there's a technology that can plausibly do both the thing the human brain does and, with the robots, the thing the human body does. In that world, what's left for the humans? I don't know that the pattern holds.
+CYRUS: And here's the thing I actually think about, since we're talking about the models. The arc of this story bends toward more human flourishing. Fewer dead babies, cheaper food, a healing sky. And every technology we've talked about displaced people and then created more for the next generation to do. But — for the first time there's a technology that can plausibly do both the thing the human brain does and, with the robots, the thing the human body does. In that world, what's left for the humans? I don't know that the pattern holds.
 
 &nbsp;
 
@@ -2287,11 +2311,11 @@ CYRUS: Fair. I'm not resolving it. I'm just not going to pretend the arc is guar
 
 &nbsp;
 
-JEFF: \[reflective\] Fair. Okay — I've got a question I genuinely can't answer, and it's the one I wrote down first. Refrigeration punched a hole in the sky and the world fixed it, by treaty, in about a decade. What did nineteen eighty-seven have that we don't? And Shanklin — who I now think about as one of the sharpest observers in this whole story — gave the list. Substitutes on the shelf. Evidence you could put in a picture. A dread factor — cancer. And a fix that asked nobody to change how they lived. And the honest answer to my question is: I don't know if we have those four things for the problems in front of us now. Kigali says the mechanism still works — sixty-nine votes in twenty twenty-two. The cooling pledge says people still want to. But Shanklin's own conclusion was "it is unclear." And I think that's where I am.
+JEFF: \[reflective\] Okay. I've got a question I genuinely can't answer, and it's the one I wrote down first. Refrigeration punched a hole in the sky and the world fixed it, by treaty, in about a decade. What did nineteen eighty-seven have that we don't? And Shanklin — one of the sharpest observers in this whole story — gave the list. Substitutes on the shelf. Evidence you could put in a picture. A dread factor — cancer. And a fix that asked nobody to change how they lived. And the honest answer to my question is: I don't know if we have those four things for the problems in front of us now. Kigali says the mechanism still works — sixty-nine votes in twenty twenty-two. The cooling pledge says people still want to. But Shanklin's own conclusion was "it is unclear." And I think that's where I am.
 
 &nbsp;
 
-CYRUS: \[deliberate\] And mine is the mirror image. A billion people are where New York was in nineteen hundred, and America closed that gap in one generation with a grid, a price collapse, and utilities that financed the box on the light bill. So what's the twenty twenty-six version of thirty-five months on the electric bill? Who's the utility? Because a few hundred thousand solar fridges against a billion people is the whole scale problem in one comparison. And do we give them the cold chain, and what does the planet pay for it? I don't think there's a policy that constrains that. I think it just happens, and the question is what fluid it happens with.
+CYRUS: \[deliberate\] And mine is the mirror image. A billion people are where New York was in nineteen hundred, and America closed that gap in one generation with a grid, a price collapse, and utilities that financed the box on the light bill. So what's the twenty twenty-six version of thirty-five months on the electric bill? Who's the utility? Because a few hundred thousand solar appliances against a billion people is the whole scale problem in one comparison. And do we give them the cold chain, and what does the planet pay for it? I don't think there's a policy that constrains that. I think it just happens, and the question is what fluid it happens with.
 
 &nbsp;
 
@@ -2299,11 +2323,11 @@ JEFF: Which is the fourth fluid question.
 
 &nbsp;
 
-CYRUS: Right. Three times the safe fluid turned out not to be. And there's already a fifth one — a new class of refrigerants going into car air conditioners with a warming potential of basically zero. Solved. Except it breaks down in the air into an acid — a so-called forever chemical — that's now turning up in rain and groundwater at several times the level of the nineties, and European regulators this year classified it as a reproductive toxin. The industry says it's naturally present in the oceans and the levels are low. It's the same shape as nineteen thirty. Smaller, and caught earlier. But the same shape.
+CYRUS: Right. Three times the safe fluid turned out not to be. And there's already a fifth one — a new class of refrigerants going into car air conditioners with a warming potential of basically zero. Solved. Except it breaks down in the air into an acid — a so-called forever chemical — that's now turning up in rain and groundwater at several times the level of the nineties, and Europe's chemicals agency recently concluded it meets the bar for a reproductive toxin. The industry says it's naturally present in the oceans and the levels are low. It's the same shape as nineteen thirty. Smaller, and caught earlier. But the same shape.
 
 &nbsp;
 
-JEFF: \[reflective\] So let me try to say what I think this story actually teaches, because I've been circling it the whole time. The fix that spreads is the fix that hides its cost. Not because anybody's lying — because the cost only shows up at scale, and by the time you're at scale, the fix is infrastructure. Three times in this story engineers chose a fluid honestly, to solve the problem in front of them. Ammonia works, and kills. Freon doesn't kill, and lasts a century and reaches the sky. The replacement doesn't touch the ozone, and warms the planet. Nobody could see the next problem, because a few thousand Freon fridges in nineteen thirty-two were genuinely harmless. Eighty percent of American kitchens wasn't. These are complex systems, and the interaction effects are really hard to forecast.
+JEFF: \[reflective\] So let me try to say the thing I think you carry out of this, because I've been circling it the whole time. The fix that spreads is the fix that hides its cost. Not because anybody's lying — because the cost only shows up at scale, and by the time you're at scale, the fix is infrastructure. Three times in this story engineers chose a fluid honestly, to solve the problem in front of them. Ammonia works, and kills. Freon doesn't kill, and lasts a century and reaches the sky. The replacement doesn't touch the ozone, and warms the planet. Nobody could see the next problem, because a few thousand Freon fridges in nineteen thirty-two were genuinely harmless. Eighty percent of American kitchens wasn't. These are complex systems, and the interaction effects are really hard to forecast.
 
 &nbsp;
 
@@ -2315,7 +2339,7 @@ JEFF: The portable version is: for anything that's spreading fast, the question 
 
 &nbsp;
 
-CYRUS: \[warmly\] And I'll add one thing and then stop, because I think we should stop. The unforeseen goes both ways. Nobody building the beef trade in eighteen eighty was thinking about vaccines — and in nineteen seventy-four, when the W-H-O started its immunization program, five percent of children in low-income countries were vaccinated. Every gain since rode on a cold chain built for steak. Same scale that made the problem made it findable and fixable. Seen and unforeseen, good and bad — every big technology hits all four. This one hit all four in a hundred years.
+CYRUS: \[warmly\] And I'll add one thing. The unforeseen goes both ways. Nobody building the beef trade in eighteen eighty was thinking about vaccines — and in nineteen seventy-four, when the W-H-O started its immunization program, five percent of children in low-income countries were vaccinated. Every gain since rode on a cold chain built for steak. Same scale that made the problem made it findable and fixable. Seen and unforeseen, good and bad — every big technology hits all four. This one hit all four in a hundred years.
 
 &nbsp;
 
@@ -2323,7 +2347,7 @@ JEFF: Yeah. And if you've been listening to this and you're now looking at your 
 
 &nbsp;
 
-CYRUS: \[amused\] Go touch the coils. I'm making my kids listen to this one, by the way. They're going to hate it and then they're going to touch the coils.
+CYRUS: \[mischievously\] Go touch the coils. I'm making my kids listen to this one, by the way. They're going to hate it and then they're going to touch the coils.
 
 &nbsp;
 

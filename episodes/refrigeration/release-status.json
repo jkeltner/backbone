@@ -1,0 +1,35 @@
+{
+  "topic": "refrigeration",
+  "created": "2026-09-13T20:37:05.653983",
+  "updated": "2026-09-14T11:28:19.554709",
+  "production": {
+    "tts": {
+      "status": "completed",
+      "started": "2026-09-13T20:37:05.654003",
+      "completed": "2026-09-13T21:27:34.161093"
+    },
+    "audio_assembly": {
+      "status": "completed",
+      "started": "2026-09-13T21:27:34.162757",
+      "completed": "2026-09-13T21:28:13.380775"
+    },
+    "timestamps": {
+      "status": "completed",
+      "started": "2026-09-13T21:28:13.381345",
+      "completed": "2026-09-13T21:28:13.427588"
+    },
+    "transcript": {
+      "status": "completed",
+      "started": "2026-09-13T21:28:13.427783",
+      "completed": "2026-09-13T21:28:13.454110"
+    }
+  },
+  "distribution": {
+    "podcast_upload": {
+      "status": "completed",
+      "review": "publish on Transistor",
+      "started": "2026-09-14T11:27:43.454507",
+      "completed": "2026-09-14T11:28:19.554665"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+---
+topic: refrigeration
+agent: script-writer
+chapter: 04
+chapter-title: "WAVE 3: Cold Comes Home"
+feedback-addressed:
+  - Pennington — "fantastic character," lean into the sexism (Jeff, 01 comments + notes) → the facts carry it: the 1892 certificate, Wiley filing her as "M.E.," the Commission's attempted rescission, the ice industry later hiring her; no lecture
+  - Banquet — "I might cut it down" (Jeff, 01 notes) → ~90 seconds, no menu (unsourced), the statutes as the aftermath
+  - Einstein mandatory; Road Not Taken Option A; "the better answer has real costs too"; no "we could have prevented climate change" (transcript; Jeff 01 comments) → full anchor from Dannen; costs stated as electricity, gas lines, carbon monoxide; climate not mentioned
+  - Berlin family "perhaps apocryphal" is fine (Jeff) → "reportedly"; the documented deaths are Chicago's
+  - Cleveland Clinic — keep, factual, not morbid, short; it was a film fire (transcript, both) → one paragraph, corrected on air
+  - Utility financing as razor-and-blades — "just need the break-even math" (Cyrus, 02 comments) → the arithmetic done on air with ComEd's own 1935 terms; Jeff's "free market being clever"
+  - Adoption anchored to radio / TV / telephone (Jeff, 01 comments); Jeff's Depression disbelief (transcript) → Cyrus reads the 1940 census, Jeff genuinely pushes back, answer is deflation, sealed box, safe gas, thirty-five months
+  - Winner-becomes-resister (Jeff, 01 notes) → the machine-ice industry at its 1919 census peak fighting the electric box; the Ice Woman on the ice industry's payroll
+  - Honest-cost iceman beat, once (02 comments) → in Jeff's register
+  - "Cold alone is not enough" / 1925 pamphlet → titles not stated as fact (unverified); the trade association's argument is described
+  - No production vocabulary; no echo handoffs; names arrive with context
+  - Research corrections applied: 1920 machine-ice = 2,867 plants / 38,605 workers / 27.9M tons; telephone ~seventy years to half of homes; Wiley did the filing, she scored highest; certificate 1892, Ph.D. 1895; "within days" for Freon (not "three days"); Monitor-Top "a few hundred dollars" / $525 at launch; the 1940 census 44 / 27 / 27
+editor-pass: 2026-09-13 (see editor-notes.md)
+fact-check-pass: 2026-09-13 (see fact-check-report.md)
+status: draft
+date: 2026-09-13
+---
+
+--- SEGMENT BREAK: Wave 3 - Cold Comes Home ---
+
+JEFF: So by nineteen oh seven the technology works. What doesn't work is trust. Nobody wants to eat an egg that's been sitting in a warehouse since April. "Cold storage" is a phrase people spit. And somebody had to write the rules that made stored food something you'd put in your mouth. And the person who did it had to be smuggled into the federal government under her initials.
+
+CYRUS: [curious] Her initials?
+
+JEFF: Yeah — M-E Pennington. And she's one of my favorite people in this whole story. Philadelphia Quaker. Fell in love with chemistry from a medical textbook at twelve. Goes to the University of Pennsylvania at eighteen, and in eighteen ninety-two she finishes every single requirement for a bachelor of science in chemistry. And Penn hands her a "certificate of proficiency." Because the trustees did not give degrees to women.
+
+CYRUS: [incredulous] A certificate. For the same coursework.
+
+JEFF: Same coursework, same exams. And here's the part that makes it almost funny — three years later, the same university gives her a doctorate. She's one of about a dozen American women with a chemistry doctorate before nineteen hundred. And then nobody will hire a woman chemist. So she starts her own lab, in eighteen ninety-eight, and sells subscriptions — fifty dollars a year — to Philadelphia doctors, and eventually to the city itself. And as the city's bacteriologist she spends years chasing bad milk and bad ice cream through Philadelphia's dairies. Not a small job, given what we said about milk.
+
+CYRUS: [amused] So she's the person who knows what's actually in the milk.
+
+JEFF: Which is exactly what gets her noticed. Harvey Wiley runs the Bureau of Chemistry at the Department of Agriculture — he's the guy behind the Pure Food and Drugs Act of nineteen oh six. And his next fight is perishables. Eggs, poultry, fish — and the new cold-storage warehouses nobody trusts. He wants her to run a new lab. Federal hiring goes through a civil-service exam and a board. So she takes the exam, under her own name, and gets the highest score. And then Wiley submits the hiring paperwork as "M-E Pennington."
+
+CYRUS: [laughs softly] So Wiley does the maneuver.
+
+JEFF: He does. And when the Civil Service Commission figures out M-E is a woman, they try to rescind it. And Wiley's argument — which wins — is that the civil-service law does not give him the right to refuse the top scorer because she's a woman. So she's in. The first woman to run a lab there. And, by at least one account, the highest-paid woman in the federal government. And then she goes and does the work.
+
+CYRUS: Which is what, exactly?
+
+JEFF: She puts thermometers in railcars. Between nineteen oh nine and nineteen twelve, her lab tracks a hundred and twenty carloads of dressed poultry — a hundred and forty thousand miles of track, Iowa and Tennessee to New York — with recording thermographs down by the ice bunker and up at the top of the load. And she and her people ride with them — her own bulletin has a staffer riding carloads of poultry from Tennessee to New York for days at a stretch, reading the instruments. During the war she personally inspected hundreds of refrigerator cars. And out of that comes the national standard: keep dressed poultry below thirty-one degrees on a long haul. She writes the rules for how a refrigerator car has to be built. She solves humidity in cold storage. The press eventually calls her "the Ice Woman."
+
+CYRUS: [dry] The Ice Woman. To Tudor's Ice King.
+
+JEFF: And she had a voice. Nineteen thirteen, on the public's panic about stored food: "A bad egg is blamed on cold storage during the months of April and May, when a storage egg is as rare a phenomenon as snow in the tropics." And this one: "Cold storage cannot improve foods, except, perhaps, cheese." And my favorite — asked about the suffrage movement, she said, "Chickens in cold storage are more interesting than women's suffrage."
+
+CYRUS: [laughs] Which is a choice about how to fight.
+
+JEFF: It's a very deliberate choice about how to fight. She'd been credentialed sideways by every institution she'd passed through, and her answer was to be so good at the work that the institution couldn't look away. And the payoff is that the invisible system — the warehouse you never see — becomes trustworthy because a woman who'd been told she couldn't have a degree wrote the rules for it.
+
+CYRUS: [skeptical] Did the public buy it, though? Because there's a version of this where the science is right and nobody cares.
+
+JEFF: [amused] Well — the industry didn't wait to find out. Nineteen eleven, "cold storage" is a national villain. It's the high-cost-of-living issue — the story is that warehouses are hoarding eggs to jack up prices, and the food's old. And so on October twenty-third, nineteen eleven, the poultry, butter, and egg trade association throws a banquet in the Louis the Sixteenth room of the Hotel Sherman in Chicago. Four hundred guests, including the mayor and the health commissioner. And every course — the poultry, the eggs, the butter — is months out of a cold-storage warehouse.
+
+CYRUS: [laughs] Prove it by eating it.
+
+JEFF: In front of the mayor! And the trade paper, the Egg Reporter, writes afterward that the guests learned "that one could partake of a cold storage meal and still live." And the funny thing is that the data backed them up. Massachusetts ran a commission on this in nineteen twelve and found that in Boston, nearly forty percent of the eggs and butter and forty-five percent of the poultry went through cold storage — and the notion that food sat in there for years was, in their words, "refuted by the statistical evidence."
+
+CYRUS: So the industry's answer to fear was theater.
+
+JEFF: And the legislature's answer was a date stamp. Massachusetts capped cold storage at twelve months and made every store hang a sign — "Cold-storage goods sold here." New York required every crate to be stamped with the date it went in, in letters at least three-eighths of an inch high. Both half-worked. And by the nineteen twenties, the fight over whether you can trust stored food is basically over. The fight that replaces it is whether you can trust the machine in your kitchen.
+
+CYRUS: [deliberate] Right — because now the machine shrinks. And this is the part I want to walk through carefully, because it's a systems failure, not a villain story. Kelvinator puts a household unit on the market in nineteen eighteen. Frigidaire gets bought by General Motors in nineteen nineteen. And in nineteen twenty-seven, only about forty percent of American homes have any refrigeration at all — and almost all of that is ice. In April of nineteen twenty-nine, under five percent of homes have an electric refrigerator. So this is, like, a tiny, rich-people product. And the early ones look like this: a wooden cabinet, with a compressor either in the basement or bolted on top, driven by a belt, with a shaft passing through a wall — and a seal around that shaft.
+
+JEFF: Which is Linde's problem again.
+
+CYRUS: In your kitchen this time. Seals wear. Belts slip. And when the seal leaks, what leaks out is one of three fluids: ammonia, sulfur dioxide, or methyl chloride. And here's the systems failure. Those fluids were chosen for physics — for a boiling point and a pressure a small compressor could handle. Nobody chose them for what happens when they get out. Sulfur dioxide burns your eyes, which at least warns you. Methyl chloride is nearly odorless. And all three, in the quantities inside one refrigerator, can kill you.
+
+JEFF: [quietly] And did.
+
+CYRUS: And did. Nineteen twenty-nine, Chicago. The American Medical Association counted twenty-nine methyl-chloride poisonings in that one city in that one year. Ten deaths. And the case everybody remembers is a family named Painter — two parents and their one-year-old — who died in their sleep in August from a leak in their apartment building's central refrigeration unit. The maintenance man had heard a hiss that sounded like a leak, couldn't find it, and left it for the night.
+
+JEFF: [exhales] One night.
+
+CYRUS: And the city immediately called for banning the gas. And I want to put one more thing in the room, because it's the same spring and the same fear. May fifteenth, nineteen twenty-nine, the Cleveland Clinic. In the basement, three or four tons of nitrocellulose X-ray film start to decompose — from heat off a light bulb or a steam pipe, the accounts differ — and the fumes go up through the building. A hundred and twenty-three people die, including one of the clinic's founders. Now — that was not a refrigerant. It was film. But it was poison gas in a building, in nineteen twenty-nine, on the front page. That is the air the electric refrigerator is trying to sell itself into.
+
+JEFF: So the box works, and people are afraid of it. And they should be.
+
+CYRUS: Which brings me to the two most famous physicists in Berlin.
+
+JEFF: [amused] Oh, I have been waiting for this one.
+
+CYRUS: [deliberate] So — this is reportedly how it starts. Winter of nineteen twenty-five, twenty-six. Albert Einstein, in Berlin, reads in the newspaper that a family has died in their sleep. Not a fire. Not a break-in. The refrigerator. Now — nobody has ever found that newspaper, or that family. The story comes down through Einstein's collaborator, so I'll say "reportedly." But we know what he said, because his collaborator told it: "There must be a better way."
+
+JEFF: And the collaborator is —
+
+CYRUS: Leó Szilárd. Hungarian physicist, twenty-two when they met, Einstein was forty-one. Szilárd's dissertation had extended thermodynamics in a way Einstein had said was impossible, and Einstein loved him for it. Total opposites — Szilárd is pushy and self-confident, Einstein is quiet. And by the mid-twenties Szilárd is about to become a lecturer with no salary, so — honestly — part of the motive is money. Patents could fund his career. And Einstein, who'd spent years in the Swiss patent office and said they were the best years of his life, was happy to draft them himself.
+
+JEFF: So what's the insight?
+
+CYRUS: The insight is that the problem isn't just the gas. It's the moving parts. Every seal, every bearing, every shaft through a wall is a place a leak can start. So design the moving parts out. And from thermodynamics they could see several ways to make cold with nothing moving. By the fall of nineteen twenty-six they've settled on three — one of them Carré's old idea, absorption, driven by heat. Szilárd writes his brother: "All three machines work without moving parts, and are hermetically sealed." They file patents in six countries. The American patent attorney writes back asking whether "Albert Einstein is the same person who propounded the theory of relativity."
+
+JEFF: [laughs] Reasonable question.
+
+CYRUS: And it works! Sort of, and in stages. They sell the absorption design to Electrolux in nineteen twenty-seven for thirty-one hundred reichsmarks — seven hundred and fifty dollars. Electrolux's own files call it "very cheap," and they never build it; they bought it to protect their own patents. Then there's a little tap-water-powered cooler you drop in a glass — Einstein's idea — that dies because German water pressure varied from floor to floor in a building. And then the one that matters: the electromagnetic pump. No piston. A traveling magnetic field pushes a liquid metal — a potassium-sodium alloy — and the metal itself acts as the piston that compresses the refrigerant. Nothing mechanical moves.
+
+JEFF: [skeptical] Liquid metal? In a kitchen appliance?
+
+CYRUS: Yes. And the metal attacks the wire insulation, so Szilárd takes it to Einstein, and their engineer Korodi says, "Einstein thought a few minutes," and proposed driving it by induction from outside the tube. Korodi ran the numbers and knew it would be much less efficient than a normal compressor. But it would never leak. So the big German electrical company, A-E-G, funds a department. They pay Korodi five hundred reichsmarks a month — about a hundred and twenty dollars — which he called "a good salary at a time when a car, a Ford, cost three hundred dollars." And his own summary of working with the most famous physicist alive was, "I didn't talk to Einstein about physics." And the prototype pump howled. A physicist friend of theirs said it "howled like a jackal." Another said it wailed like a banshee. It was cavitation in the liquid metal, and they eventually got it down to acceptable.
+
+JEFF: [laughs softly] A refrigerator that screams.
+
+CYRUS: Briefly. And by July thirty-first, nineteen thirty-one, there is an Einstein-Szilárd refrigerator running continuously in the A-E-G research institute — mounted in a General Electric cabinet — drawing a hundred and thirty-six watts. It worked. And then three things happen at once. The Depression guts A-E-G's budget. In nineteen thirty the Nazis take nearly twenty percent of the Reichstag, and Szilárd writes Einstein, "I don't know if it will be possible to build our refrigerator in Europe." And — from America — a chemist demonstrates a gas that can't burn and can't poison you. Which, in one stroke, erases the entire reason to build a refrigerator with no moving parts.
+
+JEFF: Because the selling point was safety.
+
+CYRUS: [deliberate] The only one. Their engineer wrote the final report in August of nineteen thirty-two — a hundred and four pages — and it went in a filing cabinet. A few months later Hitler is chancellor. More than forty-five patent filings in six countries, and no product. Two postscripts, though. The pump later found a job cooling breeder reactors, where "never leaks" matters more than efficiency. And the patent money carried Szilárd to England, where in nineteen thirty-three he worked out the nuclear chain reaction. In July of nineteen thirty-nine, he drove out to Long Island to convince Einstein to sign a letter to President Roosevelt about the atomic bomb — and the two of them spent part of that afternoon reminiscing about the refrigerators.
+
+JEFF: [reflective] That's remarkable. And I think the honest reading of that story is that nobody chose wrong. Because the road they didn't take had real costs too. A gas-absorption fridge needs a gas line and a flame in your kitchen. The prototype drew roughly twice the electricity of a compressor box. Servel sold gas-absorption refrigerators in America for thirty years, right up to nineteen fifty-six — and they carried their own hazard, carbon monoxide. The "better" answer wasn't free.
+
+CYRUS: A hundred percent. Absorption lost on two fronts at once. The grid made a motor cheap — by nineteen twenty-nine, two out of three American homes have a wire. And the safe gas took away its only argument. So the compressor wins. And the compressor gets fixed two ways in three years — one mechanical, one chemical. The mechanical fix is a Danish-born G-E engineer named Christian Steenstrup, who in nineteen twenty-seven puts the motor and the compressor together inside one welded steel dome on top of the cabinet. No belt. No shaft through a wall. No seal to wear. Nothing to leak.
+
+JEFF: So Linde kept the ammonia in with a sealed gland, and G-E just welded the box shut.
+
+CYRUS: Same problem, finished. It's called the Monitor-Top, because it looks like the turret on the Civil War ironclad, and it's the first refrigerator that really sells — over a million of them. Five hundred and twenty-five dollars at launch, which is a lot; a refrigerator in nineteen twenty cost about six hundred dollars, more than a Model T runabout. By nineteen twenty-nine the average advertised price is under three hundred. By nineteen forty, about a hundred and fifty.
+
+JEFF: [reflective] Okay, but here's the thing I want to spend a minute on, because it's the part I genuinely couldn't get my head around going in. The refrigerator goes from a rich person's toy to nearly half of American homes during the nineteen thirties. During the Depression. Who's paying for it? Because the family with a wire to the house in nineteen thirty-three doesn't have a hundred and fifty dollars sitting around.
+
+CYRUS: [deliberate] So this is my favorite business-model story in this whole thing, and the answer is: the electric company. And I want to actually do the math, because when I first read that the utilities were financing refrigerators, I assumed it was some kind of public-service thing. It is not. Start with what a house used. In the mid-nineteen thirties, a home with lights and a radio and a few small appliances draws something like fifteen to forty kilowatt-hours a month. A refrigerator of that era draws thirty to forty-five kilowatt-hours a month — by itself.
+
+JEFF: So it doubles the load.
+
+CYRUS: It doubles or triples the household's consumption. Forever. At the marginal rates of the time — four to six cents a kilowatt-hour — that's a dollar-twenty to two-seventy a month in new revenue, from one appliance, for as long as it runs. Over a ten-year life, that's a hundred and fifty to three hundred dollars — which is what the box cost. So the utility that helps you buy a refrigerator gets the price of the refrigerator back in electricity. And then keeps collecting.
+
+JEFF: [laughs] So they'd happily eat the cost of the box.
+
+CYRUS: They would happily give away the razor to sell you the blades — except in this case the customer pays for the razor too, on installments, on the same bill as the blades. Commonwealth Edison's refrigeration sales supervisor in Chicago says it in his own words in nineteen thirty-five: "For Commonwealth Edison Company it is the terms that close the deal — thirty-five months to pay, with charges coming on the electric bill." And a Montana utility's appliance ad: "One dollar down and one dollar per month, to be paid with your electric light bill." A Chicago department store had even spent three years selling refrigerators with a coin meter on the box — you fed it nickels the way you'd paid the iceman.
+
+JEFF: [laughs softly] Meter ice.
+
+CYRUS: And the trade press worried the terms were getting too easy. A nineteen thirty-four editorial frets that "the housewife will begin to regard ten-cents-a-day for refrigeration as a gross extravagance."
+
+JEFF: That is the free market being genuinely clever. The incentive is perfectly aligned — it reminds me of every software company that rediscovered this eighty years later, where the box is just the onboarding cost. And it's not the government doing it.
+
+CYRUS: Well — the government showed them how. Nineteen thirty-four, the New Deal sets up a thing called the Electric Home and Farm Authority: the dealer sells you the box, hands the contract to your utility, and the utility pays the dealer and collects from you on the light bill. They launched it in Tupelo, Mississippi, with an eighty-dollar refrigerator, and sold a hundred and thirty-seven of them in two weeks. The federal program itself stayed small — a few thousand contracts. What mattered is that every utility in the country saw the model.
+
+JEFF: And the sales pitch?
+
+CYRUS: The sales pitch is the best part. The salesmen worked evenings — three nights a week — because that's when both husband and wife were home; the trade press says "the husband and wife factor is essential." And they carried a worksheet to do the family's arithmetic. And the first line on the worksheet — the very first thing the salesman crosses out — is "Ice formerly purchased."
+
+JEFF: [quietly] So the iceman is on the worksheet. As a savings.
+
+CYRUS: Line one. Then "food spoilage prevented," then "savings from buying a week's supply instead of one day or one meal at a time." Minus operating cost, equals net savings per month, versus your monthly payment.
+
+JEFF: [reflective] So let's talk about the iceman for a second. Because this is the pattern in this story, right — the winner of the last round is the resister in the next one. And the machine-ice industry in nineteen nineteen is at its all-time peak. The census that year counts nearly three thousand ice plants, about thirty-eight thousand people, making twenty-eight million tons of ice — six and a half times what they'd made twenty years earlier. Machine ice had finally beaten the ponds. And at that exact moment, Kelvinator and Frigidaire are shipping their first few thousand units.
+
+CYRUS: And the ice industry fights.
+
+JEFF: It does, and every argument it makes is true. Electric boxes are dangerous — true, until nineteen thirty. They're expensive — true. They're unreliable — Commonwealth Edison tried selling them in nineteen twenty-three and installed two hundred and seventy-nine in two years; the product wasn't ready. And ice keeps food better — moist air, no drying out. And here's the detail I found delicious. The ice industry's trade association underwrote the government's former cold-chain authority. Mary Engle Pennington spent the nineteen twenties writing consumer pamphlets with the ice industry's backing.
+
+CYRUS: [incredulous] The Ice Woman worked for the ice men.
+
+JEFF: [amused] Right about every specific. Wrong about the trend. In nineteen forty, twenty-seven percent of American homes still ran on ice. Within about a decade of the war, big-city home ice delivery was gone.
+
+CYRUS: So — the curve. Let me read it, because I still don't think you believe it.
+
+JEFF: I don't. I read it three times.
+
+CYRUS: In nineteen thirty, roughly one American home in twelve has a refrigerator. The nineteen forty census — this is the census, not an estimate — forty-four percent mechanical. Twenty-seven percent still on ice. And twenty-seven percent nothing.
+
+JEFF: [skeptical] Nothing?
+
+CYRUS: Nothing. In nineteen forty, more than one American home in four had no refrigeration of any kind. Not a refrigerator, not an icebox. In the South, it's forty percent with nothing. Among Black households, half. And by nineteen fifty, the national number is about four homes in five with a refrigerator.
+
+JEFF: See, and this is what doesn't fit my mental model of the Depression. One in twelve to nearly one in two, in the ten worst years in American economic history. That doesn't seem possible.
+
+CYRUS: And the anchor makes it believable, I think. Radio went from about forty percent of homes in nineteen thirty to eighty-three percent in nineteen forty — the same pace, a decade earlier. Television was faster — two percent in nineteen forty-nine, fifty-nine percent five years later. And the telephone was way slower — it didn't reach half of American homes until after the Second World War, seventy years after Bell. So the fridge is radio-speed. Not a miracle.
+
+JEFF: But radio didn't cost six hundred dollars.
+
+CYRUS: Neither did the fridge by nineteen thirty-five. That's the answer to your question. Four things stacked. Deflation — the price of the box fell from six hundred dollars to a hundred and fifty, faster than wages fell. The sealed dome — no more service calls. The safe gas — no more dead families. And thirty-five months on the light bill. Any one of those and it's a luxury. All four and it's in half the country's kitchens in a decade.
+
+JEFF: [sighs] Yeah. And I want to name the cost of that plainly, because I think we owe it to the guy. The iceman had a route. He had a horse, later a truck. He had customers who knew his name and kids who knew the sound of his wagon. And the electric company sold the box that ended him, and profited on both ends of it — the installment and the kilowatt-hours. A real person lost his living. And the system flourished — cheaper food, safer milk, the weekly shop instead of buying one meal at a time. Both of those are true. I don't think you apologize for the second to say the first.
+
+CYRUS: No. And you don't skip the first to celebrate the second. And the shape of the kitchen changes with him, by the way. Daily marketing becomes the weekly shop. The first supermarket — King Kullen, in Queens — opens in August of nineteen thirty, ten times the size of an A and P, with a parking lot. And that same year, in March, in Springfield, Massachusetts, a man named Clarence Birdseye put twenty-seven frozen products into a grocery store for the first time.
+
+JEFF: [amused] Which is a whole other story for another day. Okay — so. The safe gas. We've been walking around it for twenty minutes.
+
+CYRUS: [deliberate] So — General Motors owns Frigidaire, and Frigidaire has a problem, which is that its product occasionally kills its customers. Charles Kettering, who runs G-M research, has a chemist named Thomas Midgley. And Midgley is a character — Cornell mechanical engineer, not a chemist by training. As a high-school pitcher he went looking for a substance to make his spitball break harder and found slippery-elm bark. His prep-school chemistry teacher gave him a periodic table, and he carried a copy for the rest of his life. And in nineteen twenty-one he'd already given the world leaded gasoline.
+
+JEFF: [dry] So one for one on the environment so far.
+
+CYRUS: We'll come to that. Kettering says it "took a whole Saturday afternoon to sell Midge on the idea that this was quite an important project." Fall of nineteen twenty-eight, Midgley and a chemist named Albert Henne are in a lab at Ohio State, and Midgley starts from the table. Flammability drops as you move to the right across the periodic table. Toxicity drops as you move up. And the two arrows cross at one element: fluorine. Which everybody knew was hideously dangerous — Kettering says he went ahead "in spite of warnings about the hazardous nature of fluorine." And within days they've made a compound called dichlorodifluoromethane. Which nobody can say, so it becomes Freon.
+
+JEFF: [curious] And it just — worked?
+
+CYRUS: It nearly didn't. This is the part that gives me chills. They made three or four small batches with the raw material they had, and tested them on animals. Only the first batch was non-toxic. Every animal exposed to the others died — exactly the way everyone expected a fluorine compound to behave. It turned out to be an impurity in the ingredients, not the Freon. Kettering's line is: "Fortunately, though, it was the first batch which turned out well." If they'd made batch two first, they walk away.
+
+JEFF: [quietly] That is truly nuts. I can't believe that's real.
+
+CYRUS: And then the demonstration. Nineteen thirty, American Chemical Society meeting. Midgley presents the first paper on fluorine refrigerants, and to prove the two properties at once — Kettering's words — "he demonstrated both their nontoxic and their noninflammable properties in one breath, so to speak." He takes a lungful of Freon vapor, and softly exhales it onto a candle burning in front of him. And the flame goes out.
+
+JEFF: [genuinely surprised] He breathed it in and blew out a candle with it.
+
+CYRUS: Non-toxic and non-flammable, in one breath. The two things every earlier refrigerant wasn't. Kettering called them "the only such compounds known which are stable, non-inflammable, and completely nontoxic." G-M and DuPont form a joint company to make it, and within five years the makers using Freon have sold something like eight million refrigerators. Before long, essentially every new box in America.
+
+JEFF: [reflective] So after a century of fluids that burned or poisoned — you finally have one that does nothing. It boils at the right temperature. It carries heat. It doesn't eat the metal. It doesn't burn. It doesn't kill you. It passed every test the engineers wrote.
+
+CYRUS: Every test they'd thought to write. And by nineteen fifty, four out of five American kitchens have a sealed steel box humming in the corner, and the gas inside it is the safest chemical anyone has ever put in a home.
+
+JEFF: It failed one test. Nobody had written it yet.
+
+CYRUS: [quietly] Don't last a century. And don't reach the sky.
+
+[MUSIC: transition-bumper]
