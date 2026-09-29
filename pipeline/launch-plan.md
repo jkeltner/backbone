@@ -60,7 +60,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 ### Phase B — Asset prep
 
 4. **Show-level cover art** — DONE — `assets/show_cover_art.png` (2026-05-22)
-5. **Music sign-off** — DONE 2026-04-25, files locked at `assets/music/backbone-{theme,bumper}.mp3`
+5. **Music sign-off** — DONE 2026-09-28, files locked at `assets/music/intro_v2.mp3`, `bumper_v2.mp3`, `outro_v2.mp3` (Music v2.5; original 2026-04-25 `backbone-{theme,bumper}.mp3` kept as fallback)
 6. **Per-episode artwork + audiogram backgrounds** — Generated externally in Claude Design; dropped into `episodes/{topic}/assets/images/` before Descript handoff
 7. **Episode metadata polish** — locked when the pipeline is re-run on v3 audio
 
