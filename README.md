@@ -301,7 +301,7 @@ Everything else is automation. The agents handle research, drafting, editing, fa
 
 | Episode | Status | Notes |
 |---------|--------|-------|
-| Refrigeration | Beta | Full content pipeline run; awaiting ElevenLabs v3 PVC for final audio regen, then ships as ep 1 |
+| Refrigeration | Beta | Full content pipeline run; final audio renders on ElevenLabs v4 + PVC, then ships as ep 1 |
 
 ---
 

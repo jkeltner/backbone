@@ -16,9 +16,10 @@ Music cue markers ([MUSIC: ...]) in the script are the natural chunking
 boundaries — each section between cues becomes one API call.
 
 Usage:
-  python tools/tts_dialogue.py refrigeration
-  python tools/tts_dialogue.py refrigeration --model v3       # Dialogue API (archived)
-  python tools/tts_dialogue.py refrigeration --speed 1.5      # faster playback (default: 1.3)
+  python tools/tts_dialogue.py refrigeration                  # v4 Dialogue API @ 1.2x (release config)
+  python tools/tts_dialogue.py refrigeration --model v3       # previous release model (comparison)
+  python tools/tts_dialogue.py refrigeration --model v2       # legacy per-turn v2 (tags stripped)
+  python tools/tts_dialogue.py refrigeration --speed 1.1      # slower playback (default: 1.2)
   python tools/tts_dialogue.py refrigeration --dry-run
   python tools/tts_dialogue.py refrigeration --wave 0
   python tools/tts_dialogue.py refrigeration --yes
@@ -26,21 +27,27 @@ Usage:
   python tools/tts_dialogue.py refrigeration --clone ivc      # use instant voice clones (default: pvc)
 
 Models:
-  v2 (default) — eleven_multilingual_v2, per-turn TTS (pydub required), audio tags stripped,
-                 warmer/more natural for conversational speech
-  v3           — ElevenLabs Dialogue API, native multi-speaker, supports audio tags (archived)
+  v4 (default) — eleven_v4 Dialogue API, native multi-speaker, performs audio tags, full PVC
+                 support. Release model (locked 2026-09-28). Stability default 0.7.
+  v3           — eleven_v3 Dialogue API. Previous release model, kept for comparison renders.
+                 Stability default 0.0 = "Creative".
+  v2           — eleven_multilingual_v2, per-turn TTS (pydub required), audio tags stripped.
+                 Kept for comparison renders only.
 
 Config (set in .env):
   ELEVENLABS_API_KEY
   JEFF_VOICE_ID_PVC / JEFF_VOICE_ID_IVC     professional / instant clone (both optional)
   CYRUS_VOICE_ID_PVC / CYRUS_VOICE_ID_IVC
+  JEFF_VOICE_ID_STOCK / CYRUS_VOICE_ID_STOCK  ElevenLabs library voices (diagnostic A/B)
   JEFF_VOICE_ID / CYRUS_VOICE_ID            fallback when no per-clone ID is set
-  VOICE_CLONE=pvc|ivc                       default clone when --clone is not passed
+  VOICE_CLONE=pvc|ivc|stock                 default clone when --clone is not passed
 
 Clones:
   pvc (default) — professional voice clones; output files keep their existing names
   ivc           — instant voice clones; wave files and per-turn cache get an extra
                   "_ivc" suffix so PVC and IVC renders can live side by side
+  stock         — ElevenLabs library voices (not clones), "_stock" suffix; used for
+                  naturalness A/B diagnostics against the clones
 """
 
 import os
@@ -51,26 +58,31 @@ import argparse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
+MODEL_V4 = "eleven_v4"
 MODEL_V3 = "eleven_v3"
 MODEL_V2 = "eleven_multilingual_v2"
-DEFAULT_MODEL = MODEL_V2
+DEFAULT_MODEL = MODEL_V4
+MODEL_IDS = {"v4": MODEL_V4, "v3": MODEL_V3, "v2": MODEL_V2}
+# Per-model stability default when --stability is not passed
+DEFAULT_STABILITY = {"v4": 0.7, "v3": 0.0, "v2": 0.0}
 OUTPUT_FORMAT = "mp3_44100_128"
 
-# Voice clone selector: "pvc" (professional) or "ivc" (instant). PVC is the
+# Voice selector: "pvc" (professional clone), "ivc" (instant clone) or "stock"
+# (ElevenLabs library voices, not clones — for A/B diagnostics). PVC is the
 # backward-compatible default — its files carry no extra suffix.
-CLONE_CHOICES = ("pvc", "ivc")
+CLONE_CHOICES = ("pvc", "ivc", "stock")
 DEFAULT_CLONE = "pvc"
 
 
 def clone_suffix(clone: str) -> str:
-    """Filename suffix for a clone choice: "" for pvc, "_ivc" for ivc."""
+    """Filename suffix for a clone choice: "" for pvc, "_ivc" / "_stock" otherwise."""
     return "" if clone == DEFAULT_CLONE else f"_{clone}"
 
 # ElevenLabs Dialogue API limits per request
 MAX_INPUTS_PER_REQUEST = 100
 MAX_CHARS_PER_REQUEST = 5000
 
-# Audio tags that ElevenLabs v3 handles natively but v2 does not
+# Audio tags that ElevenLabs v3/v4 handle natively but v2 does not
 AUDIO_TAG_RE = re.compile(r"\[(?:laughs?|pause|quietly|sighs?|clears throat|whispers?)[^\]]*\]\s*", re.IGNORECASE)
 
 # Per-turn loudness normalization target (EBU R128, standard for podcasts)
@@ -372,14 +384,14 @@ def strip_audio_tags(text: str) -> str:
 
 def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
                   stability: float = 0.4, speed: float = 1.0,
-                  model: str = MODEL_V3, reprocess: bool = False,
+                  model: str = DEFAULT_MODEL, reprocess: bool = False,
                   clone: str = DEFAULT_CLONE) -> bool:
-    """Generate audio for a single wave. Uses Dialogue API for v3, per-turn TTS for v2."""
+    """Generate audio for a single wave. Uses Dialogue API for v3/v4, per-turn TTS for v2."""
     out_path = output_dir / wave["filename"]
     turns = wave["turns"]
     sub_chunks = sub_chunk_wave(wave)
     use_v2 = (model == MODEL_V2)
-    cache_suffix = ("_v2" if use_v2 else "_v3") + clone_suffix(clone)
+    cache_suffix = "_v2" + clone_suffix(clone)  # per-turn cache is only used by the v2 path
 
     if out_path.exists() and not reprocess:
         print(f"  skip  {wave['filename']}")
@@ -410,11 +422,11 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
             _generate_wave_v2(client, wave, out_path, output_dir,
                               model, vid_for, stability, cache_suffix)
         else:
-            # v3: Dialogue API (multi-speaker, supports audio tags natively)
+            # v3/v4: Dialogue API (multi-speaker, supports audio tags natively)
             jeff_vid = voice_id_for("JEFF", clone)
             cyrus_vid = voice_id_for("CYRUS", clone)
             vid_for = lambda speaker: jeff_vid if speaker == "JEFF" else cyrus_vid
-            _generate_wave_v3(client, wave, out_path, output_dir,
+            _generate_wave_dialogue(client, wave, out_path, output_dir,
                               model, vid_for, stability, sub_chunks)
 
         if speed != 1.0:
@@ -434,9 +446,9 @@ def generate_wave(client, wave: dict, output_dir: Path, dry_run: bool = False,
         return False
 
 
-def _generate_wave_v3(client, wave, out_path, output_dir,
+def _generate_wave_dialogue(client, wave, out_path, output_dir,
                       model, vid_for, stability, sub_chunks):
-    """Generate a wave using the ElevenLabs Dialogue API (v3 only)."""
+    """Generate a wave using the ElevenLabs Dialogue API (v3/v4)."""
     from elevenlabs import DialogueInput
     from elevenlabs.types import ModelSettingsResponseModel
 
@@ -592,24 +604,29 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Plan without calling the API")
     parser.add_argument("--wave", type=int, metavar="N", help="Only generate wave N (0=opening)")
     parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompt")
-    parser.add_argument("--stability", type=float, default=0.4, metavar="N",
-                        help="Voice stability 0.0–1.0 (lower=more expressive, default: 0.4)")
-    parser.add_argument("--speed", type=float, default=1.3, metavar="N",
-                        help="Playback speed multiplier (default: 1.3). Requires ffmpeg.")
-    parser.add_argument("--model", choices=["v2", "v3"], default="v2",
-                        help="ElevenLabs model: v2 (multilingual_v2, per-turn, default) or "
-                             "v3 (Dialogue API, audio tags). Default: v2")
+    parser.add_argument("--stability", type=float, default=None, metavar="N",
+                        help="Voice stability 0.0–1.0 (lower = more expressive, higher = more consistent). "
+                             "Default: 0.7 for v4, 0.0 for v3. Raise if a render hallucinates.")
+    parser.add_argument("--speed", type=float, default=1.2, metavar="N",
+                        help="Playback speed multiplier via ffmpeg atempo (default: 1.2). Requires ffmpeg.")
+    parser.add_argument("--model", choices=["v2", "v3", "v4"], default="v4",
+                        help="ElevenLabs model: v4 (Dialogue API, audio tags, PVC — release model, default), "
+                             "v3 (Dialogue API — previous release model, comparison) or "
+                             "v2 (multilingual_v2, per-turn, tags stripped — legacy/comparison)")
     parser.add_argument("--reprocess", action="store_true",
                         help="Re-concatenate from cached per-turn files with LUFS normalization. "
                              "No API calls — requires a prior run that cached per-turn files.")
     parser.add_argument("--clone", choices=list(CLONE_CHOICES),
                         default=os.environ.get("VOICE_CLONE", DEFAULT_CLONE).lower(),
-                        help="Which voice clones to use: pvc (professional, default) or ivc "
-                             "(instant). Reads {SPEAKER}_VOICE_ID_{CLONE} from .env, falling back "
+                        help="Which voices to use: pvc (professional clones, default), ivc "
+                             "(instant clones) or stock (ElevenLabs library voices). Reads "
+                             "{SPEAKER}_VOICE_ID_{CLONE} from .env, falling back "
                              "to {SPEAKER}_VOICE_ID. Default comes from VOICE_CLONE in .env.")
     args = parser.parse_args()
 
-    model_id = MODEL_V2 if args.model == "v2" else MODEL_V3
+    model_id = MODEL_IDS[args.model]
+    if args.stability is None:
+        args.stability = DEFAULT_STABILITY[args.model]
     clone = args.clone
 
     script_path = REPO_ROOT / "episodes" / args.topic / "final" / "assembled.txt"
@@ -620,9 +637,10 @@ def main():
         sys.exit(1)
 
     # Parse and split into waves
-    model_suffix = f"_{args.model}" + clone_suffix(clone)  # "_v3", "_v2", "_v3_ivc", "_v2_ivc"
+    model_suffix = f"_{args.model}" + clone_suffix(clone)  # "_v4", "_v4_ivc", "_v3", ...
     print(f"\nParsing {script_path.name} ...")
-    print(f"  Model: {model_id}" + (" (per-turn TTS, audio tags stripped)" if args.model == "v2" else " (Dialogue API)"))
+    print(f"  Model: {model_id}" + (" (per-turn TTS, audio tags stripped)" if args.model == "v2" else " (Dialogue API)")
+          + f", stability {args.stability}, speed {args.speed}x")
     print(f"  Clone: {clone}  (JEFF={voice_id_for('JEFF', clone)}, CYRUS={voice_id_for('CYRUS', clone)})")
     items = parse_assembled(script_path)
     waves = split_into_waves(items, model_suffix=model_suffix)
@@ -673,6 +691,7 @@ def main():
         print(f"\nDone: {ok} reprocessed, {failed} failed")
         if failed:
             print("Missing cached files — run without --reprocess first to generate them.")
+            sys.exit(1)
         return
 
     if to_generate == 0:
@@ -700,6 +719,7 @@ def main():
     print(f"\nDone: {ok} generated, {already_done} skipped, {failed} failed")
     if failed:
         print("Re-run to retry failed waves.")
+        sys.exit(1)  # make failures visible to release.py — a missing wave must not assemble silently
 
 
 if __name__ == "__main__":

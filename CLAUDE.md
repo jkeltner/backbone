@@ -240,7 +240,7 @@ backbone/
 ├── assets/                      ← show-level assets
 │   ├── show-description.md      ← canonical show copy (tagline, short, long descriptions)
 │   ├── show_cover_art.png       ← show-level cover art master (square)
-│   └── music/                   ← locked: backbone-theme.mp3, backbone-bumper.mp3
+│   └── music/                   ← locked (2026-09-28, Music v2.5): intro_v2.mp3, bumper_v2.mp3, outro_v2.mp3
 ├── pipeline/                    ← technical specs + plans for automated tooling
 │   ├── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
 │   ├── production-pipeline.md
@@ -323,7 +323,7 @@ Each role file in `roles/` is a **complete task briefing** — an agent reads it
 - Each wave should feel like a distinct chapter, not a repetitive cycle
 
 ### Script
-- The primary deliverable is `script.txt` — fully scripted TTS-ready dialogue for ElevenLabs v3
+- The primary deliverable is `script.txt` — fully scripted TTS-ready dialogue for ElevenLabs v4 (Text to Dialogue API, professional voice clones)
 - Speaker labels (`JEFF:` / `CYRUS:`), segment breaks at wave boundaries, audio tags used sparingly
 - Music cue markers (`[MUSIC: theme-in]`, `[MUSIC: transition-bumper]`, `[MUSIC: theme-out]`) placed at the correct positions — consumed by the TTS pipeline, not spoken
 - No markdown, no editorial notes — only speakable content (plus structural markers)

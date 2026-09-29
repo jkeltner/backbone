@@ -2,8 +2,12 @@
 """
 distribute_podcast.py — Upload episode to Transistor.fm as draft
 
-Uploads mp3 + metadata + chapters + transcript to Transistor.fm via REST API.
-Creates the episode as a draft — Jeff publishes manually.
+Uploads mp3 + metadata + show notes (HTML) + transcript to Transistor.fm via
+REST API. Creates the episode as a draft — Jeff publishes manually. Refuses to
+run if an episode with the same title already exists in the show.
+
+Chapters are NOT uploaded: Transistor's API has no chapters field. The chapter
+timestamps appear in the show notes; add chapter markers in the dashboard.
 
 Usage:
   python tools/distribute_podcast.py refrigeration
@@ -80,11 +84,35 @@ def load_description(topic):
 
 
 def load_show_notes(topic):
-    """Load show notes for the episode page."""
+    """Load show notes for the episode page as HTML.
+
+    show-notes.md carries YAML front matter (required on every deliverable)
+    and markdown; Transistor's description field expects HTML.
+    """
     notes_path = REPO_ROOT / "episodes" / topic / "final" / "show-notes.md"
-    if notes_path.exists():
-        return notes_path.read_text()
-    return ""
+    if not notes_path.exists():
+        return ""
+    text = re.sub(r"\A---\n.*?\n---\n", "", notes_path.read_text(), flags=re.DOTALL)
+    try:
+        import markdown
+    except ImportError:
+        print("Error: markdown library required (pip install markdown)")
+        sys.exit(1)
+    return markdown.markdown(text.strip())
+
+
+def find_existing_episode(requests, base_url, headers, show_id, title):
+    """Return the ID of an episode in the show with this exact title, if any."""
+    resp = requests.get(
+        f"{base_url}/episodes",
+        headers=headers,
+        params={"show_id": show_id, "query": title, "pagination[per]": 50},
+    )
+    _check(resp, "checking for existing episode")
+    for ep in resp.json()["data"]:
+        if ep["attributes"]["title"] == title:
+            return ep["id"], ep["attributes"]["status"]
+    return None
 
 
 def _check(resp, action):
@@ -128,9 +156,12 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
     print(f"Credentials: TRANSISTOR_API_KEY={'set' if api_key else 'MISSING'}, "
           f"TRANSISTOR_SHOW_ID={'set' if show_id else 'MISSING'}")
 
+    # Transistor's API has no chapters field. The chapter timestamps ride along
+    # in the show notes; proper chapter markers are added by hand in the dashboard.
     if chapters_path.exists():
         chapters = json.loads(chapters_path.read_text())
-        print(f"Chapters: {len(chapters.get('chapters', []))} chapters")
+        print(f"Chapters: {len(chapters.get('chapters', []))} in chapters.json "
+              "(not uploaded — no API field; add in the Transistor dashboard)")
 
     if transcript_path.exists():
         print(f"Transcript: {transcript_path}")
@@ -148,6 +179,15 @@ def upload_to_transistor(topic, dry_run=False, publish=False):
 
     headers = {"x-api-key": api_key}
     base_url = "https://api.transistor.fm/v1"
+
+    # Guard against duplicate drafts: this script always creates a new episode.
+    existing = find_existing_episode(requests, base_url, headers, show_id, meta["title"])
+    if existing:
+        episode_id, ep_status = existing
+        print(f"\nError: an episode titled '{meta['title']}' already exists "
+              f"(ID {episode_id}, status: {ep_status}). Delete it in Transistor "
+              "before re-uploading.")
+        sys.exit(1)
 
     # Step 1: Get authorized upload URL
     print("\nRequesting upload URL...")

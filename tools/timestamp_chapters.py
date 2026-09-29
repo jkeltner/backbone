@@ -103,49 +103,49 @@ def generate_chapters(topic):
     if not chapter_names:
         chapter_names = load_blueprint_chapter_names(topic)
 
-    # Build chapters from wave segments
-    # The script may have more wave segments than named chapters (e.g., an internal
-    # bumper splits one chapter into two audio segments). When a wave index has no
-    # name and the next named chapter is "Built In" (sentinel -1), treat the
-    # unnamed wave as the start of "Built In" and skip the later segment.
+    # Build chapters from wave segments.
+    # Waves are split at EVERY music cue, so a chapter can span several waves
+    # (e.g. [MUSIC: theme-in] inside the opening splits it into two waves). A new
+    # chapter starts at the first wave and at every wave that directly follows a
+    # transition-bumper; waves that follow theme-in (or another wave) are
+    # continuations. Chapter titles are then assigned in order: Opening, Wave 1..N,
+    # Built In.
+    ordered_titles = []
+    if 0 in chapter_names:
+        ordered_titles.append(chapter_names[0])
+    for k in sorted(i for i in chapter_names if i > 0):
+        ordered_titles.append(chapter_names[k])
+    if -1 in chapter_names:
+        ordered_titles.append(chapter_names[-1])
+
     chapters = []
-    wave_segments = [s for s in segments if s["type"] == "wave"]
-    used_builtin = False
-
-    for i, seg in enumerate(wave_segments):
-        idx = seg["index"]
-        # Determine chapter title
-        if idx == 0:
-            title = chapter_names.get(0, "The Hook")
-        elif idx in chapter_names:
-            title = chapter_names[idx]
-        elif i == len(wave_segments) - 1:
-            # Last wave — use "Built In" name if not already used
-            if not used_builtin:
-                title = chapter_names.get(-1, "The Big Picture")
-                used_builtin = True
-            else:
-                continue  # skip — already covered by earlier chapter
-        elif idx not in chapter_names and not used_builtin:
-            # Unnamed wave — check if it's the start of Built In
-            # (no named waves left between here and the end)
-            remaining_named = any(
-                wave_segments[j]["index"] in chapter_names
-                for j in range(i + 1, len(wave_segments))
-            )
-            if not remaining_named:
-                title = chapter_names.get(-1, "The Big Picture")
-                used_builtin = True
-            else:
-                title = f"Wave {idx}"
+    prev_cue = None
+    chapter_no = -1
+    for seg in segments:
+        if seg["type"] == "music":
+            prev_cue = seg.get("cue")
+            continue
+        if seg["type"] != "wave":
+            continue
+        starts_chapter = (chapter_no < 0) or (prev_cue == "transition-bumper")
+        prev_cue = None
+        if not starts_chapter:
+            continue  # continuation of the current chapter
+        chapter_no += 1
+        if chapter_no < len(ordered_titles):
+            title = ordered_titles[chapter_no]
+        elif chapter_no == 0:
+            title = "The Hook"
         else:
-            continue  # skip continuation segment
-
+            title = f"Chapter {chapter_no + 1}"
         chapters.append({
             "title": title,
             "startTime": ms_to_seconds(seg["start_ms"]),
             "startTimestamp": ms_to_timestamp(seg["start_ms"]),
         })
+    if len(chapters) != len(ordered_titles) and ordered_titles:
+        print(f"  WARNING: {len(chapters)} chapter boundaries in audio vs "
+              f"{len(ordered_titles)} named chapters — check bumper placement")
 
     # Podcasting 2.0 chapters format
     chapters_json = {

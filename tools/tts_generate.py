@@ -19,7 +19,7 @@ Config (set in .env or environment):
   ELEVENLABS_API_KEY
   JEFF_VOICE_ID
   CYRUS_VOICE_ID
-  ELEVENLABS_MODEL_ID   (default: eleven_v3)
+  ELEVENLABS_MODEL_ID   (default: eleven_v4)
 """
 
 import os
@@ -30,7 +30,7 @@ import argparse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
-DEFAULT_MODEL = "eleven_v3"
+DEFAULT_MODEL = "eleven_v4"
 OUTPUT_FORMAT = "mp3_44100_128"
 MAX_CHARS = 4500  # ElevenLabs safe limit per call
 
@@ -93,7 +93,7 @@ def parse_assembled(script_path: Path) -> list[dict]:
       {"type": "music", "cue": "[MUSIC: theme-in]",               "segment": "..."}
 
     Strips front matter, segment break markers, and blank lines.
-    Audio tags ([laughs], [pause], etc.) are preserved — ElevenLabs v3 handles them.
+    Audio tags ([laughs], [pause], etc.) are preserved — ElevenLabs v3/v4 handle them.
     """
     content = script_path.read_text(encoding="utf-8")
 

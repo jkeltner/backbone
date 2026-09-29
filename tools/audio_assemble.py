@@ -7,8 +7,9 @@ crossfades. Also produces a position map (assembly-map.json) used by
 timestamp_chapters to locate content by time offset.
 
 Usage:
-  python tools/audio_assemble.py refrigeration
-  python tools/audio_assemble.py refrigeration --model v3       # use _v3 wave files (archived)
+  python tools/audio_assemble.py refrigeration                  # use _v4 wave files (release model, default)
+  python tools/audio_assemble.py refrigeration --model v3       # use _v3 wave files (comparison)
+  python tools/audio_assemble.py refrigeration --model v2       # use _v2 wave files (comparison)
   python tools/audio_assemble.py refrigeration --model default  # use unsuffixed wave files
   python tools/audio_assemble.py refrigeration --clone ivc      # use *_ivc wave files (instant clones)
   python tools/audio_assemble.py refrigeration --dry-run        # show plan, don't assemble
@@ -17,8 +18,10 @@ Usage:
 Requires: pydub (pip install pydub), ffmpeg on PATH
 
 Config (set in .env or pipeline/config.py):
-  THEME_MUSIC       — path to theme music file (relative to repo root)
+  THEME_MUSIC       — path to theme-in (intro) music file (relative to repo root)
+  THEME_OUT_MUSIC   — path to theme-out (outro) music file; falls back to THEME_MUSIC
   TRANSITION_BUMPER — path to bumper file
+  THEME_OUT_FADE_MS — fade applied to the end of theme-out (short: the v2 outro has a composed ending)
 """
 
 import os
@@ -33,7 +36,7 @@ REPO_ROOT = Path(__file__).parent.parent
 # Assembly parameters (from tts-pipeline.md)
 CROSSFADE_THEME_MS = 500
 CROSSFADE_BUMPER_MS = 300
-THEME_OUT_FADE_MS = 3000
+THEME_OUT_FADE_MS = 500  # v2 outro (Music v2.5) resolves on its own; this only smooths the tail
 
 # Loudness normalization target (EBU R128, standard for podcasts)
 TARGET_LUFS = -16
@@ -47,8 +50,9 @@ FRONT_MATTER_RE = re.compile(r"^---\s*$")
 def load_config():
     """Load music config from .env or defaults."""
     config = {
-        "theme_music": os.environ.get("THEME_MUSIC", "assets/music/backbone-theme.mp3"),
-        "transition_bumper": os.environ.get("TRANSITION_BUMPER", "assets/music/backbone-bumper.mp3"),
+        "theme_music": os.environ.get("THEME_MUSIC", "assets/music/intro_v2.mp3"),
+        "theme_out_music": os.environ.get("THEME_OUT_MUSIC") or os.environ.get("THEME_MUSIC", "assets/music/outro_v2.mp3"),
+        "transition_bumper": os.environ.get("TRANSITION_BUMPER", "assets/music/bumper_v2.mp3"),
         "theme_out_fade_ms": int(os.environ.get("THEME_OUT_FADE_MS", THEME_OUT_FADE_MS)),
     }
     return config
@@ -134,16 +138,65 @@ def measure_lufs(file_path):
     """Measure integrated loudness (LUFS) of an audio file using ffmpeg."""
     import subprocess
     result = subprocess.run(
-        ["ffmpeg", "-i", str(file_path), "-af", "ebur128=framelog=verbose", "-f", "null", "/dev/null"],
+        ["ffmpeg", "-nostats", "-i", str(file_path), "-af", "ebur128", "-f", "null", "/dev/null"],
         capture_output=True, text=True,
     )
-    # Parse the summary line: "I: -21.4 LUFS"
+    # Parse the summary block ("Integrated loudness: I: -21.4 LUFS"). Take the LAST match:
+    # with framelog=verbose ffmpeg also prints per-frame "I:" lines and the first one
+    # (at t≈0.1s) reads -70 LUFS, which once drove a +54 dB gain into clipping.
+    value = None
     for line in result.stderr.splitlines():
-        if "I:" in line and "LUFS" in line:
-            m = re.search(r"I:\s*(-?\d+\.?\d*)\s*LUFS", line)
-            if m:
-                return float(m.group(1))
-    return None
+        m = re.search(r"\bI:\s*(-?\d+\.?\d*)\s*LUFS", line)
+        if m:
+            value = float(m.group(1))
+    if value is not None and value <= -60:
+        return None  # effectively silence / measurement failure — don't "normalize" it
+    return value
+
+
+TARGET_TRUE_PEAK = -1.5  # dBTP ceiling for podcast delivery
+
+
+def finalize_loudness(mp3_path):
+    """Two-pass ffmpeg loudnorm on the assembled episode: integrated -16 LUFS, true peak -1.5 dBTP.
+
+    Pass 1 measures; pass 2 applies loudnorm with the measured values so the gain is linear
+    (no pumping) wherever the true-peak ceiling allows. Overwrites mp3_path.
+    """
+    import json as _json
+    import subprocess
+    import tempfile
+    measure = subprocess.run(
+        ["ffmpeg", "-nostats", "-i", str(mp3_path), "-af",
+         f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TRUE_PEAK}:LRA=11:print_format=json",
+         "-f", "null", "/dev/null"],
+        capture_output=True, text=True,
+    )
+    m = re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", measure.stderr, re.S)
+    if not m:
+        print("  WARNING: loudnorm measurement failed; leaving loudness as assembled")
+        return None
+    stats = _json.loads(m.group(0))
+    print(f"  Loudness before: {float(stats['input_i']):.1f} LUFS, true peak {float(stats['input_tp']):.1f} dBTP")
+    tmp = Path(tempfile.mkstemp(suffix=".mp3", dir=str(Path(mp3_path).parent))[1])
+    filt = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TRUE_PEAK}:LRA=11:"
+            f"measured_I={stats['input_i']}:measured_TP={stats['input_tp']}:"
+            f"measured_LRA={stats['input_lra']}:measured_thresh={stats['input_thresh']}:"
+            f"offset={stats['target_offset']}:linear=true:print_format=summary")
+    apply = subprocess.run(
+        ["ffmpeg", "-nostats", "-y", "-i", str(mp3_path), "-af", filt,
+         "-ar", "44100", "-b:a", "128k", str(tmp)],
+        capture_output=True, text=True,
+    )
+    if apply.returncode != 0 or not tmp.exists():
+        print(f"  WARNING: loudnorm apply failed: {apply.stderr[-300:]}")
+        tmp.unlink(missing_ok=True)
+        return None
+    tmp.replace(mp3_path)
+    os.chmod(mp3_path, 0o644)  # mkstemp creates 0600; the episode must be readable by upload/Descript
+    after = measure_lufs(mp3_path)
+    print(f"  Loudness after:  {after:.1f} LUFS (target {TARGET_LUFS}, ceiling {TARGET_TRUE_PEAK} dBTP)" if after is not None else "  Loudness after: (unmeasured)")
+    return after
 
 
 def normalize_audio(audio_segment, file_path):
@@ -205,12 +258,16 @@ def parse_assembled_script(script_path):
         if music_match:
             if has_content:
                 # Close the current wave
+                segments.append({"type": "wave", "index": wave_index})
                 wave_index += 1
             segments.append({"type": "music", "cue": music_match.group(1)})
             has_content = False
         else:
             if line_stripped:
                 has_content = True
+
+    if has_content:
+        segments.append({"type": "wave", "index": wave_index})
 
     # The wave naming convention from tts_dialogue.py:
     # wave-00-opening, wave-01, wave-02, ..., wave-NN-built-in
@@ -225,11 +282,11 @@ def discover_wave_files(audio_dir, model_suffix=""):
     """Find wave audio files in the audio directory.
 
     Returns dict mapping wave index to file path.
-    model_suffix: "" for default, "_v2" for v2, "_v3" for v3.
+    model_suffix: "" for default, "_v2" / "_v3" / "_v4" for that model.
     """
     waves = {}
     if model_suffix:
-        # Match files with this specific suffix: wave-00-opening_v3.mp3
+        # Match files with this specific suffix: wave-00-opening_v4.mp3
         pattern = re.compile(r"wave-(\d+)(?:-[a-z-]+)?" + re.escape(model_suffix) + r"\.mp3$")
     else:
         # Match files without any model suffix: wave-00-opening.mp3 (not _v2/_v3)
@@ -247,8 +304,10 @@ def discover_wave_files(audio_dir, model_suffix=""):
 
 def resolve_music_file(cue_name, config):
     """Resolve a music cue name to a file path."""
-    if cue_name in ("theme-in", "theme-out"):
+    if cue_name == "theme-in":
         path = REPO_ROOT / config["theme_music"]
+    elif cue_name == "theme-out":
+        path = REPO_ROOT / config["theme_out_music"]
     elif cue_name == "transition-bumper":
         if config["transition_bumper"]:
             path = REPO_ROOT / config["transition_bumper"]
@@ -325,6 +384,14 @@ def assemble(topic, model_suffix="", dry_run=False, no_music=False, wave_filter=
             wave_idx += 1
             if wave_idx in waves:
                 plan.append({"type": "wave", "index": wave_idx, "file": waves[wave_idx]})
+
+    # Every wave the script implies must exist — a missing render must never assemble silently.
+    script_waves = [seg["index"] for seg in segments if seg["type"] == "wave"]
+    missing = [i for i in script_waves if i not in waves]
+    if missing and wave_filter is None:
+        print(f"\nError: wave file(s) missing for wave index {missing} — TTS did not render them.")
+        print(f"       Run: python tools/tts_dialogue.py {topic} --wave N  (for each N), then re-assemble.")
+        sys.exit(1)
 
     # Filter to a single wave if requested
     if wave_filter is not None:
@@ -433,6 +500,8 @@ def assemble(topic, model_suffix="", dry_run=False, no_music=False, wave_filter=
     result.export(str(output_path), format="mp3", bitrate="128k")
 
     if wave_filter is None:
+        print("Finalizing loudness (two-pass loudnorm)...")
+        finalize_loudness(output_path)
         tags = load_id3_tags(topic)
         cover = find_cover_art()
         write_id3_tags(str(output_path), tags, cover_path=cover)
@@ -468,21 +537,22 @@ def main():
     parser.add_argument("topic", help="Episode topic (directory name under episodes/)")
     parser.add_argument(
         "--model",
-        choices=["v2", "v3", "default"],
-        default="v2",
-        help="Which wave files to use (v2: _v2 [default], v3: _v3, default: no suffix)",
+        choices=["v2", "v3", "v4", "default"],
+        default="v4",
+        help="Which wave files to use (v4: _v4 [default, release model], v3: _v3, v2: _v2, default: no suffix)",
     )
-    parser.add_argument("--clone", choices=["pvc", "ivc"],
+    parser.add_argument("--clone", choices=["pvc", "ivc", "stock"],
                         default=os.environ.get("VOICE_CLONE", "pvc").lower(),
-                        help="Which clone's wave files to use: pvc (no extra suffix, default) or "
-                             "ivc (files ending _ivc). Default comes from VOICE_CLONE in .env.")
+                        help="Which voice's wave files to use: pvc (no extra suffix, default), "
+                             "ivc (files ending _ivc) or stock (files ending _stock). "
+                             "Default comes from VOICE_CLONE in .env.")
     parser.add_argument("--wave", type=int, metavar="N",
                         help="Only assemble wave N (0=opening). Output: episode-wave-NN.mp3")
     parser.add_argument("--dry-run", action="store_true", help="Show plan without assembling")
     parser.add_argument("--no-music", action="store_true", help="Skip music (insert silence instead)")
     args = parser.parse_args()
 
-    suffix_map = {"default": "", "v2": "_v2", "v3": "_v3"}
+    suffix_map = {"default": "", "v2": "_v2", "v3": "_v3", "v4": "_v4"}
     model_suffix = suffix_map[args.model] + ("" if args.clone == "pvc" else f"_{args.clone}")
 
     assemble(args.topic, model_suffix=model_suffix, dry_run=args.dry_run,

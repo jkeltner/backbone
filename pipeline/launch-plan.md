@@ -12,11 +12,11 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 - **Launch scope for ep 1:** audio on Spotify/Apple + YouTube full-episode video (assembled in Descript) + one announcement
 - **Video assembly:** Done by hand in Descript using assembled audio + externally-generated background images. No automated audiogram or clip generation in this pipeline
 - **Per-episode artwork + audiogram backgrounds:** Generated externally (Claude Design), dropped into `episodes/{topic}/assets/images/`. Horizontal backgrounds for full episodes, vertical for shorts
-- **Music:** locked to `assets/music/backbone-theme.mp3` and `assets/music/backbone-bumper.mp3` (2026-04-25)
+- **Music:** locked to `assets/music/intro_v2.mp3` (15 s), `bumper_v2.mp3` (5 s), `outro_v2.mp3` (20 s) — regenerated on ElevenLabs Music v2.5 at tighter lengths (2026-09-28). Originals `backbone-theme.mp3` / `backbone-bumper.mp3` (2026-04-25, Music v1) kept as fallback
 - **Show description:** locked at `assets/show-description.md`; in production on Transistor
 - **Categories on Transistor:** History (primary), Technology (secondary)
 
-**Hard gate on ep 1 ship (locked 2026-04-25):** ElevenLabs must enable Professional Voice Cloning on v3. Audio will be regenerated on v3 before publish; v2 audio is not shipping. See `~/.claude/.../memory/project_elevenlabs_v3_pro_clone_wait.md`.
+**Hard gate on ep 1 ship — RESOLVED 2026-09-28:** ElevenLabs shipped Eleven v4 with full PVC support; ep 1 renders on v4 + PVC. *Original gate (2026-04-25):* ElevenLabs must enable Professional Voice Cloning on v3. Audio will be regenerated on v3 before publish; v2 audio is not shipping. See `~/.claude/.../memory/project_elevenlabs_v3_pro_clone_wait.md`.
 
 **Out of scope of this plan:** script generation, TTS/audio assembly, host profile refinement, episode 2+ content work.
 
@@ -51,7 +51,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
    - Account created, show configured (title, description, categories: History + Technology, language, author, copyright, explicit flag)
    - Show-level cover art: DONE — uploaded to Transistor
    - API key + Show ID added to `.env`
-   - RSS submission to Apple / Spotify directories: **BLOCKED** — needs first episode in feed (which is gated on v3 PVC)
+   - RSS submission to Apple / Spotify directories: **BLOCKED** — needs first episode in feed (PVC gate resolved 2026-09-28 by v4)
 
 2. **YouTube** — uploads done manually from Descript exports. No service setup or API tokens required.
 
@@ -73,8 +73,8 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 
 ### Phase D — End-to-end dry run on refrigeration
 
-11. **Pipeline re-run** (deferred — happens after v3 PVC lands)
-    - Regenerate audio on v3 with updated audio-tag vocabulary
+11. **Pipeline re-run** (unblocked 2026-09-28 — v4 + PVC)
+    - Regenerate audio on v4 + PVC (`python tools/release.py refrigeration produce`)
     - Re-run audio assembly, transcript, chapters
 12. **Run `python tools/release.py refrigeration distribute`**
     - Creates a draft episode in Transistor
@@ -115,7 +115,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 ## Verification
 
 The plan is verified when:
-1. A draft episode exists on Transistor with correct audio (v3-regenerated), title, description, chapters, transcript
+1. A draft episode exists on Transistor with correct audio (v4 + PVC), title, description, chapters, transcript
 2. A video assembled in Descript is uploaded to YouTube, unlisted, with correct title and description
 3. The Transistor auto-website renders the show correctly
 4. `release-status.json` shows production + distribution steps completed for refrigeration

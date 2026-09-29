@@ -2,9 +2,9 @@
 
 This document is the technical spec for the automated Python/ElevenLabs workflow that converts a finished script into a produced audio episode. Build against this spec — the script format contract is defined here.
 
-> **Model status (as of 2026-04-26):** v2 multilingual is the current target. Episode 1 launch is gated on ElevenLabs enabling Professional Voice Cloning on v3. **Scripts are now authored for v3** — see `roles/script-writer.md` "Audio Tags (Eleven v3)" — so when v3 PVC lands, the script writing surface is already aligned. Until then, audio tags are **stripped before TTS** in the v2 path; punctuation and capitalization are preserved (v2 honors them too).
+> **Model status (as of 2026-09-28):** **Eleven v4 (`eleven_v4`, Text to Dialogue API) with Professional Voice Clones is the release model** — locked 2026-09-28, the day v4 shipped with full PVC support. All tools default to `--model v4` at 1.2x playback, stability 0.7 (cold-open A/B of 0.3/0.5/0.7 showed no audible expressiveness difference, so the more consistent setting won), `VOICE_CLONE=pvc`. The Dialogue API exposes only `stability` for v4 (v4 dropped Style/Speed and SSML). Requires `elevenlabs==2.68.0` (2.70 renamed `ModelSettingsResponseModel`). `--model v3` remains for comparison renders. Settings comparisons are rendered on the cold open only, never the full episode.
 >
-> When v3 PVC lands: regenerate refrigeration on v3 as the quality benchmark, flip `MODEL_ID` to `eleven_v3`, and stop stripping audio tags (see Audio Tags section below for the pass-through contract).
+> *Previous status (2026-09-12):* Eleven v3 was the release model at stability 0.0 (Creative). Audio tags pass through to the model. The old gate on ElevenLabs "fully optimizing" Professional Voice Clones for v3 was dropped: as of 2026-09-12 the v3 prompting guide still says PVCs are "not fully optimized for Eleven v3" and recommends Instant Voice Clones, so ep 1 ships on whichever clone wins the chapter 01 IVC-vs-PVC A/B (`--clone ivc|pvc`, see Voice IDs). The v2 per-turn path remains available via `--model v2` for comparison renders only; it strips tags before TTS.
 
 ---
 
@@ -16,10 +16,10 @@ episodes/{topic}/final/assembled.txt
   ▼
 Parse: split into text chunks + music cue markers
   │
-  ├── Text chunks → ElevenLabs v2 multilingual API (per-turn TTS)
+  ├── Text chunks → ElevenLabs v3 Text to Dialogue API (one request per wave, sub-chunked)
   │                       │
   │                       ▼
-  │              audio segments (per turn)
+  │              audio segments (per wave)
   │
   └── Music cues → resolve to audio files in assets/music/
   │
@@ -84,12 +84,13 @@ CYRUS: [laughs] That's what I was afraid of.
 
 ---
 
-## ElevenLabs v2 Multilingual API
+## ElevenLabs API
 
-### Per-Turn TTS
-Using `eleven_multilingual_v2` with per-turn generation — each speaker turn is a separate API call. This produces warmer, more natural conversational speech than the v3 Dialogue API.
+### v3 Text to Dialogue (release path)
+`eleven_v3` via the Text to Dialogue endpoint: each wave is one multi-speaker request (sub-chunked when it exceeds the per-request character cap), so prosody carries across turns and audio tags are performed natively. The only model setting the endpoint exposes is `stability`. Playback speed is applied afterwards with ffmpeg `atempo` (default 1.2x) — it compresses pauses too, so keep it at or below 1.2x.
 
-Per-turn audio files are cached in `per-turn_v2/` for free re-processing (LUFS normalization, speed adjustment) without additional API calls.
+### v2 per-turn (comparison only)
+`eleven_multilingual_v2` with per-turn generation — each speaker turn is a separate API call, tags stripped. Per-turn audio files are cached in `per-turn_v2/` for free re-processing (LUFS normalization, speed adjustment) without additional API calls. Not the release path.
 
 ### Voice IDs
 Store voice IDs in `.env` (not hardcoded). Each host can have two clones — a professional voice clone (PVC) and an instant voice clone (IVC):
@@ -108,13 +109,13 @@ Voice IDs are assigned when the ElevenLabs voices are created/cloned. Update `.e
 
 ### Audio Tags
 
-**Under v2 (current):** All bracketed audio tags are **stripped** before sending to the API — v2 would read them aloud. The script source retains them for v3.
-
-**Under v3 (future, post-PVC):**
+**Under v3 (release path):**
 - Tags from the Script Writer's approved vocabulary (see `roles/script-writer.md`) are **passed through** unchanged.
 - `[MUSIC: ...]` cue markers are *always* stripped (they are pipeline directives, not v3 tags) — handled by the music-cue parser, not the tag handler.
 - Unknown tags are stripped and logged (warning, not error) — see Error Handling below.
-- Stability setting: **Natural** (balanced — Creative drifts too far for our format; Robust ignores too many tags).
+- Stability setting: **Creative (0.0)** is the current default — chosen 2026-06-25 for maximum tag responsiveness after Natural under-performed on expressiveness. Raise toward Natural (0.5) only if a render hallucinates.
+
+**Under v2 (comparison only):** All bracketed audio tags are **stripped** before sending to the API — v2 would read them aloud.
 
 ### Output Format
 Request `mp3_44100_128` for production quality. Save each chunk as a temp file:
@@ -132,14 +133,15 @@ Locked 2026-04-25. Resolved from `assets/music/` based on the cue name:
 
 | Cue marker | File | Notes |
 |------------|------|-------|
-| `[MUSIC: theme-in]` | `assets/music/backbone-theme.mp3` | Full theme |
-| `[MUSIC: transition-bumper]` | `assets/music/backbone-bumper.mp3` | 5–10 sec version |
-| `[MUSIC: theme-out]` | `assets/music/backbone-theme.mp3` | Same as theme-in, faded out |
+| `[MUSIC: theme-in]` | `assets/music/intro_v2.mp3` | 15 s intro (Music v2.5) |
+| `[MUSIC: transition-bumper]` | `assets/music/bumper_v2.mp3` | 5 s bumper (Music v2.5) |
+| `[MUSIC: theme-out]` | `assets/music/outro_v2.mp3` | 20 s outro with a composed ending; 0.5 s tail fade |
 
 Defaults are baked into `tools/audio_assemble.py`. Override via env vars only if intentionally swapping music:
 ```
-THEME_MUSIC=assets/music/backbone-theme.mp3
-TRANSITION_BUMPER=assets/music/backbone-bumper.mp3
+THEME_MUSIC=assets/music/intro_v2.mp3
+THEME_OUT_MUSIC=assets/music/outro_v2.mp3
+TRANSITION_BUMPER=assets/music/bumper_v2.mp3
 ```
 
 ---
@@ -211,13 +213,14 @@ JEFF_VOICE_ID = ""
 CYRUS_VOICE_ID = ""
 
 # Music
-THEME_MUSIC = "assets/music/backbone-theme.mp3"
-TRANSITION_BUMPER = "assets/music/backbone-bumper.mp3"
+THEME_MUSIC = "assets/music/intro_v2.mp3"
+THEME_OUT_MUSIC = "assets/music/outro_v2.mp3"
+TRANSITION_BUMPER = "assets/music/bumper_v2.mp3"
 THEME_OUT_FADE_DURATION = 3  # seconds
 
 # ElevenLabs
 ELEVENLABS_API_KEY = ""  # load from environment, don't hardcode
-MODEL_ID = "eleven_multilingual_v2"
+MODEL_ID = "eleven_v3"
 OUTPUT_FORMAT = "mp3_44100_128"
 
 # Chunking

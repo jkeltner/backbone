@@ -42,6 +42,7 @@ def load_status(topic):
         "created": datetime.now().isoformat(),
         "updated": datetime.now().isoformat(),
         "production": {
+            "tts": {"status": "pending"},
             "audio_assembly": {"status": "pending"},
             "timestamps": {"status": "pending"},
             "transcript": {"status": "pending"},
@@ -114,29 +115,39 @@ def pause_for_review(step_name, instructions):
 def run_produce(topic):
     """Run the audio production pipeline."""
     status, status_path = load_status(topic)
-    model_args = []  # Could be ["--model", "v3"] etc.
+    status["production"].setdefault("tts", {"status": "pending"})  # older status files predate the TTS step
+    model_args = ["--model", "v4"]  # release model: eleven_v4 Dialogue API; clone comes from VOICE_CLONE in .env
 
     print(f"\n{'#'*60}")
     print(f"  PRODUCTION PIPELINE: {topic}")
     print(f"{'#'*60}")
 
-    # 1. Audio assembly
+    # 1. TTS — one ElevenLabs Dialogue request set per wave; already-rendered waves are skipped
+    if not run_step(
+        "TTS (ElevenLabs v4)",
+        [str(TOOLS_DIR / "tts_dialogue.py"), topic, "--yes"] + model_args,
+        status, status_path, "tts", "production",
+    ):
+        print("\nTTS failed. Fix and re-run (completed waves are cached and will be skipped).")
+        return False
+
+    # 2. Audio assembly (waves + theme/bumper music -> episode.mp3)
     if not run_step(
         "Audio Assembly",
-        [str(TOOLS_DIR / "audio_assemble.py"), topic, "--no-music"] + model_args,
+        [str(TOOLS_DIR / "audio_assemble.py"), topic] + model_args,
         status, status_path, "audio_assembly", "production",
     ):
         print("\nAudio assembly failed. Fix and re-run.")
         return False
 
-    # 2. Timestamps & chapters
+    # 3. Timestamps & chapters
     run_step(
         "Timestamp Chapters",
         [str(TOOLS_DIR / "timestamp_chapters.py"), topic],
         status, status_path, "timestamps", "production",
     )
 
-    # 3. Transcript
+    # 4. Transcript
     run_step(
         "Generate Transcript",
         [str(TOOLS_DIR / "generate_transcript.py"), topic],

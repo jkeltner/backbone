@@ -3,7 +3,7 @@
 # Playwright also needs: playwright install chromium
 
 # TTS (ElevenLabs)
-elevenlabs>=1.0
+elevenlabs==2.68.0  # 2.70 renamed ModelSettingsResponseModel, which tts_dialogue.py imports
 
 # Audio processing
 pydub>=0.25
@@ -14,6 +14,7 @@ playwright>=1.40
 
 # HTTP (Transistor, Buttondown APIs)
 requests>=2.31
+markdown>=3.5  # show notes → HTML for Transistor's description field
 
 # YouTube upload + OAuth2
 google-api-python-client>=2.100
