@@ -1,0 +1,27 @@
+<!-- Backbone · Stat card · 1080×1350. The number comes with its curve and its comparison, never alone. -->
+<meta name="bb-size" content="1080x1350">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*5); }
+  .top { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*16); display: flex; flex-direction: column; gap: calc(var(--s)*3); }
+  .top .value { font-family: var(--bb-display); font-weight: 700; color: var(--bb-bone); line-height: .9; white-space: nowrap; overflow: hidden; width: 100%; }
+  .top .label { font-family: var(--bb-text); font-weight: 500; font-size: calc(var(--s)*5); color: var(--bb-bone); line-height: 1.18; text-wrap: balance; }
+  .plate { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*60); height: calc(var(--s)*32); }
+  .ctx { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*95.5); font-size: calc(var(--s)*3.4); font-style: italic; }
+  .foot { left: calc(var(--s)*11); right: calc(var(--s)*11); bottom: calc(var(--s)*11); display: flex; align-items: center; justify-content: space-between; }
+  .foot .brand { display: flex; align-items: center; gap: calc(var(--s)*2); }
+  .foot .bb-mark { width: calc(var(--s)*9); }
+  .foot .wordmark { font-size: calc(var(--s)*4.6); }
+  .foot .mono { font-size: calc(var(--s)*2); }
+  .no-curve .plate { display: none; }
+  .no-curve .top { top: calc(var(--s)*30); }
+  .no-curve .top .label { font-size: calc(var(--s)*6); }
+  .no-curve .ctx { top: auto; bottom: calc(var(--s)*24); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer top"><div class="value fit" data-max="24" data-bb="stat-value"></div><div class="label" data-bb="stat-label"></div></div>
+<div class="layer plate" data-fs="2.3" data-stroke=".42"></div>
+<div class="layer ctx body" data-bb="stat-context"></div>
+<div class="layer foot"><div class="brand"><svg class="bb-mark" data-stroke="2.4"></svg><div class="wordmark">Backbone</div></div><div class="mono" data-bb="episode-line"></div></div>
+<script src="_kit.js"></script>

@@ -31,7 +31,10 @@ History (v3 era):
 - [ ] Transistor: submit RSS to Apple Podcasts and Spotify directories (one-time, blocked on first episode in feed)
 
 ### Assets
-- [ ] Per-episode artwork + audiogram backgrounds (horizontal full-episode, vertical shorts) — generated externally in Claude Design, drop into `episodes/refrigeration/assets/images/`
+- [x] Per-episode artwork + audiogram backgrounds — v2 design system in `design/`, rendered by `tools/render_art.py refrigeration` (2026-09-29)
+- [x] Transistor show art swapped to v2 (`assets/brand/show-cover.png`) (2026-09-29)
+- [ ] Transistor ep 1 artwork: upload `episodes/refrigeration/assets/images/episode-cover.png` in the episode's settings (draft still carries the v1 show art)
+- [ ] YouTube channel: upload banner + avatar from `assets/brand/`
 
 ### Workflow
 - [ ] Establish Descript template for full-episode video assembly (waveform + chapter markers + captions)

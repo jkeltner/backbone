@@ -1,0 +1,24 @@
+<!-- Backbone · Vertical short background · 1080×1920 (YouTube Shorts, Reels, TikTok)
+     Keep-clear zones: top 160 px (platform header), captions band 680–1200 px, bottom 400 px (platform UI). -->
+<meta name="bb-size" content="1080x1920">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*5); }
+  .head { top: calc(var(--s)*16); left: calc(var(--s)*9); right: calc(var(--s)*9); display: flex; align-items: center; justify-content: space-between; }
+  .head .brand { display: flex; align-items: center; gap: calc(var(--s)*2.4); }
+  .head .bb-mark { width: calc(var(--s)*12); }
+  .head .wordmark { font-size: calc(var(--s)*6.4); }
+  .head .mono { font-size: calc(var(--s)*2.6); }
+  .main { top: calc(var(--s)*27); left: calc(var(--s)*9); right: calc(var(--s)*9); }
+  .main .title { white-space: nowrap; overflow: hidden; width: 100%; }
+  .main .subtitle { font-size: calc(var(--s)*6); margin-top: calc(var(--s)*2.4); }
+  .plate { left: calc(var(--s)*9); right: calc(var(--s)*9); top: calc(var(--s)*112); height: calc(var(--s)*28); }
+  .cap { left: calc(var(--s)*9); top: calc(var(--s)*124); width: calc(var(--s)*17); font-size: calc(var(--s)*1.9); }
+  .cap .mono { white-space: normal; line-height: 1.6; letter-spacing: .2em; }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer head"><div class="brand"><svg class="bb-mark" data-stroke="2.4"></svg><div class="wordmark">Backbone</div></div><div class="mono"><b data-bb="number"></b></div></div>
+<div class="layer main"><h1 class="title fit" data-max="20" data-bb="topic"></h1><p class="subtitle" data-bb="subtitle"></p></div>
+<div class="layer plate" data-fs="2.6" data-stroke=".45" data-values="off" data-guides="off" data-trim="6"></div>
+<script src="_kit.js"></script>

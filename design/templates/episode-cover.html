@@ -1,0 +1,23 @@
+<!-- Backbone · Episode cover · 3000×3000 · Apple/Spotify/Transistor episode artwork -->
+<meta name="bb-size" content="3000x3000">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .head { top: calc(var(--s)*9); left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: calc(var(--s)*1.6); }
+  .head .bb-mark { width: calc(var(--s)*14); }
+  .head .wordmark { font-size: calc(var(--s)*5.2); }
+  .main { top: calc(var(--s)*29); left: calc(var(--s)*9); right: calc(var(--s)*9); display: flex; flex-direction: column; align-items: center; text-align: center; gap: calc(var(--s)*2.6); }
+  .main .title { width: 100%; white-space: nowrap; overflow: hidden; }
+  .main .subtitle { font-size: calc(var(--s)*4.6); max-width: 90%; }
+  .plate { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*58); height: calc(var(--s)*25); }
+  .foot { left: calc(var(--s)*9); right: calc(var(--s)*9); bottom: calc(var(--s)*8.4); display: flex; justify-content: space-between; font-size: calc(var(--s)*1.35); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer head"><svg class="bb-mark" data-stroke="2.2"></svg><div class="wordmark">Backbone</div></div>
+<div class="layer main">
+  <h1 class="title fit" data-max="16" data-bb="topic"></h1>
+  <p class="subtitle" data-bb="subtitle"></p>
+</div>
+<div class="layer plate" data-fs="1.55"></div>
+<div class="layer foot mono"><span data-bb="curve-label"></span><span><b data-bb="number"></b></span></div>
+<script src="_kit.js"></script>

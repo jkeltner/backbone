@@ -1,0 +1,29 @@
+<!-- Backbone · YouTube channel banner · 2560×1440. All type sits inside the 1546×423 safe area (centre). -->
+<meta name="bb-size" content="2560x1440">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .ghost { inset: 0; } .ghost svg { width: 100%; height: 100%; }
+  .safe { left: 50%; top: 50%; width: calc(var(--s)*107.4); height: calc(var(--s)*29.4); transform: translate(-50%,-50%);
+    display: flex; align-items: center; justify-content: space-between; }
+  .lock { display: flex; flex-direction: column; gap: calc(var(--s)*1.6); }
+  .lock .bb-mark { width: calc(var(--s)*9); }
+  .lock .wordmark { font-size: calc(var(--s)*12); }
+  .right { display: flex; flex-direction: column; align-items: flex-end; gap: calc(var(--s)*2.2); text-align: right; }
+  .right .tag { font-size: calc(var(--s)*1.9); }
+  .right .body { font-size: calc(var(--s)*2.3); max-width: calc(var(--s)*44); }
+  .right .mono { font-size: calc(var(--s)*1.35); }
+</style>
+<div class="field"></div>
+<div class="layer ghost"><svg viewBox="0 0 100 100" preserveAspectRatio="none">
+  <path d="M-2 66 C 28 66, 40 64, 50 50 S 72 34, 102 34" fill="none" stroke="#EAE5D7" stroke-opacity=".07" stroke-width=".22"/>
+</svg></div>
+<div class="layer safe">
+  <div class="lock"><svg class="bb-mark" data-stroke="2"></svg><div class="wordmark">Backbone</div></div>
+  <div class="right">
+    <div class="tag">From breakthrough to built-in</div>
+    <div class="body">The diffusion story of the technologies that built modern life.</div>
+    <div class="mono">New episode monthly &nbsp;·&nbsp; <b data-bb="url"></b></div>
+  </div>
+</div>
+<script>window.BB = Object.assign({}, window.BB || {}, { accent: "signal" });</script>
+<script src="_kit.js"></script>

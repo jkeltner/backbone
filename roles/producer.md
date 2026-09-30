@@ -93,9 +93,21 @@ Companion content for podcast apps and the website. Keep it concise — show not
 
 Promotional content for social media:
 
-- **3 pull quotes** — The most striking or surprising lines from the script, formatted for social sharing. Include speaker attribution.
+- **5–6 pull quotes** — The most striking or surprising lines from the script, formatted for social sharing. Include speaker attribution and a one-line context. Keep at least half of them under 20 words; they become quote cards.
 - **1 thread-style summary** — 5–7 short posts that tell the episode's story in compressed form (for X/Twitter or LinkedIn)
 - **1 short description** — 1–2 sentences for link sharing
+
+### 5. Artwork Data: `assets/images/art.json`
+
+The data file every episode image is rendered from (`tools/render_art.py`, run by `/produce` right after you). Schema and rules: `design/README.md`. Fill it from files you already have:
+
+- **number, topic, subtitle** — from your metadata top-choice title, split at the colon (`topic` is the part before it).
+- **accent** — one of `ice`, `copper`, `sodium`, `phosphor`, `rust`, `lilac`, picked for the technology's material (see `design/README.md`).
+- **teaser** — one sentence, under 20 words, for the announcement card.
+- **curve** — from the research overview's *Adoption Curve* table: VERIFIED points only, 3–5 of them, with sources. Never plot a `[VERIFY]` or `[BELIEVABILITY]` number. If fewer than 3 points are verified, use what's there and add `[FLAG: thin adoption curve]` to your handoff.
+- **quotes** — your pull quotes, verbatim from `assembled.txt`, with speaker and a one-line context.
+- **stats** — 3–4 numbers from the script, each with a comparative anchor in its label or context, and its sources. Set `"curve": null` on a stat that isn't about the adoption curve.
+- **compare** — the curve plus the research's verified comparison series, with a headline the chart actually proves. Leave it out if there are no verified comparison points.
 
 ---
 

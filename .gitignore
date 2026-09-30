@@ -26,7 +26,6 @@ episodes/*/final/episode-wave-*.mp3
 episodes/*/final/*.mp3
 episodes/*/final/beta-*.mp3
 
-# Generated video, clips, images (large binary files)
+# Generated video and clips (large binary files). Episode artwork in assets/images/ IS committed (~15 MB/episode) so both hosts can see it.
 episodes/*/assets/video/**/*.mp4
 episodes/*/assets/clips/**/*.mp4
-episodes/*/assets/images/**/*.png

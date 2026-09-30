@@ -1,0 +1,53 @@
+/* Backbone design tokens — v2 (2026-09-29)
+   Source of truth for every Backbone visual. Templates in design/templates/ import this file.
+   Layout concept: an archival instrument plate — a dark field, corner registration brackets,
+   a bone-white condensed wordmark, and one plotted adoption curve per episode. */
+
+@font-face { font-family: "Saira Condensed"; font-weight: 500; src: url("fonts/saira-condensed-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Saira Condensed"; font-weight: 600; src: url("fonts/saira-condensed-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Saira Condensed"; font-weight: 700; src: url("fonts/saira-condensed-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 400; src: url("fonts/barlow-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 500; src: url("fonts/barlow-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 600; src: url("fonts/barlow-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 400; font-style: italic; src: url("fonts/barlow-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 500; font-style: italic; src: url("fonts/barlow-latin-500-italic.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Semi Condensed"; font-weight: 500; src: url("fonts/barlow-semi-condensed-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Semi Condensed"; font-weight: 600; src: url("fonts/barlow-semi-condensed-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url("fonts/jetbrains-mono-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url("fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); }
+
+:root {
+  /* Core palette */
+  --bb-night:      #040A1C;  /* field. Slightly lifted from v1 #020819 so it never crushes to pure black */
+  --bb-night-deep: #01040F;  /* vignette edge */
+  --bb-night-up:   #0B1530;  /* raised plate / panel */
+  --bb-bone:       #EAE5D7;  /* wordmark, titles. The show's white */
+  --bb-bone-dim:   #B9B3A4;  /* body copy on night */
+  --bb-ash:        #857F70;  /* mono labels, captions. Warm grey biased toward bone */
+  --bb-rule:       rgba(234, 229, 215, 0.14); /* hairlines, axes */
+  --bb-grid:       rgba(234, 229, 215, 0.035);/* graph-paper field */
+
+  /* Signal: the show accent. Ice blue, carried from the v1 subtitle */
+  --bb-signal:     #8FB3E0;
+
+  /* Episode accents. One per episode, chosen for the technology's own material.
+     The show frame never changes; only --bb-accent does. */
+  --bb-ice:        #8FB3E0;  /* refrigeration, cold chain */
+  --bb-copper:     #D9956B;  /* wire, grid, electricity */
+  --bb-sodium:     #E6B85C;  /* lighting, oil, combustion */
+  --bb-phosphor:   #8CCBA4;  /* screens, radio, signals */
+  --bb-rust:       #D27A6A;  /* steel, rail, iron */
+  --bb-lilac:      #B5A3E0;  /* chemistry, materials, pharma */
+  --bb-accent:     var(--bb-signal);
+
+  /* Type */
+  --bb-display: "Saira Condensed", "Barlow Condensed", "Arial Narrow", sans-serif; /* wordmark, titles, big numbers. 600–700, all caps */
+  --bb-text:    "Barlow", "Helvetica Neue", Arial, sans-serif;                      /* subtitles, body, quotes */
+  --bb-tag:     "Barlow Semi Condensed", "Barlow", sans-serif;                      /* spaced caps taglines (the v1 subtitle) */
+  --bb-mono:    "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;        /* labels, years, axis ticks, URLs */
+
+  /* Tracking */
+  --bb-track-wordmark: 0.02em;
+  --bb-track-tag:      0.28em;
+  --bb-track-mono:     0.32em;
+}

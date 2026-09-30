@@ -13,7 +13,7 @@ This is **not a review checkpoint** — there are no review meetings between ste
 
 ## What this command does
 
-1. **Producer agent** — assembles `final/assembled.txt`, generates metadata, show notes, social content
+1. **Producer agent** — assembles `final/assembled.txt`, generates metadata, show notes, social content, and `assets/images/art.json`
 2. **`tools/release.py {topic} produce`** — runs the Python production pipeline (TTS, audio assembly, timestamps, transcript)
 
 ## Before you start
@@ -27,7 +27,7 @@ Spawn a general-purpose agent with:
 
 - **Task:** "Run the Producer for the Backbone podcast on the topic: **$ARGUMENTS**. Assemble final deliverables."
 - **Files to read first:** `CLAUDE.md`, `roles/producer.md`, all `episodes/$ARGUMENTS/script/chapter-*.txt`, `episodes/$ARGUMENTS/script/editor-notes.md`, `episodes/$ARGUMENTS/script/fact-check-report.md`, `episodes/$ARGUMENTS/blueprint.md`. **If `episodes/$ARGUMENTS/feedback/03-polish.txt` exists, read it for any final notes Jeff and Cyrus made before audio.**
-- **Output:** `episodes/$ARGUMENTS/final/assembled.txt`, `final/metadata.md`, `final/show-notes.md`, `final/social-content.md`.
+- **Output:** `episodes/$ARGUMENTS/final/assembled.txt`, `final/metadata.md`, `final/show-notes.md`, `final/social-content.md`, `assets/images/art.json` (then rendered to the episode's images by `release.py produce`).
 - **Methodology:** Follow the role file. Music cue validation is mandatory — fix placement deterministically rather than flagging. Strip all `[FLAG: ...]`, `[VERIFY]`, `[GAP]` markers from `assembled.txt`. Estimate runtime from word count.
 
 Wait for completion. Verify all four files exist. Read the Producer's final report — if anything is flagged for human attention (runtime over 120 min, unresolved markers, anything else), surface it to the user before continuing.

@@ -108,6 +108,19 @@ date: [YYYY-MM-DD]
 *Slow burn or rapid explosion? Why?*
 -
 
+### Adoption Curve (plot-ready — feeds the episode artwork)
+*The main series the episode's cover and social cards will plot: 3–5 dated points of the share of households (or the closest equivalent: firms, farms, vehicles) that had the technology. Each point needs its own source and a status. Only VERIFIED points get plotted.*
+
+| Year | Share (%) | What exactly is measured | Source | Status (VERIFIED / [VERIFY]) |
+|------|-----------|--------------------------|--------|------------------------------|
+| | | | | |
+
+**Comparison series** *(2–3 other technologies on the same measure, for the comparison card: electricity, telephone, radio, TV, car, internet…)*
+
+| Technology | Year | Share (%) | Source | Status |
+|------------|------|-----------|--------|--------|
+| | | | | |
+
 ---
 
 ## Resistance & Blockers

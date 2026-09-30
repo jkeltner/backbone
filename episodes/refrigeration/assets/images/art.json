@@ -1,0 +1,188 @@
+{
+  "number": 1,
+  "topic": "Refrigeration",
+  "subtitle": "You Don't Make Cold, You Move Heat",
+  "accent": "ice",
+  "hosts": "Jeff Keltner & Cyrus Mistry",
+  "url": "backbone.fm",
+  "teaser": "Two hundred years from pond ice shipped to the tropics to a treaty every country on earth signed.",
+  "curve": {
+    "label": "U.S. households with a mechanical refrigerator",
+    "range": [
+      1920,
+      1960
+    ],
+    "points": [
+      [
+        1930,
+        8
+      ],
+      [
+        1940,
+        44
+      ],
+      [
+        1950,
+        80
+      ]
+    ],
+    "sources": [
+      "https://www.aei.org/articles/the-refrigerators-cool-century/",
+      "https://psmag.com/environment/the-rise-of-the-refrigerator-47924/",
+      "1940 Census of Housing (44% mechanical) — see research/chapter-04-cold-comes-home.md"
+    ]
+  },
+  "quotes": [
+    {
+      "text": "You don't make cold. There's no such thing. You move heat.",
+      "speaker": "Jeff Keltner",
+      "context": "on why the coils on the back of your fridge are warm"
+    },
+    {
+      "text": "The technology that wins isn't always the one that works. It's the one with the existing capital on its side.",
+      "speaker": "Cyrus Mistry",
+      "context": "on why John Gorrie's working ice machine lost to frozen pond water for forty years"
+    },
+    {
+      "text": "Four fluids. And every single one of them was the safe one, the day it was chosen.",
+      "speaker": "Jeff Keltner",
+      "context": "on two centuries of refrigerants"
+    },
+    {
+      "text": "The South got the future first because it got cut off from the past.",
+      "speaker": "Cyrus Mistry",
+      "context": "on how a Civil War blockade made New Orleans the first American city to run on machine-made ice"
+    },
+    {
+      "text": "Efficiency is a scenario. Demand is a fact.",
+      "speaker": "Cyrus Mistry",
+      "context": "on what comes next for cooling"
+    },
+    {
+      "text": "For anything that's spreading fast, the question isn't 'what's wrong with it today.' It's 'what's harmless at a thousand and dangerous at a billion?'",
+      "speaker": "Jeff Keltner",
+      "context": "on the monitoring program that caught the ozone hole"
+    }
+  ],
+  "stats": [
+    {
+      "value": "8% → 80%",
+      "label": "of U.S. homes had a mechanical refrigerator, 1930 to 1950",
+      "context": "The steepest stretch of the curve ran straight through the Great Depression.",
+      "sources": [
+        "https://www.aei.org/articles/the-refrigerators-cool-century/",
+        "https://psmag.com/environment/the-rise-of-the-refrigerator-47924/"
+      ]
+    },
+    {
+      "value": "27%",
+      "label": "of American homes had no refrigeration at all in 1940. No icebox, no fridge.",
+      "context": "In the South, six in ten nonwhite households had none.",
+      "sources": [
+        "1940 Census of Housing, Table 9b (web-verified, research/chapter-04-cold-comes-home.md)"
+      ]
+    },
+    {
+      "value": "8 million",
+      "label": "refrigerators were running on Freon by 1935, five years after GM and DuPont started making it.",
+      "context": "The safe gas that made the kitchen fridge possible, and later punched a hole in the sky.",
+      "curve": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chlorofluorocarbon"
+      ]
+    },
+    {
+      "value": "4%",
+      "label": "of rural households in sub-Saharan Africa owned a refrigerator in 2020.",
+      "context": "The curve America finished by 1950 is still near the bottom for hundreds of millions of people.",
+      "curve": null,
+      "sources": [
+        "SEforALL, Chilling Prospects 2022"
+      ]
+    }
+  ],
+  "compare": {
+    "title": "Faster than the phone. Slower than TV.",
+    "label": "Share of U.S. households",
+    "range": [
+      1900,
+      1960
+    ],
+    "series": [
+      {
+        "name": "Electricity",
+        "points": [
+          [
+            1907,
+            8
+          ],
+          [
+            1920,
+            35
+          ],
+          [
+            1929,
+            68
+          ]
+        ]
+      },
+      {
+        "name": "Telephone",
+        "points": [
+          [
+            1920,
+            34
+          ],
+          [
+            1934,
+            31
+          ],
+          [
+            1946,
+            50
+          ]
+        ]
+      },
+      {
+        "name": "Refrigerator",
+        "points": [
+          [
+            1930,
+            8
+          ],
+          [
+            1940,
+            44
+          ],
+          [
+            1950,
+            80
+          ]
+        ],
+        "highlight": true
+      },
+      {
+        "name": "Television",
+        "points": [
+          [
+            1949,
+            2
+          ],
+          [
+            1950,
+            8
+          ],
+          [
+            1954,
+            59
+          ]
+        ]
+      }
+    ],
+    "context": "The fridge went from 8% to 80% of homes in twenty years, most of it during the Depression.",
+    "sources": [
+      "https://paleofuture.com/blog/2014/4/21/no-tech-adoption-is-not-speeding-up-in-the-21st-century",
+      "https://transportgeography.org/contents/chapter1/the-setting-of-global-transportation-systems/household-telecommunications-united-states/"
+    ]
+  }
+}

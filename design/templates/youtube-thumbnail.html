@@ -1,0 +1,24 @@
+<!-- Backbone · YouTube thumbnail · 1280×720 -->
+<meta name="bb-size" content="1280x720">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*4.5); }
+  .head { top: calc(var(--s)*10); left: calc(var(--s)*9); right: calc(var(--s)*9); display: flex; align-items: center; justify-content: space-between; }
+  .head .brand { display: flex; align-items: center; gap: calc(var(--s)*2.2); }
+  .head .bb-mark { width: calc(var(--s)*9); }
+  .head .wordmark { font-size: calc(var(--s)*5); }
+  .head .mono { font-size: calc(var(--s)*2.3); color: var(--bb-bone-dim); }
+  .main { top: calc(var(--s)*21); left: calc(var(--s)*9); right: calc(var(--s)*9); }
+  .main .title { white-space: nowrap; overflow: hidden; width: 100%; }
+  .main .subtitle { font-size: calc(var(--s)*6.2); margin-top: calc(var(--s)*2.4); }
+  .plate { left: calc(var(--s)*78); right: calc(var(--s)*9); top: calc(var(--s)*55); height: calc(var(--s)*33); }
+  .cap { left: calc(var(--s)*9); bottom: calc(var(--s)*12); width: calc(var(--s)*62); display: flex; flex-direction: column; gap: calc(var(--s)*1.4); font-size: calc(var(--s)*2.1); }
+  .cap .mono { white-space: normal; line-height: 1.5; }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer head"><div class="brand"><svg class="bb-mark" data-stroke="2.6"></svg><div class="wordmark">Backbone</div></div><div class="mono" data-bb="number"></div></div>
+<div class="layer main"><h1 class="title fit" data-max="25" data-bb="topic"></h1><p class="subtitle" data-bb="subtitle"></p></div>
+<div class="layer plate" data-fs="2.5" data-stroke=".45" data-values="off" data-guides="off" data-trim="6"></div>
+<div class="layer cap"><div class="mono" data-bb="curve-label"></div><div class="mono"><b data-bb="curve-span"></b></div></div>
+<script src="_kit.js"></script>

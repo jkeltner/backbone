@@ -1,0 +1,13 @@
+<!-- Backbone · Channel avatar / social profile image · 800×800, cropped to a circle by the platforms -->
+<meta name="bb-size" content="800x800">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .lock { inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: calc(var(--s)*5); }
+  .lock .bb-mark { width: calc(var(--s)*46); }
+  .lock .wordmark { font-size: calc(var(--s)*15.5); }
+  .field { background: radial-gradient(circle at 50% 50%, var(--bb-night-up) 0%, var(--bb-night) 62%, var(--bb-night-deep) 100%); }
+</style>
+<div class="field"></div>
+<div class="layer lock"><svg class="bb-mark" data-stroke="3.4" data-line-opacity="1"></svg><div class="wordmark">Backbone</div></div>
+<script>window.BB = Object.assign({}, window.BB || {}, { accent: "signal" });</script>
+<script src="_kit.js"></script>

@@ -1,0 +1,24 @@
+<!-- Backbone · Comparison card · 1080×1350. The episode's technology against others on one axis. Sourced points only. -->
+<meta name="bb-size" content="1080x1350">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*5); }
+  .top { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*15); display: flex; flex-direction: column; gap: calc(var(--s)*2.6); }
+  .top .mono { font-size: calc(var(--s)*2.1); color: var(--bb-accent); }
+  .top .title { text-transform: none; font-size: calc(var(--s)*9.4); line-height: .96; letter-spacing: 0; }
+  .plate-compare { left: calc(var(--s)*11); right: calc(var(--s)*8); top: calc(var(--s)*46); height: calc(var(--s)*46); }
+  .plate-compare svg { display: block; overflow: visible; width: 100%; height: 100%; }
+  .ctx { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*95.5); font-size: calc(var(--s)*3.4); font-style: italic; }
+  .foot { left: calc(var(--s)*11); right: calc(var(--s)*11); bottom: calc(var(--s)*11); display: flex; align-items: center; justify-content: space-between; }
+  .foot .brand { display: flex; align-items: center; gap: calc(var(--s)*2); }
+  .foot .bb-mark { width: calc(var(--s)*9); }
+  .foot .wordmark { font-size: calc(var(--s)*4.6); }
+  .foot .mono { font-size: calc(var(--s)*2); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer top"><div class="mono" data-bb="compare-label"></div><h1 class="title" data-bb="compare-title"></h1></div>
+<div class="layer plate-compare" data-fs="2.1" data-stroke=".42"></div>
+<div class="layer ctx body" data-bb="compare-context"></div>
+<div class="layer foot"><div class="brand"><svg class="bb-mark" data-stroke="2.4"></svg><div class="wordmark">Backbone</div></div><div class="mono" data-bb="episode-line"></div></div>
+<script src="_kit.js"></script>

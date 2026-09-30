@@ -5,10 +5,10 @@ release.py — Master orchestrator for production and distribution
 Chains together the audio production and podcast distribution scripts,
 tracking completion in release-status.json. Pauses at human review checkpoints.
 
-Video assembly (audiogram for YouTube, vertical clips for shorts) is done
-by hand in Descript using the assembled audio + externally-generated
-background images from each episode's `assets/` folder. It is not in
-this pipeline's scope.
+Artwork (episode cover, YouTube thumbnail and backgrounds, social cards) is
+rendered by render_art.py from episodes/{topic}/assets/images/art.json.
+Video assembly is done by hand in Descript from the assembled audio and
+those backgrounds.
 
 Usage:
   python tools/release.py refrigeration produce      # audio production
@@ -46,6 +46,7 @@ def load_status(topic):
             "audio_assembly": {"status": "pending"},
             "timestamps": {"status": "pending"},
             "transcript": {"status": "pending"},
+            "artwork": {"status": "pending"},
         },
         "distribution": {
             "podcast_upload": {"status": "pending", "review": "publish on Transistor"},
@@ -154,9 +155,20 @@ def run_produce(topic):
         status, status_path, "transcript", "production",
     )
 
+    # 5. Artwork — cover, YouTube, social cards from assets/images/art.json (written by the Producer)
+    status["production"].setdefault("artwork", {"status": "pending"})
+    if (REPO_ROOT / "episodes" / topic / "assets" / "images" / "art.json").exists():
+        run_step(
+            "Render Artwork",
+            [str(TOOLS_DIR / "render_art.py"), topic],
+            status, status_path, "artwork", "production",
+        )
+    else:
+        print("\n  Skipping artwork: no assets/images/art.json yet (the Producer writes it).")
+
     print(f"\n{'#'*60}")
     print(f"  PRODUCTION COMPLETE")
-    print(f"  Next: hand the assembled audio to Descript for video assembly.")
+    print(f"  Next: hand the assembled audio + assets/images/ backgrounds to Descript.")
     print(f"{'#'*60}")
     return True
 
@@ -178,7 +190,8 @@ def run_distribute(topic):
 
     review = pause_for_review(
         "Podcast",
-        "Log into Transistor.fm to review and publish the episode.",
+        "In Transistor.fm: upload assets/images/episode-cover.png as the episode artwork "
+        "(the API only takes public image URLs), then review and publish.",
     )
     if review == "quit":
         return False

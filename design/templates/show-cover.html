@@ -1,0 +1,28 @@
+<!-- Backbone · Show cover v2 · 3000×3000 · Transistor / Apple / Spotify show artwork -->
+<meta name="bb-size" content="3000x3000">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .ghost { inset: 0; }
+  .ghost svg { width: 100%; height: 100%; }
+  .row { left: calc(var(--s)*8.5); right: calc(var(--s)*8.5); display: flex; justify-content: space-between; font-size: calc(var(--s)*1.45); }
+  .top { top: calc(var(--s)*8.6); } .bot { bottom: calc(var(--s)*8.6); }
+  .center { left: 0; right: 0; top: calc(var(--s)*33); display: flex; flex-direction: column; align-items: center; gap: calc(var(--s)*3.2); }
+  .center .bb-mark { width: calc(var(--s)*22); }
+  .center .wordmark { font-size: calc(var(--s)*21.5); }
+  .center .tag { font-size: calc(var(--s)*2.55); display: flex; align-items: center; gap: calc(var(--s)*3); }
+  .center .tag i { width: calc(var(--s)*.5); height: calc(var(--s)*.5); background: var(--bb-accent); border-radius: 50%; opacity: .7; }
+</style>
+<div class="field"></div>
+<div class="layer ghost"><svg viewBox="0 0 100 100" preserveAspectRatio="none">
+  <path d="M-2 86 C 30 86, 38 84, 50 62 S 70 38, 102 37" fill="none" stroke="#EAE5D7" stroke-opacity=".06" stroke-width=".35"/>
+</svg></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer row top mono"><span>A documentary podcast</span><span>Diffusion, in monthly chapters</span></div>
+<div class="layer center">
+  <svg class="bb-mark" data-stroke="2.5"></svg>
+  <div class="wordmark">Backbone</div>
+  <div class="tag"><i></i>From breakthrough to built-in<i></i></div>
+</div>
+<div class="layer row bot mono"><span>Hosted by <b>Jeff Keltner</b> &amp; <b>Cyrus Mistry</b></span><span><b data-bb="url"></b></span></div>
+<script>window.BB = Object.assign({ accent: "signal" }, window.BB || {}, { accent: "signal" });</script>
+<script src="_kit.js"></script>

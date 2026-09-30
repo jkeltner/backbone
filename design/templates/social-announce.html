@@ -1,0 +1,28 @@
+<!-- Backbone · Episode announcement card · 1200×675 (X, LinkedIn, link previews) -->
+<meta name="bb-size" content="1200x675">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*4.5); }
+  .col { left: calc(var(--s)*9.5); top: calc(var(--s)*11); width: calc(var(--s)*86); display: flex; flex-direction: column; gap: calc(var(--s)*2.6); }
+  .col .mono { font-size: calc(var(--s)*2.1); color: var(--bb-accent); }
+  .col .title { white-space: nowrap; overflow: hidden; width: 100%; }
+  .col .subtitle { font-size: calc(var(--s)*5); }
+  .col .body { font-size: calc(var(--s)*3.2); max-width: 95%; }
+  .plate { left: calc(var(--s)*104); right: calc(var(--s)*9.5); top: calc(var(--s)*18); height: calc(var(--s)*50); }
+  .foot { left: calc(var(--s)*9.5); right: calc(var(--s)*9.5); bottom: calc(var(--s)*9.5); display: flex; align-items: center; justify-content: space-between; }
+  .foot .brand { display: flex; align-items: center; gap: calc(var(--s)*1.8); }
+  .foot .bb-mark { width: calc(var(--s)*7); }
+  .foot .wordmark { font-size: calc(var(--s)*3.8); }
+  .foot .mono { font-size: calc(var(--s)*1.8); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer col">
+  <div class="mono">New episode &nbsp;·&nbsp; <span data-bb="number"></span></div>
+  <h1 class="title fit" data-max="15" data-bb="topic"></h1>
+  <p class="subtitle" data-bb="subtitle"></p>
+  <p class="body" data-bb="teaser"></p>
+</div>
+<div class="layer plate" data-fs="2.2" data-stroke=".42"></div>
+<div class="layer foot"><div class="brand"><svg class="bb-mark" data-stroke="2.4"></svg><div class="wordmark">Backbone</div></div><div class="mono"><span data-bb="hosts"></span> &nbsp;·&nbsp; <b data-bb="url"></b></div></div>
+<script src="_kit.js"></script>

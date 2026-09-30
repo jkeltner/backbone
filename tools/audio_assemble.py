@@ -82,9 +82,14 @@ def load_id3_tags(topic):
     return tags
 
 
-def find_cover_art():
-    """Return path to show cover art if present, else None."""
-    for candidate in ("assets/show_cover_art.png", "assets/show_cover_art.jpg",
+def find_cover_art(topic=None):
+    """Return the cover to embed: the episode's cover, else the v2 show cover, else older show art."""
+    if topic:
+        for name in ("episode-cover.jpg", "episode-cover.png"):
+            p = REPO_ROOT / "episodes" / topic / "assets" / "images" / name
+            if p.exists():
+                return str(p)
+    for candidate in ("assets/brand/show-cover.jpg", "assets/brand/show-cover.png","assets/show_cover_art.png", "assets/show_cover_art.jpg",
                       "assets/cover_art.png", "assets/cover_art.jpg",
                       "assets/cover.png", "assets/cover.jpg",
                       "assets/show-cover.png"):
@@ -503,7 +508,7 @@ def assemble(topic, model_suffix="", dry_run=False, no_music=False, wave_filter=
         print("Finalizing loudness (two-pass loudnorm)...")
         finalize_loudness(output_path)
         tags = load_id3_tags(topic)
-        cover = find_cover_art()
+        cover = find_cover_art(topic)
         write_id3_tags(str(output_path), tags, cover_path=cover)
         print(f"  Wrote ID3 tags: title={tags['title']!r}, track={tags['track']}, year={tags['year']}")
         if cover:

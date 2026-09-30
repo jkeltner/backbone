@@ -55,7 +55,7 @@ episodes/{topic}/
 │   └── social-content.md     ← promotional text (input)
 └── assets/
     ├── audio/                ← per-wave TTS files (input)
-    └── images/               ← externally-generated artwork (episode cover + audiogram backgrounds, horizontal and vertical); used by Descript
+    └── images/               ← art.json + rendered artwork (tools/render_art.py): episode cover, YouTube thumbnail + backgrounds, social cards
 ```
 
 ---
@@ -67,7 +67,7 @@ episodes/{topic}/
 - Crossfade spec: 500ms for theme music, 300ms for transition bumpers, 3s fade-out for theme-out
 - Produces `assembly-map.json` — a position map tracking each segment's start/end time in the final audio
 - `--no-music` flag inserts 1.5s silence at music cue positions (useful before music is selected)
-- Embeds ID3 tags (title, artist, album, track, year, genre=Podcast, cover art from `assets/show_cover_art.png`)
+- Embeds ID3 tags (title, artist, album, track, year, genre=Podcast, cover art from `assets/images/episode-cover.jpg`, falling back to `assets/brand/show-cover.jpg`)
 
 ---
 
@@ -75,7 +75,7 @@ episodes/{topic}/
 
 Audiogram and short-form video are assembled by hand in **Descript** using:
 - The assembled `episode.mp3` from this pipeline
-- Externally-generated per-episode artwork (cover art + audiogram backgrounds, horizontal for full episodes and vertical for shorts) — dropped into `episodes/{topic}/assets/images/`
+- Per-episode artwork — rendered by `tools/render_art.py` (step 5 of `release.py produce`) from the Producer's `art.json`; design rules in `design/README.md`
 - Descript templates for waveform overlay, chapter markers, and captions
 
 The pipeline does not generate video. Tools for automated audiogram and clip generation have been removed; git history is the safety net if a future episode needs to revisit them.

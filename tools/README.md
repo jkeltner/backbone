@@ -94,3 +94,18 @@ Typical segments for a refrigeration-style episode:
 - `Wave 2 - The Machine Age`
 - `Wave 3 - Cold Comes Home`
 - `Built In`
+
+
+---
+
+## render_art.py — Render episode + show artwork
+
+Renders the HTML templates in `design/templates/` to PNG with headless Chromium. Brand rules, sizes and keep-clear zones: `design/README.md`.
+
+```bash
+python tools/render_art.py refrigeration                      # 7 episode assets -> episodes/refrigeration/assets/images/
+python tools/render_art.py refrigeration --only episode-cover # one asset
+python tools/render_art.py --show                             # show cover, avatar, YouTube banner -> assets/brand/
+```
+
+Needs `episodes/{topic}/assets/images/art.json`. Needs `pip install playwright Pillow` and `playwright install chromium` once.

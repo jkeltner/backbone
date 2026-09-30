@@ -9,8 +9,9 @@ elevenlabs==2.68.0  # 2.70 renamed ModelSettingsResponseModel, which tts_dialogu
 pydub>=0.25
 mutagen>=1.47  # ID3 tagging (pydub's tag export is unreliable for MP3)
 
-# Social image rendering (headless browser screenshots of HTML templates)
+# Artwork rendering (tools/render_art.py: headless screenshots of design/templates/*.html)
 playwright>=1.40
+Pillow>=10  # flattens renders to RGB + writes the cover JPEGs
 
 # HTTP (Transistor, Buttondown APIs)
 requests>=2.31

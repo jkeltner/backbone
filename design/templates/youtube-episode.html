@@ -1,0 +1,24 @@
+<!-- Backbone · YouTube full-episode video background · 1920×1080
+     Keep-clear zone for Descript waveform + captions: the full width below y = 700 px (65%). Nothing is drawn there but the field. -->
+<meta name="bb-size" content="1920x1080">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .head { top: calc(var(--s)*9); left: calc(var(--s)*9); display: flex; align-items: center; gap: calc(var(--s)*1.8); }
+  .head .bb-mark { width: calc(var(--s)*7); }
+  .head .wordmark { font-size: calc(var(--s)*3.8); }
+  .head .mono { font-size: calc(var(--s)*1.5); margin-left: calc(var(--s)*1.5); }
+  .main { top: calc(var(--s)*20); left: calc(var(--s)*9); width: calc(var(--s)*86); }
+  .main .title { white-space: nowrap; overflow: hidden; width: 100%; }
+  .main .subtitle { font-size: calc(var(--s)*4.4); margin-top: calc(var(--s)*2); }
+  .plate { left: calc(var(--s)*104); right: calc(var(--s)*9); top: calc(var(--s)*16); height: calc(var(--s)*40); }
+  .cap { left: calc(var(--s)*104); top: calc(var(--s)*58.5); font-size: calc(var(--s)*1.25); }
+  .foot { left: calc(var(--s)*9); right: calc(var(--s)*9); bottom: calc(var(--s)*6.5); display: flex; justify-content: space-between; font-size: calc(var(--s)*1.3); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer head"><svg class="bb-mark" data-stroke="2.2"></svg><div class="wordmark">Backbone</div><div class="mono"><b data-bb="number"></b></div></div>
+<div class="layer main"><h1 class="title fit" data-max="15" data-bb="topic"></h1><p class="subtitle" data-bb="subtitle"></p></div>
+<div class="layer plate" data-fs="1.7" data-stroke=".3"></div>
+<div class="layer cap mono" data-bb="curve-label"></div>
+<div class="layer foot mono"><span data-bb="hosts"></span><span><b data-bb="url"></b></span></div>
+<script src="_kit.js"></script>

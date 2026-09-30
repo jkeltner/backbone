@@ -11,7 +11,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 - **Website:** Transistor's built-in site for launch (revisit PodPage / custom later if SEO or branding becomes a constraint)
 - **Launch scope for ep 1:** audio on Spotify/Apple + YouTube full-episode video (assembled in Descript) + one announcement
 - **Video assembly:** Done by hand in Descript using assembled audio + externally-generated background images. No automated audiogram or clip generation in this pipeline
-- **Per-episode artwork + audiogram backgrounds:** Generated externally (Claude Design), dropped into `episodes/{topic}/assets/images/`. Horizontal backgrounds for full episodes, vertical for shorts
+- **Per-episode artwork + audiogram backgrounds:** Rendered from the v2 design system (`design/`, 2026-09-29) with `tools/render_art.py {topic}` from `episodes/{topic}/assets/images/art.json`. Horizontal backgrounds for full episodes, vertical for shorts, plus cover, YouTube thumbnail and social cards
 - **Music:** locked to `assets/music/intro_v2.mp3` (15 s), `bumper_v2.mp3` (5 s), `outro_v2.mp3` (20 s) — regenerated on ElevenLabs Music v2.5 at tighter lengths (2026-09-28). Originals `backbone-theme.mp3` / `backbone-bumper.mp3` (2026-04-25, Music v1) kept as fallback
 - **Show description:** locked at `assets/show-description.md`; in production on Transistor
 - **Categories on Transistor:** History (primary), Technology (secondary)
@@ -36,7 +36,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 
 **Out of pipeline (external):**
 - Video assembly (audiogram for full episode, vertical for shorts) → Descript
-- Per-episode artwork + audiogram backgrounds → Claude Design (external creator)
+- Per-episode artwork + audiogram backgrounds → `tools/render_art.py` (design system in `design/`)
 - Promotion → manual (no automated Twitter/LinkedIn/newsletter tooling)
 
 **Refrigeration status (2026-05-22):** `episodes/refrigeration/` is the live in-flight ep 1. `episodes/refrigeration_beta/` is a completed beta reference (not the active episode). Audio will be regenerated on ElevenLabs v3 before publish.
@@ -61,7 +61,7 @@ The pipeline scaffolding is `pipeline/production-pipeline.md`, `pipeline/distrib
 
 4. **Show-level cover art** — DONE — `assets/show_cover_art.png` (2026-05-22)
 5. **Music sign-off** — DONE 2026-09-28, files locked at `assets/music/intro_v2.mp3`, `bumper_v2.mp3`, `outro_v2.mp3` (Music v2.5; original 2026-04-25 `backbone-{theme,bumper}.mp3` kept as fallback)
-6. **Per-episode artwork + audiogram backgrounds** — Generated externally in Claude Design; dropped into `episodes/{topic}/assets/images/` before Descript handoff
+6. **Per-episode artwork + audiogram backgrounds** — DONE for ep 1 (2026-09-29, first pass): rendered into `episodes/refrigeration/assets/images/`. v2 show cover is live on Transistor (2026-09-29). Still to do: ep 1 artwork on the Transistor draft, and set up the YouTube channel banner + avatar from `assets/brand/`
 7. **Episode metadata polish** — locked when the pipeline is re-run on v3 audio
 
 ### Phase C — Close the small code gaps

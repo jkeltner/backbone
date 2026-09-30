@@ -1,0 +1,26 @@
+<!-- Backbone · Pull-quote card · 1080×1350 (LinkedIn, Instagram, X portrait) -->
+<meta name="bb-size" content="1080x1350">
+<link rel="stylesheet" href="_kit.css">
+<style>
+  .brackets { inset: calc(var(--s)*5); }
+  .q { left: calc(var(--s)*11); right: calc(var(--s)*11); top: calc(var(--s)*20); display: flex; flex-direction: column; gap: calc(var(--s)*5); }
+  .q .glyph { font-family: var(--bb-display); font-weight: 700; color: var(--bb-accent); font-size: calc(var(--s)*26); line-height: .5; height: calc(var(--s)*9); }
+  .q blockquote { font-family: var(--bb-text); font-weight: 500; color: var(--bb-bone); line-height: 1.16; letter-spacing: -.005em; text-wrap: balance; height: calc(var(--s)*52); }
+  .q .who { display: flex; flex-direction: column; gap: calc(var(--s)*1.8); padding-top: calc(var(--s)*3.5); border-top: calc(var(--s)*.18) solid var(--bb-rule); }
+  .q .who .mono { font-size: calc(var(--s)*2.3); color: var(--bb-accent); }
+  .q .who .body { font-size: calc(var(--s)*3.4); font-style: italic; }
+  .foot { left: calc(var(--s)*11); right: calc(var(--s)*11); bottom: calc(var(--s)*11); display: flex; align-items: center; justify-content: space-between; }
+  .foot .brand { display: flex; align-items: center; gap: calc(var(--s)*2); }
+  .foot .bb-mark { width: calc(var(--s)*9); }
+  .foot .wordmark { font-size: calc(var(--s)*4.6); }
+  .foot .mono { font-size: calc(var(--s)*2); }
+</style>
+<div class="field"></div>
+<div class="brackets"><i></i><i></i><i></i><i></i></div>
+<div class="layer q">
+  <div class="glyph">&ldquo;</div>
+  <blockquote class="fit" data-max="10" data-min="4" data-lines="99" data-bb="quote-text"></blockquote>
+  <div class="who"><div class="mono" data-bb="quote-speaker"></div><div class="body" data-bb="quote-context"></div></div>
+</div>
+<div class="layer foot"><div class="brand"><svg class="bb-mark" data-stroke="2.4"></svg><div class="wordmark">Backbone</div></div><div class="mono" data-bb="episode-line"></div></div>
+<script src="_kit.js"></script>

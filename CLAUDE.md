@@ -222,8 +222,12 @@ backbone/
 ├── templates/                   ← output format contracts
 │   ├── research-overview.md
 │   ├── research-chapter.md
-│   ├── blueprint.md
-│   └── social/                  ← HTML templates for social-image rendering
+│   └── blueprint.md
+├── design/                      ← Backbone design system v2 (README.md = brand book; read before making ANY visual)
+│   ├── tokens.css               ← colors, type, accents
+│   ├── fonts/                   ← Saira Condensed, Barlow, Barlow Semi Condensed, JetBrains Mono (OFL)
+│   ├── logo/                    ← mark (svg) + stacked lockup (png)
+│   └── templates/               ← one HTML per asset (covers, YouTube, shorts, social cards), rendered by tools/render_art.py
 ├── episodes/                    ← per-episode working directories
 │   └── {topic}/
 │       ├── research/            ← research files (overview + per-chapter deep dives)
@@ -239,7 +243,8 @@ backbone/
 │       └── final/               ← assembled deliverables (episode.mp3, transcript, chapters, metadata, show-notes, social-content, assembly-map)
 ├── assets/                      ← show-level assets
 │   ├── show-description.md      ← canonical show copy (tagline, short, long descriptions)
-│   ├── show_cover_art.png       ← show-level cover art master (square)
+│   ├── show_cover_art.png       ← show-level cover art v1 (retired 2026-09-29; v2 in brand/ is live on Transistor)
+│   ├── brand/                   ← v2 show art rendered from design/: show-cover.png/.jpg, avatar.png, youtube-banner.png
 │   └── music/                   ← locked (2026-09-28, Music v2.5): intro_v2.mp3, bumper_v2.mp3, outro_v2.mp3
 ├── pipeline/                    ← technical specs + plans for automated tooling
 │   ├── tts-pipeline.md          ← Python/ElevenLabs audio assembly spec
@@ -261,7 +266,9 @@ backbone/
     └── release.py               ← master orchestrator
 ```
 
-**Out of pipeline scope:** Video assembly (audiogram, vertical shorts) is done by hand in Descript using the assembled `episode.mp3` plus externally-generated background images (cover + horizontal full-episode + vertical shorts) dropped into `episodes/{topic}/assets/images/`. Promotion is manual. There is no automated audiogram, clip, social-image, or social-posting tooling in this repo.
+**Artwork:** Every episode's art comes from the design system in `design/`. Write `episodes/{topic}/assets/images/art.json` (schema in `design/README.md`: topic, subtitle, accent, a sourced adoption curve, pull quotes, stats, a comparison chart), then `python tools/render_art.py {topic}` renders the episode cover, YouTube thumbnail, full-episode and vertical video backgrounds, and the social set (announcement card, one card per quote, one per stat, and a comparison chart) into that folder. The Producer writes `art.json`; `release.py produce` renders it.
+
+**Out of pipeline scope:** Video assembly (audiogram, vertical shorts) is done by hand in Descript using the assembled `episode.mp3` plus the rendered backgrounds in `episodes/{topic}/assets/images/`. Promotion is manual. There is no automated audiogram, clip, or social-posting tooling in this repo.
 
 ### File Naming
 - **kebab-case** for all filenames
